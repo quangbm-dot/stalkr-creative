@@ -1,0 +1,69 @@
+.overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 32px 28px 28px;
+  text-align: center;
+  background-image: url("../../Assets/UI/endcard-bg.webp");
+  background-size: cover;
+  background-position: center;
+  background-color: #060d18;
+  animation: cardIn 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@keyframes cardIn {
+  from {
+    opacity: 0;
+    transform: scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.logo {
+  width: 168px;
+  height: auto;
+  margin-bottom: 6px;
+}
+
+.text {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  margin: 2px 0 18px;
+}
+
+.cta {
+  width: 100%;
+  max-width: 280px;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  animation: ctaBounce 1.6s ease-in-out infinite;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  &:active {
+    animation-play-state: paused;
+  }
+}
+
+@keyframes ctaBounce {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-6px) scale(1.03);
+  }
+}

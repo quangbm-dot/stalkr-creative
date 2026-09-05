@@ -1,0 +1,35 @@
+.outer {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background: #000;
+  overflow: hidden;
+  /* Duy nhất nơi này biết về safe-area thật của máy + khoảng chừa bắt buộc
+     cho UI mạng quảng cáo (nút Close/Skip, countdown...) — mọi component
+     bên trong canvas cố định phía dưới không cần quan tâm nữa. */
+  padding-top: var(--sat, 0px);
+  padding-bottom: calc(80px + var(--sab, 0px));
+}
+
+.frame {
+  position: relative;
+  /* Canvas thiết kế cố định, luôn giữ đúng tỉ lệ — scale() để vừa khít
+     phần không gian còn lại (đã trừ sẵn ở .outer), không bị kéo giãn méo
+     theo màn hình thật như trước. Style transform được set động từ JS. */
+  width: 393px;
+  height: 852px;
+  transform-origin: top center;
+  overflow: hidden;
+  background: var(--ios-bg);
+  border-radius: var(--phone-radius);
+}
+
+.screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

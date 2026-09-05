@@ -1,0 +1,59 @@
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.row,
+.rowOff {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--ios-sep);
+  font-family: var(--font-sans);
+}
+
+.rowOff {
+  opacity: 0.45;
+}
+
+.time {
+  font-size: 32px;
+  font-weight: 200;
+  width: 90px;
+}
+
+.label {
+  flex: 1 1 auto;
+  font-size: 14px;
+  color: var(--ios-text-secondary);
+}
+
+.toggleOn,
+.toggleOff {
+  width: 44px;
+  height: 26px;
+  border-radius: 13px;
+  border: none;
+  padding: 2px;
+  cursor: pointer;
+  background: var(--ios-gray);
+}
+
+.toggleOn {
+  background: var(--ios-green);
+}
+
+.knob {
+  display: block;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #fff;
+  transform: translateX(0);
+  transition: transform 0.15s;
+
+  .toggleOn & {
+    transform: translateX(18px);
+  }
+}

@@ -1,0 +1,90 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+  padding: 2px;
+}
+
+.photo {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.locked {
+  width: 100%;
+  aspect-ratio: 1;
+  border: none;
+  background: var(--ios-card-bg-2);
+  color: var(--ios-text);
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pad {
+  width: 260px;
+  padding: 24px;
+  border-radius: 20px;
+  background: var(--ios-card-bg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.nudge {
+  animation: nudge 0.4s;
+}
+
+@keyframes nudge {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-8px); }
+  75% { transform: translateX(8px); }
+}
+
+.dots {
+  display: flex;
+  gap: 12px;
+}
+
+.dot,
+.dotFilled {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1px solid var(--ios-text);
+}
+
+.dotFilled {
+  background: var(--ios-text);
+}
+
+.keys {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.key {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background: var(--ios-card-bg-2);
+  color: var(--ios-text);
+  font-size: 20px;
+  cursor: pointer;
+
+  &:disabled {
+    visibility: hidden;
+  }
+}

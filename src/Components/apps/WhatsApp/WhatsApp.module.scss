@@ -1,0 +1,128 @@
+.chips {
+  display: flex;
+  gap: 8px;
+  padding: 10px 16px;
+}
+
+.chip,
+.chipActive {
+  padding: 6px 14px;
+  border-radius: 16px;
+  font-family: var(--font-sans);
+  font-size: 12px;
+  background: #f0f0f0;
+  color: #444;
+}
+
+.chipActive {
+  background: #dff5e5;
+  color: #128c4a;
+  font-weight: 600;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  background: none;
+  text-align: left;
+  cursor: pointer;
+}
+
+.avatarImg {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex: 0 0 auto;
+}
+
+.avatar {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: #d0d0d0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-sans);
+  font-weight: 600;
+  color: #444;
+  flex: 0 0 auto;
+}
+
+.meta {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 15px;
+  color: #111;
+}
+
+.time {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  color: #8a8a8e;
+}
+
+.preview {
+  font-family: var(--font-sans);
+  font-size: 13px;
+  color: #8a8a8e;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.chatBg {
+  min-height: 100%;
+  padding: 14px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background-color: #ece5dd;
+  background-image:
+    radial-gradient(rgba(0, 0, 0, 0.03) 1px, transparent 1px),
+    radial-gradient(rgba(0, 0, 0, 0.03) 1px, transparent 1px);
+  background-size: 26px 26px;
+  background-position: 0 0, 13px 13px;
+}
+
+.bubbleMe,
+.bubbleThem {
+  max-width: 78%;
+  padding: 8px 10px;
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 1.35;
+  border-radius: 8px;
+}
+
+.bubbleMe {
+  align-self: flex-end;
+  background: #dcf8c6;
+  color: #111;
+}
+
+.bubbleThem {
+  align-self: flex-start;
+  background: #ffffff;
+  color: #111;
+}

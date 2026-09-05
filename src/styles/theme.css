@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "Bricolage Grotesque";
+  src: url("../Assets/UI/bricolage-grotesque-700.woff2") format("woff2");
+  font-weight: 700 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../Assets/UI/poppins-400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../Assets/UI/poppins-500.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../Assets/UI/poppins-600.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../Assets/UI/poppins-700.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/*
+ * Reskin entry point: mọi màu sắc / font trong PhoneFrame + các app đều
+ * đọc từ biến CSS ở đây. Đổi skin = đổi giá trị trong file này, không
+ * cần sửa component.
+ */
+:root {
+  /* iOS system palette (dùng cho UI app: statusbar, list, toggle...) */
+  --ios-blue: #007aff;
+  --ios-green: #34c759;
+  --ios-red: #ff3b30;
+  --ios-gray: #8e8e93;
+  --ios-gray-light: #c7c7cc;
+  --ios-sep: rgba(60, 60, 67, 0.29);
+  --ios-bg: #000000;
+  --ios-card-bg: #1c1c1e;
+  --ios-card-bg-2: #2c2c2e;
+  --ios-text: #ffffff;
+  --ios-text-secondary: rgba(235, 235, 245, 0.6);
+
+  /* Gradient/accent cho màn hình câu chuyện (intro, end-card) — theo màu icon app Stalkr */
+  --grad-1: #0b1f3a;
+  --grad-2: #145da0;
+  --grad-3: #2f8fe0;
+  --meta-pink: #bfe0ff;
+  --meta-pink-soft: #eaf5ff;
+  --meta-accent: #2f8fe0;
+
+  /* Typography — Bricolage Grotesque cho tiêu đề, Poppins cho nội dung */
+  --font-serif: "Bricolage Grotesque", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-sans: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  /* Layout gốc (dùng bởi index.css / màn nền ngoài khung điện thoại) */
+  --layout-bg: #000000;
+  --text-color: var(--ios-text);
+  --link-text-hover: var(--ios-blue);
+
+  /* Kích thước khung điện thoại */
+  --phone-radius: 24px;
+  --app-icon-radius: 14px;
+  --app-icon-size: 60px;
+
+  /* Liquid glass — dùng cho dock/appbar/card/popup/nút nổi trên nền tối hoặc sáng */
+  --glass-blur: blur(22px) saturate(180%);
+  --glass-bg-on-dark: rgba(255, 255, 255, 0.12);
+  --glass-border-on-dark: rgba(255, 255, 255, 0.4);
+  --glass-highlight-on-dark: rgba(255, 255, 255, 0.55);
+  --glass-bg-on-light: rgba(255, 255, 255, 0.55);
+  --glass-border-on-light: rgba(255, 255, 255, 0.7);
+  --glass-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}

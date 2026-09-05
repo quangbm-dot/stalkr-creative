@@ -1,0 +1,32 @@
+.display {
+  min-height: 84px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 0 10px 8px;
+  font-family: var(--font-sans);
+  font-weight: 200;
+  font-size: 44px;
+  color: var(--ios-text);
+}
+
+.keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 11px;
+}
+
+.key {
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: none;
+  background: var(--ios-card-bg-2);
+  color: var(--ios-text);
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.equals {
+  background: var(--ios-blue);
+  color: #fff;
+}

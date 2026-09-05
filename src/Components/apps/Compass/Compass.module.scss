@@ -1,0 +1,55 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  font-family: var(--font-sans);
+}
+
+.dial {
+  position: relative;
+  width: min(86%, 330px);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 2px solid var(--ios-gray);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: sway 7s ease-in-out infinite;
+}
+
+@keyframes sway {
+  0%, 100% { transform: rotate(-6deg); }
+  50% { transform: rotate(6deg); }
+}
+
+.n {
+  position: absolute;
+  top: 12px;
+  color: var(--ios-red);
+  font-weight: 700;
+}
+
+.needle {
+  width: 3px;
+  height: 45%;
+  background: var(--ios-red);
+  transform-origin: bottom center;
+}
+
+.reading {
+  font-size: 52px;
+  font-weight: 200;
+  margin-top: 24px;
+}
+
+.coords {
+  font-size: 13px;
+  color: var(--ios-text-secondary);
+  margin-top: 4px;
+}
+
+.city {
+  font-size: 15px;
+  margin-top: 2px;
+}

@@ -1,0 +1,25 @@
+.bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px;
+  background: rgba(8, 9, 13, 0.94);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+
+  button {
+    font: inherit;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 8px 14px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    background: #171a22;
+    color: #f2f4f8;
+    cursor: pointer;
+  }
+}

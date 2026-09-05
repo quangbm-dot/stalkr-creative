@@ -1,0 +1,85 @@
+.monthHeader {
+  padding: 16px 16px 4px;
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.weekRow {
+  display: flex;
+  padding: 0 10px;
+  color: var(--ios-red);
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-weight: 600;
+
+  span {
+    flex: 0 0 14.2857%;
+    text-align: center;
+  }
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4px 10px;
+}
+
+.cell {
+  flex: 0 0 14.2857%;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.day,
+.dayToday {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-sans);
+  font-size: 14px;
+}
+
+.dayToday {
+  background: var(--ios-red);
+  color: #fff;
+  font-weight: 600;
+}
+
+.dot {
+  position: absolute;
+  bottom: -4px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--ios-red);
+}
+
+.agenda {
+  margin-top: 8px;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.agendaRow {
+  display: flex;
+  gap: 12px;
+  padding: 9px 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  font-family: var(--font-sans);
+  font-size: 14px;
+}
+
+.agendaDate {
+  color: #8a8a8e;
+  flex: 0 0 auto;
+}
+
+.agendaTitle {
+  color: #111;
+}

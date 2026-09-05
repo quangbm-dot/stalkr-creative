@@ -1,0 +1,33 @@
+/* PC */
+@media (min-width: 1114px) {
+
+}
+
+
+/* PC low resolution */
+@media (min-width: 1024px) and (max-width: 1113px) {
+
+}
+
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+}
+
+
+/* IPhone 6/7/8 Plus */
+@media (min-width: 400px) and (max-width:740px) {
+
+}
+
+
+/* IPhone 6/7/8/X */
+@media (max-width: 399px) {
+
+}
+
+/* IP 5/SE */
+@media (max-width: 346px) {
+
+}
