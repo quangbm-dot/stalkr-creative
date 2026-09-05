@@ -35,5 +35,11 @@ export default function openLinkApp() {
             return;
         }
     } catch (e) {}
+    // Không SDK nào khớp và không nằm trong iframe — đang test trực tiếp
+    // trên trình duyệt thường, mở thẳng link store ở tab mới để thấy kết quả.
+    try {
+        window.open(isIOS ? storeUrl.IOS : storeUrl.Android, "_blank");
+        return;
+    } catch (e) {}
     console.warn("[AdController] No ad SDK bridge matched — CTA click had no effect.");
 }

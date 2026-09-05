@@ -1,131 +1,43 @@
-export type AppKey =
-  | "messages"
-  | "photos"
-  | "notes"
-  | "calendar"
-  | "weather"
-  | "instagram"
-  | "airbnb"
-  | "revolut"
-  | "wallet"
-  | "gmail"
-  | "clock"
-  | "maps"
-  | "compass"
-  | "calculator"
-  | "settings"
-  | "phone"
-  | "whatsapp"
-  | "chrome"
-  | "tinder";
-
-export interface AppIcon {
-  app: AppKey;
-  label: string;
-  icon: string;
-}
-
-export type HireStep =
-  | { type: "msgs"; text: string }
-  | { type: "img"; src: string; label?: string }
-  /** Ảnh + tin nhắn xuất hiện cùng lúc trong 1 bước (thay vì tách 2 bước riêng). */
-  | { type: "reveal"; text: string; src: string; label?: string }
-  /** Khoảnh khắc đặc biệt: thẻ kiểu app hẹn hò (ảnh + tên/tuổi/trạng thái)
-   *  đẩy vào rồi mờ dần đi, không ghim lại trên bảng chứng cứ. */
-  | { type: "tinderReveal"; text: string; src: string; name: string; age: number; subtitle: string }
-  /** Ảnh polaroid đặc biệt: bóng người ẩn danh + dấu "?" + khoanh đỏ, ghim
-   *  lên bảng như 1 khung ảnh bình thường (không cần src). */
-  | { type: "mysteryReveal"; text: string; label: string }
-  | { type: "choices"; options: string[] }
-  | { type: "cta"; label: string };
-
-export interface MessageThread {
-  id: string;
-  title: string;
+export interface PostComment {
+  username: string;
+  text: string;
+  /** Mốc thời gian hiện cạnh username, vd "2m", "Just now". */
+  time: string;
+  colorFrom: string;
+  colorTo: string;
+  /** Ảnh avatar thật — có thì ưu tiên hiện thay cho vòng gradient+chữ cái. */
   avatar?: string;
-  time: string;
-  unread: boolean;
-  msgs: { me: boolean; text: string }[];
+  /** true = comment có nút tim để người chơi bấm — bấm xong sẽ kích hoạt
+   *  reactionComment, rồi tự chuyển "Deleting..." -> "Comment deleted". */
+  tappable?: boolean;
+  /** true = hiện avatar dạng badge trái tim hồng + chữ thay vì icon chữ
+   *  cái đầu username — dùng cho comment của người yêu. */
+  heartBadge?: boolean;
 }
 
-export interface NoteEntry {
-  title: string;
-  body: string;
-}
-
-export interface CalendarEvent {
-  title: string;
-  date: string;
-}
-
-export interface InstagramPost {
+export interface PostScene {
+  /** Wordmark app bịa (không dùng tên/logo mạng xã hội thật). */
+  appName: string;
+  author: { username: string; timeAgo: string; avatar?: string };
   image: string;
-  location: string;
-  caption?: string;
+  likesText: string;
+  /** Hiện lần lượt từng dòng. */
+  captionLines: string[];
+  /** Hiện lần lượt; phần tử cuối cùng nên có tappable:true. */
+  comments: PostComment[];
+  /** Hiện ngay sau khi comment tappable được thả tim tự động. */
+  reactionComment: PostComment;
+  /** Câu ngắn hiện cùng nút "Check it now" giữa game — khác câu hỏi dài
+   *  ở endCard, chỉ cần gợi tò mò tiếp tục. */
+  midPrompt: string;
 }
 
-export interface AirbnbListing {
-  title: string;
-  img: string;
-  rating?: string;
-  subtitle?: string;
-  price?: string;
-}
-
-export interface GmailEntry {
-  sender: string;
-  subject: string;
+/** Nội dung banner thông báo hiện trên màn Home trước khi vào post. */
+export interface NotifBanner {
+  appName: string;
   preview: string;
-}
-
-export interface PhotoEntry {
-  src: string;
-  /** true = chỉ hiện sau khi mở khoá vault bằng vaultCode */
-  secret?: boolean;
-}
-
-export interface MatchCard {
-  name: string;
-  age: number;
-  photo: string;
-  /** true = đây là match thật (có hội thoại trong tab Messages) */
-  matched?: boolean;
-}
-
-/** Hội thoại duy nhất trong tab Messages của app Tinder. */
-export interface MatchThread {
-  name: string;
-  avatar: string;
-  msgs: { me: boolean; text: string }[];
-}
-
-export interface CallEntry {
-  name: string;
-  time: string;
-  type: "incoming" | "outgoing" | "missed";
-}
-
-export interface WeatherInfo {
-  city: string;
-  tempC: number;
-  hi: number;
-  lo: number;
-  condition: string;
-}
-
-export interface EvidenceRound {
-  informant: { name: string; avatar: string };
-  prompt: string;
-  choices: string[];
-  correct: string;
-  correctReply: string;
-  /** Mỗi lần chọn sai hiện 1 câu khác nhau (theo thứ tự) — hết mảng thì
-   *  lặp lại câu cuối cùng. */
-  wrongReply: string[];
-  reward: number;
-  hint: string;
-  /** App cần mở để tìm manh mối cho câu này — bàn tay gợi ý sẽ trỏ vào đây. */
-  hintApp: AppKey;
+  /** Số người vừa thả tim mới — hiện dạng "+N" nhỏ cạnh icon tim. */
+  newLikes: number;
 }
 
 /**
@@ -134,42 +46,14 @@ export interface EvidenceRound {
  * không cần đụng vào component UI.
  */
 export interface CaseConfig {
-  caseTitle: string;
-  tagline: string;
-  heroImage: string;
-  evidenceTotal: number;
-  hintBudget: number;
-  evidenceRounds: EvidenceRound[];
-  client: {
-    name: string;
-    avatar: string;
-    hire: HireStep[];
-    /** Ảnh hiện trong lưới match app Tinder (chỉ để xem, không phải quiz) */
-    matches: MatchCard[];
-    /** Hội thoại duy nhất trong tab Messages của Tinder — với match thật */
-    matchThread: MatchThread;
-  };
-  hint: string;
-  owner: { first: string; full: string; avatar: string };
-  wallpaper: string;
-  home: {
-    pages: AppIcon[][];
-    dock: AppIcon[];
-  };
-  messages: MessageThread[];
-  whatsapp: MessageThread[];
-  calls: CallEntry[];
-  notes: NoteEntry[];
-  calendar: CalendarEvent[];
-  instagram: { username: string; displayName: string; avatar: string; posts: InstagramPost[] };
-  airbnb: { name: string; img: string; listings: AirbnbListing[] };
-  gmail: GmailEntry[];
-  photos: PhotoEntry[];
-  vaultCode: string;
-  weather: WeatherInfo;
+  homeWallpaper: string;
+  notifBadgeCount: number;
+  notif: NotifBanner;
+  post: PostScene;
   endCard: {
-    headline: string;
-    subhead: string;
-    ctaLabel: string;
+    /** Câu hỏi lựa chọn kiểu "Nếu bạn là X sẽ chọn cách nào?" */
+    question: string;
+    /** Đúng 2 lựa chọn — bấm cái nào cũng dẫn tới mở link CTA. */
+    choices: [string, string];
   };
 }
