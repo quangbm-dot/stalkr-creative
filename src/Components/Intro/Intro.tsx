@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { CaseConfig, HireStep } from "../../types/case";
-import tinderHeader from "../../Assets/UI/tinder-header.webp";
+import { iconFlurt } from "../../Assets/Icons/icons";
 import girlSilhouette from "../../Assets/UI/girl-silhouette.jpg";
 import eyesLogo from "../../Assets/UI/eyes.webp";
 import styles from "./Intro.module.scss";
@@ -111,7 +111,10 @@ export default function Intro({ caseData, onDone }: IntroProps) {
   return (
     <div className={styles.stage}>
       <div className={styles.top}>
-        <span className={styles.title}>{caseData.caseTitle}</span>
+        <span className={styles.titleGroup}>
+          <span className={styles.title}>{caseData.caseTitle}</span>
+          <span className={styles.fictionBadge}>Fictional mystery game</span>
+        </span>
         <button type="button" className={styles.skip} onClick={onDone}>
           Skip
         </button>
@@ -183,7 +186,10 @@ export default function Intro({ caseData, onDone }: IntroProps) {
           <div className={`${styles.tinderCard} ${styles[tinderState]}`}>
             <div className={styles.tinderInner}>
               <img className={styles.tinderPhoto} src={tinderStep.src} alt="" />
-              <img className={styles.tinderLogo} src={tinderHeader} alt="Tinder" />
+              <div className={styles.tinderLogo}>
+                <img src={iconFlurt} alt="" />
+                <span>Flurt</span>
+              </div>
               <div className={styles.tinderScrim} />
               <div className={styles.tinderInfo}>
                 <span className={styles.tinderName}>

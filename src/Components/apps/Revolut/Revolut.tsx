@@ -9,15 +9,15 @@ const TRANSACTIONS = [
   { name: "Le Jardin Paris", amount: "-€620.00" },
   { name: "Café de Flore", amount: "-€14.50" },
   { name: "Salary", amount: "+$3,200.00" },
-  { name: "Uber", amount: "-$18.20" },
+  { name: "RideGo", amount: "-$18.20" },
   { name: "Hôtel Lumière", amount: "-€340.00" },
   { name: "Boulangerie Saint-Paul", amount: "-€6.80" },
-  { name: "Spotify", amount: "-$10.99" },
+  { name: "Soundwave", amount: "-$10.99" },
   { name: "Le Petit Bistro", amount: "-€48.50" },
   { name: "ATM Withdrawal", amount: "-$100.00" },
   { name: "Freelance Payment", amount: "+$450.00" },
   { name: "Metro Pass", amount: "-€22.00" },
-  { name: "Amazon", amount: "-$67.30" },
+  { name: "ShopKart", amount: "-$67.30" },
 ];
 
 export default function Revolut({ onBack }: RevolutProps) {

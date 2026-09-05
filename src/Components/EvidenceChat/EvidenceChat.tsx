@@ -3,8 +3,6 @@ import type { CaseConfig } from "../../types/case";
 import Confetti from "../Confetti/Confetti";
 import openLinkApp from "../../services/AdController";
 import endLogo from "../../Assets/UI/icon-end-card.webp";
-import endText from "../../Assets/UI/endcard-text.webp";
-import endButton from "../../Assets/UI/endcard-button.webp";
 import styles from "./EvidenceChat.module.scss";
 
 interface EvidenceChatProps {
@@ -236,9 +234,11 @@ export default function EvidenceChat({
             </svg>
           </button>
           <img className={styles.fullTeaserLogo} src={endLogo} alt="Stalkr" />
-          <img className={styles.fullTeaserText} src={endText} alt={caseData.endCard.headline} />
+          <h2 className={styles.fullTeaserHeadline}>{caseData.endCard.headline}</h2>
+          <p className={styles.fullTeaserSubhead}>{caseData.endCard.subhead}</p>
+          <span className={styles.fullTeaserBadge}>Fictional mystery game</span>
           <button type="button" className={styles.fullTeaserCta} onClick={openLinkApp}>
-            <img src={endButton} alt={caseData.endCard.ctaLabel} />
+            {caseData.endCard.ctaLabel}
           </button>
         </div>
       )}

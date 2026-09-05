@@ -51,6 +51,7 @@ export default function CaseIntro({ caseData, evidenceFound, onContinue }: CaseI
         <span className={styles.cloud1} />
         <span className={styles.cloud2} />
 
+        <span className={styles.fictionBadge}>Fictional mystery game</span>
         <h1 className={styles.title}>{caseTitle}</h1>
         <p className={styles.tagline}>{tagline}</p>
 

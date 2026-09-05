@@ -8,7 +8,7 @@ interface MapsProps {
 
 export default function Maps({ onBack }: MapsProps) {
   return (
-    <AppScreen title="Maps" onBack={onBack} theme="light">
+    <AppScreen title="Pinpoint" onBack={onBack} theme="light">
       <img className={styles.map} src={mapBg} alt="" />
     </AppScreen>
   );

@@ -222,27 +222,55 @@
   margin-bottom: 6px;
 }
 
-.fullTeaserText {
-  width: 100%;
-  max-width: 240px;
-  height: auto;
-  margin: 2px 0 16px;
+.fullTeaserHeadline {
+  margin: 2px 0 0;
+  max-width: 260px;
+  font-family: var(--font-serif);
+  font-weight: 900;
+  font-size: 21px;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.fullTeaserSubhead {
+  margin: 6px 0 2px;
+  max-width: 250px;
+  font-family: var(--font-sans);
+  font-size: 13px;
+  line-height: 1.35;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.fullTeaserBadge {
+  display: inline-block;
+  margin-bottom: 14px;
+  padding: 4px 10px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.15);
+  color: rgba(255, 255, 255, 0.85);
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 9px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
 }
 
 .fullTeaserCta {
   width: 100%;
   max-width: 260px;
   border: none;
-  background: none;
-  padding: 0;
+  border-radius: 22px;
+  padding: 14px;
+  background: linear-gradient(135deg, #fb7185, #e11d48);
+  color: #fff;
+  font-family: var(--font-sans);
+  font-weight: 800;
+  font-size: 15px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
   cursor: pointer;
+  box-shadow: 0 10px 22px rgba(225, 29, 72, 0.4);
   animation: ctaBounce 1.6s ease-in-out infinite;
-
-  img {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
 }
 
 @keyframes ctaBounce {

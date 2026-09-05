@@ -11,7 +11,7 @@ interface TopBarProps {
 export default function TopBar({ ownerFirst, current, total }: TopBarProps) {
   return (
     <div className={styles.bar}>
-      <span className={styles.subtitle}>Fake phone of {ownerFirst}</span>
+      <span className={styles.subtitle}>Fictional case · {ownerFirst}'s phone</span>
       <div className={styles.right}>
         <button type="button" className={styles.download} onClick={openLinkApp}>
           <img src={downloadBtn} alt="Download" />

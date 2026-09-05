@@ -32,27 +32,55 @@
   margin-bottom: 6px;
 }
 
-.text {
-  width: 100%;
+.headline {
+  margin: 4px 0 0;
   max-width: 320px;
-  height: auto;
-  margin: 2px 0 18px;
+  font-family: var(--font-serif);
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 1.15;
+  color: #fff;
+}
+
+.subhead {
+  margin: 8px 0 4px;
+  max-width: 300px;
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.fictionBadge {
+  display: inline-block;
+  margin-bottom: 18px;
+  padding: 5px 12px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.15);
+  color: rgba(255, 255, 255, 0.85);
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
 }
 
 .cta {
   width: 100%;
   max-width: 280px;
   border: none;
-  background: none;
-  padding: 0;
+  border-radius: 26px;
+  padding: 16px;
+  background: linear-gradient(135deg, #fb7185, #e11d48);
+  color: #fff;
+  font-family: var(--font-sans);
+  font-weight: 800;
+  font-size: 17px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
   cursor: pointer;
+  box-shadow: 0 10px 26px rgba(225, 29, 72, 0.45);
   animation: ctaBounce 1.6s ease-in-out infinite;
-
-  img {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
 
   &:active {
     animation-play-state: paused;
