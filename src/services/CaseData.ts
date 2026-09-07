@@ -1,21 +1,23 @@
 import type { CaseConfig } from "../types/case";
 
-import iconInstagram from "../Assets/Icons/real/instagram.webp";
-import iconGmail from "../Assets/Icons/real/gmail.webp";
-import iconMaps from "../Assets/Icons/real/googlemaps.webp";
-import iconWhatsapp from "../Assets/Icons/real/whatsapp.webp";
-import iconNotes from "../Assets/Icons/real/notes.webp";
-import iconPhotos from "../Assets/Icons/real/photos.webp";
-import iconCalendar from "../Assets/Icons/real/calendar.webp";
-import iconWeather from "../Assets/Icons/real/weather.webp";
-import iconWallet from "../Assets/Icons/real/wallet.webp";
-import iconRevoBank from "../Assets/Icons/real/revobank.webp";
-import iconClock from "../Assets/Icons/real/alarm.webp";
-import iconCompass from "../Assets/Icons/real/compass.webp";
-import iconCalculator from "../Assets/Icons/real/calculator.webp";
-import iconSettings from "../Assets/Icons/real/settings.webp";
-import iconMessages from "../Assets/Icons/real/messages.webp";
-import iconPhone from "../Assets/Icons/real/phone.webp";
+import {
+  iconGlimpse,
+  iconMailly,
+  iconPinpoint,
+  iconChatta,
+  iconNotes,
+  iconCalendar,
+  iconWeather,
+  iconRevoBank,
+  iconWallet,
+  iconPhotos,
+  iconClock,
+  iconCompass,
+  iconCalculator,
+  iconSettings,
+  iconMessages,
+  iconPhone,
+} from "../Assets/Icons/icons";
 
 import unknownAvatar from "../Assets/UI/unknown-avatar.svg";
 import matchAshley from "../Assets/UI/match-ashley.jpg";
@@ -43,24 +45,24 @@ export const demoCase: CaseConfig = {
   evidenceRounds: [
     {
       informant: { name: "Unknown", avatar: unknownAvatar },
-      prompt: "Search her WhatsApp for clues. Is she texting someone she shouldn't be?",
+      prompt: "Search her Chatta for clues. Is she texting someone she shouldn't be?",
       choices: ["Mom", "Her boss", "Her sister", "N."],
       correct: "N.",
       correctReply: "A contact saved as just 'N.'... found it. Keep digging.",
       wrongReply: ["That's just a normal contact. Keep looking.", "Not that one. Check again — someone's off."],
       reward: 10,
-      hint: "Open WhatsApp and check who she's really talking to at night.",
+      hint: "Open Chatta and check who she's really talking to at night.",
       hintApp: "whatsapp",
     },
     {
       informant: { name: "Unknown", avatar: unknownAvatar },
-      prompt: "Instagram has a private post. Who is she getting coffee with?",
+      prompt: "Glimpse has a private post. Who is she getting coffee with?",
       choices: ["Noah", "A coworker", "Her cousin", "A college friend"],
       correct: "Noah",
-      correctReply: "Noah... same initial as 'N.' in WhatsApp. Sit tight — one more piece.",
+      correctReply: "Noah... same initial as 'N.' in Chatta. Sit tight — one more piece.",
       wrongReply: ["Check the caption again.", "Still not him. Look at the post again."],
       reward: 10,
-      hint: "Open Instagram and check her most recent post.",
+      hint: "Open Glimpse and check her most recent post.",
       hintApp: "instagram",
     },
     {
@@ -86,8 +88,8 @@ export const demoCase: CaseConfig = {
         src: evidenceMiaNoah,
         name: "Noah",
         subtitle: "Tagged 2 hours ago",
-        appLabel: "Instagram",
-        appIcon: iconInstagram,
+        appLabel: "Glimpse",
+        appIcon: iconGlimpse,
         text: "she posted this an hour ago. tagged as 'Noah'.",
       },
       { type: "msgs", text: "she told you she was just busy with work. i don't think that's true." },
@@ -112,18 +114,18 @@ export const demoCase: CaseConfig = {
   home: {
     pages: [
       [
-        { app: "instagram", label: "Instagram", icon: iconInstagram },
+        { app: "instagram", label: "Glimpse", icon: iconGlimpse },
         { app: "notes", label: "Notes", icon: iconNotes },
         { app: "photos", label: "Photos", icon: iconPhotos },
         { app: "calendar", label: "Calendar", icon: iconCalendar },
         { app: "weather", label: "Weather", icon: iconWeather },
         { app: "revolut", label: "RevoBank", icon: iconRevoBank },
         { app: "wallet", label: "Wallet", icon: iconWallet },
-        { app: "gmail", label: "Gmail", icon: iconGmail },
+        { app: "gmail", label: "Mailly", icon: iconMailly },
       ],
       [
         { app: "clock", label: "Clock", icon: iconClock },
-        { app: "maps", label: "Maps", icon: iconMaps },
+        { app: "maps", label: "Pinpoint", icon: iconPinpoint },
         { app: "compass", label: "Compass", icon: iconCompass },
         { app: "calculator", label: "Calculator", icon: iconCalculator },
         { app: "settings", label: "Settings", icon: iconSettings },
@@ -132,7 +134,7 @@ export const demoCase: CaseConfig = {
     dock: [
       { app: "messages", label: "Messages", icon: iconMessages },
       { app: "phone", label: "Phone", icon: iconPhone },
-      { app: "whatsapp", label: "WhatsApp", icon: iconWhatsapp },
+      { app: "whatsapp", label: "Chatta", icon: iconChatta },
     ],
   },
   messages: [
