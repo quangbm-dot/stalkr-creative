@@ -30,6 +30,8 @@ import mia from "../Assets/KB2/mia.webp";
 import noah from "../Assets/KB2/noah.webp";
 import evidenceMiaNoah from "../Assets/KB2/evidence-mia-noah.webp";
 import hero from "../Assets/KB2/hero.webp";
+import miaNight from "../Assets/KB2/mia-night.webp";
+import miaHide from "../Assets/KB2/mia-hide.webp";
 
 /**
  * KB2 — "Long distance". Kevin (away for work) suspects his girlfriend Mia
@@ -81,8 +83,9 @@ export const demoCase: CaseConfig = {
     avatar: agentAvatar,
     hire: [
       { type: "msgs", text: "Hey — I need your help, fast. I think I just found something." },
-      { type: "reveal", src: mia, label: "Mia", text: "This is Mia, my girlfriend. Last night a message notification popped up from a contact saved as just 'N.'" },
-      { type: "msgs", text: "And there's a strange email sitting in her inbox too. I don't want to jump to conclusions — I need to know for sure." },
+      { type: "reveal", src: mia, label: "Mia", text: "This is Mia, my girlfriend of three years." },
+      { type: "reveal", src: miaNight, label: "Every night", text: "Lately she's always on her phone after midnight, screen turned away the second I walk in." },
+      { type: "reveal", src: miaHide, label: "Quick to hide", text: "Yesterday she flipped it face-down the second I looked over. And there's a strange email sitting in her inbox too." },
       { type: "choices", options: ["Take the case", "Are you sure?"] },
       { type: "msgs", text: "Good. Here's the case file — her fictional phone, unlocked for the investigation." },
       { type: "cta", label: "Search the phone 🔍" },
@@ -165,6 +168,20 @@ export const demoCase: CaseConfig = {
       unread: false,
       msgs: [{ me: false, text: "Dinner on Sunday?" }],
     },
+    {
+      id: "w3",
+      title: "Yoga Studio",
+      time: "Yesterday",
+      unread: false,
+      msgs: [{ me: false, text: "Reminder: class at 6pm tomorrow" }],
+    },
+    {
+      id: "w4",
+      title: "Sister",
+      time: "Monday",
+      unread: false,
+      msgs: [{ me: false, text: "Sending you the photos from last weekend!" }],
+    },
   ],
   calls: [
     { name: "Kevin", time: "Yesterday, 7:12 PM", type: "outgoing" },
@@ -195,6 +212,8 @@ export const demoCase: CaseConfig = {
   notes: [
     { title: "Note", body: "Meet Noah at 8 — don't tell Kevin" },
     { title: "Note", body: "Pick up dry cleaning" },
+    { title: "Note", body: "Call the vet about the checkup" },
+    { title: "Note", body: "Gift ideas for Kevin's birthday" },
   ],
   calendar: [
     { title: "Yoga class", date: "09/12" },
@@ -208,6 +227,7 @@ export const demoCase: CaseConfig = {
       { image: evidenceMiaNoah, location: "The Daily Grind", caption: "Coffee with Noah ☕️" },
       { image: mia, location: "Downtown" },
       { image: hero, location: "Home", caption: "Missing this one" },
+      { image: miaNight, location: "Home", caption: "Late night thoughts" },
     ],
   },
   airbnb: {
@@ -217,6 +237,8 @@ export const demoCase: CaseConfig = {
   },
   gmail: [
     { sender: "HR Department", subject: "Travel itinerary confirmed", preview: "Your business trip itinerary has been confirmed for..." },
+    { sender: "Yoga Studio", subject: "Your membership renews soon", preview: "Your monthly membership will renew on..." },
+    { sender: "Online Store", subject: "Your order has shipped", preview: "Good news! Your recent order is on its way..." },
   ],
   photos: [{ src: mia }, { src: kevin }, { src: hero }, { src: noah }],
   vaultCode: "0000",
