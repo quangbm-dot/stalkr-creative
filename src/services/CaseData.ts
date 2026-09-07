@@ -19,6 +19,7 @@ import {
   iconSettings,
   iconMessages,
   iconPhone,
+  iconUnknown,
 } from "../Assets/Icons/icons";
 
 import matchAshley from "../Assets/UI/match-ashley.jpg";
@@ -27,7 +28,6 @@ import matchChloe from "../Assets/UI/match-chloe.jpg";
 import matchJess from "../Assets/UI/match-jess.jpg";
 
 import wallpaper from "../Assets/UI/wallpaper-blue.jpg";
-import unknownAvatar from "../Assets/UI/unknown-avatar.svg";
 
 import ryan from "../Assets/KB1/ryan-new.jpg";
 import zoe from "../Assets/KB1/emma-new.jpg";
@@ -66,7 +66,7 @@ export const demoCase: CaseConfig = {
   hintBudget: 4,
   evidenceRounds: [
     {
-      informant: { name: "Unknown", avatar: unknownAvatar },
+      informant: { name: "Unknown", avatar: iconUnknown },
       prompt: "Search his Messages for clues. Is he texting someone he shouldn't be?",
       choices: ["Mike", "No Name", "Sarah", "Dad"],
       correct: "No Name",
@@ -77,7 +77,7 @@ export const demoCase: CaseConfig = {
       hintApp: "messages",
     },
     {
-      informant: { name: "Unknown", avatar: unknownAvatar },
+      informant: { name: "Unknown", avatar: iconUnknown },
       prompt: "He's been active on Flurt. Which girl did he match with?",
       choices: ["Chloe", "Zoe", "Megan", "Jess"],
       correct: "Zoe",
@@ -88,7 +88,7 @@ export const demoCase: CaseConfig = {
       hintApp: "tinder",
     },
     {
-      informant: { name: "Unknown", avatar: unknownAvatar },
+      informant: { name: "Unknown", avatar: iconUnknown },
       prompt: "Last thing — is there anything hidden in his photos?",
       choices: ["No, all normal", "Yes, there's a locked album"],
       correct: "Yes, there's a locked album",
@@ -101,7 +101,7 @@ export const demoCase: CaseConfig = {
   ],
   client: {
     name: "Unknown Number",
-    avatar: unknownAvatar,
+    avatar: iconUnknown,
     hire: [
       { type: "msgs", text: "hey... this is going to sound strange, but you deserve to know." },
       { type: "msgs", text: "it's 2am and i'm the one he's been texting." },
