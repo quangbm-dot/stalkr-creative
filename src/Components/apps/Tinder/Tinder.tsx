@@ -13,7 +13,7 @@ export default function Tinder({ caseData, onBack }: TinderProps) {
   const { matches, matchThread } = caseData.client;
 
   return (
-    <AppScreen title="Flurt" onBack={onBack} theme="light">
+    <AppScreen title="Tinder" onBack={onBack} theme="light">
       <div className={styles.tabs}>
         <button
           type="button"
