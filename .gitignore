@@ -20,6 +20,7 @@ dist-ssr
 .DS_Store
 gemini_api_key.txt
 gemini-drafts/
+character-refs/
 *.suo
 *.ntvs*
 *.njsproj
