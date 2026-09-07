@@ -26,6 +26,8 @@ import alex from "../Assets/KB3/alex.webp";
 import sophia from "../Assets/KB3/sophia.webp";
 import nadia from "../Assets/KB3/nadia.webp";
 import hero from "../Assets/KB3/hero.webp";
+import alexNight from "../Assets/KB3/alex-night.webp";
+import alexHide from "../Assets/KB3/alex-hide.webp";
 
 /**
  * KB3 — "Just got engaged". Sophia suspects her fiancé Alex is still
@@ -79,7 +81,8 @@ export const demoCase: CaseConfig = {
     hire: [
       { type: "msgs", text: "Can I ask you something... Do you ever really know everything about the person you love?" },
       { type: "reveal", src: hero, label: "Alex & Sophia", text: "This is Alex, my fiancé. We just got engaged — it should be the happiest time of my life." },
-      { type: "msgs", text: "But lately he's been acting strange. Quick to hide his phone. Hushed calls after midnight. I need to know what's really going on before I marry him." },
+      { type: "reveal", src: alexNight, label: "Hushed calls", text: "But lately he's been up at all hours, texting someone in the dark, voice low so I won't hear." },
+      { type: "reveal", src: alexHide, label: "Quick to hide", text: "The moment I walk in, the phone goes face-down. I need to know what's really going on before I marry him." },
       { type: "choices", options: ["Take the case", "Are you sure?"] },
       { type: "msgs", text: "Good. Here's the case file — his fictional phone, unlocked for the investigation." },
       { type: "cta", label: "Search the phone 🔍" },
@@ -150,6 +153,20 @@ export const demoCase: CaseConfig = {
       unread: false,
       msgs: [{ me: false, text: "So excited for the wedding!" }],
     },
+    {
+      id: "w2",
+      title: "Best Man",
+      time: "Yesterday",
+      unread: false,
+      msgs: [{ me: false, text: "Bachelor party ideas — thoughts?" }],
+    },
+    {
+      id: "w3",
+      title: "Gym Buddy",
+      time: "Monday",
+      unread: false,
+      msgs: [{ me: false, text: "Same time tomorrow?" }],
+    },
   ],
   calls: [
     { name: "Sophia", time: "Yesterday, 8:02 PM", type: "outgoing" },
@@ -192,6 +209,7 @@ export const demoCase: CaseConfig = {
     posts: [
       { image: hero, location: "Miami, FL", caption: "She said yes 💍" },
       { image: alex, location: "Downtown" },
+      { image: alexNight, location: "Home", caption: "Late night work" },
     ],
   },
   airbnb: {
@@ -200,7 +218,10 @@ export const demoCase: CaseConfig = {
     listings: [{ title: "Beachfront Villa", img: hero, rating: "4.9", subtitle: "Entire villa", price: "$260/night" }],
   },
   gmail: [
+    { sender: "Wedding Venue", subject: "Your booking confirmation", preview: "Thank you for booking with us! Your date is confirmed for..." },
     { sender: "nadia.ellis@mailly.com", subject: "About last night", preview: "I miss you, don't worry about the engagement..." },
+    { sender: "Bank Alerts", subject: "Your statement is ready", preview: "Your monthly account statement is now available..." },
+    { sender: "Gym Membership", subject: "Renewal reminder", preview: "Your membership will renew automatically on..." },
   ],
   photos: [{ src: alex }, { src: sophia }, { src: hero }],
   vaultCode: "0000",
