@@ -17,9 +17,8 @@ import {
   iconSettings,
   iconMessages,
   iconPhone,
+  iconUnknown,
 } from "../Assets/Icons/icons";
-
-import unknownAvatar from "../Assets/UI/unknown-avatar.svg";
 
 import daniel from "../Assets/KB4/daniel.webp";
 import sarah from "../Assets/KB4/sarah.webp";
@@ -41,7 +40,7 @@ export const demoCase: CaseConfig = {
   hintBudget: 4,
   evidenceRounds: [
     {
-      informant: { name: "Unknown", avatar: unknownAvatar },
+      informant: { name: "Unknown", avatar: iconUnknown },
       prompt: "Glimpse has a tagged-location post. Who is he with?",
       choices: ["A coworker", "His sister", "An old college friend", "Ivy"],
       correct: "Ivy",
@@ -52,7 +51,7 @@ export const demoCase: CaseConfig = {
       hintApp: "instagram",
     },
     {
-      informant: { name: "Unknown", avatar: unknownAvatar },
+      informant: { name: "Unknown", avatar: iconUnknown },
       prompt: "There's an odd note saved on his phone. What does it say?",
       choices: ["Grocery list", "Work reminder", "Car maintenance", "Meet Ivy at 7 — don't tell Sarah"],
       correct: "Meet Ivy at 7 — don't tell Sarah",
@@ -63,7 +62,7 @@ export const demoCase: CaseConfig = {
       hintApp: "notes",
     },
     {
-      informant: { name: "Unknown", avatar: unknownAvatar },
+      informant: { name: "Unknown", avatar: iconUnknown },
       prompt: "Pinpoint tracks frequent visits. Where does he keep going?",
       choices: ["The gym", "The office", "Sunrise Café", "His parents' house"],
       correct: "Sunrise Café",
@@ -76,7 +75,7 @@ export const demoCase: CaseConfig = {
   ],
   client: {
     name: "Unknown Number",
-    avatar: unknownAvatar,
+    avatar: iconUnknown,
     hire: [
       { type: "msgs", text: "hey... this is going to sound strange, but you deserve to know." },
       { type: "msgs", text: "he's been meeting up with an old classmate. more than once." },
