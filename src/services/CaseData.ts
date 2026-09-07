@@ -20,7 +20,6 @@ import {
 } from "../Assets/Icons/icons";
 
 import agentAvatar from "../Assets/UI/agent-avatar.webp";
-import wallpaper from "../Assets/UI/wallpaper-blue.jpg";
 
 import alex from "../Assets/KB3/alex.webp";
 import sophia from "../Assets/KB3/sophia.webp";
@@ -28,6 +27,7 @@ import nadia from "../Assets/KB3/nadia.webp";
 import hero from "../Assets/KB3/hero.webp";
 import alexNight from "../Assets/KB3/alex-night.webp";
 import alexHide from "../Assets/KB3/alex-hide.webp";
+import wallpaper from "../Assets/KB3/wallpaper.webp";
 
 /**
  * KB3 — "Just got engaged". Sophia suspects her fiancé Alex is still
@@ -44,7 +44,7 @@ export const demoCase: CaseConfig = {
     {
       informant: { name: "Agent Iris", avatar: agentAvatar },
       prompt: "Search his Mailly for clues. Is he emailing someone he shouldn't be?",
-      choices: ["A coworker", "nadia.ellis@...", "His brother", "A client"],
+      choices: ["A coworker", "His brother", "A client", "nadia.ellis@..."],
       correct: "nadia.ellis@...",
       correctReply: "That email thread with Nadia... found it. Keep digging.",
       wrongReply: ["That's just a work email. Keep looking.", "Not that one. Check again — someone's off."],
@@ -55,7 +55,7 @@ export const demoCase: CaseConfig = {
     {
       informant: { name: "Agent Iris", avatar: agentAvatar },
       prompt: "RevoBank shows a recent gift purchase. Who was it sent to?",
-      choices: ["Sophia", "N. Sterling", "His mom", "A best man gift"],
+      choices: ["N. Sterling", "Sophia", "His mom", "A best man gift"],
       correct: "N. Sterling",
       correctReply: "A gift for N. Sterling — not Sophia. That's not nothing.",
       wrongReply: ["Check the transaction list again.", "Still not that one. Look closer."],
@@ -66,7 +66,7 @@ export const demoCase: CaseConfig = {
     {
       informant: { name: "Agent Iris", avatar: agentAvatar },
       prompt: "Pinpoint tracks frequent visits. Where does he keep going that isn't work?",
-      choices: ["The office", "Riverside Café", "The gym", "His parents' house"],
+      choices: ["The office", "The gym", "Riverside Café", "His parents' house"],
       correct: "Riverside Café",
       correctReply: "The same café, over and over, with no reason tied to work. I've got what I need.",
       wrongReply: ["That place is nothing unusual. Check again.", "Not quite — look at the visit history again."],
@@ -167,6 +167,20 @@ export const demoCase: CaseConfig = {
       unread: false,
       msgs: [{ me: false, text: "Same time tomorrow?" }],
     },
+    {
+      id: "w4",
+      title: "Dad",
+      time: "Monday",
+      unread: false,
+      msgs: [{ me: false, text: "Proud of you, son" }],
+    },
+    {
+      id: "w5",
+      title: "Work Group",
+      time: "Sunday",
+      unread: false,
+      msgs: [{ me: false, text: "Reminder: standup at 9am" }],
+    },
   ],
   calls: [
     { name: "Sophia", time: "Yesterday, 8:02 PM", type: "outgoing" },
@@ -179,10 +193,10 @@ export const demoCase: CaseConfig = {
     transactions: [
       { name: "Riverside Café", amount: "-$12.40" },
       { name: "Salary", amount: "+$4,100.00" },
-      { name: "Gift Shop — N. Sterling", amount: "-$150.00" },
       { name: "RideGo", amount: "-$22.00" },
       { name: "Tailor & Co.", amount: "-$210.00" },
       { name: "Rent", amount: "-$1,400.00" },
+      { name: "Gift Shop — N. Sterling", amount: "-$150.00" },
       { name: "Soundwave", amount: "-$10.99" },
       { name: "ATM Withdrawal", amount: "-$80.00" },
     ],
@@ -219,9 +233,13 @@ export const demoCase: CaseConfig = {
   },
   gmail: [
     { sender: "Wedding Venue", subject: "Your booking confirmation", preview: "Thank you for booking with us! Your date is confirmed for..." },
-    { sender: "nadia.ellis@mailly.com", subject: "About last night", preview: "I miss you, don't worry about the engagement..." },
+    { sender: "Airline", subject: "Check-in now open", preview: "Your flight check-in is now available online..." },
     { sender: "Bank Alerts", subject: "Your statement is ready", preview: "Your monthly account statement is now available..." },
     { sender: "Gym Membership", subject: "Renewal reminder", preview: "Your membership will renew automatically on..." },
+    { sender: "Online Store", subject: "Your order has shipped", preview: "Good news! Your recent order is on its way..." },
+    { sender: "nadia.ellis@mailly.com", subject: "About last night", preview: "I miss you, don't worry about the engagement..." },
+    { sender: "Streaming Service", subject: "New shows added this week", preview: "Check out what's new for you this week..." },
+    { sender: "Credit Card", subject: "Your payment was received", preview: "Thank you, your recent payment has been processed..." },
   ],
   photos: [{ src: alex }, { src: sophia }, { src: hero }],
   vaultCode: "0000",
