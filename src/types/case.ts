@@ -113,6 +113,16 @@ export interface WeatherInfo {
   condition: string;
 }
 
+export interface RevolutTransaction {
+  name: string;
+  amount: string;
+}
+
+export interface MapLocation {
+  name: string;
+  subtitle?: string;
+}
+
 export interface EvidenceRound {
   informant: { name: string; avatar: string };
   prompt: string;
@@ -167,6 +177,8 @@ export interface CaseConfig {
   photos: PhotoEntry[];
   vaultCode: string;
   weather: WeatherInfo;
+  revolut: { balance: string; transactions: RevolutTransaction[] };
+  maps: { locations: MapLocation[] };
   endCard: {
     headline: string;
     subhead: string;

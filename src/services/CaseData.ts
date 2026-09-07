@@ -253,6 +253,30 @@ export const demoCase: CaseConfig = {
     { name: "Unknown Number", time: "Monday, 2:17 PM", type: "missed" },
   ],
   weather: { city: "Paris", tempC: 18, hi: 21, lo: 12, condition: "Partly cloudy" },
+  revolut: {
+    balance: "$4,382.10",
+    transactions: [
+      { name: "Le Jardin Paris", amount: "-€620.00" },
+      { name: "Café de Flore", amount: "-€14.50" },
+      { name: "Salary", amount: "+$3,200.00" },
+      { name: "RideGo", amount: "-$18.20" },
+      { name: "Hôtel Lumière", amount: "-€340.00" },
+      { name: "Boulangerie Saint-Paul", amount: "-€6.80" },
+      { name: "Soundwave", amount: "-$10.99" },
+      { name: "Le Petit Bistro", amount: "-€48.50" },
+      { name: "ATM Withdrawal", amount: "-$100.00" },
+      { name: "Freelance Payment", amount: "+$450.00" },
+      { name: "Metro Pass", amount: "-€22.00" },
+      { name: "ShopKart", amount: "-$67.30" },
+    ],
+  },
+  maps: {
+    locations: [
+      { name: "Home", subtitle: "Visited daily" },
+      { name: "Office", subtitle: "Weekdays" },
+      { name: "Le Petit Bistro", subtitle: "Visited 3 times this week" },
+    ],
+  },
   notes: [{ title: "Note", body: "Buy a birthday gift — keep it a secret." }],
   calendar: [
     { title: "Coffee date", date: "09/12" },
