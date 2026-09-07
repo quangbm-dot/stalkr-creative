@@ -1,70 +1,62 @@
 import type { CaseConfig } from "../types/case";
 
-import postImage from "../Assets/UI/post.jpg";
-import homeWallpaper from "../Assets/UI/home.jpg";
-import avatarRyan from "../Assets/UI/avatar-ryan.jpg";
-import avatarMia from "../Assets/UI/avatar-mia-grace.jpg";
-import avatarChloe from "../Assets/UI/avatar-chloe-wxx.jpg";
-import avatarUnknown from "../Assets/UI/avatar-unknown-94.jpg";
+import postImage from "../Assets/KB3v2/post.webp";
+import homeWallpaper from "../Assets/KB3v2/wallpaper.webp";
 
 /**
- * Demo content — swap for real case content once a scenario is written.
- * All text below is placeholder narrative to exercise the game flow; images
- * live in src/Assets/UI.
+ * v2 KB3 — "New Wheels". Tyler flexes his new car; an anonymous comment
+ * implies he gave someone else a ride the night before.
  */
 export const demoCase: CaseConfig = {
   homeWallpaper,
-  notifBadgeCount: 4,
+  notifBadgeCount: 3,
   notif: {
     appName: "Instagram",
-    preview: "5 people liked your photo and 1 new comment",
-    newLikes: 5,
+    preview: "3 people liked your photo and 1 new comment",
+    newLikes: 3,
   },
   post: {
     appName: "Instagram",
-    author: { username: "kai.reeves", timeAgo: "3h", avatar: avatarRyan },
+    author: { username: "tyler.bowers", timeAgo: "45m" },
     image: postImage,
-    likesText: "2,318 likes",
-    captionLines: ["Arm day.", "No days off 💪"],
+    likesText: "2,905 likes",
+    captionLines: ["New whip, who dis 😎", "Finally upgraded"],
     comments: [
       {
-        username: "mia_grace",
-        text: "okay but who said you could look like this 😍",
-        time: "2m",
+        username: "mason.reid",
+        text: "bro's about to be UNBEARABLE now 💀",
+        time: "20m",
         colorFrom: "#f97316",
         colorTo: "#1b1e26",
-        avatar: avatarMia,
       },
       {
-        username: "chloe.wxx",
-        text: "the mirror selfie game is unfair fr",
-        time: "Just now",
+        username: "ava.simmons",
+        text: "ok flex duly noted",
+        time: "8m",
         colorFrom: "#0ea5e9",
         colorTo: "#1b1e26",
-        avatar: avatarChloe,
       },
       {
-        username: "iykyk_22",
-        text: "9pm Friday, usual spot, babe 😉",
+        username: "unknown_lex",
+        text: "thanks for the ride last night 😘 same time tomorrow?",
         time: "Just now",
         colorFrom: "#ec4899",
         colorTo: "#1b1e26",
-        avatar: avatarUnknown,
         tappable: true,
       },
     ],
     reactionComment: {
-      username: "Honey 💗",
-      text: "9pm? Where? Are you seeing someone else?",
+      username: "Kayla 💗",
+      text: "Ride? You said you were home studying.",
       time: "Just now",
       colorFrom: "#ff6fa5",
       colorTo: "#ff2d78",
       heartBadge: true,
     },
-    midPrompt: "She's hiding something.",
+    midPrompt: "She's not buying it.",
   },
   endCard: {
-    question: "If you were Kai, how would you explain this?",
+    question: "If you were Tyler, how would you play this off?",
     choices: ["Deny everything", "Charm my way out"],
   },
 };
