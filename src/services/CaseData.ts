@@ -1,16 +1,14 @@
 import type { CaseConfig } from "../types/case";
 
 import {
-  iconFlurt,
-  iconPhotos,
+  iconGlimpse,
   iconNotes,
   iconCalendar,
   iconWeather,
-  iconGlimpse,
-  iconNestly,
   iconRevoBank,
   iconWallet,
   iconMailly,
+  iconPhotos,
   iconClock,
   iconPinpoint,
   iconCompass,
@@ -21,144 +19,102 @@ import {
   iconChatta,
 } from "../Assets/Icons/icons";
 
+import agentAvatar from "../Assets/UI/agent-avatar.webp";
+import wallpaper from "../Assets/UI/wallpaper-blue.jpg";
 import matchAshley from "../Assets/UI/match-ashley.jpg";
 import matchMegan from "../Assets/UI/match-megan.jpg";
 import matchChloe from "../Assets/UI/match-chloe.jpg";
-import matchJess from "../Assets/UI/match-jess.jpg";
 
-import wallpaper from "../Assets/UI/wallpaper-blue.jpg";
-import ryan from "../Assets/UI/ryan-new.jpg";
-import zoe from "../Assets/UI/emma-new.jpg";
-import coupleHero from "../Assets/UI/couple-new.jpg";
-import ryanHide from "../Assets/UI/ryan-hide.jpg";
-import emmaRyanHug from "../Assets/UI/emma-ryan-hug-v2.jpg";
-import agentAvatar from "../Assets/UI/agent-avatar.webp";
-import emmaAvatar from "../Assets/UI/informant-1.jpg";
-import ryanPhone from "../Assets/UI/ryan-phone.jpg";
-import bnbParis from "../Assets/UI/bnb_paris.jpg";
-import bnbLove from "../Assets/UI/bnb_love.jpg";
-import post1 from "../Assets/UI/post_1.jpg";
-import post2 from "../Assets/UI/post_2.jpg";
-import post3 from "../Assets/UI/post_3.jpg";
-import post4 from "../Assets/UI/post_4.jpg";
-import photo82 from "../Assets/UI/photo_82-v4.jpg";
-import photo149 from "../Assets/UI/photo_149-v4.jpg";
-import photo150 from "../Assets/UI/photo_150-v4.jpg";
-import photo151 from "../Assets/UI/photo_151-v2.jpg";
-import photo152 from "../Assets/UI/photo_152-v2.jpg";
-import photo153 from "../Assets/UI/photo_153-v2.jpg";
-import photo154 from "../Assets/UI/photo_154-v2.jpg";
-import photo158 from "../Assets/UI/photo_158-v4.jpg";
-import photo159 from "../Assets/UI/photo_159-v2.jpg";
-import photo163 from "../Assets/UI/photo_163-v2.jpg";
-import photo168 from "../Assets/UI/photo_168-v2.jpg";
-import secret1 from "../Assets/UI/secret_1-v2.jpg";
-import secret3 from "../Assets/UI/secret_3-v2.jpg";
+import kevin from "../Assets/KB2/kevin.webp";
+import mia from "../Assets/KB2/mia.webp";
+import noah from "../Assets/KB2/noah.webp";
+import evidenceMiaNoah from "../Assets/KB2/evidence-mia-noah.webp";
+import hero from "../Assets/KB2/hero.webp";
 
 /**
- * Demo content — swap for real case content once a scenario is written.
- * All text below is placeholder narrative to exercise the game flow; images
- * live in src/Assets/UI.
+ * KB2 — "Long distance". Kevin (away for work) suspects his girlfriend Mia
+ * is secretly seeing someone else. Owner: Mia. Third character: Noah.
  */
 export const demoCase: CaseConfig = {
-  caseTitle: "Ryan & Emma",
+  caseTitle: "Kevin & Mia",
   tagline: "The phone is in your hands. Every answer is hiding somewhere inside it.",
-  heroImage: coupleHero,
+  heroImage: hero,
   evidenceTotal: 16,
   hintBudget: 4,
   evidenceRounds: [
     {
       informant: { name: "Agent Iris", avatar: agentAvatar },
-      prompt: "Search his Messages for clues. Is he texting someone he shouldn't be?",
-      choices: ["Mike", "No Name", "Sarah", "Dad"],
-      correct: "No Name",
-      correctReply: "That unnamed number... found it. Keep digging.",
-      wrongReply: ["That's just an old friend. Keep looking.", "Not that one. Check again — someone's off."],
+      prompt: "Search her Chatta for clues. Is she texting someone she shouldn't be?",
+      choices: ["Mom", "N.", "Her boss", "Her sister"],
+      correct: "N.",
+      correctReply: "A contact saved as just 'N.'... found it. Keep digging.",
+      wrongReply: ["That's just a normal contact. Keep looking.", "Not that one. Check again — someone's off."],
       reward: 10,
-      hint: "Open Messages and check who he's really talking to.",
-      hintApp: "messages",
+      hint: "Open Chatta and check who she's really talking to at night.",
+      hintApp: "whatsapp",
     },
     {
       informant: { name: "Agent Iris", avatar: agentAvatar },
-      prompt: "He's been active on Flurt. Which girl did he match with?",
-      choices: ["Chloe", "Zoe", "Megan", "Jess"],
-      correct: "Zoe",
-      correctReply: "Zoe, 26... found her. Keep digging.",
-      wrongReply: ["Check their ages again in Flurt.", "Still not her. Look at the matches again."],
+      prompt: "Glimpse has a private post. Who is she getting coffee with?",
+      choices: ["A coworker", "Noah", "Her cousin", "A college friend"],
+      correct: "Noah",
+      correctReply: "Noah... same initial as 'N.' in Chatta. Sit tight — one more piece.",
+      wrongReply: ["Check the caption again.", "Still not him. Look at the post again."],
       reward: 10,
-      hint: "Open Flurt and check his matches.",
-      hintApp: "tinder",
+      hint: "Open Glimpse and check her most recent post.",
+      hintApp: "instagram",
     },
     {
       informant: { name: "Agent Iris", avatar: agentAvatar },
-      prompt: "Last thing — is there anything hidden in his photos?",
-      choices: ["No, all normal", "Yes, there's a locked album"],
-      correct: "Yes, there's a locked album",
-      correctReply: "A locked album... he's definitely hiding something. I've got what I need.",
-      wrongReply: ["Look more carefully in Photos.", "Nope. Try opening the locked album."],
+      prompt: "There's an odd note saved on her phone. What does it say?",
+      choices: ["Grocery list", "Meet Noah at 8 — don't tell Kevin", "Work reminder", "Doctor's appointment"],
+      correct: "Meet Noah at 8 — don't tell Kevin",
+      correctReply: "A meetup, and she's asking to keep it from you. That's everything I need.",
+      wrongReply: ["Not that note — try the other one.", "Nope. Look again in Notes."],
       reward: 10,
-      hint: "Try the Photos app — look for a lock icon.",
-      hintApp: "photos",
+      hint: "Open Notes and look for anything mentioning Noah.",
+      hintApp: "notes",
     },
   ],
   client: {
     name: "Agent Iris",
     avatar: agentAvatar,
     hire: [
-      { type: "msgs", text: "Hey... I need your help, fast. My friend Emma thinks Ryan's cheating on her." },
-      {
-        type: "tinderReveal",
-        src: ryan,
-        name: "Ryan",
-        age: 29,
-        subtitle: "Active 4 minutes ago",
-        text: "This is him — Ryan. He's active on Tinder right now, 4 minutes ago.",
-      },
-      { type: "reveal", src: emmaRyanHug, label: "Emma & Ryan", text: "This is Emma and Ryan. Together two years." },
-      { type: "reveal", src: ryanPhone, label: "Every night", text: "Lately he's always on his phone at night — screen turned away the second she walks in." },
-      { type: "reveal", src: ryanHide, label: "Quick to hide", text: "He's grown cold toward her. The moment she gets close, the phone flips face-down." },
-      { type: "mysteryReveal", label: "Unknown", text: "And then... a strange girl keeps showing up in his life. Who is she?" },
+      { type: "msgs", text: "Hey... I need your help. My girlfriend Mia's been acting distant ever since I left for this work trip." },
+      { type: "reveal", src: mia, label: "Mia", text: "This is her — Mia. My girlfriend of three years." },
+      { type: "reveal", src: hero, label: "Kevin & Mia", text: "We've been inseparable since college — until this trip put an ocean between us." },
+      { type: "mysteryReveal", label: "Unknown", text: "Lately she goes quiet every night around the same time. Like she's hiding something. Or someone." },
       { type: "choices", options: ["Take the case", "Are you sure?"] },
-      { type: "msgs", text: "Good. Here's the case file — his fictional phone, unlocked for the investigation." },
+      { type: "msgs", text: "Good. Here's the case file — her fictional phone, unlocked for the investigation." },
       { type: "cta", label: "Search the phone 🔍" },
     ],
     matches: [
       { name: "Ashley", age: 25, photo: matchAshley },
       { name: "Megan", age: 24, photo: matchMegan },
-      { name: "Zoe", age: 26, photo: zoe, matched: true },
       { name: "Chloe", age: 27, photo: matchChloe },
-      { name: "Jess", age: 23, photo: matchJess },
     ],
     matchThread: {
-      name: "Zoe",
-      avatar: zoe,
-      msgs: [
-        { me: false, text: "Hey Ryan 😊 saw you're a consultant, sounds fancy" },
-        { me: true, text: "Haha it has its days. You're always traveling huh" },
-        { me: false, text: "Just got back from Paris actually" },
-        { me: true, text: "Nice, we should catch up sometime" },
-        { me: false, text: "Don't let this get out 🤫" },
-      ],
+      name: "Chloe",
+      avatar: matchChloe,
+      msgs: [{ me: false, text: "Hey! Great match 😊" }],
     },
   },
   hint: "Try opening each app on the phone to find clues.",
-  owner: { first: "Ryan", full: "Ryan Cole", avatar: ryan },
+  owner: { first: "Mia", full: "Mia Bennett", avatar: mia },
   wallpaper,
   home: {
     pages: [
       [
-        { app: "tinder", label: "Flurt", icon: iconFlurt },
-        { app: "photos", label: "Photos", icon: iconPhotos },
+        { app: "instagram", label: "Glimpse", icon: iconGlimpse },
         { app: "notes", label: "Notes", icon: iconNotes },
+        { app: "photos", label: "Photos", icon: iconPhotos },
         { app: "calendar", label: "Calendar", icon: iconCalendar },
         { app: "weather", label: "Weather", icon: iconWeather },
-        { app: "instagram", label: "Glimpse", icon: iconGlimpse },
-        { app: "airbnb", label: "Nestly", icon: iconNestly },
         { app: "revolut", label: "RevoBank", icon: iconRevoBank },
         { app: "wallet", label: "Wallet", icon: iconWallet },
+        { app: "gmail", label: "Mailly", icon: iconMailly },
       ],
       [
-        { app: "gmail", label: "Mailly", icon: iconMailly },
         { app: "clock", label: "Clock", icon: iconClock },
         { app: "maps", label: "Pinpoint", icon: iconPinpoint },
         { app: "compass", label: "Compass", icon: iconCompass },
@@ -175,150 +131,95 @@ export const demoCase: CaseConfig = {
   messages: [
     {
       id: "m1",
-      title: "Emma",
-      avatar: emmaAvatar,
+      title: "Mom",
       time: "09:41",
-      unread: true,
+      unread: false,
       msgs: [
-        { me: false, text: "Don't forget to call me tomorrow" },
-        { me: true, text: "Yeah, I won't forget" },
-        { me: false, text: "Love you 💛" },
+        { me: false, text: "Call me when you land" },
+        { me: true, text: "Will do, love you" },
       ],
     },
     {
       id: "m2",
-      title: "No Name",
-      time: "23:47",
-      unread: true,
-      msgs: [
-        { me: false, text: "Hey, you free tonight?" },
-        { me: true, text: "Can't tonight, might be busy" },
-        { me: false, text: "Ok, let me know 😉" },
-      ],
-    },
-    {
-      id: "m3",
-      title: "Mike",
+      title: "Work",
       time: "Yesterday",
       unread: false,
-      msgs: [
-        { me: false, text: "Game night this Friday?" },
-        { me: true, text: "I'm in" },
-      ],
-    },
-    {
-      id: "m4",
-      title: "Dad",
-      time: "Yesterday",
-      unread: false,
-      msgs: [{ me: false, text: "Call me when you get a chance" }],
-    },
-    {
-      id: "m5",
-      title: "Alex (Work)",
-      time: "Monday",
-      unread: false,
-      msgs: [{ me: false, text: "Meeting moved to 3pm" }],
-    },
-    {
-      id: "m6",
-      title: "Sarah",
-      time: "Sunday",
-      unread: false,
-      msgs: [{ me: false, text: "Happy birthday!! 🎉" }],
-    },
-    {
-      id: "m7",
-      title: "Delivery",
-      time: "Sunday",
-      unread: false,
-      msgs: [{ me: false, text: "Your package has been delivered" }],
+      msgs: [{ me: false, text: "Standup moved to 10am tomorrow" }],
     },
   ],
   whatsapp: [
     {
       id: "w1",
+      title: "N.",
+      time: "23:47",
+      unread: true,
+      msgs: [
+        { me: false, text: "I miss you so much. When can we see each other again?" },
+        { me: true, text: "Soon, I promise. Just be patient a little longer." },
+        { me: false, text: "I can't stop thinking about you 😘" },
+      ],
+    },
+    {
+      id: "w2",
       title: "Mom",
       time: "08:15",
       unread: false,
-      msgs: [
-        { me: false, text: "Are you coming home for dinner?" },
-        { me: true, text: "Not tonight, working late" },
-      ],
+      msgs: [{ me: false, text: "Dinner on Sunday?" }],
     },
   ],
   calls: [
-    { name: "Zoe", time: "Yesterday, 11:42 PM", type: "outgoing" },
+    { name: "Kevin", time: "Yesterday, 7:12 PM", type: "outgoing" },
     { name: "Mom", time: "Yesterday, 6:03 PM", type: "incoming" },
-    { name: "Unknown Number", time: "Monday, 2:17 PM", type: "missed" },
+    { name: "Unknown Number", time: "Monday, 11:40 PM", type: "missed" },
   ],
-  weather: { city: "Paris", tempC: 18, hi: 21, lo: 12, condition: "Partly cloudy" },
+  weather: { city: "Chicago", tempC: 15, hi: 18, lo: 9, condition: "Cloudy" },
   revolut: {
-    balance: "$4,382.10",
+    balance: "$2,140.55",
     transactions: [
-      { name: "Le Jardin Paris", amount: "-€620.00" },
-      { name: "Café de Flore", amount: "-€14.50" },
-      { name: "Salary", amount: "+$3,200.00" },
-      { name: "RideGo", amount: "-$18.20" },
-      { name: "Hôtel Lumière", amount: "-€340.00" },
-      { name: "Boulangerie Saint-Paul", amount: "-€6.80" },
+      { name: "Grocery Mart", amount: "-$64.20" },
+      { name: "Salary", amount: "+$2,600.00" },
+      { name: "The Daily Grind Café", amount: "-$8.50" },
+      { name: "RideGo", amount: "-$14.00" },
+      { name: "Rent", amount: "-$950.00" },
+      { name: "Gift Shop Downtown", amount: "-$32.00" },
       { name: "Soundwave", amount: "-$10.99" },
-      { name: "Le Petit Bistro", amount: "-€48.50" },
-      { name: "ATM Withdrawal", amount: "-$100.00" },
-      { name: "Freelance Payment", amount: "+$450.00" },
-      { name: "Metro Pass", amount: "-€22.00" },
-      { name: "ShopKart", amount: "-$67.30" },
+      { name: "ATM Withdrawal", amount: "-$60.00" },
     ],
   },
   maps: {
     locations: [
       { name: "Home", subtitle: "Visited daily" },
       { name: "Office", subtitle: "Weekdays" },
-      { name: "Le Petit Bistro", subtitle: "Visited 3 times this week" },
+      { name: "The Daily Grind Café", subtitle: "Visited 4 times this week" },
     ],
   },
-  notes: [{ title: "Note", body: "Buy a birthday gift — keep it a secret." }],
+  notes: [
+    { title: "Note", body: "Meet Noah at 8 — don't tell Kevin" },
+    { title: "Note", body: "Pick up dry cleaning" },
+  ],
   calendar: [
-    { title: "Coffee date", date: "09/12" },
+    { title: "Yoga class", date: "09/12" },
     { title: "Team meeting", date: "09/14" },
   ],
   instagram: {
-    username: "ryan.cole",
-    displayName: "Ryan Cole",
-    avatar: ryan,
+    username: "mia.bennett",
+    displayName: "Mia Bennett",
+    avatar: mia,
     posts: [
-      { image: post1, location: "Paris, France", caption: "Golden hour ✨" },
-      { image: post2, location: "Montmartre, Paris" },
-      { image: post3, location: "Le Marais, Paris", caption: "Best week ever" },
-      { image: post4, location: "Paris, France" },
+      { image: evidenceMiaNoah, location: "The Daily Grind", caption: "Coffee with Noah ☕️" },
+      { image: mia, location: "Downtown" },
+      { image: hero, location: "Home", caption: "Missing this one" },
     ],
   },
   airbnb: {
-    name: "Paris, France",
-    img: bnbParis,
-    listings: [
-      { title: "Le Jardin — Paris", img: bnbParis, rating: "4.9", subtitle: "Entire villa", price: "$210/night" },
-      { title: "Cozy Loft — Montmartre", img: bnbLove, rating: "4.8", subtitle: "Entire loft", price: "$165/night" },
-    ],
+    name: "Weekend Getaways",
+    img: hero,
+    listings: [{ title: "Lakeside Cabin", img: hero, rating: "4.8", subtitle: "Entire cabin", price: "$140/night" }],
   },
   gmail: [
-    { sender: "Nestly", subject: "Booking confirmed", preview: "Your villa has been confirmed for..." },
+    { sender: "HR Department", subject: "Travel itinerary confirmed", preview: "Your business trip itinerary has been confirmed for..." },
   ],
-  photos: [
-    { src: photo82 },
-    { src: photo149 },
-    { src: photo150 },
-    { src: photo151 },
-    { src: photo152 },
-    { src: photo153 },
-    { src: photo154 },
-    { src: photo158 },
-    { src: photo159 },
-    { src: photo163 },
-    { src: photo168 },
-    { src: secret1, secret: true },
-    { src: secret3, secret: true },
-  ],
+  photos: [{ src: mia }, { src: kevin }, { src: hero }, { src: noah }],
   vaultCode: "0000",
   endCard: {
     headline: "You solved the case",
