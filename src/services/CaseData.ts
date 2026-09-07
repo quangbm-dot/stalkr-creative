@@ -1,24 +1,21 @@
 import type { CaseConfig } from "../types/case";
 
-import {
-  iconNotes,
-  iconPhotos,
-  iconCalendar,
-  iconWeather,
-  iconWallet,
-  iconRevoBank,
-  iconClock,
-  iconCompass,
-  iconCalculator,
-  iconSettings,
-  iconMessages,
-  iconPhone,
-} from "../Assets/Icons/icons";
-
 import iconInstagram from "../Assets/Icons/real/instagram.webp";
 import iconGmail from "../Assets/Icons/real/gmail.webp";
 import iconMaps from "../Assets/Icons/real/googlemaps.webp";
 import iconWhatsapp from "../Assets/Icons/real/whatsapp.webp";
+import iconNotes from "../Assets/Icons/real/notes.webp";
+import iconPhotos from "../Assets/Icons/real/photos.webp";
+import iconCalendar from "../Assets/Icons/real/calendar.webp";
+import iconWeather from "../Assets/Icons/real/weather.webp";
+import iconWallet from "../Assets/Icons/real/wallet.webp";
+import iconRevoBank from "../Assets/Icons/real/revobank.webp";
+import iconClock from "../Assets/Icons/real/alarm.webp";
+import iconCompass from "../Assets/Icons/real/compass.webp";
+import iconCalculator from "../Assets/Icons/real/calculator.webp";
+import iconSettings from "../Assets/Icons/real/settings.webp";
+import iconMessages from "../Assets/Icons/real/messages.webp";
+import iconPhone from "../Assets/Icons/real/phone.webp";
 
 import agentAvatar from "../Assets/UI/agent-avatar.webp";
 
