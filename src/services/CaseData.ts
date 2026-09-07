@@ -77,10 +77,9 @@ export const demoCase: CaseConfig = {
     name: "Agent Iris",
     avatar: agentAvatar,
     hire: [
-      { type: "msgs", text: "Hey... I need your help. My husband Daniel keeps liking an old classmate's photos, and it's starting to feel like more than that." },
-      { type: "reveal", src: daniel, label: "Daniel", text: "This is him — Daniel, my husband. We've been married four years." },
-      { type: "reveal", src: hero, label: "Daniel & Sarah", text: "We've built a whole life together. But lately he's been glued to his phone, smiling at something he won't show me." },
-      { type: "mysteryReveal", label: "Unknown", text: "And an old classmate keeps popping back into his life. Who is she, really?" },
+      { type: "msgs", text: "Hey. I need you to check something for me — quietly." },
+      { type: "msgs", text: "My husband Daniel has been talking to an old classmate more than I'm comfortable with." },
+      { type: "msgs", text: "Recent activity, hidden notes, places he keeps going back to... something feels off." },
       { type: "choices", options: ["Take the case", "Are you sure?"] },
       { type: "msgs", text: "Good. Here's the case file — his fictional phone, unlocked for the investigation." },
       { type: "cta", label: "Search the phone 🔍" },
