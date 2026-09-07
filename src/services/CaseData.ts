@@ -17,7 +17,6 @@ import iconSettings from "../Assets/Icons/real/settings.webp";
 import iconMessages from "../Assets/Icons/real/messages.webp";
 import iconPhone from "../Assets/Icons/real/phone.webp";
 
-import agentAvatar from "../Assets/UI/agent-avatar.webp";
 import unknownAvatar from "../Assets/UI/unknown-avatar.svg";
 
 import daniel from "../Assets/KB4/daniel.webp";
@@ -40,7 +39,7 @@ export const demoCase: CaseConfig = {
   hintBudget: 4,
   evidenceRounds: [
     {
-      informant: { name: "Agent Iris", avatar: agentAvatar },
+      informant: { name: "Unknown", avatar: unknownAvatar },
       prompt: "Instagram has a tagged-location post. Who is he with?",
       choices: ["A coworker", "His sister", "An old college friend", "Ivy"],
       correct: "Ivy",
@@ -51,7 +50,7 @@ export const demoCase: CaseConfig = {
       hintApp: "instagram",
     },
     {
-      informant: { name: "Agent Iris", avatar: agentAvatar },
+      informant: { name: "Unknown", avatar: unknownAvatar },
       prompt: "There's an odd note saved on his phone. What does it say?",
       choices: ["Grocery list", "Work reminder", "Car maintenance", "Meet Ivy at 7 — don't tell Sarah"],
       correct: "Meet Ivy at 7 — don't tell Sarah",
@@ -62,7 +61,7 @@ export const demoCase: CaseConfig = {
       hintApp: "notes",
     },
     {
-      informant: { name: "Agent Iris", avatar: agentAvatar },
+      informant: { name: "Unknown", avatar: unknownAvatar },
       prompt: "Maps tracks frequent visits. Where does he keep going?",
       choices: ["The gym", "The office", "Sunrise Café", "His parents' house"],
       correct: "Sunrise Café",
