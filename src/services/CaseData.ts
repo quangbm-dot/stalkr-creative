@@ -21,6 +21,7 @@ import iconMaps from "../Assets/Icons/real/googlemaps.webp";
 import iconWhatsapp from "../Assets/Icons/real/whatsapp.webp";
 
 import agentAvatar from "../Assets/UI/agent-avatar.webp";
+import unknownAvatar from "../Assets/UI/girl-silhouette.jpg";
 import matchAshley from "../Assets/UI/match-ashley.jpg";
 import matchMegan from "../Assets/UI/match-megan.jpg";
 import matchChloe from "../Assets/UI/match-chloe.jpg";
@@ -31,7 +32,6 @@ import noah from "../Assets/KB2/noah.webp";
 import evidenceMiaNoah from "../Assets/KB2/evidence-mia-noah.webp";
 import hero from "../Assets/KB2/hero.webp";
 import miaNight from "../Assets/KB2/mia-night.webp";
-import miaHide from "../Assets/KB2/mia-hide.webp";
 import wallpaper from "../Assets/KB2/wallpaper.webp";
 
 /**
@@ -80,15 +80,23 @@ export const demoCase: CaseConfig = {
     },
   ],
   client: {
-    name: "Agent Iris",
-    avatar: agentAvatar,
+    name: "Unknown Number",
+    avatar: unknownAvatar,
     hire: [
-      { type: "msgs", text: "Hey — I need your help, fast. I think I just found something." },
-      { type: "reveal", src: mia, label: "Mia", text: "This is Mia, my girlfriend of three years." },
-      { type: "reveal", src: miaNight, label: "Every night", text: "Lately she's always on her phone after midnight, screen turned away the second I walk in." },
-      { type: "reveal", src: miaHide, label: "Quick to hide", text: "Yesterday she flipped it face-down the second I looked over. And there's a strange email sitting in her inbox too." },
-      { type: "choices", options: ["Take the case", "Are you sure?"] },
-      { type: "msgs", text: "Good. Here's the case file — her fictional phone, unlocked for the investigation." },
+      { type: "msgs", text: "hey... this is going to sound strange, but you deserve to know." },
+      { type: "msgs", text: "she's been getting coffee with someone while you're away." },
+      {
+        type: "appReveal",
+        src: evidenceMiaNoah,
+        name: "Noah",
+        subtitle: "Tagged 2 hours ago",
+        appLabel: "Instagram",
+        appIcon: iconInstagram,
+        text: "she posted this an hour ago. tagged as 'Noah'.",
+      },
+      { type: "msgs", text: "she told you she was just busy with work. i don't think that's true." },
+      { type: "choices", options: ["Who is this?", "Prove it."] },
+      { type: "msgs", text: "Her fictional phone — unlocked. See for yourself." },
       { type: "cta", label: "Search the phone 🔍" },
     ],
     matches: [
