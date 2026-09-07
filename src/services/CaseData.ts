@@ -20,7 +20,6 @@ import {
 } from "../Assets/Icons/icons";
 
 import agentAvatar from "../Assets/UI/agent-avatar.webp";
-import wallpaper from "../Assets/UI/wallpaper-blue.jpg";
 
 import daniel from "../Assets/KB4/daniel.webp";
 import sarah from "../Assets/KB4/sarah.webp";
@@ -29,6 +28,7 @@ import evidenceDanielIvy from "../Assets/KB4/evidence-daniel-ivy.webp";
 import hero from "../Assets/KB4/hero.webp";
 import danielSmile from "../Assets/KB4/daniel-smile.webp";
 import danielHide from "../Assets/KB4/daniel-hide.webp";
+import wallpaper from "../Assets/KB4/wallpaper.webp";
 
 /**
  * KB4 — "Old classmate". Sarah suspects her husband Daniel of reconnecting
@@ -44,7 +44,7 @@ export const demoCase: CaseConfig = {
     {
       informant: { name: "Agent Iris", avatar: agentAvatar },
       prompt: "Glimpse has a tagged-location post. Who is he with?",
-      choices: ["A coworker", "Ivy", "His sister", "An old college friend"],
+      choices: ["A coworker", "His sister", "An old college friend", "Ivy"],
       correct: "Ivy",
       correctReply: "Ivy — a name Sarah's never even heard. Keep digging.",
       wrongReply: ["Check the caption again.", "Not quite. Look at the post again."],
@@ -55,7 +55,7 @@ export const demoCase: CaseConfig = {
     {
       informant: { name: "Agent Iris", avatar: agentAvatar },
       prompt: "There's an odd note saved on his phone. What does it say?",
-      choices: ["Grocery list", "Meet Ivy at 7 — don't tell Sarah", "Work reminder", "Car maintenance"],
+      choices: ["Grocery list", "Work reminder", "Car maintenance", "Meet Ivy at 7 — don't tell Sarah"],
       correct: "Meet Ivy at 7 — don't tell Sarah",
       correctReply: "A meetup, and he's asking to keep it from Sarah. That's everything I need.",
       wrongReply: ["Not that note — try the other one.", "Nope. Look again in Notes."],
@@ -66,7 +66,7 @@ export const demoCase: CaseConfig = {
     {
       informant: { name: "Agent Iris", avatar: agentAvatar },
       prompt: "Pinpoint tracks frequent visits. Where does he keep going?",
-      choices: ["The gym", "Sunrise Café", "The office", "His parents' house"],
+      choices: ["The gym", "The office", "Sunrise Café", "His parents' house"],
       correct: "Sunrise Café",
       correctReply: "The same café, over and over — exactly where they meet. Case closed.",
       wrongReply: ["That place is nothing unusual. Check again.", "Not quite — look at the visit history again."],
@@ -166,6 +166,20 @@ export const demoCase: CaseConfig = {
       unread: false,
       msgs: [{ me: false, text: "Game night this week?" }],
     },
+    {
+      id: "w4",
+      title: "Dad",
+      time: "Sunday",
+      unread: false,
+      msgs: [{ me: false, text: "Call me when you get a chance" }],
+    },
+    {
+      id: "w5",
+      title: "Neighbor",
+      time: "Sunday",
+      unread: false,
+      msgs: [{ me: false, text: "Thanks for watering the plants!" }],
+    },
   ],
   calls: [
     { name: "Sarah", time: "Yesterday, 6:30 PM", type: "incoming" },
@@ -194,10 +208,10 @@ export const demoCase: CaseConfig = {
     ],
   },
   notes: [
-    { title: "Note", body: "Meet Ivy at 7 — don't tell Sarah" },
     { title: "Note", body: "Fix the leaky faucet" },
     { title: "Note", body: "Pick up dry cleaning Friday" },
     { title: "Note", body: "Sarah's birthday gift ideas" },
+    { title: "Note", body: "Meet Ivy at 7 — don't tell Sarah" },
   ],
   calendar: [
     { title: "Dinner with Sarah's parents", date: "09/12" },
@@ -208,10 +222,10 @@ export const demoCase: CaseConfig = {
     displayName: "Daniel Reyes",
     avatar: daniel,
     posts: [
-      { image: evidenceDanielIvy, location: "Sunrise Café", caption: "Great catching up with Ivy ☕️" },
       { image: daniel, location: "Downtown" },
       { image: hero, location: "Home", caption: "Lucky to have her" },
       { image: danielSmile, location: "Home", caption: "Good news today" },
+      { image: evidenceDanielIvy, location: "Sunrise Café", caption: "Great catching up with Ivy ☕️" },
     ],
   },
   airbnb: {
@@ -223,6 +237,9 @@ export const demoCase: CaseConfig = {
     { sender: "City Utilities", subject: "Your bill is ready", preview: "Your monthly statement is now available..." },
     { sender: "Hardware Store", subject: "Your order confirmation", preview: "Thanks for your order! Here's your receipt..." },
     { sender: "Gym Membership", subject: "Class schedule update", preview: "Here's the updated schedule for next month..." },
+    { sender: "Bank Alerts", subject: "Your statement is ready", preview: "Your monthly account statement is now available..." },
+    { sender: "Streaming Service", subject: "New shows added this week", preview: "Check out what's new for you this week..." },
+    { sender: "Airline", subject: "Check-in now open", preview: "Your flight check-in is now available online..." },
   ],
   photos: [{ src: daniel }, { src: sarah }, { src: hero }],
   vaultCode: "0000",
