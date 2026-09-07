@@ -27,6 +27,8 @@ import sarah from "../Assets/KB4/sarah.webp";
 import ivy from "../Assets/KB4/ivy.webp";
 import evidenceDanielIvy from "../Assets/KB4/evidence-daniel-ivy.webp";
 import hero from "../Assets/KB4/hero.webp";
+import danielSmile from "../Assets/KB4/daniel-smile.webp";
+import danielHide from "../Assets/KB4/daniel-hide.webp";
 
 /**
  * KB4 — "Old classmate". Sarah suspects her husband Daniel of reconnecting
@@ -78,8 +80,8 @@ export const demoCase: CaseConfig = {
     avatar: agentAvatar,
     hire: [
       { type: "msgs", text: "Hey. I need you to check something for me — quietly." },
-      { type: "msgs", text: "My husband Daniel has been talking to an old classmate more than I'm comfortable with." },
-      { type: "msgs", text: "Recent activity, hidden notes, places he keeps going back to... something feels off." },
+      { type: "reveal", src: danielSmile, label: "Too pleased", text: "My husband Daniel, grinning at his phone like a teenager. He says it's nothing." },
+      { type: "reveal", src: danielHide, label: "Flipped away", text: "Then he flips it face-down the second I walk in. An old classmate's name keeps coming up." },
       { type: "choices", options: ["Take the case", "Are you sure?"] },
       { type: "msgs", text: "Good. Here's the case file — his fictional phone, unlocked for the investigation." },
       { type: "cta", label: "Search the phone 🔍" },
@@ -150,6 +152,20 @@ export const demoCase: CaseConfig = {
       unread: false,
       msgs: [{ me: false, text: "See you both tonight!" }],
     },
+    {
+      id: "w2",
+      title: "Work Group",
+      time: "Yesterday",
+      unread: false,
+      msgs: [{ me: false, text: "Don't forget the report is due Friday" }],
+    },
+    {
+      id: "w3",
+      title: "Mike",
+      time: "Monday",
+      unread: false,
+      msgs: [{ me: false, text: "Game night this week?" }],
+    },
   ],
   calls: [
     { name: "Sarah", time: "Yesterday, 6:30 PM", type: "incoming" },
@@ -180,6 +196,8 @@ export const demoCase: CaseConfig = {
   notes: [
     { title: "Note", body: "Meet Ivy at 7 — don't tell Sarah" },
     { title: "Note", body: "Fix the leaky faucet" },
+    { title: "Note", body: "Pick up dry cleaning Friday" },
+    { title: "Note", body: "Sarah's birthday gift ideas" },
   ],
   calendar: [
     { title: "Dinner with Sarah's parents", date: "09/12" },
@@ -193,6 +211,7 @@ export const demoCase: CaseConfig = {
       { image: evidenceDanielIvy, location: "Sunrise Café", caption: "Great catching up with Ivy ☕️" },
       { image: daniel, location: "Downtown" },
       { image: hero, location: "Home", caption: "Lucky to have her" },
+      { image: danielSmile, location: "Home", caption: "Good news today" },
     ],
   },
   airbnb: {
@@ -202,6 +221,8 @@ export const demoCase: CaseConfig = {
   },
   gmail: [
     { sender: "City Utilities", subject: "Your bill is ready", preview: "Your monthly statement is now available..." },
+    { sender: "Hardware Store", subject: "Your order confirmation", preview: "Thanks for your order! Here's your receipt..." },
+    { sender: "Gym Membership", subject: "Class schedule update", preview: "Here's the updated schedule for next month..." },
   ],
   photos: [{ src: daniel }, { src: sarah }, { src: hero }],
   vaultCode: "0000",
