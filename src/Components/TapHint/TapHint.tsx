@@ -35,16 +35,17 @@ export default function TapHint({ targetSelector, idleMs = 3500 }: TapHintProps)
       idleTimer = setTimeout(showHint, idleMs);
     };
 
+    // Chỉ reset khi có CHẠM THẬT (pointerdown) — không nghe scroll/resize
+    // của window nữa: trong webview quảng cáo trên mobile, thanh địa chỉ
+    // ẩn/hiện hoặc SDK quảng cáo poll kích thước cũng tự bắn ra 2 sự kiện
+    // này dù người chơi không làm gì, khiến đồng hồ bị reset liên tục và
+    // bàn tay gợi ý không bao giờ kịp hiện lên.
     resetIdle();
     window.addEventListener("pointerdown", resetIdle);
-    window.addEventListener("scroll", resetIdle, true);
-    window.addEventListener("resize", resetIdle);
 
     return () => {
       clearTimeout(idleTimer);
       window.removeEventListener("pointerdown", resetIdle);
-      window.removeEventListener("scroll", resetIdle, true);
-      window.removeEventListener("resize", resetIdle);
     };
   }, [targetSelector, idleMs]);
 
