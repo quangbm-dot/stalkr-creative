@@ -165,6 +165,13 @@ export const demoCase: CaseConfig = {
       msgs: [{ me: false, text: "Reminder: class at 6pm tomorrow" }],
     },
     {
+      id: "w5",
+      title: "Dad",
+      time: "Yesterday",
+      unread: false,
+      msgs: [{ me: false, text: "Call me when you get a chance" }],
+    },
+    {
       id: "w1",
       title: "N.",
       time: "23:47",
@@ -181,6 +188,13 @@ export const demoCase: CaseConfig = {
       time: "Monday",
       unread: false,
       msgs: [{ me: false, text: "Sending you the photos from last weekend!" }],
+    },
+    {
+      id: "w6",
+      title: "Work Group",
+      time: "Monday",
+      unread: false,
+      msgs: [{ me: false, text: "Standup notes attached" }],
     },
   ],
   calls: [
@@ -239,6 +253,8 @@ export const demoCase: CaseConfig = {
     { sender: "HR Department", subject: "Travel itinerary confirmed", preview: "Your business trip itinerary has been confirmed for..." },
     { sender: "Yoga Studio", subject: "Your membership renews soon", preview: "Your monthly membership will renew on..." },
     { sender: "Online Store", subject: "Your order has shipped", preview: "Good news! Your recent order is on its way..." },
+    { sender: "Bank Alerts", subject: "Your statement is ready", preview: "Your monthly account statement is now available..." },
+    { sender: "Streaming Service", subject: "New shows added this week", preview: "Check out what's new for you this week..." },
   ],
   photos: [{ src: mia }, { src: kevin }, { src: hero }, { src: noah }],
   vaultCode: "0000",
