@@ -17,9 +17,8 @@ import {
   iconSettings,
   iconMessages,
   iconPhone,
+  iconUnknown,
 } from "../Assets/Icons/icons";
-
-import unknownAvatar from "../Assets/UI/unknown-avatar.svg";
 
 import alex from "../Assets/KB3/alex.webp";
 import sophia from "../Assets/KB3/sophia.webp";
@@ -41,7 +40,7 @@ export const demoCase: CaseConfig = {
   hintBudget: 4,
   evidenceRounds: [
     {
-      informant: { name: "Unknown", avatar: unknownAvatar },
+      informant: { name: "Unknown", avatar: iconUnknown },
       prompt: "Search his Mailly for clues. Is he emailing someone he shouldn't be?",
       choices: ["A coworker", "His brother", "A client", "nadia.ellis@..."],
       correct: "nadia.ellis@...",
@@ -52,7 +51,7 @@ export const demoCase: CaseConfig = {
       hintApp: "gmail",
     },
     {
-      informant: { name: "Unknown", avatar: unknownAvatar },
+      informant: { name: "Unknown", avatar: iconUnknown },
       prompt: "RevoBank shows a recent gift purchase. Who was it sent to?",
       choices: ["N. Sterling", "Sophia", "His mom", "A best man gift"],
       correct: "N. Sterling",
@@ -63,7 +62,7 @@ export const demoCase: CaseConfig = {
       hintApp: "revolut",
     },
     {
-      informant: { name: "Unknown", avatar: unknownAvatar },
+      informant: { name: "Unknown", avatar: iconUnknown },
       prompt: "Pinpoint tracks frequent visits. Where does he keep going that isn't work?",
       choices: ["The office", "The gym", "Riverside Café", "His parents' house"],
       correct: "Riverside Café",
@@ -76,7 +75,7 @@ export const demoCase: CaseConfig = {
   ],
   client: {
     name: "Unknown Number",
-    avatar: unknownAvatar,
+    avatar: iconUnknown,
     hire: [
       { type: "msgs", text: "hey... this is going to sound strange, but you deserve to know." },
       { type: "msgs", text: "congrats on the engagement. he's still texting her though." },
