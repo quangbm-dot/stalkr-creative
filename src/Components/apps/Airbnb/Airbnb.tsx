@@ -11,7 +11,7 @@ export default function Airbnb({ caseData, onBack }: AirbnbProps) {
   const { name, listings } = caseData.airbnb;
 
   return (
-    <AppScreen title="Airbnb" onBack={onBack} theme="light">
+    <AppScreen title="Nestly" onBack={onBack} theme="light">
       <div className={styles.search}>🔍 {name}</div>
       <div className={styles.feed}>
         {listings.map((l, i) => (
