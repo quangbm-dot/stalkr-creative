@@ -20,7 +20,6 @@ import {
 } from "../Assets/Icons/icons";
 
 import agentAvatar from "../Assets/UI/agent-avatar.webp";
-import wallpaper from "../Assets/UI/wallpaper-blue.jpg";
 import matchAshley from "../Assets/UI/match-ashley.jpg";
 import matchMegan from "../Assets/UI/match-megan.jpg";
 import matchChloe from "../Assets/UI/match-chloe.jpg";
@@ -32,6 +31,7 @@ import evidenceMiaNoah from "../Assets/KB2/evidence-mia-noah.webp";
 import hero from "../Assets/KB2/hero.webp";
 import miaNight from "../Assets/KB2/mia-night.webp";
 import miaHide from "../Assets/KB2/mia-hide.webp";
+import wallpaper from "../Assets/KB2/wallpaper.webp";
 
 /**
  * KB2 — "Long distance". Kevin (away for work) suspects his girlfriend Mia
@@ -47,7 +47,7 @@ export const demoCase: CaseConfig = {
     {
       informant: { name: "Agent Iris", avatar: agentAvatar },
       prompt: "Search her Chatta for clues. Is she texting someone she shouldn't be?",
-      choices: ["Mom", "N.", "Her boss", "Her sister"],
+      choices: ["Mom", "Her boss", "Her sister", "N."],
       correct: "N.",
       correctReply: "A contact saved as just 'N.'... found it. Keep digging.",
       wrongReply: ["That's just a normal contact. Keep looking.", "Not that one. Check again — someone's off."],
@@ -58,7 +58,7 @@ export const demoCase: CaseConfig = {
     {
       informant: { name: "Agent Iris", avatar: agentAvatar },
       prompt: "Glimpse has a private post. Who is she getting coffee with?",
-      choices: ["A coworker", "Noah", "Her cousin", "A college friend"],
+      choices: ["Noah", "A coworker", "Her cousin", "A college friend"],
       correct: "Noah",
       correctReply: "Noah... same initial as 'N.' in Chatta. Sit tight — one more piece.",
       wrongReply: ["Check the caption again.", "Still not him. Look at the post again."],
@@ -69,7 +69,7 @@ export const demoCase: CaseConfig = {
     {
       informant: { name: "Agent Iris", avatar: agentAvatar },
       prompt: "There's an odd note saved on her phone. What does it say?",
-      choices: ["Grocery list", "Meet Noah at 8 — don't tell Kevin", "Work reminder", "Doctor's appointment"],
+      choices: ["Grocery list", "Work reminder", "Meet Noah at 8 — don't tell Kevin", "Doctor's appointment"],
       correct: "Meet Noah at 8 — don't tell Kevin",
       correctReply: "A meetup, and she's asking to keep it from you. That's everything I need.",
       wrongReply: ["Not that note — try the other one.", "Nope. Look again in Notes."],
@@ -151,17 +151,6 @@ export const demoCase: CaseConfig = {
   ],
   whatsapp: [
     {
-      id: "w1",
-      title: "N.",
-      time: "23:47",
-      unread: true,
-      msgs: [
-        { me: false, text: "I miss you so much. When can we see each other again?" },
-        { me: true, text: "Soon, I promise. Just be patient a little longer." },
-        { me: false, text: "I can't stop thinking about you 😘" },
-      ],
-    },
-    {
       id: "w2",
       title: "Mom",
       time: "08:15",
@@ -174,6 +163,17 @@ export const demoCase: CaseConfig = {
       time: "Yesterday",
       unread: false,
       msgs: [{ me: false, text: "Reminder: class at 6pm tomorrow" }],
+    },
+    {
+      id: "w1",
+      title: "N.",
+      time: "23:47",
+      unread: true,
+      msgs: [
+        { me: false, text: "I miss you so much. When can we see each other again?" },
+        { me: true, text: "Soon, I promise. Just be patient a little longer." },
+        { me: false, text: "I can't stop thinking about you 😘" },
+      ],
     },
     {
       id: "w4",
@@ -210,10 +210,10 @@ export const demoCase: CaseConfig = {
     ],
   },
   notes: [
-    { title: "Note", body: "Meet Noah at 8 — don't tell Kevin" },
     { title: "Note", body: "Pick up dry cleaning" },
     { title: "Note", body: "Call the vet about the checkup" },
     { title: "Note", body: "Gift ideas for Kevin's birthday" },
+    { title: "Note", body: "Meet Noah at 8 — don't tell Kevin" },
   ],
   calendar: [
     { title: "Yoga class", date: "09/12" },
@@ -224,10 +224,10 @@ export const demoCase: CaseConfig = {
     displayName: "Mia Bennett",
     avatar: mia,
     posts: [
-      { image: evidenceMiaNoah, location: "The Daily Grind", caption: "Coffee with Noah ☕️" },
       { image: mia, location: "Downtown" },
       { image: hero, location: "Home", caption: "Missing this one" },
       { image: miaNight, location: "Home", caption: "Late night thoughts" },
+      { image: evidenceMiaNoah, location: "The Daily Grind", caption: "Coffee with Noah ☕️" },
     ],
   },
   airbnb: {
