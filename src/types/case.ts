@@ -36,6 +36,10 @@ export type HireStep =
   /** Ảnh polaroid đặc biệt: bóng người ẩn danh + dấu "?" + khoanh đỏ, ghim
    *  lên bảng như 1 khung ảnh bình thường (không cần src). */
   | { type: "mysteryReveal"; text: string; label: string }
+  /** v4 intro: 1 ảnh "hành vi" duy nhất hiện dạng card app thật (ảnh +
+   *  tên/subtitle đè lên, badge icon+tên app ở góc) ngay trong dòng chat,
+   *  thay cho bảng ghim polaroid nhiều ảnh của v1-v3. */
+  | { type: "appReveal"; text: string; src: string; name: string; subtitle: string; appLabel: string; appIcon: string }
   | { type: "choices"; options: string[] }
   | { type: "cta"; label: string };
 

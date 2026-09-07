@@ -21,13 +21,13 @@ import iconMaps from "../Assets/Icons/real/googlemaps.webp";
 import iconWhatsapp from "../Assets/Icons/real/whatsapp.webp";
 
 import agentAvatar from "../Assets/UI/agent-avatar.webp";
+import unknownAvatar from "../Assets/UI/girl-silhouette.jpg";
 
 import alex from "../Assets/KB3/alex.webp";
 import sophia from "../Assets/KB3/sophia.webp";
 import nadia from "../Assets/KB3/nadia.webp";
 import hero from "../Assets/KB3/hero.webp";
 import alexNight from "../Assets/KB3/alex-night.webp";
-import alexHide from "../Assets/KB3/alex-hide.webp";
 import wallpaper from "../Assets/KB3/wallpaper.webp";
 
 /**
@@ -77,15 +77,23 @@ export const demoCase: CaseConfig = {
     },
   ],
   client: {
-    name: "Agent Iris",
-    avatar: agentAvatar,
+    name: "Unknown Number",
+    avatar: unknownAvatar,
     hire: [
-      { type: "msgs", text: "Can I ask you something... Do you ever really know everything about the person you love?" },
-      { type: "reveal", src: hero, label: "Alex & Sophia", text: "This is Alex, my fiancé. We just got engaged — it should be the happiest time of my life." },
-      { type: "reveal", src: alexNight, label: "Hushed calls", text: "But lately he's been up at all hours, texting someone in the dark, voice low so I won't hear." },
-      { type: "reveal", src: alexHide, label: "Quick to hide", text: "The moment I walk in, the phone goes face-down. I need to know what's really going on before I marry him." },
-      { type: "choices", options: ["Take the case", "Are you sure?"] },
-      { type: "msgs", text: "Good. Here's the case file — his fictional phone, unlocked for the investigation." },
+      { type: "msgs", text: "hey... this is going to sound strange, but you deserve to know." },
+      { type: "msgs", text: "congrats on the engagement. he's still texting her though." },
+      {
+        type: "appReveal",
+        src: nadia,
+        name: "Nadia",
+        subtitle: "Followed 2 days ago",
+        appLabel: "Instagram",
+        appIcon: iconInstagram,
+        text: "he's been liking her posts all week. this is her.",
+      },
+      { type: "msgs", text: "he told you it was over between them. i don't think that's true." },
+      { type: "choices", options: ["Who is this?", "Prove it."] },
+      { type: "msgs", text: "His fictional phone — unlocked. See for yourself." },
       { type: "cta", label: "Search the phone 🔍" },
     ],
     matches: [
