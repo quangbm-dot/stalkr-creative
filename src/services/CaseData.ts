@@ -205,13 +205,14 @@ export const demoCase: CaseConfig = {
       { name: "Home", subtitle: "Visited daily" },
       { name: "Office", subtitle: "Weekdays" },
       { name: "Sunrise Café", subtitle: "Visited 4 times this week" },
+      { name: "Gym", subtitle: "Weekends" },
     ],
   },
   notes: [
     { title: "Note", body: "Fix the leaky faucet" },
     { title: "Note", body: "Pick up dry cleaning Friday" },
-    { title: "Note", body: "Sarah's birthday gift ideas" },
     { title: "Note", body: "Meet Ivy at 7 — don't tell Sarah" },
+    { title: "Note", body: "Sarah's birthday gift ideas" },
   ],
   calendar: [
     { title: "Dinner with Sarah's parents", date: "09/12" },
@@ -224,8 +225,8 @@ export const demoCase: CaseConfig = {
     posts: [
       { image: daniel, location: "Downtown" },
       { image: hero, location: "Home", caption: "Lucky to have her" },
-      { image: danielSmile, location: "Home", caption: "Good news today" },
       { image: evidenceDanielIvy, location: "Sunrise Café", caption: "Great catching up with Ivy ☕️" },
+      { image: danielSmile, location: "Home", caption: "Good news today" },
     ],
   },
   airbnb: {
