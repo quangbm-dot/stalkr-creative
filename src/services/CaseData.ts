@@ -26,7 +26,7 @@ import matchJess from "../Assets/UI/match-jess.jpg";
 
 import wallpaper from "../Assets/UI/wallpaper-blue.jpg";
 import agentAvatar from "../Assets/UI/agent-avatar.webp";
-import unknownAvatar from "../Assets/UI/girl-silhouette.jpg";
+import unknownAvatar from "../Assets/UI/unknown-avatar.svg";
 
 import ryan from "../Assets/KB1/ryan-new.jpg";
 import zoe from "../Assets/KB1/emma-new.jpg";
