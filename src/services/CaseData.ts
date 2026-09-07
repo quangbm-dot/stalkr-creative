@@ -1,26 +1,24 @@
 import type { CaseConfig } from "../types/case";
 
-import {
-  iconNotes,
-  iconPhotos,
-  iconCalendar,
-  iconWeather,
-  iconWallet,
-  iconRevoBank,
-  iconClock,
-  iconCompass,
-  iconCalculator,
-  iconSettings,
-  iconMessages,
-  iconPhone,
-} from "../Assets/Icons/icons";
-
 import iconInstagram from "../Assets/Icons/real/instagram.webp";
 import iconGmail from "../Assets/Icons/real/gmail.webp";
 import iconMaps from "../Assets/Icons/real/googlemaps.webp";
 import iconWhatsapp from "../Assets/Icons/real/whatsapp.webp";
+import iconNotes from "../Assets/Icons/real/notes.webp";
+import iconPhotos from "../Assets/Icons/real/photos.webp";
+import iconCalendar from "../Assets/Icons/real/calendar.webp";
+import iconWeather from "../Assets/Icons/real/weather.webp";
+import iconWallet from "../Assets/Icons/real/wallet.webp";
+import iconRevoBank from "../Assets/Icons/real/revobank.webp";
+import iconClock from "../Assets/Icons/real/alarm.webp";
+import iconCompass from "../Assets/Icons/real/compass.webp";
+import iconCalculator from "../Assets/Icons/real/calculator.webp";
+import iconSettings from "../Assets/Icons/real/settings.webp";
+import iconMessages from "../Assets/Icons/real/messages.webp";
+import iconPhone from "../Assets/Icons/real/phone.webp";
 
 import agentAvatar from "../Assets/UI/agent-avatar.webp";
+import unknownAvatar from "../Assets/UI/girl-silhouette.jpg";
 
 import daniel from "../Assets/KB4/daniel.webp";
 import sarah from "../Assets/KB4/sarah.webp";
@@ -28,7 +26,6 @@ import ivy from "../Assets/KB4/ivy.webp";
 import evidenceDanielIvy from "../Assets/KB4/evidence-daniel-ivy.webp";
 import hero from "../Assets/KB4/hero.webp";
 import danielSmile from "../Assets/KB4/daniel-smile.webp";
-import danielHide from "../Assets/KB4/daniel-hide.webp";
 import wallpaper from "../Assets/KB4/wallpaper.webp";
 
 /**
@@ -77,14 +74,23 @@ export const demoCase: CaseConfig = {
     },
   ],
   client: {
-    name: "Agent Iris",
-    avatar: agentAvatar,
+    name: "Unknown Number",
+    avatar: unknownAvatar,
     hire: [
-      { type: "msgs", text: "Hey. I need you to check something for me — quietly." },
-      { type: "reveal", src: danielSmile, label: "Too pleased", text: "My husband Daniel, grinning at his phone like a teenager. He says it's nothing." },
-      { type: "reveal", src: danielHide, label: "Flipped away", text: "Then he flips it face-down the second I walk in. An old classmate's name keeps coming up." },
-      { type: "choices", options: ["Take the case", "Are you sure?"] },
-      { type: "msgs", text: "Good. Here's the case file — his fictional phone, unlocked for the investigation." },
+      { type: "msgs", text: "hey... this is going to sound strange, but you deserve to know." },
+      { type: "msgs", text: "he's been meeting up with an old classmate. more than once." },
+      {
+        type: "appReveal",
+        src: evidenceDanielIvy,
+        name: "Ivy",
+        subtitle: "Tagged at Sunrise Café",
+        appLabel: "Instagram",
+        appIcon: iconInstagram,
+        text: "he posted this — Ivy, from his old class.",
+      },
+      { type: "msgs", text: "he told you it was nothing. i don't think that's true." },
+      { type: "choices", options: ["Who is this?", "Prove it."] },
+      { type: "msgs", text: "His fictional phone — unlocked. See for yourself." },
       { type: "cta", label: "Search the phone 🔍" },
     ],
     matches: [
