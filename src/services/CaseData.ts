@@ -18,7 +18,7 @@ import iconMessages from "../Assets/Icons/real/messages.webp";
 import iconPhone from "../Assets/Icons/real/phone.webp";
 
 import agentAvatar from "../Assets/UI/agent-avatar.webp";
-import unknownAvatar from "../Assets/UI/girl-silhouette.jpg";
+import unknownAvatar from "../Assets/UI/unknown-avatar.svg";
 
 import alex from "../Assets/KB3/alex.webp";
 import sophia from "../Assets/KB3/sophia.webp";
