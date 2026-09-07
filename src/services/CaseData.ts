@@ -29,14 +29,12 @@ import matchJess from "../Assets/UI/match-jess.jpg";
 
 import wallpaper from "../Assets/UI/wallpaper-blue.jpg";
 import agentAvatar from "../Assets/UI/agent-avatar.webp";
+import unknownAvatar from "../Assets/UI/girl-silhouette.jpg";
 
 import ryan from "../Assets/KB1/ryan-new.jpg";
 import zoe from "../Assets/KB1/emma-new.jpg";
 import coupleHero from "../Assets/KB1/couple-new.jpg";
-import ryanHide from "../Assets/KB1/ryan-hide.jpg";
-import emmaRyanHug from "../Assets/KB1/emma-ryan-hug-v2.jpg";
 import emmaAvatar from "../Assets/KB1/informant-1.jpg";
-import ryanPhone from "../Assets/KB1/ryan-phone.jpg";
 import bnbParis from "../Assets/KB1/bnb_paris.jpg";
 import bnbLove from "../Assets/KB1/bnb_love.jpg";
 import post1 from "../Assets/KB1/post_1.jpg";
@@ -104,24 +102,22 @@ export const demoCase: CaseConfig = {
     },
   ],
   client: {
-    name: "Agent Iris",
-    avatar: agentAvatar,
+    name: "Unknown Number",
+    avatar: unknownAvatar,
     hire: [
-      { type: "msgs", text: "Hey... I need your help, fast. My friend Emma thinks Ryan's cheating on her." },
+      { type: "msgs", text: "hey... this is going to sound strange, but you deserve to know." },
+      { type: "msgs", text: "it's 2am and i'm the one he's been texting." },
       {
         type: "tinderReveal",
-        src: ryan,
-        name: "Ryan",
-        age: 29,
+        src: zoe,
+        name: "Zoe",
+        age: 26,
         subtitle: "Active 4 minutes ago",
-        text: "This is him — Ryan. He's active on Tinder right now, 4 minutes ago.",
+        text: "he's active on Tinder right now, matched with me.",
       },
-      { type: "reveal", src: emmaRyanHug, label: "Emma & Ryan", text: "This is Emma and Ryan. Together two years." },
-      { type: "reveal", src: ryanPhone, label: "Every night", text: "Lately he's always on his phone at night — screen turned away the second she walks in." },
-      { type: "reveal", src: ryanHide, label: "Quick to hide", text: "He's grown cold toward her. The moment she gets close, the phone flips face-down." },
-      { type: "mysteryReveal", label: "Unknown", text: "And then... a strange girl keeps showing up in his life. Who is she?" },
-      { type: "choices", options: ["Take the case", "Are you sure?"] },
-      { type: "msgs", text: "Good. Here's the case file — his fictional phone, unlocked for the investigation." },
+      { type: "msgs", text: "he told me you two were basically done. i don't think that's true." },
+      { type: "choices", options: ["Who is this?", "Prove it."] },
+      { type: "msgs", text: "His fictional phone — unlocked. See for yourself." },
       { type: "cta", label: "Search the phone 🔍" },
     ],
     matches: [

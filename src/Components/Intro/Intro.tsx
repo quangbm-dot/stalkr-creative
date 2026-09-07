@@ -1,8 +1,6 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { CaseConfig, HireStep } from "../../types/case";
-import iconTinder from "../../Assets/Icons/real/tinder.webp";
-import girlSilhouette from "../../Assets/UI/girl-silhouette.jpg";
-import eyesLogo from "../../Assets/UI/eyes.webp";
+import handHint from "../../Assets/UI/hand-hint.webp";
 import styles from "./Intro.module.scss";
 
 interface IntroProps {
@@ -10,9 +8,9 @@ interface IntroProps {
   onDone: () => void;
 }
 
-type PhotoStep = Extract<HireStep, { type: "img" } | { type: "reveal" } | { type: "mysteryReveal" }>;
+type LogStep = Extract<HireStep, { type: "msgs" | "img" | "reveal" | "tinderReveal" | "appReveal" }>;
 
-const AUTO_ADVANCE_MS = 2500;
+const AUTO_ADVANCE_MS = 2200;
 // Câu chú thích dài hơn ngưỡng này thì bắt đầu được cộng thêm thời gian hiện.
 const TEXT_BASE_LEN = 45;
 
@@ -25,32 +23,14 @@ function getStepDuration(text: string | null): number {
   return Math.round(AUTO_ADVANCE_MS * multiplier);
 }
 
-// Vị trí cố định cho tối đa 4 khung polaroid trên "bảng chứng cứ" — top tính
-// bằng px (so với .board), left/width tính theo % để co giãn theo bề ngang
-// màn hình. Ảnh mới xuất hiện sẽ nối dây tới ghim của ảnh liền trước.
-const SLOTS = [
-  { top: 0, left: 0, rotate: -6 },
-  { top: 30, left: 52, rotate: 5 },
-  { top: 186, left: 0, rotate: -4 },
-  { top: 216, left: 50, rotate: 4 },
-];
-const SLOT_WIDTH = 46;
-const PIN_Y_OFFSET = -6;
-// .board có max-width 320px (khớp với viewBox dưới) — dùng hệ toạ độ px
-// thật cho cả 2 trục khi vẽ dây nối, tránh scale lệch trục (x theo %, y
-// theo px) làm nét dây bị méo/ngắn khi animate stroke-dasharray.
-const BOARD_REF_WIDTH = 320;
-
+/**
+ * v4 intro — một đoạn chat ngắn gọn từ số lạ (thay cho bảng ghim nhiều ảnh
+ * của v1-v3): vài bong bóng chat + đúng 1 ảnh "hành vi" hiện dạng card app
+ * thật, rồi tới 2 lựa chọn phản hồi. Nền dùng luôn wallpaper thật của case
+ * (như đang xem màn khoá máy nhận tin nhắn).
+ */
 export default function Intro({ caseData, onDone }: IntroProps) {
-  // Đôi mắt logo Stalkr hiện xuyên suốt bước text đầu tiên, mờ dần biến mất
-  // ngay khi qua bước 2 (giữ mounted thêm 1 nhịp để chạy hết animation mờ).
   const [step, setStep] = useState(0);
-  const [brandFlashMounted, setBrandFlashMounted] = useState(true);
-  useEffect(() => {
-    if (step === 0) return;
-    const t = setTimeout(() => setBrandFlashMounted(false), 500);
-    return () => clearTimeout(t);
-  }, [step]);
   const steps = caseData.client.hire;
   const current = steps[step];
   const isLast = step === steps.length - 1;
@@ -59,25 +39,15 @@ export default function Intro({ caseData, onDone }: IntroProps) {
     current.type === "img" ||
     current.type === "reveal" ||
     current.type === "tinderReveal" ||
-    current.type === "mysteryReveal";
-  const tinderIdx = useMemo(() => steps.findIndex((s) => s.type === "tinderReveal"), [steps]);
-  const tinderStep = tinderIdx >= 0 ? (steps[tinderIdx] as Extract<HireStep, { type: "tinderReveal" }>) : null;
-  const tinderState = tinderIdx < 0 ? "pre" : step < tinderIdx ? "pre" : step === tinderIdx ? "active" : "done";
+    current.type === "appReveal";
   const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const logEndRef = useRef<HTMLDivElement | null>(null);
 
-  const revealed = useMemo(
-    () =>
-      steps
-        .slice(0, step + 1)
-        .filter(
-          (s): s is PhotoStep =>
-            s.type === "img" || s.type === "reveal" || s.type === "mysteryReveal",
-        ),
-    [steps, step],
-  );
-  // Cố định chiều cao board theo slot xa nhất (4 khung) để bảng không co
-  // giãn/giật mỗi khi có ảnh mới hoặc độ dài text thay đổi.
-  const boardHeight = SLOTS[SLOTS.length - 1].top + 176;
+  const logSteps = steps.slice(0, step + 1).filter((s): s is LogStep => s.type !== "choices" && s.type !== "cta");
+
+  useEffect(() => {
+    logEndRef.current?.scrollIntoView({ block: "end" });
+  }, [step]);
 
   const advance = () => {
     if (timerRef.current) clearTimeout(timerRef.current);
@@ -85,13 +55,7 @@ export default function Intro({ caseData, onDone }: IntroProps) {
     else setStep((s) => s + 1);
   };
 
-  const currentText =
-    current.type === "msgs" ||
-    current.type === "reveal" ||
-    current.type === "tinderReveal" ||
-    current.type === "mysteryReveal"
-      ? current.text
-      : null;
+  const currentText = isAuto && "text" in current ? current.text : null;
 
   // Câu text càng dài thì hiện càng lâu (tối thiểu +20% so với thời lượng
   // gốc khi vượt ngưỡng "bình thường"), để người chơi có đủ thời gian đọc.
@@ -109,100 +73,58 @@ export default function Intro({ caseData, onDone }: IntroProps) {
   }, [step]);
 
   return (
-    <div className={styles.stage}>
+    <div className={styles.stage} style={{ backgroundImage: `url(${caseData.wallpaper})` }}>
+      <div className={styles.scrim} />
+
       <div className={styles.top}>
-        <span className={styles.titleGroup}>
-          <span className={styles.title}>{caseData.caseTitle}</span>
-          <span className={styles.fictionBadge}>Fictional mystery game</span>
-        </span>
+        <span className={styles.fictionBadge}>Fictional mystery game</span>
         <button type="button" className={styles.skip} onClick={onDone}>
           Skip
         </button>
       </div>
 
-      <div className={styles.boardWrap} onClick={() => isAuto && advance()}>
-        {brandFlashMounted && (
-          <div className={`${styles.brandFlash} ${step > 0 ? styles.brandFlashOut : ""}`}>
-            <img className={styles.brandFlashEyes} src={eyesLogo} alt="Stalkr" />
-          </div>
-        )}
-        <div className={styles.board} style={{ height: boardHeight }}>
-          <svg
-            className={styles.strings}
-            viewBox={`0 0 ${BOARD_REF_WIDTH} ${boardHeight}`}
-            preserveAspectRatio="none"
-          >
-            {revealed.slice(1).map((_, i) => {
-              const from = SLOTS[i];
-              const to = SLOTS[i + 1];
-              return (
-                <line
-                  key={i}
-                  x1={((from.left + SLOT_WIDTH / 2) / 100) * BOARD_REF_WIDTH}
-                  y1={from.top + PIN_Y_OFFSET}
-                  x2={((to.left + SLOT_WIDTH / 2) / 100) * BOARD_REF_WIDTH}
-                  y2={to.top + PIN_Y_OFFSET}
-                  pathLength={1}
-                  vectorEffect="non-scaling-stroke"
-                  className={styles.string}
-                />
-              );
-            })}
-          </svg>
+      <div className={styles.chatWrap} onClick={() => isAuto && advance()}>
+        <div className={styles.header}>
+          <img className={styles.headerAvatar} src={caseData.client.avatar} alt="" />
+          <span className={styles.headerName}>{caseData.client.name}</span>
+        </div>
 
-          {revealed.map((photo, i) => {
-            const slot = SLOTS[i];
-            return (
-              <div
-                key={i}
-                className={styles.card}
-                style={{
-                  top: slot.top,
-                  left: `${slot.left}%`,
-                  width: `${SLOT_WIDTH}%`,
-                  ["--rot" as string]: `${slot.rotate}deg`,
-                }}
-              >
-                <span className={styles.pin} />
-                {photo.type === "mysteryReveal" ? (
-                  <div className={styles.mysteryPhoto}>
-                    <img className={styles.mysterySilhouette} src={girlSilhouette} alt="" />
-                    <span className={styles.mysteryMark}>?</span>
-                    <svg className={styles.mysteryScribble} viewBox="0 0 100 100" preserveAspectRatio="none">
-                      <ellipse cx="48" cy="45" rx="40" ry="34" transform="rotate(-8 48 45)" vectorEffect="non-scaling-stroke" />
-                      <ellipse cx="52" cy="52" rx="38" ry="32" transform="rotate(6 52 52)" vectorEffect="non-scaling-stroke" />
-                    </svg>
+        <div className={styles.log}>
+          {logSteps.map((s, i) => {
+            if (s.type === "tinderReveal" || s.type === "appReveal") {
+              const appLabel = s.type === "tinderReveal" ? "Tinder" : s.appLabel;
+              return (
+                <div key={i} className={`${styles.appCard} ${styles.on}`}>
+                  <img className={styles.appCardPhoto} src={s.src} alt="" />
+                  {s.type === "appReveal" && (
+                    <div className={styles.appCardBadge}>
+                      <img src={s.appIcon} alt="" />
+                      <span>{appLabel}</span>
+                    </div>
+                  )}
+                  <div className={styles.appCardScrim} />
+                  <div className={styles.appCardInfo}>
+                    <span className={styles.appCardName}>
+                      {s.name}
+                      {s.type === "tinderReveal" ? `, ${s.age}` : ""}
+                    </span>
+                    <span className={styles.appCardSub}>
+                      <span className={styles.appCardDot} />
+                      {s.subtitle}
+                    </span>
                   </div>
-                ) : (
-                  <img className={styles.cardPhoto} src={photo.src} alt="" />
-                )}
-                {photo.label && <span className={styles.cardCaption}>{photo.label}</span>}
+                </div>
+              );
+            }
+            const text = "text" in s ? s.text : "";
+            return (
+              <div key={i} className={`${styles.bubble} ${styles.on}`}>
+                {text}
               </div>
             );
           })}
+          <div ref={logEndRef} />
         </div>
-
-        {tinderStep && (
-          <div className={`${styles.tinderCard} ${styles[tinderState]}`}>
-            <div className={styles.tinderInner}>
-              <img className={styles.tinderPhoto} src={tinderStep.src} alt="" />
-              <div className={styles.tinderLogo}>
-                <img src={iconTinder} alt="" />
-                <span>Tinder</span>
-              </div>
-              <div className={styles.tinderScrim} />
-              <div className={styles.tinderInfo}>
-                <span className={styles.tinderName}>
-                  {tinderStep.name}, {tinderStep.age}
-                </span>
-                <span className={styles.tinderSub}>
-                  <span className={styles.tinderDot} />
-                  {tinderStep.subtitle}
-                </span>
-              </div>
-            </div>
-          </div>
-        )}
       </div>
 
       {current.type === "cta" ? (
@@ -211,39 +133,31 @@ export default function Intro({ caseData, onDone }: IntroProps) {
             {current.label}
           </button>
         </div>
-      ) : (
-        <div className={styles.dialog}>
-          {currentText && (
-            <>
-              <span className={styles.cardLabel}>{caseData.client.name}</span>
-              <p className={styles.cardText}>{currentText}</p>
-            </>
-          )}
-
-          {isAuto && (
-            <div className={styles.progressRow}>
-              <div className={styles.track}>
-                <div
-                  key={step}
-                  className={styles.fill}
-                  style={{ animationDuration: `${stepDuration}ms` }}
-                />
-              </div>
-              <button type="button" className={styles.nextBtn} onClick={advance} aria-label="Next">
-                →
+      ) : current.type === "choices" ? (
+        <div className={styles.choicesWrap}>
+          <div className={styles.choices}>
+            {current.options.map((opt, i) => (
+              <button key={opt} type="button" className={styles.choice} onClick={advance}>
+                {opt}
+                {i === 0 && <img className={styles.choiceHint} src={handHint} alt="" />}
               </button>
+            ))}
+          </div>
+        </div>
+      ) : (
+        <div className={styles.progressWrap}>
+          <div className={styles.progressRow}>
+            <div className={styles.track}>
+              <div
+                key={step}
+                className={styles.fill}
+                style={{ animationDuration: `${stepDuration}ms` }}
+              />
             </div>
-          )}
-
-          {current.type === "choices" && (
-            <div className={styles.choices}>
-              {current.options.map((opt) => (
-                <button key={opt} type="button" className={styles.choice} onClick={advance}>
-                  {opt}
-                </button>
-              ))}
-            </div>
-          )}
+            <button type="button" className={styles.nextBtn} onClick={advance} aria-label="Next">
+              →
+            </button>
+          </div>
         </div>
       )}
     </div>
