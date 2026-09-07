@@ -1,23 +1,24 @@
 import type { CaseConfig } from "../types/case";
 
 import {
-  iconMailly,
   iconRevoBank,
-  iconGlimpse,
   iconPhotos,
   iconCalendar,
   iconWeather,
   iconWallet,
   iconNotes,
-  iconPinpoint,
   iconClock,
   iconCompass,
   iconCalculator,
   iconSettings,
   iconMessages,
   iconPhone,
-  iconChatta,
 } from "../Assets/Icons/icons";
+
+import iconInstagram from "../Assets/Icons/real/instagram.webp";
+import iconGmail from "../Assets/Icons/real/gmail.webp";
+import iconMaps from "../Assets/Icons/real/googlemaps.webp";
+import iconWhatsapp from "../Assets/Icons/real/whatsapp.webp";
 
 import agentAvatar from "../Assets/UI/agent-avatar.webp";
 
@@ -43,13 +44,13 @@ export const demoCase: CaseConfig = {
   evidenceRounds: [
     {
       informant: { name: "Agent Iris", avatar: agentAvatar },
-      prompt: "Search his Mailly for clues. Is he emailing someone he shouldn't be?",
+      prompt: "Search his Gmail for clues. Is he emailing someone he shouldn't be?",
       choices: ["A coworker", "His brother", "A client", "nadia.ellis@..."],
       correct: "nadia.ellis@...",
       correctReply: "That email thread with Nadia... found it. Keep digging.",
       wrongReply: ["That's just a work email. Keep looking.", "Not that one. Check again — someone's off."],
       reward: 10,
-      hint: "Open Mailly and check who he's really emailing.",
+      hint: "Open Gmail and check who he's really emailing.",
       hintApp: "gmail",
     },
     {
@@ -65,13 +66,13 @@ export const demoCase: CaseConfig = {
     },
     {
       informant: { name: "Agent Iris", avatar: agentAvatar },
-      prompt: "Pinpoint tracks frequent visits. Where does he keep going that isn't work?",
+      prompt: "Maps tracks frequent visits. Where does he keep going that isn't work?",
       choices: ["The office", "The gym", "Riverside Café", "His parents' house"],
       correct: "Riverside Café",
       correctReply: "The same café, over and over, with no reason tied to work. I've got what I need.",
       wrongReply: ["That place is nothing unusual. Check again.", "Not quite — look at the visit history again."],
       reward: 10,
-      hint: "Open Pinpoint and check his frequent places.",
+      hint: "Open Maps and check his frequent places.",
       hintApp: "maps",
     },
   ],
@@ -103,9 +104,9 @@ export const demoCase: CaseConfig = {
   home: {
     pages: [
       [
-        { app: "gmail", label: "Mailly", icon: iconMailly },
+        { app: "gmail", label: "Gmail", icon: iconGmail },
         { app: "revolut", label: "RevoBank", icon: iconRevoBank },
-        { app: "instagram", label: "Glimpse", icon: iconGlimpse },
+        { app: "instagram", label: "Instagram", icon: iconInstagram },
         { app: "photos", label: "Photos", icon: iconPhotos },
         { app: "calendar", label: "Calendar", icon: iconCalendar },
         { app: "weather", label: "Weather", icon: iconWeather },
@@ -113,7 +114,7 @@ export const demoCase: CaseConfig = {
         { app: "notes", label: "Notes", icon: iconNotes },
       ],
       [
-        { app: "maps", label: "Pinpoint", icon: iconPinpoint },
+        { app: "maps", label: "Maps", icon: iconMaps },
         { app: "clock", label: "Clock", icon: iconClock },
         { app: "compass", label: "Compass", icon: iconCompass },
         { app: "calculator", label: "Calculator", icon: iconCalculator },
@@ -123,7 +124,7 @@ export const demoCase: CaseConfig = {
     dock: [
       { app: "messages", label: "Messages", icon: iconMessages },
       { app: "phone", label: "Phone", icon: iconPhone },
-      { app: "whatsapp", label: "Chatta", icon: iconChatta },
+      { app: "whatsapp", label: "WhatsApp", icon: iconWhatsapp },
     ],
   },
   messages: [
