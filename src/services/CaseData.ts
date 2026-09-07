@@ -80,10 +80,9 @@ export const demoCase: CaseConfig = {
     name: "Agent Iris",
     avatar: agentAvatar,
     hire: [
-      { type: "msgs", text: "Hey... I need your help. My girlfriend Mia's been acting distant ever since I left for this work trip." },
-      { type: "reveal", src: mia, label: "Mia", text: "This is her — Mia. My girlfriend of three years." },
-      { type: "reveal", src: hero, label: "Kevin & Mia", text: "We've been inseparable since college — until this trip put an ocean between us." },
-      { type: "mysteryReveal", label: "Unknown", text: "Lately she goes quiet every night around the same time. Like she's hiding something. Or someone." },
+      { type: "msgs", text: "Hey — I need your help, fast. I think I just found something." },
+      { type: "reveal", src: mia, label: "Mia", text: "This is Mia, my girlfriend. Last night a message notification popped up from a contact saved as just 'N.'" },
+      { type: "msgs", text: "And there's a strange email sitting in her inbox too. I don't want to jump to conclusions — I need to know for sure." },
       { type: "choices", options: ["Take the case", "Are you sure?"] },
       { type: "msgs", text: "Good. Here's the case file — her fictional phone, unlocked for the investigation." },
       { type: "cta", label: "Search the phone 🔍" },
