@@ -87,6 +87,8 @@ export default function Intro({ caseData, onDone }: IntroProps) {
               return (
                 <div key={idx} className={`${styles.appCard} ${styles.on}`}>
                   <img className={styles.appCardPhoto} src={s.src} alt="" />
+                  <div className={styles.appCardBlur} />
+                  <span className={styles.appCardMark}>?</span>
                   {s.type === "appReveal" && (
                     <div className={styles.appCardBadge}>
                       <img src={s.appIcon} alt="" />
@@ -95,10 +97,7 @@ export default function Intro({ caseData, onDone }: IntroProps) {
                   )}
                   <div className={styles.appCardScrim} />
                   <div className={styles.appCardInfo}>
-                    <span className={styles.appCardName}>
-                      {s.name}
-                      {s.type === "tinderReveal" ? `, ${s.age}` : ""}
-                    </span>
+                    <span className={styles.appCardName}>Unknown</span>
                     <span className={styles.appCardSub}>
                       <span className={styles.appCardDot} />
                       {s.subtitle}
