@@ -18,6 +18,10 @@ dist-ssr
 !.vscode/extensions.json
 .idea
 .DS_Store
+gemini_api_key.txt
+gemini-drafts/
+character-refs-v1/
+character-refs-v2/
 *.suo
 *.ntvs*
 *.njsproj
