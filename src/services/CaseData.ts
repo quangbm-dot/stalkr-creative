@@ -77,10 +77,9 @@ export const demoCase: CaseConfig = {
     name: "Agent Iris",
     avatar: agentAvatar,
     hire: [
-      { type: "msgs", text: "Hey... I need your help. Alex just proposed, but something feels off." },
-      { type: "reveal", src: alex, label: "Alex", text: "This is him — Alex, my fiancé. We got engaged last week." },
-      { type: "reveal", src: hero, label: "Alex & Sophia", text: "The proposal was perfect. But ever since, his phone won't stop buzzing at night." },
-      { type: "mysteryReveal", label: "Unknown", text: "And there's someone he still won't stop talking to. Who is she?" },
+      { type: "msgs", text: "Can I ask you something... Do you ever really know everything about the person you love?" },
+      { type: "reveal", src: hero, label: "Alex & Sophia", text: "This is Alex, my fiancé. We just got engaged — it should be the happiest time of my life." },
+      { type: "msgs", text: "But lately he's been acting strange. Quick to hide his phone. Hushed calls after midnight. I need to know what's really going on before I marry him." },
       { type: "choices", options: ["Take the case", "Are you sure?"] },
       { type: "msgs", text: "Good. Here's the case file — his fictional phone, unlocked for the investigation." },
       { type: "cta", label: "Search the phone 🔍" },
