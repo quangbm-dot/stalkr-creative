@@ -226,8 +226,8 @@ export const demoCase: CaseConfig = {
   notes: [
     { title: "Note", body: "Pick up dry cleaning" },
     { title: "Note", body: "Call the vet about the checkup" },
-    { title: "Note", body: "Gift ideas for Kevin's birthday" },
     { title: "Note", body: "Meet Noah at 8 — don't tell Kevin" },
+    { title: "Note", body: "Gift ideas for Kevin's birthday" },
   ],
   calendar: [
     { title: "Yoga class", date: "09/12" },
@@ -240,8 +240,8 @@ export const demoCase: CaseConfig = {
     posts: [
       { image: mia, location: "Downtown" },
       { image: hero, location: "Home", caption: "Missing this one" },
-      { image: miaNight, location: "Home", caption: "Late night thoughts" },
       { image: evidenceMiaNoah, location: "The Daily Grind", caption: "Coffee with Noah ☕️" },
+      { image: miaNight, location: "Home", caption: "Late night thoughts" },
     ],
   },
   airbnb: {
