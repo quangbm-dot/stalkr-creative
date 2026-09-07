@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { CaseConfig, HireStep } from "../../types/case";
-import { iconFlurt } from "../../Assets/Icons/icons";
+import iconTinder from "../../Assets/Icons/real/tinder.webp";
 import girlSilhouette from "../../Assets/UI/girl-silhouette.jpg";
 import eyesLogo from "../../Assets/UI/eyes.webp";
 import styles from "./Intro.module.scss";
@@ -187,8 +187,8 @@ export default function Intro({ caseData, onDone }: IntroProps) {
             <div className={styles.tinderInner}>
               <img className={styles.tinderPhoto} src={tinderStep.src} alt="" />
               <div className={styles.tinderLogo}>
-                <img src={iconFlurt} alt="" />
-                <span>Flurt</span>
+                <img src={iconTinder} alt="" />
+                <span>Tinder</span>
               </div>
               <div className={styles.tinderScrim} />
               <div className={styles.tinderInfo}>

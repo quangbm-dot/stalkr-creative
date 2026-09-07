@@ -1,25 +1,26 @@
 import type { CaseConfig } from "../types/case";
 
 import {
-  iconFlurt,
   iconPhotos,
   iconNotes,
   iconCalendar,
   iconWeather,
-  iconGlimpse,
-  iconNestly,
   iconRevoBank,
   iconWallet,
-  iconMailly,
   iconClock,
-  iconPinpoint,
   iconCompass,
   iconCalculator,
   iconSettings,
   iconMessages,
   iconPhone,
-  iconChatta,
 } from "../Assets/Icons/icons";
+
+import iconTinder from "../Assets/Icons/real/tinder.webp";
+import iconInstagram from "../Assets/Icons/real/instagram.webp";
+import iconAirbnb from "../Assets/Icons/real/airbnb.webp";
+import iconGmail from "../Assets/Icons/real/gmail.webp";
+import iconMaps from "../Assets/Icons/real/googlemaps.webp";
+import iconWhatsapp from "../Assets/Icons/real/whatsapp.webp";
 
 import matchAshley from "../Assets/UI/match-ashley.jpg";
 import matchMegan from "../Assets/UI/match-megan.jpg";
@@ -81,13 +82,13 @@ export const demoCase: CaseConfig = {
     },
     {
       informant: { name: "Agent Iris", avatar: agentAvatar },
-      prompt: "He's been active on Flurt. Which girl did he match with?",
+      prompt: "He's been active on Tinder. Which girl did he match with?",
       choices: ["Chloe", "Zoe", "Megan", "Jess"],
       correct: "Zoe",
       correctReply: "Zoe, 26... found her. Keep digging.",
-      wrongReply: ["Check their ages again in Flurt.", "Still not her. Look at the matches again."],
+      wrongReply: ["Check their ages again in Tinder.", "Still not her. Look at the matches again."],
       reward: 10,
-      hint: "Open Flurt and check his matches.",
+      hint: "Open Tinder and check his matches.",
       hintApp: "tinder",
     },
     {
@@ -148,20 +149,20 @@ export const demoCase: CaseConfig = {
   home: {
     pages: [
       [
-        { app: "tinder", label: "Flurt", icon: iconFlurt },
+        { app: "tinder", label: "Tinder", icon: iconTinder },
         { app: "photos", label: "Photos", icon: iconPhotos },
         { app: "notes", label: "Notes", icon: iconNotes },
         { app: "calendar", label: "Calendar", icon: iconCalendar },
         { app: "weather", label: "Weather", icon: iconWeather },
-        { app: "instagram", label: "Glimpse", icon: iconGlimpse },
-        { app: "airbnb", label: "Nestly", icon: iconNestly },
+        { app: "instagram", label: "Instagram", icon: iconInstagram },
+        { app: "airbnb", label: "Airbnb", icon: iconAirbnb },
         { app: "revolut", label: "RevoBank", icon: iconRevoBank },
         { app: "wallet", label: "Wallet", icon: iconWallet },
       ],
       [
-        { app: "gmail", label: "Mailly", icon: iconMailly },
+        { app: "gmail", label: "Gmail", icon: iconGmail },
         { app: "clock", label: "Clock", icon: iconClock },
-        { app: "maps", label: "Pinpoint", icon: iconPinpoint },
+        { app: "maps", label: "Maps", icon: iconMaps },
         { app: "compass", label: "Compass", icon: iconCompass },
         { app: "calculator", label: "Calculator", icon: iconCalculator },
         { app: "settings", label: "Settings", icon: iconSettings },
@@ -170,7 +171,7 @@ export const demoCase: CaseConfig = {
     dock: [
       { app: "messages", label: "Messages", icon: iconMessages },
       { app: "phone", label: "Phone", icon: iconPhone },
-      { app: "whatsapp", label: "Chatta", icon: iconChatta },
+      { app: "whatsapp", label: "WhatsApp", icon: iconWhatsapp },
     ],
   },
   messages: [
@@ -303,7 +304,7 @@ export const demoCase: CaseConfig = {
     ],
   },
   gmail: [
-    { sender: "Nestly", subject: "Booking confirmed", preview: "Your villa has been confirmed for..." },
+    { sender: "Airbnb", subject: "Booking confirmed", preview: "Your villa has been confirmed for..." },
   ],
   photos: [
     { src: photo82 },

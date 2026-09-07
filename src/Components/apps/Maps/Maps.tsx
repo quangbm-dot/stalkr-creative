@@ -10,7 +10,7 @@ interface MapsProps {
 
 export default function Maps({ caseData, onBack }: MapsProps) {
   return (
-    <AppScreen title="Pinpoint" onBack={onBack} theme="light">
+    <AppScreen title="Maps" onBack={onBack} theme="light">
       <img className={styles.map} src={mapBg} alt="" />
       <div className={styles.sectionLabel}>Frequent places</div>
       <div className={styles.list}>

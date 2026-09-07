@@ -21,6 +21,9 @@ dist-ssr
 gemini_api_key.txt
 gemini-drafts/
 character-refs/
+character-refs-v1/
+character-refs-v2/
+original-icons-extracted/
 *.suo
 *.ntvs*
 *.njsproj
