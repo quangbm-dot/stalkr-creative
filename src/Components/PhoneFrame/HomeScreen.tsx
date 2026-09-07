@@ -1,13 +1,12 @@
 import { useEffect, useLayoutEffect, useRef, useState, type PointerEvent } from "react";
 import type { CaseConfig, AppKey } from "../../types/case";
-import TapHint from "../TapHint/TapHint";
 import styles from "./HomeScreen.module.scss";
 
 interface HomeScreenProps {
   caseData: CaseConfig;
   onOpenApp: (app: AppKey) => void;
-  /** App cần mở cho câu hỏi bằng chứng hiện tại — bàn tay gợi ý trỏ vào đúng
-   *  icon này, đổi theo từng câu; undefined thì không hiện gợi ý. */
+  /** App cần mở cho câu hỏi bằng chứng hiện tại — chính icon này sẽ tự nhấp
+   *  nháy/phát sáng gợi ý, đổi theo từng câu; undefined thì không gợi ý. */
   hintApp?: AppKey;
   /** Nâng state trang hiện tại lên App — HomeScreen bị unmount mỗi khi mở
    *  app con nên state cục bộ sẽ mất, quay lại Home phải nhớ đúng trang cũ. */
@@ -54,11 +53,10 @@ export default function HomeScreen({
     onActivePageChange(clamped);
   };
 
-  // Đếm "đứng im" ở đây (thay vì bên trong TapHint) vì chỉ HomeScreen mới
-  // biết trang nào đang active — mỗi lần hết hạn đứng im mới là lúc quyết
-  // định lại có cần tự chuyển trang cho đúng app hay không, chứ không chỉ
-  // chạy 1 lần khi hintApp đổi câu hỏi. Nếu chỉ theo hintApp, người chơi tự
-  // vuốt sang trang khác rồi đứng yên sẽ khiến bàn tay trỏ nhầm/không hiện.
+  // Đếm "đứng im" — mỗi lần hết hạn đứng im mới là lúc quyết định lại có
+  // cần tự chuyển trang cho đúng app hay không, chứ không chỉ chạy 1 lần
+  // khi hintApp đổi câu hỏi (nếu chỉ theo hintApp, người chơi tự vuốt sang
+  // trang khác rồi đứng yên sẽ khiến gợi ý nằm ở trang không hiển thị).
   const [hintDue, setHintDue] = useState(false);
   useEffect(() => {
     setHintDue(false);
@@ -166,9 +164,12 @@ export default function HomeScreen({
                 type="button"
                 className={styles.cell}
                 data-app={item.app}
-                data-hint={`app-${item.app}`}
               >
-                <img className={styles.appicon} src={item.icon} alt={item.label} />
+                <img
+                  className={`${styles.appicon} ${hintDue && item.app === hintApp ? styles.hintTarget : ""}`}
+                  src={item.icon}
+                  alt={item.label}
+                />
                 <span className={styles.label}>{item.label}</span>
               </button>
             ))}
@@ -190,8 +191,6 @@ export default function HomeScreen({
         </div>
       )}
 
-      {hintApp && hintDue && <TapHint key={hintApp} targetSelector={`[data-hint="app-${hintApp}"]`} />}
-
       <div
         className={styles.dock}
         onPointerUp={(e) => {
@@ -201,14 +200,12 @@ export default function HomeScreen({
         }}
       >
         {caseData.home.dock.map((item) => (
-          <button
-            key={item.app}
-            type="button"
-            className={styles.dockCell}
-            data-app={item.app}
-            data-hint={`app-${item.app}`}
-          >
-            <img className={styles.appicon} src={item.icon} alt={item.label} />
+          <button key={item.app} type="button" className={styles.dockCell} data-app={item.app}>
+            <img
+              className={`${styles.appicon} ${hintDue && item.app === hintApp ? styles.hintTarget : ""}`}
+              src={item.icon}
+              alt={item.label}
+            />
           </button>
         ))}
       </div>

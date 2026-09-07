@@ -199,3 +199,22 @@
   padding: 0;
   cursor: pointer;
 }
+
+/* Gợi ý app cần mở cho câu hỏi hiện tại — áp thẳng lên chính icon đó (không
+   phải 1 lớp phủ định vị riêng), nên không bao giờ lệch/trỏ nhầm app khác dù
+   icon nằm ở trang nào hay layout đổi ra sao. */
+.hintTarget {
+  border-radius: var(--app-icon-radius);
+  animation: hintPulse 1.4s ease-in-out infinite;
+}
+
+@keyframes hintPulse {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.55);
+  }
+  50% {
+    transform: scale(1.12);
+    box-shadow: 0 0 14px 6px rgba(255, 255, 255, 0.35);
+  }
+}
