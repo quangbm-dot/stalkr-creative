@@ -17,7 +17,6 @@ import iconSettings from "../Assets/Icons/real/settings.webp";
 import iconMessages from "../Assets/Icons/real/messages.webp";
 import iconPhone from "../Assets/Icons/real/phone.webp";
 
-import agentAvatar from "../Assets/UI/agent-avatar.webp";
 import unknownAvatar from "../Assets/UI/unknown-avatar.svg";
 import matchAshley from "../Assets/UI/match-ashley.jpg";
 import matchMegan from "../Assets/UI/match-megan.jpg";
@@ -43,7 +42,7 @@ export const demoCase: CaseConfig = {
   hintBudget: 4,
   evidenceRounds: [
     {
-      informant: { name: "Agent Iris", avatar: agentAvatar },
+      informant: { name: "Unknown", avatar: unknownAvatar },
       prompt: "Search her WhatsApp for clues. Is she texting someone she shouldn't be?",
       choices: ["Mom", "Her boss", "Her sister", "N."],
       correct: "N.",
@@ -54,7 +53,7 @@ export const demoCase: CaseConfig = {
       hintApp: "whatsapp",
     },
     {
-      informant: { name: "Agent Iris", avatar: agentAvatar },
+      informant: { name: "Unknown", avatar: unknownAvatar },
       prompt: "Instagram has a private post. Who is she getting coffee with?",
       choices: ["Noah", "A coworker", "Her cousin", "A college friend"],
       correct: "Noah",
@@ -65,7 +64,7 @@ export const demoCase: CaseConfig = {
       hintApp: "instagram",
     },
     {
-      informant: { name: "Agent Iris", avatar: agentAvatar },
+      informant: { name: "Unknown", avatar: unknownAvatar },
       prompt: "There's an odd note saved on her phone. What does it say?",
       choices: ["Grocery list", "Work reminder", "Meet Noah at 8 — don't tell Kevin", "Doctor's appointment"],
       correct: "Meet Noah at 8 — don't tell Kevin",
