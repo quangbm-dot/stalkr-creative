@@ -17,9 +17,9 @@ import {
   iconSettings,
   iconMessages,
   iconPhone,
+  iconUnknown,
 } from "../Assets/Icons/icons";
 
-import unknownAvatar from "../Assets/UI/unknown-avatar.svg";
 import matchAshley from "../Assets/UI/match-ashley.jpg";
 import matchMegan from "../Assets/UI/match-megan.jpg";
 import matchChloe from "../Assets/UI/match-chloe.jpg";
@@ -44,7 +44,7 @@ export const demoCase: CaseConfig = {
   hintBudget: 4,
   evidenceRounds: [
     {
-      informant: { name: "Unknown", avatar: unknownAvatar },
+      informant: { name: "Unknown", avatar: iconUnknown },
       prompt: "Search her Chatta for clues. Is she texting someone she shouldn't be?",
       choices: ["Mom", "Her boss", "Her sister", "N."],
       correct: "N.",
@@ -55,7 +55,7 @@ export const demoCase: CaseConfig = {
       hintApp: "whatsapp",
     },
     {
-      informant: { name: "Unknown", avatar: unknownAvatar },
+      informant: { name: "Unknown", avatar: iconUnknown },
       prompt: "Glimpse has a private post. Who is she getting coffee with?",
       choices: ["Noah", "A coworker", "Her cousin", "A college friend"],
       correct: "Noah",
@@ -66,7 +66,7 @@ export const demoCase: CaseConfig = {
       hintApp: "instagram",
     },
     {
-      informant: { name: "Unknown", avatar: unknownAvatar },
+      informant: { name: "Unknown", avatar: iconUnknown },
       prompt: "There's an odd note saved on her phone. What does it say?",
       choices: ["Grocery list", "Work reminder", "Meet Noah at 8 — don't tell Kevin", "Doctor's appointment"],
       correct: "Meet Noah at 8 — don't tell Kevin",
@@ -79,7 +79,7 @@ export const demoCase: CaseConfig = {
   ],
   client: {
     name: "Unknown Number",
-    avatar: unknownAvatar,
+    avatar: iconUnknown,
     hire: [
       { type: "msgs", text: "hey... this is going to sound strange, but you deserve to know." },
       { type: "msgs", text: "she's been getting coffee with someone while you're away." },
