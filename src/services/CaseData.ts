@@ -206,6 +206,7 @@ export const demoCase: CaseConfig = {
       { name: "Home", subtitle: "Visited daily" },
       { name: "Office", subtitle: "Weekdays" },
       { name: "Riverside Café", subtitle: "Visited 5 times this week" },
+      { name: "Gym", subtitle: "Weekends" },
     ],
   },
   notes: [
