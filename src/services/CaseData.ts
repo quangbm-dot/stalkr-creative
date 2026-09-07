@@ -25,7 +25,6 @@ import matchChloe from "../Assets/UI/match-chloe.jpg";
 import matchJess from "../Assets/UI/match-jess.jpg";
 
 import wallpaper from "../Assets/UI/wallpaper-blue.jpg";
-import agentAvatar from "../Assets/UI/agent-avatar.webp";
 import unknownAvatar from "../Assets/UI/unknown-avatar.svg";
 
 import ryan from "../Assets/KB1/ryan-new.jpg";
@@ -65,7 +64,7 @@ export const demoCase: CaseConfig = {
   hintBudget: 4,
   evidenceRounds: [
     {
-      informant: { name: "Agent Iris", avatar: agentAvatar },
+      informant: { name: "Unknown", avatar: unknownAvatar },
       prompt: "Search his Messages for clues. Is he texting someone he shouldn't be?",
       choices: ["Mike", "No Name", "Sarah", "Dad"],
       correct: "No Name",
@@ -76,7 +75,7 @@ export const demoCase: CaseConfig = {
       hintApp: "messages",
     },
     {
-      informant: { name: "Agent Iris", avatar: agentAvatar },
+      informant: { name: "Unknown", avatar: unknownAvatar },
       prompt: "He's been active on Tinder. Which girl did he match with?",
       choices: ["Chloe", "Zoe", "Megan", "Jess"],
       correct: "Zoe",
@@ -87,7 +86,7 @@ export const demoCase: CaseConfig = {
       hintApp: "tinder",
     },
     {
-      informant: { name: "Agent Iris", avatar: agentAvatar },
+      informant: { name: "Unknown", avatar: unknownAvatar },
       prompt: "Last thing — is there anything hidden in his photos?",
       choices: ["No, all normal", "Yes, there's a locked album"],
       correct: "Yes, there's a locked album",
