@@ -5,6 +5,16 @@ trúc gameplay (thám tử mở điện thoại nhân vật, 3 câu hỏi bằng
 kết luận cuối), khác nhân vật/câu chuyện/app chứa manh mối để xem tổ hợp nào
 giữ chân người chơi tốt nhất.
 
+> **KB2/KB3/KB4 đã build xong** (mỗi KB 1 branch riêng: `content/kb2-kevin-mia`,
+> `content/kb3-alex-sophia`, `content/kb4-daniel-sarah`, đều tách từ
+> `fix/v1-compliance`). **Toàn bộ nội dung thật trong game là tiếng Anh, bối
+> cảnh Mỹ** — các đoạn tiếng Việt dưới đây chỉ là bản thiết kế/tham khảo cấu
+> trúc ban đầu, KHÔNG phải copy cuối cùng. Copy tiếng Anh chính thức nằm trong
+> `src/services/CaseData.ts` của từng branch — coi đó là nguồn chính xác nhất
+> nếu có sai khác với mô tả tiếng Việt bên dưới. Tên nhân vật thứ 3 đã đổi
+> sang tiếng Anh: KB2 "Nam" → **Noah**, KB3 "Ngân" → **Nadia** (KB4 "Ivy" giữ
+> nguyên).
+
 Mỗi kịch bản cần 2 nhân vật chính:
 - **Client** — người thuê bạn (chỉ xuất hiện ở đoạn intro/hire, dạng chat +
   1-2 ảnh reveal).
@@ -242,14 +252,20 @@ stalkr-v1-{KB}-{tên cặp nhân vật}-mini-app-quests (QuangBM)(Bao TC).html
 
 ## Tiến độ & việc cần làm tiếp
 
-- [x] Premise + câu hỏi bằng chứng chi tiết cho KB2/KB3/KB4 (file này).
-- [x] Avatar Kevin/Mia, Alex/Sophia, Daniel/Sarah đã tách ra bằng Gemini
-      (`gemini-drafts/{KB}_*_change.png`) — đang chờ bạn duyệt.
-- [ ] Bạn duyệt/chỉnh nội dung câu hỏi + avatar ở trên.
-- [ ] Gen thêm ảnh phụ (story/post Glimpse, hoá đơn RevoBank...) + avatar
-      nhân vật thứ 3 (Nam/Ngân/Ivy, không có ảnh tham chiếu).
-- [ ] Xếp toàn bộ ảnh đã duyệt vào `src/Assets/KB2/`, `KB3/`, `KB4/`.
-- [ ] Dựng `CaseData` riêng cho từng KB (tách file hoặc 1 file nhiều case) +
-      build ra từng file HTML theo đúng quy tắc tên ở trên.
-- [ ] KB4 hiện chưa có premise gốc do bạn — đã tự viết theo gợi ý "chồng đi
-      date bạn cùng lớp cũ", cần bạn xác nhận lại.
+- [x] Premise + câu hỏi bằng chứng chi tiết cho KB2/KB3/KB4 (thiết kế gốc, file này).
+- [x] Avatar Kevin/Mia, Alex/Sophia, Daniel/Sarah + nhân vật thứ 3 (Noah/Nadia/Ivy)
+      + ảnh hero cặp đôi — gen bằng Gemini, nén WebP, xếp vào `src/Assets/KB{n}/`.
+- [x] `Revolut`/`Maps` tổng quát hoá thành data-driven per case (trước đó bị
+      hardcode theo KB1) — cần thiết để KB3/KB4 dùng được RevoBank/Pinpoint
+      làm bằng chứng. Đã commit trên `fix/v1-compliance`.
+- [x] Dịch toàn bộ nội dung sang tiếng Anh, bối cảnh Mỹ, viết `CaseData.ts`
+      riêng cho từng KB trên branch riêng, build + test end-to-end (không lỗi
+      console, cả 3 câu trả lời đúng đều dẫn tới EndCard).
+- [x] Build HTML test cho cả 4 KB theo đúng quy tắc tên, nằm trong `build/`.
+- [ ] Bạn tự chơi thử cả 3 file HTML mới, xác nhận nội dung/twist đọc xuôi,
+      trước khi up test AppLovin.
+- [ ] KB4 premise do mình tự viết theo gợi ý "chồng đi date bạn cùng lớp cũ" —
+      xác nhận lại nếu muốn chỉnh.
+- [ ] Bảo trì: mỗi KB nằm trên 1 branch riêng — fix chung sau này (vd sửa
+      icon/hint) cần cherry-pick/rebase thủ công sang cả 4 branch, không tự
+      động lan sang.
