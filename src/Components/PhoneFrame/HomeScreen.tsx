@@ -53,10 +53,10 @@ export default function HomeScreen({
     onActivePageChange(clamped);
   };
 
-  // Đếm "đứng im" — mỗi lần hết hạn đứng im mới là lúc quyết định lại có
-  // cần tự chuyển trang cho đúng app hay không, chứ không chỉ chạy 1 lần
-  // khi hintApp đổi câu hỏi (nếu chỉ theo hintApp, người chơi tự vuốt sang
-  // trang khác rồi đứng yên sẽ khiến gợi ý nằm ở trang không hiển thị).
+  // Đếm "đứng im" — hết hạn thì bật gợi ý (icon cần mở tự sáng/zoom). Không
+  // tự chuyển trang về chỗ chứa icon đó nữa — ép người chơi quay lại trang
+  // cũ trong lúc họ đang chủ động xem app khác gây khó chịu; icon cứ sáng
+  // đúng tại trang của nó, người chơi tự vuốt qua khi nào muốn.
   const [hintDue, setHintDue] = useState(false);
   useEffect(() => {
     setHintDue(false);
@@ -74,18 +74,6 @@ export default function HomeScreen({
       window.removeEventListener("pointerdown", reset);
     };
   }, [hintApp]);
-
-  // Icon cần gợi ý có thể nằm ở trang khác trang đang xem (vd người chơi tự
-  // vuốt sang trang 2 trong lúc câu hỏi cần mở app ở trang 1) — tự cuộn về
-  // đúng trang chứa hintApp mỗi khi hết hạn đứng im, để bàn tay luôn trỏ
-  // đúng chỗ thay vì trỏ vào icon nằm ngoài màn hình hoặc im lặng không hiện.
-  useEffect(() => {
-    if (!hintDue || !hintApp) return;
-    const pageIndex = pages.findIndex((icons) => icons.some((i) => i.app === hintApp));
-    if (pageIndex === -1 || pageIndex === activePage) return;
-    goToPage(pageIndex);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [hintDue, hintApp]);
 
   // Swipe/kéo bằng chuột hoặc chạm để chuyển hẳn sang trang kế tiếp/trước,
   // giống thao tác vuốt tab thật thay vì kéo thanh cuộn. setPointerCapture
