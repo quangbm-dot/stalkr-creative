@@ -17,7 +17,6 @@ import iconSettings from "../Assets/Icons/real/settings.webp";
 import iconMessages from "../Assets/Icons/real/messages.webp";
 import iconPhone from "../Assets/Icons/real/phone.webp";
 
-import agentAvatar from "../Assets/UI/agent-avatar.webp";
 import unknownAvatar from "../Assets/UI/unknown-avatar.svg";
 
 import alex from "../Assets/KB3/alex.webp";
@@ -40,7 +39,7 @@ export const demoCase: CaseConfig = {
   hintBudget: 4,
   evidenceRounds: [
     {
-      informant: { name: "Agent Iris", avatar: agentAvatar },
+      informant: { name: "Unknown", avatar: unknownAvatar },
       prompt: "Search his Gmail for clues. Is he emailing someone he shouldn't be?",
       choices: ["A coworker", "His brother", "A client", "nadia.ellis@..."],
       correct: "nadia.ellis@...",
@@ -51,7 +50,7 @@ export const demoCase: CaseConfig = {
       hintApp: "gmail",
     },
     {
-      informant: { name: "Agent Iris", avatar: agentAvatar },
+      informant: { name: "Unknown", avatar: unknownAvatar },
       prompt: "RevoBank shows a recent gift purchase. Who was it sent to?",
       choices: ["N. Sterling", "Sophia", "His mom", "A best man gift"],
       correct: "N. Sterling",
@@ -62,7 +61,7 @@ export const demoCase: CaseConfig = {
       hintApp: "revolut",
     },
     {
-      informant: { name: "Agent Iris", avatar: agentAvatar },
+      informant: { name: "Unknown", avatar: unknownAvatar },
       prompt: "Maps tracks frequent visits. Where does he keep going that isn't work?",
       choices: ["The office", "The gym", "Riverside Café", "His parents' house"],
       correct: "Riverside Café",
