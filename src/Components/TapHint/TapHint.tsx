@@ -1,53 +1,50 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import handIcon from "../../Assets/UI/tap-hand.webp";
 import styles from "./TapHint.module.scss";
 
 interface TapHintProps {
   /** CSS selector của phần tử cần trỏ vào, vd: '[data-hint="app-hinge"]' */
   targetSelector: string;
-  /** Số ms không thao tác gì thì hiện gợi ý */
-  idleMs?: number;
 }
 
 /**
- * Icon bàn tay chạm-nhắc, tự hiện sau khi người chơi đứng im idleMs,
- * tự ẩn ngay khi có tương tác (tap/scroll) bất kỳ trong khung điện thoại.
+ * Icon bàn tay chạm-nhắc. Việc quyết định KHI NÀO hiện (đứng im bao lâu,
+ * có cần tự chuyển trang cho đúng app trước không) là trách nhiệm của
+ * component cha (HomeScreen) — component này chỉ lo phần hiển thị: theo
+ * dõi vị trí target liên tục qua rAF (không chụp toạ độ 1 lần rồi giữ
+ * nguyên) để luôn khớp đúng vị trí thật, kể cả khi target đang cuộn vào
+ * màn hình; và tự ẩn ngay khi có chạm thật trong lúc đang hiện.
  */
-export default function TapHint({ targetSelector, idleMs = 3500 }: TapHintProps) {
+export default function TapHint({ targetSelector }: TapHintProps) {
   const [rect, setRect] = useState<DOMRect | null>(null);
+  const dismissedRef = useRef(false);
 
   useEffect(() => {
-    let idleTimer: ReturnType<typeof setTimeout>;
+    let rafId: number | null = null;
 
-    const showHint = () => {
+    const track = () => {
+      if (dismissedRef.current) return;
       const el = document.querySelector(targetSelector);
-      if (!el) return;
-      const r = el.getBoundingClientRect();
-      // Bỏ qua nếu phần tử chưa layout xong / nằm ngoài viewport (rect rỗng
-      // hoặc âm) — tránh hiện bàn tay ở vị trí sai lệch.
-      if (r.width === 0 || r.height === 0 || r.top < 0 || r.left < 0) return;
-      setRect(r);
+      const r = el?.getBoundingClientRect();
+      const valid = r && r.width > 0 && r.height > 0 && r.top >= 0 && r.left >= 0;
+      setRect(valid ? r! : null);
+      rafId = requestAnimationFrame(track);
     };
+    track();
 
-    const resetIdle = () => {
+    const dismiss = () => {
+      dismissedRef.current = true;
+      if (rafId !== null) cancelAnimationFrame(rafId);
       setRect(null);
-      clearTimeout(idleTimer);
-      idleTimer = setTimeout(showHint, idleMs);
     };
-
-    // Chỉ reset khi có CHẠM THẬT (pointerdown) — không nghe scroll/resize
-    // của window nữa: trong webview quảng cáo trên mobile, thanh địa chỉ
-    // ẩn/hiện hoặc SDK quảng cáo poll kích thước cũng tự bắn ra 2 sự kiện
-    // này dù người chơi không làm gì, khiến đồng hồ bị reset liên tục và
-    // bàn tay gợi ý không bao giờ kịp hiện lên.
-    resetIdle();
-    window.addEventListener("pointerdown", resetIdle);
+    window.addEventListener("pointerdown", dismiss);
 
     return () => {
-      clearTimeout(idleTimer);
-      window.removeEventListener("pointerdown", resetIdle);
+      dismissedRef.current = true;
+      if (rafId !== null) cancelAnimationFrame(rafId);
+      window.removeEventListener("pointerdown", dismiss);
     };
-  }, [targetSelector, idleMs]);
+  }, [targetSelector]);
 
   if (!rect) return null;
 

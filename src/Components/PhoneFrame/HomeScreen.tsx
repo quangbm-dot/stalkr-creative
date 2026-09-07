@@ -1,4 +1,4 @@
-import { useLayoutEffect, useRef, type PointerEvent } from "react";
+import { useEffect, useLayoutEffect, useRef, useState, type PointerEvent } from "react";
 import type { CaseConfig, AppKey } from "../../types/case";
 import TapHint from "../TapHint/TapHint";
 import styles from "./HomeScreen.module.scss";
@@ -53,6 +53,41 @@ export default function HomeScreen({
     el.scrollTo({ left: clamped * el.clientWidth, behavior: "smooth" });
     onActivePageChange(clamped);
   };
+
+  // Đếm "đứng im" ở đây (thay vì bên trong TapHint) vì chỉ HomeScreen mới
+  // biết trang nào đang active — mỗi lần hết hạn đứng im mới là lúc quyết
+  // định lại có cần tự chuyển trang cho đúng app hay không, chứ không chỉ
+  // chạy 1 lần khi hintApp đổi câu hỏi. Nếu chỉ theo hintApp, người chơi tự
+  // vuốt sang trang khác rồi đứng yên sẽ khiến bàn tay trỏ nhầm/không hiện.
+  const [hintDue, setHintDue] = useState(false);
+  useEffect(() => {
+    setHintDue(false);
+    if (!hintApp) return;
+    let idleTimer: ReturnType<typeof setTimeout>;
+    const reset = () => {
+      setHintDue(false);
+      clearTimeout(idleTimer);
+      idleTimer = setTimeout(() => setHintDue(true), 800);
+    };
+    reset();
+    window.addEventListener("pointerdown", reset);
+    return () => {
+      clearTimeout(idleTimer);
+      window.removeEventListener("pointerdown", reset);
+    };
+  }, [hintApp]);
+
+  // Icon cần gợi ý có thể nằm ở trang khác trang đang xem (vd người chơi tự
+  // vuốt sang trang 2 trong lúc câu hỏi cần mở app ở trang 1) — tự cuộn về
+  // đúng trang chứa hintApp mỗi khi hết hạn đứng im, để bàn tay luôn trỏ
+  // đúng chỗ thay vì trỏ vào icon nằm ngoài màn hình hoặc im lặng không hiện.
+  useEffect(() => {
+    if (!hintDue || !hintApp) return;
+    const pageIndex = pages.findIndex((icons) => icons.some((i) => i.app === hintApp));
+    if (pageIndex === -1 || pageIndex === activePage) return;
+    goToPage(pageIndex);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [hintDue, hintApp]);
 
   // Swipe/kéo bằng chuột hoặc chạm để chuyển hẳn sang trang kế tiếp/trước,
   // giống thao tác vuốt tab thật thay vì kéo thanh cuộn. setPointerCapture
@@ -155,7 +190,7 @@ export default function HomeScreen({
         </div>
       )}
 
-      {hintApp && <TapHint key={hintApp} targetSelector={`[data-hint="app-${hintApp}"]`} idleMs={800} />}
+      {hintApp && hintDue && <TapHint key={hintApp} targetSelector={`[data-hint="app-${hintApp}"]`} />}
 
       <div
         className={styles.dock}
