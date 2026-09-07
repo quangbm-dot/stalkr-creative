@@ -27,7 +27,7 @@ export default function WhatsApp({ caseData, onBack }: WhatsAppProps) {
   }
 
   return (
-    <AppScreen title="WhatsApp" onBack={onBack} theme="light">
+    <AppScreen title="Chatta" onBack={onBack} theme="light">
       <div className={styles.chips}>
         <span className={styles.chipActive}>All</span>
         <span className={styles.chip}>Unread</span>

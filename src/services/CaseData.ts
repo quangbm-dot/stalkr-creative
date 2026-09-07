@@ -1,21 +1,23 @@
 import type { CaseConfig } from "../types/case";
 
-import iconInstagram from "../Assets/Icons/real/instagram.webp";
-import iconGmail from "../Assets/Icons/real/gmail.webp";
-import iconMaps from "../Assets/Icons/real/googlemaps.webp";
-import iconWhatsapp from "../Assets/Icons/real/whatsapp.webp";
-import iconNotes from "../Assets/Icons/real/notes.webp";
-import iconPhotos from "../Assets/Icons/real/photos.webp";
-import iconCalendar from "../Assets/Icons/real/calendar.webp";
-import iconWeather from "../Assets/Icons/real/weather.webp";
-import iconWallet from "../Assets/Icons/real/wallet.webp";
-import iconRevoBank from "../Assets/Icons/real/revobank.webp";
-import iconClock from "../Assets/Icons/real/alarm.webp";
-import iconCompass from "../Assets/Icons/real/compass.webp";
-import iconCalculator from "../Assets/Icons/real/calculator.webp";
-import iconSettings from "../Assets/Icons/real/settings.webp";
-import iconMessages from "../Assets/Icons/real/messages.webp";
-import iconPhone from "../Assets/Icons/real/phone.webp";
+import {
+  iconGlimpse,
+  iconMailly,
+  iconPinpoint,
+  iconChatta,
+  iconNotes,
+  iconCalendar,
+  iconWeather,
+  iconRevoBank,
+  iconWallet,
+  iconPhotos,
+  iconClock,
+  iconCompass,
+  iconCalculator,
+  iconSettings,
+  iconMessages,
+  iconPhone,
+} from "../Assets/Icons/icons";
 
 import unknownAvatar from "../Assets/UI/unknown-avatar.svg";
 
@@ -40,13 +42,13 @@ export const demoCase: CaseConfig = {
   evidenceRounds: [
     {
       informant: { name: "Unknown", avatar: unknownAvatar },
-      prompt: "Instagram has a tagged-location post. Who is he with?",
+      prompt: "Glimpse has a tagged-location post. Who is he with?",
       choices: ["A coworker", "His sister", "An old college friend", "Ivy"],
       correct: "Ivy",
       correctReply: "Ivy — a name Sarah's never even heard. Keep digging.",
       wrongReply: ["Check the caption again.", "Not quite. Look at the post again."],
       reward: 10,
-      hint: "Open Instagram and check his most recent tagged post.",
+      hint: "Open Glimpse and check his most recent tagged post.",
       hintApp: "instagram",
     },
     {
@@ -62,13 +64,13 @@ export const demoCase: CaseConfig = {
     },
     {
       informant: { name: "Unknown", avatar: unknownAvatar },
-      prompt: "Maps tracks frequent visits. Where does he keep going?",
+      prompt: "Pinpoint tracks frequent visits. Where does he keep going?",
       choices: ["The gym", "The office", "Sunrise Café", "His parents' house"],
       correct: "Sunrise Café",
       correctReply: "The same café, over and over — exactly where they meet. Case closed.",
       wrongReply: ["That place is nothing unusual. Check again.", "Not quite — look at the visit history again."],
       reward: 10,
-      hint: "Open Maps and check his frequent places.",
+      hint: "Open Pinpoint and check his frequent places.",
       hintApp: "maps",
     },
   ],
@@ -83,8 +85,8 @@ export const demoCase: CaseConfig = {
         src: evidenceDanielIvy,
         name: "Ivy",
         subtitle: "Tagged at Sunrise Café",
-        appLabel: "Instagram",
-        appIcon: iconInstagram,
+        appLabel: "Glimpse",
+        appIcon: iconGlimpse,
         text: "he posted this — Ivy, from his old class.",
       },
       { type: "msgs", text: "he told you it was nothing. i don't think that's true." },
@@ -108,17 +110,17 @@ export const demoCase: CaseConfig = {
   home: {
     pages: [
       [
-        { app: "instagram", label: "Instagram", icon: iconInstagram },
+        { app: "instagram", label: "Glimpse", icon: iconGlimpse },
         { app: "notes", label: "Notes", icon: iconNotes },
         { app: "photos", label: "Photos", icon: iconPhotos },
         { app: "calendar", label: "Calendar", icon: iconCalendar },
         { app: "weather", label: "Weather", icon: iconWeather },
         { app: "wallet", label: "Wallet", icon: iconWallet },
         { app: "revolut", label: "RevoBank", icon: iconRevoBank },
-        { app: "gmail", label: "Gmail", icon: iconGmail },
+        { app: "gmail", label: "Mailly", icon: iconMailly },
       ],
       [
-        { app: "maps", label: "Maps", icon: iconMaps },
+        { app: "maps", label: "Pinpoint", icon: iconPinpoint },
         { app: "clock", label: "Clock", icon: iconClock },
         { app: "compass", label: "Compass", icon: iconCompass },
         { app: "calculator", label: "Calculator", icon: iconCalculator },
@@ -128,7 +130,7 @@ export const demoCase: CaseConfig = {
     dock: [
       { app: "messages", label: "Messages", icon: iconMessages },
       { app: "phone", label: "Phone", icon: iconPhone },
-      { app: "whatsapp", label: "WhatsApp", icon: iconWhatsapp },
+      { app: "whatsapp", label: "Chatta", icon: iconChatta },
     ],
   },
   messages: [
