@@ -471,7 +471,7 @@ export default function LockScene({ caseData }: LockSceneProps) {
               {phase === "choices" && !chosenReply && (
                 <div className={styles.quickReplies}>
                   {caseData.endCard.choices.map((choice, i) => (
-                    <button key={choice} type="button" className={styles.quickReply} onClick={() => setChosenReply(choice)}>
+                    <button key={choice} type="button" className={styles.quickReply} onClick={() => setChosenReply(caseData.endCard.replyLines[i])}>
                       <span className={styles.quickReplyEmoji}>{CHOICE_EMOJIS[i]}</span>
                       {choice}
                     </button>

@@ -71,8 +71,11 @@ export interface CaseConfig {
   post: PostScene;
   mishap: MishapScene;
   endCard: {
-    /** Đúng 2 lựa chọn reply inline trong chat với người yêu. */
+    /** Nhãn ngắn trên 2 nút lựa chọn, vd "Deny everything". */
     choices: [string, string];
+    /** Câu tin nhắn thật sự gửi đi khi bấm lựa chọn tương ứng (cùng thứ tự
+     *  với choices) — không phải nhãn nút, mà là câu thoại tự nhiên. */
+    replyLines: [string, string];
     /** Tiêu đề màn hình quảng cáo cuối cùng, vd "You solved the case". */
     headline: string;
     /** Câu mô tả ngắn dưới tiêu đề. */

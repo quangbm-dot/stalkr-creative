@@ -74,6 +74,10 @@ export const demoCase: CaseConfig = {
   },
   endCard: {
     choices: ["Deny everything", "Charm my way out"],
+    replyLines: [
+      "it's nothing, I swear... just an old friend messing around",
+      "come on babe, you know my address is wherever you are 😘",
+    ],
     headline: "Want to know how it ends?",
     subhead: "So many more secrets left to uncover...",
     ctaLabel: "Continue",
