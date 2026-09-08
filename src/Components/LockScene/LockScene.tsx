@@ -150,14 +150,14 @@ export default function LockScene({ caseData }: LockSceneProps) {
     const at = (ms: number, fn: () => void) => timers.push(setTimeout(fn, ms));
 
     at(800, () => setPhase("notif"));
-    at(2600, () => setPhase("unlocking"));
-    at(3200, () => setPhase("inbox"));
-    at(4700, () => setPhase("chatN"));
-    at(21600, () => setPhase("honeyBanner"));
-    at(23600, () => setPhase("honeyTapped"));
-    at(24200, () => setPhase("chatHoney"));
-    at(26600, () => setPhase("gallery"));
-    at(34200, () => setPhase("choices"));
+    at(1800, () => setPhase("unlocking"));
+    at(2300, () => setPhase("inbox"));
+    at(3800, () => setPhase("chatN"));
+    at(20700, () => setPhase("honeyBanner"));
+    at(22700, () => setPhase("honeyTapped"));
+    at(23300, () => setPhase("chatHoney"));
+    at(25700, () => setPhase("gallery"));
+    at(33300, () => setPhase("choices"));
 
     return () => timers.forEach(clearTimeout);
     // eslint-disable-next-line react-hooks/exhaustive-deps
