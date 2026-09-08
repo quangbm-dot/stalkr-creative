@@ -71,9 +71,13 @@ export interface CaseConfig {
   post: PostScene;
   mishap: MishapScene;
   endCard: {
-    /** Câu hỏi lựa chọn kiểu "Nếu bạn là X sẽ chọn cách nào?" */
-    question: string;
-    /** Đúng 2 lựa chọn — bấm cái nào cũng dẫn tới mở link CTA. */
+    /** Đúng 2 lựa chọn reply inline trong chat với người yêu. */
     choices: [string, string];
+    /** Tiêu đề màn hình quảng cáo cuối cùng, vd "You solved the case". */
+    headline: string;
+    /** Câu mô tả ngắn dưới tiêu đề. */
+    subhead: string;
+    /** Chữ trên nút CTA, vd "Continue". */
+    ctaLabel: string;
   };
 }

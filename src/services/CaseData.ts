@@ -70,10 +70,12 @@ export const demoCase: CaseConfig = {
     homeAddress: "482 Fig St, Apt 3B",
     girlfriendName: "Honey 💗",
     billRequestText: "hey can you resend me yesterday's receipt? 🧾",
-    replyText: "wait... whose address is this?? 😳",
+    replyText: "Kai... what is this?? Explain. 😳",
   },
   endCard: {
-    question: "If you were Kai, how would you explain this?",
     choices: ["Deny everything", "Charm my way out"],
+    headline: "Want to know how it ends?",
+    subhead: "So many more secrets left to uncover...",
+    ctaLabel: "Continue",
   },
 };

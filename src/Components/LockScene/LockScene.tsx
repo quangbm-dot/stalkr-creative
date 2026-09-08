@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import type { CaseConfig } from "../../types/case";
-import openLinkApp from "../../services/AdController";
 import iconChat from "../../Assets/UI/messages-icon.webp";
 import fillerRyan from "../../Assets/UI/avatar-ryan.jpg";
 import fillerMia from "../../Assets/UI/avatar-mia-grace.jpg";
@@ -10,6 +9,7 @@ import fillerHome from "../../Assets/UI/home.jpg";
 import fillerPost from "../../Assets/UI/post.jpg";
 import capScreenPhoto from "../../Assets/UI/cap-screen.webp";
 import billPhoto from "../../Assets/UI/bill.webp";
+import EndCard from "../EndCard/EndCard";
 import styles from "./LockScene.module.scss";
 
 interface LockSceneProps {
@@ -138,9 +138,11 @@ export default function LockScene({ caseData }: LockSceneProps) {
   const [honeyIntroStep, setHoneyIntroStep] = useState(0);
   const [galleryStep, setGalleryStep] = useState(0);
   const [honeyStep, setHoneyStep] = useState(0);
+  const [chosenReply, setChosenReply] = useState<string | null>(null);
+  const [closingStep, setClosingStep] = useState(0);
   const { mishap } = caseData;
   const nChatRef = useAutoScroll(nStep);
-  const honeyChatRef = useAutoScroll(`${honeyIntroStep}-${galleryStep}-${honeyStep}`);
+  const honeyChatRef = useAutoScroll(`${honeyIntroStep}-${galleryStep}-${honeyStep}-${chosenReply}-${closingStep}`);
   const now = new Date();
   const time = now.toLocaleTimeString([], { hour: "numeric", minute: "2-digit" });
   const date = now.toLocaleDateString([], { weekday: "long", month: "long", day: "numeric" });
@@ -221,6 +223,28 @@ export default function LockScene({ caseData }: LockSceneProps) {
     at(5000, () => setHoneyStep(4));
     return () => timers.forEach(clearTimeout);
   }, [galleryStep]);
+
+  // Sau khi bấm 1 trong 2 đáp án: người yêu thả icon giận vào tin đó, rồi
+  // vẫn "đang nhập" (chưa trả lời hẳn) thì cắt sang màn quảng cáo cuối.
+  useEffect(() => {
+    if (!chosenReply) return;
+    const timers: ReturnType<typeof setTimeout>[] = [];
+    const at = (ms: number, fn: () => void) => timers.push(setTimeout(fn, ms));
+    at(900, () => setClosingStep(1)); // thả icon giận
+    at(2000, () => setClosingStep(2)); // đang nhập
+    at(3600, () => setClosingStep(3)); // hiện end card
+    return () => timers.forEach(clearTimeout);
+  }, [chosenReply]);
+
+  // Nếu người chơi không bấm đáp án nào, tự động hiện end card sau 20s kể
+  // từ lúc 2 nút đáp án xuất hiện — playable không được kẹt lại vô thời hạn.
+  useEffect(() => {
+    if (phase !== "choices") return;
+    const t = setTimeout(() => {
+      setClosingStep((s) => (s >= 3 ? s : 3));
+    }, 20000);
+    return () => clearTimeout(t);
+  }, [phase]);
 
   const order: Phase[] = [
     "locked",
@@ -429,12 +453,25 @@ export default function LockScene({ caseData }: LockSceneProps) {
                     )}
                   </div>
                 )}
+                {chosenReply && (
+                  <div className={`${styles.bubbleMe} ${styles.on} ${styles.bubbleText} ${styles.bubbleWithReaction}`}>
+                    {chosenReply}
+                    {closingStep >= 1 && <span className={styles.reactionBadge}>😡</span>}
+                  </div>
+                )}
+                {closingStep >= 2 && (
+                  <div className={`${styles.bubbleThem} ${styles.on} ${styles.bubbleText}`}>
+                    <span className={styles.dots}>
+                      <i /><i /><i />
+                    </span>
+                  </div>
+                )}
               </div>
 
-              {phase === "choices" && (
+              {phase === "choices" && !chosenReply && (
                 <div className={styles.quickReplies}>
                   {caseData.endCard.choices.map((choice, i) => (
-                    <button key={choice} type="button" className={styles.quickReply} onClick={openLinkApp}>
+                    <button key={choice} type="button" className={styles.quickReply} onClick={() => setChosenReply(choice)}>
                       <span className={styles.quickReplyEmoji}>{CHOICE_EMOJIS[i]}</span>
                       {choice}
                     </button>
@@ -497,6 +534,8 @@ export default function LockScene({ caseData }: LockSceneProps) {
           )}
         </div>
       )}
+
+      {closingStep >= 3 && <EndCard caseData={caseData} />}
     </div>
   );
 }
