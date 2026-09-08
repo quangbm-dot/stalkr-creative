@@ -1,5 +1,6 @@
 import type { CaseConfig } from "../../types/case";
 import openLinkApp from "../../services/AdController";
+import logo from "../../Assets/UI/icon-end-card.webp";
 import styles from "./EndCard.module.scss";
 
 interface EndCardProps {
@@ -9,21 +10,13 @@ interface EndCardProps {
 export default function EndCard({ caseData }: EndCardProps) {
   return (
     <div className={styles.overlay}>
-      <span className={styles.icon}>🔍</span>
-      <h2 className={styles.headline}>{caseData.endCard.question}</h2>
-      <div className={styles.choices}>
-        {caseData.endCard.choices.map((choice, i) => (
-          <button
-            key={choice}
-            type="button"
-            className={`${styles.choiceBtn} ${i === 1 ? styles.choiceBtnAlt : ""}`}
-            onClick={openLinkApp}
-          >
-            {choice}
-            {i === 1 && <span className={styles.choiceEyes}>👀</span>}
-          </button>
-        ))}
-      </div>
+      <img className={styles.logo} src={logo} alt="Stalkr" />
+      <h2 className={styles.headline}>{caseData.endCard.headline}</h2>
+      <p className={styles.subhead}>{caseData.endCard.subhead}</p>
+      <span className={styles.fictionBadge}>Fictional mystery game</span>
+      <button type="button" className={styles.cta} onClick={openLinkApp}>
+        {caseData.endCard.ctaLabel}
+      </button>
     </div>
   );
 }
