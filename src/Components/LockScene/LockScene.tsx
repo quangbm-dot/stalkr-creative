@@ -153,11 +153,11 @@ export default function LockScene({ caseData }: LockSceneProps) {
     at(2600, () => setPhase("unlocking"));
     at(3200, () => setPhase("inbox"));
     at(4700, () => setPhase("chatN"));
-    at(21700, () => setPhase("honeyBanner"));
-    at(23700, () => setPhase("honeyTapped"));
-    at(24300, () => setPhase("chatHoney"));
-    at(30100, () => setPhase("gallery"));
-    at(37700, () => setPhase("choices"));
+    at(20400, () => setPhase("honeyBanner"));
+    at(22400, () => setPhase("honeyTapped"));
+    at(23000, () => setPhase("chatHoney"));
+    at(28800, () => setPhase("gallery"));
+    at(36400, () => setPhase("choices"));
 
     return () => timers.forEach(clearTimeout);
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -170,18 +170,17 @@ export default function LockScene({ caseData }: LockSceneProps) {
     if (phase !== "chatN") return;
     const timers: ReturnType<typeof setTimeout>[] = [];
     const at = (ms: number, fn: () => void) => timers.push(setTimeout(fn, ms));
-    at(1300, () => setNStep(1)); // ảnh check-in hiện trước tiên
-    at(2600, () => setNStep(2)); // dots trước câu bóng gió
-    at(3800, () => setNStep(3)); // câu bóng gió
-    at(5000, () => setNStep(4)); // dots trước số đt
-    at(6200, () => setNStep(5)); // số đt
-    at(7600, () => setNStep(6)); // dots trước lời dặn
-    at(8800, () => setNStep(7)); // lời dặn
-    at(10000, () => setNStep(8)); // thả tim lời dặn
-    at(11500, () => setNStep(9)); // Kai chụp màn hình
-    at(13300, () => setNStep(10)); // ảnh + số bị xoá
-    at(14300, () => setNStep(11)); // Kai đang nhập
-    at(15300, () => setNStep(12)); // Kai gửi
+    at(1300, () => setNStep(1)); // dots trước câu bóng gió
+    at(2500, () => setNStep(2)); // câu bóng gió
+    at(3700, () => setNStep(3)); // dots trước số đt
+    at(4900, () => setNStep(4)); // số đt
+    at(6300, () => setNStep(5)); // dots trước lời dặn
+    at(7500, () => setNStep(6)); // lời dặn
+    at(8700, () => setNStep(7)); // thả tim lời dặn
+    at(10200, () => setNStep(8)); // Kai chụp màn hình
+    at(12000, () => setNStep(9)); // ảnh + số bị xoá
+    at(13000, () => setNStep(10)); // Kai đang nhập
+    at(14000, () => setNStep(11)); // Kai gửi
     return () => timers.forEach(clearTimeout);
   }, [phase]);
 
@@ -316,27 +315,25 @@ export default function LockScene({ caseData }: LockSceneProps) {
                 <span className={styles.chatName}>{mishap.senderName}</span>
               </div>
               <div className={styles.chatLog} ref={nChatRef}>
-                {nStep >= 1 && (
-                  <div className={`${styles.bubbleThem} ${styles.on} ${styles.bubblePhotoOnly}`}>
-                    {nStep >= 10 ? (
-                      <div className={styles.deletedPhoto}>
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                          <path d="M3 6h18" />
-                          <path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" />
-                          <path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6" />
-                        </svg>
-                        <span>Photo deleted</span>
-                      </div>
-                    ) : (
-                      <img className={styles.bubblePhoto} src={mishap.photo} alt="" />
-                    )}
-                  </div>
-                )}
-                <TypingLine step={nStep} dotsAt={2} textAt={3} me={false}>{N_HISTORY[0].text}</TypingLine>
-                {nStep >= 4 && (
+                <div className={`${styles.bubbleThem} ${styles.on} ${styles.bubblePhotoOnly}`}>
+                  {nStep >= 9 ? (
+                    <div className={styles.deletedPhoto}>
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M3 6h18" />
+                        <path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" />
+                        <path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6" />
+                      </svg>
+                      <span>Photo deleted</span>
+                    </div>
+                  ) : (
+                    <img className={styles.bubblePhoto} src={mishap.photo} alt="" />
+                  )}
+                </div>
+                <TypingLine step={nStep} dotsAt={1} textAt={2} me={false}>{N_HISTORY[0].text}</TypingLine>
+                {nStep >= 3 && (
                   <div className={`${styles.bubbleThem} ${styles.on} ${styles.bubbleText}`}>
-                    {nStep >= 5 ? (
-                      nStep >= 10 ? (
+                    {nStep >= 4 ? (
+                      nStep >= 9 ? (
                         <span className={styles.deletedText}>This message was deleted</span>
                       ) : (
                         `${mishap.phoneNumber} 😉`
@@ -348,12 +345,12 @@ export default function LockScene({ caseData }: LockSceneProps) {
                     )}
                   </div>
                 )}
-                {nStep >= 6 && (
+                {nStep >= 5 && (
                   <div className={`${styles.bubbleThem} ${styles.on} ${styles.bubbleText} ${styles.bubbleWithReaction}`}>
-                    {nStep >= 7 ? (
+                    {nStep >= 6 ? (
                       <>
                         I'm gonna delete this + the pic soon 👀 save it!
-                        {nStep >= 8 && <span className={styles.msgLikeBadge}>❤️</span>}
+                        {nStep >= 7 && <span className={styles.msgLikeBadge}>❤️</span>}
                       </>
                     ) : (
                       <span className={styles.dots}>
@@ -362,13 +359,13 @@ export default function LockScene({ caseData }: LockSceneProps) {
                     )}
                   </div>
                 )}
-                {nStep >= 12 && (
+                {nStep >= 11 && (
                   <div className={`${styles.bubbleMe} ${styles.on} ${styles.bubbleText}`}>😍😍</div>
                 )}
               </div>
 
-              {nStep === 9 && <div className={styles.screenshotFlash} />}
-              {nStep === 9 && (
+              {nStep === 8 && <div className={styles.screenshotFlash} />}
+              {nStep === 8 && (
                 <div className={styles.screenshotThumb}>
                   <ScreenshotMock variant="grid" />
                 </div>
@@ -376,7 +373,7 @@ export default function LockScene({ caseData }: LockSceneProps) {
 
               <div className={styles.composer}>
                 <div className={styles.composerInput}>
-                  {nStep === 11 ? "😍😍" : <span className={styles.composerPlaceholder}>Message...</span>}
+                  {nStep === 10 ? "😍😍" : <span className={styles.composerPlaceholder}>Message...</span>}
                 </div>
                 <span className={styles.composerSend}>
                   <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 11l18-8-8 18-2-8-8-2z" /></svg>
