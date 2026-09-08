@@ -6,6 +6,7 @@ import avatarRyan from "../Assets/UI/avatar-ryan.jpg";
 import avatarMia from "../Assets/UI/avatar-mia-grace.jpg";
 import avatarChloe from "../Assets/UI/avatar-chloe-wxx.jpg";
 import avatarUnknown from "../Assets/UI/avatar-unknown-94.jpg";
+import nPhoto from "../Assets/UI/n-photo.webp";
 
 /**
  * Demo content — swap for real case content once a scenario is written.
@@ -64,11 +65,12 @@ export const demoCase: CaseConfig = {
     midPrompt: "She's hiding something.",
   },
   mishap: {
-    senderName: "N",
-    photo: avatarUnknown,
-    intendedName: "Bro",
+    senderName: "Unknown Number",
+    photo: nPhoto,
+    phoneNumber: "(310) 555-0192",
     girlfriendName: "Honey 💗",
-    replyText: "wait... who is SHE?",
+    billRequestText: "hey can you resend me yesterday's receipt? 🧾",
+    replyText: "wait... whose number is this?? 😳",
   },
   endCard: {
     question: "If you were Kai, how would you explain this?",

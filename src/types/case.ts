@@ -49,11 +49,13 @@ export interface MishapScene {
   senderName: string;
   /** Ảnh "check-in" nhạy cảm được gửi tới. */
   photo: string;
-  /** Người định chia sẻ tới (vd "Bro") — nơi ngón tay suýt chạm. */
-  intendedName: string;
-  /** Tên người yêu — nơi ảnh bị gửi nhầm tới thật sự. */
+  /** Số điện thoại cô ấy nhắn kèm, dặn chụp màn hình lại trước khi xoá. */
+  phoneNumber: string;
+  /** Tên người yêu. */
   girlfriendName: string;
-  /** Câu trả lời nghi ngờ của người yêu sau khi nhận nhầm ảnh. */
+  /** Tin nhắn người yêu nhờ gửi lại hoá đơn thanh toán hôm qua. */
+  billRequestText: string;
+  /** Câu trả lời nghi ngờ của người yêu sau khi nhận nhầm ảnh chụp màn hình. */
   replyText: string;
 }
 
