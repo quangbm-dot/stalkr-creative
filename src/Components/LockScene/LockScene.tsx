@@ -153,11 +153,11 @@ export default function LockScene({ caseData }: LockSceneProps) {
     at(2600, () => setPhase("unlocking"));
     at(3200, () => setPhase("inbox"));
     at(4700, () => setPhase("chatN"));
-    at(20400, () => setPhase("honeyBanner"));
-    at(22400, () => setPhase("honeyTapped"));
-    at(23000, () => setPhase("chatHoney"));
-    at(28800, () => setPhase("gallery"));
-    at(36400, () => setPhase("choices"));
+    at(21600, () => setPhase("honeyBanner"));
+    at(23600, () => setPhase("honeyTapped"));
+    at(24200, () => setPhase("chatHoney"));
+    at(30000, () => setPhase("gallery"));
+    at(37600, () => setPhase("choices"));
 
     return () => timers.forEach(clearTimeout);
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -181,6 +181,7 @@ export default function LockScene({ caseData }: LockSceneProps) {
     at(12000, () => setNStep(9)); // ảnh + số bị xoá
     at(13000, () => setNStep(10)); // Kai đang nhập
     at(14000, () => setNStep(11)); // Kai gửi
+    at(15200, () => setNStep(12)); // Kai nhắn thêm hẹn gặp lại
     return () => timers.forEach(clearTimeout);
   }, [phase]);
 
@@ -361,6 +362,9 @@ export default function LockScene({ caseData }: LockSceneProps) {
                 )}
                 {nStep >= 11 && (
                   <div className={`${styles.bubbleMe} ${styles.on} ${styles.bubbleText}`}>😍😍</div>
+                )}
+                {nStep >= 12 && (
+                  <div className={`${styles.bubbleMe} ${styles.on} ${styles.bubbleText}`}>can't wait to see you again 😘</div>
                 )}
               </div>
 
