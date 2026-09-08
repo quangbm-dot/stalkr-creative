@@ -335,7 +335,7 @@ export default function LockScene({ caseData }: LockSceneProps) {
                       nStep >= 9 ? (
                         <span className={styles.deletedText}>This message was deleted</span>
                       ) : (
-                        `${mishap.phoneNumber} 😉`
+                        `${mishap.homeAddress} 😉`
                       )
                     ) : (
                       <span className={styles.dots}>

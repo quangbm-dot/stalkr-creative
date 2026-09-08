@@ -67,10 +67,10 @@ export const demoCase: CaseConfig = {
   mishap: {
     senderName: "Unknown Number",
     photo: nPhoto,
-    phoneNumber: "(310) 555-0192",
+    homeAddress: "482 Fig St, Apt 3B",
     girlfriendName: "Honey 💗",
     billRequestText: "hey can you resend me yesterday's receipt? 🧾",
-    replyText: "wait... whose number is this?? 😳",
+    replyText: "wait... whose address is this?? 😳",
   },
   endCard: {
     question: "If you were Kai, how would you explain this?",

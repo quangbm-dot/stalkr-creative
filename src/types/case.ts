@@ -49,8 +49,8 @@ export interface MishapScene {
   senderName: string;
   /** Ảnh "check-in" nhạy cảm được gửi tới. */
   photo: string;
-  /** Số điện thoại cô ấy nhắn kèm, dặn chụp màn hình lại trước khi xoá. */
-  phoneNumber: string;
+  /** Địa chỉ nhà cô ấy nhắn kèm, dặn chụp màn hình lại trước khi xoá. */
+  homeAddress: string;
   /** Tên người yêu. */
   girlfriendName: string;
   /** Tin nhắn người yêu nhờ gửi lại hoá đơn thanh toán hôm qua. */
