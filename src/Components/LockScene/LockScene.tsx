@@ -156,8 +156,8 @@ export default function LockScene({ caseData }: LockSceneProps) {
     at(21600, () => setPhase("honeyBanner"));
     at(23600, () => setPhase("honeyTapped"));
     at(24200, () => setPhase("chatHoney"));
-    at(30000, () => setPhase("gallery"));
-    at(37600, () => setPhase("choices"));
+    at(28400, () => setPhase("gallery"));
+    at(36000, () => setPhase("choices"));
 
     return () => timers.forEach(clearTimeout);
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -185,18 +185,16 @@ export default function LockScene({ caseData }: LockSceneProps) {
     return () => timers.forEach(clearTimeout);
   }, [phase]);
 
-  // Đoạn chat với người yêu: từng tin nhắn cũ hiện lần lượt (có "đang nhập"
-  // trước tin của cô ấy), rồi mới tới tin nhờ gửi lại hoá đơn.
+  // Đoạn chat với người yêu: tin nhắn cũ đã có sẵn từ trước (hiện ngay),
+  // rồi mới tới tin nhờ gửi lại hoá đơn (có "đang nhập"), Kai thả tim tin
+  // đó trước khi đính kèm ảnh.
   useEffect(() => {
     if (phase !== "chatHoney") return;
     const timers: ReturnType<typeof setTimeout>[] = [];
     const at = (ms: number, fn: () => void) => timers.push(setTimeout(fn, ms));
-    at(500, () => setHoneyIntroStep(1));
-    at(1200, () => setHoneyIntroStep(2));
-    at(2200, () => setHoneyIntroStep(3));
-    at(2900, () => setHoneyIntroStep(4));
-    at(3600, () => setHoneyIntroStep(5));
-    at(4600, () => setHoneyIntroStep(6));
+    at(800, () => setHoneyIntroStep(1)); // dots trước tin nhờ gửi hoá đơn
+    at(2000, () => setHoneyIntroStep(2)); // tin nhờ gửi hoá đơn
+    at(3000, () => setHoneyIntroStep(3)); // Kai thả tim
     return () => timers.forEach(clearTimeout);
   }, [phase]);
 
@@ -393,11 +391,26 @@ export default function LockScene({ caseData }: LockSceneProps) {
                 <span className={styles.chatName}>{mishap.girlfriendName}</span>
               </div>
               <div className={styles.chatLog} ref={honeyChatRef}>
-                <TypingLine step={honeyIntroStep} dotsAt={1} textAt={1} me>{HONEY_HISTORY[0].text}</TypingLine>
-                <TypingLine step={honeyIntroStep} dotsAt={2} textAt={3} me={false}>{HONEY_HISTORY[1].text}</TypingLine>
-                <TypingLine step={honeyIntroStep} dotsAt={4} textAt={4} me>{HONEY_HISTORY[2].text}</TypingLine>
-                <TypingLine step={honeyIntroStep} dotsAt={5} textAt={6} me={false}>{mishap.billRequestText}</TypingLine>
-                {honeyIntroStep >= 6 && galleryStep >= 2 && (
+                {HONEY_HISTORY.map((m, i) => (
+                  <div key={i} className={`${m.me ? styles.bubbleMe : styles.bubbleThem} ${styles.on} ${styles.bubbleText}`}>
+                    {m.text}
+                  </div>
+                ))}
+                {honeyIntroStep >= 1 && (
+                  <div className={`${styles.bubbleThem} ${styles.on} ${styles.bubbleText} ${styles.bubbleWithReaction}`}>
+                    {honeyIntroStep >= 2 ? (
+                      <>
+                        {mishap.billRequestText}
+                        {honeyIntroStep >= 3 && <span className={styles.msgLikeBadge}>❤️</span>}
+                      </>
+                    ) : (
+                      <span className={styles.dots}>
+                        <i /><i /><i />
+                      </span>
+                    )}
+                  </div>
+                )}
+                {honeyIntroStep >= 3 && galleryStep >= 2 && (
                   honeyStep >= 3 ? (
                     <div className={`${styles.bubbleMe} ${styles.on} ${styles.bubblePhotoOnly}`}>
                       <div className={styles.deletedPhoto}>
