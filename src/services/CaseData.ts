@@ -2,6 +2,13 @@ import type { CaseConfig } from "../types/case";
 
 import homeWallpaper from "../Assets/UI/home.jpg";
 import nPhoto from "../Assets/UI/n-photo.webp";
+import ownPhoto from "../Assets/UI/post.jpg";
+import billPhoto from "../Assets/UI/bill-man.webp";
+import fillerCoffee from "../Assets/UI/filler-coffee.webp";
+import fillerSneakers from "../Assets/UI/filler-sneakers.webp";
+import fillerFood from "../Assets/UI/filler-food.webp";
+import fillerSunset from "../Assets/UI/filler-sunset.webp";
+import fillerDog from "../Assets/UI/filler-dog.webp";
 
 /**
  * Demo content — swap for real case content once a scenario is written.
@@ -16,8 +23,10 @@ export const demoCase: CaseConfig = {
     homeAddress: "482 Fig St, Apt 3B",
     girlfriendName: "Honey 💗",
     billRequestText: "hey can you resend me yesterday's receipt? 🧾",
+    billPhoto,
     replyText: "Kai... what is this?? Explain. 😳",
   },
+  galleryFillers: [homeWallpaper, ownPhoto, fillerCoffee, fillerSneakers, fillerFood, fillerSunset, fillerDog],
   endCard: {
     choices: ["Deny everything", "Charm my way out"],
     replyLines: [
