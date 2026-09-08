@@ -63,6 +63,12 @@ export const demoCase: CaseConfig = {
     },
     midPrompt: "She's hiding something.",
   },
+  mishap: {
+    senderName: "N",
+    photo: avatarUnknown,
+    girlfriendName: "Honey 💗",
+    replyText: "wait... who is SHE?",
+  },
   endCard: {
     question: "If you were Kai, how would you explain this?",
     choices: ["Deny everything", "Charm my way out"],

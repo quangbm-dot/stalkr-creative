@@ -41,6 +41,21 @@ export interface NotifBanner {
 }
 
 /**
+ * v6: màn khoá máy mở đầu — tin nhắn ảnh "nhạy cảm" từ 1 biệt danh lạ, chủ
+ * nhân điện thoại bấm share nhưng gửi nhầm sang đúng đoạn chat người yêu.
+ */
+export interface MishapScene {
+  /** Biệt danh người gửi ảnh (hiện trên tin nhắn khoá máy), vd "N". */
+  senderName: string;
+  /** Ảnh "check-in" nhạy cảm được gửi tới. */
+  photo: string;
+  /** Tên người yêu — nơi ảnh bị gửi nhầm tới. */
+  girlfriendName: string;
+  /** Câu trả lời nghi ngờ của người yêu sau khi nhận nhầm ảnh. */
+  replyText: string;
+}
+
+/**
  * Toàn bộ nội dung của 1 case gói trong 1 object duy nhất.
  * Case mới = tạo 1 CaseConfig mới (+ ảnh riêng trong src/Assets/<case>/),
  * không cần đụng vào component UI.
@@ -50,6 +65,7 @@ export interface CaseConfig {
   notifBadgeCount: number;
   notif: NotifBanner;
   post: PostScene;
+  mishap: MishapScene;
   endCard: {
     /** Câu hỏi lựa chọn kiểu "Nếu bạn là X sẽ chọn cách nào?" */
     question: string;
