@@ -1,14 +1,7 @@
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import type { CaseConfig } from "../../types/case";
 import iconChat from "../../Assets/UI/messages-icon.webp";
-import fillerRyan from "../../Assets/UI/avatar-ryan.jpg";
-import fillerMia from "../../Assets/UI/avatar-mia-grace.jpg";
-import fillerChloe from "../../Assets/UI/avatar-chloe-wxx.jpg";
-import fillerUnknown from "../../Assets/UI/avatar-unknown-94.jpg";
-import fillerHome from "../../Assets/UI/home.jpg";
-import fillerPost from "../../Assets/UI/post.jpg";
 import capScreenPhoto from "../../Assets/UI/cap-screen.webp";
-import billPhoto from "../../Assets/UI/bill.webp";
 import EndCard from "../EndCard/EndCard";
 import styles from "./LockScene.module.scss";
 
@@ -47,28 +40,23 @@ const HONEY_HISTORY = [
 /** Icon hài hước cho 2 nút đáp án cuối game. */
 const CHOICE_EMOJIS = ["😅", "😏"];
 
-/** Ảnh "linh tinh" có sẵn trong máy — dùng làm nền cho bộ chọn ảnh. */
-const FILLER_PHOTOS = [fillerRyan, fillerMia, fillerChloe, fillerUnknown, fillerHome, fillerPost, fillerMia];
-
 /** 9 ô trong bộ chọn ảnh — ảnh chụp màn hình mới chụp nằm đầu album (ảnh mới
- *  nhất), sát ngay cạnh ảnh hoá đơn nên rất dễ quẹt chọn nhầm cả 2. */
-const GALLERY_ITEMS: { kind: "bill" | "screenshot" | "filler"; img?: string }[] = [
-  { kind: "screenshot" },
-  { kind: "bill" },
-  { kind: "filler", img: FILLER_PHOTOS[0] },
-  { kind: "filler", img: FILLER_PHOTOS[1] },
-  { kind: "filler", img: FILLER_PHOTOS[2] },
-  { kind: "filler", img: FILLER_PHOTOS[3] },
-  { kind: "filler", img: FILLER_PHOTOS[4] },
-  { kind: "filler", img: FILLER_PHOTOS[5] },
-  { kind: "filler", img: FILLER_PHOTOS[6] },
-];
+ *  nhất), sát ngay cạnh ảnh hoá đơn nên rất dễ quẹt chọn nhầm cả 2. Ảnh
+ *  "linh tinh" còn lại lấy từ galleryFillers của từng case (ảnh riêng của
+ *  chính chủ nhân điện thoại đó, không dùng chung giữa các case). */
+function buildGalleryItems(fillers: string[]): { kind: "bill" | "screenshot" | "filler"; img?: string }[] {
+  return [
+    { kind: "screenshot" },
+    { kind: "bill" },
+    ...fillers.slice(0, 7).map((img) => ({ kind: "filler" as const, img })),
+  ];
+}
 
-function BillMock({ variant }: { variant: "grid" | "bubble" }) {
+function BillMock({ photo, variant }: { photo: string; variant: "grid" | "bubble" }) {
   return (
     <img
       className={`${styles.screenshotPhoto} ${variant === "bubble" ? styles.mockBubble : styles.mockGrid}`}
-      src={billPhoto}
+      src={photo}
       alt=""
     />
   );
@@ -141,6 +129,7 @@ export default function LockScene({ caseData }: LockSceneProps) {
   const [chosenReply, setChosenReply] = useState<string | null>(null);
   const [closingStep, setClosingStep] = useState(0);
   const { mishap } = caseData;
+  const galleryItems = buildGalleryItems(caseData.galleryFillers);
   const nChatRef = useAutoScroll(nStep);
   const honeyChatRef = useAutoScroll(`${honeyIntroStep}-${galleryStep}-${honeyStep}-${chosenReply}-${closingStep}`);
   const now = new Date();
@@ -436,7 +425,7 @@ export default function LockScene({ caseData }: LockSceneProps) {
                     </div>
                   ) : (
                     <div className={`${styles.bubbleMe} ${styles.on} ${styles.bubblePhotoOnly} ${styles.bubbleTwoUp} ${styles.bubbleWithReaction}`}>
-                      <BillMock variant="bubble" />
+                      <BillMock photo={mishap.billPhoto} variant="bubble" />
                       <ScreenshotMock variant="bubble" />
                       {honeyStep >= 1 && <span className={styles.reactionBadge}>😮</span>}
                     </div>
@@ -503,11 +492,11 @@ export default function LockScene({ caseData }: LockSceneProps) {
                     <span className={`${styles.gallerySend} ${galleryStep >= 2 ? styles.gallerySendHit : ""}`}>Send</span>
                   </div>
                   <div className={styles.galleryGrid}>
-                    {GALLERY_ITEMS.map((item, i) => {
+                    {galleryItems.map((item, i) => {
                       const hit = item.kind === "screenshot" || (item.kind === "bill" && galleryStep >= 1);
                       return (
                         <div key={i} className={`${styles.galleryItem} ${hit ? styles.galleryItemHit : ""}`}>
-                          {item.kind === "bill" && <BillMock variant="grid" />}
+                          {item.kind === "bill" && <BillMock photo={mishap.billPhoto} variant="grid" />}
                           {item.kind === "screenshot" && <ScreenshotMock variant="grid" />}
                           {item.kind === "filler" && <img className={styles.galleryFillerImg} src={item.img} alt="" />}
                           {hit && <span className={styles.galleryCheck}>✓</span>}
