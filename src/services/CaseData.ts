@@ -22,7 +22,7 @@ export const demoCase: CaseConfig = {
     photo: nPhoto,
     homeAddress: "340 Cedar Ln, Apt 2",
     girlfriendName: "Chase 💗",
-    billRequestText: "hey can you resend me yesterday's receipt? 🧾",
+    billRequestText: "hey can you resend me the receipt for that dress from yesterday? 🧾",
     billPhoto,
     replyText: "Brielle... what is this?? Explain. 😳",
   },
