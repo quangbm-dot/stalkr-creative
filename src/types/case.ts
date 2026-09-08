@@ -13,6 +13,8 @@ export interface MishapScene {
   girlfriendName: string;
   /** Tin nhắn người yêu nhờ gửi lại hoá đơn thanh toán hôm qua. */
   billRequestText: string;
+  /** Ảnh hoá đơn bị gửi nhầm kèm ảnh chụp màn hình — nam/nữ dùng ảnh khác nhau. */
+  billPhoto: string;
   /** Câu trả lời nghi ngờ của người yêu sau khi nhận nhầm ảnh chụp màn hình. */
   replyText: string;
 }
@@ -25,6 +27,9 @@ export interface MishapScene {
 export interface CaseConfig {
   homeWallpaper: string;
   mishap: MishapScene;
+  /** Đúng 7 ảnh "linh tinh" trong bộ chọn ảnh — ảnh riêng của case này (ảnh
+   *  chính chủ + vài ảnh đời thường chung), không dùng ảnh của case khác. */
+  galleryFillers: string[];
   endCard: {
     /** Nhãn ngắn trên 2 nút lựa chọn, vd "Deny everything". */
     choices: [string, string];
