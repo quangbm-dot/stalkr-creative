@@ -156,8 +156,8 @@ export default function LockScene({ caseData }: LockSceneProps) {
     at(21600, () => setPhase("honeyBanner"));
     at(23600, () => setPhase("honeyTapped"));
     at(24200, () => setPhase("chatHoney"));
-    at(28400, () => setPhase("gallery"));
-    at(36000, () => setPhase("choices"));
+    at(26600, () => setPhase("gallery"));
+    at(34200, () => setPhase("choices"));
 
     return () => timers.forEach(clearTimeout);
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -185,16 +185,14 @@ export default function LockScene({ caseData }: LockSceneProps) {
     return () => timers.forEach(clearTimeout);
   }, [phase]);
 
-  // Đoạn chat với người yêu: tin nhắn cũ đã có sẵn từ trước (hiện ngay),
-  // rồi mới tới tin nhờ gửi lại hoá đơn (có "đang nhập"), Kai thả tim tin
-  // đó trước khi đính kèm ảnh.
+  // Đoạn chat với người yêu: tin nhắn cũ + tin nhờ gửi hoá đơn đã có sẵn
+  // từ trước (hiện ngay, vì noti đã báo rồi) — Kai chỉ thả tim tin đó
+  // trước khi đính kèm ảnh.
   useEffect(() => {
     if (phase !== "chatHoney") return;
     const timers: ReturnType<typeof setTimeout>[] = [];
     const at = (ms: number, fn: () => void) => timers.push(setTimeout(fn, ms));
-    at(800, () => setHoneyIntroStep(1)); // dots trước tin nhờ gửi hoá đơn
-    at(2000, () => setHoneyIntroStep(2)); // tin nhờ gửi hoá đơn
-    at(3000, () => setHoneyIntroStep(3)); // Kai thả tim
+    at(900, () => setHoneyIntroStep(1)); // Kai thả tim
     return () => timers.forEach(clearTimeout);
   }, [phase]);
 
@@ -396,21 +394,11 @@ export default function LockScene({ caseData }: LockSceneProps) {
                     {m.text}
                   </div>
                 ))}
-                {honeyIntroStep >= 1 && (
-                  <div className={`${styles.bubbleThem} ${styles.on} ${styles.bubbleText} ${styles.bubbleWithReaction}`}>
-                    {honeyIntroStep >= 2 ? (
-                      <>
-                        {mishap.billRequestText}
-                        {honeyIntroStep >= 3 && <span className={styles.msgLikeBadge}>❤️</span>}
-                      </>
-                    ) : (
-                      <span className={styles.dots}>
-                        <i /><i /><i />
-                      </span>
-                    )}
-                  </div>
-                )}
-                {honeyIntroStep >= 3 && galleryStep >= 2 && (
+                <div className={`${styles.bubbleThem} ${styles.on} ${styles.bubbleText} ${styles.bubbleWithReaction}`}>
+                  {mishap.billRequestText}
+                  {honeyIntroStep >= 1 && <span className={styles.msgLikeBadge}>❤️</span>}
+                </div>
+                {honeyIntroStep >= 1 && galleryStep >= 2 && (
                   honeyStep >= 3 ? (
                     <div className={`${styles.bubbleMe} ${styles.on} ${styles.bubblePhotoOnly}`}>
                       <div className={styles.deletedPhoto}>
