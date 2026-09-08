@@ -66,6 +66,7 @@ export const demoCase: CaseConfig = {
   mishap: {
     senderName: "N",
     photo: avatarUnknown,
+    intendedName: "Bro",
     girlfriendName: "Honey 💗",
     replyText: "wait... who is SHE?",
   },

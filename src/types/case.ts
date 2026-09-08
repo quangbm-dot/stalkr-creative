@@ -45,11 +45,13 @@ export interface NotifBanner {
  * nhân điện thoại bấm share nhưng gửi nhầm sang đúng đoạn chat người yêu.
  */
 export interface MishapScene {
-  /** Biệt danh người gửi ảnh (hiện trên tin nhắn khoá máy), vd "N". */
+  /** Biệt danh người gửi ảnh (hiện trên tin nhắn khoá máy + tên đoạn chat). */
   senderName: string;
   /** Ảnh "check-in" nhạy cảm được gửi tới. */
   photo: string;
-  /** Tên người yêu — nơi ảnh bị gửi nhầm tới. */
+  /** Người định chia sẻ tới (vd "Bro") — nơi ngón tay suýt chạm. */
+  intendedName: string;
+  /** Tên người yêu — nơi ảnh bị gửi nhầm tới thật sự. */
   girlfriendName: string;
   /** Câu trả lời nghi ngờ của người yêu sau khi nhận nhầm ảnh. */
   replyText: string;
