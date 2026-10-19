@@ -5,6 +5,14 @@ import "./grid.css";
 import "./index.css";
 import "./responsive.css";
 import App from "./App.tsx";
+import Gallery from "./Components/Gallery/Gallery.tsx";
+import cases from "virtual:v9-cases";
+
+// v9: ?case=<id> chọn case; `npm run dev all` (nhiều case, không có ?case)
+// thì hiện trang Gallery xem tất cả cùng lúc.
+const caseParam = new URLSearchParams(location.search).get("case");
+const activeCase = cases.find((c) => c.id === caseParam) ?? cases[0];
+const showGallery = cases.length > 1 && !caseParam;
 
 // Hàm render an toàn
 const render = () => {
@@ -17,7 +25,7 @@ const render = () => {
   
   createRoot(root).render(
     <StrictMode>
-      <App />
+      {showGallery ? <Gallery cases={cases} /> : <App key={activeCase.id} caseData={activeCase.config} />}
     </StrictMode>,
   );
 

@@ -12,7 +12,7 @@ export default function Maps({ caseData, onBack }: MapsProps) {
   return (
     <AppScreen title="Maps" onBack={onBack} theme="light">
       <img className={styles.map} src={mapBg} alt="" />
-      <div className={styles.sectionLabel}>Frequent places</div>
+      <div className={styles.sectionLabel}>{caseData.maps.sectionLabel ?? "Frequent places"}</div>
       <div className={styles.list}>
         {caseData.maps.locations.map((loc, i) => (
           <div key={i} className={styles.row}>

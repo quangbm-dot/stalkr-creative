@@ -4,12 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --host",
+    "dev": "node scripts/dev.cjs",
     "build": "tsc -b && vite build",
     "build-mtg": "node build-inline.cjs mindwork",
     "build-unity": "node build-inline.cjs unity",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build:v9": "node scripts/build-v9.cjs"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.4",

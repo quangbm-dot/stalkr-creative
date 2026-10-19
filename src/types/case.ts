@@ -59,7 +59,14 @@ export interface NoteEntry {
 
 export interface CalendarEvent {
   title: string;
+  /** "MM/DD" */
   date: string;
+  /** "YYYY-MM" — khi có thì chỉ đánh dấu ngày trên lưới đúng tháng đó */
+  month?: string;
+  /** Nhãn ngày đầy đủ hiện trong agenda, vd "Mon, Aug 3, 2026" */
+  dateLabel?: string;
+  time?: string;
+  location?: string;
 }
 
 export interface InstagramPost {
@@ -80,6 +87,11 @@ export interface GmailEntry {
   sender: string;
   subject: string;
   preview: string;
+  /** Nội dung đầy đủ khi mở thư — không có thì hiện preview */
+  body?: string;
+  time?: string;
+  /** Mặc định "inbox" */
+  folder?: "inbox" | "sent";
 }
 
 export interface PhotoEntry {
@@ -107,6 +119,8 @@ export interface CallEntry {
   name: string;
   time: string;
   type: "incoming" | "outgoing" | "missed";
+  /** vd "14 min" / "Blocked" */
+  detail?: string;
 }
 
 export interface WeatherInfo {
@@ -120,6 +134,8 @@ export interface WeatherInfo {
 export interface RevolutTransaction {
   name: string;
   amount: string;
+  date?: string;
+  note?: string;
 }
 
 export interface MapLocation {
@@ -182,7 +198,10 @@ export interface CaseConfig {
   vaultCode: string;
   weather: WeatherInfo;
   revolut: { balance: string; transactions: RevolutTransaction[] };
-  maps: { locations: MapLocation[] };
+  maps: { locations: MapLocation[]; sectionLabel?: string };
+  /** "Hôm nay" trong câu chuyện (ISO) — lịch mở đúng tháng này thay vì
+   *  tháng thật của máy người chơi. */
+  now?: string;
   endCard: {
     headline: string;
     subhead: string;

@@ -78,6 +78,21 @@
 .agendaDate {
   color: #8a8a8e;
   flex: 0 0 auto;
+  width: 96px;
+  font-size: 12px;
+  padding-top: 2px;
+}
+
+.agendaText {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.agendaMeta {
+  color: #8a8a8e;
+  font-size: 12px;
 }
 
 .agendaTitle {

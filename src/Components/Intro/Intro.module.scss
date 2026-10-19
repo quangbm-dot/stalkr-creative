@@ -304,6 +304,9 @@
   width: 44px;
   height: auto;
   pointer-events: none;
+  // Viền sáng + bóng xanh đậm để bàn tay tách hẳn khỏi nền nút trắng.
+  filter: drop-shadow(0 0 1px #0a4fd6) drop-shadow(0 0 1px #0a4fd6)
+    drop-shadow(0 3px 4px rgba(0, 70, 220, 0.95)) drop-shadow(0 0 10px rgba(0, 122, 255, 0.8));
   animation: choiceTap 1.1s ease-in-out infinite;
 }
 
@@ -352,5 +355,45 @@
   }
   50% {
     transform: translateY(-6px) scale(1.03);
+  }
+}
+
+.revealGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+// Ảnh nhân vật của case v9 hiện rõ — không làm mờ như ảnh "bằng chứng" KB4.
+.revealPhoto {
+  filter: none;
+  transform: none;
+}
+
+// .appCard mặc định full-width 4:3 (hợp cho card "bằng chứng" của KB4), nhưng
+// ảnh reveal của v9 là ảnh chân dung dọc (538x720) — để full-width 4:3 thì
+// ảnh bị kéo to lấn hết khung chat và crop sai. Thu nhỏ lại như 1 ảnh đính
+// kèm trong chat, theo đúng tỉ lệ dọc của ảnh gốc.
+.revealCard {
+  align-self: flex-start;
+  width: 42%;
+  max-width: 140px;
+  aspect-ratio: 3 / 4;
+
+  // Chữ/scrim trên ảnh được canh theo cỡ card gốc (full-width ~360px) — thu
+  // nhỏ lại tương ứng với card bé hơn nhiều (140px) kẻo chữ đè gần kín ảnh.
+  .appCardScrim {
+    height: 58%;
+  }
+
+  .appCardInfo {
+    left: 8px;
+    right: 8px;
+    bottom: 6px;
+  }
+
+  .appCardName {
+    font-size: 11px;
+    line-height: 1.25;
   }
 }

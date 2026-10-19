@@ -8,11 +8,13 @@ interface IntroProps {
   onDone: () => void;
 }
 
-type LogStep = Extract<HireStep, { type: "msgs" | "tinderReveal" | "appReveal" }>;
+type LogStep = Extract<HireStep, { type: "msgs" | "tinderReveal" | "appReveal" | "reveal" }>;
 
 const TYPING_MS = 900;
 const GAP_MS = 350;
 const CARD_MS = 1800;
+// "reveal" = ảnh + 1 đoạn kể chuyện dài hiện cùng lúc — cho thêm thời gian đọc.
+const REVEAL_MS = 2600;
 
 /**
  * v4 intro — một đoạn chat ngắn gọn từ số lạ (thay cho bảng ghim nhiều ảnh
@@ -29,7 +31,10 @@ export default function Intro({ caseData, onDone }: IntroProps) {
   const current = steps[revealed];
 
   useEffect(() => {
-    logEndRef.current?.scrollIntoView({ block: "end" });
+    // Cuộn mượt thay vì nhảy cứng — nhảy cứng là nguyên nhân chính gây cảm
+    // giác "giật" mỗi khi có bong bóng/ảnh mới hiện ra, nhất là lúc ảnh
+    // reveal còn to khiến khoảng cuộn dài hơn bình thường.
+    logEndRef.current?.scrollIntoView({ block: "end", behavior: "smooth" });
   }, [revealed, typing]);
 
   useEffect(() => {
@@ -50,7 +55,7 @@ export default function Intro({ caseData, onDone }: IntroProps) {
       );
     } else {
       setTyping(false);
-      timers.push(setTimeout(() => setRevealed((r) => r + 1), CARD_MS));
+      timers.push(setTimeout(() => setRevealed((r) => r + 1), step.type === "reveal" ? REVEAL_MS : CARD_MS));
     }
     return () => timers.forEach(clearTimeout);
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -60,7 +65,7 @@ export default function Intro({ caseData, onDone }: IntroProps) {
     .map((s, idx) => ({ s, idx }))
     .slice(0, revealed + 1)
     .filter((e): e is { s: LogStep; idx: number } =>
-      e.s.type === "msgs" || e.s.type === "tinderReveal" || e.s.type === "appReveal",
+      e.s.type === "msgs" || e.s.type === "tinderReveal" || e.s.type === "appReveal" || e.s.type === "reveal",
     );
 
   return (
@@ -81,6 +86,25 @@ export default function Intro({ caseData, onDone }: IntroProps) {
         <div className={styles.log}>
           {logEntries.map(({ s, idx }) => {
             const isCurrent = idx === revealed;
+
+            if (s.type === "reveal") {
+              return (
+                <div key={idx} className={styles.revealGroup}>
+                  <div className={`${styles.appCard} ${styles.revealCard} ${styles.on}`}>
+                    <img className={`${styles.appCardPhoto} ${styles.revealPhoto}`} src={s.src} alt="" />
+                    {s.label && (
+                      <>
+                        <div className={styles.appCardScrim} />
+                        <div className={styles.appCardInfo}>
+                          <span className={styles.appCardName}>{s.label}</span>
+                        </div>
+                      </>
+                    )}
+                  </div>
+                  <div className={`${styles.bubble} ${styles.on}`}>{s.text}</div>
+                </div>
+              );
+            }
 
             if (s.type === "tinderReveal" || s.type === "appReveal") {
               const appLabel = s.type === "tinderReveal" ? "Tinder" : s.appLabel;

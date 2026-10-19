@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useLayoutEffect, useState } from "react";
 import styles from "./DevBar.module.scss";
 
 interface DevBarProps {
@@ -11,6 +11,17 @@ interface DevBarProps {
  */
 export default function DevBar({ onSkipEnd }: DevBarProps) {
   const [show] = useState(() => /dev/.test(location.hash));
+
+  // Báo PhoneFrame chừa chỗ cho thanh này (xem PhoneFrame.module.scss) —
+  // không thì 2 nút đè lên thanh câu hỏi ở đáy màn hình. Chạy trước khi
+  // PhoneFrame đo kích thước (layout effect, DevBar render trước).
+  useLayoutEffect(() => {
+    if (!show) return;
+    document.documentElement.setAttribute("data-devbar", "");
+    window.dispatchEvent(new Event("resize"));
+    return () => document.documentElement.removeAttribute("data-devbar");
+  }, [show]);
+
   if (!show) return null;
 
   return (

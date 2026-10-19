@@ -13,6 +13,11 @@
   padding-bottom: calc(80px + var(--sab, 0px));
 }
 
+/* Chỉ khi có DevBar (#dev): nhường đáy màn hình cho thanh QA. */
+:global(html[data-devbar]) .outer {
+  bottom: 50px;
+}
+
 .frame {
   position: relative;
   /* Canvas thiết kế cố định, luôn giữ đúng tỉ lệ — scale() để vừa khít

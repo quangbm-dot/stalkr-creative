@@ -82,3 +82,18 @@
 .amountIn {
   color: var(--ios-green);
 }
+
+.nameCol {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.sub {
+  font-size: 11px;
+  color: #8a8a8e;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

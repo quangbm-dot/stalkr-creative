@@ -24,7 +24,15 @@ export default function Revolut({ caseData, onBack }: RevolutProps) {
           {transactions.map((t, i) => (
             <div key={i} className={styles.row}>
               <span className={styles.icon}>{t.name.charAt(0)}</span>
-              <span className={styles.name}>{t.name}</span>
+              <span className={styles.nameCol}>
+                <span className={styles.name}>{t.name}</span>
+                {t.date && (
+                  <span className={styles.sub}>
+                    {t.date}
+                    {t.note && ` · ${t.note}`}
+                  </span>
+                )}
+              </span>
               <span className={t.amount.startsWith("+") ? styles.amountIn : styles.amount}>
                 {t.amount}
               </span>

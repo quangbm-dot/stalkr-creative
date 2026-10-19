@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import type { AppKey } from "./types/case";
-import { demoCase } from "./services/CaseData";
+import type { CaseConfig } from "./types/case";
 import PhoneFrame from "./Components/PhoneFrame/PhoneFrame";
 import HomeScreen from "./Components/PhoneFrame/HomeScreen";
 import Loader from "./Components/Loader/Loader";
@@ -14,7 +14,7 @@ import { renderApp } from "./Components/apps/registry";
 
 type Stage = "loader" | "caseIntro" | "intro" | "phone" | "end";
 
-function App() {
+function App({ caseData }: { caseData: CaseConfig }) {
   const [stage, setStage] = useState<Stage>("loader");
   const [openApp, setOpenApp] = useState<AppKey | null>(null);
   const [evidenceFound, setEvidenceFound] = useState(1);
@@ -22,7 +22,6 @@ function App() {
   // Bắt đầu thu gọn, đợi 0.4s sau khi vào màn phone mới bung popup lên —
   // tránh việc render đồng thời wallpaper + popup + TopBar gây giật lag.
   const [chatExpanded, setChatExpanded] = useState(false);
-  const caseData = demoCase;
 
   useEffect(() => {
     if (stage !== "phone") return;

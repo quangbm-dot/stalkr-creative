@@ -24,7 +24,10 @@ export default function Phone({ caseData, onBack }: PhoneProps) {
             </span>
             <span className={styles.meta}>
               <span className={c.type === "missed" ? styles.nameMissed : styles.name}>{c.name}</span>
-              <span className={styles.time}>{c.time}</span>
+              <span className={styles.time}>
+                {c.time}
+                {c.detail && ` · ${c.detail}`}
+              </span>
             </span>
           </div>
         ))}
