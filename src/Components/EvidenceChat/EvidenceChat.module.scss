@@ -26,6 +26,9 @@
   height: 88%;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+  padding: 14px 16px 16px;
   border-radius: 22px 22px 0 0;
   background-image: linear-gradient(rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0.7)), url("../../Assets/UI/popup.jpg");
   background-size: cover;
@@ -35,7 +38,6 @@
   box-shadow: 0 -8px 28px rgba(0, 0, 0, 0.28);
   backdrop-filter: var(--glass-blur);
   -webkit-backdrop-filter: var(--glass-blur);
-  overflow: hidden;
   animation: slideUp 0.55s cubic-bezier(0.22, 0.75, 0.32, 1) 0.15s both;
 }
 
@@ -55,41 +57,62 @@
   justify-content: center;
   padding: 0;
   border: none;
-  background: rgba(11, 31, 58, 0.08);
+  background: #fff;
   border-radius: 50%;
-  width: 28px;
-  height: 28px;
-  font-size: 16px;
-  line-height: 1;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 4px 10px rgba(20, 40, 70, 0.15);
   color: #0b1f3a;
   cursor: pointer;
 }
 
 /* Thanh bar mỏng khi thu gọn — bấm vào để mở rộng lại. */
 .bar {
-  position: absolute;
-  left: 10px;
-  right: 10px;
-  bottom: 14px;
-  z-index: 20;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
   display: flex;
   align-items: center;
-  gap: 8px;
-  padding: 8px 12px;
+  gap: 10px;
+  padding: 16px 16px 24px;
   border: none;
-  border-radius: 20px;
-  background: var(--glass-bg-on-dark);
-  border: 0.5px solid var(--glass-border-on-dark);
-  backdrop-filter: var(--glass-blur);
-  -webkit-backdrop-filter: var(--glass-blur);
-  box-shadow: var(--glass-shadow);
+  // Đây là mép trên của popup câu hỏi (.sheet bên dưới) hiện hé lên — dùng
+  // lại đúng nền/góc bo của .sheet, không phải 1 thanh pill riêng nổi trên
+  // nền đen như trước.
+  border-radius: 22px 22px 0 0;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0.7)), url("../../Assets/UI/popup.jpg");
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 -8px 28px rgba(0, 0, 0, 0.28);
   cursor: pointer;
   text-align: left;
 }
 
+.barHint {
+  position: absolute;
+  top: -2px;
+  right: 10px;
+  font-size: 26px;
+  pointer-events: none;
+  z-index: 10;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
+  animation: barHintTap 1s ease-in-out infinite;
+}
+
+@keyframes barHintTap {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, -5px);
+  }
+}
+
 .barAvatar {
-  width: 28px;
-  height: 28px;
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
   object-fit: cover;
   flex: 0 0 auto;
@@ -101,66 +124,251 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  color: var(--ios-text);
+  // Nền thanh này là ảnh trời xanh nhạt (popup.jpg), không phải nền tối —
+  // --ios-text (trắng) gần như không đọc được, phải tự đặt màu đen riêng.
+  color: #0b1f3a;
   font-family: var(--font-sans);
-  font-size: 13px;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .barBadge {
   flex: 0 0 auto;
   padding: 3px 8px;
   border-radius: 10px;
-  background: rgba(255, 255, 255, 0.2);
-  color: var(--ios-text);
+  background: rgba(11, 31, 58, 0.1);
+  color: #0b1f3a;
   font-family: var(--font-sans);
   font-weight: 700;
-  font-size: 10px;
+  font-size: 12px;
 }
 
-.header {
+// --- Header căn giữa phía trên card (chevron / "Question x/y" / avatar+mắt / tên) ---
+
+.topQBadge {
   flex: 0 0 auto;
+  margin-top: 8px;
+  color: #0b1f3a;
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.avatarRow {
+  flex: 0 0 auto;
+  position: relative;
+  margin-top: 10px;
   display: flex;
   align-items: center;
-  gap: 10px;
-  padding: 10px 16px;
-  border-bottom: 1px solid rgba(11, 31, 58, 0.08);
+  justify-content: center;
 }
 
 .avatar {
-  width: 34px;
-  height: 34px;
+  width: 64px;
+  height: 64px;
   border-radius: 50%;
   object-fit: cover;
+  border: 3px solid #fff;
+  box-shadow: 0 6px 14px rgba(20, 40, 70, 0.2);
+}
+
+.eyeIcon {
+  position: absolute;
+  left: calc(50% + 46px);
+  width: 56px;
+  height: 34px;
+  color: #6fa8d8;
 }
 
 .name {
-  font-family: var(--font-sans);
-  font-weight: 700;
-  font-size: 15px;
+  flex: 0 0 auto;
+  margin-top: 6px;
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 800;
+  font-size: 19px;
   color: #0b1f3a;
 }
 
-.spacer {
-  flex: 1 1 auto;
+// --- Thẻ câu hỏi trắng (card) — tĩnh, không phải khung chat cuộn ---
+
+.card {
+  flex: 0 0 auto;
+  width: 100%;
+  margin-top: 14px;
+  padding: 16px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 10px 26px rgba(20, 40, 70, 0.14);
+  box-sizing: border-box;
 }
 
-.qBadge {
-  padding: 4px 10px;
-  border-radius: 12px;
-  background: var(--meta-pink-soft);
+.cardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.cardQBadge {
+  color: rgba(11, 31, 58, 0.55);
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.questionText {
+  margin: 0 0 14px;
+  color: #0b1f3a;
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 1.35;
+}
+
+.hintBox {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 14px;
+  padding: 14px 16px;
+  border-radius: 18px;
+  background: #e8f1fb;
+  color: #0b1f3a;
+  font-family: var(--font-sans);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.4;
+  animation: replyIn 0.3s ease-out;
+}
+
+.hintBoxIcon {
+  flex: 0 0 auto;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.choices {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.chip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 14px;
+  border-radius: 22px;
+  border: none;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(20, 40, 70, 0.12);
   color: var(--meta-accent);
   font-family: var(--font-sans);
   font-weight: 700;
-  font-size: 11px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
 }
 
-.history {
-  flex: 1 1 auto;
-  overflow-y: auto;
-  padding: 14px 16px;
+// Chưa mở đúng app chứa manh mối — khoá lại, không bấm được, đợi người chơi
+// đi "snooping" trước (đúng cơ chế bản gốc, 🔒 không chỉ để trang trí).
+.chipLocked {
+  color: #c9872e;
+  cursor: not-allowed;
+  opacity: 0.9;
+}
+
+.chipLock {
+  font-size: 13px;
+  opacity: 0.85;
+}
+
+.chipWrong {
+  color: var(--ios-red);
+  animation: shake 0.4s;
+}
+
+.chipCorrect {
+  border-color: var(--ios-green);
+  background: rgba(52, 199, 89, 0.12);
+  color: var(--ios-green);
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-4px); }
+  75% { transform: translateX(4px); }
+}
+
+.snoopWrap {
+  position: relative;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+// Bàn tay gợi ý trỏ vào nút "keep snooping" khi đáp án còn khoá — cùng kiểu
+// với hand-hint ở Intro (emoji, không phải ảnh, để màu vàng tự nhiên).
+.snoopHint {
+  position: absolute;
+  z-index: 5;
+  top: 50%;
+  right: 18px;
+  transform: translateY(-50%);
+  font-size: 28px;
+  line-height: 1;
+  pointer-events: none;
+  filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.35));
+  animation: choiceTap 1.1s ease-in-out infinite;
+}
+
+@keyframes choiceTap {
+  0%, 100% {
+    transform: translateY(-50%) translate(0, 0);
+  }
+  50% {
+    transform: translateY(-50%) translate(-4px, -4px);
+  }
+}
+
+// Nút "keep snooping his phone" ở đáy popup — đúng y hệt v8: bấm để thu gọn
+// popup lại (cùng hành động với nút mũi tên ở header), không phải ô nhập.
+.snoopBtn {
+  flex: 0 0 auto;
+  width: 100%;
+  margin-top: 14px;
+  padding: 12px;
+  border-radius: 20px;
+  border: 1px solid rgba(11, 31, 58, 0.1);
+  background: rgba(255, 255, 255, 0.85);
+  color: var(--meta-accent);
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 6px 16px rgba(20, 40, 70, 0.1);
+  box-sizing: border-box;
+}
+
+.hintBtn {
+  width: 38px;
+  height: 38px;
+  border-radius: 12px;
+  border: none;
+  background: #e8f1fb;
+  font-size: 17px;
+  line-height: 1;
   display: flex;
-  flex-direction: column;
-  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  &:disabled {
+    opacity: 0.45;
+    cursor: default;
+  }
 }
 
 .fullTeaser {
@@ -282,138 +490,73 @@
   }
 }
 
-.bubbleThem,
-.bubbleMe {
-  max-width: 82%;
-  padding: 10px 14px;
-  border-radius: 16px;
-  font-family: var(--font-sans);
-  font-size: 14px;
-  line-height: 1.4;
-  position: relative;
-}
-
-.bubbleThem {
-  align-self: flex-start;
-  background: var(--meta-pink-soft);
-  color: #0b1f3a;
-}
-
-.bubbleMe {
-  align-self: flex-end;
-  display: flex;
+// Chọn sai: dấu X đỏ ngay trong ô đáp án, rung nhẹ rồi tự mất.
+.chipX {
+  display: inline-flex;
   align-items: center;
-  gap: 6px;
-  background: var(--ios-green);
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--ios-red);
   color: #fff;
-  font-weight: 700;
-}
-
-.checkIcon {
-  flex: 0 0 auto;
-  color: #fff;
-}
-
-.hintBubble {
-  align-self: center;
-  padding: 8px 14px;
-  border-radius: 12px;
-  background: #fff6da;
-  color: #7a5b00;
-  font-family: var(--font-sans);
   font-size: 12px;
+  line-height: 1;
+  font-weight: 800;
 }
 
-.choices {
-  flex: 0 0 auto;
+// Chọn đúng: đoạn chat dẫn truyện (câu người chơi chọn + lời đáp nhân vật).
+.replyChat {
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  padding: 0 16px 10px;
-}
-
-.chip {
-  padding: 12px;
-  border-radius: 20px;
-  border: 1px solid var(--glass-border-on-light);
-  background: rgba(255, 255, 255, 0.55);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8);
-  color: var(--meta-accent);
-  font-family: var(--font-sans);
-  font-weight: 700;
-  font-size: 14px;
-  cursor: pointer;
-}
-
-.chipWrong {
-  border-color: var(--ios-red);
-  color: var(--ios-red);
-  animation: shake 0.4s;
-}
-
-@keyframes shake {
-  0%, 100% { transform: translateX(0); }
-  25% { transform: translateX(-4px); }
-  75% { transform: translateX(4px); }
-}
-
-.inputRow {
-  flex: 0 0 auto;
-  display: flex;
-  align-items: center;
   gap: 10px;
-  padding: 10px 16px 14px;
-  border-top: 1px solid rgba(11, 31, 58, 0.08);
+  margin-top: 4px;
+  animation: replyIn 0.35s ease-out;
 }
-
-.inputPill {
-  flex: 1 1 auto;
-  padding: 11px 16px;
-  border-radius: 20px;
-  background: rgba(255, 255, 255, 0.5);
-  border: 1px solid rgba(11, 31, 58, 0.08);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  color: #9aa5b5;
+.replyMe,
+.replyThem {
+  max-width: 85%;
+  padding: 11px 15px;
+  border-radius: 18px;
   font-family: var(--font-sans);
-  font-size: 14px;
-  text-align: left;
-  cursor: pointer;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.35;
 }
-
-.hintBtn {
-  position: relative;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  border: 1px solid rgba(255, 214, 102, 0.6);
-  background: rgba(255, 246, 218, 0.7);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  font-size: 16px;
-  cursor: pointer;
-
-  &:disabled {
-    opacity: 0.4;
-    cursor: default;
+.replyMe {
+  align-self: flex-end;
+  background: var(--meta-accent);
+  color: #fff;
+  border-bottom-right-radius: 6px;
+}
+.replyThem {
+  align-self: flex-start;
+  background: #e4ecf6;
+  color: #0b1f3a;
+  border-bottom-left-radius: 6px;
+}
+@keyframes replyIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
-.hintCount {
-  position: absolute;
-  top: -4px;
-  right: -4px;
-  min-width: 16px;
-  height: 16px;
-  padding: 0 3px;
-  border-radius: 8px;
-  background: var(--ios-red);
-  color: #fff;
-  font-size: 10px;
+// "Next >" chỉ là chữ xanh, không có khung.
+.nextLink {
+  display: block;
+  margin: 12px auto 0;
+  padding: 6px 12px;
+  border: none;
+  background: none;
+  box-shadow: none;
+  color: var(--meta-accent);
+  font-family: var(--font-sans);
   font-weight: 700;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  font-size: 16px;
+  cursor: pointer;
 }

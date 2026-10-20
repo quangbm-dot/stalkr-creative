@@ -10,7 +10,8 @@
     "build-unity": "node build-inline.cjs unity",
     "lint": "eslint .",
     "preview": "vite preview",
-    "build:v9": "node scripts/build-v9.cjs"
+    "build:v9": "node scripts/build-v9.cjs",
+    "build:v10": "node scripts/build-v10.cjs"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.4",

@@ -13,7 +13,7 @@ export default function Instagram({ caseData, onBack }: InstagramProps) {
   return (
     <AppScreen title={username} onBack={onBack} theme="light">
       <div className={styles.profile}>
-        <img className={styles.avatar} src={avatar} alt={displayName} />
+        {avatar ? <img className={styles.avatar} src={avatar} alt={displayName} /> : <div className={styles.avatar} />}
         <div className={styles.stats}>
           <div>
             <b>{posts.length}</b>
@@ -35,16 +35,16 @@ export default function Instagram({ caseData, onBack }: InstagramProps) {
         {posts.map((p, i) => (
           <div key={i} className={styles.post}>
             <div className={styles.postHeader}>
-              <img className={styles.postAvatar} src={p.image} alt="" />
+              <img className={styles.postAvatar} src={avatar || p.image} alt="" />
               <div>
-                <div className={styles.postUser}>{username}</div>
+                <div className={styles.postUser}>{p.username || username}</div>
                 <div className={styles.postLocation}>{p.location}</div>
               </div>
             </div>
             <img className={styles.postImage} src={p.image} alt="" />
             {p.caption && (
               <div className={styles.caption}>
-                <b>{username}</b> {p.caption}
+                <b>{p.username || username}</b> {p.caption}
               </div>
             )}
           </div>

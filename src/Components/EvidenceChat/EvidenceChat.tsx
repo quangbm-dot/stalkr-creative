@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 import type { CaseConfig } from "../../types/case";
 import Confetti from "../Confetti/Confetti";
 import openLinkApp from "../../services/AdController";
@@ -11,120 +12,105 @@ interface EvidenceChatProps {
   onAllSolved: () => void;
   expanded: boolean;
   onExpandedChange: (expanded: boolean) => void;
+  /** Đã mở đúng app chứa manh mối của câu hiện tại ít nhất 1 lần chưa — false
+   * thì 4 lựa chọn hiện khoá (🔒), không bấm được, phải đi "snooping" trước. */
+  unlocked: boolean;
 }
 
-const MAX_WRONG = 3;
-// Bấm hint quá số này (lần thứ 3 trở đi) cũng coi như đang bí — hiện luôn
-// overlay EndCard giống lúc trả lời đúng, nhắc tải app để xem full lời giải.
-const MAX_HINTS_BEFORE_TEASER = 2;
+const NEXT_DELAY_MS = 2500;
+// Emoji đổi theo câu cho bong bóng đáp án của người chơi, đỡ lặp.
+const PICK_EMOJIS = ["🔍", "🕵️", "💡", "👀", "📌", "🧩"];
+const TEASER_AFTER_ROUND = 8;
 
-interface ChatBubble {
-  from: "informant" | "me";
-  text: string;
-  correct?: boolean;
-}
-
+/**
+ * v10: clone y hệt popup câu hỏi của V8 — 1 "thẻ câu hỏi" tĩnh (không phải
+ * khung chat cuộn dần như v4/v9): header căn giữa (nút thu gọn, "Question
+ * x/y", avatar+icon mắt, tên), rồi tới card trắng (Question x/y + 💡, câu
+ * hỏi, 4 lựa chọn khoá), rồi nút "keep snooping his phone" để đóng lại.
+ */
 export default function EvidenceChat({
   caseData,
   onEvidenceFound,
   onAllSolved,
   expanded,
   onExpandedChange,
+  unlocked,
 }: EvidenceChatProps) {
   const [roundIndex, setRoundIndex] = useState(0);
-  const [hintsLeft, setHintsLeft] = useState(caseData.hintBudget);
-  const [hintsUsed, setHintsUsed] = useState(0);
+  // Không giới hạn tổng số gợi ý, nhưng mỗi câu chỉ dùng 1 lần (chống spam).
+  const [hintUsedThisRound, setHintUsedThisRound] = useState(false);
   const [showHint, setShowHint] = useState(false);
   const [wrongPick, setWrongPick] = useState<string | null>(null);
-  // Đếm tổng số lần chọn sai (tính chung cả case) — sai quá MAX_WRONG lần
-  // thì kết thúc sớm, chuyển sang EndCard thay vì cho trả lời vô hạn.
-  const [wrongCount, setWrongCount] = useState(0);
-  // Hiện sẵn các lựa chọn trả lời ngay từ câu đầu tiên.
-  const [choicesOpen, setChoicesOpen] = useState(true);
+  const [correctPick, setCorrectPick] = useState<string | null>(null);
   const [showConfetti, setShowConfetti] = useState(false);
   // Sau khi trả lời đúng câu 1 — teaser EndCard che kín toàn màn hình, có
   // nút mũi tên nhỏ ở trên để thu gọn lại, tiếp tục chơi câu 2/3.
   const [showEndTeaser, setShowEndTeaser] = useState(false);
-  const [history, setHistory] = useState<ChatBubble[]>(() => [
-    { from: "informant", text: caseData.evidenceRounds[0]?.prompt ?? "" },
-  ]);
-  const historyRef = useRef<HTMLDivElement>(null);
-
-  // Tự cuộn xuống cuối mỗi khi có tin nhắn mới hoặc bấm hint — tránh nội
-  // dung mới (đặc biệt bong bóng hint) bị khuất phía dưới, che mất đáp án.
+  // Thanh câu hỏi thu gọn không còn nằm trong màn hình điện thoại nữa — nó
+  // portal ra div #phone-below-bar mà PhoneFrame dựng sẵn bên dưới khung
+  // điện thoại (khối riêng, nền đen). Node đó chưa có ở lần render đầu nên
+  // phải đợi mount xong mới lấy được, rồi mới có gì để portal vào.
+  const [belowBarNode, setBelowBarNode] = useState<HTMLElement | null>(null);
   useEffect(() => {
-    const el = historyRef.current;
-    if (!el) return;
-    el.scrollTo({ top: el.scrollHeight, behavior: "smooth" });
-  }, [history, showHint]);
+    setBelowBarNode(document.getElementById("phone-below-bar"));
+  }, []);
 
   const rounds = caseData.evidenceRounds;
   const round = rounds[roundIndex];
   const isLastRound = roundIndex === rounds.length - 1;
 
+  // Reset trạng thái "đang chọn" mỗi khi sang câu mới.
+  useEffect(() => {
+    setShowHint(false);
+    setHintUsedThisRound(false);
+    setWrongPick(null);
+    setCorrectPick(null);
+  }, [roundIndex]);
+
+  // Sau khi trả lời đúng: đoạn chat dẫn truyện ở lại ~5s rồi tự sang câu sau.
+  const advanceTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const goNext = () => {
+    if (advanceTimer.current) clearTimeout(advanceTimer.current);
+    advanceTimer.current = null;
+    if (isLastRound) onAllSolved();
+    else setRoundIndex((r) => r + 1);
+  };
+  useEffect(() => () => {
+    if (advanceTimer.current) clearTimeout(advanceTimer.current);
+  }, []);
+
   const pick = (choice: string) => {
-    if (!round) return;
+    if (!round || !unlocked || correctPick) return;
     setShowHint(false);
     if (choice === round.correct) {
       setWrongPick(null);
-      const nextHistory: ChatBubble[] = [
-        ...history,
-        { from: "me", text: choice, correct: true },
-        { from: "informant", text: round.correctReply },
-      ];
-      setHistory(nextHistory);
+      setCorrectPick(choice);
       onEvidenceFound();
 
-      // Confetti ở mọi câu trả lời đúng. Teaser EndCard thì mở khoá riêng
-      // sau khi xong 2 câu.
       setShowConfetti(true);
       setTimeout(() => setShowConfetti(false), 3000);
 
-      if (roundIndex === 1) {
+      // Teaser EndCard hiện sau khi xong câu thứ 8 (hoặc câu cuối nếu case ngắn hơn).
+      if (roundIndex === Math.min(TEASER_AFTER_ROUND, rounds.length) - 1) {
         setTimeout(() => setShowEndTeaser(true), 700);
       }
 
-      if (isLastRound) {
-        setTimeout(onAllSolved, 1600);
-      } else {
-        setTimeout(() => {
-          const next = rounds[roundIndex + 1];
-          setRoundIndex(roundIndex + 1);
-          setHistory((h) => [...h, { from: "informant", text: next.prompt }]);
-          // Mở sẵn lựa chọn cho câu tiếp theo luôn, khỏi bấm lại ô nhập.
-          setChoicesOpen(true);
-        }, 1000);
-      }
+      advanceTimer.current = setTimeout(goNext, NEXT_DELAY_MS);
     } else {
-      const nextWrongCount = wrongCount + 1;
-      setWrongCount(nextWrongCount);
       setWrongPick(choice);
-      const replyIndex = Math.min(nextWrongCount - 1, round.wrongReply.length - 1);
-      setHistory((h) => [...h, { from: "informant", text: round.wrongReply[replyIndex] }]);
-
-      if (nextWrongCount >= MAX_WRONG) {
-        // Sai quá số lần cho phép — hiện overlay EndCard giống lúc trả lời
-        // đúng, thay vì kết thúc case luôn.
-        setTimeout(() => setShowEndTeaser(true), 1200);
-      } else {
-        setTimeout(() => setWrongPick(null), 900);
-      }
+      setTimeout(() => setWrongPick(null), 1200);
     }
   };
 
   const useHint = () => {
-    if (hintsLeft <= 0) return;
-    setHintsLeft((h) => h - 1);
+    if (hintUsedThisRound) return;
+    setHintUsedThisRound(true);
     setShowHint(true);
-    const nextHintsUsed = hintsUsed + 1;
-    setHintsUsed(nextHintsUsed);
-    if (nextHintsUsed > MAX_HINTS_BEFORE_TEASER) {
-      setShowEndTeaser(true);
-    }
   };
 
   if (!expanded) {
-    return (
+    if (!belowBarNode) return null;
+    return createPortal(
       <button type="button" className={styles.bar} onClick={() => onExpandedChange(true)}>
         {round && <img className={styles.barAvatar} src={round.informant.avatar} alt="" />}
         <span className={styles.barText}>
@@ -133,7 +119,12 @@ export default function EvidenceChat({
         <span className={styles.barBadge}>
           Q{roundIndex + 1}/{caseData.evidenceTotal}
         </span>
-      </button>
+        {/* Đã tìm thấy manh mối (unlocked) nhưng chưa quay lại trả lời —
+            "peek" của bản gốc: trỏ vào đúng thanh thu gọn này để nhắc mở
+            lại thẻ câu hỏi. */}
+        {unlocked && !correctPick && <span className={styles.barHint}>👆</span>}
+      </button>,
+      belowBarNode,
     );
   }
 
@@ -141,79 +132,109 @@ export default function EvidenceChat({
     <>
       <div className={styles.backdrop} onClick={() => onExpandedChange(false)} />
       <div className={styles.sheet}>
-        <div className={styles.header}>
-          <button
-            type="button"
-            className={styles.collapseBtn}
-            onClick={() => onExpandedChange(false)}
-            aria-label="Collapse"
-          >
-            <svg viewBox="0 0 24 24" width="14" height="14" fill="none">
+        <button
+          type="button"
+          className={styles.collapseBtn}
+          onClick={() => onExpandedChange(false)}
+          aria-label="Collapse"
+        >
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none">
+            <path d="M5 9l7 7 7-7" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+        </button>
+
+        <span className={styles.topQBadge}>
+          Question {roundIndex + 1}/{caseData.evidenceTotal}
+        </span>
+
+        {round && (
+          <div className={styles.avatarRow}>
+            <img className={styles.avatar} src={round.informant.avatar} alt={round.informant.name} />
+            <svg className={styles.eyeIcon} viewBox="0 0 40 24" fill="none">
               <path
-                d="M5 9l7 7 7-7"
+                d="M2 12c4-8 12-10 18-10s14 2 18 10c-4 8-12 10-18 10S6 20 2 12z"
                 stroke="currentColor"
-                strokeWidth="2.4"
-                strokeLinecap="round"
-                strokeLinejoin="round"
+                strokeWidth="2"
               />
+              <circle cx="20" cy="12" r="4" stroke="currentColor" strokeWidth="2" />
             </svg>
-          </button>
-          {round && (
-            <>
-              <img className={styles.avatar} src={round.informant.avatar} alt={round.informant.name} />
-              <span className={styles.name}>{round.informant.name}</span>
-            </>
-          )}
-          <span className={styles.spacer} />
-          <span className={styles.qBadge}>Q{roundIndex + 1}/{caseData.evidenceTotal}</span>
-        </div>
+          </div>
+        )}
+        {round && <span className={styles.name}>{round.informant.name}</span>}
 
-        <div className={styles.history} ref={historyRef}>
-          {history.map((b, i) => (
-            <div key={i} className={b.from === "me" ? styles.bubbleMe : styles.bubbleThem}>
-              {b.correct && (
-                <svg className={styles.checkIcon} viewBox="0 0 24 24" width="13" height="13" fill="none">
-                  <path
-                    d="M5 12.5l4.5 4.5L19 7"
-                    stroke="currentColor"
-                    strokeWidth="2.6"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              )}
-              {b.text}
-            </div>
-          ))}
-          {showHint && round && <div className={styles.hintBubble}>💡 {round.hint}</div>}
-        </div>
-
-        {showConfetti && <Confetti />}
-
-        {round && choicesOpen && (
-          <div className={styles.choices}>
-            {round.choices.map((c) => (
-              <button
-                key={c}
-                type="button"
-                className={`${styles.chip} ${wrongPick === c ? styles.chipWrong : ""}`}
-                onClick={() => pick(c)}
-              >
-                {c}
+        {round && (
+          <div className={styles.card}>
+            <div className={styles.cardHeader}>
+              <span className={styles.cardQBadge}>
+                Question {roundIndex + 1}/{caseData.evidenceTotal}
+              </span>
+              <button type="button" className={styles.hintBtn} onClick={useHint} disabled={hintUsedThisRound}>
+                💡
               </button>
-            ))}
+            </div>
+
+            <p className={styles.questionText}>{round.prompt}</p>
+
+            {correctPick ? (
+              // Trả lời đúng: thay 4 lựa chọn bằng đoạn chat dẫn truyện — câu
+              // người chơi vừa chọn, rồi lời đáp của nhân vật.
+              <div className={styles.replyChat}>
+                <div className={styles.replyMe}>
+                  {correctPick} {PICK_EMOJIS[roundIndex % PICK_EMOJIS.length]}
+                </div>
+                <div className={styles.replyThem}>{round.correctReply}</div>
+              </div>
+            ) : (
+              <div className={styles.choices}>
+                {round.choices.map((c) => (
+                  <button
+                    key={c}
+                    type="button"
+                    className={`${styles.chip} ${!unlocked ? styles.chipLocked : ""} ${
+                      wrongPick === c ? styles.chipWrong : ""
+                    }`}
+                    onClick={() => pick(c)}
+                    disabled={!unlocked}
+                  >
+                    <span className={wrongPick === c ? styles.chipX : styles.chipLock}>
+                      {wrongPick === c ? "✕" : unlocked ? "" : "🔒"}
+                    </span>
+                    {c}
+                  </button>
+                ))}
+              </div>
+            )}
+
+            {showHint && !correctPick && (
+              <div className={styles.hintBox}>
+                <span className={styles.hintBoxIcon}>💡</span>
+                <span>{round.hint}</span>
+              </div>
+            )}
           </div>
         )}
 
-        <div className={styles.inputRow}>
-          <button type="button" className={styles.inputPill} onClick={() => setChoicesOpen(true)}>
-            Your Answer…
-          </button>
-          <button type="button" className={styles.hintBtn} onClick={useHint} disabled={hintsLeft <= 0}>
-            💡<span className={styles.hintCount}>{hintsLeft}</span>
-          </button>
-        </div>
+        {round && correctPick && (
+          <div className={styles.snoopWrap}>
+            <button type="button" className={styles.nextLink} onClick={goNext}>
+              {isLastRound ? "Finish" : "Next"} &gt;
+            </button>
+          </div>
+        )}
+
+        {round && !correctPick && (
+          <div className={styles.snoopWrap}>
+            <button type="button" className={styles.snoopBtn} onClick={() => onExpandedChange(false)}>
+              🔍 keep snooping his phone
+            </button>
+            {/* Đáp án đang khoá — bàn tay trỏ vào đây để dẫn người chơi quay
+                lại màn hình tìm manh mối trước, giống hệt bản gốc. */}
+            {!unlocked && <span className={styles.snoopHint}>👆</span>}
+          </div>
+        )}
       </div>
+
+      {showConfetti && <Confetti />}
 
       {showEndTeaser && (
         <div className={styles.fullTeaser}>
@@ -224,13 +245,7 @@ export default function EvidenceChat({
             aria-label="Collapse"
           >
             <svg viewBox="0 0 24 24" width="16" height="16" fill="none">
-              <path
-                d="M5 9l7 7 7-7"
-                stroke="currentColor"
-                strokeWidth="2.4"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
+              <path d="M5 9l7 7 7-7" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
           </button>
           <img className={styles.fullTeaserLogo} src={endLogo} alt="Stalkr" />

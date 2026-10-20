@@ -27,4 +27,5 @@ export default buildCase("02_joss_calder", data as unknown as PhoneJson, images,
   introCta: "Open Calder's phone 🔍",
   finalReply: "Halloran & Pike? That's no landlord I've ever heard of. Where is our rent really going?",
   endHeadline: "Find out who really owns 14 Marlow Street",
+  endSubhead: "Calder took the rent, drove off in a rented van, and a stranger photographed the house. Where is the money really going?",
 });

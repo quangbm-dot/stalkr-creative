@@ -67,12 +67,48 @@
 }
 
 .agendaRow {
+  position: relative;
   display: flex;
   gap: 12px;
   padding: 9px 16px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
   font-family: var(--font-sans);
   font-size: 14px;
+}
+
+/* Gợi ý dòng sự kiện chứa manh mối — glow nhẹ + bàn tay trỏ vào. */
+.hintRow {
+  animation: hintRowPulse 1.4s ease-in-out infinite;
+  cursor: pointer;
+}
+
+@keyframes hintRowPulse {
+  0%, 100% {
+    background: transparent;
+  }
+  50% {
+    background: rgba(255, 183, 0, 0.14);
+  }
+}
+
+.hintHand {
+  position: absolute;
+  bottom: 2px;
+  right: 10px;
+  font-size: 26px;
+  pointer-events: none;
+  z-index: 10;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.35));
+  animation: handTap 1s ease-in-out infinite;
+}
+
+@keyframes handTap {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(3px, 3px);
+  }
 }
 
 .agendaDate {

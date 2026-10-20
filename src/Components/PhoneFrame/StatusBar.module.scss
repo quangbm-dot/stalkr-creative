@@ -1,0 +1,33 @@
+.bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  height: 30px;
+  padding: 0 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  pointer-events: none;
+}
+
+.dark {
+  color: #fff;
+}
+
+.light {
+  color: #0b1f3a;
+}
+
+.time {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

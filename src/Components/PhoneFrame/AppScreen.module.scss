@@ -31,6 +31,10 @@
   grid-template-columns: 52px 1fr 52px;
   align-items: center;
   height: 46px;
+  // Mọi app đều mở full màn hình (inset:0), nên luôn bị dải StatusBar+TopBar
+  // (.aboveBar, cao 96px, xem PhoneFrame.module.scss) đè lên trên — chừa
+  // đúng khoảng đó.
+  margin-top: 96px;
   backdrop-filter: var(--glass-blur);
   -webkit-backdrop-filter: var(--glass-blur);
 

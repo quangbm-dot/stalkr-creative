@@ -1,0 +1,1775 @@
+{
+  "title": "Casey & Miles",
+  "ownerFirst": "Miles",
+  "ownerFull": "Miles Draper",
+  "clientName": "Casey",
+  "clientAvatar": "onboarding_1.webp",
+  "hero": "hero.webp",
+  "wallpaper": "wallpaper.webp",
+  "passcode": "243587",
+  "endHeadline": "Want to know what else he's hiding?",
+  "endSubhead": "Miles came back from Los Angeles with two nights he still hasn't explained, and an answer for every question except that one.",
+  "onboardingContent": [
+    {
+      "text": "Word is you're the best there is at stalking. So… here I am. I need you.",
+      "caption": "Casey",
+      "image": "onboarding_1.webp"
+    },
+    {
+      "text": "Miles and I have been together three years. Three years of laughing, travelling, building plans. We'd started talking about a wedding, a house, kids. It was supposed to be perfect.",
+      "caption": "Casey & Miles",
+      "image": "onboarding_2.webp"
+    },
+    {
+      "text": "Then he came back from that \"business trip\"  and everything shifted. \nHe barely answered my messages while he was gone… and I haven't stopped doubting since. \nMy gut says he's hiding something.",
+      "caption": "Miles",
+      "image": "onboarding_3.webp"
+    },
+    {
+      "text": "So yes… I did something insane: I'm handing you a copy of his phone. Messages, notes, apps — all of it is yours. I'll ask the questions while you dig. Over to you.",
+      "caption": "Casey",
+      "image": "onboarding_4.webp"
+    }
+  ],
+  "onboardingSms": {
+    "contactName": "Casey",
+    "steps": [
+      {
+        "type": "messages",
+        "messages": [
+          {
+            "text": "Hey...",
+            "image": null
+          },
+          {
+            "text": "Someone gave me your name. Said you find what people try to hide.",
+            "image": null
+          },
+          {
+            "text": "Can I ask what to call you?",
+            "image": null
+          }
+        ],
+        "inputType": null
+      },
+      {
+        "type": "prompt",
+        "placeholder": "Your name...",
+        "inputType": "keyboard"
+      },
+      {
+        "type": "messages",
+        "messages": [
+          {
+            "text": "Thank you. I'm sorry, I don't know how to say this bit.",
+            "image": null
+          },
+          {
+            "text": "My boyfriend Miles just got back from a work trip in Los Angeles, and there are two nights he still can't explain... I'm sending you a photo of him.",
+            "image": null
+          },
+          {
+            "text": null,
+            "image": "sms_2_2.webp"
+          }
+        ],
+        "inputType": null
+      },
+      {
+        "type": "prompt",
+        "options": [
+          "Oh God. Are you okay?",
+          "What makes you sure?"
+        ],
+        "inputType": "choices"
+      },
+      {
+        "type": "messages",
+        "messages": [
+          {
+            "text": "He's asleep. I have his phone, but not for long.",
+            "image": null
+          },
+          {
+            "text": "{{name}}, please. There's nobody else I can ask.",
+            "image": null
+          }
+        ],
+        "inputType": null
+      }
+    ]
+  },
+  "home": {
+    "dock": [
+      {
+        "app": "messages",
+        "label": "Messages",
+        "icon": "appicon_messages.webp"
+      },
+      {
+        "app": "phone",
+        "label": "Phone",
+        "icon": "appicon_phone.webp"
+      },
+      {
+        "app": "whatsapp",
+        "label": "WhatsApp",
+        "icon": "appicon_whatsapp.webp"
+      }
+    ],
+    "home_page_1": [
+      {
+        "app": "settings",
+        "label": "Settings",
+        "icon": "appicon_settings.webp"
+      },
+      {
+        "app": "photos",
+        "label": "Photos",
+        "icon": "appicon_photos.webp"
+      },
+      {
+        "app": "notes",
+        "label": "Notes",
+        "icon": "appicon_notes.webp"
+      },
+      {
+        "app": "calendar",
+        "label": "Calendar",
+        "icon": "appicon_calendar.webp"
+      },
+      {
+        "app": "weather",
+        "label": "Weather",
+        "icon": "appicon_weather.webp"
+      },
+      {
+        "app": "instagram",
+        "label": "Instagram",
+        "icon": "appicon_instagram.webp"
+      },
+      {
+        "app": "airbnb",
+        "label": "Airbnb",
+        "icon": "appicon_airbnb.webp"
+      },
+      {
+        "app": "revolut",
+        "label": "RevoBank",
+        "icon": "appicon_revolut.webp"
+      },
+      {
+        "app": "wallet",
+        "label": "Wallet",
+        "icon": "appicon_wallet.webp"
+      },
+      {
+        "app": "gmail",
+        "label": "Gmail",
+        "icon": "appicon_gmail.webp"
+      }
+    ],
+    "home_page_2": [
+      {
+        "app": "calculator",
+        "label": "Calculator",
+        "icon": "appicon_calculator.webp"
+      },
+      {
+        "app": "compass",
+        "label": "Compass",
+        "icon": "appicon_compass.webp"
+      },
+      {
+        "app": "clock",
+        "label": "Clock",
+        "icon": "appicon_clock.webp"
+      },
+      {
+        "app": "maps",
+        "label": "Google Maps",
+        "icon": "appicon_maps.webp"
+      }
+    ],
+    "home_page_3": []
+  },
+  "messages": [
+    {
+      "id": "conv1",
+      "title": "Casey 💖",
+      "avatar": "client.webp",
+      "time": "Aug 6",
+      "unread": false,
+      "msgs": [
+        {
+          "me": false,
+          "text": "Did you watch the game last night?? It was INSANE 🔥"
+        },
+        {
+          "me": true,
+          "text": "God yes! I screamed the place down at that 89th minute goal 😭"
+        },
+        {
+          "me": false,
+          "text": "Craving ramen so badly tonight"
+        },
+        {
+          "me": true,
+          "text": "Ramen night it is then!"
+        },
+        {
+          "me": false,
+          "text": "My parents want us over for Easter"
+        },
+        {
+          "me": true,
+          "text": "Works for me! Is your mother cooking?"
+        },
+        {
+          "me": false,
+          "text": "Obviously! And she's counting on you to help"
+        },
+        {
+          "me": true,
+          "text": "Happily, cooking with her is the best part"
+        },
+        {
+          "me": false,
+          "text": "Did you remember your vitamins today?"
+        },
+        {
+          "me": true,
+          "text": "Ah no... forgot them again"
+        },
+        {
+          "me": false,
+          "text": "Miles! It's important for your health"
+        },
+        {
+          "me": true,
+          "text": "Alarm is on my phone now"
+        },
+        {
+          "me": false,
+          "text": "I want us to do a surprise weekend"
+        },
+        {
+          "me": true,
+          "text": "Where? Got an idea?"
+        },
+        {
+          "me": false,
+          "text": "Nope, exactly! We leave without knowing where"
+        },
+        {
+          "me": true,
+          "text": "That's the whole point! Count me in"
+        },
+        {
+          "me": false,
+          "text": "Look outside, snow! ❄️"
+        },
+        {
+          "me": true,
+          "text": "Wow, that hasn't happened in years"
+        },
+        {
+          "me": false,
+          "text": "Could we build a snowman?"
+        },
+        {
+          "me": true,
+          "text": "What are you, five? 😂 But yes, let's go"
+        },
+        {
+          "me": false,
+          "text": "I dreamt we got a dog last night"
+        },
+        {
+          "me": true,
+          "text": "Big dog or little dog?"
+        },
+        {
+          "me": false,
+          "text": "A golden retriever! He was way too cute"
+        },
+        {
+          "me": true,
+          "text": "One day, when we've got a house with a garden"
+        },
+        {
+          "me": false,
+          "text": "Can you wake me up tomorrow if I hit snooze too much? 🙃"
+        },
+        {
+          "me": true,
+          "text": "Haha, Milo will be deployed on wake-up duty"
+        },
+        {
+          "me": true,
+          "text": "Out of the station at last 🚄"
+        },
+        {
+          "me": false,
+          "text": "About time 😅 are you holding up okay?"
+        },
+        {
+          "me": true,
+          "text": "Pretty wrecked yeah... grabbing a coffee then heading to the airbnb"
+        },
+        {
+          "me": false,
+          "text": "Okay baby, text me when you get settled in 💙"
+        },
+        {
+          "me": true,
+          "text": "All settled ✅ bags are away and I'm going through my emails"
+        },
+        {
+          "me": true,
+          "text": "Morning was relentless... nothing but calls 😵‍💫"
+        },
+        {
+          "me": false,
+          "text": "Stay strong my heart 🫶 When do you get to eat?"
+        },
+        {
+          "me": true,
+          "text": "Around 1 p.m. if nothing overruns"
+        },
+        {
+          "me": false,
+          "text": "Drink some water at least, please 😅"
+        },
+        {
+          "me": true,
+          "text": "Break done 🙌 hoping this afternoon is gentler"
+        },
+        {
+          "me": true,
+          "text": "Two more things and I'm out of the office"
+        },
+        {
+          "me": false,
+          "text": "And what's the plan for tonight?"
+        },
+        {
+          "me": true,
+          "text": "One of the guys here put me onto a restaurant, sounds like he knows Los Angeles well 😅"
+        },
+        {
+          "me": false,
+          "text": "Nice! Make the most of it 🥰"
+        },
+        {
+          "me": true,
+          "text": "I'll check it out and tell you after ❤️"
+        },
+        {
+          "me": false,
+          "text": "Text me when you're back safe, okay"
+        },
+        {
+          "me": true,
+          "text": "It's okay, I'm back, I'm getting tired now"
+        },
+        {
+          "me": false,
+          "text": "OK sweetheart... Was the restaurant good?"
+        },
+        {
+          "me": true,
+          "text": "Yeah so good 😋 Night baby, love you"
+        },
+        {
+          "me": false,
+          "text": "Night night my love ❤️"
+        },
+        {
+          "me": true,
+          "text": "Did you sleep okay?"
+        },
+        {
+          "me": false,
+          "text": "Ugh... up since 6am because the neighbor is doing construction 🔨🙃"
+        },
+        {
+          "me": true,
+          "text": "Oh no, what an idiot... hope he doesn't keep it up"
+        },
+        {
+          "me": false,
+          "text": "I hope it's done by the time you get home tomorrow"
+        },
+        {
+          "me": true,
+          "text": "Yeah me too"
+        },
+        {
+          "me": false,
+          "text": "Good luck on your last day! Work hard 😘"
+        },
+        {
+          "me": true,
+          "text": "Thanks baby ❤️"
+        },
+        {
+          "me": false,
+          "text": "What time are you home tonight? Can I call you?"
+        },
+        {
+          "me": false,
+          "text": "Miles? You there?"
+        },
+        {
+          "me": false,
+          "text": "Hello?? Miles???"
+        },
+        {
+          "me": false,
+          "text": "??"
+        },
+        {
+          "me": false,
+          "text": "It really bothers me when you go quiet like this..."
+        },
+        {
+          "me": false,
+          "text": "Fine... good night then"
+        },
+        {
+          "me": true,
+          "text": "Sorry no more battery..."
+        },
+        {
+          "me": true,
+          "text": "Sorry for last night, I left my charger at the office..."
+        },
+        {
+          "me": false,
+          "text": "Great... You could warn me before it cuts out, right?"
+        },
+        {
+          "me": true,
+          "text": "I know...sorry really"
+        },
+        {
+          "me": true,
+          "text": "On the train 🚆 should be in between 2 p.m. and 3 p.m."
+        },
+        {
+          "me": false,
+          "text": "Okay text me when you’re getting close"
+        },
+        {
+          "me": true,
+          "text": "I promise... counting the hours until I see you ❤️"
+        },
+        {
+          "me": false,
+          "text": "Me too"
+        },
+        {
+          "me": false,
+          "text": "And we need to talk"
+        },
+        {
+          "me": true,
+          "text": "??"
+        },
+        {
+          "me": true,
+          "text": "Casey... please answer"
+        },
+        {
+          "me": true,
+          "text": "I love you"
+        },
+        {
+          "me": true,
+          "text": "..."
+        }
+      ]
+    },
+    {
+      "id": "conv-maxime",
+      "title": "Bo",
+      "avatar": null,
+      "unread": false,
+      "msgs": [
+        {
+          "me": false,
+          "text": "Got handed a new project at work... stressful"
+        },
+        {
+          "me": true,
+          "text": "What sort of project?"
+        },
+        {
+          "me": false,
+          "text": "Rebuilding the whole system from scratch"
+        },
+        {
+          "me": true,
+          "text": "You'll smash it, no question"
+        },
+        {
+          "me": false,
+          "text": "So, how did Los Angeles go?"
+        },
+        {
+          "me": true,
+          "text": "Good... draining but productive"
+        },
+        {
+          "me": false,
+          "text": "Nice! Wanna hang soon?"
+        },
+        {
+          "me": true,
+          "text": "Yeah, I'm up for that"
+        }
+      ],
+      "time": "Aug 6"
+    },
+    {
+      "id": "conv-luke",
+      "title": "Wyatt",
+      "avatar": null,
+      "unread": false,
+      "msgs": [
+        {
+          "me": false,
+          "text": "Is the Los Angeles trip this week?"
+        },
+        {
+          "me": true,
+          "text": "yeah Tuesday... 3 days of work"
+        },
+        {
+          "me": false,
+          "text": "cool! bring us back some treats 😋"
+        },
+        {
+          "me": true,
+          "text": "😂 if there is any time!"
+        },
+        {
+          "me": false,
+          "text": "back from Los Angeles?"
+        },
+        {
+          "me": true,
+          "text": "yeah it's okay... a little exhausted"
+        },
+        {
+          "me": false,
+          "text": "makes sense! catch up this week?"
+        },
+        {
+          "me": true,
+          "text": "yeah we’ll call each other"
+        }
+      ],
+      "time": "Aug 6"
+    },
+    {
+      "id": "conv-mom",
+      "title": "Mom",
+      "avatar": null,
+      "unread": false,
+      "msgs": [
+        {
+          "me": true,
+          "text": "Yes mom, train later today"
+        },
+        {
+          "me": false,
+          "text": "Good! Safe trip back then"
+        },
+        {
+          "me": true,
+          "text": "Thanks mom! See you tomorrow"
+        },
+        {
+          "me": false,
+          "text": "Are you on the train, sweetheart?"
+        },
+        {
+          "me": true,
+          "text": "Yes mom! Should be in around 2 p.m."
+        },
+        {
+          "me": false,
+          "text": "Perfect ! Take a good rest this weekend, you look tired right now"
+        },
+        {
+          "me": true,
+          "text": "Yeah, true... but I'll be fine"
+        },
+        {
+          "me": false,
+          "text": "Look after yourself, my heart"
+        }
+      ],
+      "time": "Aug 6"
+    },
+    {
+      "id": "conv-dad",
+      "title": "Dad",
+      "avatar": null,
+      "unread": false,
+      "msgs": [
+        {
+          "me": true,
+          "text": "Yes really well! The clients are nice"
+        },
+        {
+          "me": false,
+          "text": "Good. What day are you back?"
+        },
+        {
+          "me": true,
+          "text": "Tomorrow evening, all being well"
+        },
+        {
+          "me": false,
+          "text": "Okay son. Good luck wrapping up"
+        },
+        {
+          "me": false,
+          "text": "Are you on that train yet?"
+        },
+        {
+          "me": true,
+          "text": "Yes dad, I get in around 2pm"
+        },
+        {
+          "me": false,
+          "text": "Good! Get some rest this weekend"
+        },
+        {
+          "me": true,
+          "text": "Thanks dad"
+        }
+      ],
+      "time": "Aug 6"
+    },
+    {
+      "id": "conv2",
+      "title": "Gil",
+      "avatar": null,
+      "time": "Aug 6",
+      "unread": false,
+      "msgs": [
+        {
+          "me": false,
+          "text": "quick one, what day do you leave for Los Angeles?"
+        },
+        {
+          "me": true,
+          "text": "Tuesday morning, I have a few work meetings there"
+        },
+        {
+          "me": false,
+          "text": "nice! take the chance to do a little sightseeing at least"
+        },
+        {
+          "me": true,
+          "text": "yeah, if there's a gap I will"
+        },
+        {
+          "me": true,
+          "text": "got to Los Angeles in one piece bro! pouring with rain though"
+        },
+        {
+          "me": false,
+          "text": "😂 let me guess... you already found a coffee shop"
+        },
+        {
+          "me": true,
+          "text": "obviously! you know me 😮‍💨 anyway I don't care"
+        },
+        {
+          "me": true,
+          "text": "ugh a day of 100% video calls... I can't take it anymore"
+        },
+        {
+          "me": false,
+          "text": "😂 so you're seeing Los Angeles through Teams then?"
+        },
+        {
+          "me": true,
+          "text": "Exactly! world class sightseeing 👌"
+        },
+        {
+          "me": true,
+          "text": "Gil... I have to tell you something. I had a match on Tinder here"
+        },
+        {
+          "me": false,
+          "text": "What ?! But since when have you been on Tinder? 😳"
+        },
+        {
+          "me": true,
+          "text": "installed it yesterday... honestly just curious at first"
+        },
+        {
+          "me": false,
+          "text": "and Casey in all this...?"
+        },
+        {
+          "me": true,
+          "text": "It's complicated at the moment... I got tired of Casey I think"
+        },
+        {
+          "me": false,
+          "text": "so what's the plan tonight then?"
+        },
+        {
+          "me": true,
+          "text": "just a quiet restaurant, nothing big, we'll talk a while"
+        },
+        {
+          "me": false,
+          "text": "just be careful man"
+        },
+        {
+          "me": true,
+          "text": "no worries, the phone is going off for a bit tonight"
+        },
+        {
+          "me": true,
+          "text": "man yesterday was wild... crazy connection with Mar"
+        },
+        {
+          "me": false,
+          "text": "oof... so now what do you do?"
+        },
+        {
+          "me": true,
+          "text": "we're seeing each other again tonight... I got an Airbnb near her place. we'll probably sleep together"
+        },
+        {
+          "me": false,
+          "text": "Miles... be really careful, think hard about what you're doing"
+        },
+        {
+          "me": true,
+          "text": "I know, I know... tomorrow I'll tell you everything, promise"
+        },
+        {
+          "me": true,
+          "text": "right, heading off... you probably won't reach me tonight"
+        },
+        {
+          "me": false,
+          "text": "okay man... keep me posted tomorrow for sure"
+        },
+        {
+          "me": true,
+          "text": "hey! on the train back"
+        },
+        {
+          "me": false,
+          "text": "so... did Casey find out anything?"
+        },
+        {
+          "me": true,
+          "text": "probably... she fired off a few strange texts this morning"
+        },
+        {
+          "me": false,
+          "text": "hang in there man... we'll talk about it tonight, quietly"
+        },
+        {
+          "me": false,
+          "text": "and what are you gonna tell her if she asks?"
+        },
+        {
+          "me": true,
+          "text": "already wrote it all down in my notes... don't judge me"
+        }
+      ]
+    },
+    {
+      "id": "conv-taxi",
+      "title": "Yellow Cab LA",
+      "avatar": null,
+      "unread": false,
+      "msgs": [
+        {
+          "me": true,
+          "text": "Hi, can you pick me up tomorrow at 7am on Lafayette Street?"
+        },
+        {
+          "me": false,
+          "text": "Confirmed, driver will be there at 7"
+        },
+        {
+          "me": true,
+          "text": "Great, thanks. See you in the morning"
+        }
+      ],
+      "time": "Aug 4"
+    },
+    {
+      "id": "conv-nathan",
+      "title": "Curtis Vaughn (work)",
+      "avatar": null,
+      "unread": false,
+      "msgs": [
+        {
+          "me": false,
+          "text": "Hey, could you send over last month's report?"
+        },
+        {
+          "me": true,
+          "text": "sure, sending it over in 5"
+        },
+        {
+          "me": false,
+          "text": "Thanks 👍"
+        },
+        {
+          "me": true,
+          "text": "Sent, let me know if everything looks good"
+        },
+        {
+          "me": false,
+          "text": "great, flawless as usual"
+        }
+      ],
+      "time": "Jul 25"
+    },
+    {
+      "id": "conv-sophie",
+      "title": "Do not pick up",
+      "avatar": null,
+      "time": "Aug 6",
+      "unread": false,
+      "msgs": [
+        {
+          "me": true,
+          "text": "Got your number at last! 😊"
+        },
+        {
+          "me": false,
+          "text": "Bye Tinder — texting's so much better than that app"
+        },
+        {
+          "me": true,
+          "text": "Completely agree! So, still on for tomorrow night?"
+        },
+        {
+          "me": false,
+          "text": "Wouldn't miss it 😌"
+        },
+        {
+          "me": false,
+          "text": "Any food you're picky about, or should I be surprised too"
+        },
+        {
+          "me": true,
+          "text": "Not picky at all. Though I'd never say no to Italian 🍝"
+        },
+        {
+          "me": false,
+          "text": "Okay, Italian is literally my love language. You're dangerous 😏"
+        },
+        {
+          "me": true,
+          "text": "Already got a place in mind. I'll book it, send you the pin tomorrow"
+        },
+        {
+          "me": false,
+          "text": "Can't wait to actually meet you, Miles"
+        },
+        {
+          "me": true,
+          "text": "Same. Tomorrow can't come fast enough 😊"
+        },
+        {
+          "me": false,
+          "text": "So, what brings you to Los Angeles? Are you there on vacation? 😊"
+        },
+        {
+          "me": true,
+          "text": "Work. Client stuff, unfortunately"
+        },
+        {
+          "me": false,
+          "text": "Boo. What's the job then?"
+        },
+        {
+          "me": true,
+          "text": "Tech consulting. Your turn"
+        },
+        {
+          "me": false,
+          "text": "Interior designer — which is exactly why I have opinions about where we eat 😉"
+        },
+        {
+          "me": true,
+          "text": "Nice. Anything I'd recognize?"
+        },
+        {
+          "me": false,
+          "text": "A few restaurants, a couple of apartments around LA. I just like building a mood, honestly"
+        },
+        {
+          "me": false,
+          "text": "Morning, sleepyhead. Did you sleep well? ❤️"
+        },
+        {
+          "me": true,
+          "text": "Slept great, thanks 😊 you ready for tonight?"
+        },
+        {
+          "me": false,
+          "text": "So ready. Outfit's been picked since Tuesday 😅"
+        },
+        {
+          "me": true,
+          "text": "Okay now I feel underdressed already"
+        },
+        {
+          "me": false,
+          "text": "Just relax. I'm sure we'll have a great time 😊"
+        },
+        {
+          "me": false,
+          "text": "So. This mystery restaurant 😊"
+        },
+        {
+          "me": true,
+          "text": "Small Italian spot, really cozy. A friend swears it's basically built for first dates"
+        },
+        {
+          "me": false,
+          "text": "Italian?! You remembered 😍 Send me the address?"
+        },
+        {
+          "me": true,
+          "text": "Booked us a table for 8 tonight — meet out front?"
+        },
+        {
+          "me": false,
+          "text": "8 works. How do I spot you?"
+        },
+        {
+          "me": true,
+          "text": "Tall, dark hair, black coat. Your turn"
+        },
+        {
+          "me": false,
+          "text": "Jeans, gray sweater, tall-ish. We'll find each other 😊"
+        },
+        {
+          "me": false,
+          "text": "Counting the hours. See you soon, Miles"
+        },
+        {
+          "me": false,
+          "text": "Tonight was actually magical. Thank you 🌟"
+        },
+        {
+          "me": true,
+          "text": "Best night I've had in ages, honestly"
+        },
+        {
+          "me": false,
+          "text": "I don't say this lightly but I think we've got something real here. Been a while since I felt that"
+        },
+        {
+          "me": true,
+          "text": "Same page here. I don't want to wait too long to see you again"
+        },
+        {
+          "me": false,
+          "text": "Good, because I already miss you. Sleep well ❤️"
+        },
+        {
+          "me": true,
+          "text": "Good night Mar"
+        },
+        {
+          "me": false,
+          "text": "Hey stranger... you were in my dream last night 😊"
+        },
+        {
+          "me": true,
+          "text": "Hope it was a good dream at least"
+        },
+        {
+          "me": false,
+          "text": "It was. What's your day looking like?"
+        },
+        {
+          "me": true,
+          "text": "Couple of calls this morning, then wide open. You?"
+        },
+        {
+          "me": false,
+          "text": "Dead slow at the office. Mostly just thinking about seeing you again"
+        },
+        {
+          "me": true,
+          "text": "Same here. Tonight?"
+        },
+        {
+          "me": true,
+          "text": "So, tonight — your call. Where do you want to meet?"
+        },
+        {
+          "me": false,
+          "text": "I've got a spot. I'm staying out in Venice this week, quiet, kind of romantic actually"
+        },
+        {
+          "me": true,
+          "text": "Sounds perfect. Want me to swing by and grab you?"
+        },
+        {
+          "me": false,
+          "text": "I'd like that. Or we could meet somewhere first and head back after?"
+        },
+        {
+          "me": true,
+          "text": "Whatever works for you. I booked a little Airbnb close by just in case"
+        },
+        {
+          "me": false,
+          "text": "Perfect, we'll figure it out when you get here 😘"
+        },
+        {
+          "me": false,
+          "text": "I'm out front of the cafe, like we said"
+        },
+        {
+          "me": true,
+          "text": "Two minutes out! 😊"
+        },
+        {
+          "me": false,
+          "text": "Morning, handsome. Last night was everything"
+        },
+        {
+          "me": true,
+          "text": "Morning. It was for me too"
+        },
+        {
+          "me": false,
+          "text": "You leave today... I'm already not okay about it"
+        },
+        {
+          "me": true,
+          "text": "Don't be sad. I promise this isn't the last time"
+        },
+        {
+          "me": true,
+          "text": "On the train now. Thank you for two incredible days"
+        },
+        {
+          "me": false,
+          "text": "Thank you, Miles. Missing you already, and you just left"
+        },
+        {
+          "me": true,
+          "text": "Missing you too. Counting down till I get to hold you again"
+        },
+        {
+          "me": false,
+          "text": "Get home safe. Text me the second you land ❤️"
+        },
+        {
+          "me": true,
+          "text": "I promise, Mar 💕"
+        },
+        {
+          "me": false,
+          "text": "Did you make it home safe?"
+        },
+        {
+          "me": true,
+          "text": "Yeah, home now. Already miss you"
+        },
+        {
+          "me": false,
+          "text": "Same here ❤️"
+        }
+      ]
+    },
+    {
+      "id": "conv-mathys",
+      "title": "Marcus",
+      "avatar": null,
+      "unread": false,
+      "msgs": [
+        {
+          "me": false,
+          "text": "Battery only? Lucky, mine was the alternator and it was four figures"
+        },
+        {
+          "me": true,
+          "text": "Do not say that out loud, mine is old enough to hear you"
+        },
+        {
+          "me": false,
+          "text": "😂 fair"
+        },
+        {
+          "me": false,
+          "text": "Oh not bad at all, I feared worse"
+        },
+        {
+          "me": false,
+          "text": "Restaurant Friday night?"
+        },
+        {
+          "me": true,
+          "text": "definitely, anywhere in mind?"
+        },
+        {
+          "me": false,
+          "text": "That Italian place we always go to, been ages"
+        },
+        {
+          "me": true,
+          "text": "great, I'll make the booking"
+        }
+      ],
+      "time": "Jul 22"
+    },
+    {
+      "id": "conv-frangin",
+      "title": "Dane (brother)",
+      "avatar": null,
+      "unread": false,
+      "msgs": [
+        {
+          "me": true,
+          "text": "Yep, but it's in better shape than before 😇"
+        },
+        {
+          "me": false,
+          "text": "Somehow that worries me more…"
+        },
+        {
+          "me": false,
+          "text": "Game at mine Friday night?"
+        },
+        {
+          "me": true,
+          "text": "Okay, I'll bring chips and beer 🍺"
+        },
+        {
+          "me": false,
+          "text": "And nothing shrimp flavored this time 😅"
+        },
+        {
+          "me": false,
+          "text": "Flat tire on the freeway… brilliant start to the day"
+        },
+        {
+          "me": true,
+          "text": "No way. Want me to drive out?"
+        },
+        {
+          "me": false,
+          "text": "It's fine, tow truck is on the way"
+        }
+      ],
+      "time": "Jul 19"
+    },
+    {
+      "id": "conv-sarah",
+      "title": "Dee",
+      "avatar": null,
+      "unread": false,
+      "msgs": [
+        {
+          "me": false,
+          "text": "New florist booked! Costs more but she is brilliant"
+        },
+        {
+          "me": true,
+          "text": "Amazing! Now you can breathe"
+        },
+        {
+          "me": false,
+          "text": "Yeah kind of... there’s still so much left to do"
+        },
+        {
+          "me": true,
+          "text": "One at a time, Dee! The hard part is behind you"
+        },
+        {
+          "me": false,
+          "text": "2 months to go... the panic is setting in"
+        },
+        {
+          "me": true,
+          "text": "Completely normal! It will all come together"
+        },
+        {
+          "me": false,
+          "text": "I hope so... okay I gotta run"
+        },
+        {
+          "me": true,
+          "text": "Go on! You've got this 💪"
+        }
+      ],
+      "time": "Jul 5"
+    },
+    {
+      "id": "conv-yass",
+      "title": "Yaz",
+      "avatar": null,
+      "unread": false,
+      "msgs": [
+        {
+          "me": false,
+          "text": "Averaged 6.1L/100 on the back roads, not bad right?"
+        },
+        {
+          "me": true,
+          "text": "Nice one. You were barely touching it"
+        },
+        {
+          "me": false,
+          "text": "Game yesterday... boring 0-0"
+        },
+        {
+          "me": true,
+          "text": "No spark up front"
+        },
+        {
+          "me": false,
+          "text": "Found a great cleaner for fabric seats"
+        },
+        {
+          "me": true,
+          "text": "Send me the name"
+        },
+        {
+          "me": false,
+          "text": "Photo coming"
+        },
+        {
+          "me": true,
+          "text": "Thanks bro"
+        }
+      ],
+      "time": "Jul 2"
+    },
+    {
+      "id": "conv-alex",
+      "title": "Corey",
+      "avatar": null,
+      "unread": false,
+      "msgs": [
+        {
+          "me": false,
+          "text": "wild night yesterday! felt good"
+        },
+        {
+          "me": true,
+          "text": "Yeah! just like the old days"
+        },
+        {
+          "me": false,
+          "text": "I miss you guys... the distance is rough"
+        },
+        {
+          "me": true,
+          "text": "us too Corey! but you come back often"
+        },
+        {
+          "me": false,
+          "text": "heading back to Los Angeles on the 6 p.m. train"
+        },
+        {
+          "me": true,
+          "text": "safe travels! see you soon man"
+        },
+        {
+          "me": false,
+          "text": "thanks man! I'll keep you posted"
+        },
+        {
+          "me": true,
+          "text": "👍"
+        }
+      ],
+      "time": "Jun 16"
+    },
+    {
+      "id": "conv-cousine-paula",
+      "title": "Marcy (cousin)",
+      "avatar": null,
+      "unread": false,
+      "msgs": [
+        {
+          "me": true,
+          "text": "Yep, I finish early so I'll swing by around 7"
+        },
+        {
+          "me": false,
+          "text": "Great, the famous chocolate cake is coming with me 🍫"
+        },
+        {
+          "me": false,
+          "text": "Dug up photos of us at summer camp 😂"
+        },
+        {
+          "me": true,
+          "text": "Oh no... please not the cow costume pic 🐄"
+        },
+        {
+          "me": false,
+          "text": "Too late… that one is going on your birthday card"
+        },
+        {
+          "me": false,
+          "text": "Any luck finding grandma a gift?"
+        },
+        {
+          "me": true,
+          "text": "Not yet, I keep going back and forth between a scarf and a book"
+        },
+        {
+          "me": false,
+          "text": "A book, at least she can read while grandpa watches football 📖"
+        }
+      ],
+      "time": "Jun 13"
+    }
+  ],
+  "notes": [
+    {
+      "title": "Shows to watch",
+      "body": "Queued up:\n- House of Dragons season 2\n- The Bear season 3\n\nOn the maybe pile:\n- Succession, second time round\n- Breaking Bad, Gil has somehow never watched it\n\nStranger Things S4, still 2 episodes to go"
+    },
+    {
+      "title": "Birthday gift for Bo",
+      "body": "Ideas:\n- Leather watch strap\n- Weekend away with his girlfriend\n- Cologne set\n\nHis birthday: December 6!!! Don't forget DO NOT FORGET DO NOT FORGET"
+    },
+    {
+      "title": "Cover stories 😖",
+      "body": "- Dinner with clients\n- Late meeting\n- Conference call with USA (time difference)\n- Team afterwork\n- Network issue at hotel\n- Forgot my charger"
+    },
+    {
+      "title": "Train back + taxi booking",
+      "body": "Train: LA-San Diego, 7:00 PM, car 5, seat 42\nTaxi reservation: Yellow Cab LA, confirmation #TAX7815"
+    },
+    {
+      "title": "Costco groceries",
+      "body": "Weekly list:\n- 2% milk x2\n- Whole grain loaf\n- Plain Greek yogurt\n- Bananas\n- Smoked salmon (on sale?)\n- Whole wheat pasta\n- Shredded cheese\n- Six-pack of IPA"
+    },
+    {
+      "title": "Bits and pieces",
+      "body": "Padlock: 2345\nBo's password for the project: projectsecretpasswordbo\niPhone photo code: 243587"
+    }
+  ],
+  "calendar": [
+    {
+      "title": "Client meeting",
+      "date": "08/03",
+      "location": "34-44 Chaligny St, Los Angeles, CA 90012"
+    },
+    {
+      "title": "Barcelona getaway",
+      "date": "10/30",
+      "location": "Barcelona, Spain"
+    },
+    {
+      "title": "Train back home",
+      "date": "08/06",
+      "location": "LA → San Diego"
+    },
+    {
+      "title": "Prep for the presentation",
+      "date": "08/03",
+      "location": "Airbnb (Los Angeles)"
+    },
+    {
+      "title": "Arrival in Los Angeles",
+      "date": "08/02",
+      "location": "Union Station"
+    },
+    {
+      "title": "Tinder Date",
+      "date": "08/04",
+      "location": "2100 Laurel Canyon Blvd, Los Angeles, CA 90046"
+    },
+    {
+      "title": "Dentist — Dr. Alvarez",
+      "date": "07/30",
+      "location": "3rd St, Los Angeles"
+    },
+    {
+      "title": "Sprint review",
+      "date": "08/06",
+      "location": ""
+    },
+    {
+      "title": "3 years with Casey ✨💕",
+      "date": "08/16",
+      "location": ""
+    },
+    {
+      "title": "Ski trip with the family",
+      "date": "10/15",
+      "location": "Aspen"
+    },
+    {
+      "title": "Birthday: Omar",
+      "date": "08/29",
+      "location": ""
+    },
+    {
+      "title": "Rome getaway",
+      "date": "02/02",
+      "location": "Rome, Italy"
+    }
+  ],
+  "maps": [
+    {
+      "name": "Pace 🍝",
+      "subtitle": "2100 Laurel Canyon Blvd, Los Angeles, CA 90046"
+    },
+    {
+      "name": "Grand Central Market",
+      "subtitle": "Meeting with client"
+    },
+    {
+      "name": "Silver Lake",
+      "subtitle": "Artist district stroll"
+    },
+    {
+      "name": "The Greenhouse 🥗",
+      "subtitle": "8 Hollywood Blvd, Los Angeles, CA 90028"
+    },
+    {
+      "name": "Airbnb Los Angeles",
+      "subtitle": "25 Sunset Blvd, Los Angeles, CA 90026"
+    },
+    {
+      "name": "The Mess Hall 🍽️",
+      "subtitle": "Venice Boardwalk, Los Angeles, CA 90291"
+    },
+    {
+      "name": "The Ironwood Room",
+      "subtitle": "15 Melrose Ave, Los Angeles, CA 90038"
+    },
+    {
+      "name": "Union Station",
+      "subtitle": "Return train station"
+    },
+    {
+      "name": "Echo Park Lake",
+      "subtitle": "Sunday run"
+    },
+    {
+      "name": "Cathedral of Our Lady of the Angels",
+      "subtitle": "Historical monument visit"
+    },
+    {
+      "name": "Juniper 🍝",
+      "subtitle": "3 Pershing Square, Los Angeles, CA 90013"
+    },
+    {
+      "name": "Grand Central Market",
+      "subtitle": "Lunch with Wyatt"
+    },
+    {
+      "name": "Griffith Observatory",
+      "subtitle": "Griffith Observatory visit"
+    }
+  ],
+  "airbnb": {
+    "name": "Airbnb",
+    "listings": [
+      {
+        "title": "Venice Loft",
+        "img": "airbnb_0.webp",
+        "subtitle": "5th August · ***$"
+      },
+      {
+        "title": "Los Angeles, California",
+        "img": "airbnb_1.webp",
+        "subtitle": "2-6 August · ***$"
+      }
+    ]
+  },
+  "revolut": {
+    "balance": "$2,318.44",
+    "transactions": [
+      {
+        "name": "Airbnb — Venice Loft",
+        "amount": "-$500",
+        "date": "5th August",
+        "note": "1 night"
+      },
+      {
+        "name": "Ralphs",
+        "amount": "-$64.19",
+        "date": "08/01",
+        "note": "Card payment"
+      },
+      {
+        "name": "Amazon",
+        "amount": "-$42.16",
+        "date": "08/02",
+        "note": "Online purchase"
+      },
+      {
+        "name": "Chase ATM",
+        "amount": "-$100.00",
+        "date": "08/02",
+        "note": "Cash withdrawal"
+      },
+      {
+        "name": "LA Metro",
+        "amount": "+$25.00",
+        "date": "08/04",
+        "note": "Card payment"
+      },
+      {
+        "name": "Uber",
+        "amount": "-$11.48",
+        "date": "08/05",
+        "note": "Ride"
+      },
+      {
+        "name": "Ford Motor",
+        "amount": "+$1,375.67",
+        "date": "07/22",
+        "note": "Transfer received"
+      },
+      {
+        "name": "Miles Draper",
+        "amount": "+$200.00",
+        "date": "07/30",
+        "note": "Transfer from Current Account"
+      },
+      {
+        "name": "Blue Bottle Coffee",
+        "amount": "-$9.45",
+        "date": "08/05",
+        "note": "Card payment"
+      },
+      {
+        "name": "Walmart",
+        "amount": "+$28.47",
+        "date": "08/01",
+        "note": "Groceries"
+      },
+      {
+        "name": "Kay Jewelers purchase",
+        "amount": "-$85.00",
+        "date": "08/03",
+        "note": "Card payment"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "prompt": "Sorry, I know this is a lot to drop on you. I just want to make sure this is actually his phone. You already know his first name is Miles, so can you give me his last name to confirm?",
+      "answer": "Draper",
+      "decoys": [
+        "Vaughn",
+        "Whitfield",
+        "Alden",
+        "Pham",
+        "Sawyer"
+      ],
+      "hint": "Open Settings. The name at the very top of the screen is the phone owner's own.",
+      "hintApp": "settings"
+    },
+    {
+      "prompt": "That's definitely his phone, but I don't have the courage to check the messages myself. What name is that suspicious contact saved under?",
+      "answer": "Do not pick up",
+      "decoys": [
+        "Dave next door",
+        "Yellow Cab LA",
+        "Atlantic Auto",
+        "Marcy (cousin)",
+        "Curtis Vaughn (work)"
+      ],
+      "hint": "Open Messages and look for the chat whose contact name reads like a warning, not a person's name.",
+      "hintApp": "messages"
+    },
+    {
+      "prompt": "I'm still in shock... We need to find out her name! Maybe they gave each other some kind of nickname.",
+      "answer": "Mar",
+      "decoys": [
+        "Baby",
+        "Sweetheart",
+        "Honey",
+        "Darling",
+        "Sleepyhead"
+      ],
+      "hint": "Open Messages → the chat with \"Do not pick up\" → scroll to the most recent texts, near the bottom.",
+      "hintApp": "messages"
+    },
+    {
+      "prompt": "So we already have a clue... But I'm still curious about this girl with the nickname \"Mar\". Try to find out which app they met through.",
+      "answer": "Tinder",
+      "decoys": [
+        "Hinge",
+        "Instagram",
+        "WhatsApp",
+        "Bumble",
+        "Snapchat"
+      ],
+      "hint": "Open Messages → the chat with \"Do not pick up\" → scroll to the very top of the thread.",
+      "hintApp": "messages"
+    },
+    {
+      "prompt": "Wow... what a surprise, Miles Draper, you scumbag. I'm going to get to the bottom of this... He picked the place for their first date. What kind of food did he take her out for?",
+      "answer": "Italian",
+      "decoys": [
+        "Japanese",
+        "Mexican",
+        "French",
+        "Thai",
+        "Chinese"
+      ],
+      "hint": "Open Messages → the chat with \"Do not pick up\" → near the top, they talk about food for the first date.",
+      "hintApp": "messages"
+    },
+    {
+      "prompt": "Italian... typical man. He took me to an Italian place on our first date too, but he's not stupid enough to take her somewhere we've already been. Could you help me find the name of that restaurant?",
+      "answer": "Pace",
+      "decoys": [
+        "Juniper",
+        "The Greenhouse",
+        "The Ironwood Room",
+        "The Mess Hall",
+        "Grand Central Market"
+      ],
+      "hint": "Check Calendar for the \"Tinder Date\" event, then look up its address in Google Maps.",
+      "hintApp": "calendar"
+    },
+    {
+      "prompt": "The night he stopped responding to me, he skipped his work Airbnb and booked another place just for that night. What's the name of that place?",
+      "answer": "Venice Loft",
+      "decoys": [
+        "Santa Monica Studio",
+        "Silver Lake Nest",
+        "Echo Park Flat",
+        "Pasadena",
+        "Los Angeles"
+      ],
+      "hint": "Open Airbnb and check his past stays for the extra one-night booking.",
+      "hintApp": "airbnb"
+    },
+    {
+      "prompt": "He slept with \"Mar\"?! Could you help me find out how much he paid to spend the night with her?",
+      "answer": "500",
+      "decoys": [
+        "300",
+        "350",
+        "280",
+        "150",
+        "900"
+      ],
+      "hint": "Open RevoBank — the charge at the top of the list.",
+      "hintApp": "revolut"
+    },
+    {
+      "prompt": "That's a lot of money — and I just kept texting him like a fool. What excuse did he give me that night, so he could go sleep with her?",
+      "answer": "charger",
+      "decoys": [
+        "passport",
+        "keys",
+        "umbrella",
+        "alternator",
+        "wallet"
+      ],
+      "hint": "Open Messages → the chat with Casey 💖 → near the bottom, the morning-after text.",
+      "hintApp": "messages"
+    },
+    {
+      "prompt": "There are hidden photos on here I'm not meant to see, I know there are. Can you get me the code for the hidden photos?",
+      "answer": "243587",
+      "decoys": [
+        "2345",
+        "234567",
+        "243785",
+        "245387",
+        "128409"
+      ],
+      "hint": "Open Notes → the note titled \"Bits and pieces\".",
+      "hintApp": "notes"
+    }
+  ],
+  "photos": [
+    "photo_0.webp",
+    "photo_1.webp",
+    "photo_2.webp",
+    "photo_3.webp",
+    "photo_4.webp",
+    "photo_5.webp",
+    "photo_6.webp",
+    "photo_7.webp",
+    "photo_8.webp"
+  ],
+  "instagram": {
+    "username": "miles_draper",
+    "displayName": "Miles Draper",
+    "avatar": "insta_avatar.webp",
+    "posts": [
+      {
+        "image": "insta_0.webp",
+        "location": "Los Angeles, California",
+        "caption": "that ride though!!!",
+        "username": "riley"
+      },
+      {
+        "image": "insta_1.webp",
+        "location": "Los Angeles, California",
+        "caption": "good vibes only",
+        "username": "kendall_09_monroe"
+      },
+      {
+        "image": "insta_2.webp",
+        "location": "Chicago, IL",
+        "caption": "strength, honor, nothing else.",
+        "username": "riley_"
+      },
+      {
+        "image": "insta_3.webp",
+        "location": "Los Angeles, California",
+        "caption": "ride of the day.",
+        "username": "riley"
+      },
+      {
+        "image": "insta_4.webp",
+        "location": "Los Angeles, California",
+        "caption": "🐺",
+        "username": "monroe"
+      },
+      {
+        "image": "insta_5.webp",
+        "location": "California",
+        "caption": "🍹",
+        "username": "tatum"
+      },
+      {
+        "image": "insta_6.webp",
+        "location": "Pisa, Italy",
+        "caption": "🇮🇹🍝",
+        "username": "peyton"
+      },
+      {
+        "image": "insta_7.webp",
+        "location": "Rio, Brazil",
+        "caption": "🇧🇷",
+        "username": "gil_fern"
+      }
+    ]
+  }
+}

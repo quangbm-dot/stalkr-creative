@@ -76,8 +76,8 @@
 
   /* Kích thước khung điện thoại */
   --phone-radius: 24px;
-  --app-icon-radius: 14px;
-  --app-icon-size: 60px;
+  --app-icon-radius: 16px;
+  --app-icon-size: 69px;
 
   /* Liquid glass — dùng cho dock/appbar/card/popup/nút nổi trên nền tối hoặc sáng */
   --glass-blur: blur(22px) saturate(180%);

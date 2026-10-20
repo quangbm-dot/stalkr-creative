@@ -235,3 +235,22 @@ a {
   color: var(--link-text-hover);
   cursor: pointer;
 }
+
+/* Bàn tay gợi ý: chỉ 1 loại hiện tại 1 thời điểm (App.tsx đặt data-hand), và
+   chỉ hiện mờ dần sau khi người chơi đứng im 2s (data-hand-visible). */
+[data-hand] [class*="hintHand"],
+[data-hand] [class*="snoopHint"],
+[data-hand] [class*="barHint"] {
+  opacity: 0 !important;
+  transition: opacity 0.9s ease;
+}
+[data-hand="hand"][data-hand-visible="true"] [class*="hintHand"],
+[data-hand="snoop"][data-hand-visible="true"] [class*="snoopHint"],
+[data-hand="bar"][data-hand-visible="true"] [class*="barHint"] {
+  opacity: 1 !important;
+}
+
+/* Dòng lộ đáp án trong mini app: chỉ nhấp nháy khi bàn tay "hand" đã hiện. */
+[data-hand]:not([data-hand="hand"][data-hand-visible="true"]) [class*="hintRow"] {
+  animation: none !important;
+}

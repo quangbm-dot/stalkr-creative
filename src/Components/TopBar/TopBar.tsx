@@ -1,3 +1,4 @@
+import StatusBar from "../PhoneFrame/StatusBar";
 import openLinkApp from "../../services/AdController";
 import downloadBtn from "../../Assets/UI/download.webp";
 import styles from "./TopBar.module.scss";
@@ -8,17 +9,28 @@ interface TopBarProps {
   total: number;
 }
 
+/**
+ * Giờ render bên trong dải nền đen riêng (PhoneFrame.aboveBar), không còn
+ * là overlay mờ dần đè lên icon Home Screen nữa — nên StatusBar giả nằm
+ * luôn ở đây (gộp chung 1 khối info phía trên), không cần theme sáng/tối
+ * vì nền lúc nào cũng đen.
+ */
 export default function TopBar({ ownerFirst, current, total }: TopBarProps) {
   return (
-    <div className={styles.bar}>
-      <span className={styles.subtitle}>Fictional case · {ownerFirst}'s phone</span>
-      <div className={styles.right}>
-        <button type="button" className={styles.download} onClick={openLinkApp}>
-          <img src={downloadBtn} alt="Download" />
-        </button>
-        <span className={styles.progress}>
-          Question {current}/{total}
-        </span>
+    <div className={styles.wrap}>
+      <div className={styles.statusSlot}>
+        <StatusBar dark />
+      </div>
+      <div className={styles.bar}>
+        <span className={styles.subtitle}>Fictional case · {ownerFirst}'s phone</span>
+        <div className={styles.right}>
+          <button type="button" className={styles.download} onClick={openLinkApp}>
+            <img src={downloadBtn} alt="Download" />
+          </button>
+          <span className={styles.progress}>
+            Question {current}/{total}
+          </span>
+        </div>
       </div>
     </div>
   );

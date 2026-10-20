@@ -30,5 +30,6 @@ export default buildCase("03_lucia_bex", data as unknown as PhoneJson, images, {
   introChoices: ["I'll help you, Lucia.", "Show me her phone."],
   introCta: "Open Bex's phone 🔍",
   finalReply: "A county clerk three states away? Bex has no reason to call them. What is she looking for?",
-  endHeadline: "Find out what Bex is hiding before the wedding",
+  endHeadline: "Find out what Bex found before the wedding",
+  endSubhead: "Ten days before the wedding, Lucia hands you her best friend's phone. Is Bex betraying her — or is something else going on?",
 });

@@ -17,7 +17,15 @@ export type AppKey =
   | "phone"
   | "whatsapp"
   | "chrome"
-  | "tinder";
+  | "tinder"
+  | "hinge"
+  | "snapchat"
+  | "chatgpt"
+  | "snake"
+  | "game2048"
+  | "camera"
+  | "photoshop"
+  | "ozratu";
 
 export interface AppIcon {
   app: AppKey;
@@ -26,7 +34,10 @@ export interface AppIcon {
 }
 
 export type HireStep =
-  | { type: "msgs"; text: string }
+  | { type: "msgs"; text: string; image?: string }
+  /** v10: ô nhập tên giữa đoạn chat — câu trả lời được lưu lại để thế vào
+   *  "{{name}}" trong các tin nhắn tiếp theo (xem Intro.tsx). */
+  | { type: "nameInput"; placeholder: string }
   | { type: "img"; src: string; label?: string }
   /** Ảnh + tin nhắn xuất hiện cùng lúc trong 1 bước (thay vì tách 2 bước riêng). */
   | { type: "reveal"; text: string; src: string; label?: string }
@@ -73,6 +84,7 @@ export interface InstagramPost {
   image: string;
   location: string;
   caption?: string;
+  username?: string;
 }
 
 export interface AirbnbListing {
@@ -156,6 +168,22 @@ export interface EvidenceRound {
   hint: string;
   /** App cần mở để tìm manh mối cho câu này — bàn tay gợi ý sẽ trỏ vào đây. */
   hintApp: AppKey;
+  /** Câu cần đi qua NHIỀU mini app theo thứ tự (vd Calendar -> Maps): mỗi bước có app + dòng
+   *  lộ đáp án. Rời app của bước hiện tại (về home) là sang bước kế; bước cuối mới mở khoá. */
+  hintSteps?: { app: AppKey; target?: string }[];
+  /** Khớp đúng bản gốc (V8): id dòng/thẻ chứa manh mối NGAY TRONG app đó —
+   *  "Do not pick up" (tên hội thoại), "Tinder Date"/"Venice Loft" (tiêu đề
+   *  sự kiện/listing), "Airbnb — Venice Loft" (tên giao dịch)... Khớp theo
+   *  field tiêu đề/tên tương ứng của từng app (xem từng app con). undefined
+   *  thì app đó không có dòng cụ thể để trỏ vào (vd Settings — chỉ cần mở
+   *  app là thấy ngay, không cần tìm thêm) — mở app là đủ để mở khoá đáp
+   *  án; có giá trị thì phải CHẠM đúng dòng đó mới mở khoá (gọi
+   *  onFoundClue), không phải chỉ mở app là đủ — đúng cơ chế "hot"/row-clue
+   *  của bản gốc. */
+  hintTargetId?: string;
+  /** v10: có mảng này thì EvidenceChat hiện ô gõ chữ thay vì nút chọn —
+   *  so khớp (bỏ hoa/thường, khoảng trắng, dấu câu) với từng biến thể ở đây. */
+  answerVariants?: string[];
 }
 
 /**

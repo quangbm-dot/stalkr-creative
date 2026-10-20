@@ -61,18 +61,10 @@ export default function HomeScreen({
   useEffect(() => {
     setHintDue(false);
     if (!hintApp) return;
-    let idleTimer: ReturnType<typeof setTimeout>;
-    const reset = () => {
-      setHintDue(false);
-      clearTimeout(idleTimer);
-      idleTimer = setTimeout(() => setHintDue(true), 800);
-    };
-    reset();
-    window.addEventListener("pointerdown", reset);
-    return () => {
-      clearTimeout(idleTimer);
-      window.removeEventListener("pointerdown", reset);
-    };
+    // Hiện sau 2s rồi giữ nguyên — không bị tắt khi người chơi vuốt/chạm chỗ khác,
+    // chỉ mất khi mở app (đổi bước) — xem App.tsx.
+    const t = setTimeout(() => setHintDue(true), 2000);
+    return () => clearTimeout(t);
   }, [hintApp]);
 
   // Swipe/kéo bằng chuột hoặc chạm để chuyển hẳn sang trang kế tiếp/trước,
@@ -158,6 +150,7 @@ export default function HomeScreen({
                   src={item.icon}
                   alt={item.label}
                 />
+                {hintDue && item.app === hintApp && <span className={styles.hintHand}>👆</span>}
                 <span className={styles.label}>{item.label}</span>
               </button>
             ))}
@@ -194,6 +187,7 @@ export default function HomeScreen({
               src={item.icon}
               alt={item.label}
             />
+            {hintDue && item.app === hintApp && <span className={styles.hintHand}>👆</span>}
           </button>
         ))}
       </div>

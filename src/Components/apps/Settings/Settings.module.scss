@@ -1,8 +1,44 @@
 .profile {
+  position: relative;
   display: flex;
   align-items: center;
   gap: 14px;
   padding: 16px;
+}
+
+/* Gợi ý dòng chứa đáp án — glow nhẹ quanh khối + bàn tay trỏ vào, giống
+   hệt kiểu gợi ý icon Home Screen (xem HomeScreen.module.scss). */
+.hintRow {
+  animation: hintRowPulse 1.4s ease-in-out infinite;
+}
+
+@keyframes hintRowPulse {
+  0%, 100% {
+    background: transparent;
+  }
+  50% {
+    background: rgba(255, 214, 102, 0.14);
+  }
+}
+
+.hintHand {
+  position: absolute;
+  bottom: 2px;
+  right: 10px;
+  font-size: 26px;
+  pointer-events: none;
+  z-index: 10;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
+  animation: handTap 1s ease-in-out infinite;
+}
+
+@keyframes handTap {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(3px, 3px);
+  }
 }
 
 .avatar {

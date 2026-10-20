@@ -7,6 +7,7 @@ export default buildCase("04_noor_celeste", data as unknown as PhoneJson, images
   questions: [
     {
       hintApp: "messages",
+      hintTarget: "Ezra",
       easyQuestion: "Open Messages — who did she say she lined up to cover your early shift?",
       easyHint: "Messages → open the thread titled \"Ezra\" → she tells him to take the morning off, last minute.",
     },
@@ -18,11 +19,13 @@ export default buildCase("04_noor_celeste", data as unknown as PhoneJson, images
     { hintApp: "safari" },
     {
       hintApp: "calendar",
+      hintTarget: "Tasting — Whitcomb wedding",
       easyQuestion: "Open Calendar and find the Whitcomb wedding tasting — what time was it actually scheduled for?",
       easyHint: "Calendar → past events → open \"Tasting — Whitcomb wedding\" — the real booked time is right there.",
     },
     {
       hintApp: "whatsapp",
+      hintTarget: "Mari",
       easyQuestion: "Open WhatsApp and check her chat with the bakery staff — who's been spreading that rumor?",
       easyHint: "WhatsApp → open the thread titled \"Mari\" → she apologizes to her directly in there.",
     },
@@ -31,4 +34,5 @@ export default buildCase("04_noor_celeste", data as unknown as PhoneJson, images
   introCta: "Open Celeste's phone 🔍",
   finalReply: "Mari? Celeste let her believe that... and never said a word to me. What else is she hiding?",
   endHeadline: "Find out what Celeste really thinks of Noor",
+  endSubhead: "Three months of 'mistakes' at the bakery, and Celeste covered for every one. What is she really thinking?",
 });

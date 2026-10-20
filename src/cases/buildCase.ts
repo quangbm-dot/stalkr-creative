@@ -25,7 +25,7 @@ import iconAirbnb from "../Assets/Icons/real/airbnb.webp";
  * override viết tay (app gợi ý cho từng câu, lời thoại nối câu...).
  */
 
-const ICONS: Partial<Record<AppKey, string>> = {
+export const ICONS: Partial<Record<AppKey, string>> = {
   instagram: iconInstagram,
   gmail: iconGmail,
   maps: iconMaps,
@@ -90,6 +90,7 @@ export interface PhoneJson {
   revolut: CaseConfig["revolut"];
   weather: CaseConfig["weather"];
   photos: string[];
+  instagram?: { username: string; displayName: string; avatar: string | null; posts: { image: string; location: string; caption: string; username: string }[] };
 }
 
 export interface QuestionOverride {
@@ -104,6 +105,8 @@ export interface QuestionOverride {
    *  vì chỉ nói chung chung "mở app X". hintApp (app nào sáng gợi ý) KHÔNG
    *  đổi, vẫn y hệt bản gốc. */
   easyHint?: string;
+  /** Tên dòng chứa manh mối trong hintApp (tên chat / tiêu đề sự kiện...) — bàn tay chỉ đúng vào dòng này. */
+  hintTarget?: string;
 }
 
 export interface CaseOverrides {
@@ -114,6 +117,8 @@ export interface CaseOverrides {
   /** Câu khách nói sau khi trả lời đúng câu cuối cùng có trong playable. */
   finalReply: string;
   endHeadline: string;
+  /** Dòng phụ trên endcard — viết theo cốt truyện từng case; thiếu thì dùng câu chung. */
+  endSubhead?: string;
 }
 
 export interface V9Case {
@@ -170,6 +175,7 @@ export function buildCase(
       reward: 10,
       hint,
       hintApp: ov.hintApp as AppKey,
+      hintTargetId: ov.hintTarget,
     };
   });
 
@@ -219,7 +225,8 @@ export function buildCase(
     calls: data.calls,
     notes: data.notes,
     calendar: data.calendar,
-    instagram: { username: "", displayName: data.owner.full, avatar: ownerAvatar, posts: [] },
+    instagram: { username: data.instagram?.username ?? "", displayName: data.instagram?.displayName ?? data.owner.full, avatar: img(data.instagram?.avatar) || ownerAvatar,
+      posts: (data.instagram?.posts ?? []).map((p) => ({ image: img(p.image), location: p.location, caption: p.caption, username: p.username })) },
     airbnb: { name: "", img: "", listings: [] },
     gmail: data.gmail,
     photos,
@@ -230,7 +237,7 @@ export function buildCase(
     now: data.now,
     endCard: {
       headline: o.endHeadline,
-      subhead: `${data.totalQuestions} questions. One phone. Every answer is hiding inside it.`,
+      subhead: o.endSubhead ?? `${data.totalQuestions} questions. One phone. Every answer is hiding inside it.`,
       ctaLabel: "Continue the case",
     },
   };

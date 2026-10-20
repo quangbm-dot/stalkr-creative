@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import type { CaseConfig, HireStep } from "../../types/case";
-import handHint from "../../Assets/UI/hand-hint.webp";
+import openLinkApp from "../../services/AdController";
 import styles from "./Intro.module.scss";
 
 interface IntroProps {
@@ -8,7 +8,7 @@ interface IntroProps {
   onDone: () => void;
 }
 
-type LogStep = Extract<HireStep, { type: "msgs" | "tinderReveal" | "appReveal" | "reveal" }>;
+type LogStep = Extract<HireStep, { type: "msgs" | "tinderReveal" | "appReveal" | "reveal" | "choices" }>;
 
 const TYPING_MS = 900;
 const GAP_MS = 350;
@@ -27,8 +27,18 @@ export default function Intro({ caseData, onDone }: IntroProps) {
   const steps = caseData.client.hire;
   const [revealed, setRevealed] = useState(0);
   const [typing, setTyping] = useState(steps[0]?.type === "msgs");
+  // v10: lưu lại lựa chọn đã bấm theo index bước — để hiện lại thành bong
+  // bóng xanh của người chơi trong log, giống bản gốc (bấm xong vẫn thấy
+  // mình đã chọn gì, không biến mất).
+  const [chosenOption, setChosenOption] = useState<Record<number, string>>({});
   const logEndRef = useRef<HTMLDivElement | null>(null);
   const current = steps[revealed];
+  // Không hỏi tên người chơi (bỏ bước nameInput) — "{{name}}, " trong data
+  // gốc được bỏ gọn luôn, không thay bằng tên giả.
+  const withName = (text: string) => {
+    const stripped = text.replace(/\{\{name\}\},?\s*/g, "");
+    return stripped !== text ? stripped.charAt(0).toUpperCase() + stripped.slice(1) : stripped;
+  };
 
   useEffect(() => {
     // Cuộn mượt thay vì nhảy cứng — nhảy cứng là nguyên nhân chính gây cảm
@@ -64,44 +74,71 @@ export default function Intro({ caseData, onDone }: IntroProps) {
   const logEntries = steps
     .map((s, idx) => ({ s, idx }))
     .slice(0, revealed + 1)
-    .filter((e): e is { s: LogStep; idx: number } =>
-      e.s.type === "msgs" || e.s.type === "tinderReveal" || e.s.type === "appReveal" || e.s.type === "reveal",
+    .filter(
+      (e): e is { s: LogStep; idx: number } =>
+        e.s.type === "msgs" ||
+        e.s.type === "tinderReveal" ||
+        e.s.type === "appReveal" ||
+        e.s.type === "reveal" ||
+        // Lựa chọn đã bấm rồi (không phải bước hiện tại) — hiện lại thành
+        // bong bóng xanh thay vì biến mất khỏi log.
+        (e.s.type === "choices" && e.idx < revealed),
     );
 
   return (
     <div className={styles.stage}>
       <div className={styles.top}>
-        <span className={styles.fictionBadge}>Fictional mystery game</span>
-        <button type="button" className={styles.skip} onClick={onDone}>
-          Skip
-        </button>
+        <svg className={styles.doodle} viewBox="0 0 150 60" fill="none">
+          <path
+            d="M10 30c8-18 32-18 40 0s32 18 40 0M95 20h45"
+            stroke="currentColor"
+            strokeWidth="2.5"
+            strokeLinecap="round"
+          />
+        </svg>
+        <div className={styles.topRight}>
+          <button type="button" className={styles.download} onClick={openLinkApp}>
+            ⬇ Download
+          </button>
+          <svg className={styles.eyeIcon} viewBox="0 0 40 24" fill="none">
+            <path
+              d="M2 12c4-8 12-10 18-10s14 2 18 10c-4 8-12 10-18 10S6 20 2 12z"
+              stroke="currentColor"
+              strokeWidth="2"
+            />
+            <circle cx="20" cy="12" r="4" stroke="currentColor" strokeWidth="2" />
+          </svg>
+        </div>
       </div>
 
       <div className={styles.chatWrap}>
-        <div className={styles.header}>
-          <img className={styles.headerAvatar} src={caseData.client.avatar} alt="" />
-          <span className={styles.headerName}>{caseData.client.name}</span>
-        </div>
-
         <div className={styles.log}>
+          {/* Header (avatar + tên) cuộn cùng nội dung chat, không đứng yên
+              cố định phía trên nữa. */}
+          <div className={styles.header}>
+            <img className={styles.headerAvatar} src={caseData.client.avatar} alt="" />
+            <span className={styles.headerName}>{caseData.client.name}</span>
+          </div>
+
           {logEntries.map(({ s, idx }) => {
             const isCurrent = idx === revealed;
 
             if (s.type === "reveal") {
               return (
                 <div key={idx} className={styles.revealGroup}>
-                  <div className={`${styles.appCard} ${styles.revealCard} ${styles.on}`}>
-                    <img className={`${styles.appCardPhoto} ${styles.revealPhoto}`} src={s.src} alt="" />
-                    {s.label && (
-                      <>
-                        <div className={styles.appCardScrim} />
-                        <div className={styles.appCardInfo}>
-                          <span className={styles.appCardName}>{s.label}</span>
-                        </div>
-                      </>
-                    )}
-                  </div>
+                  <img className={`${styles.flatPhoto} ${styles.on}`} src={s.src} alt={s.label ?? ""} />
                   <div className={`${styles.bubble} ${styles.on}`}>{s.text}</div>
+                </div>
+              );
+            }
+
+            // Lựa chọn đã bấm — hiện lại thành bong bóng xanh của người chơi.
+            if (s.type === "choices") {
+              const picked = chosenOption[idx];
+              if (!picked) return null;
+              return (
+                <div key={idx} className={`${styles.bubble} ${styles.bubbleMe} ${styles.on}`}>
+                  {picked}
                 </div>
               );
             }
@@ -140,9 +177,12 @@ export default function Intro({ caseData, onDone }: IntroProps) {
                 </div>
               );
             }
+            // v10: tin nhắn có kèm ảnh (vd ảnh "đây là anh ấy") — ảnh phẳng
+            // bo góc, không viền/scrim, giống hệt bản gốc.
             return (
-              <div key={idx} className={`${styles.bubble} ${styles.on}`}>
-                {s.text}
+              <div key={idx} className={styles.revealGroup}>
+                {s.image && <img className={`${styles.flatPhoto} ${styles.on}`} src={s.image} alt="" />}
+                {s.text && <div className={`${styles.bubble} ${styles.on}`}>{withName(s.text)}</div>}
               </div>
             );
           })}
@@ -150,24 +190,44 @@ export default function Intro({ caseData, onDone }: IntroProps) {
         </div>
       </div>
 
-      {current?.type === "cta" ? (
-        <div className={styles.ctaWrap}>
-          <button type="button" className={styles.cta} onClick={onDone}>
+      {current?.type === "cta" && (
+        <div className={styles.choicesWrap}>
+          <button type="button" className={`${styles.choice} ${styles.ctaChoice}`} onClick={onDone}>
             {current.label}
           </button>
+          <span className={styles.choiceHint}>👆</span>
         </div>
-      ) : current?.type === "choices" ? (
+      )}
+
+      {current?.type === "choices" && (
         <div className={styles.choicesWrap}>
-          <div className={styles.choices}>
-            {current.options.map((opt, i) => (
-              <button key={opt} type="button" className={styles.choice} onClick={() => setRevealed((r) => r + 1)}>
-                {opt}
-                {i === 0 && <img className={styles.choiceHint} src={handHint} alt="" />}
-              </button>
-            ))}
-          </div>
+          {current.options.map((opt) => (
+            <button
+              key={opt}
+              type="button"
+              className={styles.choice}
+              onClick={() => {
+                setChosenOption((m) => ({ ...m, [revealed]: opt }));
+                setRevealed((r) => r + 1);
+              }}
+            >
+              {opt}
+            </button>
+          ))}
+          {/* Bàn tay gợi ý nằm ngoài nút (sibling cuối, z-index cao) — để
+              trong nút thì bị nút thứ 2 đè lên vì nó tràn ra ngoài khung
+              nút đầu. */}
+          <span className={styles.choiceHint}>👆</span>
         </div>
-      ) : null}
+      )}
+
+      {/* Thanh nhập tin nhắn trang trí, luôn hiện ở đáy giống bản gốc — chat
+          tự chạy, không thật sự gõ được, nhưng giữ đúng cảm giác đang nhắn
+          tin với Casey suốt màn intro. */}
+      <div className={styles.fakeInputRow}>
+        <div className={styles.fakeInput}>Message</div>
+        <div className={styles.fakeSend}>↑</div>
+      </div>
     </div>
   );
 }

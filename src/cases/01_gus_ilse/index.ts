@@ -27,6 +27,7 @@ export default buildCase("01_gus_ilse", data as unknown as PhoneJson, images, {
     },
     {
       hintApp: "messages",
+      hintTarget: "Jonah",
       easyQuestion: "Open Messages and scroll to her oldest chat with Jonah — what is he studying?",
       easyHint: "Messages → open the thread with Jonah → scroll all the way up to the earliest messages.",
     },
@@ -35,4 +36,5 @@ export default buildCase("01_gus_ilse", data as unknown as PhoneJson, images, {
   introCta: "Open Ilse's phone 🔍",
   finalReply: "Nursing. She was paying for a stranger's schooling for years... and never said a word to me. Why?",
   endHeadline: "Find out who Ilse really was",
+  endSubhead: "Every month, $400 left Ilse's account for a young man her husband never met. Who was he — and what was she carrying?",
 });

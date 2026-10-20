@@ -5,11 +5,13 @@ import styles from "./Calendar.module.scss";
 interface CalendarProps {
   caseData: CaseConfig;
   onBack: () => void;
+  hintTargetId?: string;
+  onFoundClue?: () => void;
 }
 
 const WEEKDAYS = ["S", "M", "T", "W", "T", "F", "S"];
 
-export default function Calendar({ caseData, onBack }: CalendarProps) {
+export default function Calendar({ caseData, onBack, hintTargetId, onFoundClue }: CalendarProps) {
   const now = caseData.now ? new Date(caseData.now) : new Date();
   const monthKey = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, "0")}`;
   const monthName = now.toLocaleString("en-US", { month: "long" });
@@ -51,16 +53,25 @@ export default function Calendar({ caseData, onBack }: CalendarProps) {
       </div>
 
       <div className={styles.agenda}>
-        {caseData.calendar.map((e, i) => (
-          <div key={i} className={styles.agendaRow}>
-            <span className={styles.agendaDate}>{e.dateLabel ?? e.date}</span>
-            <span className={styles.agendaText}>
-              <span className={styles.agendaTitle}>{e.title}</span>
-              {e.time && <span className={styles.agendaMeta}>{e.time}</span>}
-              {e.location && <span className={styles.agendaMeta}>{e.location}</span>}
-            </span>
-          </div>
-        ))}
+        {caseData.calendar.map((e, i) => {
+          const isHot = hintTargetId !== undefined && e.title === hintTargetId;
+          return (
+            <div
+              key={i}
+              className={`${styles.agendaRow} ${isHot ? styles.hintRow : ""}`}
+              data-hint={isHot ? "row-clue" : undefined}
+              onClick={() => isHot && onFoundClue?.()}
+            >
+              <span className={styles.agendaDate}>{e.dateLabel ?? e.date}</span>
+              <span className={styles.agendaText}>
+                <span className={styles.agendaTitle}>{e.title}</span>
+                {e.time && <span className={styles.agendaMeta}>{e.time}</span>}
+                {e.location && <span className={styles.agendaMeta}>{e.location}</span>}
+              </span>
+              {isHot && <span className={styles.hintHand}>👆</span>}
+            </div>
+          );
+        })}
       </div>
     </AppScreen>
   );

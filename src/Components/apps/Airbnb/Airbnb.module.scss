@@ -15,6 +15,46 @@
   gap: 20px;
 }
 
+.card {
+  position: relative;
+}
+
+/* Gợi ý listing chứa manh mối — glow nhẹ + bàn tay trỏ vào. */
+.hintRow {
+  animation: hintRowPulse 1.4s ease-in-out infinite;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+@keyframes hintRowPulse {
+  0%, 100% {
+    box-shadow: none;
+  }
+  50% {
+    box-shadow: 0 0 0 3px rgba(255, 183, 0, 0.35);
+  }
+}
+
+.hintHand {
+  position: absolute;
+  bottom: -6px;
+  right: 0;
+  font-size: 26px;
+  pointer-events: none;
+  z-index: 10;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.35));
+  animation: handTap 1s ease-in-out infinite;
+}
+
+@keyframes handTap {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(3px, 3px);
+  }
+}
+
 .imageWrap {
   position: relative;
   border-radius: 16px;

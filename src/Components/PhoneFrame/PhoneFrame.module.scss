@@ -2,13 +2,17 @@
   position: fixed;
   inset: 0;
   display: flex;
-  align-items: flex-start;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   background: #000;
   overflow: hidden;
   /* Duy nhất nơi này biết về safe-area thật của máy + khoảng chừa bắt buộc
      cho UI mạng quảng cáo (nút Close/Skip, countdown...) — mọi component
-     bên trong canvas cố định phía dưới không cần quan tâm nữa. */
+     bên trong canvas cố định phía dưới không cần quan tâm nữa. LUÔN CỐ ĐỊNH
+     y hệt nhau ở MỌI màn (không còn biến thể theo stage/aboveBar nữa) — đây
+     là điều kiện duy nhất để .stage luôn đo ra đúng 1 kích thước, khung
+     điện thoại scale giống hệt nhau xuyên suốt game (Intro/Home/trong app
+     đều cùng 1 tỉ lệ, không còn to nhỏ lệch nhau giữa các màn). */
   padding-top: var(--sat, 0px);
   padding-bottom: calc(80px + var(--sab, 0px));
 }
@@ -16,6 +20,19 @@
 /* Chỉ khi có DevBar (#dev): nhường đáy màn hình cho thanh QA. */
 :global(html[data-devbar]) .outer {
   bottom: 50px;
+}
+
+/* Vùng đo để fit phone — chỉ phụ thuộc kích thước thật của viewport (đã trừ
+   sẵn ở .outer), không phụ thuộc màn nào đang hiện hay có aboveBar/belowBar
+   hay không, nên scale tính ra luôn giống hệt nhau ở mọi màn. */
+.stage {
+  flex: 1 1 auto;
+  min-height: 0;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  overflow: hidden;
 }
 
 .frame {
@@ -28,7 +45,9 @@
   transform-origin: top center;
   overflow: hidden;
   background: var(--ios-bg);
-  border-radius: var(--phone-radius);
+  /* Bản gốc không bo góc khung điện thoại — full-bleed như 1 trang web
+     thật, không phải khung giả lập điện thoại. */
+  border-radius: 0;
 }
 
 .screen {
@@ -37,4 +56,45 @@
   left: 0;
   right: 0;
   bottom: 0;
+}
+
+/* Dải nền đen riêng phía trên nội dung — chứa StatusBar giả + TopBar (tên
+   case/Download/Question x/y). Giờ là CON của .screen (cùng box được
+   .frame scale) thay vì sibling riêng của .outer — toạ độ ở đây là px LOGIC
+   cố định như mọi thứ khác trong canvas 393x852, tự ăn theo transform:scale()
+   của .frame, không cần set width bằng tay theo scale*393px nữa, và không
+   cần .outer chừa thêm padding riêng (nên không còn làm lệch scale giữa các
+   màn — xem comment .outer). */
+.aboveBar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 96px;
+  box-sizing: border-box;
+  background: #000;
+  z-index: 3;
+}
+
+/* Khối thanh câu hỏi thu gọn (EvidenceChat portal vào #phone-below-bar) —
+   cùng lý do với .aboveBar: là con của .screen, px logic cố định, không
+   còn là sibling riêng cần set width tay/chừa padding riêng ở .outer nữa. */
+.belowBar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: flex;
+  align-items: stretch;
+  background: transparent;
+  z-index: 2;
+}
+
+.belowBarActive {
+  height: 90px;
+  /* Đây chính là mép trên của popup câu hỏi (EvidenceChat .sheet) hiện he
+     hé lên — không phải 1 thanh riêng nổi trên nền đen. */
 }
