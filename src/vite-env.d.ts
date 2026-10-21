@@ -24,3 +24,7 @@ declare module "virtual:v9-cases" {
 
 /** v9: true khi build với V9_EASY=1 — xem vite.config.ts define(). */
 declare const __V9_EASY__: boolean;
+
+/** v10: số câu hỏi chơi trước khi vào endcard (ROUNDS=3/5/8 khi build) — mặc
+ *  định 8 khi không set. Xem vite.config.ts define() + buildStoryCase.ts. */
+declare const __ROUNDS__: number;
