@@ -171,7 +171,11 @@ export function buildStoryCase(id: string, data: StoryJson, images: Record<strin
       matchThread: { name: "", avatar: "", msgs: [] },
     },
     hint: "Open the apps on the phone to find clues.",
-    owner: { first: data.ownerFirst, full: data.ownerFull, avatar: img(data.clientAvatar) },
+    // Ảnh chủ máy (Miles) — lấy đúng slide chân dung riêng của anh ta
+    // (onboarding slide 3), KHÔNG phải data.clientAvatar (đó là ảnh Casey,
+    // người đi thuê thám tử) — trước bị gán nhầm nên Settings/Apple ID hiện
+    // ảnh Casey thay vì Miles.
+    owner: { first: data.ownerFirst, full: data.ownerFull, avatar: img(data.onboardingContent[2]?.image) || img(data.clientAvatar) },
     coupleIntro: data.onboardingContent[1]
       ? {
           image: img(data.onboardingContent[1].image),

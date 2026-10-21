@@ -2,6 +2,8 @@ import { useEffect, useRef, useState } from "react";
 import type { PointerEvent as ReactPointerEvent } from "react";
 import type { CaseConfig } from "../../types/case";
 import GrainOverlay from "./GrainOverlay";
+import openLinkApp from "../../services/AdController";
+import downloadBtn from "../../Assets/UI/download.webp";
 import desk from "./img/desk.webp";
 import mysteryWoman from "./img/mysteryWoman.webp";
 import styles from "./CinematicSurveillance.module.scss";
@@ -363,6 +365,12 @@ export default function CinematicSurveillance({ caseData, onDone }: Props) {
 
   return (
     <div className={styles.stage}>
+      {phase !== "unlock" && (
+        <button type="button" className={styles.introDownload} onClick={openLinkApp}>
+          <img src={downloadBtn} alt="Download" />
+        </button>
+      )}
+
       <div className={`${styles.table} ${phase !== "fan" ? styles.tablePan : ""} ${showLock ? styles.tableDim : ""}`}>
         <img className={styles.deskBg} src={desk} alt="" />
         <div className={styles.deskShade} />

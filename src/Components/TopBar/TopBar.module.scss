@@ -41,6 +41,9 @@
     display: block;
     height: 26px;
     width: auto;
+    // Ảnh gốc là nút xanh dương — xoay hue sang đỏ cho đồng bộ theme, giữ
+    // nguyên chữ/khung/đổ bóng (chữ trắng gần như không bị ăn hue-rotate).
+    filter: hue-rotate(159deg) saturate(1.05);
   }
 }
 

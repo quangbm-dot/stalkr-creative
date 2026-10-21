@@ -43,24 +43,28 @@ export default function Gmail({ caseData, onBack }: GmailProps) {
           ))}
         </div>
       )}
-      <div className={styles.list}>
-        {rows.map(({ g, i }) => (
-          <button key={i} type="button" className={styles.row} onClick={() => setOpenIndex(i)}>
-            <span className={styles.avatar}>{g.sender.replace(/^To: /, "").charAt(0)}</span>
-            <span className={styles.text}>
-              <span className={styles.senderRow}>
-                <span className={styles.sender}>{g.sender}</span>
-                {g.time && <span className={styles.time}>{g.time}</span>}
+      {rows.length === 0 ? (
+        <div className={styles.empty}>
+          <span className={styles.emptyIcon}>📭</span>
+          <span className={styles.emptyText}>No mail</span>
+        </div>
+      ) : (
+        <div className={styles.list}>
+          {rows.map(({ g, i }) => (
+            <button key={i} type="button" className={styles.row} onClick={() => setOpenIndex(i)}>
+              <span className={styles.avatar}>{g.sender.replace(/^To: /, "").charAt(0)}</span>
+              <span className={styles.text}>
+                <span className={styles.senderRow}>
+                  <span className={styles.sender}>{g.sender}</span>
+                  {g.time && <span className={styles.time}>{g.time}</span>}
+                </span>
+                <span className={styles.subject}>{g.subject}</span>
+                <span className={styles.preview}>{g.preview}</span>
               </span>
-              <span className={styles.subject}>{g.subject}</span>
-              <span className={styles.preview}>{g.preview}</span>
-            </span>
-          </button>
-        ))}
-      </div>
-      <button type="button" className={styles.fab} aria-label="Compose">
-        ✎
-      </button>
+            </button>
+          ))}
+        </div>
+      )}
     </AppScreen>
   );
 }

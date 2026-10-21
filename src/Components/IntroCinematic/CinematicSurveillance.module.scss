@@ -5,6 +5,26 @@
   overflow: hidden;
 }
 
+// Nút Download nổi góc trên-phải — hiện xuyên suốt intro (trước đây chỉ có
+// ở màn phone/TopBar), nằm dưới status bar giả (cao 30px).
+.introDownload {
+  position: absolute;
+  top: 36px;
+  right: 14px;
+  z-index: 40;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+
+  img {
+    display: block;
+    height: 26px;
+    width: auto;
+    filter: hue-rotate(159deg) saturate(1.05);
+  }
+}
+
 .table {
   position: absolute;
   inset: -10%;
