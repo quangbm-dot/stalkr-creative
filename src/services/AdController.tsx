@@ -8,6 +8,17 @@ const storeUrl = {
 // iframe) — dùng để quyết định có cần chừa khoảng trống cho nút Skip/Close
 // do mạng quảng cáo tự vẽ đè lên hay không (xem PhoneFrame.tsx). Test trực
 // tiếp bằng tab trình duyệt thường thì không khớp cái nào, trả về false.
+// Báo event cho AppLovin Playable Analytics (window.ALPlayableAnalytics) —
+// no-op im lặng trên mọi mạng khác/khi test bằng tab trình duyệt thường,
+// vì chỉ mạng AppLovin mới tiêm biến này vào.
+export function trackPlayableEvent(event: string) {
+    try {
+        if (typeof (window as any).ALPlayableAnalytics !== "undefined") {
+            (window as any).ALPlayableAnalytics.trackEvent(event);
+        }
+    } catch (e) {}
+}
+
 export function hasAdSdkBridge() {
     try { if ((window as any).openAppStore) return true; } catch (e) {}
     try { if ((window as any).ExitApi?.exit) return true; } catch (e) {}
@@ -21,6 +32,7 @@ export function hasAdSdkBridge() {
 }
 
 export default function openLinkApp() {
+    trackPlayableEvent("CTA_CLICKED");
     const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !(window as any).MSStream;
 
     // Mỗi nhánh tách try/catch riêng — 1 SDK bị lỗi/thiếu hàm con không

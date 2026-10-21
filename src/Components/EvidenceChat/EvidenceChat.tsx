@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import type { CaseConfig } from "../../types/case";
 import Confetti from "../Confetti/Confetti";
-import openLinkApp from "../../services/AdController";
+import openLinkApp, { trackPlayableEvent } from "../../services/AdController";
 import endLogo from "../../Assets/UI/icon-end-card.webp";
 import styles from "./EvidenceChat.module.scss";
 
@@ -55,6 +55,12 @@ export default function EvidenceChat({
     setBelowBarNode(document.getElementById("phone-below-bar"));
   }, []);
 
+  // Báo cho AppLovin biết người chơi bắt đầu phần hỏi-đáp manh mối (ngay khi
+  // thẻ câu hỏi đầu tiên hiện ra, cùng lúc màn "phone" mount).
+  useEffect(() => {
+    trackPlayableEvent("CHALLENGE_STARTED");
+  }, []);
+
   const rounds = caseData.evidenceRounds;
   const round = rounds[roundIndex];
   const isLastRound = roundIndex === rounds.length - 1;
@@ -69,6 +75,9 @@ export default function EvidenceChat({
 
   // Sau khi trả lời đúng: đoạn chat dẫn truyện ở lại ~5s rồi tự sang câu sau.
   const advanceTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  // Mốc % câu đã trả lời đúng đã báo cho AppLovin rồi — mỗi mốc chỉ báo 1 lần
+  // (case 3 câu có thể nhảy qua nhiều mốc cùng lúc ở 1 câu).
+  const milestonesFired = useRef<Set<25 | 50 | 75>>(new Set());
   const goNext = () => {
     if (advanceTimer.current) clearTimeout(advanceTimer.current);
     advanceTimer.current = null;
@@ -86,6 +95,15 @@ export default function EvidenceChat({
       setWrongPick(null);
       setCorrectPick(choice);
       onEvidenceFound();
+
+      const pct = ((roundIndex + 1) / caseData.evidenceTotal) * 100;
+      for (const m of [25, 50, 75] as const) {
+        if (pct >= m && !milestonesFired.current.has(m)) {
+          milestonesFired.current.add(m);
+          trackPlayableEvent(`CHALLENGE_PASS_${m}`);
+        }
+      }
+      if (isLastRound) trackPlayableEvent("CHALLENGE_SOLVED");
 
       setShowConfetti(true);
       setTimeout(() => setShowConfetti(false), 3000);
