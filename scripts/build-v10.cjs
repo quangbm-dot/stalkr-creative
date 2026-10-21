@@ -5,7 +5,8 @@
  *   npm run build:v10            → mọi case × mọi mạng × 3 độ dài
  *   npm run build:v10 casey      → chỉ case khớp tên
  *   npm run build:v10 casey applovin,unity   → chỉ các mạng chỉ định
- * Output: <repo chính>/build/v10/<mạng>/SMD_Playable_v10_<stt>_<N>quests_<tên case> QuangBM_QuangBM.html
+ * Output: <repo chính>/build/v10/<mạng>/SMD_Playable_v10_<01|02|03>_<N>quests_<tên case> QuangBM_QuangBM.html
+ *   (01=3quests, 02=5quests, 03=8quests — số thứ tự biến thể, không phải số thứ tự case)
  */
 const { execSync } = require("child_process");
 const fs = require("fs");
@@ -34,14 +35,15 @@ const run = (cmd, env = {}) => execSync(cmd, { cwd: root, stdio: "inherit", env:
 run("npx tsc -b");
 const report = [];
 for (const id of ids) {
-  for (const rounds of ROUNDS_VARIANTS) {
+  // id dạng "01_casey_miles" — bỏ số thứ tự case gốc, thay bằng số thứ tự
+  // BIẾN THỂ (01/02/03 ứng với 3/5/8 câu): "01_3quests_casey_miles".
+  const [, , caseNameOnly] = id.match(/^(\d+)_(.+)$/) ?? [, "", id];
+  for (let vi = 0; vi < ROUNDS_VARIANTS.length; vi++) {
+    const rounds = ROUNDS_VARIANTS[vi];
+    const variantIdx = String(vi + 1).padStart(2, "0");
     console.log(`\n===== ${id} (${rounds}q)`);
     run("npx vite build", { V9_CASE: id, ROUNDS: String(rounds) }); // 1 lần / case / độ dài, dùng chung cho mọi mạng
-    // id dạng "01_casey_miles" — chèn "<N>quests_" ngay giữa số thứ tự case
-    // và tên case: "01_3quests_casey_miles" (giữ nguyên số thứ tự thật của
-    // case, không phải số đếm biến thể).
-    const [, stt, caseName] = id.match(/^(\d+)_(.+)$/) ?? [, id, ""];
-    const fileLabel = caseName ? `${stt}_${rounds}quests_${caseName}` : `${id}_${rounds}quests`;
+    const fileLabel = `${variantIdx}_${rounds}quests_${caseNameOnly}`;
     for (const net of nets) {
       run(`node build-inline.cjs ${net}`);
       const dir = path.join(outRoot, net);
