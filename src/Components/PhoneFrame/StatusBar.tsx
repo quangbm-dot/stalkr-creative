@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import styles from "./StatusBar.module.scss";
 
 interface StatusBarProps {
@@ -7,15 +8,33 @@ interface StatusBarProps {
 }
 
 /**
- * Thanh trạng thái giả (giờ/sóng/wifi/pin) — vẽ cố định "9:41" + đầy sóng,
- * không đọc giờ/pin thật của máy. Nhiều mạng quảng cáo không tự hiện status
- * bar thật trong webview quảng cáo, nên bản gốc tự vẽ luôn 1 cái tĩnh làm
- * phần của UI, hiện xuyên suốt mọi màn (Loader/Intro/Phone/EndCard).
+ * Thanh trạng thái giả (giờ/sóng/wifi/pin) — sóng/wifi/pin vẫn vẽ cố định
+ * (đầy), nhưng giờ hiện đúng giờ thật của máy người chơi (giờ địa phương,
+ * tự động theo múi giờ của họ) thay vì mốc "9:41" tĩnh như trước, cho đỡ lộ
+ * giả. Nhiều mạng quảng cáo không tự hiện status bar thật trong webview
+ * quảng cáo, nên bản gốc tự vẽ luôn 1 cái làm phần của UI, hiện xuyên suốt
+ * mọi màn (Loader/Intro/Phone/EndCard).
  */
+// Tự định dạng tay kiểu 12h KHÔNG kèm AM/PM (giống "9:41" gốc) thay vì dùng
+// toLocaleTimeString — tuỳ locale máy sẽ tự thêm "AM"/"PM" vào chữ.
+function formatNow() {
+  const d = new Date();
+  const h = d.getHours() % 12 || 12;
+  const m = d.getMinutes().toString().padStart(2, "0");
+  return `${h}:${m}`;
+}
+
 export default function StatusBar({ dark = true }: StatusBarProps) {
+  const [time, setTime] = useState(formatNow);
+
+  useEffect(() => {
+    const t = setInterval(() => setTime(formatNow()), 15000);
+    return () => clearInterval(t);
+  }, []);
+
   return (
     <div className={`${styles.bar} ${dark ? styles.dark : styles.light}`}>
-      <span className={styles.time}>9:41</span>
+      <span className={styles.time}>{time}</span>
       <div className={styles.icons}>
         <svg viewBox="0 0 18 12" width="18" height="12" fill="currentColor">
           <rect x="0" y="7" width="3" height="5" rx="0.5" />
