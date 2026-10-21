@@ -59,19 +59,26 @@
   white-space: nowrap;
 }
 
-.fab {
-  position: absolute;
-  right: 20px;
-  bottom: 24px;
-  width: 56px;
-  height: 56px;
-  border-radius: 50%;
-  border: none;
-  background: var(--ios-red);
-  color: #fff;
-  font-size: 20px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
-  cursor: pointer;
+// Case hiện tại không có dữ liệu Gmail thật (story.json không có mục này) —
+// hiện trạng thái rỗng tử tế thay vì danh sách trắng trơn gây cảm giác lỗi.
+.empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 80px 20px;
+  color: #8a8a8e;
+  font-family: var(--font-sans);
+}
+
+.emptyIcon {
+  font-size: 34px;
+}
+
+.emptyText {
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .detailSubject {

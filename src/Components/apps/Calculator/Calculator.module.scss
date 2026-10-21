@@ -30,3 +30,9 @@
   background: var(--ios-blue);
   color: #fff;
 }
+
+// Phép tính đang chờ (vd vừa bấm "+") sáng lên để biết đang ở bước nào.
+.keyActive {
+  background: var(--ios-blue);
+  color: #fff;
+}
