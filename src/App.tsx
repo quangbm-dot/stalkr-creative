@@ -10,6 +10,7 @@ import EvidenceChat from "./Components/EvidenceChat/EvidenceChat";
 import EndCard from "./Components/EndCard/EndCard";
 import DevBar from "./Components/DevBar/DevBar";
 import { renderApp } from "./Components/apps/registry";
+import { trackPlayableEvent } from "./services/AdController";
 
 type Stage = "caseIntro" | "intro" | "phone" | "end";
 
@@ -45,6 +46,16 @@ function App({ caseData }: { caseData: CaseConfig }) {
     if (stage !== "phone") return;
     const t = setTimeout(() => setChatExpanded(true), 400);
     return () => clearTimeout(t);
+  }, [stage]);
+
+  // Không có màn loading riêng — báo AppLovin ngay khi vào thẳng màn chơi
+  // chính (sau intro), chỉ báo 1 lần.
+  const displayedFired = useRef(false);
+  useEffect(() => {
+    if (stage === "phone" && !displayedFired.current) {
+      displayedFired.current = true;
+      trackPlayableEvent("DISPLAYED");
+    }
   }, [stage]);
 
   const allIcons = [...caseData.home.pages.flat(), ...caseData.home.dock];
