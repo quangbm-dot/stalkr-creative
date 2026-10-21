@@ -1,5 +1,6 @@
 import { useLayoutEffect, useRef, useState, type ReactNode } from "react";
 import StatusBar from "./StatusBar";
+import { hasAdSdkBridge } from "../../services/AdController";
 import styles from "./PhoneFrame.module.scss";
 
 interface PhoneFrameProps {
@@ -35,6 +36,11 @@ export default function PhoneFrame({
 }: PhoneFrameProps) {
   const outerRef = useRef<HTMLDivElement>(null);
   const [scale, setScale] = useState(1);
+  // Khoảng chừa đáy cho nút Skip/Close do mạng quảng cáo thật tự vẽ đè lên —
+  // chỉ cần khi THẬT SỰ chạy trong 1 SDK quảng cáo. Mở file trực tiếp bằng
+  // tab trình duyệt thường (không SDK, không iframe) thì không có nút đó để
+  // tránh, chừa ra chỉ phí diện tích, làm khung co nhỏ hơn mức cần thiết.
+  const [adCtaPad] = useState(() => (hasAdSdkBridge() ? "80px" : "0px"));
 
   useLayoutEffect(() => {
     const el = outerRef.current;
@@ -55,7 +61,7 @@ export default function PhoneFrame({
   }, []);
 
   return (
-    <div className={styles.outer}>
+    <div className={styles.outer} style={{ "--ad-cta-pad": adCtaPad } as React.CSSProperties}>
       <div className={styles.stage} ref={outerRef}>
         <div className={styles.frame} style={{ transform: `scale(${scale})` }}>
           <div className={styles.screen}>
