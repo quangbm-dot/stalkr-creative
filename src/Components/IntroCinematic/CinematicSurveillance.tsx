@@ -124,6 +124,17 @@ const withName = (text: string) => {
   return stripped !== text ? stripped.charAt(0).toUpperCase() + stripped.slice(1) : stripped;
 };
 
+// Giờ trên màn khoá lấy đúng giờ thật của máy người chơi (giờ địa phương, tự
+// động theo múi giờ của họ) thay vì mốc "9:41" giả như trước — tự định dạng
+// tay kiểu 12h KHÔNG kèm AM/PM (giống "9:41" gốc) thay vì dùng
+// toLocaleTimeString, vì tuỳ locale máy sẽ tự thêm "AM"/"PM" vào chữ.
+const formatNow = () => {
+  const d = new Date();
+  const h = d.getHours() % 12 || 12;
+  const m = d.getMinutes().toString().padStart(2, "0");
+  return `${h}:${m}`;
+};
+
 export default function CinematicSurveillance({ caseData, onDone }: Props) {
   const revealStep = caseData.client.hire.find((s) => s.type === "reveal");
   const suspectThread = caseData.messages.find((t) => t.title === "Do not pick up") ?? caseData.messages[0];
@@ -151,6 +162,7 @@ export default function CinematicSurveillance({ caseData, onDone }: Props) {
   const totalCards = sideItems.length + 1;
 
   const [laidCount, setLaidCount] = useState(0);
+  const [lockTime, setLockTime] = useState(formatNow);
   const [phase, setPhase] = useState<Phase>(caseData.coupleIntro ? "who" : "fan");
   const [whoStep, setWhoStep] = useState<"ask" | "reveal">("ask");
   const [stepIdx, setStepIdx] = useState(0);
@@ -197,6 +209,12 @@ export default function CinematicSurveillance({ caseData, onDone }: Props) {
   ];
   const currentStep = steps[stepIdx];
   const isLastStep = stepIdx === steps.length - 1;
+
+  // Giờ trên màn khoá tự cập nhật theo giờ thật của máy.
+  useEffect(() => {
+    const t = setInterval(() => setLockTime(formatNow()), 15000);
+    return () => clearInterval(t);
+  }, []);
 
   // Màn mở đầu "Who is next?" rồi lộ ảnh + tên cặp đôi trước khi vào bàn.
   useEffect(() => {
@@ -504,7 +522,7 @@ export default function CinematicSurveillance({ caseData, onDone }: Props) {
         <div className={`${styles.lockScreen} ${phase === "unlock" ? styles.lockScreenUnlock : ""}`}>
           <img className={styles.lockWallpaper} src={caseData.wallpaper} alt="" />
           <div className={styles.lockDim} />
-          <span className={styles.lockTime}>9:41</span>
+          <span className={styles.lockTime}>{lockTime}</span>
           <span className={styles.lockLine}>
             {drawn.length >= UNLOCK_PATTERN.length ? `Passcode cracked: ${caseData.vaultCode}` : "Draw a “U” to crack his passcode"}
           </span>
