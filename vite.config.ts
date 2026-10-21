@@ -35,8 +35,11 @@ export default defineConfig({
   ],
   // v9: bản "dễ" (V9_EASY=1 khi build) — ít lựa chọn sai hơn + hint tự hiện
   // sẵn luôn, không cần bấm 💡. Xem src/cases/buildCase.ts.
+  // v10: số câu hỏi chơi trước khi vào endcard (ROUNDS=3/5/8 khi build) — xem
+  // src/cases/buildStoryCase.ts. Mặc định 8 khi không set.
   define: {
     __V9_EASY__: JSON.stringify(process.env.V9_EASY === '1'),
+    __ROUNDS__: JSON.stringify(Number(process.env.ROUNDS) || 8),
   },
   base: './',
   build: {

@@ -66,8 +66,10 @@ export interface V10Case {
 }
 
 
-// Chơi đủ 8 câu rồi mới tới endcard (story gốc có 10 câu, cắt ở 8).
-const MAX_ROUNDS = 8;
+// Số câu chơi trước khi vào endcard — lấy từ __ROUNDS__ (build với
+// ROUNDS=3/5/8, mặc định 8 khi không set — xem vite.config.ts). Story gốc có
+// 10 câu, luôn chỉ cắt lấy N câu đầu.
+const MAX_ROUNDS = __ROUNDS__;
 
 // Câu cần 2 mini app liên tiếp: Q6 xem Calendar (địa chỉ buổi hẹn) rồi tra Maps (tên quán).
 const HINT_STEPS: Record<number, { app: string; target?: string }[]> = {
