@@ -13,10 +13,8 @@ interface Props {
   onDone: () => void;
 }
 
-type Phase = "who" | "fan" | "scroll" | "lock" | "unlock";
+type Phase = "fan" | "scroll" | "lock" | "unlock";
 
-const WHO_ASK_MS = 1300;
-const WHO_REVEAL_MS = 2800;
 const FAN_STEP_MS = 420;
 const TARGET_GLOW_MS = 500;
 // Trình tự "vỡ" ảnh cặp đôi: đen trắng dần -> hiện tim vỡ -> mờ dần -> tách
@@ -163,8 +161,7 @@ export default function CinematicSurveillance({ caseData, onDone }: Props) {
 
   const [laidCount, setLaidCount] = useState(0);
   const [lockTime, setLockTime] = useState(formatNow);
-  const [phase, setPhase] = useState<Phase>(caseData.coupleIntro ? "who" : "fan");
-  const [whoStep, setWhoStep] = useState<"ask" | "reveal">("ask");
+  const [phase, setPhase] = useState<Phase>("fan");
   const [stepIdx, setStepIdx] = useState(0);
   const [drawn, setDrawn] = useState<string[]>([]);
   const [targetGlow, setTargetGlow] = useState(false);
@@ -215,17 +212,6 @@ export default function CinematicSurveillance({ caseData, onDone }: Props) {
     const t = setInterval(() => setLockTime(formatNow()), 15000);
     return () => clearInterval(t);
   }, []);
-
-  // Màn mở đầu "Who is next?" rồi lộ ảnh + tên cặp đôi trước khi vào bàn.
-  useEffect(() => {
-    if (phase !== "who") return;
-    if (whoStep === "ask") {
-      const t = setTimeout(() => setWhoStep("reveal"), WHO_ASK_MS);
-      return () => clearTimeout(t);
-    }
-    const t = setTimeout(() => setPhase("fan"), WHO_REVEAL_MS);
-    return () => clearTimeout(t);
-  }, [phase, whoStep]);
 
   // Rải lần lượt 4 thẻ phụ rồi tới 1 thẻ ảnh cặp đôi — thẻ đầu rơi ngay lập
   // tức (không khựng lại chờ), các thẻ sau cách nhau theo nhịp. Thẻ cuối rơi
@@ -302,8 +288,8 @@ export default function CinematicSurveillance({ caseData, onDone }: Props) {
   }, [phase, typedLen, currentStep.text]);
 
   // Gõ xong câu thì tự động chuyển bước nếu người chơi chưa bấm Next — câu
-  // cuối (mở màn mật khẩu) cho lâu hơn (5s) để kịp đọc + bấm, các câu còn
-  // lại 3s.
+  // cuối (mở màn mật khẩu) cho lâu hơn (4s) để kịp đọc + bấm, các câu còn
+  // lại 2.4s.
   useEffect(() => {
     if (phase !== "scroll" || typedLen < currentStep.text.length) return;
     const t = setTimeout(
@@ -311,7 +297,7 @@ export default function CinematicSurveillance({ caseData, onDone }: Props) {
         if (isLastStep) setPhase("lock");
         else setStepIdx((i) => i + 1);
       },
-      isLastStep ? 5000 : 3000,
+      isLastStep ? 4000 : 2400,
     );
     return () => clearTimeout(t);
   }, [phase, typedLen, currentStep.text.length, isLastStep]);
