@@ -14,7 +14,11 @@
      điện thoại scale giống hệt nhau xuyên suốt game (Intro/Home/trong app
      đều cùng 1 tỉ lệ, không còn to nhỏ lệch nhau giữa các màn). */
   padding-top: var(--sat, 0px);
-  padding-bottom: calc(80px + var(--sab, 0px));
+  // --ad-cta-pad set động ở PhoneFrame.tsx: 80px khi thật sự chạy trong SDK
+  // quảng cáo (chừa chỗ cho nút Skip/Close nó tự vẽ đè lên), 0px khi mở file
+  // trực tiếp bằng trình duyệt thường để test (không có nút đó, chừa ra chỉ
+  // làm khung co nhỏ hơn mức cần thiết, lộ viền đen 2 bên vô ích).
+  padding-bottom: calc(var(--ad-cta-pad, 80px) + var(--sab, 0px));
 }
 
 /* Chỉ khi có DevBar (#dev): nhường đáy màn hình cho thanh QA. */
