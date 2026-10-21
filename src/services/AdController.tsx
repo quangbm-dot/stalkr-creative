@@ -3,6 +3,23 @@ const storeUrl = {
     IOS: "https://apps.apple.com/us/app/id6798600853"
 }
 
+// Có đang chạy trong webview/iframe của 1 mạng quảng cáo thật hay không (bất
+// kỳ SDK nào trong danh sách openLinkApp() nhận ra, hoặc đang bị nhúng
+// iframe) — dùng để quyết định có cần chừa khoảng trống cho nút Skip/Close
+// do mạng quảng cáo tự vẽ đè lên hay không (xem PhoneFrame.tsx). Test trực
+// tiếp bằng tab trình duyệt thường thì không khớp cái nào, trả về false.
+export function hasAdSdkBridge() {
+    try { if ((window as any).openAppStore) return true; } catch (e) {}
+    try { if ((window as any).ExitApi?.exit) return true; } catch (e) {}
+    try { if ((window as any).dapi?.openStoreUrl) return true; } catch (e) {}
+    try { if ((window as any).FbPlayableAd?.onCTAClick) return true; } catch (e) {}
+    try { if ((window as any).install) return true; } catch (e) {}
+    try { if ((window as any).mraid) return true; } catch (e) {}
+    try { if ((window as any).callSDK) return true; } catch (e) {}
+    try { if (window.parent && window.parent !== window) return true; } catch (e) {}
+    return false;
+}
+
 export default function openLinkApp() {
     const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !(window as any).MSStream;
 
