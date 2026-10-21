@@ -35,5 +35,13 @@ export default function openLinkApp() {
             return;
         }
     } catch (e) {}
+    // Không SDK nào khớp VÀ không chạy trong iframe — nghĩa là đang mở file
+    // HTML trực tiếp bằng trình duyệt thường để test (không phải trong
+    // webview mạng quảng cáo thật), nên tự mở thẳng link store ở tab mới để
+    // còn test được CTA, thay vì im lặng không làm gì.
+    try {
+        window.open(isIOS ? storeUrl.IOS : storeUrl.Android, "_blank", "noopener,noreferrer");
+        return;
+    } catch (e) {}
     console.warn("[AdController] No ad SDK bridge matched — CTA click had no effect.");
 }
