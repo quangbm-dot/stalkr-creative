@@ -39,6 +39,11 @@
   flex-direction: column;
   align-items: center;
   gap: 20px;
+  transition: transform 0.3s ease-out;
+}
+
+.success {
+  transform: scale(1.04);
 }
 
 .nudge {
@@ -49,6 +54,12 @@
   0%, 100% { transform: translateX(0); }
   25% { transform: translateX(-8px); }
   75% { transform: translateX(8px); }
+}
+
+.vaultLabel {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ios-text-secondary);
 }
 
 .dots {
@@ -62,16 +73,29 @@
   height: 12px;
   border-radius: 50%;
   border: 1px solid var(--ios-text);
+  transition: background 0.2s, border-color 0.2s, transform 0.2s;
 }
 
 .dotFilled {
   background: var(--ios-text);
 }
 
+.dotSuccess {
+  background: #34c759;
+  border-color: #34c759;
+  transform: scale(1.15);
+}
+
 .keys {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 12px;
+  transition: opacity 0.3s ease-out;
+}
+
+.keysHidden {
+  opacity: 0.25;
+  pointer-events: none;
 }
 
 .key {

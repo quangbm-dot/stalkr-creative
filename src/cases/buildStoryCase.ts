@@ -172,6 +172,16 @@ export function buildStoryCase(id: string, data: StoryJson, images: Record<strin
     },
     hint: "Open the apps on the phone to find clues.",
     owner: { first: data.ownerFirst, full: data.ownerFull, avatar: img(data.clientAvatar) },
+    coupleIntro: data.onboardingContent[1]
+      ? {
+          image: img(data.onboardingContent[1].image),
+          names: data.onboardingContent[1].caption,
+          text: data.onboardingContent[1].text,
+        }
+      : undefined,
+    targetPeople: [data.onboardingContent[2], data.onboardingContent[3]]
+      .filter((s): s is NonNullable<typeof s> => !!s?.image)
+      .map((s) => ({ image: img(s.image), name: s.caption })),
     wallpaper: img(data.wallpaper),
     home: { pages, dock },
     messages: data.messages.map((t) => ({ ...t, avatar: t.avatar ? img(t.avatar as unknown as string) : undefined })),

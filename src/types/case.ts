@@ -209,6 +209,14 @@ export interface CaseConfig {
   };
   hint: string;
   owner: { first: string; full: string; avatar: string };
+  /** Ảnh + tên + đoạn kể thật về mối quan hệ của cặp đôi — dùng cho màn
+   *  "Who is next?" mở đầu cinematic và cho phần thông tin lộ dần cạnh ảnh
+   *  mục tiêu. Chỉ case dựng từ story.json (buildStoryCase) có, case JSON
+   *  thường (v9) bỏ qua. */
+  coupleIntro?: { image: string; names: string; text: string };
+  /** Ảnh chân dung riêng từng người trong vụ (vd slide 3 = Miles, slide 4 =
+   *  Casey) — dùng cho các thẻ "lật ra ảnh mục tiêu" cuối màn rải bài. */
+  targetPeople?: { image: string; name: string }[];
   wallpaper: string;
   home: {
     pages: AppIcon[][];

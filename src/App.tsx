@@ -4,7 +4,7 @@ import type { CaseConfig } from "./types/case";
 import PhoneFrame from "./Components/PhoneFrame/PhoneFrame";
 import HomeScreen from "./Components/PhoneFrame/HomeScreen";
 import CaseIntro from "./Components/CaseIntro/CaseIntro";
-import Intro from "./Components/Intro/Intro";
+import IntroCinematic from "./Components/IntroCinematic/IntroCinematic";
 import TopBar from "./Components/TopBar/TopBar";
 import EvidenceChat from "./Components/EvidenceChat/EvidenceChat";
 import EndCard from "./Components/EndCard/EndCard";
@@ -114,7 +114,7 @@ function App({ caseData }: { caseData: CaseConfig }) {
     <div style={{ display: "contents" }} data-hand={activeHand} data-hand-visible={handVisible}>
     <PhoneFrame
       showBelowBar={stage === "phone" && !chatExpanded}
-      statusBarDark={stage !== "intro"}
+      statusBarDark={stage !== "caseIntro"}
       aboveBar={
         stage === "phone" ? (
           <TopBar
@@ -133,7 +133,9 @@ function App({ caseData }: { caseData: CaseConfig }) {
         />
       )}
 
-      {stage === "intro" && <Intro caseData={caseData} onDone={() => setStage("phone")} />}
+      {stage === "intro" && (
+        <IntroCinematic caseData={caseData} onDone={() => setStage("phone")} />
+      )}
 
       {stage === "phone" && !openApp && (
         <HomeScreen
