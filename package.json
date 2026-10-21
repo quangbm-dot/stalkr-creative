@@ -11,7 +11,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "build:v9": "node scripts/build-v9.cjs",
-    "build:v10": "node scripts/build-v10.cjs"
+    "build:v10": "node scripts/build-v10.cjs",
+    "build:v11": "node scripts/build-v11.cjs"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.4",
