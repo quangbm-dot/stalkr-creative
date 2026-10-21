@@ -12,6 +12,7 @@ const storeUrl = {
 // no-op im lặng trên mọi mạng khác/khi test bằng tab trình duyệt thường,
 // vì chỉ mạng AppLovin mới tiêm biến này vào.
 export function trackPlayableEvent(event: string) {
+    console.log("[AppLovin event]", event);
     try {
         if (typeof (window as any).ALPlayableAnalytics !== "undefined") {
             (window as any).ALPlayableAnalytics.trackEvent(event);
