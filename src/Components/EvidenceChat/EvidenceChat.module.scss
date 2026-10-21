@@ -30,10 +30,10 @@
   overflow-y: auto;
   padding: 14px 16px 16px;
   border-radius: 22px 22px 0 0;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0.7)), url("../../Assets/UI/popup.jpg");
-  background-size: cover;
-  background-position: center;
-  border: 0.5px solid var(--glass-border-on-light);
+  // Đồng bộ tông đỏ-đen với màn intro (trước là ảnh trời xanh mây trắng,
+  // lệch hẳn tông với phần mở đầu u tối).
+  background: radial-gradient(ellipse at 50% 0%, #2a1613 0%, #130a08 55%, #0a0504 100%);
+  border: 0.5px solid rgba(255, 90, 70, 0.2);
   border-bottom: none;
   box-shadow: 0 -8px 28px rgba(0, 0, 0, 0.28);
   backdrop-filter: var(--glass-blur);
@@ -82,9 +82,7 @@
   // lại đúng nền/góc bo của .sheet, không phải 1 thanh pill riêng nổi trên
   // nền đen như trước.
   border-radius: 22px 22px 0 0;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0.7)), url("../../Assets/UI/popup.jpg");
-  background-size: cover;
-  background-position: center;
+  background: radial-gradient(ellipse at 50% 0%, #2a1613 0%, #130a08 55%, #0a0504 100%);
   box-shadow: 0 -8px 28px rgba(0, 0, 0, 0.28);
   cursor: pointer;
   text-align: left;
@@ -124,9 +122,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  // Nền thanh này là ảnh trời xanh nhạt (popup.jpg), không phải nền tối —
-  // --ios-text (trắng) gần như không đọc được, phải tự đặt màu đen riêng.
-  color: #0b1f3a;
+  color: #f3e6c8;
   font-family: var(--font-sans);
   font-size: 16px;
   font-weight: 600;
@@ -136,8 +132,8 @@
   flex: 0 0 auto;
   padding: 3px 8px;
   border-radius: 10px;
-  background: rgba(11, 31, 58, 0.1);
-  color: #0b1f3a;
+  background: rgba(255, 255, 255, 0.12);
+  color: #f3e6c8;
   font-family: var(--font-sans);
   font-weight: 700;
   font-size: 12px;
@@ -148,7 +144,7 @@
 .topQBadge {
   flex: 0 0 auto;
   margin-top: 8px;
-  color: #0b1f3a;
+  color: #f3e6c8;
   font-family: var(--font-sans);
   font-weight: 700;
   font-size: 13px;
@@ -177,7 +173,7 @@
   left: calc(50% + 46px);
   width: 56px;
   height: 34px;
-  color: #6fa8d8;
+  color: #ff9a86;
 }
 
 .name {
@@ -187,7 +183,7 @@
   font-style: italic;
   font-weight: 800;
   font-size: 19px;
-  color: #0b1f3a;
+  color: #f3e6c8;
 }
 
 // --- Thẻ câu hỏi trắng (card) — tĩnh, không phải khung chat cuộn ---
@@ -233,8 +229,8 @@
   margin-top: 14px;
   padding: 14px 16px;
   border-radius: 18px;
-  background: #e8f1fb;
-  color: #0b1f3a;
+  background: #f6efe3;
+  color: #241a14;
   font-family: var(--font-sans);
   font-size: 15px;
   font-weight: 400;
@@ -357,7 +353,7 @@
   height: 38px;
   border-radius: 12px;
   border: none;
-  background: #e8f1fb;
+  background: #f6efe3;
   font-size: 17px;
   line-height: 1;
   display: flex;
@@ -525,14 +521,14 @@
 }
 .replyMe {
   align-self: flex-end;
-  background: var(--meta-accent);
+  background: #9c3326;
   color: #fff;
   border-bottom-right-radius: 6px;
 }
 .replyThem {
   align-self: flex-start;
-  background: #e4ecf6;
-  color: #0b1f3a;
+  background: #f0e8da;
+  color: #241a14;
   border-bottom-left-radius: 6px;
 }
 @keyframes replyIn {

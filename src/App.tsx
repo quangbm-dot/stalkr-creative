@@ -4,7 +4,7 @@ import type { CaseConfig } from "./types/case";
 import PhoneFrame from "./Components/PhoneFrame/PhoneFrame";
 import HomeScreen from "./Components/PhoneFrame/HomeScreen";
 import CaseIntro from "./Components/CaseIntro/CaseIntro";
-import IntroCinematic from "./Components/IntroCinematic/IntroCinematic";
+import IntroMapTracking from "./Components/IntroMapTracking/IntroMapTracking";
 import TopBar from "./Components/TopBar/TopBar";
 import EvidenceChat from "./Components/EvidenceChat/EvidenceChat";
 import EndCard from "./Components/EndCard/EndCard";
@@ -134,7 +134,7 @@ function App({ caseData }: { caseData: CaseConfig }) {
       )}
 
       {stage === "intro" && (
-        <IntroCinematic caseData={caseData} onDone={() => setStage("phone")} />
+        <IntroMapTracking caseData={caseData} onDone={() => setStage("phone")} />
       )}
 
       {stage === "phone" && !openApp && (
