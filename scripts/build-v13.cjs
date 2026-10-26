@@ -1,16 +1,16 @@
 /**
  * v13: build playable "romance scam" (case 05_daniel_scam) cho từng mạng quảng cáo —
- * 2 bản độ dài: 3 hoặc 5 câu hỏi rồi vào endcard (xem __ROUNDS__ ở vite.config.ts).
- *   npm run build:v13                  → mọi mạng × 2 độ dài
+ * chỉ bản 5 câu hỏi rồi vào endcard (xem __ROUNDS__ ở vite.config.ts).
+ *   npm run build:v13                  → mọi mạng
  *   npm run build:v13 applovin,unity   → chỉ các mạng chỉ định
- * Output: <repo chính>/build/v13/<mạng>/SMD_Playable_v13_<01|02>_<N>quests_daniel_scam QuangBM_QuangBM.html
+ * Output: <repo chính>/build/v13/<mạng>/SMD_Playable_v13_01_5quests_daniel_scam QuangBM_QuangBM.html
  */
 const { execSync } = require("child_process");
 const fs = require("fs");
 const path = require("path");
 
 const NETWORKS = ["applovin", "unity", "ironsource", "google", "mindwork", "tiktok"];
-const ROUNDS_VARIANTS = [3, 5];
+const ROUNDS_VARIANTS = [5];
 const CASE_ID = "05_daniel_scam";
 
 const root = path.join(__dirname, "..");
