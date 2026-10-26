@@ -120,11 +120,11 @@ const QUESTIONS: {
 ];
 
 const VICTIMS = [
-  { name: "Sophie", avatar: img("sophie"), blurAvatar: img("blur_sophie"), line: "Night-shift nurse" },
-  { name: "Jenny", avatar: img("jenny"), blurAvatar: img("blur_jenny"), line: "College student" },
-  { name: "Elena", avatar: img("elena"), blurAvatar: img("blur_elena"), line: "Art curator" },
-  { name: "Rachel", avatar: img("rachel"), blurAvatar: img("blur_rachel"), line: "Single mom" },
-  { name: "Anna", avatar: img("anna"), blurAvatar: img("blur_anna"), line: "Executive" },
+  { name: "Sophie", avatar: img("sophie"), blurAvatar: img("blur_sophie"), line: "Night-shift nurse", notifPreview: "Can't wait to see you after my shift 💙" },
+  { name: "Jenny", avatar: img("jenny"), blurAvatar: img("blur_jenny"), line: "College student", notifPreview: "You always know how to make me smile 😍" },
+  { name: "Elena", avatar: img("elena"), blurAvatar: img("blur_elena"), line: "Art curator", notifPreview: "Thinking about you all day 🎨" },
+  { name: "Rachel", avatar: img("rachel"), blurAvatar: img("blur_rachel"), line: "Single mom", notifPreview: "Can't stop smiling since this morning 🥹" },
+  { name: "Anna", avatar: img("anna"), blurAvatar: img("blur_anna"), line: "Executive", notifPreview: "Counting down the days until we're together ✈️" },
 ];
 
 const victimOf = (name: string) => VICTIMS.find((v) => v.name === name);

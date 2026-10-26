@@ -277,7 +277,7 @@ export interface CaseConfig {
     subhead: string;
     ctaLabel: string;
     /** v13: danh sách nạn nhân hiện ở EndCard — người đầu tiên rõ nét, còn lại bị làm mờ. */
-    victims?: { name: string; avatar: string; /** ảnh đã làm mờ sẵn (không dùng CSS blur → không bao giờ chớp nét) */ blurAvatar?: string; line: string }[];
+    victims?: { name: string; avatar: string; /** ảnh đã làm mờ sẵn (không dùng CSS blur → không bao giờ chớp nét) */ blurAvatar?: string; line: string; /** v13: câu preview hiện trong banner noti khoá màn (NotifStack) — không được lộ đáp án câu hỏi của cô này. */ notifPreview?: string }[];
     victimsLockText?: string;
     /** v13: thẻ "ending bị khoá" — ảnh mờ chủ máy + 🔒 + câu hỏi cliffhanger. */
     teaser?: { blurImage: string; title: string; text: string };

@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import type { CaseConfig } from "../../types/case";
 import TrustMeter from "../TrustMeter/TrustMeter";
+import NotifStack from "./NotifStack";
 import openLinkApp from "../../services/AdController";
 import styles from "./ScamIntro.module.scss";
 
@@ -38,29 +39,41 @@ const RISE_MS = 300; // thời lượng animation hiện nút
 export default function ScamIntro({ caseData, onDone }: ScamIntroProps) {
   const intro = caseData.scamIntro;
   const victims = caseData.endCard.victims ?? [];
+
+  // Màn 1: điện thoại còn khoá, 5 noti tin nhắn (1/cô) đổ xuống trước — chỉ
+  // sang màn 2 (board/trust-meter hiện tại) sau khi màn noti báo xong.
+  const [phase, setPhase] = useState<"notifs" | "board">(victims.length > 0 ? "notifs" : "board");
   const lastCardAt = CARD_START_MS + CARD_STEP_MS * Math.max(victims.length - 1, 0);
   const meterAt = lastCardAt + CARD_ANIM_MS + METER_AFTER_MS;
   const tail = meterAt + 100 + FILL_MS + TEXT_GAP_MS; // chữ + CTA hiện sau khi thanh đã chạy xong hẳn
   const ctaShownAt = tail + CTA_OFFSET_MS + RISE_MS;
 
   // Tự vào màn chơi AUTO_START_MS sau khi nút Expose hiện ra nếu chưa ai bấm (App unmount intro khi chuyển stage nên timer tự dọn).
+  // Mọi mốc thời gian trên tính từ lúc board hiện ra, nên 2 timer dưới đây chỉ
+  // chạy khi đã sang phase "board" (không tính luôn từ lúc noti đang đổ xuống).
   const onDoneRef = useRef(onDone);
   onDoneRef.current = onDone;
   useEffect(() => {
+    if (phase !== "board") return;
     const t = setTimeout(() => onDoneRef.current(), ctaShownAt + AUTO_START_MS);
     return () => clearTimeout(t);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [phase]);
 
   // Thanh bắt đầu ở 0, tới đúng lúc thì mới được set 100 để chạy.
   const [filled, setFilled] = useState(false);
   useEffect(() => {
+    if (phase !== "board") return;
     const t = setTimeout(() => setFilled(true), meterAt + 100);
     return () => clearTimeout(t);
-  }, [meterAt]);
+  }, [phase, meterAt]);
 
   if (!intro) return null;
   const after = (ms: number) => ({ animationDelay: `${ms}ms` });
+
+  if (phase === "notifs") {
+    return <NotifStack caseData={caseData} onDone={() => setPhase("board")} />;
+  }
 
   return (
     <div className={styles.stage}>
