@@ -2,8 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import type { CaseConfig } from "../../types/case";
 import Confetti from "../Confetti/Confetti";
-import openLinkApp, { trackPlayableEvent } from "../../services/AdController";
-import endLogo from "../../Assets/UI/icon-end-card.webp";
+import { trackPlayableEvent } from "../../services/AdController";
 import styles from "./EvidenceChat.module.scss";
 
 interface EvidenceChatProps {
@@ -17,10 +16,9 @@ interface EvidenceChatProps {
   unlocked: boolean;
 }
 
-const NEXT_DELAY_MS = 2500;
+const NEXT_DELAY_MS = 3600; // v13: chờ thẻ cô gái lật + giữ >1s + bay vào khay
 // Emoji đổi theo câu cho bong bóng đáp án của người chơi, đỡ lặp.
 const PICK_EMOJIS = ["🔍", "🕵️", "💡", "👀", "📌", "🧩"];
-const TEASER_AFTER_ROUND = 8;
 
 /**
  * v10: clone y hệt popup câu hỏi của V8 — 1 "thẻ câu hỏi" tĩnh (không phải
@@ -43,9 +41,6 @@ export default function EvidenceChat({
   const [wrongPick, setWrongPick] = useState<string | null>(null);
   const [correctPick, setCorrectPick] = useState<string | null>(null);
   const [showConfetti, setShowConfetti] = useState(false);
-  // Sau khi trả lời đúng câu 1 — teaser EndCard che kín toàn màn hình, có
-  // nút mũi tên nhỏ ở trên để thu gọn lại, tiếp tục chơi câu 2/3.
-  const [showEndTeaser, setShowEndTeaser] = useState(false);
   // Thanh câu hỏi thu gọn không còn nằm trong màn hình điện thoại nữa — nó
   // portal ra div #phone-below-bar mà PhoneFrame dựng sẵn bên dưới khung
   // điện thoại (khối riêng, nền đen). Node đó chưa có ở lần render đầu nên
@@ -88,9 +83,8 @@ export default function EvidenceChat({
     if (advanceTimer.current) clearTimeout(advanceTimer.current);
   }, []);
 
-  const pick = (choice: string) => {
-    if (!round || !unlocked || correctPick) return;
-    setShowHint(false);
+  const pick = (choice: string, force = false) => {
+    if (!round || (!unlocked && !force) || correctPick) return;
     if (choice === round.correct) {
       setWrongPick(null);
       setCorrectPick(choice);
@@ -108,17 +102,30 @@ export default function EvidenceChat({
       setShowConfetti(true);
       setTimeout(() => setShowConfetti(false), 3000);
 
-      // Teaser EndCard hiện sau khi xong câu thứ 8 (hoặc câu cuối nếu case ngắn hơn).
-      if (roundIndex === Math.min(TEASER_AFTER_ROUND, rounds.length) - 1) {
-        setTimeout(() => setShowEndTeaser(true), 700);
-      }
-
+      // v13: không còn teaser EndCard giữa chừng — màn kết (EXPOSED + nạn nhân) hiện sau câu cuối.
       advanceTimer.current = setTimeout(goNext, NEXT_DELAY_MS);
     } else {
       setWrongPick(choice);
       setTimeout(() => setWrongPick(null), 1200);
     }
   };
+
+  // v13 (chỉ để QA): nút "Next quest" của DevBar bắn event này — tự trả lời đúng câu hiện tại
+  // (bỏ qua khoá), bấm lần nữa khi đang chờ thì nhảy luôn sang câu kế.
+  const devSolveRef = useRef<() => void>(() => {});
+  devSolveRef.current = () => {
+    if (correctPick) {
+      goNext();
+      return;
+    }
+    onExpandedChange(true);
+    pick(round?.correct ?? "", true);
+  };
+  useEffect(() => {
+    const h = () => devSolveRef.current();
+    window.addEventListener("smd-dev-solve", h);
+    return () => window.removeEventListener("smd-dev-solve", h);
+  }, []);
 
   const useHint = () => {
     if (hintUsedThisRound) return;
@@ -131,8 +138,15 @@ export default function EvidenceChat({
     return createPortal(
       <button type="button" className={styles.bar} onClick={() => onExpandedChange(true)}>
         {round && <img className={styles.barAvatar} src={round.informant.avatar} alt="" />}
-        <span className={styles.barText}>
-          {round ? round.prompt : "Tap to continue"}
+        <span className={styles.barCol}>
+          <span className={styles.barText}>{round ? round.prompt : "Tap to continue"}</span>
+          {/* v13: gợi ý đã bấm 💡 được lưu lại — vẫn thấy khi thu gọn popup để đi tìm manh mối. */}
+          {round && showHint && !correctPick && (
+            <span className={styles.savedHintLine}>
+              <span>💡</span>
+              <span className={styles.savedHintText}>{round.hint}</span>
+            </span>
+          )}
         </span>
         <span className={styles.barBadge}>
           Q{roundIndex + 1}/{caseData.evidenceTotal}
@@ -254,27 +268,6 @@ export default function EvidenceChat({
 
       {showConfetti && <Confetti />}
 
-      {showEndTeaser && (
-        <div className={styles.fullTeaser}>
-          <button
-            type="button"
-            className={styles.fullTeaserCollapse}
-            onClick={() => setShowEndTeaser(false)}
-            aria-label="Collapse"
-          >
-            <svg viewBox="0 0 24 24" width="16" height="16" fill="none">
-              <path d="M5 9l7 7 7-7" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" />
-            </svg>
-          </button>
-          <img className={styles.fullTeaserLogo} src={endLogo} alt="Stalkr" />
-          <h2 className={styles.fullTeaserHeadline}>{caseData.endCard.headline}</h2>
-          <p className={styles.fullTeaserSubhead}>{caseData.endCard.subhead}</p>
-          <span className={styles.fullTeaserBadge}>Fictional mystery game</span>
-          <button type="button" className={styles.fullTeaserCta} onClick={openLinkApp}>
-            {caseData.endCard.ctaLabel}
-          </button>
-        </div>
-      )}
     </>
   );
 }

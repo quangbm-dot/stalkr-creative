@@ -1,6 +1,6 @@
 import styles from "./Confetti.module.scss";
 
-const COLORS = ["#2f8fe0", "#ff5f5f", "#ffd166", "#34c759", "#ffffff"];
+const COLORS = ["#e0457b", "#ff5f5f", "#ffd166", "#34c759", "#ffffff"];
 const PIECES = Array.from({ length: 40 }, (_, i) => i);
 
 /** Vài mảnh giấy màu rơi + xoay, tự chạy 1 lần khi mount — dùng lúc hoàn

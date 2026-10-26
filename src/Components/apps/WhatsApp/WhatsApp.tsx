@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import type { CaseConfig } from "../../../types/case";
 import AppScreen from "../../PhoneFrame/AppScreen";
 import styles from "./WhatsApp.module.scss";
+import { avatarColor } from "../../../utils/avatarColor";
 
 interface WhatsAppProps {
   caseData: CaseConfig;
@@ -58,7 +59,7 @@ export default function WhatsApp({ caseData, onBack, hintTargetId, onFoundClue, 
             {t.avatar ? (
               <img className={styles.avatarImg} src={t.avatar} alt={t.title} />
             ) : (
-              <div className={styles.avatar}>{t.title.charAt(0)}</div>
+              <div className={styles.avatar} style={{ background: avatarColor(t.title), color: "#fff" }}>{t.title.charAt(0)}</div>
             )}
             <div className={styles.meta}>
               <div className={styles.top}>

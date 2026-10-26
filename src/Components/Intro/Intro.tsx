@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import type { CaseConfig, HireStep } from "../../types/case";
 import openLinkApp from "../../services/AdController";
+import TrustMeter from "../TrustMeter/TrustMeter";
 import styles from "./Intro.module.scss";
 
 interface IntroProps {
@@ -110,6 +111,17 @@ export default function Intro({ caseData, onDone }: IntroProps) {
           </svg>
         </div>
       </div>
+
+      {caseData.trust && (
+        <div className={styles.trustBox}>
+          <TrustMeter
+            value={100}
+            label={caseData.trust.label}
+            avatar={caseData.client.avatar}
+            reaction={caseData.trust.clientReactions[0]?.text ?? ""}
+          />
+        </div>
+      )}
 
       <div className={styles.chatWrap}>
         <div className={styles.log}>

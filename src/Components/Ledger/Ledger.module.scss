@@ -1,0 +1,320 @@
+.stage {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 40px 18px 24px;
+  background: radial-gradient(120% 80% at 50% 0%, #4a1250 0%, #1a0a24 55%, #0d0412 100%);
+  font-family: var(--font-sans);
+}
+
+/* end card đã đè lên: tờ giấy dịch lên trên cho khỏi bị sheet che */
+.settled {
+  justify-content: flex-start;
+  padding-top: 52px;
+
+  .paper {
+    animation: none;
+    transform: scale(0.88);
+    transform-origin: 50% 0;
+  }
+  .shineClip {
+    display: none;
+  }
+}
+
+/* quầng sáng ấm phía sau giấy */
+.glow {
+  position: absolute;
+  left: 50%;
+  top: 46%;
+  width: 520px;
+  height: 520px;
+  margin: -260px 0 0 -260px;
+  border-radius: 50%;
+  background: radial-gradient(closest-side, rgba(255, 214, 160, 0.55), rgba(255, 122, 162, 0.22) 55%, transparent 75%);
+  opacity: 0;
+  pointer-events: none;
+  animation: glowBurst 1.5s ease-out 0.3s both;
+}
+
+.settled .glow {
+  display: none;
+}
+
+/* --- tờ giấy thanh toán --- */
+.paper {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 340px;
+  padding: 18px 16px 14px;
+  border-radius: 6px;
+  background: #fffaf0;
+  color: #2a0f2e;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.55);
+  transform-origin: 50% 50%;
+  // backwards: hết animation thì quay về style gốc (đúng vị trí giữa màn hình)
+  animation: slideUp 0.95s cubic-bezier(0.2, 0.85, 0.25, 1) backwards;
+
+  // mép giấy xé răng cưa phía dưới
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -8px;
+    height: 8px;
+    background: linear-gradient(-45deg, transparent 6px, #fffaf0 0) 0 0 / 12px 8px repeat-x,
+      linear-gradient(45deg, transparent 6px, #fffaf0 0) 0 0 / 12px 8px repeat-x;
+  }
+}
+
+/* vệt sáng quét chéo khi giấy tới nơi */
+.shineClip {
+  position: absolute;
+  inset: 0;
+  border-radius: 6px;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.shine {
+  position: absolute;
+  top: -20%;
+  bottom: -20%;
+  left: -60%;
+  width: 45%;
+  background: linear-gradient(100deg, transparent, rgba(255, 255, 255, 0.85), transparent);
+  transform: skewX(-18deg);
+  opacity: 0;
+  animation: shineSweep 0.9s ease-out 0.75s both;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 2px dashed rgba(42, 15, 46, 0.35);
+}
+
+.heading {
+  font-family: var(--font-serif);
+  font-weight: 900;
+  font-size: 22px;
+  letter-spacing: 1.5px;
+}
+
+.sub {
+  margin-top: 2px;
+  color: rgba(42, 15, 46, 0.6);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.rows {
+  display: flex;
+  flex-direction: column;
+  padding: 6px 0;
+}
+
+.row {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 6px 8px 4px;
+  border-bottom: 1px dotted rgba(42, 15, 46, 0.3);
+  opacity: 0;
+  animation: rowIn 0.35s ease-out both;
+}
+
+/* ô ảnh món đồ đã mua; avatar cô gái gắn nhỏ ở góc dưới phải */
+.thumb {
+  position: relative;
+  flex: 0 0 auto;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  background: #f1e7d6;
+  box-shadow: inset 0 0 0 1px rgba(42, 15, 46, 0.15);
+
+  > img:first-child {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+  }
+}
+
+.thumbEmoji {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-size: 26px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #ffe1e8, #ffc2d1);
+}
+
+.avatar {
+  position: absolute;
+  right: -6px;
+  bottom: -6px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fffaf0;
+  box-shadow: 0 0 0 1px rgba(42, 15, 46, 0.3);
+}
+
+.who2 {
+  color: #2a0f2e;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.who {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.name {
+  font-weight: 800;
+  font-size: 15px;
+}
+
+.note {
+  color: rgba(42, 15, 46, 0.6);
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.amount {
+  font-family: var(--font-serif);
+  font-weight: 900;
+  font-size: 20px;
+  font-variant-numeric: tabular-nums;
+}
+
+/* dòng của Chloe: khoanh đỏ + nhãn */
+.hot {
+  background: rgba(255, 59, 92, 0.08);
+}
+
+.hot .amount {
+  color: #e11d48;
+}
+
+.circle {
+  position: absolute;
+  inset: 2px -4px;
+  border: 3px solid #e11d48;
+  border-radius: 40px 34px 38px 30px / 30px 38px 32px 40px;
+  opacity: 0;
+  animation: drawIn 0.45s ease-out both;
+  pointer-events: none;
+}
+
+.tag {
+  position: absolute;
+  right: -2px;
+  top: -13px;
+  padding: 3px 9px;
+  border-radius: 10px;
+  background: #e11d48;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 800;
+  transform: rotate(-3deg);
+  opacity: 0;
+  animation: tagIn 0.35s cubic-bezier(0.2, 1.5, 0.4, 1) both;
+}
+
+.total {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 10px 4px 2px;
+  border-top: 2px solid #2a0f2e;
+  font-weight: 800;
+  letter-spacing: 1px;
+  opacity: 0;
+  animation: rowIn 0.35s ease-out both;
+
+  b {
+    font-family: var(--font-serif);
+    font-weight: 900;
+    font-size: 26px;
+  }
+}
+
+.cta {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 300px;
+  margin-top: 12px;
+  border: none;
+  border-radius: 26px;
+  padding: 15px;
+  background: linear-gradient(135deg, #fb7185, #e11d48);
+  color: #fff;
+  font-family: var(--font-sans);
+  font-weight: 800;
+  font-size: 17px;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0 10px 26px rgba(225, 29, 72, 0.5);
+  opacity: 0;
+  animation: rise 0.4s ease-out both;
+}
+
+/* Tờ giấy được đẩy từ dưới màn hình lên, vọt nhẹ qua rồi nằm yên. */
+@keyframes slideUp {
+  0% { transform: translateY(900px) rotate(3deg); }
+  70% { transform: translateY(-14px) rotate(-0.8deg); }
+  100% { transform: translateY(0) rotate(0); }
+}
+
+@keyframes glowBurst {
+  0% { opacity: 0; transform: scale(0.4); }
+  45% { opacity: 1; transform: scale(1.05); }
+  100% { opacity: 0.45; transform: scale(1); }
+}
+
+@keyframes shineSweep {
+  0% { opacity: 0; left: -60%; }
+  15% { opacity: 1; }
+  100% { opacity: 0; left: 130%; }
+}
+
+@keyframes rowIn {
+  from { opacity: 0; transform: translateX(-12px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes drawIn {
+  from { opacity: 0; transform: scale(1.15); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes tagIn {
+  from { opacity: 0; transform: rotate(-3deg) scale(0.5); }
+  to { opacity: 1; transform: rotate(-3deg) scale(1); }
+}
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}

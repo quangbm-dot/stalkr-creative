@@ -1,0 +1,135 @@
+.root {
+  position: absolute;
+  inset: 0;
+  z-index: 60;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  perspective: 900px;
+}
+
+.card {
+  position: relative;
+  width: 168px;
+  aspect-ratio: 3 / 4;
+  margin-top: 40px;
+  opacity: 0;
+  perspective: 800px; /* để rotateY của .inner có chiều sâu thật */
+  /* bóng đặt ở .card, KHÔNG đặt ở .inner: filter trên phần tử preserve-3d sẽ ép phẳng và hỏng backface-visibility */
+  filter: drop-shadow(0 16px 30px rgba(0, 0, 0, 0.5));
+}
+
+/* 2 mặt thẻ: mặt trước (blur + khoá) và mặt sau (rõ nét + tên) — lật bằng rotateY */
+.inner {
+  position: absolute;
+  inset: 0;
+  transform-style: preserve-3d;
+  transition: transform 0.75s cubic-bezier(0.45, 0.05, 0.25, 1);
+}
+
+.flipped {
+  transform: rotateY(180deg);
+}
+
+.face {
+  position: absolute;
+  inset: 0;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 3px solid #fff;
+  background: #2a1236;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+}
+
+.back {
+  transform: rotateY(180deg);
+  border-color: #ff7aa2;
+}
+
+.lock {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.5));
+}
+
+.name {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 26px 8px 10px;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+  color: #fff;
+  font-family: var(--font-serif);
+  font-weight: 900;
+  font-size: 22px;
+  text-align: center;
+}
+
+/* ổ khoá: rung → bật mở (🔓 nảy lên) */
+.shake {
+  animation: lockShake 0.28s ease-in-out;
+}
+
+.opened {
+  animation: lockOpen 0.4s cubic-bezier(0.2, 1.6, 0.4, 1) forwards;
+}
+
+.ring {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 60px;
+  height: 60px;
+  margin: -30px 0 0 -30px;
+  border-radius: 50%;
+  border: 3px solid rgba(255, 255, 255, 0.9);
+  animation: ringOut 0.5s ease-out forwards;
+}
+
+@keyframes lockShake {
+  0%, 100% { transform: translate(-50%, -50%) rotate(0deg); }
+  20% { transform: translate(-50%, -50%) rotate(-14deg); }
+  40% { transform: translate(-50%, -50%) rotate(12deg); }
+  60% { transform: translate(-50%, -50%) rotate(-9deg); }
+  80% { transform: translate(-50%, -50%) rotate(6deg); }
+}
+
+@keyframes lockOpen {
+  0% { transform: translate(-50%, -50%) scale(0.7); }
+  60% { transform: translate(-50%, -62%) scale(1.45); }
+  100% { transform: translate(-50%, -50%) scale(1.15); }
+}
+
+@keyframes ringOut {
+  from { opacity: 0.9; transform: scale(0.5); }
+  to { opacity: 0; transform: scale(2.4); }
+}
+
+/* vòng sáng lóe lên khi thẻ lật tới mặt sau */
+.flash {
+  position: absolute;
+  inset: -6px;
+  border-radius: 22px;
+  border: 3px solid rgba(255, 190, 215, 0.95);
+  box-shadow: 0 0 28px 6px rgba(255, 122, 162, 0.7);
+  opacity: 0;
+  animation: flash 0.7s ease-out forwards;
+}
+
+@keyframes flash {
+  0% { opacity: 0.95; transform: scale(0.96); }
+  100% { opacity: 0; transform: scale(1.18); }
+}

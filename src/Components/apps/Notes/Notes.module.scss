@@ -92,3 +92,75 @@
   color: #333;
   margin: 0;
 }
+
+.padWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 24px;
+}
+
+.padTitle {
+  margin: 0 0 4px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.padHint {
+  margin: 0 0 18px;
+  color: #8e8e93;
+  font-size: 14px;
+}
+
+.dots {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 26px;
+}
+
+.dot,
+.dotFilled {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 1.5px solid #2a0f2e;
+}
+
+.dotFilled {
+  background: #2a0f2e;
+}
+
+.keys {
+  display: grid;
+  grid-template-columns: repeat(3, 72px);
+  gap: 14px;
+}
+
+.key {
+  height: 72px;
+  border: none;
+  border-radius: 50%;
+  background: #f3dfe9;
+  color: #2a0f2e;
+  font-size: 26px;
+  font-weight: 600;
+  cursor: pointer;
+
+  &:disabled {
+    background: none;
+  }
+
+  &:active {
+    background: #e8bfd2;
+  }
+}
+
+.nudge {
+  animation: padNudge 0.4s;
+}
+
+@keyframes padNudge {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-8px); }
+  75% { transform: translateX(8px); }
+}

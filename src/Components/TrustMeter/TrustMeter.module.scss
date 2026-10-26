@@ -1,0 +1,228 @@
+.wrap {
+  padding: 0 16px 8px;
+  font-family: var(--font-sans);
+}
+
+.labelRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 9px;
+}
+
+.label {
+  color: rgba(255, 255, 255, 0.85);
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+}
+
+.barRow {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.pct {
+  flex: 0 0 62px;
+  text-align: right;
+  font-family: var(--font-serif);
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+
+.track {
+  position: relative;
+  flex: 1 1 auto;
+  height: 12px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.14);
+}
+
+.clip {
+  height: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.fill {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  will-change: transform;
+
+  // sọc chéo chảy liên tục về phía đầu thanh (như chất lỏng đang chảy)
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -28px;
+    right: 0;
+    background-image: linear-gradient(115deg, rgba(255, 255, 255, 0.1) 25%, transparent 25% 50%, rgba(255, 255, 255, 0.1) 50% 75%, transparent 75%);
+    background-size: 28px 28px;
+    animation: flow 2.4s linear infinite;
+  }
+
+  // vệt sáng bóng quét dọc thanh + viền sáng trên
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0) 60%);
+  }
+}
+
+@keyframes flow {
+  from { transform: translateX(0); }
+  to { transform: translateX(28px); }
+}
+
+
+
+/* lớp phủ cùng bề ngang thanh, dịch bằng transform (JS) — chứa quả cầu lửa ở mép phải */
+.mover {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  will-change: transform;
+}
+
+.good { color: #4ade80; }
+.warn { color: #fbbf24; }
+.bad { color: #ff4d6d; }
+.fill.good { background: linear-gradient(90deg, #16a34a, #4ade80); }
+.fill.warn { background: linear-gradient(90deg, #ea580c, #fbbf24); }
+.fill.bad { background: linear-gradient(90deg, #be123c, #ff4d6d); }
+
+/* ---- quả cầu lửa tròn ở đầu thanh: nằm gọn quanh chiều cao thanh, không mọc cao hơn ---- */
+.fire {
+  position: absolute;
+  top: 6px; // tâm thanh
+  right: 0; // mép phải của .mover = đầu thanh
+  width: 0;
+  height: 0;
+  pointer-events: none;
+  --s: 1; // hệ số kích thước theo mức trust
+
+  // quầng sáng cam toả đều quanh quả cầu
+  &::before {
+    content: "";
+    position: absolute;
+    left: -17px;
+    top: -17px;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: radial-gradient(closest-side, rgba(255, 150, 40, 0.38), rgba(255, 70, 20, 0.1) 65%, transparent);
+    transform: scale(var(--s));
+    animation: glow 0.8s ease-in-out infinite alternate;
+  }
+
+  i {
+    position: absolute;
+    border-radius: 50%;
+  }
+
+  // quả cầu chính
+  i:nth-child(1) {
+    left: calc(-8px * var(--s));
+    top: calc(-8px * var(--s));
+    width: calc(16px * var(--s));
+    height: calc(16px * var(--s));
+    background: radial-gradient(circle at 42% 38%, #fff7c2 0%, #ffd23f 30%, #ff8a1f 62%, #ff3d12 100%);
+    box-shadow: 0 0 5px 1px rgba(255, 120, 20, 0.55);
+    animation: pulse 0.6s ease-in-out infinite alternate;
+  }
+
+  // lõi nóng sáng trắng
+  i:nth-child(2) {
+    left: calc(-4px * var(--s));
+    top: calc(-4px * var(--s));
+    width: calc(8px * var(--s));
+    height: calc(8px * var(--s));
+    background: radial-gradient(circle, #ffffff 0%, #fff3a8 70%, rgba(255, 243, 168, 0) 100%);
+    animation: pulse 0.45s ease-in-out infinite alternate-reverse;
+  }
+
+  // tàn lửa nhỏ lăn theo sau, nằm trong chiều cao thanh
+  i:nth-child(3),
+  i:nth-child(4),
+  i:nth-child(5) {
+    width: 5px;
+    height: 5px;
+    top: -2.5px;
+    background: #ffb02e;
+    box-shadow: 0 0 5px 1px rgba(255, 140, 30, 0.9);
+    animation: ember 1.4s linear infinite; opacity: 0.7;
+  }
+  i:nth-child(3) { left: -16px; animation-delay: -0.1s; }
+  i:nth-child(4) { display: none; }
+  i:nth-child(5) { display: none; }
+}
+
+.fire_good { --s: 1; }
+.fire_warn { --s: 1.04; }
+.fire_bad { --s: 1.1; }
+
+@keyframes pulse {
+  from { transform: scale(0.92); filter: brightness(1); }
+  to { transform: scale(1.08); filter: brightness(1.15); }
+}
+
+@keyframes ember {
+  0% { transform: translateX(0) scale(1); opacity: 0.95; }
+  100% { transform: translateX(-26px) scale(0.2); opacity: 0; }
+}
+
+@keyframes glow {
+  from { opacity: 0.65; }
+  to { opacity: 1; }
+}
+
+.reaction {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.avatar {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1.5px solid rgba(255, 255, 255, 0.7);
+}
+
+.bubble {
+  padding: 3px 10px;
+  border-radius: 12px 12px 12px 3px;
+  background: rgba(255, 255, 255, 0.92);
+  color: #2a0f2e;
+  font-size: 11px;
+  font-weight: 600;
+  animation: pop 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@keyframes pop {
+  from { opacity: 0; transform: translateY(4px) scale(0.96); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.shake {
+  animation: shake 0.55s;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-5px); }
+  40% { transform: translateX(5px); }
+  60% { transform: translateX(-3px); }
+  80% { transform: translateX(3px); }
+}

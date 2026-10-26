@@ -26,7 +26,7 @@
   gap: 6px;
   padding: 24px 28px 130px;
   text-align: center;
-  background: radial-gradient(120% 90% at 50% 30%, var(--grad-2) 0%, var(--grad-1) 55%, #060d18 100%);
+  background: radial-gradient(120% 90% at 50% 30%, var(--grad-2) 0%, var(--grad-1) 55%, #14061c 100%);
   animation: teaserIn 0.5s ease-out;
 }
 
@@ -112,7 +112,7 @@
   padding: 6px 6px 0;
   /* Chừa đúng chiều cao dải StatusBar+TopBar (.aboveBar, 96px) đè phía
      trên — xem PhoneFrame.module.scss. */
-  padding-top: 104px;
+  padding-top: 164px;
   overflow-y: auto;
 }
 
@@ -151,7 +151,7 @@
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 190px;
+  bottom: 214px; /* v13: nhích lên để không bị dock + thanh câu hỏi che — thấy được chấm trang */
   z-index: 20;
   display: flex;
   justify-content: center;

@@ -1,18 +1,21 @@
 import { useEffect, useRef, useState } from "react";
 import type { AppKey } from "./types/case";
-import type { CaseConfig } from "./types/case";
+import type { CaseConfig, VictimRef } from "./types/case";
+import VictimReveal from "./Components/VictimReveal/VictimReveal";
 import PhoneFrame from "./Components/PhoneFrame/PhoneFrame";
 import HomeScreen from "./Components/PhoneFrame/HomeScreen";
 import CaseIntro from "./Components/CaseIntro/CaseIntro";
 import Intro from "./Components/Intro/Intro";
+import ScamIntro from "./Components/ScamIntro/ScamIntro";
 import TopBar from "./Components/TopBar/TopBar";
 import EvidenceChat from "./Components/EvidenceChat/EvidenceChat";
 import EndCard from "./Components/EndCard/EndCard";
+import Ledger from "./Components/Ledger/Ledger";
 import DevBar from "./Components/DevBar/DevBar";
 import { renderApp } from "./Components/apps/registry";
 import { trackPlayableEvent } from "./services/AdController";
 
-type Stage = "caseIntro" | "intro" | "phone" | "end";
+type Stage = "caseIntro" | "intro" | "phone" | "ledger" | "end";
 
 const HAND_DELAY_MS = 2000; // chỉ vào icon app / nút / thanh chat
 const HAND_DELAY_IN_APP_MS = 3500; // chỉ vào dòng lộ đáp án bên trong mini app (lâu hơn để người chơi tự tìm)
@@ -37,6 +40,21 @@ function App({ caseData }: { caseData: CaseConfig }) {
     setRowFound(false);
     setStepIdx(0);
   }, [evidenceFound]);
+  // v13: sau mỗi câu đúng, cô gái của câu đó hiện ra rồi bay vào khay trên TopBar.
+  const [collected, setCollected] = useState<VictimRef[]>([]);
+  const [revealing, setRevealing] = useState<VictimRef | null>(null);
+  const prevFound = useRef(1);
+  useEffect(() => {
+    if (evidenceFound > prevFound.current) {
+      const v = caseData.evidenceRounds[evidenceFound - 2]?.victim;
+      if (v) {
+        const t = setTimeout(() => setRevealing(v), 250);
+        prevFound.current = evidenceFound;
+        return () => clearTimeout(t);
+      }
+    }
+    prevFound.current = evidenceFound;
+  }, [evidenceFound, caseData]);
   const [homePage, setHomePage] = useState(0);
   // Bắt đầu thu gọn, đợi 0.4s sau khi vào màn phone mới bung popup lên —
   // tránh việc render đồng thời wallpaper + popup + TopBar gây giật lag.
@@ -121,18 +139,23 @@ function App({ caseData }: { caseData: CaseConfig }) {
 
   return (
     <>
-    <DevBar onSkipEnd={() => setStage("end")} />
+    <DevBar
+      onSkipEnd={() => setStage("end")}
+      onWin={() => {
+        // Test: coi như đã giải xong mọi câu — thu thập đủ các cô gái rồi vào luồng kết thúc thật.
+        setRevealing(null);
+        setCollected(caseData.evidenceRounds.map((r) => r.victim).filter((v): v is VictimRef => !!v));
+        setOpenApp(null);
+        setStage(caseData.ledger ? "ledger" : "end");
+      }}
+    />
     <div style={{ display: "contents" }} data-hand={activeHand} data-hand-visible={handVisible}>
     <PhoneFrame
       showBelowBar={stage === "phone" && !chatExpanded}
-      statusBarDark={stage !== "intro"}
+      statusBarDark={stage !== "intro" || !!caseData.scamIntro}
       aboveBar={
         stage === "phone" ? (
-          <TopBar
-            ownerFirst={caseData.owner.first}
-            current={evidenceFound}
-            total={caseData.evidenceTotal}
-          />
+          <TopBar caseData={caseData} current={evidenceFound} total={caseData.evidenceTotal} collected={collected} />
         ) : undefined
       }
     >
@@ -144,7 +167,12 @@ function App({ caseData }: { caseData: CaseConfig }) {
         />
       )}
 
-      {stage === "intro" && <Intro caseData={caseData} onDone={() => setStage("phone")} />}
+      {stage === "intro" &&
+        (caseData.scamIntro ? (
+          <ScamIntro caseData={caseData} onDone={() => setStage("phone")} />
+        ) : (
+          <Intro caseData={caseData} onDone={() => setStage("phone")} />
+        ))}
 
       {stage === "phone" && !openApp && (
         <HomeScreen
@@ -169,11 +197,27 @@ function App({ caseData }: { caseData: CaseConfig }) {
         <EvidenceChat
           caseData={caseData}
           onEvidenceFound={() => setEvidenceFound((n) => n + 1)}
-          onAllSolved={() => setStage("end")}
+          onAllSolved={() => setStage(caseData.ledger ? "ledger" : "end")}
           expanded={chatExpanded}
           onExpandedChange={setChatExpanded}
           unlocked={unlocked}
         />
+      )}
+
+      {stage === "phone" && revealing && (
+        <VictimReveal
+          key={revealing.name}
+          victim={revealing}
+          slotIndex={collected.length}
+          onFlown={() => {
+            setCollected((c) => [...c, revealing]);
+            setRevealing(null);
+          }}
+        />
+      )}
+
+      {(stage === "ledger" || stage === "end") && caseData.ledger && (
+        <Ledger caseData={caseData} settled={stage === "end"} onDone={() => setStage("end")} />
       )}
 
       {stage === "end" && <EndCard caseData={caseData} />}

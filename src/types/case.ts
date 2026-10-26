@@ -66,6 +66,10 @@ export interface MessageThread {
 export interface NoteEntry {
   title: string;
   body: string;
+  /** v13: ghi chú khoá bằng mã PIN — phải nhập đúng `lock` mới đọc được nội dung. */
+  lock?: string;
+  /** Gợi ý hiện dưới bàn phím PIN, vd "Her birthday". */
+  lockHint?: string;
 }
 
 export interface CalendarEvent {
@@ -110,6 +114,11 @@ export interface PhotoEntry {
   src: string;
   /** true = chỉ hiện sau khi mở khoá vault bằng vaultCode */
   secret?: boolean;
+  /** v13: id để trỏ manh mối (hintTargetId) vào đúng ảnh này. */
+  id?: string;
+  /** v13: chạm ảnh để xem to — khung thông tin hiện địa điểm (`caption`) + ngày (`date`), như iOS Photos. */
+  caption?: string;
+  date?: string;
 }
 
 export interface MatchCard {
@@ -155,7 +164,15 @@ export interface MapLocation {
   subtitle?: string;
 }
 
+/** v13: cô gái hiện ra (blur → rõ nét) rồi bay vào khay thu thập mỗi khi trả lời đúng 1 câu. */
+export interface VictimRef {
+  name: string;
+  avatar: string;
+  blurAvatar?: string;
+}
+
 export interface EvidenceRound {
+  victim?: VictimRef;
   informant: { name: string; avatar: string };
   prompt: string;
   choices: string[];
@@ -230,9 +247,39 @@ export interface CaseConfig {
   /** "Hôm nay" trong câu chuyện (ISO) — lịch mở đúng tháng này thay vì
    *  tháng thật của máy người chơi. */
   now?: string;
+  /** v13: intro hook thị giác (thay cho đoạn chat) — ảnh chủ máy + nạn nhân bị làm mờ + 1 bong bóng + CTA. */
+  scamIntro?: { headline: string; sub: string; bubble: string; cta: string };
+  /** v13: người dùng tin tưởng (client) — thanh "Trust" ở TopBar tụt theo số câu đã giải. */
+  trust?: { label: string; clientReactions: { min: number; text: string }[] };
+  /** v13: tờ giấy thanh toán mở khoá sau khi tìm đủ các cô gái — liệt kê tiền Daniel lấy từ từng người, dòng của Chloe nổi bật. */
+  ledger?: {
+    heading: string;
+    subheading: string;
+    rows: {
+      name: string;
+      avatar: string;
+      /** món đã mua bằng tiền của cô này (vd "Designer handbag") */
+      item: string;
+      /** ảnh món đồ; không có thì dùng itemEmoji */
+      itemImage?: string;
+      itemEmoji?: string;
+      amount: string;
+      note: string;
+      highlight?: boolean;
+    }[];
+    totalLabel: string;
+    total: string;
+    highlightTag: string;
+    cta: string;
+  };
   endCard: {
     headline: string;
     subhead: string;
     ctaLabel: string;
+    /** v13: danh sách nạn nhân hiện ở EndCard — người đầu tiên rõ nét, còn lại bị làm mờ. */
+    victims?: { name: string; avatar: string; /** ảnh đã làm mờ sẵn (không dùng CSS blur → không bao giờ chớp nét) */ blurAvatar?: string; line: string }[];
+    victimsLockText?: string;
+    /** v13: thẻ "ending bị khoá" — ảnh mờ chủ máy + 🔒 + câu hỏi cliffhanger. */
+    teaser?: { blurImage: string; title: string; text: string };
   };
 }

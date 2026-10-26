@@ -1,0 +1,65 @@
+.tray {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.slots {
+  display: flex;
+  gap: 4px;
+}
+
+.slot {
+  position: relative;
+  display: block;
+  width: 17px;
+  height: 22px;
+  border-radius: 5px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px dashed rgba(255, 255, 255, 0.35);
+  box-sizing: border-box;
+
+  b {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 10px;
+    font-weight: 700;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+}
+
+.filled {
+  border: 1.5px solid #ff7aa2;
+  animation: slotPop 0.4s cubic-bezier(0.2, 1.4, 0.4, 1);
+}
+
+.count {
+  min-width: 26px;
+  color: #fff;
+  font-family: var(--font-sans);
+  font-weight: 800;
+  font-size: 13px;
+  text-align: right;
+  animation: bump 0.4s cubic-bezier(0.2, 1.4, 0.4, 1);
+}
+
+@keyframes slotPop {
+  from { transform: scale(0.4); }
+  to { transform: scale(1); }
+}
+
+@keyframes bump {
+  from { transform: scale(1.5); color: #ff7aa2; }
+  to { transform: scale(1); color: #fff; }
+}

@@ -6,15 +6,19 @@ import styles from "./Photos.module.scss";
 interface PhotosProps {
   caseData: CaseConfig;
   onBack: () => void;
+  /** id ảnh chứa manh mối (PhotoEntry.id) — thumbnail đó sáng lên; chạm vào để xem to thì báo tìm thấy. */
+  hintTargetId?: string;
+  onFoundClue?: () => void;
 }
 
-export default function Photos({ caseData, onBack }: PhotosProps) {
+export default function Photos({ caseData, onBack, hintTargetId, onFoundClue }: PhotosProps) {
   const [unlocked, setUnlocked] = useState(false);
   const [pin, setPin] = useState("");
   const [showVaultPad, setShowVaultPad] = useState(false);
   const [shake, setShake] = useState(false);
+  // v13: ảnh đang xem to (index trong caseData.photos)
+  const [viewIndex, setViewIndex] = useState<number | null>(null);
 
-  const visiblePhotos = caseData.photos.filter((p) => !p.secret || unlocked);
   const hasLockedSecrets = caseData.photos.some((p) => p.secret) && !unlocked;
 
   const pressDigit = (d: string) => {
@@ -42,9 +46,25 @@ export default function Photos({ caseData, onBack }: PhotosProps) {
       theme="light"
     >
       <div className={styles.grid}>
-        {visiblePhotos.map((p, i) => (
-          <img key={i} className={styles.photo} src={p.src} alt="" />
-        ))}
+        {caseData.photos.map((p, i) => {
+          if (p.secret && !unlocked) return null;
+          const isHot = hintTargetId !== undefined && p.id === hintTargetId;
+          return (
+            <button
+              key={i}
+              type="button"
+              className={`${styles.cell} ${isHot ? styles.pointCell : ""}`}
+              data-hint={isHot ? "row-clue" : undefined}
+              onClick={() => {
+                if (isHot) onFoundClue?.();
+                setViewIndex(i);
+              }}
+            >
+              <img className={styles.photo} src={p.src} alt="" />
+              {isHot && <span className={styles.pointHand}>👆</span>}
+            </button>
+          );
+        })}
         {hasLockedSecrets && (
           <button
             type="button"
@@ -78,6 +98,27 @@ export default function Photos({ caseData, onBack }: PhotosProps) {
                 </button>
               ))}
             </div>
+          </div>
+        </div>
+      )}
+      {viewIndex !== null && (
+        <div className={styles.viewer}>
+          <div className={styles.viewerTop}>
+            <button type="button" className={styles.viewerClose} onClick={() => setViewIndex(null)}>
+              ‹ Photos
+            </button>
+          </div>
+          <div className={styles.viewerImgWrap}>
+            <img className={styles.viewerImg} src={caseData.photos[viewIndex].src} alt="" />
+          </div>
+          <div className={styles.info}>
+            <div className={styles.infoDate}>{caseData.photos[viewIndex].date ?? "Recently added"}</div>
+            {caseData.photos[viewIndex].caption && (
+              <div className={styles.infoPlace}>
+                <span className={styles.infoPin}>📍</span>
+                {caseData.photos[viewIndex].caption}
+              </div>
+            )}
           </div>
         </div>
       )}

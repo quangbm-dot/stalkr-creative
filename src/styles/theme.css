@@ -45,7 +45,7 @@
  */
 :root {
   /* iOS system palette (dùng cho UI app: statusbar, list, toggle...) */
-  --ios-blue: #007aff;
+  --ios-blue: #e0457b;
   --ios-green: #34c759;
   --ios-red: #ff3b30;
   --ios-gray: #8e8e93;
@@ -58,12 +58,12 @@
   --ios-text-secondary: rgba(235, 235, 245, 0.6);
 
   /* Gradient/accent cho màn hình câu chuyện (intro, end-card) — theo màu icon app Stalkr */
-  --grad-1: #0b1f3a;
-  --grad-2: #145da0;
-  --grad-3: #2f8fe0;
-  --meta-pink: #bfe0ff;
-  --meta-pink-soft: #eaf5ff;
-  --meta-accent: #2f8fe0;
+  --grad-1: #1a0a24;
+  --grad-2: #6b1d63;
+  --grad-3: #e0457b;
+  --meta-pink: #ffc2d6;
+  --meta-pink-soft: #fff0f6;
+  --meta-accent: #e0457b;
 
   /* Typography — Bricolage Grotesque cho tiêu đề, Poppins cho nội dung */
   --font-serif: "Bricolage Grotesque", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
