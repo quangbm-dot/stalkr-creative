@@ -187,6 +187,8 @@
   z-index: 1;
   align-self: stretch;
   margin-top: auto;
+  // nâng nút lên khỏi mép dưới ~20% chiều cao canvas (852px) thay vì dính sát đáy
+  margin-bottom: 170px;
   padding-top: 20px;
   opacity: 0;
   animation: rise 0.3s ease-out both;
