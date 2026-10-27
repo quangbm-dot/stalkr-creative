@@ -5,6 +5,88 @@
   object-fit: cover;
 }
 
+/* v13: màn xem ảnh gắn với 1 điểm (xem Maps.tsx `viewing`) — cỡ vừa phải,
+   không full màn hình. */
+.photoWrap {
+  position: relative;
+  width: 220px;
+  max-width: 70%;
+  margin: 8px auto 0;
+}
+
+.photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  border-radius: 14px;
+  object-fit: cover;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+/* ghim đỏ góc ảnh — kiểu ảnh được ghim định vị trên board điều tra. */
+.pinBadge {
+  position: absolute;
+  top: -10px;
+  left: -8px;
+  font-size: 24px;
+  filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.45));
+  transform: rotate(-18deg);
+}
+
+.photoCaption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 12px 16px;
+  text-align: center;
+}
+
+.coords {
+  margin-top: 6px;
+  font-family: var(--font-sans);
+  font-size: 11px;
+  letter-spacing: 0.2px;
+  color: #8a8a8e;
+}
+
+.personLine {
+  font-size: 12.5px;
+  font-weight: 600;
+  color: #333;
+}
+
+.photoNote {
+  margin-top: 4px;
+  font-size: 13px;
+  font-style: italic;
+  color: #c2185b;
+}
+
+/* v13: thumbnail nhỏ trong danh sách — gợi ý "có ảnh ở đây, chạm để xem". */
+.thumbWrap {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.thumb {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.thumbPin {
+  position: absolute;
+  top: -7px;
+  left: -6px;
+  font-size: 15px;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.45));
+  transform: rotate(-18deg);
+}
+
 .sectionLabel {
   padding: 14px 16px 6px;
   font-family: var(--font-sans);

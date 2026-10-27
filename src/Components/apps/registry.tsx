@@ -66,8 +66,8 @@ const IMPLEMENTED_APPS: Partial<Record<AppKey, (props: AppComponentProps) => Rea
   maps: Maps,
 };
 
-export function renderApp(app: AppKey, label: string, props: AppComponentProps) {
+export function renderApp(app: AppKey, label: string, props: AppComponentProps, key?: string) {
   const Component = IMPLEMENTED_APPS[app];
-  if (Component) return <Component {...props} />;
-  return <Decoy title={label} onBack={props.onBack} />;
+  if (Component) return <Component key={key} {...props} />;
+  return <Decoy key={key} title={label} onBack={props.onBack} />;
 }

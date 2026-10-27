@@ -66,65 +66,64 @@ const QUESTIONS: {
   reply: string;
 }[] = [
   {
-    prompt: "Daniel tracks every woman. Where is Sophie right now?",
+    prompt: "Hi, I'm Chloe — his wife. Help me find these strange transactions. Wait — $3,200 on gift cards? He told me he went for a run that morning. My card says otherwise.",
     answer: "St. Mary's Hospital",
     decoys: ["Her apartment", "A shopping mall", "The airport"],
-    hint: "Open Maps — he pinned her live location.",
+    hint: "Open Maps — see where he actually was that morning.",
     hintApp: "maps",
-    target: "Sophie 🌹 — live location",
+    target: "St. Mary's Hospital",
     victim: "Sophie",
-    reply: "He's tracking a nurse's night shift… 😨",
+    reply: "He's tracking someone at a hospital?! 😨",
   },
   {
-    prompt: "A photo in his gallery shows where Jenny lives. What's her address?",
+    prompt: "The very next day, another charge went through — while he swore he was 'just grabbing coffee'. He even took a photo of it, like he was proud.",
     answer: "214 Elm Street",
     decoys: ["88 Oak Avenue", "19 Maple Court", "402 Pine Road"],
-    hint: "Open Photos and tap the house picture to see its address.",
+    hint: "Open Photos and tap the delivery picture to see the address.",
     hintApp: "photos",
     target: "jenny-house",
     victim: "Jenny",
-    reply: "He even knows her address?! 😳",
+    reply: "A delivery to some stranger's apartment?! 😳",
   },
   {
-    prompt: "Another woman, Elena, texted him. Where is she right now?",
-    answer: "Riverside Art Gallery",
-    decoys: ["A yoga studio", "Her office", "The airport"],
-    hint: "Open Messages and read Elena's last text to him.",
-    hintApp: "messages",
-    target: "Elena 🎨",
-    victim: "Elena",
-    reply: "A fifth woman?! He's juggling all of them… 😱",
-  },
-  {
-    prompt: "Rachel's note is locked. Where is she picking up her son?",
-    answer: "Maple Street Elementary",
-    decoys: ["Her office", "A supermarket", "Her mother's place"],
-    hint: "Her birthday is the PIN — check Calendar, then open the locked note.",
-    hintApp: "calendar",
-    steps: [
-      { app: "calendar", target: "Rachel's birthday 🎂" },
-      { app: "notes", target: "Rachel 💕" },
-    ],
-    victim: "Rachel",
-    reply: "Her son's school… he even knows that 😭",
-  },
-  {
-    prompt: "Anna is flying somewhere. Where will she land?",
+    prompt: "Then Monday — bigger this time. He left lunch early, phone buzzing nonstop, and right after, an email landed that wasn't about work.",
     answer: "London Heathrow",
     decoys: ["Paris Orly", "Chicago O'Hare", "Dubai"],
-    hint: "Open Mail and check her flight confirmation.",
+    hint: "Open Mail and check the shipping request — it mentions a flight.",
     hintApp: "gmail",
     victim: "Anna",
-    reply: "She's flying to meet him?! He'll ruin her too 😡",
+    reply: "He rushed a gift before someone's flight?! Who else is there?! 😱",
+  },
+  {
+    prompt: "Tuesday, he wrote something down and actually LOCKED the note. He's never done that before — not even I have the code.",
+    answer: "Maple Street Elementary",
+    decoys: ["Her office", "A supermarket", "Her mother's place"],
+    hint: "There's a birthday on the Calendar — try it as the note's PIN.",
+    hintApp: "calendar",
+    steps: [
+      { app: "calendar", target: "🎂 Don't forget" },
+      { app: "notes", target: "💕 Her" },
+    ],
+    victim: "Rachel",
+    reply: "Someone's school pickup time?! He knows that much about her 😭",
+  },
+  {
+    prompt: "And today — right before he asked me for another $5,000 — an email came in about tickets. Tickets for who, and to where?",
+    answer: "Riverside Art Gallery",
+    decoys: ["A yoga studio", "Her office", "The airport"],
+    hint: "Open Mail and check the flight-ticket confirmation.",
+    hintApp: "gmail",
+    victim: "Elena",
+    reply: "A fifth woman?! Flight tickets, tonight of all nights?! 😡",
   },
 ];
 
 const VICTIMS = [
-  { name: "Sophie", avatar: img("sophie"), blurAvatar: img("blur_sophie"), line: "Night-shift nurse", notifPreview: "Can't wait to see you after my shift 💙" },
-  { name: "Jenny", avatar: img("jenny"), blurAvatar: img("blur_jenny"), line: "College student", notifPreview: "You always know how to make me smile 😍" },
-  { name: "Elena", avatar: img("elena"), blurAvatar: img("blur_elena"), line: "Art curator", notifPreview: "Thinking about you all day 🎨" },
-  { name: "Rachel", avatar: img("rachel"), blurAvatar: img("blur_rachel"), line: "Single mom", notifPreview: "Can't stop smiling since this morning 🥹" },
-  { name: "Anna", avatar: img("anna"), blurAvatar: img("blur_anna"), line: "Executive", notifPreview: "Counting down the days until we're together ✈️" },
+  { name: "Sophie", avatar: img("sophie"), blurAvatar: img("blur_sophie"), line: "Night-shift nurse" },
+  { name: "Jenny", avatar: img("jenny"), blurAvatar: img("blur_jenny"), line: "College student" },
+  { name: "Elena", avatar: img("elena"), blurAvatar: img("blur_elena"), line: "Art curator" },
+  { name: "Rachel", avatar: img("rachel"), blurAvatar: img("blur_rachel"), line: "Single mom" },
+  { name: "Anna", avatar: img("anna"), blurAvatar: img("blur_anna"), line: "Executive" },
 ];
 
 const victimOf = (name: string) => VICTIMS.find((v) => v.name === name);
@@ -155,6 +154,8 @@ const chloeThreadMsgs: MessageThread["msgs"] = [
 ];
 
 // 4 cô còn lại: Daniel tán tỉnh + tặng quà (mua bằng tiền của Chloe), không xin tiền ai cả.
+// v13: Messages không còn là nơi lộ manh mối của ai — tên/avatar thật đều giấu (title là
+// nickname, không avatar) để 1 app này không cho thấy hết cả 5 cô cùng lúc.
 const flirtThread = (id: string, title: string, time: string, msgs: MessageThread["msgs"]): MessageThread => ({
   id,
   title,
@@ -189,13 +190,13 @@ const messages: MessageThread[] = [
       { me: false, text: "Credit Alert: USD 6,500.00 received from CHLOE T. Ref: WU-CT-7712." },
     ],
   },
-  flirtThread("t3", "Jenny ✨", "Yesterday", [
+  flirtThread("t3", "✨ Sweetheart", "Yesterday", [
     { me: true, text: "Did the roses reach your door, sweetheart? 🌹" },
     { me: false, text: "Daniel!! They're gorgeous, my roommates are jealous 😍" },
     { me: true, text: "Anything for my favorite girl. Library tonight?" },
   ]),
-  flirtThread("t12", "Elena 🎨", "Today", [
-    { me: true, text: "Counting the days until Lisbon, Elena. Flights are booked ✈️" },
+  flirtThread("t12", "🎨 Gallery girl", "Today", [
+    { me: true, text: "Counting the days until Lisbon, babe. Flights are booked ✈️" },
     { me: false, text: "I can't wait!! I'm at the Riverside Art Gallery right now, thinking of you 🎨" },
   ]),
   {
@@ -222,7 +223,7 @@ const messages: MessageThread[] = [
     unread: false,
     msgs: [{ me: false, text: "You have used 90% of your data bundle. Dial *131# to renew." }],
   },
-  flirtThread("t2", "Sophie 🌹", "Yesterday", [
+  flirtThread("t2", "🌹 Night shift", "Yesterday", [
     { me: true, text: "Check your email, darling — I sent you 8 gift cards for your shift breaks 😘" },
     { me: false, text: "You spoil me!! Night shift is almost bearable now 💙" },
     { me: true, text: "Text me when you leave St. Mary's. I worry about you." },
@@ -239,12 +240,12 @@ const messages: MessageThread[] = [
       { me: true, text: "Say the signal is bad. Always." },
     ],
   },
-  flirtThread("t5", "Anna 💫", "Mon", [
+  flirtThread("t5", "💫 Traveler", "Mon", [
     { me: true, text: "Did you like the handbag, honey? Picked it myself 💫" },
     { me: false, text: "I can't believe you remembered! I'm flying out Friday to see you ✈️" },
     { me: true, text: "Counting the hours. London will be ours." },
   ]),
-  flirtThread("t4", "Rachel 💕", "Tue", [
+  flirtThread("t4", "💕 Secret keeper", "Tue", [
     { me: true, text: "The ring is on its way, my love. Don't tell your son it's a surprise 💍" },
     { me: false, text: "Daniel... I'm speechless. He keeps asking when he'll meet you 🥹" },
     { me: true, text: "Very soon. Pick-up at 3:30 as always?" },
@@ -306,14 +307,14 @@ const config: CaseConfig = {
   ],
   calls: [],
   notes: [
-    { title: "Rachel 💕", body: "Picks up her son at 3:30 — Maple Street Elementary. Always calls after.", lock: "1204", lockHint: "Her birthday" },
+    { title: "💕 Her", body: "Rachel — picks up her son at 3:30, Maple Street Elementary. Always calls after.", lock: "1204", lockHint: "Her birthday", photo: img("together_rachel") },
     { title: "Script v3", body: "Day 1: Hi beautiful.\nDay 30: I love you.\nDay 90: Customs fee. Never more than 5k at once." },
     { title: "Profile pics — source", body: "Photos = Dr. Marcus Hale (real surgeon, Instagram).\nNever video call. Always \"bad signal\"." },
     { title: "Shopping", body: "Phone credit\nSIM cards x4" },
   ],
   calendar: [
     { title: "Call Chloe", date: "11/03", month: "2026-11", dateLabel: "Tue, Nov 3", time: "8:00 PM" },
-    { title: "Rachel's birthday 🎂", date: "12/04", month: "2026-11", dateLabel: "Fri, Dec 4", time: "All day" },
+    { title: "🎂 Don't forget", date: "12/04", month: "2026-11", dateLabel: "Fri, Dec 4", time: "All day" },
   ],
   instagram: {
     username: "dr.daniel.hayes",
@@ -336,14 +337,44 @@ const config: CaseConfig = {
       time: "Draft",
     },
     {
-      sender: "Anna K. (forwarded)",
-      subject: "Your flight confirmation",
-      preview: "Chicago O'Hare → London Heathrow · Fri 9:40 PM",
-      body: "Chicago O'Hare (ORD) → London Heathrow (LHR)\nFriday 9:40 PM · Seat 14A\nBooked by Anna K.",
+      sender: "Luxury Boutique",
+      subject: "Your rush order has shipped",
+      preview: "Rush delivery confirmed — see details",
+      body: "Your handbag order ($6,500) has been rush-shipped — gift-wrapped and arriving today, as requested.",
       time: "Mon",
     },
-    { sender: "Jewelers Row", subject: "Order confirmed — diamond ring", preview: "Ship to: Rachel M. · Total $4,800.00", time: "Tue" },
-    { sender: "Luxury Boutique", subject: "Your handbag has shipped", preview: "Ship to: Anna K. · Total $6,500.00", time: "Mon" },
+    // v13: ảnh chụp chung KHÔNG hợp lý nằm trong mail xác nhận đơn hàng của
+    // shop — phải là cô ấy tự gửi lại (mail cảm ơn), nên tách thành 1 thư riêng.
+    // Đáp án (Heathrow) cũng dời hẳn về ĐÚNG thư này — chỗ có ảnh — thay vì
+    // nằm tách rời ở mail xác nhận bên trên (người chơi mở mail có ảnh ra là
+    // thấy luôn đáp án ngay tại đó, không phải đoán mở nhầm thư).
+    {
+      // v13: sender bị che (giống kiểu "Sent to A•••" ở noti đầu game) — tên thật
+      // chỉ lộ qua thẻ VictimReveal sau khi trả lời đúng, không lộ ngay khi browse Gmail.
+      sender: "A•••",
+      subject: "Thank you!! 😍",
+      preview: "I can't stop smiling — attached my favorite pic",
+      body: "I can't stop smiling — thank you for the handbag! See you at Heathrow tonight, can't wait ✈️ Attached is my favorite photo of us together 💕 — Anna",
+      time: "Mon",
+      attachment: img("together_anna"),
+    },
+    { sender: "Jewelers Row", subject: "Order confirmed — diamond ring", preview: "Your order is being prepared", time: "Tue" },
+    {
+      sender: "SkyWings Travel",
+      subject: "Your flight tickets are confirmed",
+      preview: "2 tickets booked for today",
+      body: "2 tickets booked for today's departure. Have a safe flight!",
+      time: "Today",
+    },
+    // v13: đáp án (Riverside Art Gallery) dời về đúng thư này — chỗ có ảnh.
+    {
+      sender: "E•••",
+      subject: "Thank you ❤️",
+      preview: "You didn't have to, but I'm so glad",
+      body: "You didn't have to get the tickets, but I'm so glad you did. Meet me at Riverside Art Gallery tonight, like always 🎨 Here's my favorite photo of us together 💕 — Elena",
+      time: "Today",
+      attachment: img("together_elena"),
+    },
     { sender: "Lagos Telecom", subject: "Your SIM bundle expires", preview: "Renew your data bundle to keep chatting…", time: "Mon" },
   ],
   photos: [
@@ -351,7 +382,10 @@ const config: CaseConfig = {
     { src: img("junk_food"), date: "Mar 1", caption: "Ikeja, Lagos" },
     { src: img("insta_2"), date: "Feb 27" },
     { src: img("junk_laptop"), date: "Feb 24" },
-    { id: "jenny-house", src: img("jenny_house"), date: "Feb 22", caption: "214 Elm Street, Apt 4B · Hillview" },
+    // v13: ẢNH DUY NHẤT — vừa là manh mối địa chỉ (caption), vừa là "ảnh bằng
+    // chứng" (Daniel + Jenny trao quà ở cửa nhà) — thumbnail trong lưới nhỏ nên
+    // khó nhận ra có 2 người, chạm vào xem to mới thấy rõ.
+    { id: "jenny-house", src: img("together_jenny"), date: "Feb 22", caption: "Jenny L. — 214 Elm Street, Apt 4B · Hillview" },
     { src: img("junk_sunset"), date: "Feb 20", caption: "Lekki Beach, Lagos" },
     { src: img("insta_0"), date: "Feb 19" },
     { src: img("junk_market"), date: "Feb 15", caption: "Ikeja Market, Lagos" },
@@ -368,43 +402,57 @@ const config: CaseConfig = {
     balance: "$12,340.00",
     transactions: [
       { name: "Transfer · Chloe T.", amount: "+$6,500.00", date: "Mon", note: "\"Emergency customs fee\"" },
-      { name: "Luxury Boutique", amount: "-$6,500.00", date: "Mon", note: "Handbag · ship to Anna K." },
+      { name: "Luxury Boutique", amount: "-$6,500.00", date: "Mon", note: "Handbag · rush delivery" },
       { name: "Transfer · Chloe T.", amount: "+$4,800.00", date: "Tue" },
-      { name: "Jewelers Row", amount: "-$4,800.00", date: "Tue", note: "Ring · for Rachel M." },
+      { name: "Jewelers Row", amount: "-$4,800.00", date: "Tue", note: "Diamond ring" },
       { name: "Transfer · Chloe T.", amount: "+$3,200.00", date: "Last week" },
-      { name: "Gift Cards Online × 8", amount: "-$3,200.00", date: "Last week", note: "For Sophie B." },
+      { name: "Gift Cards Online × 8", amount: "-$3,200.00", date: "Last week" },
       { name: "Transfer · Chloe T.", amount: "+$900.00", date: "Last week" },
-      { name: "Roses & Gifts", amount: "-$900.00", date: "Last week", note: "Delivered to Jenny L." },
+      { name: "Roses & Gifts", amount: "-$900.00", date: "Last week", note: "Delivered" },
       { name: "Transfer · Chloe T.", amount: "+$4,600.00", date: "Today" },
-      { name: "Airline Tickets × 2", amount: "-$4,600.00", date: "Today", note: "For Elena V. · Lisbon" },
+      { name: "Airline Tickets × 2", amount: "-$4,600.00", date: "Today", note: "2 tickets · today" },
       { name: "Pending · Chloe T.", amount: "$5,000.00", date: "Tonight" },
     ],
   },
   maps: {
     locations: [
-      { name: "Sophie 🌹 — live location", subtitle: "St. Mary's Hospital · now" },
+      {
+        name: "St. Mary's Hospital",
+        subtitle: "Visited · this morning",
+        photo: img("together_sophie"),
+        photoCaption: "Sophie B. sent this after his visit 💙",
+        coords: "📍 40.7306° N, 73.9352° W",
+        personLine: "Night-shift nurse · St. Mary's Hospital",
+      },
       { name: "Ikeja Internet Café", subtitle: "Lagos, Nigeria · visited daily" },
       { name: "MTN Shop", subtitle: "Lagos, Nigeria" },
       { name: "Western Union", subtitle: "Ikeja, Lagos" },
     ],
-    sectionLabel: "Tracked & frequent places",
+    sectionLabel: "Recent places",
   },
   now: "2026-11-03",
   scamIntro: {
-    headline: "Last week he spent over $20,000 on strange transfers to women I don't know.",
+    // v13: giờ là đoạn Chloe TỔNG KẾT LẠI (hiện sau khung ảnh chụp chat, xem .bubble) — không còn là headline riêng.
+    headline: "So that's over $25,000 in strange payments this past week. I want to know who these 5 people are.",
     sub: "",
-    bubble: "He just asked me for $5,000 again. What is he really doing? 😰",
+    // v13: nội dung tin nhắn THẬT của Daniel — hiện trong khung "ảnh chụp màn hình chat" (nền trắng, kiểu Messenger thật), không phải lời kể của Chloe.
+    bubble: "Hey babe, I need $5,000 again. Customs fee for your gift — please, today? 🙏",
     cta: "Expose Daniel 🔍",
   },
   trust: {
     label: "Trust in Daniel",
     // Từ ngưỡng cao xuống thấp — lấy dòng đầu tiên có trust >= min.
+    // v13: khớp đúng từng mốc trust sau mỗi câu giải xong (100 → 80 → 60 → 40 → 20 → 0) —
+    // Chloe đã nghi ngờ sẵn từ đầu (không còn "yêu anh ấy lắm" — mâu thuẫn với intro mới,
+    // cô ấy đã thấy $25,000 đáng ngờ trước khi vào máy rồi). Giữ gender-neutral ("people"),
+    // vì Chloe CHƯA biết đó là phụ nữ cho tới khi tự điều tra ra.
     clientReactions: [
-      { min: 80, text: "He's so sweet, I really love him 🥰" },
-      { min: 50, text: "Wait… that's weird 😳" },
-      { min: 20, text: "Oh no… is it all fake? 😨" },
-      { min: 1, text: "Please tell me it's not true… 😭" },
-      { min: 0, text: "I can't believe it. Thank you 💔" },
+      { min: 100, text: "Something feels off... 🤔" },
+      { min: 80, text: "How dare he... 😡" },
+      { min: 60, text: "TWO people?! What did they even do? 😱" },
+      { min: 40, text: "I'm losing it... gifts for someone else now?? 😭" },
+      { min: 20, text: "Four people now... how did I not see this? 💔" },
+      { min: 0, text: "I can't believe it. Thank you for showing me. 💔" },
     ],
   },
   ledger: {

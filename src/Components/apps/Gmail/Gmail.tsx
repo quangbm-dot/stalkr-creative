@@ -23,6 +23,7 @@ export default function Gmail({ caseData, onBack }: GmailProps) {
         <h2 className={styles.detailSubject}>{entry.subject}</h2>
         {entry.time && <div className={styles.detailTime}>{entry.time}</div>}
         <p className={styles.detailBody}>{entry.body ?? entry.preview}</p>
+        {entry.attachment && <img className={styles.attachment} src={entry.attachment} alt="" />}
       </AppScreen>
     );
   }

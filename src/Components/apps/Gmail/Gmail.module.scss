@@ -103,6 +103,19 @@
   margin: -4px 0 12px;
 }
 
+/* v13: ảnh đính kèm mail — tấm "bằng chứng" gắn với câu hỏi đang tìm. Cỡ vừa
+   phải (như 1 file đính kèm thật), không full chiều ngang màn hình. */
+.attachment {
+  display: block;
+  width: 190px;
+  max-width: 60%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  margin-top: 14px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.18);
+}
+
 .tabs {
   display: flex;
   gap: 8px;

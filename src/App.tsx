@@ -40,15 +40,25 @@ function App({ caseData }: { caseData: CaseConfig }) {
     setRowFound(false);
     setStepIdx(0);
   }, [evidenceFound]);
-  // v13: sau mỗi câu đúng, cô gái của câu đó hiện ra rồi bay vào khay trên TopBar.
+  // v13: sau mỗi câu đúng — đóng popup, tự quay lại ĐÚNG app chứa manh mối của
+  // câu đó (để "ảnh bằng chứng" hiện đúng chỗ tìm ra, không phải từ hư không)
+  // — rồi mới lộ thẻ cô gái (ảnh Daniel+cô ấy) và bay vào khay trên TopBar.
+  // Mốc 600ms + ~3030ms (bên trong VictimReveal) ≈ đúng NEXT_DELAY_MS 3600ms
+  // mà EvidenceChat tự chuyển câu, nên lúc popup mở lại là vừa sang câu mới.
   const [collected, setCollected] = useState<VictimRef[]>([]);
   const [revealing, setRevealing] = useState<VictimRef | null>(null);
   const prevFound = useRef(1);
   useEffect(() => {
     if (evidenceFound > prevFound.current) {
-      const v = caseData.evidenceRounds[evidenceFound - 2]?.victim;
+      const round = caseData.evidenceRounds[evidenceFound - 2];
+      const v = round?.victim;
       if (v) {
-        const t = setTimeout(() => setRevealing(v), 250);
+        // Câu nhiều bước (vd Calendar -> Notes của Rachel): quay lại app của
+        // BƯỚC CUỐI — nơi đáp án thật sự nằm — chứ không phải app của bước đầu.
+        const steps = round.hintSteps ?? [{ app: round.hintApp }];
+        setChatExpanded(false);
+        setOpenApp(steps[steps.length - 1].app);
+        const t = setTimeout(() => setRevealing(v), 600);
         prevFound.current = evidenceFound;
         return () => clearTimeout(t);
       }
@@ -169,7 +179,10 @@ function App({ caseData }: { caseData: CaseConfig }) {
 
       {stage === "intro" &&
         (caseData.scamIntro ? (
-          <ScamIntro caseData={caseData} onDone={() => setStage("phone")} />
+          <ScamIntro
+            caseData={caseData}
+            onDone={() => setStage("phone")}
+          />
         ) : (
           <Intro caseData={caseData} onDone={() => setStage("phone")} />
         ))}
@@ -186,12 +199,20 @@ function App({ caseData }: { caseData: CaseConfig }) {
 
       {stage === "phone" &&
         openApp &&
-        renderApp(openApp, openAppLabel, {
-          caseData,
-          onBack: () => setOpenApp(null),
-          hintTargetId: isActiveHintApp ? step?.target : undefined,
-          onFoundClue: isActiveHintApp ? () => { if (lastStep) setClueFound(true); setRowFound(true); } : undefined,
-        })}
+        renderApp(
+          openApp,
+          openAppLabel,
+          {
+            caseData,
+            onBack: () => setOpenApp(null),
+            hintTargetId: isActiveHintApp ? step?.target : undefined,
+            onFoundClue: isActiveHintApp ? () => { if (lastStep) setClueFound(true); setRowFound(true); } : undefined,
+          },
+          // key đổi theo evidenceFound: lúc quay lại app để lộ ảnh (xem effect revealing
+          // bên trên) app LUÔN mount mới tinh (không giữ state cũ như "đang xem ảnh to"
+          // từ lúc tìm manh mối) — tránh đè 2 lớp ảnh chồng lên nhau.
+          `${openApp}-${evidenceFound}`,
+        )}
 
       {stage === "phone" && (
         <EvidenceChat
@@ -212,6 +233,8 @@ function App({ caseData }: { caseData: CaseConfig }) {
           onFlown={() => {
             setCollected((c) => [...c, revealing]);
             setRevealing(null);
+            setOpenApp(null);
+            setChatExpanded(true);
           }}
         />
       )}

@@ -4,10 +4,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 54px 14px 20px;
+  padding: 44px 14px 20px;
   background: #000;
   overflow: hidden;
-  cursor: pointer;
 }
 
 .wallpaper {
@@ -19,12 +18,34 @@
   transform: scale(1.1);
 }
 
+.top {
+  position: relative;
+  z-index: 1;
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-end;
+  height: 34px;
+}
+
+.download {
+  border: none;
+  border-radius: 14px;
+  padding: 6px 14px;
+  background: linear-gradient(135deg, #fb7185, #e11d48);
+  color: #fff;
+  font-weight: 700;
+  font-size: 13px;
+  cursor: pointer;
+}
+
 .clock {
   position: relative;
   z-index: 1;
+  margin-top: 10px;
   font-family: var(--font-sans);
   font-weight: 700;
   font-size: 54px;
+  line-height: 1;
   color: #fff;
   letter-spacing: -1px;
   text-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
@@ -33,7 +54,7 @@
 .date {
   position: relative;
   z-index: 1;
-  margin-top: 2px;
+  margin-top: 10px;
   font-size: 13px;
   font-weight: 600;
   color: rgba(255, 255, 255, 0.75);
@@ -59,7 +80,7 @@
   backdrop-filter: blur(10px);
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
   opacity: 0;
-  animation: drop 0.4s cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation: drop 0.46s cubic-bezier(0.34, 1.56, 0.64, 1) both;
 }
 
 .avatarWrap {
@@ -101,9 +122,14 @@
 }
 
 .sender {
+  flex: 1 1 auto;
+  min-width: 0;
   font-weight: 700;
   font-size: 13px;
   color: #111;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .time {
@@ -122,7 +148,93 @@
   text-overflow: ellipsis;
 }
 
+.amount {
+  font-weight: 800;
+  color: #e11d48;
+}
+
+.hook {
+  position: relative;
+  z-index: 1;
+  margin-top: 28px;
+  font-family: var(--font-serif);
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 1.35;
+  color: #fff;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  // 1 keyframe duy nhất: hiện lên rồi nhấp nháy — tránh ghép 2 animation cùng
+  // chỉnh opacity cùng lúc (dễ đụng nhau, có lúc chữ không hiện ra). Nút CTA
+  // hiện ngay sau (xem CTA_AFTER_MS bên .tsx), chữ vẫn nhấp nháy nền phía sau.
+  animation: hookShow 4000ms ease-in-out both;
+}
+
+@keyframes hookShow {
+  0% { opacity: 0; transform: translateY(10px); }
+  10% { opacity: 1; transform: translateY(0); }
+  32% { opacity: 1; }
+  42% { opacity: 0.35; }
+  52% { opacity: 1; }
+  72% { opacity: 1; }
+  82% { opacity: 0.35; }
+  92% { opacity: 1; }
+  100% { opacity: 1; }
+}
+
+.ctaWrap {
+  position: relative;
+  z-index: 1;
+  align-self: stretch;
+  margin-top: auto;
+  padding-top: 20px;
+  opacity: 0;
+  animation: rise 0.3s ease-out both;
+}
+
+.cta {
+  width: 100%;
+  border: none;
+  border-radius: 28px;
+  padding: 17px;
+  background: linear-gradient(135deg, #fb7185, #e11d48);
+  color: #fff;
+  font-family: var(--font-sans);
+  font-weight: 800;
+  font-size: 18px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0 10px 26px rgba(225, 29, 72, 0.5);
+  animation: ctaBounce 1.6s ease-in-out infinite;
+}
+
+.hand {
+  position: absolute;
+  right: 22px;
+  bottom: -14px;
+  font-size: 34px;
+  pointer-events: none;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
+  animation: tap 1.2s ease-in-out infinite;
+}
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes ctaBounce {
+  0%, 100% { transform: translateY(0) scale(1); }
+  50% { transform: translateY(-5px) scale(1.03); }
+}
+
+@keyframes tap {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(-6px, -8px); }
+}
+
 @keyframes drop {
-  from { opacity: 0; transform: translateY(-24px) scale(0.96); }
+  from { opacity: 0; transform: translateY(-18px) scale(0.9); }
   to { opacity: 1; transform: translateY(0) scale(1); }
 }

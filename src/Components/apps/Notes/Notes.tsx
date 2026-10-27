@@ -74,6 +74,7 @@ export default function Notes({ caseData, onBack, hintTargetId, onFoundClue }: N
       <AppScreen title="Notes" onBack={() => setOpenIndex(null)} theme="light" bodyPadding>
         <h2 className={styles.detailTitle}>{note.title}</h2>
         <p className={styles.detailBody}>{note.body}</p>
+        {note.photo && <img className={styles.detailPhoto} src={note.photo} alt="" />}
       </AppScreen>
     );
   }

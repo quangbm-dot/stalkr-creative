@@ -70,6 +70,8 @@ export interface NoteEntry {
   lock?: string;
   /** Gợi ý hiện dưới bàn phím PIN, vd "Her birthday". */
   lockHint?: string;
+  /** v13: ảnh đính kèm — hiện dưới nội dung khi mở note (sau khi đã mở khoá nếu có `lock`). */
+  photo?: string;
 }
 
 export interface CalendarEvent {
@@ -108,6 +110,8 @@ export interface GmailEntry {
   time?: string;
   /** Mặc định "inbox" */
   folder?: "inbox" | "sent";
+  /** v13: ảnh đính kèm — hiện dưới nội dung khi mở thư. */
+  attachment?: string;
 }
 
 export interface PhotoEntry {
@@ -162,6 +166,14 @@ export interface RevolutTransaction {
 export interface MapLocation {
   name: string;
   subtitle?: string;
+  /** v13: ảnh gắn với điểm này — chạm vào dòng để xem to (xem Maps.tsx). */
+  photo?: string;
+  /** v13: chú thích ngắn dưới ảnh — giải thích ảnh này từ đâu ra (vd cô ấy tự gửi lại). */
+  photoCaption?: string;
+  /** v13: toạ độ giả hiện dưới ảnh, kiểu "ghim định vị" như board điều tra. */
+  coords?: string;
+  /** v13: 1 dòng info về người trong ảnh (vd nghề nghiệp) — hiện cùng khung ảnh. */
+  personLine?: string;
 }
 
 /** v13: cô gái hiện ra (blur → rõ nét) rồi bay vào khay thu thập mỗi khi trả lời đúng 1 câu. */
@@ -277,7 +289,7 @@ export interface CaseConfig {
     subhead: string;
     ctaLabel: string;
     /** v13: danh sách nạn nhân hiện ở EndCard — người đầu tiên rõ nét, còn lại bị làm mờ. */
-    victims?: { name: string; avatar: string; /** ảnh đã làm mờ sẵn (không dùng CSS blur → không bao giờ chớp nét) */ blurAvatar?: string; line: string; /** v13: câu preview hiện trong banner noti khoá màn (NotifStack) — không được lộ đáp án câu hỏi của cô này. */ notifPreview?: string }[];
+    victims?: { name: string; avatar: string; /** ảnh đã làm mờ sẵn (không dùng CSS blur → không bao giờ chớp nét) */ blurAvatar?: string; line: string }[];
     victimsLockText?: string;
     /** v13: thẻ "ending bị khoá" — ảnh mờ chủ máy + 🔒 + câu hỏi cliffhanger. */
     teaser?: { blurImage: string; title: string; text: string };

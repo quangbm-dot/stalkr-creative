@@ -1,143 +1,28 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect } from "react";
 import type { CaseConfig } from "../../types/case";
-import TrustMeter from "../TrustMeter/TrustMeter";
 import NotifStack from "./NotifStack";
-import openLinkApp from "../../services/AdController";
-import styles from "./ScamIntro.module.scss";
 
 interface ScamIntroProps {
   caseData: CaseConfig;
   onDone: () => void;
 }
 
-// Mỗi thẻ có chỗ riêng (tự do, hơi lộn xộn như ảnh ghim lên bảng) thay vì hàng/quạt đều tăm tắp.
-const SPOTS: { left: number; top: number; w: number; rot: number }[] = [
-  { left: 0, top: 40, w: 80, rot: -8 },
-  { left: 20, top: 0, w: 84, rot: 5 },
-  { left: 41, top: 62, w: 92, rot: -3 },
-  { left: 62, top: 0, w: 84, rot: 7 },
-  { left: 79, top: 64, w: 76, rot: -6 },
-];
-
-// Nhịp intro nhanh: 5 thẻ rơi gần như liền nhau, thanh chạy ngắn, chữ + CTA hiện ngay sau đó (~2.5s tổng).
-const CARD_START_MS = 120;
-const CARD_STEP_MS = 100;
-const CARD_ANIM_MS = 350;
-const METER_AFTER_MS = 150; // sau thẻ cuối
-const FILL_MS = 1000;
-const AUTO_START_MS = 4000; // tính từ lúc nút "Expose Daniel" hiện ra: không bấm thì sau 4s vẫn tự vào màn chơi
-const TEXT_GAP_MS = 50; // từ lúc thanh chạy xong tới khi chữ hiện
-const CTA_OFFSET_MS = 0; // chữ, tin nhắn của Chloe và nút hiện CÙNG 1 LÚC
-const RISE_MS = 300; // thời lượng animation hiện nút
-
 /**
- * v13 intro: không còn đoạn chat dẫn chuyện — mở thẳng bằng cú hook thị giác:
- * ảnh Daniel → từng thẻ cô gái (ảnh blur có sẵn, không bao giờ hiện nét) rơi
- * vào các vị trí tự do → thanh Trust chạy 0 → 100% kèm ngọn lửa → câu chốt +
- * bong bóng của Chloe + nút "Expose Daniel".
+ * v13 intro: chỉ còn 1 màn duy nhất (NotifStack) — điện thoại khoá, lịch sử
+ * 5 giao dịch lạ 1 tuần qua đổ xuống, rồi nút "Expose Daniel" ngay trên màn
+ * đó luôn (không còn màn ảnh Daniel/chat riêng phía sau nữa). Câu hỏi #1 tự
+ * giới thiệu Chloe luôn trong prompt của nó (xem case data).
  */
 export default function ScamIntro({ caseData, onDone }: ScamIntroProps) {
-  const intro = caseData.scamIntro;
-  const victims = caseData.endCard.victims ?? [];
+  const hasNotifs = (caseData.ledger?.rows ?? []).some((r) => !r.highlight);
 
-  // Màn 1: điện thoại còn khoá, 5 noti tin nhắn (1/cô) đổ xuống trước — chỉ
-  // sang màn 2 (board/trust-meter hiện tại) sau khi màn noti báo xong.
-  const [phase, setPhase] = useState<"notifs" | "board">(victims.length > 0 ? "notifs" : "board");
-  const lastCardAt = CARD_START_MS + CARD_STEP_MS * Math.max(victims.length - 1, 0);
-  const meterAt = lastCardAt + CARD_ANIM_MS + METER_AFTER_MS;
-  const tail = meterAt + 100 + FILL_MS + TEXT_GAP_MS; // chữ + CTA hiện sau khi thanh đã chạy xong hẳn
-  const ctaShownAt = tail + CTA_OFFSET_MS + RISE_MS;
-
-  // Tự vào màn chơi AUTO_START_MS sau khi nút Expose hiện ra nếu chưa ai bấm (App unmount intro khi chuyển stage nên timer tự dọn).
-  // Mọi mốc thời gian trên tính từ lúc board hiện ra, nên 2 timer dưới đây chỉ
-  // chạy khi đã sang phase "board" (không tính luôn từ lúc noti đang đổ xuống).
-  const onDoneRef = useRef(onDone);
-  onDoneRef.current = onDone;
+  // Case không có ledger (không dùng cơ chế romance-scam) thì chẳng còn gì để
+  // hiện ở đây nữa — bỏ qua thẳng.
   useEffect(() => {
-    if (phase !== "board") return;
-    const t = setTimeout(() => onDoneRef.current(), ctaShownAt + AUTO_START_MS);
-    return () => clearTimeout(t);
+    if (!hasNotifs) onDone();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [phase]);
+  }, [hasNotifs]);
 
-  // Thanh bắt đầu ở 0, tới đúng lúc thì mới được set 100 để chạy.
-  const [filled, setFilled] = useState(false);
-  useEffect(() => {
-    if (phase !== "board") return;
-    const t = setTimeout(() => setFilled(true), meterAt + 100);
-    return () => clearTimeout(t);
-  }, [phase, meterAt]);
-
-  if (!intro) return null;
-  const after = (ms: number) => ({ animationDelay: `${ms}ms` });
-
-  if (phase === "notifs") {
-    return <NotifStack caseData={caseData} onDone={() => setPhase("board")} />;
-  }
-
-  return (
-    <div className={styles.stage}>
-      <div className={styles.top}>
-        <button type="button" className={styles.download} onClick={openLinkApp}>
-          ⬇ Download
-        </button>
-      </div>
-
-      <div className={styles.daniel}>
-        <img src={caseData.owner.avatar} alt="" />
-        <span className={styles.verified}>✔ Verified doctor</span>
-      </div>
-
-      <div className={styles.board}>
-        {victims.map((v, i) => {
-          const s = SPOTS[i % SPOTS.length];
-          return (
-            <div
-              key={v.name}
-              className={styles.card}
-              style={{
-                left: `${s.left}%`,
-                top: s.top,
-                width: s.w,
-                ["--r" as string]: `${s.rot}deg`,
-                ...after(CARD_START_MS + i * CARD_STEP_MS),
-              }}
-            >
-              <img src={v.blurAvatar ?? v.avatar} alt="" />
-              <span className={styles.lock}>🔒</span>
-            </div>
-          );
-        })}
-      </div>
-
-      {caseData.trust && (
-        <div className={styles.meter} style={after(meterAt)}>
-          <TrustMeter
-            value={filled ? 100 : 0}
-            from={0}
-            durationMs={FILL_MS}
-            hideReaction
-            label={caseData.trust.label}
-            avatar={caseData.client.avatar}
-            reaction=""
-          />
-        </div>
-      )}
-
-      <h1 className={styles.headline} style={after(tail)}>{intro.headline}</h1>
-      {intro.sub && <p className={styles.sub} style={after(tail)}>{intro.sub}</p>}
-
-      <div className={styles.bubbleRow} style={after(tail)}>
-        <img className={styles.bubbleAvatar} src={caseData.client.avatar} alt="" />
-        <div className={styles.bubble}>{intro.bubble}</div>
-      </div>
-
-      <div className={styles.ctaWrap} style={after(tail + CTA_OFFSET_MS)}>
-        <button type="button" className={styles.cta} onClick={onDone}>
-          {intro.cta}
-        </button>
-        <span className={styles.hand}>👆</span>
-      </div>
-    </div>
-  );
+  if (!hasNotifs) return null;
+  return <NotifStack caseData={caseData} onDone={onDone} />;
 }
