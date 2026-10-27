@@ -11,15 +11,29 @@ interface PhotosProps {
   onFoundClue?: () => void;
 }
 
+// Vault đã mở thì giữ mở suốt phiên chơi — biến module-level (không phải
+// useState) vì component này UNMOUNT mỗi lần rời app rồi quay lại (đổi
+// `openApp` ở App.tsx), bắt nhập lại PIN mỗi lần là bug, không phải chủ ý.
+let vaultUnlockedThisSession = false;
+
 export default function Photos({ caseData, onBack, hintTargetId, onFoundClue }: PhotosProps) {
-  const [unlocked, setUnlocked] = useState(false);
+  const [unlocked, setUnlockedState] = useState(vaultUnlockedThisSession);
+  const setUnlocked = (v: boolean) => {
+    vaultUnlockedThisSession = v;
+    setUnlockedState(v);
+  };
   const [pin, setPin] = useState("");
   const [showVaultPad, setShowVaultPad] = useState(false);
   const [shake, setShake] = useState(false);
-  // v13: ảnh đang xem to (index trong caseData.photos)
+  // v13: "grid" = lưới ảnh thường; "hidden" = đang xem bên trong album Hidden.
+  const [view, setView] = useState<"grid" | "hidden">("grid");
+  // v13: ảnh đang xem to — index trong danh sách đang hiện (regularPhotos hoặc secretPhotos).
   const [viewIndex, setViewIndex] = useState<number | null>(null);
 
-  const hasLockedSecrets = caseData.photos.some((p) => p.secret) && !unlocked;
+  const regularPhotos = caseData.photos.filter((p) => !p.secret);
+  const secretPhotos = caseData.photos.filter((p) => p.secret);
+  const hasSecrets = secretPhotos.length > 0;
+  const active = view === "hidden" ? secretPhotos : regularPhotos;
 
   const pressDigit = (d: string) => {
     const next = (pin + d).slice(0, caseData.vaultCode.length);
@@ -29,6 +43,7 @@ export default function Photos({ caseData, onBack, hintTargetId, onFoundClue }: 
         setUnlocked(true);
         setShowVaultPad(false);
         setPin("");
+        setView("hidden");
       } else {
         setShake(true);
         setTimeout(() => {
@@ -41,13 +56,12 @@ export default function Photos({ caseData, onBack, hintTargetId, onFoundClue }: 
 
   return (
     <AppScreen
-      title="Photos"
-      onBack={showVaultPad ? () => setShowVaultPad(false) : onBack}
+      title={view === "hidden" ? "Hidden" : "Photos"}
+      onBack={showVaultPad ? () => setShowVaultPad(false) : view === "hidden" ? () => setView("grid") : onBack}
       theme="light"
     >
       <div className={styles.grid}>
-        {caseData.photos.map((p, i) => {
-          if (p.secret && !unlocked) return null;
+        {active.map((p, i) => {
           const isHot = hintTargetId !== undefined && p.id === hintTargetId;
           return (
             <button
@@ -65,58 +79,75 @@ export default function Photos({ caseData, onBack, hintTargetId, onFoundClue }: 
             </button>
           );
         })}
-        {hasLockedSecrets && (
-          <button
-            type="button"
-            className={styles.locked}
-            data-hint="photos-vault"
-            onClick={() => setShowVaultPad(true)}
-          >
-            🔒
-          </button>
-        )}
       </div>
 
+      {view === "grid" && hasSecrets && (
+        <div className={styles.albumsSection}>
+          <div className={styles.albumsLabel}>Albums</div>
+          <button
+            type="button"
+            className={styles.albumTile}
+            data-hint="photos-vault"
+            onClick={() => (unlocked ? setView("hidden") : setShowVaultPad(true))}
+          >
+            <span className={styles.albumThumbWrap}>
+              <img
+                className={styles.albumThumb}
+                src={secretPhotos[0].src}
+                alt=""
+                style={{ filter: unlocked ? "none" : "blur(16px)" }}
+              />
+              <span className={styles.albumLockBadge}>{unlocked ? "🔓" : "🔒"}</span>
+            </span>
+            <span className={styles.albumName}>Hidden</span>
+            <span className={styles.albumCount}>{secretPhotos.length} Photo{secretPhotos.length === 1 ? "" : "s"}</span>
+          </button>
+        </div>
+      )}
+
       {showVaultPad && (
-        <div className={styles.backdrop} onClick={() => setShowVaultPad(false)}>
-          <div className={`${styles.pad} ${shake ? styles.nudge : ""}`} onClick={(e) => e.stopPropagation()}>
-            <div className={styles.dots}>
-              {Array.from({ length: caseData.vaultCode.length }).map((_, i) => (
-                <span key={i} className={i < pin.length ? styles.dotFilled : styles.dot} />
-              ))}
-            </div>
-            <div className={styles.keys}>
-              {["1", "2", "3", "4", "5", "6", "7", "8", "9", "", "0", "⌫"].map((k, i) => (
-                <button
-                  key={i}
-                  type="button"
-                  className={styles.key}
-                  disabled={k === ""}
-                  onClick={() => (k === "⌫" ? setPin(pin.slice(0, -1)) : pressDigit(k))}
-                >
-                  {k}
-                </button>
-              ))}
-            </div>
+        <div className={styles.lockScreen}>
+          <button type="button" className={styles.lockCancel} onClick={() => setShowVaultPad(false)}>
+            Cancel
+          </button>
+          <div className={styles.lockIcon}>🔒</div>
+          <div className={styles.lockTitle}>Enter Passcode</div>
+          <div className={`${styles.dots} ${shake ? styles.nudge : ""}`}>
+            {Array.from({ length: caseData.vaultCode.length }).map((_, i) => (
+              <span key={i} className={i < pin.length ? styles.dotFilled : styles.dot} />
+            ))}
+          </div>
+          <div className={styles.keys}>
+            {["1", "2", "3", "4", "5", "6", "7", "8", "9", "", "0", "⌫"].map((k, i) => (
+              <button
+                key={i}
+                type="button"
+                className={styles.key}
+                disabled={k === ""}
+                onClick={() => (k === "⌫" ? setPin(pin.slice(0, -1)) : pressDigit(k))}
+              >
+                {k}
+              </button>
+            ))}
           </div>
         </div>
       )}
-      {viewIndex !== null && (
+      {viewIndex !== null && active[viewIndex] && (
         <div className={styles.viewer}>
           <div className={styles.viewerTop}>
             <button type="button" className={styles.viewerClose} onClick={() => setViewIndex(null)}>
-              ‹ Photos
+              ‹ {view === "hidden" ? "Hidden" : "Photos"}
             </button>
           </div>
           <div className={styles.viewerImgWrap}>
-            <img className={styles.viewerImg} src={caseData.photos[viewIndex].src} alt="" />
+            <img className={styles.viewerImg} src={active[viewIndex].src} alt="" />
           </div>
           <div className={styles.info}>
-            <div className={styles.infoDate}>{caseData.photos[viewIndex].date ?? "Recently added"}</div>
-            {caseData.photos[viewIndex].caption && (
+            <div className={styles.infoDate}>{active[viewIndex].date ?? "Recently added"}</div>
+            {active[viewIndex].caption && (
               <div className={styles.infoPlace}>
                 <span className={styles.infoPin}>📍</span>
-                {caseData.photos[viewIndex].caption}
+                {active[viewIndex].caption}
               </div>
             )}
           </div>

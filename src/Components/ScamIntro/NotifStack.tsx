@@ -102,9 +102,12 @@ export default function NotifStack({ caseData, onDone }: NotifStackProps) {
       </div>
 
       <div className={styles.hook} style={{ animationDelay: `${textAt}ms` }}>
-        Daniel sent money to 5 people.
-        <br />
-        Who are they?
+        {(caseData.scamIntro?.hookText ?? "Daniel sent money to 5 people.\nWho are they?").split("\n").map((line, i, arr) => (
+          <span key={i}>
+            {line}
+            {i < arr.length - 1 && <br />}
+          </span>
+        ))}
       </div>
 
       {caseData.scamIntro && (

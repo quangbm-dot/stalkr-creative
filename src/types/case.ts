@@ -260,7 +260,14 @@ export interface CaseConfig {
    *  tháng thật của máy người chơi. */
   now?: string;
   /** v13: intro hook thị giác (thay cho đoạn chat) — ảnh chủ máy + nạn nhân bị làm mờ + 1 bong bóng + CTA. */
-  scamIntro?: { headline: string; sub: string; bubble: string; cta: string };
+  scamIntro?: {
+    headline: string;
+    sub: string;
+    bubble: string;
+    cta: string;
+    /** v14: câu nhấp nháy trên NotifStack — 2 dòng ("\n" xuống dòng). Không có thì dùng câu mặc định của Daniel. */
+    hookText?: string;
+  };
   /** v13: người dùng tin tưởng (client) — thanh "Trust" ở TopBar tụt theo số câu đã giải. */
   trust?: { label: string; clientReactions: { min: number; text: string }[] };
   /** v13: tờ giấy thanh toán mở khoá sau khi tìm đủ các cô gái — liệt kê tiền Daniel lấy từ từng người, dòng của Chloe nổi bật. */

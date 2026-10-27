@@ -46,7 +46,7 @@ export default function Ledger({ caseData, onDone, settled = false }: LedgerProp
         <div className={styles.rows}>
           {l.rows.map((r, i) => (
             <div
-              key={r.name}
+              key={i}
               className={`${styles.row} ${r.highlight ? styles.hot : ""}`}
               style={{ animationDelay: rowDelay(i) }}
             >
