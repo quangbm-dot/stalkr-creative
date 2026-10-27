@@ -10,6 +10,26 @@ import type { AppIcon, AppKey, CaseConfig, HireStep, MessageThread } from "../..
 const images = import.meta.glob<string>("./img/*.webp", { eager: true, import: "default" });
 const img = (name: string) => images[`./img/${name}.webp`] ?? "";
 
+// v14-fix: mọi ngày trong case đồng bộ theo ngày THẬT của máy người chơi
+// (không hard-code "2026-11-..." nữa) — tính 1 lần lúc module load, nên
+// "hôm nay" và mã PIN sinh nhật luôn đúng ở mọi quốc gia/múi giờ, bất kể
+// build từ lúc nào. Đồng hồ ở NotifStack vốn đã dùng `new Date()` local —
+// phần còn thiếu chỉ là Calendar's `now` + 2 sự kiện + mã PIN note.
+const TODAY = new Date();
+const addDays = (n: number) => {
+  const d = new Date(TODAY);
+  d.setDate(d.getDate() + n);
+  return d;
+};
+const fmtDate = (d: Date) => `${d.getMonth() + 1}/${d.getDate()}`;
+const fmtMonthKey = (d: Date) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}`;
+const fmtLabel = (d: Date) => d.toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric" });
+/** mm+dd ghép lại — dùng làm mã PIN 4 số lấy từ 1 ngày trên Calendar. */
+const pin4 = (d: Date) => `${String(d.getMonth() + 1).padStart(2, "0")}${String(d.getDate()).padStart(2, "0")}`;
+
+const CALL_DATE = addDays(0); // "Call Chloe" — hôm nay
+const BIRTHDAY_DATE = addDays(6); // "🎂 Don't forget" — mã PIN của note "💕 Her"
+
 /** Trộn cố định theo seed — đáp án đúng không luôn nằm 1 chỗ, nhưng mỗi lần chơi cùng 1 thứ tự. */
 function seededShuffle<T>(items: T[], seed: number): T[] {
   const out = [...items];
@@ -307,14 +327,14 @@ const config: CaseConfig = {
   ],
   calls: [],
   notes: [
-    { title: "💕 Her", body: "Rachel — picks up her son at 3:30, Maple Street Elementary. Always calls after.", lock: "1204", lockHint: "Her birthday", photo: img("together_rachel") },
+    { title: "💕 Her", body: "Rachel — picks up her son at 3:30, Maple Street Elementary. Always calls after.", lock: pin4(BIRTHDAY_DATE), lockHint: "Her birthday", photo: img("together_rachel") },
     { title: "Script v3", body: "Day 1: Hi beautiful.\nDay 30: I love you.\nDay 90: Customs fee. Never more than 5k at once." },
     { title: "Profile pics — source", body: "Photos = Dr. Marcus Hale (real surgeon, Instagram).\nNever video call. Always \"bad signal\"." },
     { title: "Shopping", body: "Phone credit\nSIM cards x4" },
   ],
   calendar: [
-    { title: "Call Chloe", date: "11/03", month: "2026-11", dateLabel: "Tue, Nov 3", time: "8:00 PM" },
-    { title: "🎂 Don't forget", date: "12/04", month: "2026-11", dateLabel: "Fri, Dec 4", time: "All day" },
+    { title: "Call Chloe", date: fmtDate(CALL_DATE), month: fmtMonthKey(CALL_DATE), dateLabel: fmtLabel(CALL_DATE), time: "8:00 PM" },
+    { title: "🎂 Don't forget", date: fmtDate(BIRTHDAY_DATE), month: fmtMonthKey(BIRTHDAY_DATE), dateLabel: fmtLabel(BIRTHDAY_DATE), time: "All day" },
   ],
   instagram: {
     username: "dr.daniel.hayes",
@@ -430,7 +450,8 @@ const config: CaseConfig = {
     ],
     sectionLabel: "Recent places",
   },
-  now: "2026-11-03",
+  // v14-fix: không set `now` nữa — Calendar.tsx tự dùng `new Date()` (ngày
+  // thật của máy người chơi) khi field này vắng mặt.
   scamIntro: {
     // v13: giờ là đoạn Chloe TỔNG KẾT LẠI (hiện sau khung ảnh chụp chat, xem .bubble) — không còn là headline riêng.
     headline: "So that's over $25,000 in strange payments this past week. I want to know who these 5 people are.",
