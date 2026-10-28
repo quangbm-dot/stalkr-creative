@@ -1,6 +1,5 @@
 import StatusBar from "../PhoneFrame/StatusBar";
 import openLinkApp from "../../services/AdController";
-import downloadBtn from "../../Assets/UI/download.webp";
 import styles from "./TopBar.module.scss";
 
 interface TopBarProps {
@@ -25,7 +24,7 @@ export default function TopBar({ ownerFirst, current, total }: TopBarProps) {
         <span className={styles.subtitle}>Fictional case · {ownerFirst}'s phone</span>
         <div className={styles.right}>
           <button type="button" className={styles.download} onClick={openLinkApp}>
-            <img src={downloadBtn} alt="Download" />
+            ⬇ Download
           </button>
           <span className={styles.progress}>
             Question {current}/{total}
