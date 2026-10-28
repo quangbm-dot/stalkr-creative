@@ -4,8 +4,9 @@
  * __ROUNDS__ ở vite.config.ts).
  *   npm run build:v15                  → mọi mạng
  *   npm run build:v15 applovin,unity   → chỉ các mạng chỉ định
- * Output: <repo chính>/build/v15/<mạng>/SMD_Playable_v15_<01|02|03|04>_<N>quests_<case> QuangBM_QuangBM.html
- *   (01=5q abby_ryan_full, 02=7q abby_ryan_full, 03=5q sophie_mark, 04=7q sophie_mark)
+ * Output: <repo chính>/build/v15/<mạng>/SMD_Playable_v15_<01..06>_<N>quests_<case> QuangBM_QuangBM.html
+ *   (01=5q abby_ryan_full, 02=7q abby_ryan_full, 03=5q sophie_mark, 04=7q sophie_mark,
+ *    05=5q jonah_wren, 06=7q jonah_wren)
  */
 const { execSync } = require("child_process");
 const fs = require("fs");
@@ -16,6 +17,7 @@ const ROUNDS_VARIANTS = [5, 7];
 const CASES = [
   { id: "07_abby_ryan_full", label: "abby_ryan_full" },
   { id: "08_sophie_mark", label: "sophie_mark" },
+  { id: "09_jonah_wren", label: "jonah_wren" },
 ];
 
 const root = path.join(__dirname, "..");
