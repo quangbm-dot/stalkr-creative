@@ -127,25 +127,25 @@ const QUESTIONS: {
   },
   {
     prompt: "And I believed him. There are photos on this phone I'm not meant to see — I just know it. Who is she, really?",
-    answer: "Lauren Reyes, 29",
-    decoys: ["Megan Hart, 27", "Sarah Kim, 31", "Chloe Diaz, 26"],
+    answer: "Lauren Reyes",
+    decoys: ["Megan Hart", "Sarah Kim", "Chloe Diaz"],
     hint: "Open Notes → \"Codes\" for the vault PIN, then unlock Photos with it.",
     hintApp: "notes",
     steps: [
       { app: "notes", target: "Codes" },
       { app: "photos", target: "cake" },
     ],
-    victim: "Lauren Reyes, 29",
-    reply: "Six months. Her name is Lauren Reyes. She's 29. 💔",
+    victim: "Lauren Reyes",
+    reply: "Six months. Her name is Lauren Reyes. 💔",
   },
   {
     prompt: "Her name, her face... and still one more note he never finished deleting. I think it's everything he's spent on her. How much, all together?",
     answer: "$735",
     decoys: ["$570", "$905", "$650"],
-    hint: "Check his Calendar for a date he won't forget, then use it as the PIN for the locked note in Notes.",
+    hint: "Open Calendar — his 6-month anniversary with \"L\" is marked there. Use that date as the PIN for the locked note in Notes.",
     hintApp: "calendar",
     steps: [
-      { app: "calendar", target: "Don't forget 🎉" },
+      { app: "calendar", target: "6 months with L 💕" },
       { app: "notes", target: "This week" },
     ],
     reply: "$735. That's what he spent on her — in one week.",
@@ -153,7 +153,7 @@ const QUESTIONS: {
 ];
 
 const VICTIMS = [
-  { name: "Lauren Reyes, 29", avatar: img("lauren"), blurAvatar: img("blur_lauren"), line: "Pilates instructor" },
+  { name: "Lauren Reyes", avatar: img("lauren"), blurAvatar: img("blur_lauren"), line: "Pilates instructor" },
 ];
 const victimOf = (name: string) => VICTIMS.find((v) => v.name === name);
 
@@ -183,7 +183,7 @@ const deleteLaterThread: MessageThread = {
     { me: false, text: "So glad we matched 😅 Never thought Hinge would actually work" },
     { me: true, text: "Well I'm glad you did. So what do you do when you're not on apps?" },
     { me: false, text: "I teach pilates. So basically I yell \"squeeze\" at people for a living 😂" },
-    { me: true, text: "Did the earrings arrive okay?" },
+    { me: true, text: "Did it arrive okay? 📦" },
     { me: false, text: "Thank you for the gift 🥹 You spoil me ❤️" },
     { me: true, text: "Anything for you. Counting down to Friday." },
     { me: true, text: "Night, Lauren ❤️" },
@@ -257,14 +257,14 @@ const config: CaseConfig = {
       title: "This week",
       body: "Earrings — $340\nSeaside Cottage · 1 night — $230\nDinner for two — $165\n\nTotal: $735",
       lock: pin4(PIN_DATE),
-      lockHint: "A date he won't forget",
+      lockHint: "Their 6-month anniversary date",
     },
     { title: "Grocery", body: "Coffee, eggs, Pickles' food" },
     { title: "Conference — Austin", body: "Flight + hotel booked. Don't mention to Abby yet." },
   ],
   calendar: [
     { title: "Abby's birthday", date: fmtDate(BIRTHDAY_DATE), month: fmtMonthKey(BIRTHDAY_DATE), dateLabel: fmtLabel(BIRTHDAY_DATE), time: "All day" },
-    { title: "Don't forget 🎉", date: fmtDate(PIN_DATE), month: fmtMonthKey(PIN_DATE), dateLabel: fmtLabel(PIN_DATE), time: "All day" },
+    { title: "6 months with L 💕", date: fmtDate(PIN_DATE), month: fmtMonthKey(PIN_DATE), dateLabel: fmtLabel(PIN_DATE), time: "All day" },
     { title: "Conference — Austin", date: fmtDate(AUSTIN_DATE), month: fmtMonthKey(AUSTIN_DATE), dateLabel: fmtLabel(AUSTIN_DATE), time: "All day" },
   ],
   instagram: { username: "ryan.callahan", displayName: "Ryan Callahan", avatar: img("ryan"), posts: [] },
@@ -307,7 +307,7 @@ const config: CaseConfig = {
   photos: [
     { src: img("abby_ryan_duo"), date: "2 weeks ago" },
     { src: img("team_photo"), date: "San Diego · last week", caption: "Brightline team photo, coworkers only" },
-    { id: "cake", src: img("cake_reveal"), secret: true, date: "Aug 1", caption: "Lauren Reyes — Happy 6 months 🎂" },
+    { id: "cake", src: img("cake_reveal"), secret: true, date: "Aug 1" },
   ],
   vaultCode: "481207",
   weather: { city: "Sacramento", tempC: 24, hi: 27, lo: 16, condition: "Clear" },
@@ -356,9 +356,9 @@ const config: CaseConfig = {
     heading: "WHAT HE SPENT",
     subheading: "All in one week",
     rows: [
-      { name: "Lauren Reyes, 29", avatar: img("lauren"), item: "Gold hoop earrings", itemEmoji: "💎", amount: "$340", note: "Tue · Kestrel Jewelers" },
-      { name: "Lauren Reyes, 29", avatar: img("lauren"), item: "Seaside Cottage · 1 night", itemEmoji: "🏖️", amount: "$230", note: "Fri · Airbnb" },
-      { name: "Lauren Reyes, 29", avatar: img("lauren"), item: "Dinner for two", itemEmoji: "🍽️", amount: "$165", note: "Fri · Harbor & Pine" },
+      { name: "Lauren Reyes", avatar: img("lauren"), item: "Gold hoop earrings", itemEmoji: "💎", amount: "$340", note: "Tue · Kestrel Jewelers" },
+      { name: "Lauren Reyes", avatar: img("lauren"), item: "Seaside Cottage · 1 night", itemEmoji: "🏖️", amount: "$230", note: "Fri · Airbnb" },
+      { name: "Lauren Reyes", avatar: img("lauren"), item: "Dinner for two", itemEmoji: "🍽️", amount: "$165", note: "Fri · Harbor & Pine" },
     ],
     totalLabel: "TOTAL",
     total: "$735",
