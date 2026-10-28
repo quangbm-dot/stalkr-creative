@@ -24,6 +24,10 @@ const fmtLabel = (d: Date) => d.toLocaleDateString("en-US", { weekday: "short", 
 
 const AUSTIN_DATE = addDays(9);
 
+// Build ra 2 bản độ dài 5/7 câu (xem __ROUNDS__ ở vite.config.ts) — luôn cắt
+// lấy N câu ĐẦU của chuỗi 7 câu đã chọn.
+const MAX_ROUNDS = __ROUNDS__;
+
 function seededShuffle<T>(items: T[], seed: number): T[] {
   const out = [...items];
   let s = seed * 9301 + 49297;
@@ -140,7 +144,7 @@ const QUESTIONS: {
   },
 ];
 
-const evidenceRounds: CaseConfig["evidenceRounds"] = QUESTIONS.map((q, i) => ({
+const evidenceRounds: CaseConfig["evidenceRounds"] = QUESTIONS.slice(0, MAX_ROUNDS).map((q, i) => ({
   informant: { name: "Abby", avatar: img("abby") },
   prompt: q.prompt,
   choices: seededShuffle([q.answer, ...q.decoys], i + 3),
