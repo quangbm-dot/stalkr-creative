@@ -295,7 +295,7 @@ const config: CaseConfig = {
   },
   maps: {
     locations: [
-      { name: "Lauren ❤️", subtitle: "Lauren Reyes · 214 Cedar Street, Sacramento" },
+      { name: "Lauren ❤️", subtitle: "Lauren Reyes" },
       { name: "Ironworks Gym", subtitle: "Sacramento · visited often" },
       { name: "Harbor & Pine", subtitle: "San Diego" },
     ],
