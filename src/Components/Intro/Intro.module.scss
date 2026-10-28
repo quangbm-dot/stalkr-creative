@@ -321,6 +321,11 @@
   align-items: center;
   justify-content: center;
   gap: 6px;
+  // Nút cuối (mở điện thoại) phải khác hẳn 2 nút lựa chọn phía trên — nền
+  // trắng dễ bị nhầm là thêm 1 lựa chọn nữa thay vì nút xác nhận.
+  background: linear-gradient(135deg, #fb7185, #e11d48);
+  color: #fff;
+  box-shadow: 0 10px 24px rgba(225, 29, 72, 0.4);
 }
 
 .choiceHint {

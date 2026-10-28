@@ -60,6 +60,7 @@ const hire: HireStep[] = [
   { type: "msgs", text: "For weeks his phone has lit up past midnight. Every time, he turns it face down." },
   { type: "msgs", text: "He left his phone with me this morning. I can't make myself look." },
   { type: "choices", options: ["I'll check his phone 🔍", "Don't jump to conclusions yet ✋"] },
+  { type: "msgs", text: "Thank you. I just need to know, one way or another." },
   { type: "cta", label: "Open Ryan's phone 🔍" },
 ];
 
