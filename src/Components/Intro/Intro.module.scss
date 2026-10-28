@@ -37,10 +37,10 @@
   padding: 8px 16px;
   border-radius: 20px;
   border: none;
-  // Đổi từ gradient xanh dương sang đỏ, đồng bộ với nút Download đã đổi màu
-  // ở TopBar (xem TopBar.module.scss).
-  background: linear-gradient(135deg, #ff6a52, #c21d10);
-  box-shadow: 0 4px 12px rgba(194, 29, 16, 0.35);
+  // Đồng bộ đúng tông đỏ-hồng với nút CTA "Open ...'s phone" phía dưới
+  // (.ctaChoice) — trước là gradient cam-đỏ khác tông.
+  background: linear-gradient(135deg, #fb7185, #e11d48);
+  box-shadow: 0 4px 12px rgba(225, 29, 72, 0.35);
   color: #fff;
   font-family: var(--font-sans);
   font-weight: 700;
