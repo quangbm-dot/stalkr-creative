@@ -154,7 +154,23 @@ const lorraineThread: MessageThread = {
 };
 
 const messages: MessageThread[] = [
-  lorraineThread,
+  {
+    id: "t4",
+    title: "Irene",
+    time: "3 days ago",
+    unread: false,
+    msgs: [
+      { me: false, text: "Did you get my casserole dish back to me?" },
+      { me: true, text: "It's on your porch, Thursday I think." },
+    ],
+  },
+  {
+    id: "t5",
+    title: "CVS Pharmacy",
+    time: "2 days ago",
+    unread: false,
+    msgs: [{ me: false, text: "Your prescription is ready for pickup at Corner Rx." }],
+  },
   {
     id: "t2",
     title: "Jo ❤️",
@@ -166,11 +182,33 @@ const messages: MessageThread[] = [
     ],
   },
   {
+    id: "t6",
+    title: "Unknown Number",
+    time: "Yesterday",
+    unread: true,
+    msgs: [{ me: false, text: "Congratulations! You've won a $500 Kroger gift card. Click to claim: bit.ly/kg-claim9" }],
+  },
+  lorraineThread,
+  {
+    id: "t7",
+    title: "Carol Hensley",
+    time: "Mon",
+    unread: false,
+    msgs: [{ me: false, text: "See you Thursday at group! Bringing extra coffee this week." }],
+  },
+  {
     id: "t3",
     title: "Stan Wojcik",
     time: "Mon",
     unread: false,
     msgs: [{ me: false, text: "Fish fry Friday, same as always?" }],
+  },
+  {
+    id: "t8",
+    title: "Mrs. Baran",
+    time: "Sun",
+    unread: false,
+    msgs: [{ me: false, text: "Saw your car gone early this morning — everything alright over there?" }],
   },
 ];
 
@@ -272,7 +310,16 @@ const config: CaseConfig = {
       time: "3 days ago",
     },
   ],
-  photos: [{ src: img("joanne_walt_duo") }],
+  photos: [
+    { src: img("joanne_walt_duo") },
+    { src: img("pierogi_dinner") },
+    { src: img("pills_note") },
+    { src: img("cardinal_feeder") },
+    { src: img("milk_bananas_note") },
+    { src: img("fireworks_river") },
+    { src: img("lorraine_car") },
+    { src: img("grave_visit") },
+  ],
   vaultCode: "0000",
   weather: { city: "Pittsburgh", tempC: 22, hi: 25, lo: 15, condition: "Cloudy" },
   revolut: {
