@@ -12,7 +12,8 @@
     "preview": "vite preview",
     "build:v9": "node scripts/build-v9.cjs",
     "build:v10": "node scripts/build-v10.cjs",
-    "build:v15": "node scripts/build-v15.cjs"
+    "build:v15": "node scripts/build-v15.cjs",
+    "build:v16": "node scripts/build-v16.cjs"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.4",
