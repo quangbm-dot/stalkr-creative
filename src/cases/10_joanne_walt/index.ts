@@ -298,7 +298,7 @@ const config: CaseConfig = {
     {
       sender: "Carol Hensley",
       subject: "Picnic thank-yous",
-      preview: "A big thank-you to Lorraine Pike and her son, Dean Ferris...",
+      preview: "Dean Ferris carried all those folding tables himself!",
       body: "Dear members,\n\nWhat a wonderful picnic! A big thank-you to Lorraine Pike and her son, Dean Ferris, who drove down from Erie with the folding tables.\n\nSee you all Thursday,\nCarol Hensley",
       time: "6 wks ago",
     },
