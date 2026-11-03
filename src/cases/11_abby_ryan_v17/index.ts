@@ -1,0 +1,361 @@
+import type { AppIcon, AppKey, CaseConfig, HireStep, MessageThread } from "../../types/case";
+
+/**
+ * v17 — SPIKE: cùng nội dung case "Abby & Ryan" (07_abby_ryan_full) nhưng
+ * đổi hẳn phần mở đầu (hire[]) để thử cơ chế rẽ nhánh THẬT mới thêm vào
+ * HireStep/Intro.tsx — mở cảnh đang cãi nhau, rồi cho người chơi chọn thật:
+ *   1) "Check his phone" — vào thẳng điện thoại như các case khác.
+ *   2) "Read the letters first" — xem 2 mẩu thư tay Ryan định gửi Lauren
+ *      (hé lộ trước tên "Lauren" + "six months") RỒI MỚI vào điện thoại.
+ * Cả 2 nhánh hội tụ lại đúng 1 bộ 7 câu hỏi/dữ liệu của case07 — không viết
+ * lại nội dung, chỉ demo cơ chế branching. Ảnh dùng lại nguyên của case07
+ * (không copy file, trỏ glob sang thư mục img của case07).
+ */
+
+const images = import.meta.glob<string>("../07_abby_ryan_full/img/*.webp", { eager: true, import: "default" });
+const img = (name: string) => images[`../07_abby_ryan_full/img/${name}.webp`] ?? "";
+
+const TODAY = new Date();
+const addDays = (n: number) => {
+  const d = new Date(TODAY);
+  d.setDate(d.getDate() + n);
+  return d;
+};
+const fmtDate = (d: Date) => `${d.getMonth() + 1}/${d.getDate()}`;
+const fmtMonthKey = (d: Date) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}`;
+const fmtLabel = (d: Date) => d.toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric" });
+
+const AUSTIN_DATE = addDays(9);
+
+const MAX_ROUNDS = __ROUNDS__;
+
+function seededShuffle<T>(items: T[], seed: number): T[] {
+  const out = [...items];
+  let s = seed * 9301 + 49297;
+  for (let i = out.length - 1; i > 0; i--) {
+    s = (s * 9301 + 49297) % 233280;
+    const j = Math.floor((s / 233280) * (i + 1));
+    [out[i], out[j]] = [out[j], out[i]];
+  }
+  return out;
+}
+
+const icon = (app: AppKey, label: string): AppIcon => ({ app, label, icon: img(`appicon_${app === "revolut" ? "revolut" : app}`) });
+
+const dock: AppIcon[] = [icon("phone", "Phone"), icon("messages", "Messages"), icon("gmail", "Mail"), icon("photos", "Photos")];
+const page1: AppIcon[] = [
+  icon("notes", "Notes"),
+  icon("airbnb", "Airbnb"),
+  icon("revolut", "Bank"),
+  icon("maps", "Maps"),
+  icon("calendar", "Calendar"),
+  icon("instagram", "Instagram"),
+  icon("whatsapp", "WhatsApp"),
+  icon("settings", "Settings"),
+  icon("clock", "Clock"),
+];
+const page2: AppIcon[] = [icon("weather", "Weather"), icon("calculator", "Calculator"), icon("wallet", "Wallet"), icon("compass", "Compass")];
+
+// v17 spike — mở cảnh đang cãi nhau, rồi rẽ nhánh THẬT: "check phone" đi
+// thẳng tới CTA; "read the letters" nhảy (goto "letters") qua 2 thẻ thư
+// viết tay trước khi quay lại cùng 1 CTA mở máy.
+const hire: HireStep[] = [
+  // v17: thẻ tiêu đề mở phim (tên 2 nhân vật + giới thiệu ngắn) trước khi
+  // cuốn phim chạy — kiểu opening credits, không phải bong bóng chat.
+  {
+    type: "titleCard",
+    title: "Abby & Ryan",
+    subtitle: "Four years together — and one night that changed everything.",
+  },
+  // v17: phần mở đầu còn lại là 1 cuốn phim duy nhất — không còn bong bóng
+  // chat text nào trước lựa chọn. Lời kể nằm trong caption của từng khung.
+  {
+    type: "filmReel",
+    frames: [
+      { src: img("midfight_kitchen"), caption: "We were mid-fight when I grabbed his phone off the counter." },
+      { src: img("abby_ryan_duo"), caption: "Four years together. A cat named Pickles. Sunday pancakes." },
+      { src: img("hero"), caption: "I thought we were the boring, happy kind. Then tonight happened." },
+      { src: img("ryan_notepad"), caption: "He went quiet. Too quiet. Then I saw the notepad — he's been writing something too." },
+    ],
+  },
+  {
+    type: "choices",
+    options: [
+      "Check his phone 🔍",
+      { label: "Read the letters first 💌", goto: "letters" },
+    ],
+  },
+  // v17: nhánh "Check his phone" — KHÔNG tạo filmReel mới (mảng frames
+  // khác, dù trùng ảnh vẫn gây giật do React re-render lại <img>). Dùng
+  // "cinemaCaption": ảnh/track đứng yên tuyệt đối (vẫn đúng frame cuối của
+  // cuốn phim mở đầu), chỉ đổi câu chữ, rồi vào THẲNG điện thoại.
+  {
+    type: "cinemaCaption",
+    text: "Okay. I just need to know, one way or another.",
+    enterPhoneAfter: true,
+  },
+  {
+    id: "letters",
+    type: "filmReel",
+    // v17: cảnh "đọc thư" — ảnh chỉ làm thumbnail NHỎ (anh ta đang viết),
+    // trọng tâm là chữ to chạy kiểu máy đánh chữ (xem variant trong
+    // Intro.tsx) — ngược lại với cuốn phim mở đầu (ảnh to, chữ nhỏ). Hết
+    // khung cuối là vào thẳng điện thoại (enterPhoneAfter), không cần nút
+    // đỏ nữa.
+    variant: "letter",
+    frameMs: 3800,
+    enterPhoneAfter: true,
+    frames: [
+      { src: img("letter_closeup"), caption: "Lauren — I keep starting this the same way and deleting it. I'm sorry." },
+      { src: img("ryan_notepad"), caption: "Six months of pretending this is simple. It isn't." },
+      { src: img("letter_closeup"), caption: "He was already writing his way out of this. I need the rest from his phone." },
+    ],
+  },
+];
+
+const QUESTIONS: {
+  prompt: string;
+  answer: string;
+  decoys: string[];
+  hint: string;
+  hintApp: AppKey;
+  target?: string;
+  steps?: { app: AppKey; target?: string }[];
+  reply: string;
+}[] = [
+  {
+    prompt: "Hi, I'm Abby — his girlfriend. Okay, it's his phone. For weeks it's been lighting up past midnight, and he turns it face down every time 😔 I bet he'd never save them under their real name. What did he save that suspicious contact as in his chatting app?",
+    answer: "DELETE LATER",
+    decoys: ["Unknown", "Work - Mike", "Gym Buddy"],
+    hint: "Open Messages and look at the list of chats — one contact name looks off.",
+    hintApp: "messages",
+    target: "DELETE LATER",
+    reply: "He always planned to hide this 💔",
+  },
+  {
+    prompt: "So he always planned to hide it. Four years together, and he keeps a contact he means to erase. What real name does he call this person in their chat?",
+    answer: "Lauren",
+    decoys: ["Megan", "Hannah", "Rachel"],
+    hint: "Open that DELETE LATER chat and read what he calls her.",
+    hintApp: "messages",
+    target: "DELETE LATER",
+    reply: "A woman. Of course it's a woman 💔",
+  },
+  {
+    prompt: "A woman. Of course it's a woman 💔 We met at a friend's barbecue — I never imagined him swiping on strangers. Which dating app did they match on?",
+    answer: "Hinge",
+    decoys: ["Tinder", "Bumble", "Facebook Dating"],
+    hint: "Scroll all the way up in that chat to their very first message.",
+    hintApp: "messages",
+    target: "DELETE LATER",
+    reply: "Swiping on strangers... really? 😡",
+  },
+  {
+    prompt: "He's been spending more than usual lately and blaming work. I bet some of that money went on her. If he bought her a gift, what was it?",
+    answer: "Earrings",
+    decoys: ["Necklace", "Bracelet", "Perfume"],
+    hint: "Open Mail and look for a store email about a gift ready for pickup.",
+    hintApp: "gmail",
+    reply: "Jewelry for her, nothing for me 💍😤",
+  },
+  {
+    prompt: "He hasn't bought me jewelry since our first anniversary. He told me money was tight this month. How much did he pay for the earrings?",
+    answer: "$340",
+    decoys: ["$240", "$430", "$310"],
+    hint: "Open RevoBank → Current Account → find the jewelry store payment.",
+    hintApp: "revolut",
+    reply: "More than he's spent on me all year 😤",
+  },
+  {
+    prompt: "Okay. I need to see it with my own eyes, even if it hurts 🥲 Weeks? Months? A whole year? I can't even guess. How long have they been together?",
+    answer: "6 months",
+    decoys: ["3 months", "1 year", "9 months"],
+    hint: "Open Notes → \"Codes\" for the vault PIN, then unlock Photos with it and read the cake.",
+    hintApp: "photos",
+    steps: [
+      { app: "notes", target: "Codes" },
+      { app: "photos" },
+    ],
+    reply: "Six months. Now I have a face to go with it 💔",
+  },
+  {
+    prompt: "Six months, and still a stranger to me. Now I have a face. What's her last name?",
+    answer: "Reyes",
+    decoys: ["Ramirez", "Rivers", "Romero"],
+    hint: "Open Maps — his saved pin near Cedar Street also lists her full name.",
+    hintApp: "maps",
+    target: "Lauren ❤️",
+    reply: "Thank you for showing me. 💔",
+  },
+];
+
+const evidenceRounds: CaseConfig["evidenceRounds"] = QUESTIONS.slice(0, MAX_ROUNDS).map((q, i) => ({
+  informant: { name: "Abby", avatar: img("abby") },
+  prompt: q.prompt,
+  choices: seededShuffle([q.answer, ...q.decoys], i + 3),
+  correct: q.answer,
+  correctReply: q.reply,
+  wrongReply: ["Not that. Look again.", `Still no — hint: ${q.hint}`],
+  reward: 10,
+  hint: q.hint,
+  hintApp: q.hintApp,
+  hintTargetId: q.target,
+  hintSteps: q.steps,
+}));
+
+const deleteLaterThread: MessageThread = {
+  id: "t1",
+  title: "DELETE LATER",
+  time: "Yesterday",
+  unread: false,
+  msgs: [
+    { me: false, text: "So glad we matched 😅 Never thought Hinge would actually work" },
+    { me: true, text: "Well I'm glad you did. So what do you do when you're not on apps?" },
+    { me: false, text: "I teach pilates. So basically I yell \"squeeze\" at people for a living 😂" },
+    { me: true, text: "Did it arrive okay? 📦" },
+    { me: false, text: "Thank you for the gift 🥹 You spoil me ❤️" },
+    { me: true, text: "Anything for you. Counting down to Friday." },
+    { me: true, text: "Night, Lauren ❤️" },
+    { me: false, text: "Miss you already ❤️" },
+  ],
+};
+
+const messages: MessageThread[] = [
+  deleteLaterThread,
+  {
+    id: "t2",
+    title: "Abby ❤️",
+    time: "Fri",
+    unread: false,
+    msgs: [
+      { me: false, text: "Pancakes are getting cold, Callahan" },
+      { me: true, text: "Team dinner ran late, heading to bed 😴" },
+      { me: false, text: "Night, Ryan ❤️" },
+    ],
+  },
+  {
+    id: "t3",
+    title: "Jake (brother)",
+    time: "Mon",
+    unread: false,
+    msgs: [
+      { me: false, text: "When are you telling Abby?" },
+      { me: true, text: "After her birthday. I'm not ruining that." },
+    ],
+  },
+  {
+    id: "t4",
+    title: "Ironworks Gym",
+    time: "Sun",
+    unread: false,
+    msgs: [{ me: false, text: "Your membership renews July 1. Your card on file will be charged $39.99." }],
+  },
+  {
+    id: "t5",
+    title: "Mom",
+    time: "Sat",
+    unread: false,
+    msgs: [{ me: false, text: "Did you see the game last night?? Refs robbed us" }],
+  },
+];
+
+const config: CaseConfig = {
+  caseTitle: "Delete Later",
+  tagline: "Who is she, really?",
+  heroImage: img("hero"),
+  evidenceTotal: evidenceRounds.length,
+  hintBudget: 4,
+  evidenceRounds,
+  client: {
+    name: "Abby",
+    avatar: img("abby"),
+    hire,
+    matches: [],
+    matchThread: { name: "", avatar: "", msgs: [] },
+  },
+  hint: "Open the apps on the phone to find clues.",
+  owner: { first: "Ryan", full: "Ryan Callahan", avatar: img("ryan") },
+  wallpaper: img("ryan_checkin"),
+  home: { pages: [page1, page2], dock },
+  messages,
+  whatsapp: [],
+  calls: [],
+  notes: [
+    { title: "Codes", body: "Photos: 481207\nWiFi: ryanhome2021" },
+    { title: "Grocery", body: "Coffee, eggs, Pickles' food" },
+    { title: "Conference — Austin", body: "Flight + hotel booked. Don't mention to Abby yet." },
+  ],
+  calendar: [
+    { title: "Conference – Austin · L ❤️", date: fmtDate(AUSTIN_DATE), month: fmtMonthKey(AUSTIN_DATE), dateLabel: fmtLabel(AUSTIN_DATE), time: "All day" },
+  ],
+  instagram: { username: "ryan.callahan", displayName: "Ryan Callahan", avatar: img("ryan"), posts: [] },
+  airbnb: {
+    name: "Ryan Callahan",
+    img: img("wallpaper"),
+    listings: [
+      { title: "Gaslamp studio near the convention center - San Diego", img: img("gaslamp_studio"), subtitle: "San Diego · 3 nights · work trip", price: "$540 total", rating: "4.8" },
+      { title: "Seaside Cottage", img: img("seaside_cottage"), subtitle: "San Diego · 1 night, inside the same trip", price: "$230/night", rating: "4.9" },
+    ],
+  },
+  gmail: [
+    {
+      sender: "Kestrel Jewelers",
+      subject: "Your gift is ready for pickup",
+      preview: "Good news: your order is gift-wrapped and ready",
+      body: "Hi Ryan,\n\nGood news: your order is gift-wrapped and ready for pickup at our K Street store.\n\nItem: 14k gold hoop earrings\nGift wrap: Yes, with a card\n\nThank you for shopping with us,\nKestrel Jewelers",
+      time: "Tue",
+    },
+    {
+      sender: "Harbor & Pine",
+      subject: "Your table is confirmed",
+      preview: "Party size: table for 2 · Fri 7:30 PM",
+      body: "Hi Ryan,\n\nYour table is confirmed at Harbor & Pine.\n\nParty size: table for 2\nTime: 7:30 PM\nName on reservation: Callahan\n\nSee you soon,\nThe Harbor & Pine team",
+      time: "Fri",
+    },
+    {
+      sender: "Brightline HR",
+      subject: "Per diem reminder",
+      preview: "Per diem for travel days is $65. Keep receipts.",
+      time: "Mon",
+    },
+    {
+      sender: "Capitol Auto Care",
+      subject: "Your vehicle is ready",
+      preview: "Total $89.40. Rear brake pads at 30%.",
+      time: "Mon",
+    },
+  ],
+  photos: [
+    { src: img("abby_ryan_duo") },
+    { src: img("team_photo") },
+    { src: img("cake_reveal"), secret: true },
+  ],
+  vaultCode: "481207",
+  weather: { city: "Sacramento", tempC: 24, hi: 27, lo: 16, condition: "Clear" },
+  revolut: {
+    balance: "$8,420.50",
+    transactions: [
+      { name: "Kestrel Jewelers", amount: "-$340.00", date: "Tue", note: "Jewelry store" },
+      { name: "Seaside Cottage", amount: "-$230.00", date: "Fri", note: "Airbnb · 1 night" },
+      { name: "Harbor & Pine", amount: "-$165.00", date: "Fri", note: "Dinner for 2" },
+      { name: "Ironworks Gym", amount: "-$39.99", date: "Sun", note: "Membership renewal" },
+      { name: "Capitol Auto Care", amount: "-$89.40", date: "Mon", note: "Brake pads" },
+      { name: "Payroll · Brightline", amount: "+$3,120.00", date: "Fri" },
+    ],
+  },
+  maps: {
+    locations: [
+      { name: "Lauren ❤️", subtitle: "Lauren Reyes" },
+      { name: "Ironworks Gym", subtitle: "Sacramento · visited often" },
+      { name: "Harbor & Pine", subtitle: "San Diego" },
+    ],
+    sectionLabel: "Saved places",
+  },
+  endCard: {
+    headline: "I'm not going to wait.",
+    subhead: "Six months, a cottage by the sea, and a contact he meant to delete. I'm sitting him down tonight.",
+    ctaLabel: "See what happens next",
+  },
+};
+
+export default { id: "11_abby_ryan_v17", label: config.caseTitle, config };

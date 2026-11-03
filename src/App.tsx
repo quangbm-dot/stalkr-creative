@@ -38,6 +38,10 @@ function App({ caseData }: { caseData: CaseConfig }) {
     setStepIdx(0);
   }, [evidenceFound]);
   const [homePage, setHomePage] = useState(0);
+  // v17: Intro đang chiếu "cuốn phim" nền tối (xem Intro.tsx) — lúc đó
+  // StatusBar (giờ/sóng/pin vẽ giả ở PhoneFrame) phải đổi sang trắng mới
+  // nhìn được, thay vì đen như mặc định intro nền xanh nhạt.
+  const [introCinema, setIntroCinema] = useState(false);
   // Bắt đầu thu gọn, đợi 0.4s sau khi vào màn phone mới bung popup lên —
   // tránh việc render đồng thời wallpaper + popup + TopBar gây giật lag.
   const [chatExpanded, setChatExpanded] = useState(false);
@@ -125,7 +129,7 @@ function App({ caseData }: { caseData: CaseConfig }) {
     <div style={{ display: "contents" }} data-hand={activeHand} data-hand-visible={handVisible}>
     <PhoneFrame
       showBelowBar={stage === "phone" && !chatExpanded}
-      statusBarDark={stage !== "intro"}
+      statusBarDark={stage !== "intro" || introCinema}
       aboveBar={
         stage === "phone" ? (
           <TopBar
@@ -144,7 +148,9 @@ function App({ caseData }: { caseData: CaseConfig }) {
         />
       )}
 
-      {stage === "intro" && <Intro caseData={caseData} onDone={() => setStage("phone")} />}
+      {stage === "intro" && (
+        <Intro caseData={caseData} onDone={() => setStage("phone")} onCinemaModeChange={setIntroCinema} />
+      )}
 
       {stage === "phone" && !openApp && (
         <HomeScreen

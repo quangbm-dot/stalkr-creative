@@ -33,7 +33,9 @@ export interface AppIcon {
   icon: string;
 }
 
-export type HireStep =
+/** v17: mỗi bước có thể gắn `id` để làm điểm nhảy tới (xem "choices" bên
+ *  dưới) — không gắn id thì không ai nhảy tới được, không ảnh hưởng gì. */
+export type HireStep = { id?: string } & (
   | { type: "msgs"; text: string; image?: string }
   /** v10: ô nhập tên giữa đoạn chat — câu trả lời được lưu lại để thế vào
    *  "{{name}}" trong các tin nhắn tiếp theo (xem Intro.tsx). */
@@ -51,8 +53,44 @@ export type HireStep =
    *  tên/subtitle đè lên, badge icon+tên app ở góc) ngay trong dòng chat,
    *  thay cho bảng ghim polaroid nhiều ảnh của v1-v3. */
   | { type: "appReveal"; text: string; src: string; name: string; subtitle: string; appLabel: string; appIcon: string }
-  | { type: "choices"; options: string[] }
-  | { type: "cta"; label: string };
+  /** v17: thẻ "lá thư" (giấy viết tay) — dùng cho nhánh "đọc thư trước khi
+   *  vào điện thoại", trước CTA mở máy. */
+  | { type: "letter"; text: string; signature?: string }
+  /** v17: thẻ tiêu đề mở phim — tên 2 nhân vật + 1 dòng giới thiệu ngắn,
+   *  hiện TRƯỚC "filmReel" (kiểu opening credits của phim), rồi tự chuyển
+   *  sang bước kế sau TITLECARD_MS (xem Intro.tsx). */
+  | { type: "titleCard"; title: string; subtitle?: string }
+  /** v17: đổi CHỈ caption đang hiện trên nền cinema đóng băng (ảnh/track
+   *  GIỮ NGUYÊN 100%, không đụng vào cinemaFrames/filmFrame) — dùng cho 1
+   *  câu phản ứng ngắn ngay sau choices mà KHÔNG muốn ảnh nháy/đổi, khác
+   *  hẳn "filmReel" (vốn luôn có mảng frames riêng, dễ gây giật khi ảnh
+   *  không trùng pixel-for-pixel với ảnh đang đóng băng). */
+  | { type: "cinemaCaption"; text: string; enterPhoneAfter?: boolean }
+  /** v17: "cuốn phim" — nhiều khung ảnh TỰ cuộn qua lần lượt (như trailer),
+   *  mỗi khung có 1 dòng chú thích riêng hiện đồng bộ theo khung đang chiếu
+   *  (xem FILMREEL_FRAME_MS trong Intro.tsx). Xong hết khung thì tự sang
+   *  bước kế, giống các step có hẹn giờ khác. */
+  | {
+      type: "filmReel";
+      frames: { src: string; caption: string }[];
+      /** "letter" = đảo trọng tâm: ảnh thu nhỏ làm thumbnail, text to chạy
+       *  kiểu máy đánh chữ (gõ từng chữ) chiếm chỗ chính — dùng cho cảnh
+       *  "đọc thư" (so với mặc định: ảnh to, caption nhỏ bên dưới). */
+      variant?: "letter";
+      /** ms mỗi khung — mặc định FILMREEL_FRAME_MS (Intro.tsx). Variant
+       *  "letter" nên đặt dài hơn để có đủ thời gian gõ hết chữ + đọc. */
+      frameMs?: number;
+      /** true = hết khung CUỐI là vào thẳng điện thoại luôn (gọi onDone),
+       *  KHÔNG cần bước "cta" (nút đỏ) ở giữa — dùng cho khung phản ứng
+       *  cuối cùng của 1 nhánh, nơi chỉ cần đọc xong 1 câu là vào máy. */
+      enterPhoneAfter?: boolean;
+    }
+  /** v17: mỗi lựa chọn có thể là string đơn giản (giữ nguyên hành vi cũ —
+   *  bấm gì cũng sang bước kế) hoặc { label, goto } để NHẢY tới bước có
+   *  `id` trùng `goto` (rẽ nhánh thật — xem Intro.tsx). */
+  | { type: "choices"; options: (string | { label: string; goto?: string })[] }
+  | { type: "cta"; label: string }
+);
 
 export interface MessageThread {
   id: string;
