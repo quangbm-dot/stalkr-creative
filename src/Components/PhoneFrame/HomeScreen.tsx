@@ -149,6 +149,7 @@ export default function HomeScreen({
                   className={`${styles.appicon} ${hintDue && item.app === hintApp ? styles.hintTarget : ""}`}
                   src={item.icon}
                   alt={item.label}
+                  draggable={false}
                 />
                 {hintDue && item.app === hintApp && <span className={styles.hintHand}>👆</span>}
                 <span className={styles.label}>{item.label}</span>
@@ -186,6 +187,7 @@ export default function HomeScreen({
               className={`${styles.appicon} ${hintDue && item.app === hintApp ? styles.hintTarget : ""}`}
               src={item.icon}
               alt={item.label}
+              draggable={false}
             />
             {hintDue && item.app === hintApp && <span className={styles.hintHand}>👆</span>}
           </button>

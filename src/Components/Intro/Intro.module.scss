@@ -904,6 +904,220 @@
   text-align: right;
 }
 
+// v18: "mở file bằng chứng" — dựng thành 1 MÀN HÌNH APP FILES THẬT trên
+// điện thoại (nền sáng, không phải cảnh cinema tối/kraft full-bleed nữa —
+// bị chê nhìn giả) — 1 CẢNH LIÊN TỤC duy nhất (xem Intro.tsx, key cố định
+// "cinema-dossier" suốt cả bước fileOpen lẫn filmReel/dossier ngay sau
+// đó): header "Files" đứng yên xuyên suốt, chỉ phần danh sách đổi thành
+// card bay ra khi đã chạm vào file — không remount/cắt cảnh.
+.filesScreen {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  background: #f2f3f6;
+  overflow: hidden;
+  // Chừa khoảng thở phía đáy — thiếu dòng này thì .reelButtonSlot (căn
+  // flex-end bên trong 1 khoang 176px) dán sát mép dưới màn hình, nút
+  // "Check his phone" nhìn bị tụt quá thấp.
+  padding-bottom: 28px;
+}
+
+.filesHeader {
+  flex: 0 0 auto;
+  // Chừa chỗ cho StatusBar giả vẽ đè lên trên, giống .stage.
+  padding: 54px 20px 6px;
+}
+
+.filesTitle {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-weight: 800;
+  font-size: 28px;
+  color: #13161c;
+}
+
+.filesSubtitle {
+  margin: 2px 0 0;
+  font-family: var(--font-sans);
+  font-size: 13px;
+  color: rgba(19, 22, 28, 0.5);
+}
+
+.filesBody {
+  flex: 1 1 auto;
+  min-height: 0;
+  padding: 10px 16px 0;
+  overflow: hidden;
+}
+
+.filesList {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.filesRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 8px;
+  border-radius: 12px;
+}
+
+.filesRowIcon {
+  flex: 0 0 auto;
+  width: 38px;
+  height: 38px;
+  border-radius: 9px;
+  background: #e3e5ea;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.filesRowText {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.filesRowName {
+  font-family: var(--font-sans);
+  font-weight: 500;
+  font-size: 15px;
+  color: #13161c;
+}
+
+.filesRowMeta {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  color: rgba(19, 22, 28, 0.45);
+}
+
+// File "nóng" — folder chứa bằng chứng, phát sáng nhịp đều, chạm vào mới
+// mở (xem onClick trong Intro.tsx).
+.filesRowHot {
+  cursor: pointer;
+  background: rgba(255, 196, 84, 0.18);
+  animation: filesRowGlow 1.6s ease-in-out infinite;
+
+  .filesRowIcon {
+    background: rgba(255, 196, 84, 0.45);
+  }
+}
+
+@keyframes filesRowGlow {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(255, 196, 84, 0);
+  }
+  50% {
+    box-shadow: 0 0 0 7px rgba(255, 196, 84, 0.22);
+  }
+}
+
+.fileTapHint {
+  margin: 14px 8px 0;
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 14px;
+  color: rgba(19, 22, 28, 0.55);
+  opacity: 0;
+  animation: filmCaptionIn 0.6s ease 0.3s forwards;
+}
+
+// v18: khu vực card bay ra, thế chỗ .filesList ngay khi đã chạm folder.
+.dossierScene {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+
+// v18: mỗi khung của filmReel variant "dossier" là 1 card ảnh (hoá đơn/
+// món quà/lời yêu thương) bay ra rải rác (--i = thứ tự bay ra, quyết định
+// z-index — card mới hiện đè lên card cũ).
+.dossierCards {
+  position: relative;
+  width: 100%;
+  max-width: 320px;
+  height: 190px;
+  // Cho phép card tràn ra ngoài khung 320px (rải ngẫu nhiên có thể lệch
+  // khá xa khỏi tâm) — không cắt mất góc card nào.
+  overflow: visible;
+}
+
+// Mỗi card bay ra 1 vị trí/góc xoay RIÊNG, rải rác khắp khu vực (không
+// xoè đều/gọn 1 chỗ nữa — xem --dx/--dy/--rot pseudo-random theo index,
+// truyền sẵn kèm đơn vị từ Intro.tsx) — luôn bay 1 LẦN đúng chỗ của nó,
+// không đổi khi có thêm card mới xuất hiện.
+.dossierCard {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  // Không còn margin/width/height cố định — width/height set riêng theo
+  // từng card (inline style, xem Intro.tsx), tự canh giữa bằng
+  // translate(-50%,-50%) NGAY TRONG keyframe transform bên dưới (dựa theo
+  // đúng cỡ hộp của chính nó) nên card to/nhỏ khác nhau vẫn canh đúng tâm.
+  border-radius: 7px;
+  overflow: hidden;
+  // Viền mỏng hơn hẳn (trước 4px nhìn dày như khung ảnh) — giờ chỉ đủ tạo
+  // cảm giác "mép giấy ảnh in" chứ không lấn vào ảnh bên trong.
+  border: 1.5px solid #fdf8ee;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.45);
+  z-index: var(--i);
+  opacity: 0;
+  animation: dossierCardIn 0.5s cubic-bezier(0.2, 1, 0.4, 1) forwards;
+}
+
+.dossierCardImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@keyframes dossierCardIn {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -50%) translate(var(--dx), calc(var(--dy) - 26px)) scale(0.6) rotate(var(--rot));
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%) translate(var(--dx), var(--dy)) scale(1) rotate(var(--rot));
+  }
+}
+
+.dossierTextStack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  max-height: 100%;
+  overflow-y: auto;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.dossierText {
+  margin: 0;
+  max-width: 92%;
+  text-align: center;
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2a1a08;
+  opacity: 0;
+  animation: filmCaptionIn 0.5s ease forwards;
+}
+
 // Ảnh nhân vật của case v9 hiện rõ — không làm mờ như ảnh "bằng chứng" KB4.
 .revealPhoto {
   filter: none;

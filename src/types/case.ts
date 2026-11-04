@@ -66,6 +66,11 @@ export type HireStep = { id?: string } & (
    *  hẳn "filmReel" (vốn luôn có mảng frames riêng, dễ gây giật khi ảnh
    *  không trùng pixel-for-pixel với ảnh đang đóng băng). */
   | { type: "cinemaCaption"; text: string; enterPhoneAfter?: boolean }
+  /** v18: "file đang sáng" — 1 file/folder bìa kraft có ghim giấy, phát
+   *  sáng (glow) ngay trên nền cinema — KHÔNG tự chuyển bước, đứng yên chờ
+   *  người chơi CHẠM vào mới sang bước kế (khác mọi step cinema khác, đều
+   *  tự chạy theo giờ) — xem Intro.tsx, branch "fileOpen". */
+  | { type: "fileOpen"; hint?: string }
   /** v17: "cuốn phim" — nhiều khung ảnh TỰ cuộn qua lần lượt (như trailer),
    *  mỗi khung có 1 dòng chú thích riêng hiện đồng bộ theo khung đang chiếu
    *  (xem FILMREEL_FRAME_MS trong Intro.tsx). Xong hết khung thì tự sang
@@ -75,8 +80,12 @@ export type HireStep = { id?: string } & (
       frames: { src: string; caption: string }[];
       /** "letter" = đảo trọng tâm: ảnh thu nhỏ làm thumbnail, text to chạy
        *  kiểu máy đánh chữ (gõ từng chữ) chiếm chỗ chính — dùng cho cảnh
-       *  "đọc thư" (so với mặc định: ảnh to, caption nhỏ bên dưới). */
-      variant?: "letter";
+       *  "đọc thư" (so với mặc định: ảnh to, caption nhỏ bên dưới).
+       *  v18: "dossier" = từng khung là 1 CARD ảnh (hoá đơn/món quà/lời
+       *  yêu thương) bay ra xếp xoè theo thứ tự, chữ dưới cộng dồn như
+       *  "letter" nhưng ảnh KHÔNG thay thế nhau — card cũ vẫn nằm đó, chỉ
+       *  thêm card mới chồng lên (dùng cho cảnh mở file bằng chứng). */
+      variant?: "letter" | "dossier";
       /** ms mỗi khung — mặc định FILMREEL_FRAME_MS (Intro.tsx). Variant
        *  "letter" nên đặt dài hơn để có đủ thời gian gõ hết chữ + đọc. */
       frameMs?: number;

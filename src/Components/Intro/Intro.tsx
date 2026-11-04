@@ -57,11 +57,16 @@ export default function Intro({ caseData, onDone, onCinemaModeChange }: IntroPro
   const [cinemaFrames, setCinemaFrames] = useState<{ src: string; caption: string }[] | null>(null);
   // v17: "letter" = ảnh thumbnail nhỏ + chữ to gõ kiểu máy đánh chữ (cảnh
   // đọc thư); undefined = mặc định ảnh to/caption nhỏ (cuốn phim mở đầu).
-  const [cinemaVariant, setCinemaVariant] = useState<"letter" | undefined>(undefined);
+  const [cinemaVariant, setCinemaVariant] = useState<"letter" | "dossier" | undefined>(undefined);
   // v17: nền tối đang bật hay không — true cho CẢ "titleCard" (không có
   // frames ảnh, chỉ có chữ) lẫn "filmReel"/choices-cta kế thừa theo sau.
   // Tách riêng khỏi cinemaFrames vì titleCard không có mảng frames nào.
   const [cinemaOn, setCinemaOn] = useState(false);
+  // v18: cinemaOn chỉ còn nghĩa "đang full-bleed" (ẩn doodle/eye icon) —
+  // nền có TỐI hay không (để StatusBar đổi icon trắng/đen) giờ tách riêng
+  // ra đây, vì màn "Files" (fileOpen/filmReel dossier) cũng full-bleed
+  // nhưng nền SÁNG, khác hẳn titleCard/filmReel mặc định (nền tối).
+  const [cinemaDark, setCinemaDark] = useState(false);
   const logEndRef = useRef<HTMLDivElement | null>(null);
   const current = steps[revealed];
   // Không hỏi tên người chơi (bỏ bước nameInput) — "{{name}}, " trong data
@@ -81,8 +86,10 @@ export default function Intro({ caseData, onDone, onCinemaModeChange }: IntroPro
   useEffect(() => {
     const step = steps[revealed];
     // "filmReel" tự chạy qua nhiều khung bằng effect riêng bên dưới, không
-    // dùng chung 1 timer với các step còn lại.
-    if (!step || step.type === "choices" || step.type === "cta" || step.type === "filmReel") {
+    // dùng chung 1 timer với các step còn lại. "fileOpen" không tự chuyển
+    // bước theo giờ — đứng yên chờ người chơi CHẠM vào file (xem onClick
+    // trong phần render) mới sang bước kế.
+    if (!step || step.type === "choices" || step.type === "cta" || step.type === "filmReel" || step.type === "fileOpen") {
       setTyping(false);
       return;
     }
@@ -160,12 +167,25 @@ export default function Intro({ caseData, onDone, onCinemaModeChange }: IntroPro
   useLayoutEffect(() => {
     const step = steps[revealed];
     if (!step) return;
-    if (step.type === "titleCard") {
+    if (step.type === "fileOpen") {
+      // v18: màn hình app Files — nền SÁNG (khác hẳn titleCard/filmReel
+      // nền tối) — cinemaOn vẫn bật (full-bleed, ẩn doodle/eye icon) nhưng
+      // cinemaDark=false để StatusBar giữ icon ĐEN (hợp nền sáng, xem
+      // onCinemaModeChange bên dưới).
       setCinemaOn(true);
+      setCinemaDark(false);
+      setCinemaFrames(null);
+      setCinemaVariant(undefined);
+    } else if (step.type === "titleCard") {
+      setCinemaOn(true);
+      setCinemaDark(true);
       setCinemaFrames(null);
       setCinemaVariant(undefined);
     } else if (step.type === "filmReel") {
       setCinemaOn(true);
+      // variant "dossier" = vẫn đang trong màn Files sáng ở trên, card chỉ
+      // bay ra NGAY TRONG màn đó — không phải nền tối kiểu cuốn phim.
+      setCinemaDark(step.variant !== "dossier");
       setCinemaFrames(step.frames);
       setCinemaVariant(step.variant);
     } else if (step.type !== "choices" && step.type !== "cta" && step.type !== "cinemaCaption") {
@@ -174,14 +194,15 @@ export default function Intro({ caseData, onDone, onCinemaModeChange }: IntroPro
       setCinemaVariant(undefined);
     }
     // "choices"/"cta"/"cinemaCaption": GIỮ NGUYÊN cinemaFrames/cinemaOn/
-    // cinemaVariant — cinemaCaption chỉ đổi CHỮ hiện ra, ảnh/track đứng yên
-    // tuyệt đối, không re-render lại <img> nào (xem phần render bên dưới).
+    // cinemaDark/cinemaVariant — cinemaCaption chỉ đổi CHỮ hiện ra, ảnh/
+    // track đứng yên tuyệt đối, không re-render lại <img> nào (xem phần
+    // render bên dưới).
   }, [revealed, steps]);
 
   useEffect(() => {
-    onCinemaModeChange?.(cinemaOn);
+    onCinemaModeChange?.(cinemaDark);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [cinemaOn]);
+  }, [cinemaDark]);
 
   // "filmReel" KHÔNG nằm trong dòng chat — nó chiếm toàn màn hình riêng (xem
   // render bên dưới), nên không đi qua log cuộn này, và cũng không để lại gì
@@ -288,7 +309,116 @@ export default function Intro({ caseData, onDone, onCinemaModeChange }: IntroPro
           thiệu ngắn), hiện trước "filmReel", cùng nền tối/sprocket cho
           đồng bộ. Tự chuyển sang filmReel sau TITLECARD_MS, không cần
           người chơi bấm gì. */}
-      {current?.type === "titleCard" ? (
+      {current?.type === "fileOpen" || cinemaVariant === "dossier" ? (
+        // v18: "mở file bằng chứng" — giờ KHÔNG còn là cảnh cinema full-bleed
+        // tối/kraft nữa (bị chê "quê", giả) mà dựng thành 1 MÀN HÌNH APP
+        // FILES THẬT trên điện thoại (nền sáng, header "Files", danh sách
+        // file) — đúng yêu cầu "đưa file trong màn hình điện thoại". 1 CẢNH
+        // LIÊN TỤC duy nhất (key cố định "cinema-dossier" suốt cả bước
+        // fileOpen lẫn filmReel/dossier ngay sau đó) — không remount, header
+        // Files đứng yên xuyên suốt, chỉ phần danh sách đổi thành card bay
+        // ra khi đã chạm vào file.
+        <div key="cinema-dossier" className={styles.filesScreen}>
+          <div className={styles.filesHeader}>
+            <h2 className={styles.filesTitle}>Files</h2>
+            <p className={styles.filesSubtitle}>On Marco's iPhone</p>
+          </div>
+
+          <div className={styles.filesBody}>
+            {!cinemaFrames ? (
+              // v18: danh sách file — vài file vô hại làm nhiễu + 1 FOLDER
+              // phát sáng (đúng folder Ruby nhắc tới trong câu hỏi đầu) —
+              // chạm vào mới mở.
+              <div className={styles.filesList}>
+                <div className={styles.filesRow}>
+                  <span className={styles.filesRowIcon}>🖼️</span>
+                  <div className={styles.filesRowText}>
+                    <span className={styles.filesRowName}>IMG_0421.jpg</span>
+                    <span className={styles.filesRowMeta}>2.1 MB</span>
+                  </div>
+                </div>
+                <div className={styles.filesRow}>
+                  <span className={styles.filesRowIcon}>📄</span>
+                  <div className={styles.filesRowText}>
+                    <span className={styles.filesRowName}>Boarding_pass_SFO.pdf</span>
+                    <span className={styles.filesRowMeta}>184 KB</span>
+                  </div>
+                </div>
+                <div
+                  className={`${styles.filesRow} ${styles.filesRowHot}`}
+                  onClick={() => setRevealed((r) => r + 1)}
+                  role="button"
+                  tabIndex={0}
+                >
+                  <span className={styles.filesRowIcon}>📁</span>
+                  <div className={styles.filesRowText}>
+                    <span className={styles.filesRowName}>Receipts</span>
+                    <span className={styles.filesRowMeta}>3 items</span>
+                  </div>
+                </div>
+                <div className={styles.filesRow}>
+                  <span className={styles.filesRowIcon}>📄</span>
+                  <div className={styles.filesRowText}>
+                    <span className={styles.filesRowName}>Invoice_June.pdf</span>
+                    <span className={styles.filesRowMeta}>96 KB</span>
+                  </div>
+                </div>
+                {current?.type === "fileOpen" && (
+                  <p className={styles.fileTapHint}>{current.hint ?? "Tap to open"}</p>
+                )}
+              </div>
+            ) : (
+              // v18: card ảnh bên trong folder "Receipts" bay ra ngay chỗ
+              // danh sách vừa đứng, kèm 1 dòng chú thích riêng cho từng
+              // manh mối cộng dồn bên dưới — header "Files" phía trên đứng
+              // yên xuyên suốt, không cắt cảnh.
+              <div className={styles.dossierScene}>
+                <div className={styles.dossierCards}>
+                  {cinemaFrames.slice(0, cinemaFrameIdx + 1).map((f, i) => {
+                    // v18: xoè rải rác — vị trí/góc xoay "pseudo-random"
+                    // (hàm sin, không phải Math.random()) CỐ ĐỊNH theo
+                    // index, nên không nhảy chỗ khi có thêm card mới.
+                    const rnd = (seed: number) => {
+                      const x = Math.sin(seed * 12.9898) * 43758.5453;
+                      return x - Math.floor(x);
+                    };
+                    const dx = (rnd(i * 2 + 1) - 0.5) * 190;
+                    const dy = (rnd(i * 2 + 2) - 0.5) * 70;
+                    const rot = (rnd(i * 2 + 3) - 0.5) * 40;
+                    const scale = 0.78 + rnd(i * 2 + 7) * 0.44;
+                    const w = Math.round(124 * scale);
+                    const h = Math.round(94 * scale);
+                    return (
+                      <div
+                        key={i}
+                        className={styles.dossierCard}
+                        style={{
+                          width: w,
+                          height: h,
+                          "--dx": `${dx}px`,
+                          "--dy": `${dy}px`,
+                          "--rot": `${rot}deg`,
+                          "--i": i,
+                        } as any}
+                      >
+                        <img className={styles.dossierCardImg} src={f.src} alt="" />
+                      </div>
+                    );
+                  })}
+                </div>
+                <div className={styles.dossierTextStack}>
+                  {cinemaFrames.slice(0, cinemaFrameIdx + 1).map((f, i) => (
+                    <p key={i} className={styles.dossierText}>
+                      {f.caption}
+                    </p>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+          <div className={styles.reelButtonSlot}>{choiceButtons}</div>
+        </div>
+      ) : current?.type === "titleCard" ? (
         // key cố định riêng cho nhánh titleCard — ép React UNMOUNT hẳn
         // (không tái dùng DOM node) khi chuyển sang nhánh filmReel bên
         // dưới, để animation fade-in của .reelMain chắc chắn chạy lại mỗi

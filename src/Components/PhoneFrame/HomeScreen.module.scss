@@ -93,6 +93,14 @@
   cursor: grab;
   scrollbar-width: none;
   -ms-overflow-style: none;
+  // Chặn hẳn hành vi "kéo-thả ảnh/chọn text" mặc định của trình duyệt bên
+  // trong vùng vuốt trang — nếu bắt đầu kéo NGAY TRÊN 1 icon <img>, Chrome
+  // (test bằng chuột trên desktop) sẽ ưu tiên native image-drag thay vì
+  // bắn pointermove liên tục cho logic vuốt trang tự viết ở trên, khiến
+  // vuốt KHÔNG chuyển trang được (chỉ đúng khi bắt đầu kéo ở chỗ trống).
+  -webkit-user-drag: none;
+  user-select: none;
+  -webkit-user-select: none;
 
   &::-webkit-scrollbar {
     display: none;
@@ -100,6 +108,12 @@
 
   &:active {
     cursor: grabbing;
+  }
+
+  img {
+    -webkit-user-drag: none;
+    user-drag: none;
+    pointer-events: none;
   }
 }
 

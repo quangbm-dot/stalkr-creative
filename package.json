@@ -14,7 +14,8 @@
     "build:v10": "node scripts/build-v10.cjs",
     "build:v15": "node scripts/build-v15.cjs",
     "build:v16": "node scripts/build-v16.cjs",
-    "build:v17": "node scripts/build-v17.cjs"
+    "build:v17": "node scripts/build-v17.cjs",
+    "build:v18": "node scripts/build-v18.cjs"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.4",
