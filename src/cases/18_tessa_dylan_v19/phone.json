@@ -1,0 +1,3648 @@
+{
+ "caseName": "Dylan’s Expensive Secret",
+ "title": "Tessa & Dylan",
+ "now": "2026-08-06T23:59:00",
+ "client": {
+  "name": "Tessa",
+  "avatar": "msg_1.webp"
+ },
+ "owner": {
+  "first": "Dylan",
+  "full": "Dylan Marsh",
+  "avatar": null
+ },
+ "wallpaper": "wallpaper.webp",
+ "passcode": "908937",
+ "totalQuestions": 5,
+ "questions": [
+  {
+   "id": 1,
+   "text": "Dylan keeps telling me about a new sponsorship deal for his swim club.\nHe says it's an incredible opportunity.\nBefore we go any further — who's he been working that deal with?",
+   "answer": "Adrienne",
+   "decoys": [
+    "Hallie",
+    "Nora",
+    "Tessa"
+   ],
+   "hint": "Dig through his messages."
+  },
+  {
+   "id": 2,
+   "text": "They seem to meet up pretty often.\nWhere is he right now?",
+   "answer": "Bay View",
+   "decoys": [
+    "The Harp",
+    "Pulaski Aquatic Center",
+    "Wisconsin Athletic Club"
+   ],
+   "hint": "Check Maps."
+  },
+  {
+   "id": 3,
+   "text": "He's probably not the only one who can see his location.\nCheck if he's shared it with someone who has no business knowing where he is.\nWhich account is it?",
+   "answer": "quietwater7",
+   "decoys": [
+    "trey.dyle",
+    "dylanmarsh29",
+    "arden.riley"
+   ],
+   "hint": "Check the location-sharing settings in Google Maps — scroll down to see who it's shared with."
+  },
+  {
+   "id": 4,
+   "text": "That's a strange email to find...\nWho's behind it?",
+   "answer": "Adrienne Vance",
+   "decoys": [
+    "Trey Doyle",
+    "Renata Salas",
+    "Curt Pratt"
+   ],
+   "hint": "In Gmail, pull up an email from quietwater7 and check the signature."
+  },
+  {
+   "id": 5,
+   "text": "No more hiding behind \"Vance.\"\nI'm dealing with this right now!\nWhat's her phone number?",
+   "answer": "4145550100",
+   "decoys": [
+    "4145550129",
+    "4145550152",
+    "4145550125"
+   ],
+   "hint": "Check contacts for her phone number."
+  }
+ ],
+ "onboarding": [
+  {
+   "text": "They say that whatever someone's covering up, you'll find it. That's exactly the kind of person I need right now.",
+   "label": "Tessa",
+   "image": "onboarding_1.webp"
+  },
+  {
+   "text": "I'm Tessa. Two years now with Dylan. Between his job and his swim sessions, money has never been something we had. And lately it's worse than ever — his pay barely covers anything, the swim brings in nothing, and I was let go from my job a few weeks ago.",
+   "label": "Tessa & Dylan",
+   "image": "onboarding_2.webp"
+  },
+  {
+   "text": "And yet the money still drains away and I can't trace where it goes. Dylan is out more and more, home later and later, forever glued to his phone. Work and the club, he says. I don't believe it any more. His phone is in my hands — find me what he's hiding.",
+   "label": "Tessa",
+   "image": "onboarding_3.webp"
+  }
+ ],
+ "home": [
+  {
+   "app": "settings",
+   "label": "Settings"
+  },
+  {
+   "app": "notes",
+   "label": "Notes"
+  },
+  {
+   "app": "clock",
+   "label": "Clock"
+  },
+  {
+   "app": "calendar",
+   "label": "Calendar"
+  },
+  {
+   "app": "maps",
+   "label": "Maps"
+  },
+  {
+   "app": "whatsapp",
+   "label": "WhatsApp"
+  },
+  {
+   "app": "gmail",
+   "label": "Gmail"
+  },
+  {
+   "app": "revolut",
+   "label": "RevoBank"
+  }
+ ],
+ "dock": [
+  {
+   "app": "messages",
+   "label": "Messages"
+  },
+  {
+   "app": "phone",
+   "label": "Phone"
+  },
+  {
+   "app": "photos",
+   "label": "Photos"
+  }
+ ],
+ "missingApps": [],
+ "calls": [
+  {
+   "name": "Tessa ❤️",
+   "time": "Yesterday, 9:15 PM",
+   "type": "incoming",
+   "detail": "6 min"
+  },
+  {
+   "name": "Wes",
+   "time": "Yesterday, 2:37 PM",
+   "type": "incoming",
+   "detail": ""
+  },
+  {
+   "name": "Mr. Wendt (Boss)",
+   "time": "Yesterday, 9:30 AM",
+   "type": "incoming",
+   "detail": "7 min"
+  },
+  {
+   "name": "Trey Doyle",
+   "time": "Tuesday, 10:00 PM",
+   "type": "incoming",
+   "detail": "3 min"
+  },
+  {
+   "name": "Tessa ❤️",
+   "time": "Tuesday, 6:30 PM",
+   "type": "outgoing",
+   "detail": "2 min"
+  },
+  {
+   "name": "Dean",
+   "time": "Tuesday, 11:52 AM",
+   "type": "incoming",
+   "detail": "2 min"
+  },
+  {
+   "name": "Mom",
+   "time": "Monday, 5:36 PM",
+   "type": "incoming",
+   "detail": "10 min"
+  },
+  {
+   "name": "Coach Pruitt",
+   "time": "Monday, 4:30 PM",
+   "type": "incoming",
+   "detail": "2 min"
+  },
+  {
+   "name": "Grady (Brother)",
+   "time": "Sunday, 9:00 PM",
+   "type": "outgoing",
+   "detail": "3 min"
+  },
+  {
+   "name": "Adrienne Swim Club",
+   "time": "Sunday, 10:51 AM",
+   "type": "incoming",
+   "detail": "3 min"
+  },
+  {
+   "name": "Tessa ❤️",
+   "time": "Saturday, 8:00 PM",
+   "type": "incoming",
+   "detail": "9 min"
+  },
+  {
+   "name": "Cole",
+   "time": "Saturday, 6:08 PM",
+   "type": "outgoing",
+   "detail": "4 min"
+  },
+  {
+   "name": "Wes",
+   "time": "Friday, 6:20 PM",
+   "type": "outgoing",
+   "detail": "1 min"
+  },
+  {
+   "name": "Mr. Wendt (Boss)",
+   "time": "7/30/26, 2:00 PM",
+   "type": "outgoing",
+   "detail": "1 min"
+  },
+  {
+   "name": "Tessa ❤️",
+   "time": "7/30/26, 12:29 PM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Dad",
+   "time": "7/29/26, 8:15 PM",
+   "type": "incoming",
+   "detail": "5 min"
+  },
+  {
+   "name": "Curt",
+   "time": "7/28/26, 8:30 PM",
+   "type": "incoming",
+   "detail": "4 min"
+  },
+  {
+   "name": "Tessa ❤️",
+   "time": "7/27/26, 7:30 PM",
+   "type": "incoming",
+   "detail": "4 min"
+  },
+  {
+   "name": "Rory Stats",
+   "time": "7/27/26, 8:28 AM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Grady (Brother)",
+   "time": "7/26/26, 2:30 PM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Mom",
+   "time": "7/25/26, 7:30 PM",
+   "type": "outgoing",
+   "detail": "6 min"
+  },
+  {
+   "name": "Coach Pruitt",
+   "time": "7/24/26, 10:00 AM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Cole",
+   "time": "7/23/26, 7:00 PM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Tessa ❤️",
+   "time": "7/22/26, 4:55 PM",
+   "type": "outgoing",
+   "detail": "2 min"
+  },
+  {
+   "name": "Owen",
+   "time": "7/21/26, 9:30 PM",
+   "type": "incoming",
+   "detail": "2 min"
+  },
+  {
+   "name": "Mr. Wendt (Boss)",
+   "time": "7/19/26, 9:15 AM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Rory Stats",
+   "time": "7/17/26, 11:52 AM",
+   "type": "outgoing",
+   "detail": "1 min"
+  },
+  {
+   "name": "Curt",
+   "time": "7/15/26, 9:00 PM",
+   "type": "outgoing",
+   "detail": "20 min"
+  }
+ ],
+ "contacts": [
+  {
+   "name": "Adrienne Swim Club",
+   "phoneNumber": "4145550100"
+  },
+  {
+   "name": "Trey Doyle",
+   "phoneNumber": "+14145550152"
+  },
+  {
+   "name": "Plumber - Shorewood",
+   "phoneNumber": "+14145550185"
+  },
+  {
+   "name": "Mom",
+   "phoneNumber": "4145550129"
+  },
+  {
+   "name": "Jonah",
+   "phoneNumber": "+14145550162"
+  },
+  {
+   "name": "Wisconsin Athletic Club",
+   "phoneNumber": "+14145550149"
+  },
+  {
+   "name": "Coach Pruitt",
+   "phoneNumber": "+14145550106"
+  },
+  {
+   "name": "Dr. Moran (dentist)",
+   "phoneNumber": "+14145550133"
+  },
+  {
+   "name": "Dean",
+   "phoneNumber": "+14145550160"
+  },
+  {
+   "name": "Nora",
+   "phoneNumber": "+14145550119"
+  },
+  {
+   "name": "Dad",
+   "phoneNumber": "+14145550121"
+  },
+  {
+   "name": "Curt",
+   "phoneNumber": "+14145550191"
+  },
+  {
+   "name": "Wes",
+   "phoneNumber": "+14145550102"
+  },
+  {
+   "name": "Rory Stats",
+   "phoneNumber": "+14145550156"
+  },
+  {
+   "name": "Hallie",
+   "phoneNumber": "+14145550140"
+  },
+  {
+   "name": "Cole",
+   "phoneNumber": "+14145550136"
+  },
+  {
+   "name": "Grady (Brother)",
+   "phoneNumber": "+14145550189"
+  },
+  {
+   "name": "Mr. Wendt (Boss)",
+   "phoneNumber": "+14145550100"
+  },
+  {
+   "name": "Reed",
+   "phoneNumber": "+14145550192"
+  },
+  {
+   "name": "Tessa ❤️",
+   "phoneNumber": "+14145550125"
+  },
+  {
+   "name": "Owen",
+   "phoneNumber": "+14145550123"
+  },
+  {
+   "name": "Adrienne Vance",
+   "phoneNumber": "4145550100"
+  }
+ ],
+ "messages": [
+  {
+   "id": "conv-chloe",
+   "title": "Adrienne Swim Club",
+   "time": "9:20 AM",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hi Dylan, it's Adrienne from the club. I got your request for the jerseys."
+    },
+    {
+     "me": true,
+     "text": "Hey Adrienne! Great, can you place the order?"
+    },
+    {
+     "me": false,
+     "text": "Sure, I'll put it through this afternoon. How many size L?"
+    },
+    {
+     "me": true,
+     "text": "5 larges and 3 XLs, thanks"
+    },
+    {
+     "me": false,
+     "text": "Got it, I'll put the order in 👍"
+    },
+    {
+     "me": false,
+     "text": "Dylan — the sponsorship file, I've made a start on it. Could you read it through when you get five minutes?"
+    },
+    {
+     "me": true,
+     "text": "Sure, I'll go through it once I'm home tonight"
+    },
+    {
+     "me": false,
+     "text": "You're a star, thank you!"
+    },
+    {
+     "me": false,
+     "text": "Hey Dylan, I finished preparing the documents."
+    },
+    {
+     "me": true,
+     "text": "Awesome thanks Adrienne!"
+    },
+    {
+     "me": false,
+     "text": "Can we sit down tomorrow and go through the sponsorship file?"
+    },
+    {
+     "me": true,
+     "text": "Yeah that works, 2pm at the club?"
+    },
+    {
+     "me": false,
+     "text": "Great — tomorrow it is 👍"
+    }
+   ]
+  },
+  {
+   "id": "conv-lina",
+   "title": "Tessa ❤️",
+   "time": "8:22 AM",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hey babe — the bread. Did that happen?"
+    },
+    {
+     "me": true,
+     "text": "Ugh 😬 completely slipped my mind, I'll swing by the store on the way back"
+    },
+    {
+     "me": false,
+     "text": "Every single time 😂"
+    },
+    {
+     "me": true,
+     "text": "Guilty as charged... let me cook you something proper tonight to make up for it?"
+    },
+    {
+     "me": false,
+     "text": "Now you're talking 😘"
+    },
+    {
+     "me": false,
+     "text": "Still thinking about last night ❤️ dinner was lovely, thank you"
+    },
+    {
+     "me": true,
+     "text": "Any time babe 😊 I had a really good evening"
+    },
+    {
+     "me": false,
+     "text": "So what's the plan this weekend?"
+    },
+    {
+     "me": true,
+     "text": "Weather's meant to be gorgeous — how about a long walk by the lake?"
+    },
+    {
+     "me": false,
+     "text": "Ohh yes please! We could follow the lakefront path all the way up to Shorewood"
+    },
+    {
+     "me": true,
+     "text": "Locked in 🤙"
+    },
+    {
+     "me": false,
+     "text": "You said 7pm. It's 7pm. Where are you?"
+    },
+    {
+     "me": true,
+     "text": "Sorry, practice went over — 15 min and I'm there"
+    },
+    {
+     "me": false,
+     "text": "Ok... your dinner's going cold btw"
+    },
+    {
+     "me": true,
+     "text": "I know, I know 🙏 going as fast as I can"
+    },
+    {
+     "me": false,
+     "text": "Dylan. I just looked at the joint account. It's practically empty — what's going on?"
+    },
+    {
+     "me": true,
+     "text": "The club ate a lot of it this month, plus all the usual stuff"
+    },
+    {
+     "me": false,
+     "text": "The club? I thought that ran off the membership dues??"
+    },
+    {
+     "me": true,
+     "text": "It does but there's always extras, travel, jerseys, all that"
+    },
+    {
+     "me": false,
+     "text": "That's 3 months running that we've been in the red, Dylan. Something has to change"
+    },
+    {
+     "me": true,
+     "text": "I hear you. I'll get a grip on it, promise"
+    },
+    {
+     "me": false,
+     "text": "You say that every single time. Sit down with me and talk about it properly."
+    },
+    {
+     "me": true,
+     "text": "Fair. This weekend, we go through all of it, ok?"
+    },
+    {
+     "me": false,
+     "text": "Fine."
+    },
+    {
+     "me": true,
+     "text": "Did a grocery run, got everything we need for dinner"
+    },
+    {
+     "me": false,
+     "text": "Aw thanks 🙂 are you the one cooking?"
+    },
+    {
+     "me": true,
+     "text": "Course I am — carbonara, the one you love"
+    },
+    {
+     "me": false,
+     "text": "See, you can be lovely when you try 😘"
+    },
+    {
+     "me": false,
+     "text": "The bank appointment Monday — please don't let that one slip"
+    },
+    {
+     "me": true,
+     "text": "Relax it's on the calendar! 10am"
+    },
+    {
+     "me": false,
+     "text": "Good 👍"
+    },
+    {
+     "me": false,
+     "text": "What time do you think you'll be home?"
+    },
+    {
+     "me": true,
+     "text": "Around 6:30 usually, how come?"
+    },
+    {
+     "me": false,
+     "text": "Just checking if we're having dinner together"
+    },
+    {
+     "me": true,
+     "text": "Yeah obviously ❤️"
+    },
+    {
+     "me": false,
+     "text": "Cool, see you tonight then 😊"
+    },
+    {
+     "me": false,
+     "text": "Have a lovely day babe 💪 and practice tonight, remember"
+    },
+    {
+     "me": true,
+     "text": "Thanks babe, you have a good one too! I've got it 😊"
+    }
+   ],
+   "avatar": "msg_1.webp"
+  },
+  {
+   "id": "conv-verizon",
+   "title": "Verizon",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Verizon: Your bill of $29.99 is available. View it at verizon.com/bill"
+    },
+    {
+     "me": false,
+     "text": "Verizon: Your plan renewed automatically. The next payment comes out 03/05."
+    }
+   ]
+  },
+  {
+   "id": "conv-liam",
+   "title": "Grady (Brother)",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Yo the garage keypad won't take the old code anymore?"
+    },
+    {
+     "me": true,
+     "text": "Yeah I switched it, it's my PayPal one now: Mom's birth year"
+    },
+    {
+     "me": false,
+     "text": "Got it, writing it down 👍"
+    },
+    {
+     "me": false,
+     "text": "Bro 😭 you need to see this"
+    },
+    {
+     "me": false,
+     "text": "Tell me that isn't you at swim practice 💀"
+    },
+    {
+     "me": true,
+     "text": "No chance 😭"
+    },
+    {
+     "me": false,
+     "text": "Got a delivery landing at yours tomorrow morning — will you be in?"
+    },
+    {
+     "me": true,
+     "text": "All good, I'm not out the door till 11am"
+    },
+    {
+     "me": false,
+     "text": "Legend, thank you 🙏"
+    },
+    {
+     "me": true,
+     "text": "What show are you on right now on Netflix?"
+    },
+    {
+     "me": false,
+     "text": "Started Black Mirror. Absolutely wild."
+    },
+    {
+     "me": true,
+     "text": "Oh yeah, been meaning to start that one"
+    },
+    {
+     "me": false,
+     "text": "It's like 3 episodes a season so you'd fly through it"
+    },
+    {
+     "me": true,
+     "text": "Perfect, that's about my attention span right now 😅"
+    },
+    {
+     "me": false,
+     "text": "Start with the dating app one, trust me on that"
+    },
+    {
+     "me": true,
+     "text": "Noted 📺"
+    },
+    {
+     "me": false,
+     "text": "Any chance of a call tonight bro?"
+    },
+    {
+     "me": true,
+     "text": "Yeah after practice, say 9:30?"
+    },
+    {
+     "me": false,
+     "text": "Yeah that's good!"
+    },
+    {
+     "me": true,
+     "text": "Do you still have grandma's tiramisu recipe anywhere?"
+    },
+    {
+     "me": false,
+     "text": "Two secs, checking my notes"
+    },
+    {
+     "me": false,
+     "text": "I don't have it, hit up Mom, she's got it"
+    },
+    {
+     "me": true,
+     "text": "Right, I'll message her then"
+    },
+    {
+     "me": false,
+     "text": "Did you guys win yesterday?"
+    },
+    {
+     "me": true,
+     "text": "Yeah 12-8, we ran them off the pool 💪"
+    },
+    {
+     "me": false,
+     "text": "That's my guy"
+    },
+    {
+     "me": false,
+     "text": "So — Mom's birthday. Any plan yet?"
+    },
+    {
+     "me": true,
+     "text": "Was thinking we grab dinner out, just us, sound good?"
+    },
+    {
+     "me": false,
+     "text": "Yeah let's do it! Split it down the middle?"
+    },
+    {
+     "me": true,
+     "text": "Sold. I'll sort the booking and we go halves"
+    },
+    {
+     "me": false,
+     "text": "Nice one 🤝"
+    },
+    {
+     "me": true,
+     "text": "That new Damso album — have you got round to it?"
+    },
+    {
+     "me": false,
+     "text": "Not yet, why, is it worth it?"
+    },
+    {
+     "me": true,
+     "text": "It goes hard. Even just play the opening track."
+    },
+    {
+     "me": false,
+     "text": "Sticking it on tonight 🎧"
+    },
+    {
+     "me": false,
+     "text": "Anyway — you and Tessa, all good?"
+    },
+    {
+     "me": true,
+     "text": "Yeah properly good. We're sorting a weekend away by the water next month"
+    },
+    {
+     "me": false,
+     "text": "Oh sweet!! Where you headed?"
+    },
+    {
+     "me": true,
+     "text": "Traverse City, fingers crossed"
+    },
+    {
+     "me": false,
+     "text": "Jealous. Make the most of it 🌊"
+    },
+    {
+     "me": false,
+     "text": "Have you had Dad on the phone lately?"
+    },
+    {
+     "me": true,
+     "text": "He rang me Sunday, sounded great. Now he wants to redo the patio apparently"
+    },
+    {
+     "me": false,
+     "text": "Haha of course 😂 dude's been saying that for like 3 years"
+    },
+    {
+     "me": true,
+     "text": "We should just go help him out some weekend right?"
+    },
+    {
+     "me": false,
+     "text": "Yeah for real, let's actually put it on the calendar"
+    },
+    {
+     "me": true,
+     "text": "Have you got work Saturday?"
+    },
+    {
+     "me": false,
+     "text": "Nah, why"
+    },
+    {
+     "me": true,
+     "text": "Wanted to drop your charger back"
+    },
+    {
+     "me": false,
+     "text": "Oh right, I do need that, swing by whenever"
+    },
+    {
+     "me": false,
+     "text": "Mom just kept me on the phone 15 min about some new \"amazing\" restaurant she found"
+    },
+    {
+     "me": true,
+     "text": "Go on. Another supper club, right?"
+    },
+    {
+     "me": false,
+     "text": "... yeah 😭😭"
+    },
+    {
+     "me": true,
+     "text": "LMAOOO that woman will never change"
+    },
+    {
+     "me": true,
+     "text": "Yo what's the Google Photos login again?"
+    },
+    {
+     "me": false,
+     "text": "It's sunflower22 — and just use my email again, same family login as Spotify, you always forget lol"
+    },
+    {
+     "me": true,
+     "text": "Ohhh yeah of course 😅 cheers!!!"
+    }
+   ]
+  },
+  {
+   "id": "conv-coach-marc",
+   "title": "Coach Pruitt",
+   "time": "Monday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Dylan, Thursday practice is off — the pool is shut for maintenance."
+    },
+    {
+     "me": true,
+     "text": "Understood Coach. When are we making it up?"
+    },
+    {
+     "me": false,
+     "text": "Friday same time, 6:15pm. Pass the word to the guys."
+    },
+    {
+     "me": true,
+     "text": "Done 👍"
+    },
+    {
+     "me": false,
+     "text": "Solid work Saturday, all of you. Dylan, that left side defense still needs hours."
+    },
+    {
+     "me": true,
+     "text": "Felt it in the water honestly. I'll drill it at practice."
+    },
+    {
+     "me": false,
+     "text": "That's the attitude. Tuesday we go through it."
+    },
+    {
+     "me": false,
+     "text": "Heads up: regionals are two months out. I need everyone available."
+    },
+    {
+     "me": true,
+     "text": "Understood Coach, count me in"
+    },
+    {
+     "me": false,
+     "text": "Good. Pass it on to Wes as well, I get nothing back from him."
+    },
+    {
+     "me": true,
+     "text": "On it, I'll text him"
+    }
+   ],
+   "avatar": "msg_4.webp"
+  },
+  {
+   "id": "conv-maman",
+   "title": "Mom",
+   "time": "Sunday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hi honey, you coming over for dinner Sunday?"
+    },
+    {
+     "me": true,
+     "text": "Hi Mom! Count us in — Tessa's coming as well"
+    },
+    {
+     "me": false,
+     "text": "Wonderful! I'll do the scalloped potatoes you like 😊"
+    },
+    {
+     "me": true,
+     "text": "Oh yes. Best thing you make 😍"
+    },
+    {
+     "me": false,
+     "text": "Oh I know honey 🥰 See you Sunday then!"
+    },
+    {
+     "me": true,
+     "text": "Thanks for last night, it was so nice 😘"
+    },
+    {
+     "me": false,
+     "text": "Any time honey ❤️ and Tessa said lovely things about it too"
+    },
+    {
+     "me": false,
+     "text": "Sweetie — would you mind collecting my prescription from the pharmacy?"
+    },
+    {
+     "me": true,
+     "text": "Of course. Where do I find the slip?"
+    },
+    {
+     "me": false,
+     "text": "It's on the kitchen table, the key's right there"
+    },
+    {
+     "me": true,
+     "text": "Perfect. I'll drop in tonight on the way home from work then."
+    },
+    {
+     "me": false,
+     "text": "Thank you honey ❤️"
+    },
+    {
+     "me": true,
+     "text": "Pharmacy shuts at 7 right?"
+    },
+    {
+     "me": false,
+     "text": "7:30 I think honey, but don't leave it too late"
+    },
+    {
+     "me": true,
+     "text": "On my way over there now"
+    },
+    {
+     "me": true,
+     "text": "Picked up ✅ bringing them over tomorrow morning"
+    },
+    {
+     "me": false,
+     "text": "What would I do without you 🥰 thank you darling"
+    },
+    {
+     "me": false,
+     "text": "Dylan, your dad and I have a weekend in Egg Harbor coming up next week. Anything you'd like us to bring back?"
+    },
+    {
+     "me": true,
+     "text": "Oh lovely! Bring me some of that cherry jam 😄"
+    },
+    {
+     "me": false,
+     "text": "Consider it done 😂 love you!"
+    }
+   ],
+   "avatar": "msg_5.webp"
+  },
+  {
+   "id": "conv-amazon",
+   "title": "Amazon",
+   "time": "Sunday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Amazon: Order #402-9381726 is on its way. It should reach you 02/20."
+    },
+    {
+     "me": false,
+     "text": "Amazon: Delivered — we left your parcel in the mailbox."
+    }
+   ]
+  },
+  {
+   "id": "conv-jean",
+   "title": "Trey Doyle",
+   "time": "Saturday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Tell me you watched last night. 3-0 Brewers 🔥"
+    },
+    {
+     "me": true,
+     "text": "Every second of it 😤 that second goal though"
+    },
+    {
+     "me": false,
+     "text": "We've gotta hit the stadium next time"
+    },
+    {
+     "me": true,
+     "text": "Say no more — tickets are on me"
+    },
+    {
+     "me": false,
+     "text": "Saturday at mine for a hangout, you around?"
+    },
+    {
+     "me": true,
+     "text": "Definitely. Beers are on me 🍺"
+    },
+    {
+     "me": false,
+     "text": "Nice 👌"
+    },
+    {
+     "me": true,
+     "text": "Still on for Saturday?"
+    },
+    {
+     "me": false,
+     "text": "Course we are — 8pm, mine. Wes and Curt are in as well"
+    },
+    {
+     "me": true,
+     "text": "See you then 👍"
+    }
+   ],
+   "avatar": "msg_7.webp"
+  },
+  {
+   "id": "conv-julien",
+   "title": "Cole",
+   "time": "Friday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Dylan — poker Friday, are we still on?"
+    },
+    {
+     "me": true,
+     "text": "I wouldn't miss it. At yours?"
+    },
+    {
+     "me": false,
+     "text": "Yeah 9, bring chips"
+    },
+    {
+     "me": true,
+     "text": "See you there 🃏"
+    },
+    {
+     "me": false,
+     "text": "Lol you took all my money last time 😂"
+    },
+    {
+     "me": true,
+     "text": "Haha the cards were with me 😎"
+    },
+    {
+     "me": false,
+     "text": "Rematch, soon as you like!"
+    },
+    {
+     "me": true,
+     "text": "Any time you like bro"
+    },
+    {
+     "me": false,
+     "text": "Do you know a decent plumber? Something is dripping under my sink"
+    },
+    {
+     "me": true,
+     "text": "Hang on, digging it out... the plumber up in Shorewood, 414 555 0185"
+    },
+    {
+     "me": false,
+     "text": "Is he any good? Last guy took a week to show up"
+    },
+    {
+     "me": true,
+     "text": "He came out same day for us, ask for a morning slot"
+    },
+    {
+     "me": false,
+     "text": "Calling him now 🙏"
+    },
+    {
+     "me": false,
+     "text": "Thanks man, you're the best"
+    },
+    {
+     "me": false,
+     "text": "5-a-side Thursday evening, you in?"
+    },
+    {
+     "me": true,
+     "text": "Gutted — swim practice that night"
+    },
+    {
+     "me": false,
+     "text": "Swim practice again huh 😅 alright, next time then"
+    }
+   ]
+  },
+  {
+   "id": "conv-patron",
+   "title": "Mr. Wendt (Boss)",
+   "time": "7/30/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Marsh — the meeting tomorrow now starts at 2pm."
+    },
+    {
+     "me": true,
+     "text": "Understood Mr. Wendt, thank you for the heads up."
+    },
+    {
+     "me": false,
+     "text": "Bring the Q4 numbers with you."
+    },
+    {
+     "me": true,
+     "text": "They're ready. I'll email them over tonight."
+    },
+    {
+     "me": false,
+     "text": "Good."
+    },
+    {
+     "me": false,
+     "text": "Marsh, the 15th to the 18th is signed off. Your leave is approved."
+    },
+    {
+     "me": true,
+     "text": "Much appreciated, thank you!"
+    },
+    {
+     "me": false,
+     "text": "Hand your files to Doyle before you go."
+    },
+    {
+     "me": true,
+     "text": "Will do, I'll get that sorted this week."
+    }
+   ]
+  },
+  {
+   "id": "conv-thomas",
+   "title": "Wes",
+   "time": "7/29/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "New season of The Bear — have you started it?"
+    },
+    {
+     "me": true,
+     "text": "Not yet, is it any good?"
+    },
+    {
+     "me": false,
+     "text": "So good! You've gotta watch it"
+    },
+    {
+     "me": true,
+     "text": "Right, weekend project then"
+    },
+    {
+     "me": false,
+     "text": "Oh and I'm doing a cookout at my place Saturday, you coming?"
+    },
+    {
+     "me": true,
+     "text": "Definitely in. Room for Tessa too?"
+    },
+    {
+     "me": false,
+     "text": "For sure! The more the merrier 😄"
+    },
+    {
+     "me": true,
+     "text": "Nice one. What do you want us to bring?"
+    },
+    {
+     "me": false,
+     "text": "Sausages and some bread, that's all — the grill is my job"
+    },
+    {
+     "me": true,
+     "text": "Easy 👍"
+    },
+    {
+     "me": true,
+     "text": "Last night was a blast! Thanks for having us"
+    },
+    {
+     "me": false,
+     "text": "Anytime bro, we're doing that again soon!"
+    },
+    {
+     "me": false,
+     "text": "Free tomorrow evening? Could do a quick drink"
+    },
+    {
+     "me": true,
+     "text": "Can't sorry, practice night"
+    },
+    {
+     "me": false,
+     "text": "No worries, catch you next time!"
+    }
+   ]
+  },
+  {
+   "id": "conv-antoine",
+   "title": "Owen",
+   "time": "7/28/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Dylan — 2 tickets in my hand for the Brewers on Saturday. In?"
+    },
+    {
+     "me": true,
+     "text": "Obviously yes. Who are we playing?"
+    },
+    {
+     "me": false,
+     "text": "Springfield, it's gonna be sick"
+    },
+    {
+     "me": true,
+     "text": "Count me in. Straight to the stadium?"
+    },
+    {
+     "me": false,
+     "text": "Yeah find me by the Gate C stand at 7:30"
+    },
+    {
+     "me": true,
+     "text": "Sorted 👊"
+    },
+    {
+     "me": false,
+     "text": "WHAT A NIGHT 🔥🔥🔥"
+    },
+    {
+     "me": true,
+     "text": "STILL SHAKING 😱 that goal at the 89th, honestly"
+    },
+    {
+     "me": false,
+     "text": "Haha we can go back whenever you want"
+    },
+    {
+     "me": true,
+     "text": "Is the bike still going or did you shift it?"
+    },
+    {
+     "me": false,
+     "text": "Still here — $150, though for you 120 and it's yours"
+    },
+    {
+     "me": true,
+     "text": "Let me sleep on it and I'll come back to you"
+    },
+    {
+     "me": false,
+     "text": "No rush at all 👍"
+    }
+   ]
+  },
+  {
+   "id": "conv-papa",
+   "title": "Dad",
+   "time": "7/26/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hey bud, free to help me move the couch Saturday?"
+    },
+    {
+     "me": true,
+     "text": "Hi Dad! That works — I'll be over about 10am"
+    },
+    {
+     "me": false,
+     "text": "Good lad, thanks"
+    },
+    {
+     "me": false,
+     "text": "Dylan, any idea where the drill went? Your mother has tidied it away again"
+    },
+    {
+     "me": true,
+     "text": "Haha classic. Garage, top shelf, right hand side as you walk in"
+    },
+    {
+     "me": false,
+     "text": "Got it. Cheers"
+    },
+    {
+     "me": false,
+     "text": "How'd your game go yesterday?"
+    },
+    {
+     "me": true,
+     "text": "We won 12-8! I put away 3 goals"
+    },
+    {
+     "me": false,
+     "text": "Well done son. Send me the next fixtures, I want to be there"
+    },
+    {
+     "me": true,
+     "text": "That would be great — schedule coming your way"
+    }
+   ]
+  },
+  {
+   "id": "conv-romain",
+   "title": "Rory Stats",
+   "time": "7/24/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Dylan — run on Sunday morning?"
+    },
+    {
+     "me": true,
+     "text": "Hey! Yeah for sure, what time works?"
+    },
+    {
+     "me": false,
+     "text": "8am down at the lakefront? Easy 10k, nothing mad"
+    },
+    {
+     "me": true,
+     "text": "Deal, though I make no promises about the easy part 😂"
+    },
+    {
+     "me": false,
+     "text": "Lol let's see who taps out first"
+    },
+    {
+     "me": false,
+     "text": "That was a good one this morning. Your engine is better than I gave you credit for"
+    },
+    {
+     "me": true,
+     "text": "Swimming does that 😄 loved it, same again soon?"
+    },
+    {
+     "me": false,
+     "text": "Absolutely — shall we say the same slot in 2 weeks?"
+    },
+    {
+     "me": true,
+     "text": "You know it 💪"
+    },
+    {
+     "me": false,
+     "text": "Did you clock that new bar that opened on N Oakland Ave?"
+    },
+    {
+     "me": true,
+     "text": "Nope — what is it, exactly?"
+    },
+    {
+     "me": false,
+     "text": "Cocktails, proper nice room. We should go"
+    },
+    {
+     "me": true,
+     "text": "Pricey? That last spot you dragged me to was $16 a drink"
+    },
+    {
+     "me": false,
+     "text": "Bit better than that, and they do a happy hour"
+    },
+    {
+     "me": true,
+     "text": "Now you're talking"
+    },
+    {
+     "me": false,
+     "text": "Knew that'd get you 😄"
+    },
+    {
+     "me": true,
+     "text": "I'm sold. Friday?"
+    },
+    {
+     "me": false,
+     "text": "Friday it is 🍸"
+    }
+   ],
+   "avatar": "msg_13.webp"
+  },
+  {
+   "id": "conv-hugo",
+   "title": "Curt",
+   "time": "7/19/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Orelsan is playing Milwaukee?! Have you seen this??"
+    },
+    {
+     "me": true,
+     "text": "YES. Book them, right now"
+    },
+    {
+     "me": false,
+     "text": "Putting 2 on my card — transfer me your half?"
+    },
+    {
+     "me": true,
+     "text": "Sure! How much are they?"
+    },
+    {
+     "me": false,
+     "text": "$45 a ticket"
+    },
+    {
+     "me": true,
+     "text": "Sending it over now 👍"
+    },
+    {
+     "me": false,
+     "text": "Tickets landed in my email, row 12 🎟️"
+    },
+    {
+     "me": true,
+     "text": "Nice. Forward it over so I've got mine on my phone"
+    },
+    {
+     "me": false,
+     "text": "Sent. Don't lose it this time 😂"
+    },
+    {
+     "me": true,
+     "text": "That was ONE festival"
+    },
+    {
+     "me": false,
+     "text": "Found an unreal fishing spot out past Wauwatosa"
+    },
+    {
+     "me": true,
+     "text": "For real? Yeah we've gotta go"
+    },
+    {
+     "me": false,
+     "text": "Are you about Saturday morning?"
+    },
+    {
+     "me": true,
+     "text": "Very much so. 7am from yours?"
+    },
+    {
+     "me": false,
+     "text": "Say less 🎣"
+    },
+    {
+     "me": true,
+     "text": "What a morning 🔥 that 4.4 lbs smallmouth still has me buzzing"
+    },
+    {
+     "me": false,
+     "text": "So pumped! We need to go back soon"
+    },
+    {
+     "me": true,
+     "text": "Absolutely. Next weekend then?"
+    },
+    {
+     "me": false,
+     "text": "Let me look at my week and confirm 👌"
+    }
+   ]
+  },
+  {
+   "id": "conv-kevin",
+   "title": "Dean",
+   "time": "7/13/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Dylan! Fancy a few games of FIFA later?"
+    },
+    {
+     "me": true,
+     "text": "Yeah for sure, 9?"
+    },
+    {
+     "me": false,
+     "text": "Great, see you online"
+    },
+    {
+     "me": false,
+     "text": "GG on that comeback last night 😂"
+    },
+    {
+     "me": true,
+     "text": "Lol you were 3-0 up and still lost 4-3 😭"
+    },
+    {
+     "me": false,
+     "text": "We're not talking about that one... Rematch tonight?"
+    },
+    {
+     "me": true,
+     "text": "Always 😈"
+    },
+    {
+     "me": false,
+     "text": "The new Call of Duty is unreal, you need to play it"
+    },
+    {
+     "me": true,
+     "text": "Hmm, not sure yet... is it actually worth it?"
+    },
+    {
+     "me": false,
+     "text": "Zombie mode is nuts, you can run it co-op"
+    },
+    {
+     "me": true,
+     "text": "Alright, sold. I'm grabbing it at the weekend"
+    },
+    {
+     "me": false,
+     "text": "Finally 🎮"
+    }
+   ]
+  },
+  {
+   "id": "conv-camille",
+   "title": "Nora",
+   "time": "7/1/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Dylan! Ages since we spoke — how have you been?"
+    },
+    {
+     "me": true,
+     "text": "Nora! All good here thanks. Are you still Milwaukee based?"
+    },
+    {
+     "me": false,
+     "text": "Still here — at the hospital these days. We should get a coffee"
+    },
+    {
+     "me": true,
+     "text": "Nice one. Tessa and I would both be up for that"
+    },
+    {
+     "me": false,
+     "text": "Great, let's put a date on it 😊"
+    },
+    {
+     "me": false,
+     "text": "Hey! Saturday 3pm for coffee, that work for you?"
+    },
+    {
+     "me": true,
+     "text": "Tessa and I can both do that. Whereabouts?"
+    },
+    {
+     "me": false,
+     "text": "That small coffee place in the Harbor District? It's lovely"
+    },
+    {
+     "me": true,
+     "text": "Great, we'll see you there"
+    },
+    {
+     "me": false,
+     "text": "It was so good seeing you two! 🤗"
+    },
+    {
+     "me": true,
+     "text": "Same here. Tessa had such a good time, let's do it again"
+    },
+    {
+     "me": false,
+     "text": "Deal — my place next time, and I'm cooking my signature dish 😄"
+    }
+   ]
+  },
+  {
+   "id": "conv-leo",
+   "title": "Jonah",
+   "time": "6/27/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Moving day Saturday and I need hands. Are you around?"
+    },
+    {
+     "me": true,
+     "text": "Jonah! Of course, I'll be there. What time do you need me?"
+    },
+    {
+     "me": false,
+     "text": "9am if you can, I've got the truck booked for the morning"
+    },
+    {
+     "me": true,
+     "text": "Wait — 3rd floor, no elevator, correct? 😅"
+    },
+    {
+     "me": false,
+     "text": "Afraid so 😂 payment is in pizza"
+    },
+    {
+     "me": true,
+     "text": "Fair trade 🍕"
+    },
+    {
+     "me": false,
+     "text": "Thanks again for Saturday! My back is wrecked but the new place looks incredible"
+    },
+    {
+     "me": true,
+     "text": "Haha my back too 😂 so happy for you man!"
+    },
+    {
+     "me": false,
+     "text": "Come see the place once everything is unpacked"
+    },
+    {
+     "me": true,
+     "text": "Yes please. When's the housewarming?"
+    },
+    {
+     "me": false,
+     "text": "Reckon 2-3 weeks. I'll keep you posted"
+    }
+   ]
+  },
+  {
+   "id": "conv-sarah",
+   "title": "Hallie",
+   "time": "6/19/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Dylan! How is Tessa getting on?"
+    },
+    {
+     "me": true,
+     "text": "Hallie! She's doing really well thanks. You?"
+    },
+    {
+     "me": false,
+     "text": "All good here. My brother has a birthday coming up — any restaurant in Milwaukee you'd recommend?"
+    },
+    {
+     "me": true,
+     "text": "Odd Duck. Really good food and it won't wreck your budget"
+    },
+    {
+     "me": false,
+     "text": "Perfect, I'll take a look 😊"
+    },
+    {
+     "me": false,
+     "text": "Odd Duck was a hit 🙏 thank you for pointing us there"
+    },
+    {
+     "me": true,
+     "text": "So pleased it worked out 😄"
+    },
+    {
+     "me": false,
+     "text": "One more thing — did my message ever reach Tessa? Nothing back from her"
+    },
+    {
+     "me": true,
+     "text": "Probably buried in her phone. I'll get her to look"
+    },
+    {
+     "me": false,
+     "text": "Thanks, you're the sweetest! 😘"
+    }
+   ]
+  },
+  {
+   "id": "conv-nathan",
+   "title": "Reed",
+   "time": "6/17/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Dylan, what are you up to work wise these days?"
+    },
+    {
+     "me": true,
+     "text": "Hey! Same firm, same project, nothing new. You?"
+    },
+    {
+     "me": false,
+     "text": "I moved — Verizon took me on"
+    },
+    {
+     "me": true,
+     "text": "Oh nice! You liking it there?"
+    },
+    {
+     "me": false,
+     "text": "Yeah it's great, pay's better and the people are awesome"
+    },
+    {
+     "me": true,
+     "text": "That's great news, really pleased for you 💪"
+    },
+    {
+     "me": false,
+     "text": "Cheers man. Lunch one day?"
+    },
+    {
+     "me": true,
+     "text": "Definitely. Tuesday or Thursday both work for me"
+    },
+    {
+     "me": false,
+     "text": "Tuesday then — 12:30, The Diplomat?"
+    },
+    {
+     "me": true,
+     "text": "Locked in 👍"
+    }
+   ]
+  }
+ ],
+ "whatsapp": [
+  {
+   "id": "whatsapp-jean",
+   "title": "Trey Doyle",
+   "time": "10:15 AM",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Did you catch the MLR last night bro?"
+    },
+    {
+     "me": true,
+     "text": "Yeah total blowout 😂 42-10"
+    },
+    {
+     "me": false,
+     "text": "Honestly the Seattle Seawolves are playing a different game right now"
+    },
+    {
+     "me": true,
+     "text": "Nobody can lay a hand on Wendt, it's unreal"
+    },
+    {
+     "me": false,
+     "text": "Catan on Saturday night, you in?"
+    },
+    {
+     "me": true,
+     "text": "Oh yeah I'm in! How many of us are there?"
+    },
+    {
+     "me": false,
+     "text": "Me, you, Curt and Wes. Perfect number"
+    },
+    {
+     "me": true,
+     "text": "Beers are my job 🍺"
+    },
+    {
+     "me": false,
+     "text": "Good man"
+    },
+    {
+     "me": false,
+     "text": "That Reyes try though?? 80 meters and nobody near him"
+    },
+    {
+     "me": true,
+     "text": "I was on my feet shouting at the TV 😂"
+    },
+    {
+     "me": true,
+     "text": "Same here, Tessa looked at me like I'd lost it haha"
+    },
+    {
+     "me": false,
+     "text": "Lmaooo 😂😂"
+    },
+    {
+     "me": false,
+     "text": "Dude that photo I sent you on snap, I saw you screenshotted it"
+    },
+    {
+     "me": false,
+     "text": "It was from the swim club's insta, I know you don't have insta so I'm sending it to you"
+    },
+    {
+     "me": false,
+     "text": "They deleted it so it's fine but you could've gotten caught, Tessa doesn't have insta but just in case..."
+    },
+    {
+     "me": true,
+     "text": "Yeah ffs, yesterday Tessa came over right when I was looking at my phone I nearly had a heart attack, so I didn't even reply to you, I hid the photo. I need to delete it asap"
+    }
+   ],
+   "avatar": "msg_7.webp"
+  },
+  {
+   "id": "whatsapp-groupe-swimsquad",
+   "title": "Wes, Curt, Owen",
+   "time": "Sunday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": true,
+     "text": "Confirmed lads: Saturday, 3pm, game on!"
+    },
+    {
+     "me": false,
+     "text": "Noted 👍"
+    },
+    {
+     "me": false,
+     "text": "Great. Club at 2pm to warm up?"
+    },
+    {
+     "me": true,
+     "text": "2 works, don't forget your caps"
+    },
+    {
+     "me": false,
+     "text": "Lost mine somewhere... anyone have a spare?"
+    },
+    {
+     "me": false,
+     "text": "Spare one in my bag, it's yours"
+    },
+    {
+     "me": false,
+     "text": "Appreciate it bro 🙏"
+    },
+    {
+     "me": true,
+     "text": "12-8!! 🏆🏆🏆 GET IN"
+    },
+    {
+     "me": false,
+     "text": "ABSOLUTELY BATTERED THEM"
+    },
+    {
+     "me": false,
+     "text": "That last minute goal from Dylan, unreal"
+    },
+    {
+     "me": true,
+     "text": "Haha thanks fellas 😊 great group"
+    },
+    {
+     "me": false,
+     "text": "Celebrating tonight? Pizzas at mine"
+    },
+    {
+     "me": false,
+     "text": "SAY LESS"
+    },
+    {
+     "me": true,
+     "text": "With you in 1h 🍕"
+    },
+    {
+     "me": false,
+     "text": "Coach says Tuesday's a hard session, get those legs ready"
+    },
+    {
+     "me": false,
+     "text": "Ugh not again 😩 last one had me sore for two days"
+    },
+    {
+     "me": true,
+     "text": "And that is exactly why we win 😂"
+    },
+    {
+     "me": false,
+     "text": "Can't argue 💪"
+    },
+    {
+     "me": false,
+     "text": "Saturday in Grand Rapids - who's driving?"
+    },
+    {
+     "me": true,
+     "text": "My car is free, 3 spots going"
+    },
+    {
+     "me": false,
+     "text": "Put me in one"
+    },
+    {
+     "me": false,
+     "text": "Same here!"
+    },
+    {
+     "me": true,
+     "text": "Sorted. Outside the club at noon, we eat on the road"
+    },
+    {
+     "me": false,
+     "text": "🚗💨"
+    }
+   ]
+  },
+  {
+   "id": "whatsapp-thomas",
+   "title": "Wes",
+   "time": "Friday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Yo Dylan! Where are we going this summer then?"
+    },
+    {
+     "me": true,
+     "text": "Been looking at Spain, flights to Barcelona are cheap right now"
+    },
+    {
+     "me": false,
+     "text": "You can never go wrong with Barcelona 🇪🇸"
+    },
+    {
+     "me": true,
+     "text": "Gotta lock it in soon though, prices are creeping up"
+    },
+    {
+     "me": false,
+     "text": "Right, flights this weekend and then we decide"
+    },
+    {
+     "me": false,
+     "text": "Are you any good with Excel? My spreadsheet has gone haywire"
+    },
+    {
+     "me": true,
+     "text": "Depends. What's it doing?"
+    },
+    {
+     "me": false,
+     "text": "Every VLOOKUP is spitting out #N/A down the whole column"
+    },
+    {
+     "me": true,
+     "text": "Check your column order first, then make the last argument FALSE"
+    },
+    {
+     "me": false,
+     "text": "THAT WAS IT. Absolute genius 😂"
+    },
+    {
+     "me": true,
+     "text": "Haha no big deal, everybody does that once"
+    },
+    {
+     "me": false,
+     "text": "Gym tomorrow morning, you in?"
+    },
+    {
+     "me": true,
+     "text": "Yeah 6:15 as usual?"
+    },
+    {
+     "me": false,
+     "text": "Perfect! Chest and shoulders again?"
+    },
+    {
+     "me": true,
+     "text": "Chest and shoulders it is 💪"
+    },
+    {
+     "me": false,
+     "text": "Good session that. Shoulders are cooked"
+    },
+    {
+     "me": true,
+     "text": "Same 😅 worth it though"
+    },
+    {
+     "me": false,
+     "text": "Next week we swap to back and legs?"
+    },
+    {
+     "me": true,
+     "text": "Deal, same time as usual"
+    },
+    {
+     "me": false,
+     "text": "Dune 2 - seen it yet?"
+    },
+    {
+     "me": true,
+     "text": "Nah not yet! Is it good?"
+    },
+    {
+     "me": false,
+     "text": "Stop what you're doing and watch it. Incredible"
+    },
+    {
+     "me": true,
+     "text": "Right, Tessa and I are going this weekend then"
+    },
+    {
+     "me": false,
+     "text": "Solid pick 👌"
+    }
+   ]
+  },
+  {
+   "id": "whatsapp-romain",
+   "title": "Rory Stats",
+   "time": "7/30/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Made a mushroom risotto last night and it was unreal"
+    },
+    {
+     "me": true,
+     "text": "Recipe. Now. Please"
+    },
+    {
+     "me": false,
+     "text": "Far too long to type, voice note tomorrow 😂"
+    },
+    {
+     "me": true,
+     "text": "Sounds good chef 👨‍🍳"
+    },
+    {
+     "me": false,
+     "text": "We running again Sunday?"
+    },
+    {
+     "me": true,
+     "text": "Definitely. Shall we do the full 12k this time?"
+    },
+    {
+     "me": false,
+     "text": "Ambitious, I'm on board. 8am at the lakefront?"
+    },
+    {
+     "me": true,
+     "text": "See you there 🏃"
+    },
+    {
+     "me": false,
+     "text": "Strong run this morning! 7.6 miles in 58 min"
+    },
+    {
+     "me": true,
+     "text": "Well run! 1h02 for me and I'll take it 😄"
+    },
+    {
+     "me": false,
+     "text": "Solid time. Every run is quicker than the last"
+    },
+    {
+     "me": true,
+     "text": "What show are you into right now?"
+    },
+    {
+     "me": false,
+     "text": "Fallout on Prime. Properly good"
+    },
+    {
+     "me": true,
+     "text": "Oh yeah saw the trailer, need to get on that"
+    },
+    {
+     "me": false,
+     "text": "Do it, you won't be sorry 👍"
+    }
+   ],
+   "avatar": "msg_13.webp"
+  },
+  {
+   "id": "whatsapp-hugo",
+   "title": "Curt",
+   "time": "7/28/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Put Laylow's new album on, it's a serious one"
+    },
+    {
+     "me": true,
+     "text": "Listening to it right now 🎧"
+    },
+    {
+     "me": false,
+     "text": "And?? What'd you think?"
+    },
+    {
+     "me": true,
+     "text": "Yeah that goes hard. The Hamza feature 🔥"
+    },
+    {
+     "me": false,
+     "text": "Called it. Knew that one was for you"
+    },
+    {
+     "me": false,
+     "text": "What tires are you running? Mine are about done"
+    },
+    {
+     "me": true,
+     "text": "Michelin Primacy 4 - hard to beat for the money"
+    },
+    {
+     "me": false,
+     "text": "Thanks! Where'd you pick those up?"
+    },
+    {
+     "me": true,
+     "text": "The tire place on N Oakland Ave, they fit them there too"
+    },
+    {
+     "me": false,
+     "text": "Great, I'll swing by 👍"
+    },
+    {
+     "me": false,
+     "text": "Christmas market is on in Milwaukee this weekend!"
+    },
+    {
+     "me": true,
+     "text": "Oh yeah we've gotta go! That hot cider last year was unreal"
+    },
+    {
+     "me": false,
+     "text": "Right? Does Saturday afternoon suit you?"
+    },
+    {
+     "me": true,
+     "text": "Tessa's coming with me - shall we meet at Cathedral Square?"
+    },
+    {
+     "me": false,
+     "text": "Perfect 🎄"
+    }
+   ]
+  }
+ ],
+ "gmail": [
+  {
+   "sender": "Domino's Pizza",
+   "subject": "Dylan, buy 1 pizza get 1 free tonight!",
+   "preview": "Hi Dylan, Tonight only: for every pizza ordered for delivery, the second one is free! Use the code DOUBLE at c",
+   "body": "Hi Dylan,\n\nTonight only: for every pizza ordered for delivery, the second one is free!\n\nUse the code DOUBLE at checkout on dominos.com or on the app.\n\nOffer valid until midnight, free delivery from $20.\n\nSee you tonight!\nDomino's Pizza Milwaukee",
+   "time": "Yesterday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Dick's Sporting Goods",
+   "subject": "Your order is waiting at the store!",
+   "preview": "Hi Dylan, your order #DKT-20394857 (Speedo Vanquisher Swimming Goggles) is available for pickup at Dick's Spor",
+   "body": "Hi Dylan, your order #DKT-20394857 (Speedo Vanquisher Swimming Goggles) is available for pickup at Dick's Sporting Goods Milwaukee. You have 10 days to collect it.",
+   "time": "Tuesday",
+   "folder": "trash"
+  },
+  {
+   "sender": "ESPN",
+   "subject": "MLR: round 18 results",
+   "preview": "Hello, Find all the results and standings from round 18 of the MLR: Seattle 28-15 San Diego Miami 22-19 Old Gl",
+   "body": "Hello,\n\nFind all the results and standings from round 18 of the MLR:\n\nSeattle 28-15 San Diego\nMiami 22-19 Old Glory\nHouston 31-24 Utah\n\nMore info on espn.com\n\nESPN",
+   "time": "Tuesday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Spotify",
+   "subject": "Discover Weekly: 30 new tracks for you",
+   "preview": "Hi Dylan, Your Discover Weekly just refreshed - 30 tracks picked out of everything you have been playing latel",
+   "body": "Hi Dylan,\n\nYour Discover Weekly just refreshed - 30 tracks picked out of everything you have been playing lately.\n\nPress play whenever you are ready.\n\nThe Spotify Team",
+   "time": "Monday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Amazon",
+   "subject": "How was your recent order?",
+   "preview": "Hi Dylan, How are you getting on with the \"Speedo Fastskin Swimming Goggles\" from your recent order? A quick r",
+   "body": "Hi Dylan,\n\nHow are you getting on with the \"Speedo Fastskin Swimming Goggles\" from your recent order?\n\nA quick rating helps the next shopper decide.\n\nThank you,\nAmazon",
+   "time": "Sunday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Poshmark",
+   "subject": "Your listing just got a favorite!",
+   "preview": "Good news - somebody has favorited your \"Nike Tech Fleece Jacket size L\". Listings priced a little lower tend ",
+   "body": "Good news - somebody has favorited your \"Nike Tech Fleece Jacket size L\". Listings priced a little lower tend to move faster, so it may be worth a small drop.",
+   "time": "Sunday",
+   "folder": "trash"
+  },
+  {
+   "sender": "Amazon Security",
+   "subject": "Your Amazon account is locked — action needed",
+   "preview": "Dear customer, Several sign-in attempts on your Amazon account did not match our records, so we have restricte",
+   "body": "Dear customer,\n\nSeveral sign-in attempts on your Amazon account did not match our records, so we have restricted access while we look into it. Please verify who you are through the secure link below within the next 24 hours. Accounts left unverified are suspended permanently.\n\nAmazon Security Team",
+   "time": "Sunday",
+   "folder": "spam"
+  },
+  {
+   "sender": "Netflix",
+   "subject": "New on Netflix this week",
+   "preview": "Hi Dylan, Discover the new series and movies added this week: - The Night Agent - Season 3 - A must-watch Fren",
+   "body": "Hi Dylan,\n\nDiscover the new series and movies added this week:\n\n- The Night Agent - Season 3\n- A must-watch French film\n- Documentary: Behind the Scenes of Sport\n\nEnjoy watching!\nNetflix",
+   "time": "Saturday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Mom",
+   "subject": "Re: Lunch on Sunday",
+   "preview": "Hey sweetheart, Perfect for Sunday! I'm making roast chicken with potatoes just the way you like it. Tell Tess",
+   "body": "Hey sweetheart,\n\nPerfect for Sunday! I'm making roast chicken with potatoes just the way you like it.\n\nTell Tessa she's welcome of course.\n\nDad asks if you can bring some bread on the way.\n\nBig kisses,\nMom",
+   "time": "Friday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Milwaukee Swim Club",
+   "subject": "Practice times for March",
+   "preview": "Hello everyone, Here is the training schedule for March: - Tuesday 6:30pm-8:00pm (Olympic pool) - Thursday 7:0",
+   "body": "Hello everyone,\n\nHere is the training schedule for March:\n\n- Tuesday 6:30pm-8:00pm (Olympic pool)\n- Thursday 7:00pm-8:30pm (Olympic pool)\n- Saturday 10:00am-12:00pm (meet prep)\n\nPlease let us know if you'll be absent.\n\nBest regards,\nThe MSC Board",
+   "time": "7/30/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Adrienne Vance",
+   "subject": "Surprise!",
+   "preview": "So looking forward to this weekend at the cabin. Remember to delete the email as always so she won't find it. ",
+   "body": "So looking forward to this weekend at the cabin. Remember to delete the email as always so she won't find it. Kisses, Adrienne Vance.",
+   "time": "7/29/26",
+   "folder": "trash"
+  },
+  {
+   "sender": "Owen Kraus",
+   "subject": "Re: Client file needs updating",
+   "preview": "Hi Dylan, I've updated the Excel file with the new contacts. You can grab it from the server in the shared fol",
+   "body": "Hi Dylan,\n\nI've updated the Excel file with the new contacts. You can grab it from the server in the shared folder.\n\nBut you need to check rows 45 to 60, I'm not sure about the phone numbers.\n\nThanks!\nOwen",
+   "time": "7/29/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Phillip Wendt",
+   "subject": "Re: Merrill client feedback",
+   "preview": "Hello Mr. Wendt, I got Mr. Merrill on the phone this morning and he is happy again - the whole thing came down",
+   "body": "Hello Mr. Wendt,\n\nI got Mr. Merrill on the phone this morning and he is happy again - the whole thing came down to a misunderstanding over delivery timelines.\nThe updated schedule goes out to him this afternoon.\n\nBest regards,\nDylan",
+   "time": "7/29/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Coach Sebastian",
+   "subject": "Re: Are you free next Saturday",
+   "preview": "Hi Dylan, OK noted for Saturday, we're counting on you. We'll work on relay exchanges and turns, we really mis",
+   "body": "Hi Dylan,\n\nOK noted for Saturday, we're counting on you. We'll work on relay exchanges and turns, we really missed that at the last meet.\n\nBring your white cap, the blue ones are on order.\n\nSee you Tuesday!\nSebastian",
+   "time": "7/28/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "M. Wendt",
+   "subject": "Monday 9am - team meeting",
+   "preview": "Hi Dylan, I'm confirming the team meeting on Monday at 9am in room B. We'll review current projects and quarte",
+   "body": "Hi Dylan,\n\nI'm confirming the team meeting on Monday at 9am in room B. We'll review current projects and quarterly priorities.\n\nPlease prepare a brief progress update on the Larkin file.\n\nHave a good weekend,\nKarl Wendt",
+   "time": "7/27/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Security US Bank",
+   "subject": "Security warning: unusual activity - verify your account now",
+   "preview": "Dear customer, Unusual activity has been recorded on your US Bank account and access has been limited as a pre",
+   "body": "Dear customer,\n\nUnusual activity has been recorded on your US Bank account and access has been limited as a precaution.\n\nConfirm your identity through the link below within 24 hours. Accounts left unconfirmed are closed permanently.\n\nSecurity Department - US Bank",
+   "time": "7/27/26",
+   "folder": "spam"
+  },
+  {
+   "sender": "Domino's Pizza",
+   "subject": "One pizza bought, one free - all weekend!",
+   "preview": "Two for one all weekend: order any pizza for delivery and the second one is on us. Enter the code WEEKEND2 at ",
+   "body": "Two for one all weekend: order any pizza for delivery and the second one is on us. Enter the code WEEKEND2 at checkout. Cannot be combined with anything else.",
+   "time": "7/26/26",
+   "folder": "trash"
+  },
+  {
+   "sender": "Amazon",
+   "subject": "Your package is on the road!",
+   "preview": "Hi Dylan Marsh, Good news - \"Speedo Fastskin Swimming Goggles\" has left our warehouse. Arriving: tomorrow befo",
+   "body": "Hi Dylan Marsh,\n\nGood news - \"Speedo Fastskin Swimming Goggles\" has left our warehouse.\n\nArriving: tomorrow before 9pm\nTracking number: 3S4829174625FR\n\nFollow the parcel in the Amazon app.\n\nAmazon",
+   "time": "7/26/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Curt Sandoval",
+   "subject": "Re: The summer trip",
+   "preview": "Hey Curt, Portugal sounds great, and I ran it past Tessa - she's in. The catch is that I only have 2 weeks fre",
+   "body": "Hey Curt,\n\nPortugal sounds great, and I ran it past Tessa - she's in. The catch is that I only have 2 weeks free in August, so the dates need pinning down.\nTalk it through at the next practice?\n\nDylan",
+   "time": "7/25/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Wes Bauer",
+   "subject": "Saturday at mine",
+   "preview": "Yo Dylan, FIFA at mine Saturday night? Curt and Cole have both said yes. Beers are already in the fridge and I",
+   "body": "Yo Dylan,\n\nFIFA at mine Saturday night? Curt and Cole have both said yes. Beers are already in the fridge and I'll order the pizzas.\n\nDoes around 8pm suit you?\n\nLater\nWes",
+   "time": "7/24/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "RH Wendt & Sons",
+   "subject": "Your annual review has been booked",
+   "preview": "Hi Dylan, Your annual performance review has been booked for Thursday, August 11 at 2:00pm with Mr. Wendt. Com",
+   "body": "Hi Dylan,\n\nYour annual performance review has been booked for Thursday, August 11 at 2:00pm with Mr. Wendt.\n\nCome with your self-assessment completed and your goals for the coming year.\n\nThe form sits on the HR portal.\n\nBest regards,\nHuman Resources Department",
+   "time": "7/23/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Netflix",
+   "subject": "New series this month, and what to watch first",
+   "preview": "New this month on Netflix: Squid Game season 3, The Night Agent season 2 and plenty more lined up for you.",
+   "body": "New this month on Netflix: Squid Game season 3, The Night Agent season 2 and plenty more lined up for you.",
+   "time": "7/22/26",
+   "folder": "trash"
+  },
+  {
+   "sender": "CE Wendt & Sons",
+   "subject": "Works Council: movie tickets and theme park deals",
+   "preview": "Hello everyone, On offer from the works council this week: - Cinema tickets: $6.50 (normally $12.90) - Six Fla",
+   "body": "Hello everyone,\n\nOn offer from the works council this week:\n\n- Cinema tickets: $6.50 (normally $12.90)\n- Six Flags Great America entry: $32.00 (normally $55.00)\n- Holiday vouchers: orders close August 6\n\nOrder through the works council portal, or come by office 204.\n\nThe Works Council",
+   "time": "7/22/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Tessa",
+   "subject": "Re: Dinner out on Friday",
+   "preview": "Hey babe, Friday is a yes from me. I read the reviews for that new Italian place on the square and they are ex",
+   "body": "Hey babe,\n\nFriday is a yes from me. I read the reviews for that new Italian place on the square and they are excellent. Want me to hold a table for 8pm?\n\nSo ready for it.\n\nKisses\nTessa",
+   "time": "7/21/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "We Energies",
+   "subject": "We Energies bill - February 2026",
+   "preview": "Hi Dylan MARSH, Your electricity bill is ready to view. Amount: $67.42 Period: 01/01/2026 to 01/31/2026 Direct",
+   "body": "Hi Dylan MARSH,\n\nYour electricity bill is ready to view.\n\nAmount: $67.42\nPeriod: 01/01/2026 to 01/31/2026\nDirect debit date: 10/02/2026\n\nThe full breakdown sits in your We Energies client portal.\n\nBest regards,\nWe Energies",
+   "time": "7/20/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Mega Millions",
+   "subject": "URGENT: an iPhone 16 Pro is reserved for you!",
+   "preview": "Dear dylan.marsh@gmail.com, Your address came out of this month's draw among our loyal subscribers. An iPhone ",
+   "body": "Dear dylan.marsh@gmail.com,\n\nYour address came out of this month's draw among our loyal subscribers. An iPhone 16 Pro (value $1,399) is reserved in your name, Dylan. Cover the $1.99 shipping and it goes out today. You have 24 hours.",
+   "time": "7/19/26",
+   "folder": "spam"
+  },
+  {
+   "sender": "To: Dick's Sporting Goods SAV",
+   "subject": "Warranty on a pair of swim goggles",
+   "preview": "Hello, I bought a pair of Nabaiji goggles 3 months ago and the strap has snapped. My understanding is that the",
+   "body": "Hello,\n\nI bought a pair of Nabaiji goggles 3 months ago and the strap has snapped. My understanding is that they carry a 2-year warranty.\nCan I bring them into the store with the receipt and swap them?\n\nThank you,\nDylan Marsh",
+   "time": "7/19/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Spotify",
+   "subject": "Spotify Premium: your receipt",
+   "preview": "Hi Dylan Marsh, Here is the receipt for your Spotify Premium subscription. Amount: $10.99 Billing date: see be",
+   "body": "Hi Dylan Marsh,\n\nHere is the receipt for your Spotify Premium subscription.\n\nAmount: $10.99\nBilling date: see below\nPayment method: Card ending in 4821\n\nWe will bill you again in 30 days.\n\nThank you for your loyalty,\nSpotify",
+   "time": "7/19/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Blue Cross",
+   "subject": "Your claim has been processed",
+   "preview": "Hi Dylan MARSH, We have finished processing your January claim. Consultation Dr Doyle (general practitioner) -",
+   "body": "Hi Dylan MARSH,\n\nWe have finished processing your January claim.\n\nConsultation Dr Doyle (general practitioner) - 01/11/2026\nBilled amount: $26.50\nInsurance paid: $18.55\nSupplemental plan paid: $7.95\nRemaining cost: $0.00\n\nNothing is left for you to pay. The full detail is in your personal space at bluecross.com\n\nBest regards,\nBlue Cross",
+   "time": "7/18/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Milwaukee County Benefits Office",
+   "subject": "Your housing assistance has been paid",
+   "preview": "Hi Dylan MARSH, Your housing assistance for February 2026 has been paid. Amount: $195.00 Transfer date: 02/05/",
+   "body": "Hi Dylan MARSH,\n\nYour housing assistance for February 2026 has been paid.\n\nAmount: $195.00\nTransfer date: 02/05/2026\n\nView details in your My Account area at benefits.gov\n\nBest regards,\nThe Benefits Office",
+   "time": "7/18/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Coach Sebastian",
+   "subject": "Race video to review",
+   "preview": "Hi Dylan, I'm sending you the link to Saturday's race video. Watch especially your turns between the 200 and 3",
+   "body": "Hi Dylan,\n\nI'm sending you the link to Saturday's race video. Watch especially your turns between the 200 and 300 splits, you were gliding too long.\n\nLink: https://drive.google.com/file/d/wp_villerupt_j12\n\nWe'll discuss it on Tuesday.\nSeb",
+   "time": "7/17/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Dad",
+   "subject": "Fwd: Swim meet result - Milwaukee Journal Sentinel",
+   "preview": "Hey son, Look, there's an article about your club in Milwaukee Journal Sentinel! They're talking about your wi",
+   "body": "Hey son,\n\nLook, there's an article about your club in Milwaukee Journal Sentinel! They're talking about your win against Madison.\n\nYour mom and I are very proud.\n\nKisses,\nDad\n\n--- Forwarded article ---\n\"Swimming D3: Milwaukee wins against Madison and consolidates its 3rd place\"",
+   "time": "7/16/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Milwaukee Swim Club",
+   "subject": "Results round 12 - D3 Championship",
+   "preview": "Hello everyone, Results from week 12 of the D3 dual-meet league: Milwaukee Swim 112 - 88 Madison Green Bay 96 ",
+   "body": "Hello everyone,\n\nResults from week 12 of the D3 dual-meet league:\n\nMilwaukee Swim 112 - 88 Madison\nGreen Bay 96 - 104 Springfield\nRockford 84 - 116 Kenosha\n\nWell done guys, great win this weekend! We're 3rd in the standings.\n\nNext meet: Saturday 4pm vs Springfield (home).\n\nGo Milwaukee!\nThe Board",
+   "time": "7/15/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "GameStop",
+   "subject": "How did we do? Order #MIC-472918",
+   "preview": "Hi Dylan, you recently made a purchase at GameStop. Share your feedback and enter to win a $50 gift card.",
+   "body": "Hi Dylan, you recently made a purchase at GameStop. Share your feedback and enter to win a $50 gift card.",
+   "time": "7/15/26",
+   "folder": "trash"
+  },
+  {
+   "sender": "To: Renata Salas",
+   "subject": "Re: Advanced Excel course",
+   "preview": "Hey Renata, Count me in for the training - pivot tables are a complete blind spot for me. Can you put my name ",
+   "body": "Hey Renata,\n\nCount me in for the training - pivot tables are a complete blind spot for me.\nCan you put my name down if there are places left?\n\nThanks!\nDylan",
+   "time": "7/15/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "US Bank",
+   "subject": "Your monthly statement is ready to view",
+   "preview": "Hi Dylan MARSH, Your account statement for January 2026 is available in your client portal. Log in at regionsb",
+   "body": "Hi Dylan MARSH,\n\nYour account statement for January 2026 is available in your client portal.\n\nLog in at regionsbank.com or on the US Bank app to view it.\n\nBest regards,\nUS Bank",
+   "time": "7/14/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "RH Wendt & Sons",
+   "subject": "January 2026 pay slip",
+   "preview": "Hi Dylan, Your pay slip for January 2026 is available in your personal space on our HR platform. Log in at rh.",
+   "body": "Hi Dylan,\n\nYour pay slip for January 2026 is available in your personal space on our HR platform.\n\nLog in at rh.wendtandsons.com to view it.\n\nBest regards,\nHuman Resources Department\nWendt & Sons",
+   "time": "7/12/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: US Bank",
+   "subject": "Re: New access code for the client portal",
+   "preview": "Hello, All sorted - the new code let me straight back in. Thank you for turning it around so quickly. Best reg",
+   "body": "Hello,\n\nAll sorted - the new code let me straight back in. Thank you for turning it around so quickly.\n\nBest regards,\nDylan Marsh",
+   "time": "7/12/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "PlayStation",
+   "subject": "Your PlayStation Store purchase is confirmed",
+   "preview": "Hi Dylan, Thank you for your purchase! Item: EA Sports FC 26 - Standard Edition Amount: $69.99 Payment method:",
+   "body": "Hi Dylan,\n\nThank you for your purchase!\n\nItem: EA Sports FC 26 - Standard Edition\nAmount: $69.99\nPayment method: Card ending in 4821\n\nYour content is ready to download.\n\nBest regards,\nPlayStation",
+   "time": "7/9/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "SEO Experts Agency",
+   "subject": "Page 1 of Google in 7 days - or your money back!",
+   "preview": "Hello, We ran an audit of your website and the growth potential is enormous. Our team puts you on the first pa",
+   "body": "Hello,\n\nWe ran an audit of your website and the growth potential is enormous. Our team puts you on the first page of Google inside 7 days - guaranteed, or every cent back. This week only: a free SEO audit plus 50% off any package.\n\nDon't wait!\nThe SEO Experts Team",
+   "time": "7/8/26",
+   "folder": "spam"
+  },
+  {
+   "sender": "To: Tessa Rowe",
+   "subject": "Re: The vacuum",
+   "preview": "Yes yes, tonight when I get in, I promise! I'll grab trash bags while I'm out too, we're down to none. See you",
+   "body": "Yes yes, tonight when I get in, I promise!\nI'll grab trash bags while I'm out too, we're down to none.\n\nSee you later\nDylan",
+   "time": "7/7/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Amtrak Connect",
+   "subject": "Youth Advantage card at half price - limited offer",
+   "preview": "Take advantage of our exceptional offer: the Youth Advantage card at $24.50 instead of $49. Travel by Amtrak w",
+   "body": "Take advantage of our exceptional offer: the Youth Advantage card at $24.50 instead of $49. Travel by Amtrak with discounts all year round. Offer valid until June 8.",
+   "time": "7/7/26",
+   "folder": "trash"
+  },
+  {
+   "sender": "Dick's Sporting Goods",
+   "subject": "Up to 30% off our water sports range",
+   "preview": "Hi Dylan, Discover our water sports selection at reduced prices: - Competition swimsuits from $19.99 - Silicon",
+   "body": "Hi Dylan,\n\nDiscover our water sports selection at reduced prices:\n\n- Competition swimsuits from $19.99\n- Silicone swim caps at $4.99\n- Training fins from $14.99\n\nOffer valid in store and on dickssportinggoods.com\n\nSee you soon!\nDick's Sporting Goods",
+   "time": "7/7/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "RH Wendt & Sons",
+   "subject": "Reminder: safety training is mandatory",
+   "preview": "Hi Dylan, This is a reminder that the annual safety training is scheduled for Tuesday, July 12 from 9:00am to ",
+   "body": "Hi Dylan,\n\nThis is a reminder that the annual safety training is scheduled for Tuesday, July 12 from 9:00am to 12:00pm in meeting room B.\n\nYour attendance is mandatory.\n\nPlease confirm your participation by replying to this email.\n\nBest regards,\nHR Department\nWendt & Sons",
+   "time": "7/5/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Cole Novak",
+   "subject": "Re: Curt's birthday",
+   "preview": "Hey Dylan, Curt's birthday on August 11 - I've booked Cactus Club for 8pm. Should be about ten of us. Wes is h",
+   "body": "Hey Dylan,\n\nCurt's birthday on August 11 - I've booked Cactus Club for 8pm. Should be about ten of us. Wes is handling the present, a JBL speaker, and we're each putting in 15 bucks.\n\nSend Wes your share whenever you get a chance.\n\nLater bro\nCole",
+   "time": "7/4/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Coach Frederick",
+   "subject": "Re: The inter-club meet",
+   "preview": "Hey Fred, The August 6 tournament works for me, count me in. Send the timings over once you have them? Going t",
+   "body": "Hey Fred,\n\nThe August 6 tournament works for me, count me in. Send the timings over once you have them?\nGoing to be a good one.\n\nLater\nDylan",
+   "time": "7/2/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "PlayStation",
+   "subject": "Your PlayStation Store receipt",
+   "preview": "Your purchase is confirmed. Item: EA FC 25 - Gold+ Pack Amount: $4.99 Paid with: Visa card ending in 8421",
+   "body": "Your purchase is confirmed.\n\nItem: EA FC 25 - Gold+ Pack\nAmount: $4.99\nPaid with: Visa card ending in 8421",
+   "time": "7/2/26",
+   "folder": "trash"
+  },
+  {
+   "sender": "Nike",
+   "subject": "Nike Member: the perks that come with it",
+   "preview": "Hi Dylan, As a Nike member, enjoy free shipping on all your orders and early access to new releases. Discover ",
+   "body": "Hi Dylan,\n\nAs a Nike member, enjoy free shipping on all your orders and early access to new releases.\n\nDiscover the new Nike Swim collection, designed for pool performance.\n\nThe Nike Team",
+   "time": "7/2/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "ESPN",
+   "subject": "Swimming: U.S. team training camp in Ann Arbor",
+   "preview": "Hello, The U.S. national swim team is at a training camp in Ann Arbor ahead of the Pan Pacific championships. ",
+   "body": "Hello,\n\nThe U.S. national swim team is at a training camp in Ann Arbor ahead of the Pan Pacific championships.\n\nRead the exclusive interview with the coach and the meet schedule.\n\nRead the full article on espn.com\n\nESPN",
+   "time": "6/30/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "HotSingles USA",
+   "subject": "3 women nearby are waiting to chat tonight",
+   "preview": "Dylan, 3 women in your area visited your profile and want to meet you tonight! Don't keep them waiting. Create",
+   "body": "Dylan, 3 women in your area visited your profile and want to meet you tonight! Don't keep them waiting. Create your free account now and start chatting. 100% free, 100% discreet.",
+   "time": "6/29/26",
+   "folder": "spam"
+  },
+  {
+   "sender": "M. Wendt",
+   "subject": "Re: Your time off in week 15",
+   "preview": "Hi Dylan, Your time off from August 28 to 10 is approved, no issue at all on my side. Have a proper break. Bes",
+   "body": "Hi Dylan,\n\nYour time off from August 28 to 10 is approved, no issue at all on my side.\n\nHave a proper break.\n\nBest regards,\nKarl Wendt",
+   "time": "6/29/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Overstock",
+   "subject": "SALE: home appliances down to -70%",
+   "preview": "Sale time. Reductions of up to -70% across home appliances, tech and furniture, and delivery is free once you ",
+   "body": "Sale time. Reductions of up to -70% across home appliances, tech and furniture, and delivery is free once you spend $25.",
+   "time": "6/28/26",
+   "folder": "trash"
+  },
+  {
+   "sender": "To: Recruitment Craigslist",
+   "subject": "Speculative application - account manager",
+   "preview": "Hello, I am currently a sales assistant at Wendt & Sons and would like to put myself forward for an account ma",
+   "body": "Hello,\n\nI am currently a sales assistant at Wendt & Sons and would like to put myself forward for an account manager role, should one open up.\n\nI have 2 years of experience in customer relations behind me and your company is somewhere I would very much like to work.\n\nMy CV is attached.\n\nThank you for your time.\n\nBest regards,\nDylan Marsh",
+   "time": "6/27/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "US Bank",
+   "subject": "Alert: your balance hit the threshold you set",
+   "preview": "Hi Dylan MARSH, The balance on your current account (no. ...4821) has dropped under the $200.00 threshold you ",
+   "body": "Hi Dylan MARSH,\n\nThe balance on your current account (no. ...4821) has dropped under the $200.00 threshold you set.\n\nCurrent balance: $178.34\n\nNo action is needed - this message is for information only.\n\nUS Bank",
+   "time": "6/27/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Renata Salas",
+   "subject": "Frances's farewell party",
+   "preview": "Hey Dylan, We're throwing a send-off for Frances on Friday at 5:30pm in the break room. There's a collection f",
+   "body": "Hey Dylan,\n\nWe're throwing a send-off for Frances on Friday at 5:30pm in the break room. There's a collection for her gift, $10 a head, and I'm the one holding the envelope.\n\nCash or a transfer, either is fine by me.\n\nSee you!\nRenata",
+   "time": "6/25/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Amazon.com",
+   "subject": "Order #402-1938475-2847561 confirmed",
+   "preview": "Order confirmed. Item: USB-C to USB-C Cable 2m Quantity: 1 Total: $9.99 Arriving: Wednesday",
+   "body": "Order confirmed.\n\nItem: USB-C to USB-C Cable 2m\nQuantity: 1\nTotal: $9.99\nArriving: Wednesday",
+   "time": "6/23/26",
+   "folder": "trash"
+  },
+  {
+   "sender": "To: Service RH - Wendt & Sons",
+   "subject": "Two days off - request",
+   "preview": "Hello, I would like to take two days off on Thursday the 17th and Friday the 18th of next month for personal r",
+   "body": "Hello,\n\nI would like to take two days off on Thursday the 17th and Friday the 18th of next month for personal reasons.\nPlease confirm the approval.\n\nBest regards,\nDylan Marsh",
+   "time": "6/22/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Netflix",
+   "subject": "Netflix: your payment receipt",
+   "preview": "Hi Dylan, We have taken your Netflix payment without any problem. Plan: Standard Amount: $13.49 We will charge",
+   "body": "Hi Dylan,\n\nWe have taken your Netflix payment without any problem.\n\nPlan: Standard\nAmount: $13.49\nWe will charge again in 1 month.\n\nThank you,\nThe Netflix Team",
+   "time": "6/22/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "PharmaDirect24",
+   "subject": "V1AGRA & C1ALIS at -80% - discreet 24h shipping",
+   "preview": "Special offer! Up to -80% across our entire range. Discreet delivery within 24 hours, nationwide. No prescript",
+   "body": "Special offer! Up to -80% across our entire range. Discreet delivery within 24 hours, nationwide. No prescription required. Money back if you are not satisfied. Order from our online pharmacy today.",
+   "time": "6/22/26",
+   "folder": "spam"
+  },
+  {
+   "sender": "To: Wes Kubiak",
+   "subject": "Re: Gift idea for Curt",
+   "preview": "Hey Wes, For Curt I was thinking an Arena swimsuit, since he's starting swimming. Otherwise a Dick's Sporting ",
+   "body": "Hey Wes,\n\nFor Curt I was thinking an Arena swimsuit, since he's starting swimming. Otherwise a Dick's Sporting Goods gift card always works.\nLet me know what you think, we can chip in together.\n\nDylan",
+   "time": "6/19/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Pulaski Aquatic Center",
+   "subject": "Pool closed June 8 to 22 - maintenance",
+   "preview": "Dear user, The Pulaski Aquatic Center will be shut from June 8 to 22 inclusive while the filtration system is ",
+   "body": "Dear user,\n\nThe Pulaski Aquatic Center will be shut from June 8 to 22 inclusive while the filtration system is overhauled.\n\nWe expect to reopen on June 16 at 8:00am.\n\nThank you for your patience.\n\nThe Milwaukee Pulaski Aquatic Center Team",
+   "time": "6/19/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Spotify",
+   "subject": "What you listened to in December",
+   "preview": "Your month in numbers: 142 tracks played, and Orelsan came out on top with 23 plays. The full recap is waiting",
+   "body": "Your month in numbers: 142 tracks played, and Orelsan came out on top with 23 plays. The full recap is waiting in the app.",
+   "time": "6/17/26",
+   "folder": "trash"
+  },
+  {
+   "sender": "PlayStation",
+   "subject": "PlayStation Plus: your subscription just renewed",
+   "preview": "Hi Dylan, Your PlayStation Plus Essential subscription has renewed. Amount: $8.99/month Next charge: in 30 day",
+   "body": "Hi Dylan,\n\nYour PlayStation Plus Essential subscription has renewed.\n\nAmount: $8.99/month\nNext charge: in 30 days\n\nThis month's free games are ready to claim.\n\nBest regards,\nPlayStation",
+   "time": "6/15/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Service Billing",
+   "subject": "Invoice #F-2026-4812 still outstanding - act now",
+   "preview": "Dear customer, Invoice #F-2026-4812 for $389.90 is still showing as outstanding on our records. Late fees begi",
+   "body": "Dear customer,\n\nInvoice #F-2026-4812 for $389.90 is still showing as outstanding on our records. Late fees begin to apply after 48 hours. Settle it now through the secure link below.\n\nCollection Department",
+   "time": "6/15/26",
+   "folder": "spam"
+  },
+  {
+   "sender": "Uber Eats",
+   "subject": "Receipt for order #UE-839201",
+   "preview": "Thank you for your order at Burger King. Total: $14.90 (including $2.99 delivery fee). Delivered May 21 at 9:3",
+   "body": "Thank you for your order at Burger King. Total: $14.90 (including $2.99 delivery fee). Delivered May 21 at 9:35pm.",
+   "time": "6/12/26",
+   "folder": "trash"
+  },
+  {
+   "sender": "CE Wendt & Sons",
+   "subject": "Works Council ski weekend - only a few spots left",
+   "preview": "Hello, There are a few spots left for the ski weekend organized by the works council on July 29 and 8 in the W",
+   "body": "Hello,\n\nThere are a few spots left for the ski weekend organized by the works council on July 29 and 8 in the Waukesha County.\n\nLift pass + accommodation + transport: $85/person (50% covered by the works council)\n\nRegistration by Friday at the latest with the works council.\n\nBest regards,\nThe Works Council",
+   "time": "6/12/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Support Uber Eats",
+   "subject": "Order arrived incomplete",
+   "preview": "Hello, The drinks were missing from my order last night (no. UE-9928312). I was charged for the full amount. I",
+   "body": "Hello,\n\nThe drinks were missing from my order last night (no. UE-9928312). I was charged for the full amount.\nIs it possible to get a credit or partial refund?\n\nThank you,\nDylan Marsh",
+   "time": "6/12/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "US Bank",
+   "subject": "Your statement for December 2025",
+   "preview": "Hi Dylan MARSH, Your account statement for December 2025 is available in your client portal. Log in at regions",
+   "body": "Hi Dylan MARSH,\n\nYour account statement for December 2025 is available in your client portal.\n\nLog in at regionsbank.com or on the US Bank app to view it.\n\nBest regards,\nUS Bank",
+   "time": "6/11/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Bay View Auto",
+   "subject": "Quote request - Civic service",
+   "preview": "Hello, I would like to service my Honda Civic (2019, 28,000 miles): oil change, filters, brake check. Could yo",
+   "body": "Hello,\n\nI would like to service my Honda Civic (2019, 28,000 miles): oil change, filters, brake check.\nCould you provide a quote?\nI'm available weekdays after 6pm.\n\nThank you in advance,\nDylan Marsh\n414 555 0173",
+   "time": "6/9/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Mom",
+   "subject": "Photos from Christmas",
+   "preview": "Hey Dylan, I'm sending you the Christmas photos, I finally managed to put them on the computer! There are some",
+   "body": "Hey Dylan,\n\nI'm sending you the Christmas photos, I finally managed to put them on the computer! There are some really nice ones of you and Tessa.\n\nLet me know if you can open them.\n\nKisses,\nMom",
+   "time": "6/9/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Best Buy",
+   "subject": "Flash deals, this week only",
+   "preview": "Flash deals are live: up to -50% on selected tech, books and music. Everything ends Sunday.",
+   "body": "Flash deals are live: up to -50% on selected tech, books and music. Everything ends Sunday.",
+   "time": "6/9/26",
+   "folder": "trash"
+  },
+  {
+   "sender": "Amazon Prime",
+   "subject": "Amazon Prime: your membership has renewed",
+   "preview": "Hi Dylan Marsh, Your Amazon Prime membership has renewed automatically. Amount: $6.99/month Next charge: in 30",
+   "body": "Hi Dylan Marsh,\n\nYour Amazon Prime membership has renewed automatically.\n\nAmount: $6.99/month\nNext charge: in 30 days\n\nCarry on enjoying 1-day delivery, Prime Video and the rest of it.\n\nBest regards,\nAmazon",
+   "time": "6/7/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Best Buy",
+   "subject": "Your Best Buy order is ready for pickup",
+   "preview": "Hi Dylan MARSH, Your order is waiting for you at Best Buy - Riverwest. Item: PS5 DualSense Controller - Black ",
+   "body": "Hi Dylan MARSH,\n\nYour order is waiting for you at Best Buy - Riverwest.\n\nItem: PS5 DualSense Controller - Black\nOrder no.: FC-29481753\n\nWe will hold it for 10 days. Bring photo ID and this email with you.\n\nBest regards,\nBest Buy",
+   "time": "6/5/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Clay Farrow",
+   "subject": "Re: Access to the Drive folder",
+   "preview": "Hey Clay, Done, I shared the folder with you. You should have access now. Let me know if it doesn't work. Dyla",
+   "body": "Hey Clay,\n\nDone, I shared the folder with you. You should have access now.\nLet me know if it doesn't work.\n\nDylan",
+   "time": "6/4/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "CryptoGain Pro",
+   "subject": "Earn $12,000/day with this secret crypto method",
+   "preview": "Dylan, our automated trading algorithm is already paying thousands of people $12,000 a day. Open an account wi",
+   "body": "Dylan, our automated trading algorithm is already paying thousands of people $12,000 a day. Open an account with the $250 minimum deposit and start earning today. Places are limited: https://cryptogain-pro-trading.io/fr/register",
+   "time": "6/2/26",
+   "folder": "spam"
+  },
+  {
+   "sender": "Pulaski Aquatic Center",
+   "subject": "Your annual membership runs out soon",
+   "preview": "Hi Dylan MARSH, Your annual subscription to the Milwaukee Pulaski Aquatic Center expires on September 6, 2026.",
+   "body": "Hi Dylan MARSH,\n\nYour annual subscription to the Milwaukee Pulaski Aquatic Center expires on September 6, 2026.\n\nTo renew, visit the front desk or our website.\n\nAdult rate: $165.00/year\nReduced rate (affiliated club): $120.00/year\n\nBest regards,\nMilwaukee Pulaski Aquatic Center",
+   "time": "6/2/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Dick's Sporting Goods",
+   "subject": "Tell us what you thought of your purchase",
+   "preview": "Hi Dylan, You recently purchased \"Swim jammers 500\" at Dick's Sporting Goods. What did you think? Leave us you",
+   "body": "Hi Dylan,\n\nYou recently purchased \"Swim jammers 500\" at Dick's Sporting Goods. What did you think?\n\nLeave us your review and help the sports community make the right choice.\n\nThank you,\nDick's Sporting Goods",
+   "time": "5/30/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Catherine Marsh",
+   "subject": "Re: Christmas over at Aunt Marie's",
+   "preview": "Hey Mom, That works - we'll get there on the 24th in the evening. We do have to head off on the 26th in the mo",
+   "body": "Hey Mom,\n\nThat works - we'll get there on the 24th in the evening. We do have to head off on the 26th in the morning though, Tessa is working on the 27th.\nShall we bring anything with us?\n\nBig kisses,\nDylan",
+   "time": "5/28/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Steam",
+   "subject": "Someone just gifted you a game!",
+   "preview": "Hi Dylan, ThomasLeBG has gifted you a game on Steam! Game: It Takes Two Message: \"So we can play together bro!",
+   "body": "Hi Dylan,\n\nThomasLeBG has gifted you a game on Steam!\n\nGame: It Takes Two\nMessage: \"So we can play together bro!\"\n\nAccept your gift by logging into Steam.\n\nThe Steam Team",
+   "time": "5/26/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Dick's Sporting Goods",
+   "subject": "Your order is waiting at the store!",
+   "preview": "Hi Dylan, Your order #DKT-8429175 is available for pickup at Dick's Sporting Goods Milwaukee. Opening hours: M",
+   "body": "Hi Dylan,\n\nYour order #DKT-8429175 is available for pickup at Dick's Sporting Goods Milwaukee.\n\nOpening hours: Monday-Saturday 9am-8pm\nPlease bring your ID.\n\nSee you soon!\nDick's Sporting Goods Milwaukee",
+   "time": "5/26/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Dick's Sporting Goods",
+   "subject": "Order #DKT-8429175 confirmed",
+   "preview": "Hi Dylan MARSH, Thank you for your order! Summary: - 1x Swim jammers 500 - Navy blue - Size M: $19.99 - 1x Mic",
+   "body": "Hi Dylan MARSH,\n\nThank you for your order!\n\nSummary:\n- 1x Swim jammers 500 - Navy blue - Size M: $19.99\n- 1x Microfiber towel L: $12.99\n\nTotal: $32.98\nIn-store pickup at Dick's Sporting Goods Milwaukee: free\n\nEstimate: 3 to 5 business days.\n\nBest regards,\nDick's Sporting Goods",
+   "time": "5/23/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Club Aqua Chicago",
+   "subject": "My medical certificate",
+   "preview": "Hello, Attached is my medical certificate of fitness for competitive swimming. Tell me if anything else is nee",
+   "body": "Hello,\n\nAttached is my medical certificate of fitness for competitive swimming.\nTell me if anything else is needed on the document.\n\nBest regards,\nDylan Marsh",
+   "time": "5/23/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Prince Adewale Okonkwo",
+   "subject": "Strictly confidential — USD 4.5 million",
+   "preview": "Dear friend, I write to you in the strictest confidence. I am Prince Adewale Okonkwo, first son of the late Ch",
+   "body": "Dear friend,\n\nI write to you in the strictest confidence. I am Prince Adewale Okonkwo, first son of the late Chief Okonkwo of Nigeria. Since my father's death, USD 4.5 million has sat in escrow and I require a trustworthy partner abroad to release it through legal channels. Thirty percent of the sum would be yours for the assistance. Send me your full legal name and banking coordinates and we may begin.\n\nBlessings,\nPrince Adewale Okonkwo",
+   "time": "5/20/26",
+   "folder": "spam"
+  },
+  {
+   "sender": "Milwaukee County Benefits Office",
+   "subject": "Action needed: your quarterly income declaration",
+   "preview": "Hi Dylan MARSH, Your quarterly income declaration is due before the 25th of this month. Where the declaration ",
+   "body": "Hi Dylan MARSH,\n\nYour quarterly income declaration is due before the 25th of this month.\n\nWhere the declaration is missing, benefit payments are suspended.\n\nLog in at benefits.gov to complete it.\n\nBest regards,\nThe Benefits Office",
+   "time": "5/18/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Wisconsin Department of Revenue",
+   "subject": "Re: My 2025 tax notice",
+   "preview": "Hello, My tax notice has arrived but the declared income looks wrong. I declared $28,400 net taxable and the d",
+   "body": "Hello,\n\nMy tax notice has arrived but the declared income looks wrong. I declared $28,400 net taxable and the document states $31,200.\nWhat is the process for reporting an error like this?\n\nBest regards,\nDylan Marsh",
+   "time": "5/16/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Nike",
+   "subject": "Nike: order #NK-9284751 confirmed",
+   "preview": "Thanks for your order, Dylan! Item: Nike Racing Cap - White Size: L Amount: $24.99 Shipping within 3 to 5 busi",
+   "body": "Thanks for your order, Dylan!\n\nItem: Nike Racing Cap - White\nSize: L\nAmount: $24.99\n\nShipping within 3 to 5 business days.\n\nBest regards,\nNike",
+   "time": "5/13/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Spotify",
+   "subject": "Wrapped 2025 is waiting for you!",
+   "preview": "Hi Dylan, Wrapped is here. Your most played artists, tracks and podcasts of 2025 are ready to scroll through. ",
+   "body": "Hi Dylan,\n\nWrapped is here. Your most played artists, tracks and podcasts of 2025 are ready to scroll through.\n\nOpen the Spotify app to see it.\n\nHappy listening,\nSpotify",
+   "time": "5/12/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Phillip Wendt",
+   "subject": "Re: Team update for the month",
+   "preview": "Hello Mr. Wendt, Friday's meeting is in my diary, I'll be there. I'll put together a short summary of where my",
+   "body": "Hello Mr. Wendt,\n\nFriday's meeting is in my diary, I'll be there.\nI'll put together a short summary of where my current files stand.\n\nHave a good day,\nDylan",
+   "time": "5/11/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "EuroMillions Official",
+   "subject": "You have won $850,000! Claim your prize",
+   "preview": "Congratulations! Our annual EuroMillions draw selected your email address. The sum of $850,000 is being held i",
+   "body": "Congratulations! Our annual EuroMillions draw selected your email address. The sum of $850,000 is being held in your name. Send a copy of your ID together with your bank details to this address to release it. Reference: EM-2026-7834921.",
+   "time": "5/11/26",
+   "folder": "spam"
+  },
+  {
+   "sender": "Amazon",
+   "subject": "Delivered: your package has arrived",
+   "preview": "Hi Dylan Marsh, \"Finis 3x300 Swimming Stopwatch\" was delivered to your mailbox today. Get in touch with us if ",
+   "body": "Hi Dylan Marsh,\n\n\"Finis 3x300 Swimming Stopwatch\" was delivered to your mailbox today.\n\nGet in touch with us if it is not there.\n\nBest regards,\nAmazon",
+   "time": "5/8/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Tessa Rowe",
+   "subject": "Re: Where are we eating tonight",
+   "preview": "My love, What about the Japanese place over on N Locust St? I have a serious gyoza craving. I'll hold a table ",
+   "body": "My love,\n\nWhat about the Japanese place over on N Locust St? I have a serious gyoza craving.\nI'll hold a table for 8pm unless you say otherwise.\n\nKisses <3\nDylan",
+   "time": "5/6/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "To: Coach Frederick",
+   "subject": "Missing practice on Wednesday",
+   "preview": "Hey Fred, Wednesday night is out for me, I have a work dinner I can't move. Saturday morning I'll be there as ",
+   "body": "Hey Fred,\n\nWednesday night is out for me, I have a work dinner I can't move.\nSaturday morning I'll be there as always though.\n\nSorry about that, see you Saturday!\nDylan",
+   "time": "4/30/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Steam",
+   "subject": "The Steam Winter Sale is live!",
+   "preview": "Hi Dylan, The Winter Sale runs for the next two weeks, with thousands of titles reduced. Picked out for you: -",
+   "body": "Hi Dylan,\n\nThe Winter Sale runs for the next two weeks, with thousands of titles reduced.\n\nPicked out for you:\n- Elden Ring -40%\n- Baldur's Gate 3 -20%\n- Stardew Valley -40%\n\nHappy shopping!\nSteam",
+   "time": "4/30/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: State Farm Insurance",
+   "subject": "Re: Certificate for my home insurance",
+   "preview": "Hello, Thank you for the certificate. The address printed on it is my previous one though. My current address ",
+   "body": "Hello,\n\nThank you for the certificate. The address printed on it is my previous one though. My current address is:\n12 E Center St, Milwaukee, WI 53212.\n\nCould you issue a corrected document?\n\nBest regards,\nDylan Marsh",
+   "time": "4/28/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "State Farm",
+   "subject": "Your home insurance certificate for 2026",
+   "preview": "Hi Dylan MARSH, Your home insurance certificate for 2026 is available in your State Farm member space. Policy ",
+   "body": "Hi Dylan MARSH,\n\nYour home insurance certificate for 2026 is available in your State Farm member space.\n\nPolicy no.: MH-5847291\nInsured address: 12 N Oakland Ave, 53290 Milwaukee\nCoverage: Essential Plan\n\nDon't hesitate to contact us for any inquiries.\n\nBest regards,\nState Farm",
+   "time": "4/28/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Curt Sandoval",
+   "subject": "Re: Team USA match broadcast",
+   "preview": "Bro, Let me see what I've got - I think the game streams on my PC. Failing that, the bar by yours? One way or ",
+   "body": "Bro,\n\nLet me see what I've got - I think the game streams on my PC. Failing that, the bar by yours?\nOne way or another we're watching it together.\n\nLater\nDylan",
+   "time": "4/23/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Curt Pratt",
+   "subject": "Fwd: Music Festival tickets Madison",
+   "preview": "Hey Dylan! There's a free concert in Madison for the music festival in June - DJ set plus a live band from wha",
+   "body": "Hey Dylan!\n\nThere's a free concert in Madison for the music festival in June - DJ set plus a live band from what I can tell. We should all make a night of it.\n\nSending the link over, take a look.\n\nLater\nCurt",
+   "time": "4/23/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Service Client ASOS",
+   "subject": "Wrong size sent - returning it",
+   "preview": "Hello, The pants arrived but they sent an M rather than the L I ordered. I have generated the return label fro",
+   "body": "Hello,\n\nThe pants arrived but they sent an M rather than the L I ordered.\nI have generated the return label from my account and the package goes out tomorrow.\nPlease confirm the exchange once it reaches you.\n\nBest regards,\nDylan Marsh",
+   "time": "4/18/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Best Buy",
+   "subject": "Best Buy member: your weekly deals",
+   "preview": "Hi Dylan, Member offers running this week at Best Buy: - $10 voucher once you spend over $50 - PS5 Slim with a",
+   "body": "Hi Dylan,\n\nMember offers running this week at Best Buy:\n\n- $10 voucher once you spend over $50\n- PS5 Slim with a second controller: $499.99\n- Logitech G Pro gaming headset: -25%\n\nMembers only.\n\nBest Buy",
+   "time": "4/18/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Tessa",
+   "subject": "Fwd: a birthday present idea for your mom",
+   "preview": "Hey, Spotted this on REI - would your mom like it? Organic tea set, comes with a cast iron teapot. Link: https",
+   "body": "Hey,\n\nSpotted this on REI - would your mom like it? Organic tea set, comes with a cast iron teapot.\n\nLink: https://www.rei.com/product/organic-tea-gift-set\n\nIt's $49.90, we could go halves on it.\n\nKisses",
+   "time": "4/13/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Renata Salas",
+   "subject": "Re: Our meeting on Monday",
+   "preview": "Hey Renata, Monday at 10am is in my diary. I'll take the numbers section if you take the client summary? Shall",
+   "body": "Hey Renata,\n\nMonday at 10am is in my diary. I'll take the numbers section if you take the client summary?\nShall we grab the 2nd floor room while it is free?\n\nSee you Monday!\nDylan",
+   "time": "4/10/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Netflix",
+   "subject": "Pick up where you left off: Lupin",
+   "preview": "Hi Dylan, Lupin - Part 3 is still sitting unfinished in your list. Carry on from where you stopped. Enjoy watc",
+   "body": "Hi Dylan,\n\nLupin - Part 3 is still sitting unfinished in your list. Carry on from where you stopped.\n\nEnjoy watching,\nNetflix",
+   "time": "4/8/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Wes Kubiak",
+   "subject": "Re: The party on Saturday",
+   "preview": "Yoo Wes, All set for Saturday, I'll bring beers. Tessa is coming too btw. We'll get there around 8:30pm, that ",
+   "body": "Yoo Wes,\n\nAll set for Saturday, I'll bring beers. Tessa is coming too btw.\nWe'll get there around 8:30pm, that work?\n\nSee you Sat!\nDylan",
+   "time": "3/29/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "USAS - USA Swimming",
+   "subject": "Renewing your 2025-2026 license",
+   "preview": "Hi Dylan MARSH, License no. 54-128-4597 runs out on February 21, 2027. To renew it we need: - A medical certif",
+   "body": "Hi Dylan MARSH,\n\nLicense no. 54-128-4597 runs out on February 21, 2027.\n\nTo renew it we need:\n- A medical certificate less than one year old\n- Payment of $85.00 (license + insurance)\n\nRenew online at usaswimming.org, or hand it in through your club.\n\nBest regards,\nUSAS - License Department",
+   "time": "3/29/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: US Bank",
+   "subject": "Raising my card payment limit",
+   "preview": "Hello, I would like to temporarily increase my card payment limit for next month (trip planned). Is it possibl",
+   "body": "Hello,\n\nI would like to temporarily increase my card payment limit for next month (trip planned).\nIs it possible to go from $1,500 to $2,500?\n\nThank you in advance,\nDylan Marsh\nAccount no. ending in 4421",
+   "time": "3/21/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Milwaukee Swim Club",
+   "subject": "Reminder: 2025-2026 club dues outstanding",
+   "preview": "Hi Dylan, Just a reminder that your membership fee for the 2025-2026 season hasn't been paid yet. Amount: $220",
+   "body": "Hi Dylan,\n\nJust a reminder that your membership fee for the 2025-2026 season hasn't been paid yet.\n\nAmount: $220.00 (club fee + USAS license)\nPlease pay by bank transfer or check before the end of the month.\n\nClub bank details attached.\n\nThanks,\nPhillip - MSC Treasurer",
+   "time": "3/19/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Service RH - Wendt & Sons",
+   "subject": "Re: Transport pass receipt",
+   "preview": "Hello, Please find attached my MCTS transit pass receipt for last month. Sorry for the delay, I had forgotten ",
+   "body": "Hello,\n\nPlease find attached my MCTS transit pass receipt for last month.\nSorry for the delay, I had forgotten to scan it.\n\nBest regards,\nDylan Marsh",
+   "time": "3/18/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "To: Service Client Amazon",
+   "subject": "Order #402-8834921 arrived damaged",
+   "preview": "Hello, I received my package this morning but the box was open and the product inside is damaged (cracked scre",
+   "body": "Hello,\n\nI received my package this morning but the box was open and the product inside is damaged (cracked screen protector).\nCould you process an exchange or refund?\n\nOrder number: 402-8834921\n\nThank you in advance,\nDylan Marsh",
+   "time": "3/11/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Wisconsin Department of Revenue",
+   "subject": "Income tax: your declaration status notice",
+   "preview": "Hello, The status notice for your income tax declaration is now in your personal online space. After processin",
+   "body": "Hello,\n\nThe status notice for your income tax declaration is now in your personal online space.\n\nAfter processing your 2025 income declaration, you are not taxable.\n\nLog in to your personal space with any questions.\n\nBest regards,\nThe Wisconsin Department of Revenue",
+   "time": "3/9/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Amazon",
+   "subject": "Your order #405-2849175-6382914 is confirmed",
+   "preview": "Hi Dylan Marsh, Thanks for your order! 1x Shock Doctor Mouthguard - Adult size: $12.99 1x Speedo Wristband: $8",
+   "body": "Hi Dylan Marsh,\n\nThanks for your order!\n\n1x Shock Doctor Mouthguard - Adult size: $12.99\n1x Speedo Wristband: $8.99\n\nTotal: $21.98\nArriving in 2 days\n\nBest regards,\nAmazon",
+   "time": "3/4/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Catherine Marsh",
+   "subject": "Re: Photos from the weekend",
+   "preview": "Hey Mom, Thanks for the photos! They're great, especially the one with Grandpa in the garden. I put them in th",
+   "body": "Hey Mom,\n\nThanks for the photos! They're great, especially the one with Grandpa in the garden.\nI put them in the Google Photos album I shared with you.\n\nKisses,\nDylan",
+   "time": "3/4/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "To: Phillip Wendt",
+   "subject": "Re: Lawson file - missing documents",
+   "preview": "Hello Mr. Wendt, I checked and document #3wasindeedmissing. I've added it to the shared folder. Don't hesitate",
+   "body": "Hello Mr. Wendt,\n\nI checked and document #3wasindeedmissing. I've added it to the shared folder.\nDon't hesitate if you need anything else.\n\nBest regards,\nDylan Marsh",
+   "time": "2/25/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "To: Club Aqua Chicago",
+   "subject": "Re: Signing on again for 2025-2026",
+   "preview": "Hello, This is to confirm my re-registration for next season in the Senior category. The $280 transfer went ou",
+   "body": "Hello,\n\nThis is to confirm my re-registration for next season in the Senior category.\nThe $280 transfer went out this morning and should land with you tomorrow.\n\nBest regards,\nDylan Marsh",
+   "time": "2/17/26",
+   "folder": "sent"
+  }
+ ],
+ "calendar": [
+  {
+   "title": "Dual Meet — Minneapolis vs Milwaukee",
+   "date": "11/09",
+   "dateLabel": "Mon, Nov 9, 2026",
+   "month": "2026-11",
+   "time": "3:00 PM – 5:00 PM",
+   "location": "Northrop Aquatic Center, Minneapolis",
+   "description": "Away meet"
+  },
+  {
+   "title": "Birthday — Dad",
+   "date": "10/30",
+   "dateLabel": "Fri, Oct 30, 2026",
+   "month": "2026-10",
+   "time": "All day",
+   "location": "",
+   "description": ""
+  },
+  {
+   "title": "Regional tournament - full squad",
+   "date": "10/15",
+   "dateLabel": "Thu, Oct 15, 2026",
+   "month": "2026-10",
+   "time": "9:00 AM – 6:00 PM",
+   "location": "Grand Rapids Aquatic Center",
+   "description": "Group stage + quarterfinals"
+  },
+  {
+   "title": "Doctor - prescription renewal",
+   "date": "10/03",
+   "dateLabel": "Sat, Oct 3, 2026",
+   "month": "2026-10",
+   "time": "9:00 AM – 9:30 AM",
+   "location": "Dr. Kellner's Office",
+   "description": "Routine visit"
+  },
+  {
+   "title": "Practice",
+   "date": "09/25",
+   "dateLabel": "Fri, Sep 25, 2026",
+   "month": "2026-09",
+   "time": "7:30 PM – 9:00 PM",
+   "location": "Pulaski Aquatic Center",
+   "description": ""
+  },
+  {
+   "title": "Weekend away - Door County",
+   "date": "09/17",
+   "dateLabel": "Thu, Sep 17, 2026",
+   "month": "2026-09",
+   "time": "9:00 AM – 6:00 PM",
+   "location": "Door County",
+   "description": "Getaway with friends"
+  },
+  {
+   "title": "Eye test",
+   "date": "09/10",
+   "dateLabel": "Thu, Sep 10, 2026",
+   "month": "2026-09",
+   "time": "2:30 PM – 3:00 PM",
+   "location": "Dr. Lang's Office",
+   "description": "Vision checkup"
+  },
+  {
+   "title": "Gym",
+   "date": "09/05",
+   "dateLabel": "Sat, Sep 5, 2026",
+   "month": "2026-09",
+   "time": "7:00 AM – 8:30 AM",
+   "location": "Wisconsin Athletic Club Milwaukee",
+   "description": "Cardio + legs session"
+  },
+  {
+   "title": "Cookout at Wes's",
+   "date": "08/31",
+   "dateLabel": "Mon, Aug 31, 2026",
+   "month": "2026-08",
+   "time": "12:00 PM – 5:00 PM",
+   "location": "Wes's place",
+   "description": ""
+  },
+  {
+   "title": "Practice",
+   "date": "08/26",
+   "dateLabel": "Wed, Aug 26, 2026",
+   "month": "2026-08",
+   "time": "7:30 PM – 9:00 PM",
+   "location": "Pulaski Aquatic Center",
+   "description": ""
+  },
+  {
+   "title": "Tessa's Birthday",
+   "date": "08/24",
+   "dateLabel": "Mon, Aug 24, 2026",
+   "month": "2026-08",
+   "time": "All day",
+   "location": "",
+   "description": ""
+  },
+  {
+   "title": "Dual Meet — Milwaukee vs Ann Arbor",
+   "date": "08/18",
+   "dateLabel": "Tue, Aug 18, 2026",
+   "month": "2026-08",
+   "time": "3:00 PM – 5:00 PM",
+   "location": "Pulaski Aquatic Center",
+   "description": "Home meet"
+  },
+  {
+   "title": "Drinks with the work team",
+   "date": "08/14",
+   "dateLabel": "Fri, Aug 14, 2026",
+   "month": "2026-08",
+   "time": "6:30 PM – 9:00 PM",
+   "location": "The Harp, Milwaukee",
+   "description": ""
+  },
+  {
+   "title": "Barber",
+   "date": "08/11",
+   "dateLabel": "Tue, Aug 11, 2026",
+   "month": "2026-08",
+   "time": "11:00 AM – 12:00 PM",
+   "location": "",
+   "description": ""
+  },
+  {
+   "title": "Practice",
+   "date": "08/09",
+   "dateLabel": "Sun, Aug 9, 2026",
+   "month": "2026-08",
+   "time": "7:30 PM – 9:00 PM",
+   "location": "Pulaski Aquatic Center",
+   "description": ""
+  },
+  {
+   "title": "Practice",
+   "date": "08/06",
+   "dateLabel": "Thu, Aug 6, 2026",
+   "month": "2026-08",
+   "time": "6:15 PM – 8:15 PM",
+   "location": "Pulaski Aquatic Center",
+   "description": "Team training"
+  },
+  {
+   "title": "Gym",
+   "date": "08/04",
+   "dateLabel": "Tue, Aug 4, 2026",
+   "month": "2026-08",
+   "time": "7:00 AM – 8:30 AM",
+   "location": "Wisconsin Athletic Club Milwaukee",
+   "description": "Legs session"
+  },
+  {
+   "title": "Dentist - cleaning",
+   "date": "08/03",
+   "dateLabel": "Mon, Aug 3, 2026",
+   "month": "2026-08",
+   "time": "9:30 AM – 10:00 AM",
+   "location": "Dr. Moran's Office",
+   "description": "Annual checkup"
+  },
+  {
+   "title": "Practice",
+   "date": "08/01",
+   "dateLabel": "Sat, Aug 1, 2026",
+   "month": "2026-08",
+   "time": "7:30 PM – 9:00 PM",
+   "location": "Pulaski Aquatic Center",
+   "description": ""
+  },
+  {
+   "title": "Chiro - shoulder",
+   "date": "07/31",
+   "dateLabel": "Fri, Jul 31, 2026",
+   "month": "2026-07",
+   "time": "5:00 PM – 5:45 PM",
+   "location": "Riverwest Chiropractic",
+   "description": "First session"
+  },
+  {
+   "title": "Drinks at Cole's",
+   "date": "07/29",
+   "dateLabel": "Wed, Jul 29, 2026",
+   "month": "2026-07",
+   "time": "7:00 PM – 11:00 PM",
+   "location": "Cole's place",
+   "description": ""
+  },
+  {
+   "title": "Dual Meet — Milwaukee vs Grand Rapids",
+   "date": "07/25",
+   "dateLabel": "Sat, Jul 25, 2026",
+   "month": "2026-07",
+   "time": "3:00 PM – 5:00 PM",
+   "location": "Pulaski Aquatic Center",
+   "description": "Home meet"
+  },
+  {
+   "title": "Weekly grocery run",
+   "date": "07/23",
+   "dateLabel": "Thu, Jul 23, 2026",
+   "month": "2026-07",
+   "time": "10:00 AM – 11:30 AM",
+   "location": "",
+   "description": "Weekly groceries"
+  },
+  {
+   "title": "Practice",
+   "date": "07/20",
+   "dateLabel": "Mon, Jul 20, 2026",
+   "month": "2026-07",
+   "time": "7:30 PM – 9:00 PM",
+   "location": "Pulaski Aquatic Center",
+   "description": ""
+  },
+  {
+   "title": "Dinner at Mom and Dad's",
+   "date": "07/16",
+   "dateLabel": "Thu, Jul 16, 2026",
+   "month": "2026-07",
+   "time": "12:30 PM – 3:00 PM",
+   "location": "Parents' place",
+   "description": "Sunday meal at Mom and Dad's"
+  },
+  {
+   "title": "Car insurance renewal",
+   "date": "07/14",
+   "dateLabel": "Tue, Jul 14, 2026",
+   "month": "2026-07",
+   "time": "9:00 AM – 9:30 AM",
+   "location": "",
+   "description": "Call before the policy rolls over"
+  },
+  {
+   "title": "Garage - service",
+   "date": "07/12",
+   "dateLabel": "Sun, Jul 12, 2026",
+   "month": "2026-07",
+   "time": "8:30 AM – 10:00 AM",
+   "location": "Bay View Auto",
+   "description": "MOT + oil change"
+  },
+  {
+   "title": "Movie night with Tessa",
+   "date": "07/07",
+   "dateLabel": "Tue, Jul 7, 2026",
+   "month": "2026-07",
+   "time": "8:30 PM – 11:00 PM",
+   "location": "Oriental Theatre Milwaukee",
+   "description": ""
+  },
+  {
+   "title": "Practice",
+   "date": "07/02",
+   "dateLabel": "Thu, Jul 2, 2026",
+   "month": "2026-07",
+   "time": "7:30 PM – 9:00 PM",
+   "location": "Pulaski Aquatic Center",
+   "description": ""
+  },
+  {
+   "title": "Gym",
+   "date": "06/22",
+   "dateLabel": "Mon, Jun 22, 2026",
+   "month": "2026-06",
+   "time": "7:00 AM – 8:30 AM",
+   "location": "Wisconsin Athletic Club Milwaukee",
+   "description": "Upper body workout"
+  },
+  {
+   "title": "Dual Meet — Des Moines vs Milwaukee",
+   "date": "06/12",
+   "dateLabel": "Fri, Jun 12, 2026",
+   "month": "2026-06",
+   "time": "2:00 PM – 4:00 PM",
+   "location": "Drake Aquatic Center, Des Moines",
+   "description": "Away meet"
+  },
+  {
+   "title": "Pizza night — the boys",
+   "date": "06/02",
+   "dateLabel": "Tue, Jun 2, 2026",
+   "month": "2026-06",
+   "time": "8:00 PM – 11:30 PM",
+   "location": "Wes's place",
+   "description": ""
+  },
+  {
+   "title": "Bank - meeting with the advisor",
+   "date": "05/23",
+   "dateLabel": "Sat, May 23, 2026",
+   "month": "2026-05",
+   "time": "10:00 AM – 11:00 AM",
+   "location": "First National Milwaukee",
+   "description": "Mortgage review"
+  }
+ ],
+ "notes": [
+  {
+   "title": "what goes out each month",
+   "body": "rent: $580\ninsurance: $45\nphone: $20\nspotify: 0 (on Grady's family plan)\nnetflix: $13\ngym: $35\n\ntotal fixed: ~$693"
+  },
+  {
+   "title": "pwd",
+   "body": "phone: 908937\nsnap my eyes only code: 6782"
+  },
+  {
+   "title": "groceries",
+   "body": "- pasta\n- marinara\n- chicken\n- rice\n- eggs\n- bananas\n- shredded cheese\n- body wash\n- toilet paper"
+  },
+  {
+   "title": "swim squad stats",
+   "body": "season:\n- 50 free pb: 23.9\n- 100 free pb: 52.4\n- meets swum: 9\n\nend of season goal: under 52 flat for the 100\nwork on the back half of every race"
+  },
+  {
+   "title": "training week",
+   "body": "monday: swim squad 6:15pm-8:15pm\ntuesday: gym (upper body)\nwednesday: rest\nthursday: swim squad 6:15pm-8:15pm\nfriday: gym (legs)\nsaturday: meet\nsunday: rest or light jog"
+  },
+  {
+   "title": "apartment",
+   "body": "landlord - chase him about the drip under the sink\nmeter reading before the 15th\nnew bulb for the bathroom\nold place still owes us the deposit (nothing back yet...)"
+  },
+  {
+   "title": "appts to book",
+   "body": "dentist: Aug 3, 4:30\nPCP: refill prescription\nchiro: book appt for the shoulder"
+  },
+  {
+   "title": "gym goals",
+   "body": "weeks 1-4: bulk\n- 4x squat 175 lbs\n- 4x bench 135 lbs\n- 3x weighted pull-ups +25 lbs\n- protein up to 140g/day\n\ncalories: 2800/day minimum"
+  },
+  {
+   "title": "party at trey's",
+   "body": "bring:\n- pack of beers\n- bluetooth speaker\n- card game (werewolf)\n\nconfirm with Curt and Wes"
+  },
+  {
+   "title": "dad's bday ideas",
+   "body": "October 30\n\nideas:\n- decent bottle of whiskey (ask mom what he drinks)\n- grill tools\n- tickets to a Bucks match?"
+  },
+  {
+   "title": "Note",
+   "body": "need to stop scrolling until 2am, im not sleeping properly anymore"
+  },
+  {
+   "title": "gift ideas for Tessa",
+   "body": "her bday is in 2 months\n\n- that bracelet she pointed out downtown\n- take her away for a weekend?\n- perfume (the vanilla one she keeps re-buying)\n- make her something myself?"
+  },
+  {
+   "title": "race kit sizes",
+   "body": "race suit:\nsize M\ncap: size 3\ngoggles: speedo fastskin\njammers: M\n\nfor the club order"
+  },
+  {
+   "title": "shoulder rehab",
+   "body": "drills from the chiro:\n- band external rotations 3x15\n- scap pull-ups 3x8\n- wall slides 2x10\n\nice after practice, not before\nstop pushing through it on the throws"
+  },
+  {
+   "title": "summer trip options",
+   "body": "options:\n1. Spain (Barcelona) with the guys - budget $600\n2. Mackinac Island camping with Tessa - budget $800\n3. Portugal (Lisbon/Porto) - budget $700\n\ntalk to Tessa and the guys about it"
+  },
+  {
+   "title": "podcast queue",
+   "body": "- huberman lab ep on sleep\n- popcorn sport on basketball\n- joe rogan with the mma fighter\n- generation do it yourself"
+  },
+  {
+   "title": "car - service list",
+   "body": "service needed before april\n- oil change\n- front tires to change\n- MOT in 3 months\n\ncenter garage: 414 555 0166"
+  },
+  {
+   "title": "playlist for the drive",
+   "body": "add on spotify:\n- laylow\n- hamza\n- nekfeu\n- gazo\n- damso\n- tiakola\n- niska\n- sch"
+  },
+  {
+   "title": "moving list",
+   "body": "new place shopping list:\n- kallax shelf from ikea\n- blackout curtains for the bedroom\n- big rug, living room\n- lamp for the desk\n- photo frames for the hallway"
+  },
+  {
+   "title": "meet day bag",
+   "body": "- suit + spare\n- cap (size 3)\n- 2 towels\n- water bottle\n- goggles + spare\n- something to eat for the drive back"
+  },
+  {
+   "title": "carbonara, the proper way",
+   "body": "serves 2:\n1/2 lb spaghetti\n5 oz pancetta\n3 egg yolks\ngrated parmesan\nblack pepper\n\nNO cream, ever (that is the whole point)"
+  },
+  {
+   "title": "books",
+   "body": "- the art of war (sun tzu) - started\n- atomic habits - need to grab\n- the monk who sold his ferrari\n\ncheck if Grady finished his"
+  },
+  {
+   "title": "wifi code",
+   "body": "wifi at home: SPECTRUM-2F8A91\nwifi at mom's: gateway-D4E2"
+  },
+  {
+   "title": "Note",
+   "body": "\"discipline is doing what needs doing even when you don't feel like it\""
+  },
+  {
+   "title": "apple id",
+   "body": "dylanmarsh29@icloud.com\nsecurity question: first pet's name\nanswer: rocky"
+  }
+ ],
+ "maps": [
+  {
+   "name": "Current location",
+   "subtitle": "Kinnickinnic Ave, Bay View"
+  },
+  {
+   "name": "Pulaski Aquatic Center",
+   "subtitle": "Swim training"
+  },
+  {
+   "name": "Wisconsin Athletic Club",
+   "subtitle": "Gym"
+  },
+  {
+   "name": "Mom and Dad's",
+   "subtitle": "Sunday dinners"
+  },
+  {
+   "name": "Office - Wendt & Sons",
+   "subtitle": "Work"
+  },
+  {
+   "name": "The Harp",
+   "subtitle": "Afterwork with the team"
+  },
+  {
+   "name": "My place",
+   "subtitle": "Home"
+  }
+ ],
+ "mapSharedWith": [
+  {
+   "name": "Tessa (my love)"
+  },
+  {
+   "name": "quietwater7@gmail.com"
+  },
+  {
+   "name": "Grady (brother)"
+  }
+ ],
+ "revolut": {
+  "balance": "$312.23",
+  "transactions": [
+   {
+    "name": "Costco",
+    "amount": "-$68.11",
+    "date": "Tuesday, 11:30 AM",
+    "note": "Grocery shopping"
+   },
+   {
+    "name": "Spotify AB",
+    "amount": "-$10.99",
+    "date": "Saturday, 8:00 AM",
+    "note": "Premium subscription"
+   },
+   {
+    "name": "Pick 'n Save",
+    "amount": "-$38.24",
+    "date": "Friday, 5:20 PM",
+    "note": "Grocery shopping"
+   },
+   {
+    "name": "Shell",
+    "amount": "-$53.53",
+    "date": "7/29/26, 6:45 PM",
+    "note": "Gas fill-up"
+   },
+   {
+    "name": "Rocket Baby",
+    "amount": "-$4.23",
+    "date": "7/27/26, 7:50 AM",
+    "note": "Card payment"
+   },
+   {
+    "name": "Colectivo",
+    "amount": "-$6.12",
+    "date": "7/24/26, 8:10 AM",
+    "note": "Card payment"
+   },
+   {
+    "name": "Marsh Dylan",
+    "amount": "-$1,715.20",
+    "date": "7/22/26, 6:00 AM",
+    "note": "Transfer received"
+   }
+  ]
+ },
+ "weather": {
+  "city": "Local",
+  "tempC": 18,
+  "hi": 21,
+  "lo": 12,
+  "condition": "Clear"
+ },
+ "photos": [
+  "photo_0.webp",
+  "photo_1.webp",
+  "photo_2.webp",
+  "photo_3.webp",
+  "photo_4.webp",
+  "photo_5.webp",
+  "photo_6.webp",
+  "photo_7.webp",
+  "photo_8.webp"
+ ],
+ "screenTime": [],
+ "instagram": {
+  "username": "dylan_marsh29",
+  "displayName": "Dylan Marsh",
+  "avatar": null,
+  "bio": "🏊 Swimming | 💪 Always one more",
+  "posts": []
+ },
+ "airbnb": {
+  "name": "",
+  "listings": []
+ }
+}

@@ -6,16 +6,28 @@ import styles from "./Gmail.module.scss";
 interface GmailProps {
   caseData: CaseConfig;
   onBack: () => void;
+  hintTargetId?: string;
+  onFoundClue?: () => void;
 }
 
-export default function Gmail({ caseData, onBack }: GmailProps) {
+export default function Gmail({ caseData, onBack, hintTargetId, onFoundClue }: GmailProps) {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
-  const [folder, setFolder] = useState<"inbox" | "sent">("inbox");
+  const [folder, setFolder] = useState<"inbox" | "sent" | "trash" | "spam">("inbox");
   const entry = openIndex !== null ? caseData.gmail[openIndex] : null;
   const hasSent = caseData.gmail.some((g) => g.folder === "sent");
+  const hasTrash = caseData.gmail.some((g) => g.folder === "trash");
+  const hasSpam = caseData.gmail.some((g) => g.folder === "spam");
   const rows = caseData.gmail
     .map((g, i) => ({ g, i }))
     .filter(({ g }) => (g.folder ?? "inbox") === folder);
+  // Email cần tìm có thể nằm ở Sent trong khi đang đứng ở Inbox (mặc định
+  // mở app) — dòng đó chưa hiện ra để sáng được, phải chỉ tay vào đúng tab
+  // chứa nó trước, không thì người chơi không biết phải bấm "Sent".
+  const hotEmail =
+    hintTargetId !== undefined
+      ? caseData.gmail.find((g) => g.sender === hintTargetId || g.subject === hintTargetId)
+      : undefined;
+  const hotFolder = hotEmail ? hotEmail.folder ?? "inbox" : undefined;
 
   if (entry) {
     return (
@@ -27,18 +39,27 @@ export default function Gmail({ caseData, onBack }: GmailProps) {
     );
   }
 
+  const folderLabel = { inbox: "Inbox", sent: "Sent", trash: "Trash", spam: "Spam" } as const;
+  const folders = [
+    "inbox",
+    ...(hasSent ? (["sent"] as const) : []),
+    ...(hasSpam ? (["spam"] as const) : []),
+    ...(hasTrash ? (["trash"] as const) : []),
+  ] as const;
+
   return (
-    <AppScreen title={folder === "sent" ? "Sent" : "Inbox"} onBack={onBack} theme="light">
-      {hasSent && (
+    <AppScreen title={folderLabel[folder]} onBack={onBack} theme="light">
+      {(hasSent || hasTrash || hasSpam) && (
         <div className={styles.tabs}>
-          {(["inbox", "sent"] as const).map((f) => (
+          {folders.map((f) => (
             <button
               key={f}
               type="button"
               className={folder === f ? styles.tabActive : styles.tab}
               onClick={() => setFolder(f)}
             >
-              {f === "inbox" ? "Inbox" : "Sent"}
+              {folderLabel[f]}
+              {hotFolder === f && folder !== f && <span className={styles.tabHint}>👆</span>}
             </button>
           ))}
         </div>
@@ -50,19 +71,35 @@ export default function Gmail({ caseData, onBack }: GmailProps) {
         </div>
       ) : (
         <div className={styles.list}>
-          {rows.map(({ g, i }) => (
-            <button key={i} type="button" className={styles.row} onClick={() => setOpenIndex(i)}>
-              <span className={styles.avatar}>{g.sender.replace(/^To: /, "").charAt(0)}</span>
-              <span className={styles.text}>
-                <span className={styles.senderRow}>
-                  <span className={styles.sender}>{g.sender}</span>
-                  {g.time && <span className={styles.time}>{g.time}</span>}
+          {rows.map(({ g, i }) => {
+            // So sánh chính object (=== hotEmail, không so lại sender/subject
+            // theo từng dòng) — nhiều email cùng người gửi/tiêu đề là chuyện
+            // thường (newsletter, thông báo lặp...), so lại field sẽ sáng
+            // HẾT các email trùng thay vì đúng 1 email cần tìm.
+            const isHot = g === hotEmail;
+            return (
+              <button
+                key={i}
+                type="button"
+                className={`${styles.row} ${isHot ? styles.hintRow : ""}`}
+                onClick={() => {
+                  if (isHot) onFoundClue?.();
+                  setOpenIndex(i);
+                }}
+              >
+                <span className={styles.avatar}>{g.sender.replace(/^To: /, "").charAt(0)}</span>
+                <span className={styles.text}>
+                  <span className={styles.senderRow}>
+                    <span className={styles.sender}>{g.sender}</span>
+                    {g.time && <span className={styles.time}>{g.time}</span>}
+                  </span>
+                  <span className={styles.subject}>{g.subject}</span>
+                  <span className={styles.preview}>{g.preview}</span>
                 </span>
-                <span className={styles.subject}>{g.subject}</span>
-                <span className={styles.preview}>{g.preview}</span>
-              </span>
-            </button>
-          ))}
+                {isHot && <span className={styles.hintHand}>👆</span>}
+              </button>
+            );
+          })}
         </div>
       )}
     </AppScreen>

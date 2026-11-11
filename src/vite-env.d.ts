@@ -22,6 +22,14 @@ declare module "virtual:v9-cases" {
   export default cases;
 }
 
+/** v19: danh sách ID case NHẸ (không load data) — dùng cho nút chuyển case
+ *  trong DevBar. Luôn đầy đủ khi dev, đúng 1 phần tử khi build thật. Xem
+ *  vite.config.ts. */
+declare module "virtual:v9-case-ids" {
+  const ids: string[];
+  export default ids;
+}
+
 /** v9: true khi build với V9_EASY=1 — xem vite.config.ts define(). */
 declare const __V9_EASY__: boolean;
 

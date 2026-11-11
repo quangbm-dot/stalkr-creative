@@ -1,0 +1,2338 @@
+{
+ "caseName": "While I Was Waiting for Him",
+ "title": "Erin & Adam",
+ "now": "2026-08-06T23:59:00",
+ "client": {
+  "name": "Erin",
+  "avatar": "client.webp"
+ },
+ "owner": {
+  "first": "Adam",
+  "full": "Adam Kadiri",
+  "avatar": null
+ },
+ "wallpaper": "wallpaper.webp",
+ "passcode": "464630",
+ "totalQuestions": 7,
+ "questions": [
+  {
+   "id": 1,
+   "text": "He's alive. I've been picturing him at the bottom of a drop all morning and he's alive... So where was he walking to? Don't soften it, please.",
+   "answer": "Long Valley",
+   "decoys": [
+    "Round Valley",
+    "Cowles Mountain",
+    "Volcan Mountain"
+   ],
+   "hint": "Open the calendar and look between yesterday and today for what Adam had planned."
+  },
+  {
+   "id": 2,
+   "text": "Long Valley. We walked past that station together at lunch yesterday... and he went back down to it on his own, in the dark. What for?",
+   "answer": "See Renee",
+   "decoys": [
+    "See Marisol",
+    "See Dean",
+    "See Nayeli"
+   ],
+   "hint": "Open the notes to find what Adam needs to do in Long Valley"
+  },
+  {
+   "id": 3,
+   "text": "Renee. He's never once said that name to me. I don't know who she is or what she does — can you find that out for me, please?",
+   "answer": "Ticket agent",
+   "decoys": [
+    "Park ranger",
+    "Tram operator",
+    "Station manager"
+   ],
+   "hint": "Open a conversation with Renee to find her position"
+  },
+  {
+   "id": 4,
+   "text": "He bought a single. He stood at that window and paid for himself and not for me... What was he in such a hurry to get to today?",
+   "answer": "A plane ticket",
+   "decoys": [
+    "A tramway ticket",
+    "A train ticket",
+    "A hotel booking"
+   ],
+   "hint": "Check his card transactions from the past few weeks for a large payment - see what it was for."
+  },
+  {
+   "id": 5,
+   "text": "A plane. He's getting on a plane while I'm up here shouting his name into a valley... What time does it leave? Please.",
+   "answer": "1:15 PM",
+   "decoys": [
+    "4:30 PM",
+    "8:30 AM",
+    "5:00 PM"
+   ],
+   "hint": "Unlock the hidden photo gallery to find info about the plane ticket. The code is hidden in Adam's Notes"
+  },
+  {
+   "id": 6,
+   "text": "Quarter past one. I couldn't get down there in time if I ran the whole way, and he knew that... How long has he been planning this?",
+   "answer": "Sixteen days",
+   "decoys": [
+    "Six days",
+    "Five days",
+    "Thirty days"
+   ],
+   "hint": "Open a discussion with his brother (Khouya) to discover since when Adam planned to leave"
+  },
+  {
+   "id": 7,
+   "text": "Over two weeks. He watched me buy boots for this trip and said nothing... Why did he do this? Whatever reason he gave anyone, I want it.",
+   "answer": "Things to settle back home",
+   "decoys": [
+    "A problem with Erin",
+    "Trouble with his job",
+    "Tickets for his parents"
+   ],
+   "hint": "Open a conversation with his father (Sidi) to find the reason for Adam's departure"
+  }
+ ],
+ "onboarding": [
+  {
+   "text": "Hi... I'm Erin. I'm sorry to do this to a stranger, but there's nobody else up here. My phone died on our second day and something has gone very wrong.",
+   "label": "Erin",
+   "image": "onboarding_1.webp"
+  },
+  {
+   "text": "Adam is my fiancé. Three days out on the San Jacinto range — the whole trip was my surprise for him. He's an accountant, he plans everything, and I thought that made us safe.",
+   "label": "Erin & Adam",
+   "image": "onboarding_2.webp"
+  },
+  {
+   "text": "I woke this morning and his half of the tent was cold. His pack is still there. His phone was lying on the groundsheet... he would never leave that behind. Not ever.",
+   "label": "Adam",
+   "image": "onboarding_3.webp"
+  },
+  {
+   "text": "I've shouted into that valley until my voice went. Nothing comes back. I'm frightened and I can't sit here guessing any more... Please go through his phone and tell me what you find.",
+   "label": "Erin",
+   "image": "onboarding_4.webp"
+  }
+ ],
+ "home": [
+  {
+   "app": "clock",
+   "label": "Clock"
+  },
+  {
+   "app": "calendar",
+   "label": "Calendar"
+  },
+  {
+   "app": "weather",
+   "label": "Weather"
+  },
+  {
+   "app": "notes",
+   "label": "Notes"
+  },
+  {
+   "app": "wallet",
+   "label": "Wallet"
+  },
+  {
+   "app": "photos",
+   "label": "Photos"
+  },
+  {
+   "app": "gmail",
+   "label": "Email"
+  }
+ ],
+ "dock": [
+  {
+   "app": "messages",
+   "label": "Messages"
+  },
+  {
+   "app": "whatsapp",
+   "label": "WhatsApp"
+  },
+  {
+   "app": "instagram",
+   "label": "Insta"
+  }
+ ],
+ "missingApps": [],
+ "calls": [],
+ "messages": [
+  {
+   "id": "conv-sms-4",
+   "title": "Ivan",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "cousin! it's been forever"
+    },
+    {
+     "me": true,
+     "text": "thomas! how you been?"
+    },
+    {
+     "me": false,
+     "text": "so good! i just opened my photo studio"
+    },
+    {
+     "me": true,
+     "text": "no way, congrats man!"
+    },
+    {
+     "me": false,
+     "text": "thanks! when are you coming to see it?"
+    },
+    {
+     "me": true,
+     "text": "for sure! where's it at?"
+    },
+    {
+     "me": false,
+     "text": "down in Barrio Logan, near the trolley stop"
+    },
+    {
+     "me": true,
+     "text": "sweet! wanna lock something in next week?"
+    },
+    {
+     "me": false,
+     "text": "great! Erin should come too if she's free"
+    },
+    {
+     "me": true,
+     "text": "I'll run it by her!"
+    },
+    {
+     "me": false,
+     "text": "oh btw mom said you're getting married soon?"
+    },
+    {
+     "me": true,
+     "text": "yeah... it's kind of in the works"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-1",
+   "title": "Marisol",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "hey adam!"
+    },
+    {
+     "me": true,
+     "text": "hey sophie, what's up"
+    },
+    {
+     "me": false,
+     "text": "oh also did the printer on our floor ever get fixed"
+    },
+    {
+     "me": true,
+     "text": "nope, still eating paper"
+    },
+    {
+     "me": false,
+     "text": "great. downstairs one it is then"
+    },
+    {
+     "me": false,
+     "text": "where are we on the Miller file?"
+    },
+    {
+     "me": true,
+     "text": "almost - wrapping it up this afternoon"
+    },
+    {
+     "me": false,
+     "text": "nice! the boss was in a mood yesterday"
+    },
+    {
+     "me": true,
+     "text": "yeah i know... not my sharpest week honestly"
+    },
+    {
+     "me": false,
+     "text": "you good? you've seemed kinda off lately"
+    },
+    {
+     "me": true,
+     "text": "i'm fine, just running on empty"
+    },
+    {
+     "me": false,
+     "text": "wanna grab coffee later?"
+    },
+    {
+     "me": true,
+     "text": "yeah! like 4ish?"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-6",
+   "title": "Owen Tran",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "adam! what are you up to this weekend?"
+    },
+    {
+     "me": true,
+     "text": "nothing locked in, why?"
+    },
+    {
+     "me": false,
+     "text": "doing a barbecue at my place Saturday"
+    },
+    {
+     "me": true,
+     "text": "who's coming?"
+    },
+    {
+     "me": false,
+     "text": "the old work crew plus a few friends"
+    },
+    {
+     "me": true,
+     "text": "nice! what time you starting?"
+    },
+    {
+     "me": false,
+     "text": "around 5 so we catch some sun"
+    },
+    {
+     "me": true,
+     "text": "perfect! what can i bring?"
+    },
+    {
+     "me": false,
+     "text": "just beer if you're up for it"
+    },
+    {
+     "me": true,
+     "text": "any preference or just whatever's cold?"
+    },
+    {
+     "me": false,
+     "text": "whatever's cold, nobody here is picky"
+    },
+    {
+     "me": true,
+     "text": "easy enough"
+    },
+    {
+     "me": true,
+     "text": "done! see you Saturday"
+    },
+    {
+     "me": false,
+     "text": "sweet! gonna be a good time"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-2",
+   "title": "Dean",
+   "time": "Monday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "dude, remember sarah from our college days?"
+    },
+    {
+     "me": true,
+     "text": "sarah who? last name?"
+    },
+    {
+     "me": false,
+     "text": "the blonde from sophomore year"
+    },
+    {
+     "me": true,
+     "text": "ohh yeah! what about her"
+    },
+    {
+     "me": false,
+     "text": "ran into her yesterday, she's wild now"
+    },
+    {
+     "me": true,
+     "text": "lol wild how?"
+    },
+    {
+     "me": false,
+     "text": "like she's a total ten now"
+    },
+    {
+     "me": true,
+     "text": "she was already cute back then tbh"
+    },
+    {
+     "me": false,
+     "text": "yeah but now it's a whole other level"
+    },
+    {
+     "me": true,
+     "text": "what's she up to these days?"
+    },
+    {
+     "me": false,
+     "text": "some kind of lawyer i think"
+    },
+    {
+     "me": true,
+     "text": "fancy!"
+    },
+    {
+     "me": false,
+     "text": "and she's got a place downtown apparently"
+    },
+    {
+     "me": true,
+     "text": "of course she does"
+    },
+    {
+     "me": false,
+     "text": "meanwhile i'm still splitting rent with two guys"
+    },
+    {
+     "me": false,
+     "text": "we should throw a little reunion thing soon"
+    },
+    {
+     "me": true,
+     "text": "i'm so down!"
+    }
+   ],
+   "avatar": "msg_3.webp"
+  },
+  {
+   "id": "conv-sms-5",
+   "title": "Nayeli Ortega",
+   "time": "Sunday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Adam! You good for our session tomorrow?"
+    },
+    {
+     "me": true,
+     "text": "hey nayeli! yeah, though everything's ached since Monday"
+    },
+    {
+     "me": false,
+     "text": "Haha, that's the whole point - it means the muscles finally woke up"
+    },
+    {
+     "me": true,
+     "text": "my calves are the worst of it honestly"
+    },
+    {
+     "me": false,
+     "text": "That's the squats! Stretch them tonight and again in the morning"
+    },
+    {
+     "me": true,
+     "text": "hope it eases up soon"
+    },
+    {
+     "me": false,
+     "text": "it will! give it two weeks and you won't feel a thing"
+    },
+    {
+     "me": true,
+     "text": "awesome! same time tomorrow?"
+    },
+    {
+     "me": false,
+     "text": "yep, 6pm! and don't forget your water bottle"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-3",
+   "title": "June Alvarado",
+   "time": "Saturday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Adam, hi - hate to bug you"
+    },
+    {
+     "me": true,
+     "text": "hi marie, no worries at all"
+    },
+    {
+     "me": false,
+     "text": "got a package for you - the driver couldn't find your unit"
+    },
+    {
+     "me": true,
+     "text": "oh thanks! can i grab it tonight?"
+    },
+    {
+     "me": false,
+     "text": "sure, anything after 6pm and I'm in"
+    },
+    {
+     "me": true,
+     "text": "perfect, appreciate it!"
+    }
+   ],
+   "avatar": "msg_5.webp"
+  },
+  {
+   "id": "conv-sms-key-3",
+   "title": "Trevor Doyle",
+   "time": "Friday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "yo adam"
+    },
+    {
+     "me": true,
+     "text": "hey trevor!"
+    },
+    {
+     "me": false,
+     "text": "so in 6 days, you're still on?"
+    },
+    {
+     "me": true,
+     "text": "yeah still on"
+    },
+    {
+     "me": true,
+     "text": "You can still drive me to San Diego International?"
+    },
+    {
+     "me": false,
+     "text": "of course, no problem"
+    },
+    {
+     "me": false,
+     "text": "you got everything sorted for tomorrow?"
+    },
+    {
+     "me": true,
+     "text": "yeah, all set. see you at 9?"
+    },
+    {
+     "me": false,
+     "text": "yeah that works"
+    },
+    {
+     "me": false,
+     "text": "by the way... you sure about your thing?"
+    },
+    {
+     "me": true,
+     "text": "what do you mean?"
+    },
+    {
+     "me": false,
+     "text": "your plan... it's been bugging me"
+    },
+    {
+     "me": true,
+     "text": "why?"
+    },
+    {
+     "me": false,
+     "text": "feels like you're making a mistake"
+    },
+    {
+     "me": true,
+     "text": "trevor..."
+    },
+    {
+     "me": false,
+     "text": "Man, you're really going to go without saying a word to her? She'll think you died out there."
+    },
+    {
+     "me": true,
+     "text": "i've got it handled, trust me"
+    },
+    {
+     "me": false,
+     "text": "i dunno man... think it through carefully"
+    },
+    {
+     "me": true,
+     "text": "we'll talk it over sunday in the car"
+    },
+    {
+     "me": false,
+     "text": "ok... but promise me you'll keep thinking about it"
+    },
+    {
+     "me": true,
+     "text": "promise"
+    }
+   ],
+   "avatar": "msg_6.webp"
+  },
+  {
+   "id": "conv-sms-7",
+   "title": "Ruben",
+   "time": "7/30/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Adam! Same as always?"
+    },
+    {
+     "me": true,
+     "text": "hey ruben! the usual please"
+    },
+    {
+     "me": false,
+     "text": "Cappuccino and a croissant then - ready in five minutes"
+    },
+    {
+     "me": true,
+     "text": "great, walking over now"
+    },
+    {
+     "me": false,
+     "text": "see you in a bit!"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-key-2",
+   "title": "Khouya",
+   "time": "7/29/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "hey bro"
+    },
+    {
+     "me": true,
+     "text": "hey khouya"
+    },
+    {
+     "me": false,
+     "text": "you doing alright?"
+    },
+    {
+     "me": true,
+     "text": "yeah good, you?"
+    },
+    {
+     "me": false,
+     "text": "it's alright... got plans tonight?"
+    },
+    {
+     "me": true,
+     "text": "nothing much"
+    },
+    {
+     "me": true,
+     "text": "been thinking a lot lately"
+    },
+    {
+     "me": false,
+     "text": "about what?"
+    },
+    {
+     "me": true,
+     "text": "you know... that plan I mentioned"
+    },
+    {
+     "me": false,
+     "text": "ah... the going away thing?"
+    },
+    {
+     "me": true,
+     "text": "yeah"
+    },
+    {
+     "me": true,
+     "text": "sixteen days since I booked that flight and I'm starting to have second thoughts about the whole departure plan"
+    },
+    {
+     "me": false,
+     "text": "seriously?"
+    },
+    {
+     "me": true,
+     "text": "yeah... not sure it's the right move"
+    },
+    {
+     "me": true,
+     "text": "the ticket's paid for and there's no refund on it… and I'm still going to do this to her, she set up a whole surprise hike for us"
+    },
+    {
+     "me": false,
+     "text": "oh man... she planned a hike?"
+    },
+    {
+     "me": false,
+     "text": "follow your heart bro"
+    },
+    {
+     "me": true,
+     "text": "it's complicated... there's Erin, there's all of it"
+    },
+    {
+     "me": false,
+     "text": "you think she'll get it?"
+    },
+    {
+     "me": true,
+     "text": "no idea... I'm scared of screwing everything up"
+    }
+   ],
+   "avatar": "msg_8.webp"
+  },
+  {
+   "id": "conv-sms-8",
+   "title": "Colby",
+   "time": "7/29/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "hey adam, your car's ready to go"
+    },
+    {
+     "me": true,
+     "text": "great! what was wrong with it?"
+    },
+    {
+     "me": false,
+     "text": "just needed new brake pads"
+    },
+    {
+     "me": true,
+     "text": "how much am i looking at?"
+    },
+    {
+     "me": false,
+     "text": "180 bucks, parts and labor"
+    },
+    {
+     "me": true,
+     "text": "ok, I'll swing by about 5"
+    }
+   ],
+   "avatar": "msg_9.webp"
+  },
+  {
+   "id": "conv-sms-9",
+   "title": "Cabrillo Credit Union",
+   "time": "7/28/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Cabrillo Credit Union: $2,500.00 transfer to account **4567 completed. Balance now: $8,234.50"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-10",
+   "title": "Cal Coast Credit Union",
+   "time": "7/27/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Cal Coast Credit Union: $89.50 card purchase at VONS posted. Balance remaining: $1,456.20"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-11",
+   "title": "UPS",
+   "time": "7/26/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "UPS: Your parcel is on the truck today between 2pm and 6pm. Follow it at ups.com/track/AB123456789"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-12",
+   "title": "Cox",
+   "time": "7/25/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Cox: A $65.00 bill is now available in your online account. Payment due 08/15/2026"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-13",
+   "title": "Kayla Brandt",
+   "time": "7/24/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Adam - that's Thursday at 2:30 locked in for you, all set"
+    },
+    {
+     "me": true,
+     "text": "perfect kayla! Thursday it is"
+    },
+    {
+     "me": false,
+     "text": "Feel like changing things up this time?"
+    },
+    {
+     "me": true,
+     "text": "sure! what do you have in mind?"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-14",
+   "title": "Grant Whitfield",
+   "time": "7/23/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "adam! your hiking boots showed up"
+    },
+    {
+     "me": true,
+     "text": "nice! what are they like?"
+    },
+    {
+     "me": false,
+     "text": "really sharp! exactly what you were after"
+    },
+    {
+     "me": true,
+     "text": "great! I'll swing by for them tomorrow"
+    },
+    {
+     "me": false,
+     "text": "sounds good! we close at 7"
+    },
+    {
+     "me": true,
+     "text": "perfect, i'll be there before 7!"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-15",
+   "title": "Priya Raman",
+   "time": "7/22/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Namaste, Adam. Everything good with you?"
+    },
+    {
+     "me": true,
+     "text": "hey yasmin! doing good, you?"
+    },
+    {
+     "me": false,
+     "text": "Very well, thank you. Have you been keeping up the practice we worked through?"
+    },
+    {
+     "me": true,
+     "text": "yes! it's really taking the edge off my stress"
+    },
+    {
+     "me": false,
+     "text": "That is precisely what it is meant to do. Are you joining the group class Tuesday?"
+    },
+    {
+     "me": true,
+     "text": "i'll try! depends how work goes"
+    },
+    {
+     "me": false,
+     "text": "no pressure! just keep at it, that's what counts"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-key-1",
+   "title": "Renee Vasquez",
+   "time": "7/12/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hello Sir, please find the information you asked for concerning your reservation request."
+    },
+    {
+     "me": true,
+     "text": "Hello, thanks a lot. Could I go over a few details with you?"
+    },
+    {
+     "me": false,
+     "text": "Sure, go ahead."
+    },
+    {
+     "me": true,
+     "text": "You're the ticket agent at the tram station, right?"
+    },
+    {
+     "me": false,
+     "text": "Yes exactly, I've worked at this station for 2 years."
+    },
+    {
+     "me": false,
+     "text": "Great, thanks for confirming. That's helpful for the file."
+    },
+    {
+     "me": false,
+     "text": "Which company is it that you work for, exactly?"
+    },
+    {
+     "me": true,
+     "text": "I'm with Meridian Accounting Group in San Diego."
+    },
+    {
+     "me": false,
+     "text": "Very good, noted. And how long have you worked in this profession?"
+    },
+    {
+     "me": true,
+     "text": "3 years now, since I qualified as an accountant."
+    },
+    {
+     "me": false,
+     "text": "Great. And you really do live in San Diego?"
+    },
+    {
+     "me": true,
+     "text": "Yes, that's right. I live in the Hillcrest."
+    },
+    {
+     "me": false,
+     "text": "Excellent. Do you have valid ID you could present?"
+    },
+    {
+     "me": true,
+     "text": "Yes, I've got my US passport and my California driver's license."
+    },
+    {
+     "me": false,
+     "text": "Great. One final question: what's your work phone number?"
+    },
+    {
+     "me": true,
+     "text": "It's +1 (619) 555-0196, extension 23."
+    },
+    {
+     "me": false,
+     "text": "Thanks a lot. I now have all the information I need."
+    },
+    {
+     "me": true,
+     "text": "May I ask what this information was needed for?"
+    },
+    {
+     "me": false,
+     "text": "It's to finalize your reservation file, just standard procedure."
+    },
+    {
+     "me": true,
+     "text": "I see. Is there anything else you need to check?"
+    },
+    {
+     "me": false,
+     "text": "No, that's perfect. Your request will be handled as soon as possible."
+    },
+    {
+     "me": true,
+     "text": "Excellent. What sort of timeframe should I expect for confirmation?"
+    },
+    {
+     "me": false,
+     "text": "You should get confirmation within 48 hours at most."
+    },
+    {
+     "me": true,
+     "text": "Perfect, thank you so much for your professionalism."
+    },
+    {
+     "me": false,
+     "text": "You're welcome, just doing my job."
+    },
+    {
+     "me": false,
+     "text": "Have a good day Monsieur Kadiri."
+    },
+    {
+     "me": true,
+     "text": "You too, have a good day, see you soon."
+    }
+   ]
+  }
+ ],
+ "whatsapp": [
+  {
+   "id": "conv-wa-9",
+   "title": "DoorDash",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Order #5479 has left the restaurant and should reach you in 15-20 minutes. Thanks!"
+    }
+   ]
+  },
+  {
+   "id": "conv-wa-1",
+   "title": "Marisol",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Adam - could you take a second look at the Miller file?"
+    },
+    {
+     "me": false,
+     "text": "Something in the figures is off"
+    },
+    {
+     "me": true,
+     "text": "Sure, I can take a look"
+    },
+    {
+     "me": true,
+     "text": "Where exactly is it going wrong?"
+    },
+    {
+     "me": false,
+     "text": "The payroll tax numbers aren't lining up"
+    },
+    {
+     "me": true,
+     "text": "Ok gotcha"
+    },
+    {
+     "me": true,
+     "text": "Sorted, it's fixed"
+    },
+    {
+     "me": false,
+     "text": "You legend, thank you"
+    },
+    {
+     "me": false,
+     "text": "Oh - Friday, Castellanos's leaving drinks. You in?"
+    },
+    {
+     "me": true,
+     "text": "Oh right, totally forgot"
+    },
+    {
+     "me": true,
+     "text": "Not sure I can make it"
+    },
+    {
+     "me": false,
+     "text": "Come on, make the effort - it should be a fun one"
+    }
+   ]
+  },
+  {
+   "id": "conv-wa-key-2",
+   "title": "Salma Berrada",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Adam, my mom called again yesterday. When are you coming back to Morocco?"
+    },
+    {
+     "me": true,
+     "text": "Salma, sometimes everything just feels so complicated to me."
+    },
+    {
+     "me": true,
+     "text": "My family absolutely wants me to marry a Moroccan woman. They don't see any other way."
+    },
+    {
+     "me": true,
+     "text": "If I come to live with you in Morocco, it's because my family absolutely wants me to marry a Moroccan woman. I still love Erin, I would only do this for my family."
+    },
+    {
+     "me": false,
+     "text": "You brought up Erin... Do you honestly still love her?"
+    },
+    {
+     "me": true,
+     "text": "Yes. But my mom and dad will never accept it otherwise."
+    },
+    {
+     "me": false,
+     "text": "adam ? why are you so quiet?"
+    },
+    {
+     "me": true,
+     "text": "i'm here"
+    },
+    {
+     "me": false,
+     "text": "has something happened? you're not yourself"
+    },
+    {
+     "me": true,
+     "text": "i was just thinking, that's all"
+    },
+    {
+     "me": false,
+     "text": "about what?"
+    },
+    {
+     "me": true,
+     "text": "us"
+    },
+    {
+     "me": true,
+     "text": "where we are"
+    },
+    {
+     "me": true,
+     "text": "everything"
+    },
+    {
+     "me": false,
+     "text": "adam you're scaring me"
+    },
+    {
+     "me": false,
+     "text": "what do you mean by that?"
+    },
+    {
+     "me": true,
+     "text": "you know perfectly well"
+    },
+    {
+     "me": false,
+     "text": "no i don't. tell me clearly"
+    },
+    {
+     "me": true,
+     "text": "my family"
+    },
+    {
+     "me": true,
+     "text": "what they expect of me"
+    },
+    {
+     "me": true,
+     "text": "Erin"
+    },
+    {
+     "me": true,
+     "text": "you"
+    },
+    {
+     "me": false,
+     "text": "Adam..."
+    },
+    {
+     "me": true,
+     "text": "i have to go back to morocco salma"
+    },
+    {
+     "me": true,
+     "text": "and not as a visitor"
+    },
+    {
+     "me": true,
+     "text": "you remember what i wrote to you in Darija? nothing has changed since then"
+    },
+    {
+     "me": false,
+     "text": "what does that even mean?!"
+    },
+    {
+     "me": false,
+     "text": "how can you tell me that now?"
+    },
+    {
+     "me": true,
+     "text": "there's no choice left for me"
+    }
+   ],
+   "avatar": "wa_2.webp"
+  },
+  {
+   "id": "conv-wa-2",
+   "title": "Dean",
+   "time": "Monday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hey man, you coming to watch the game tomorrow?"
+    },
+    {
+     "me": true,
+     "text": "What game?"
+    },
+    {
+     "me": false,
+     "text": "USA vs Portugal"
+    },
+    {
+     "me": false,
+     "text": "We're all meeting at the Waterfront Bar"
+    },
+    {
+     "me": true,
+     "text": "What time does it start?"
+    },
+    {
+     "me": false,
+     "text": "8:30"
+    },
+    {
+     "me": false,
+     "text": "But people are getting there from 7 for food"
+    },
+    {
+     "me": true,
+     "text": "Oh nice"
+    },
+    {
+     "me": true,
+     "text": "Not sure I can make it"
+    },
+    {
+     "me": false,
+     "text": "What are you up to right now?"
+    },
+    {
+     "me": false,
+     "text": "You keep going MIA"
+    },
+    {
+     "me": true,
+     "text": "Nothing much"
+    },
+    {
+     "me": true,
+     "text": "Just buried in work"
+    },
+    {
+     "me": false,
+     "text": "Erin doing alright?"
+    },
+    {
+     "me": true,
+     "text": "All good"
+    },
+    {
+     "me": false,
+     "text": "So you in or out?"
+    },
+    {
+     "me": true,
+     "text": "Nah sorry"
+    },
+    {
+     "me": true,
+     "text": "Some other time then"
+    },
+    {
+     "me": false,
+     "text": "Ok whatever works for you"
+    }
+   ]
+  },
+  {
+   "id": "conv-wa-10",
+   "title": "Cal Coast Credit Union",
+   "time": "Sunday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Your $1,200.00 transfer to account ****8934 has been completed. Reference: TRF240529001"
+    }
+   ]
+  },
+  {
+   "id": "conv-wa-3",
+   "title": "June",
+   "time": "Saturday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Adam, hi!"
+    },
+    {
+     "me": false,
+     "text": "The mail carrier dropped a package for you"
+    },
+    {
+     "me": false,
+     "text": "You weren't home"
+    },
+    {
+     "me": true,
+     "text": "Ah thanks June"
+    },
+    {
+     "me": true,
+     "text": "Can I grab it this evening?"
+    },
+    {
+     "me": false,
+     "text": "No worries"
+    },
+    {
+     "me": false,
+     "text": "I'm around till 8"
+    },
+    {
+     "me": true,
+     "text": "Great, thanks"
+    }
+   ]
+  },
+  {
+   "id": "conv-wa-4",
+   "title": "Ivan",
+   "time": "7/30/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Cousin! What have you been up to?"
+    },
+    {
+     "me": true,
+     "text": "Can't complain - you?"
+    },
+    {
+     "me": false,
+     "text": "Good stuff! Any plans for the weekend?"
+    },
+    {
+     "me": false,
+     "text": "My girlfriend and I have been thinking about a trip up to Big Bear"
+    },
+    {
+     "me": false,
+     "text": "Fancy joining, you and Erin?"
+    },
+    {
+     "me": true,
+     "text": "Love that idea"
+    },
+    {
+     "me": true,
+     "text": "But this weekend is out for us"
+    },
+    {
+     "me": true,
+     "text": "Erin's already got things booked"
+    },
+    {
+     "me": false,
+     "text": "Shame!"
+    },
+    {
+     "me": false,
+     "text": "We'll do it another weekend"
+    },
+    {
+     "me": true,
+     "text": "Definitely, let's find a weekend that works"
+    },
+    {
+     "me": false,
+     "text": "September is quieter for me anyway"
+    },
+    {
+     "me": true,
+     "text": "That suits us better too"
+    },
+    {
+     "me": false,
+     "text": "Got some great shots from up there last week"
+    },
+    {
+     "me": false,
+     "text": "Should I forward them over?"
+    },
+    {
+     "me": true,
+     "text": "Yeah for sure!"
+    },
+    {
+     "me": true,
+     "text": "Yes please, send them"
+    },
+    {
+     "me": false,
+     "text": "Will do, tomorrow"
+    }
+   ]
+  },
+  {
+   "id": "conv-wa-5",
+   "title": "Nayeli",
+   "time": "7/29/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hey there Adam!"
+    },
+    {
+     "me": false,
+     "text": "You coming to tomorrow's session?"
+    },
+    {
+     "me": true,
+     "text": "Nayeli, hi"
+    },
+    {
+     "me": true,
+     "text": "Not sure yet"
+    },
+    {
+     "me": true,
+     "text": "I'll have to see"
+    },
+    {
+     "me": false,
+     "text": "No worries - just let me know"
+    },
+    {
+     "me": false,
+     "text": "Tomorrow's a leg day btw"
+    },
+    {
+     "me": true,
+     "text": "Oh no, leg day 😂"
+    },
+    {
+     "me": true,
+     "text": "I dread legs"
+    },
+    {
+     "me": false,
+     "text": "Haha I know! but it matters most"
+    },
+    {
+     "me": false,
+     "text": "You'll be fine, trust me!"
+    },
+    {
+     "me": true,
+     "text": "Fine fine, I'll show up"
+    }
+   ]
+  },
+  {
+   "id": "conv-wa-6",
+   "title": "Owen",
+   "time": "7/28/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Adam! Long time - how have you been?"
+    },
+    {
+     "me": true,
+     "text": "Owen! All good here, what about you?"
+    },
+    {
+     "me": false,
+     "text": "Doing well! Still in accounting these days?"
+    },
+    {
+     "me": true,
+     "text": "Yeah still at it"
+    },
+    {
+     "me": true,
+     "text": "And what are you doing these days?"
+    },
+    {
+     "me": false,
+     "text": "I switched over to IT"
+    },
+    {
+     "me": false,
+     "text": "Web dev now"
+    },
+    {
+     "me": true,
+     "text": "Nice - enjoying it?"
+    },
+    {
+     "me": false,
+     "text": "Honestly loving it. Far more creative than the ledgers ever were"
+    },
+    {
+     "me": true,
+     "text": "Haha yeah I get that"
+    },
+    {
+     "me": true,
+     "text": "Did you have to retrain for it?"
+    },
+    {
+     "me": false,
+     "text": "Six months of evening classes, worth every one"
+    },
+    {
+     "me": true,
+     "text": "Respect"
+    },
+    {
+     "me": false,
+     "text": "We should hang sometime"
+    },
+    {
+     "me": true,
+     "text": "For sure - let's get a date down"
+    }
+   ]
+  },
+  {
+   "id": "conv-wa-key-1",
+   "title": "Sidi",
+   "time": "7/27/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "my son, how are you? your mother and I got our tickets for Casablanca"
+    },
+    {
+     "me": true,
+     "text": "I'm good dad, when do you arrive?"
+    },
+    {
+     "me": false,
+     "text": "August 1. want us to book one for you as well?"
+    },
+    {
+     "me": true,
+     "text": "dad wait"
+    },
+    {
+     "me": true,
+     "text": "I can't make it right now"
+    },
+    {
+     "me": false,
+     "text": "why not? is it the job?"
+    },
+    {
+     "me": true,
+     "text": "no"
+    },
+    {
+     "me": true,
+     "text": "I've got personal stuff"
+    },
+    {
+     "me": true,
+     "text": "things I need to sort out"
+    },
+    {
+     "me": false,
+     "text": "what kind of stuff? need any help?"
+    },
+    {
+     "me": true,
+     "text": "no dad"
+    },
+    {
+     "me": true,
+     "text": "I have to handle it myself"
+    },
+    {
+     "me": false,
+     "text": "I don't understand my son. is there a problem with erin?"
+    },
+    {
+     "me": true,
+     "text": "no no"
+    },
+    {
+     "me": true,
+     "text": "everything's fine with erin"
+    },
+    {
+     "me": true,
+     "text": "listen dad"
+    },
+    {
+     "me": true,
+     "text": "there's something I need to tell you"
+    },
+    {
+     "me": false,
+     "text": "tell me my son"
+    },
+    {
+     "me": true,
+     "text": "I'm going to come back home soon. Don't get tickets to come to our engagement party here, I have things to settle back home first"
+    },
+    {
+     "me": false,
+     "text": "what do you mean adam?"
+    },
+    {
+     "me": true,
+     "text": "you'll understand once we talk it over"
+    },
+    {
+     "me": true,
+     "text": "not now"
+    },
+    {
+     "me": false,
+     "text": "alright my son. you know your own mind"
+    },
+    {
+     "me": false,
+     "text": "but your mother will take it hard"
+    },
+    {
+     "me": true,
+     "text": "I know"
+    },
+    {
+     "me": false,
+     "text": "okay"
+    },
+    {
+     "me": false,
+     "text": "look after yourself"
+    },
+    {
+     "me": true,
+     "text": "you too dad"
+    }
+   ],
+   "avatar": "wa_9.webp"
+  },
+  {
+   "id": "conv-wa-7",
+   "title": "Ruben",
+   "time": "7/26/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Ciao Adam! You keeping well?"
+    },
+    {
+     "me": true,
+     "text": "Hey Ruben - yeah, all fine here"
+    },
+    {
+     "me": false,
+     "text": "You haven't set foot in the shop in weeks now"
+    },
+    {
+     "me": true,
+     "text": "Things have been hectic"
+    },
+    {
+     "me": true,
+     "text": "Work, all of it"
+    },
+    {
+     "me": false,
+     "text": "I feel you! but swing by anytime"
+    },
+    {
+     "me": false,
+     "text": "I've got a cappuccino waiting here with your name on it 😄"
+    },
+    {
+     "me": true,
+     "text": "Haha, appreciate it Ruben"
+    }
+   ]
+  },
+  {
+   "id": "conv-wa-8",
+   "title": "Carla Nunez",
+   "time": "7/25/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Adam, hello! How have you been?"
+    },
+    {
+     "me": true,
+     "text": "Hi Carla - doing fine, thanks"
+    },
+    {
+     "me": false,
+     "text": "Happy to hear that! Are we still on for tomorrow's lesson?"
+    },
+    {
+     "me": true,
+     "text": "So actually..."
+    },
+    {
+     "me": true,
+     "text": "I might have to bail"
+    },
+    {
+     "me": false,
+     "text": "Oh no worries! everything ok?"
+    },
+    {
+     "me": true,
+     "text": "Yeah, something personal came up"
+    },
+    {
+     "me": false,
+     "text": "Not a problem at all. Let me know when you'd like to rebook it"
+    }
+   ],
+   "avatar": "wa_11.webp"
+  }
+ ],
+ "gmail": [
+  {
+   "sender": "Vons",
+   "subject": "🛒 This week at Vons - 20% off the organic range",
+   "preview": "This week at Vons: - 20% off the entire organic range - Special prices on the barbecue meats - New in store: a",
+   "body": "This week at Vons:\n- 20% off the entire organic range\n- Special prices on the barbecue meats\n- New in store: a North African aisle\n\nValid until Sunday August 12.",
+   "time": "8:00 AM",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Marisol Reyes",
+   "subject": "Re: Q2 figures - one more look?",
+   "preview": "Marisol, Of course - I will take it tomorrow morning. We can go through the provisions on Thursday, once the m",
+   "body": "Marisol,\n\nOf course - I will take it tomorrow morning. We can go through the provisions on Thursday, once the meeting is behind us.\n\nAdam",
+   "time": "Yesterday",
+   "folder": "sent"
+  },
+  {
+   "sender": "Marisol Reyes",
+   "subject": "Q2 figures - one more look?",
+   "preview": "Adam, Could you go over the figures in the Q2 reports once more before Thursday? Something about the provision",
+   "body": "Adam,\n\nCould you go over the figures in the Q2 reports once more before Thursday? Something about the provisions does not look right to me.\n\nThanks!\nMarisol",
+   "time": "Yesterday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "REI",
+   "subject": "The summer hiking boots have landed",
+   "preview": "The new hiking boots have arrived. Made for the backcountry days you have lined up this summer. - Salomon X Ul",
+   "body": "The new hiking boots have arrived.\n\nMade for the backcountry days you have lined up this summer.\n\n- Salomon X Ultra 4 GTX\n- Scarpa Mojito Trail\n- La Sportiva TX Guide\n\nFree shipping on orders above $100.",
+   "time": "Yesterday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Cabrillo Credit Union",
+   "subject": "Your May 2026 statement is ready",
+   "preview": "Dear customer, Your account statement for the month of May is available in your Cabrillo Credit Union client a",
+   "body": "Dear customer,\n\nYour account statement for the month of May is available in your Cabrillo Credit Union client area.\n\nBalance as of 05/31/2026: $4,287.50\n\nBest regards,\nCabrillo Credit Union California",
+   "time": "Yesterday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: June Alvarado",
+   "subject": "Re: Grill in the garden, Saturday",
+   "preview": "June! We are in. Erin and I should get there around 6pm - is there anything you want us to bring over? Adam",
+   "body": "June!\n\nWe are in. Erin and I should get there around 6pm - is there anything you want us to bring over?\n\nAdam",
+   "time": "Tuesday",
+   "folder": "sent"
+  },
+  {
+   "sender": "June Alvarado",
+   "subject": "Grill in the garden, Saturday",
+   "preview": "Adam! We are firing up the grill in the garden on Saturday, from around 6pm. Bring Erin along if she is free! ",
+   "body": "Adam!\n\nWe are firing up the grill in the garden on Saturday, from around 6pm. Bring Erin along if she is free!\n\nLove,\nJune",
+   "time": "Tuesday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Ivan Petrosyan",
+   "subject": "Re: Mount San Jacinto photos",
+   "preview": "Ivan, wow! Those photos are something else. Mount San Jacinto at sunrise - I can only picture what it must fee",
+   "body": "Ivan, wow!\n\nThose photos are something else. Mount San Jacinto at sunrise - I can only picture what it must feel like standing up there.\n\nLet us get that hike into the calendar this summer. Erin would want to come along too.\n\nAdam",
+   "time": "Monday",
+   "folder": "sent"
+  },
+  {
+   "sender": "Ivan Petrosyan",
+   "subject": "Mount San Jacinto photos",
+   "preview": "Hi cousin! Look at these photos I took at Mount San Jacinto last week. The sunrise was incredible! We should g",
+   "body": "Hi cousin!\n\nLook at these photos I took at Mount San Jacinto last week. The sunrise was incredible!\n\nWe should go there together this summer.\n\nIvan",
+   "time": "Monday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "T-Mobile",
+   "subject": "Mobile bill May 2026 - $45.90",
+   "preview": "Hello Adam, Your mobile bill for May is below: Monthly plan: $39.90 International extras: $6.00 Total to pay: ",
+   "body": "Hello Adam,\n\nYour mobile bill for May is below:\n\nMonthly plan: $39.90\nInternational extras: $6.00\nTotal to pay: $45.90\n\nDue by August 19, 2026\n\nBest regards,\nT-Mobile",
+   "time": "Monday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "LinkedIn",
+   "subject": "Your profile was viewed 5 times this week",
+   "preview": "Hello Adam, You are getting noticed. Your profile was viewed 5 times this week, 2 of them by recruiters workin",
+   "body": "Hello Adam,\n\nYou are getting noticed.\n\nYour profile was viewed 5 times this week, 2 of them by recruiters working in accounting.\n\nUpgrade to Premium and more of them will reach you.\n\nThe LinkedIn team",
+   "time": "Sunday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Ace Parking",
+   "subject": "Your monthly permit renews on August 20",
+   "preview": "Dear Adam, Your monthly permit for the Kearny Mesa garage renews on August 20, 2026. Monthly rate: $95.00 Spac",
+   "body": "Dear Adam,\n\nYour monthly permit for the Kearny Mesa garage renews on August 20, 2026.\n\nMonthly rate: $95.00\nSpace: Level 2, unreserved\n\nNothing to do if you would like it to continue. To cancel, reply before August 15.\n\nAce Parking",
+   "time": "Sunday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Owen Tran",
+   "subject": "Re: Guess who is starting at Google",
+   "preview": "Owen, congratulations! Google San Diego, really? What is the job exactly? I am free on Friday. A drink to cele",
+   "body": "Owen, congratulations!\n\nGoogle San Diego, really? What is the job exactly?\n\nI am free on Friday. A drink to celebrate?\n\nAdam",
+   "time": "Saturday",
+   "folder": "sent"
+  },
+  {
+   "sender": "Owen Tran",
+   "subject": "Guess who is starting at Google",
+   "preview": "Adam! Big news - Google San Diego has taken me on. I start Monday. That calls for a drink. Are you around Frid",
+   "body": "Adam!\n\nBig news - Google San Diego has taken me on. I start Monday.\n\nThat calls for a drink. Are you around Friday evening?\n\nOwen",
+   "time": "Saturday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Royal Air Maroc",
+   "subject": "Booking Confirmation - Flight AT201",
+   "preview": "Dear Mr. Kadiri, We confirm your reservation. Your Royal Air Maroc flight is confirmed. Arrival airport: CMN -",
+   "body": "Dear Mr. Kadiri,\n\nWe confirm your reservation.\n\nYour Royal Air Maroc flight is confirmed. Arrival airport: CMN - the country's largest city.\n\nReservation number: AT7K4M9\nFlight: AT201\nDate: in 5 days\n\nPlease arrive at the airport 2 hours before departure.\n\nHave a good trip!\nThe Royal Air Maroc team",
+   "time": "Saturday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Nordstrom",
+   "subject": "The summer sale is on - up to 70% off",
+   "preview": "Our summer sale has started! 👕 -50% on menswear 👟 -40% on footwear 🎒 -70% on outdoor accessories Free delivery",
+   "body": "Our summer sale has started!\n\n👕 -50% on menswear\n👟 -40% on footwear\n🎒 -70% on outdoor accessories\n\nFree delivery over $50.\nLast day August 19.",
+   "time": "Saturday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Amazon",
+   "subject": "Your order is on its way",
+   "preview": "Hello Adam, Your order #302-8847392-1234567 has been dispatched: - Deuter 40L hiking backpack - 750ml insulate",
+   "body": "Hello Adam,\n\nYour order #302-8847392-1234567 has been dispatched:\n\n- Deuter 40L hiking backpack\n- 750ml insulated water bottle\n\nExpected delivery: August 8, 2026\nTracking number: UPS123456789",
+   "time": "Friday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Cox",
+   "subject": "Planned work on our network",
+   "preview": "Dear customer, Maintenance work on our network is planned: Date: August 9, 2026 Time: 02:00 - 05:00 Area: Hill",
+   "body": "Dear customer,\n\nMaintenance work on our network is planned:\n\nDate: August 9, 2026\nTime: 02:00 - 05:00\nArea: Hillcrest and the surrounding neighborhoods\n\nShort interruptions are possible while we work.\n\nApologies for the inconvenience.\nCox",
+   "time": "Friday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Ordaz Pharmacy",
+   "subject": "Re: Reminder: medications ready",
+   "preview": "Hello Miguel, Thank you - I will come by this week, most likely Thursday after work. Could you put aside a sec",
+   "body": "Hello Miguel,\n\nThank you - I will come by this week, most likely Thursday after work.\n\nCould you put aside a second box of the magnesium as well, if you have it?\n\nAdam",
+   "time": "Friday",
+   "folder": "sent"
+  },
+  {
+   "sender": "To: Bree Halloran",
+   "subject": "Re: Back from Bali - photos inside",
+   "preview": "Bree! Bali looked absurd on your Instagram, in the best possible way. We have a trip of our own coming up shor",
+   "body": "Bree!\n\nBali looked absurd on your Instagram, in the best possible way.\n\nWe have a trip of our own coming up shortly. Erin chose where.\n\nLove,\nAdam",
+   "time": "Friday",
+   "folder": "sent"
+  },
+  {
+   "sender": "Bree Halloran",
+   "subject": "Back from Bali - photos inside",
+   "preview": "Hey Adam! I'm back from Bali, it was incredible! I'm sending you some photos. Erin told me you're also plannin",
+   "body": "Hey Adam!\n\nI'm back from Bali, it was incredible! I'm sending you some photos.\n\nErin told me you're also planning a trip? Where are you going?\n\nLove,\nBree",
+   "time": "7/30/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Ordaz Pharmacy",
+   "subject": "Reminder: your order is ready to collect",
+   "preview": "Hello Mr. Kadiri, Your order is ready for collection at the counter: - Vitamin D3 (1 box) - Sports magnesium (",
+   "body": "Hello Mr. Kadiri,\n\nYour order is ready for collection at the counter:\n\n- Vitamin D3 (1 box)\n- Sports magnesium (2 boxes)\n\nPlease pick it up before August 14.\n\nOrdaz Pharmacy\n1520 University Avenue, San Diego",
+   "time": "7/30/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "San Diego Public Library",
+   "subject": "Your hold is ready for pickup",
+   "preview": "Hello Adam Kadiri, An item you reserved is waiting for you at the Hillcrest branch: - The Intelligent Investor",
+   "body": "Hello Adam Kadiri,\n\nAn item you reserved is waiting for you at the Hillcrest branch:\n\n- The Intelligent Investor (1 copy)\n\nPlease collect it by August 12. After that date it goes back into circulation.\n\nOpening hours: Monday to Saturday, 9:30am - 6pm\n\nSan Diego Public Library",
+   "time": "7/29/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Carla Nunez",
+   "subject": "Re: Business English - a new module opening",
+   "preview": "Carla! That module is exactly the gap I have - financial English is precisely where I keep coming unstuck. Sig",
+   "body": "Carla!\n\nThat module is exactly the gap I have - financial English is precisely where I keep coming unstuck.\n\nSign me up. Could you hold a place?\n\nThanks,\nAdam",
+   "time": "7/28/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Carla Nunez",
+   "subject": "Business English - a new module opening",
+   "preview": "Hello Adam! I hope things are going well for you. A new module is opening - 'English for Finance' - and it mad",
+   "body": "Hello Adam!\n\nI hope things are going well for you. A new module is opening - 'English for Finance' - and it made me think of you right away.\n\nStarts: August 19\nTuesdays, 7pm-8:30pm\n8 sessions, $280\n\nJust tell me if you would like a spot!\nCarla",
+   "time": "7/28/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "YouTube",
+   "subject": "Fresh uploads from the channels you follow",
+   "preview": "Hi Adam! Fresh uploads are sitting in your feed: 🏔️ A solo ascent of Mount San Jacinto 📊 The 2026 tax changes ",
+   "body": "Hi Adam!\n\nFresh uploads are sitting in your feed:\n\n🏔️ A solo ascent of Mount San Jacinto\n📊 The 2026 tax changes explained\n✈️ Three days in Lisbon\n\nHead to YouTube to watch.",
+   "time": "7/28/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Nayeli Ortega",
+   "subject": "Session times next week",
+   "preview": "Nayeli, Could we move next week's sessions to the evening? The mornings are getting tight with the quarterly c",
+   "body": "Nayeli,\n\nCould we move next week's sessions to the evening? The mornings are getting tight with the quarterly close.\n\n6pm would work for me on Tuesday and Thursday.\n\nThanks,\nAdam",
+   "time": "7/27/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Ralphs",
+   "subject": "Ralphs Rewards: 500 bonus points this week",
+   "preview": "Dear Ralphs Rewards member, Earn 500 bonus points on any purchase from: 🥩 The barbecue meat counter 🍺 Californ",
+   "body": "Dear Ralphs Rewards member,\n\nEarn 500 bonus points on any purchase from:\n\n🥩 The barbecue meat counter\n🍺 California beers\n🧀 Mountain cheeses\n\nValid July 27 through 29.\nCollect the points now, save later!\n\nRalphs",
+   "time": "7/27/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Priya Raman",
+   "subject": "Re: T-Mobile yoga by the bay",
+   "preview": "Priya, A class at sunrise is very tempting, and the date falls nicely before I travel. Would you keep a place ",
+   "body": "Priya,\n\nA class at sunrise is very tempting, and the date falls nicely before I travel.\n\nWould you keep a place for me on August 11?\n\nAdam",
+   "time": "7/26/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "To: Grant Whitfield",
+   "subject": "A pack for the trek",
+   "preview": "Grant, I am looking for a hiking pack. I have trekking coming up in Morocco. Anything worth having in the 40-5",
+   "body": "Grant,\n\nI am looking for a hiking pack. I have trekking coming up in Morocco.\n\nAnything worth having in the 40-50L range?\n\nThanks,\nAdam",
+   "time": "7/25/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "To: Brynn Castellanos",
+   "subject": "Books about Morocco",
+   "preview": "Hello Brynn, I am travelling before long and would like to read around it first. Any guidebooks, or something ",
+   "body": "Hello Brynn,\n\nI am travelling before long and would like to read around it first. Any guidebooks, or something on Moroccan history you would point me to?\n\nThanks in advance,\nAdam",
+   "time": "7/24/26",
+   "folder": "sent"
+  }
+ ],
+ "calendar": [
+  {
+   "title": "Yoga outside",
+   "date": "08/31",
+   "dateLabel": "Mon, Aug 31, 2026",
+   "month": "2026-08",
+   "time": "7:30 AM – 8:30 AM",
+   "location": "San Diego Park"
+  },
+  {
+   "title": "Day out",
+   "date": "08/30",
+   "dateLabel": "Sun, Aug 30, 2026",
+   "month": "2026-08",
+   "time": "8:30 AM – 9:00 AM",
+   "location": "Open Space A"
+  },
+  {
+   "title": "Dinner - June + Nayeli",
+   "date": "08/29",
+   "dateLabel": "Sat, Aug 29, 2026",
+   "month": "2026-08",
+   "time": "7:00 PM – 9:00 PM",
+   "location": "Kearny Mesa Grill"
+  },
+  {
+   "title": "Work out the travel budget",
+   "date": "08/28",
+   "dateLabel": "Fri, Aug 28, 2026",
+   "month": "2026-08",
+   "time": "3:00 PM – 4:00 PM",
+   "location": "Accounting office"
+  },
+  {
+   "title": "Pham Family Dental - second visit",
+   "date": "08/27",
+   "dateLabel": "Thu, Aug 27, 2026",
+   "month": "2026-08",
+   "time": "9:00 AM – 9:30 AM",
+   "location": "MAI PHAM dental San Diego"
+  },
+  {
+   "title": "June's cookout",
+   "date": "08/25",
+   "dateLabel": "Tue, Aug 25, 2026",
+   "month": "2026-08",
+   "time": "6:00 PM – 8:00 PM",
+   "location": "June's garden, San Diego"
+  },
+  {
+   "title": "Canyoning day out",
+   "date": "08/24",
+   "dateLabel": "Mon, Aug 24, 2026",
+   "month": "2026-08",
+   "time": "2:00 PM – 6:00 PM",
+   "location": "Los Penasquitos Canyon"
+  },
+  {
+   "title": "Out for the day",
+   "date": "08/22",
+   "dateLabel": "Sat, Aug 22, 2026",
+   "month": "2026-08",
+   "time": "10:00 AM – 11:30 AM",
+   "location": ""
+  },
+  {
+   "title": "The long run - cardio",
+   "date": "08/21",
+   "dateLabel": "Fri, Aug 21, 2026",
+   "month": "2026-08",
+   "time": "7:00 AM – 8:30 AM",
+   "location": "Balboa Park"
+  },
+  {
+   "title": "Dinner, friends",
+   "date": "08/20",
+   "dateLabel": "Thu, Aug 20, 2026",
+   "month": "2026-08",
+   "time": "7:00 PM – 9:00 PM",
+   "location": "At June's, San Diego"
+  },
+  {
+   "title": "Doctor's visit",
+   "date": "08/19",
+   "dateLabel": "Wed, Aug 19, 2026",
+   "month": "2026-08",
+   "time": "10:30 AM – 11:15 AM",
+   "location": "San Diego Medical Center"
+  },
+  {
+   "title": "Weekend away - on the calendar",
+   "date": "08/18",
+   "dateLabel": "Tue, Aug 18, 2026",
+   "month": "2026-08",
+   "time": "9:00 AM – 11:00 AM",
+   "location": "San Diego International"
+  },
+  {
+   "title": "Accounting webinar (online)",
+   "date": "08/16",
+   "dateLabel": "Sun, Aug 16, 2026",
+   "month": "2026-08",
+   "time": "3:00 PM – 4:00 PM",
+   "location": "Webinar"
+  },
+  {
+   "title": "Busy - out",
+   "date": "08/13",
+   "dateLabel": "Thu, Aug 13, 2026",
+   "month": "2026-08",
+   "time": "9:30 AM – 11:00 AM",
+   "location": "Room B9"
+  },
+  {
+   "title": "Early yoga",
+   "date": "08/13",
+   "dateLabel": "Thu, Aug 13, 2026",
+   "month": "2026-08",
+   "time": "7:00 AM – 7:45 AM",
+   "location": "Studio Priya"
+  },
+  {
+   "title": "Unavailable",
+   "date": "08/11",
+   "dateLabel": "Tue, Aug 11, 2026",
+   "month": "2026-08",
+   "time": "12:00 PM – 12:30 PM",
+   "location": "OB Surf Lodge"
+  },
+  {
+   "title": "Block out the yoga times",
+   "date": "08/09",
+   "dateLabel": "Sun, Aug 9, 2026",
+   "month": "2026-08",
+   "time": "6:00 PM – 7:30 PM",
+   "location": "Gym"
+  },
+  {
+   "title": "Go over the tax file",
+   "date": "08/07",
+   "dateLabel": "Fri, Aug 7, 2026",
+   "month": "2026-08",
+   "time": "12:00 PM – 1:00 PM",
+   "location": "Kearny Mesa office"
+  },
+  {
+   "title": "Don't miss",
+   "date": "08/06",
+   "dateLabel": "Thu, Aug 6, 2026",
+   "month": "2026-08",
+   "time": "9:45 AM – 10:15 AM",
+   "location": "Kearny Mesa office"
+  },
+  {
+   "title": "Long Valley",
+   "date": "08/05",
+   "dateLabel": "Wed, Aug 5, 2026",
+   "month": "2026-08",
+   "time": "10:00 PM – 11:00 PM",
+   "location": ""
+  },
+  {
+   "title": "Weekend away - booked",
+   "date": "08/03",
+   "dateLabel": "Mon, Aug 3, 2026",
+   "month": "2026-08",
+   "time": "10:00 AM – 11:30 AM",
+   "location": "Kearny Mesa office"
+  },
+  {
+   "title": "Museum day",
+   "date": "08/01",
+   "dateLabel": "Sat, Aug 1, 2026",
+   "month": "2026-08",
+   "time": "7:00 PM – 9:00 PM",
+   "location": ""
+  },
+  {
+   "title": "Five a side at Robb Field",
+   "date": "07/31",
+   "dateLabel": "Fri, Jul 31, 2026",
+   "month": "2026-07",
+   "time": "6:15 PM – 7:45 PM",
+   "location": "Robb Field, Ocean Beach"
+  },
+  {
+   "title": "Cleaning at Pham Family Dental",
+   "date": "07/29",
+   "dateLabel": "Wed, Jul 29, 2026",
+   "month": "2026-07",
+   "time": "3:00 PM – 3:30 PM",
+   "location": "Pham Family Dental, San Diego"
+  },
+  {
+   "title": "Run before work",
+   "date": "07/26",
+   "dateLabel": "Sun, Jul 26, 2026",
+   "month": "2026-07",
+   "time": "6:30 AM – 7:15 AM",
+   "location": "Mission Bay Park"
+  },
+  {
+   "title": "Cox technician - router swap",
+   "date": "07/23",
+   "dateLabel": "Thu, Jul 23, 2026",
+   "month": "2026-07",
+   "time": "8:00 AM – 10:00 AM",
+   "location": "At home, Hillcrest"
+  },
+  {
+   "title": "Movie night, the usual crowd",
+   "date": "07/19",
+   "dateLabel": "Sun, Jul 19, 2026",
+   "month": "2026-07",
+   "time": "7:00 PM – 9:00 PM",
+   "location": "AMC Fashion Valley, San Diego"
+  },
+  {
+   "title": "Haircut",
+   "date": "07/15",
+   "dateLabel": "Wed, Jul 15, 2026",
+   "month": "2026-07",
+   "time": "5:30 PM – 6:00 PM",
+   "location": "Barber on University Avenue"
+  },
+  {
+   "title": "Not around",
+   "date": "07/12",
+   "dateLabel": "Sun, Jul 12, 2026",
+   "month": "2026-07",
+   "time": "10:00 AM – 11:00 AM",
+   "location": "Sunbelt Logistics, San Diego"
+  },
+  {
+   "title": "After-work drinks, the office crowd",
+   "date": "07/07",
+   "dateLabel": "Tue, Jul 7, 2026",
+   "month": "2026-07",
+   "time": "6:00 PM – 8:00 PM",
+   "location": "The Waterfront Bar, San Diego"
+  },
+  {
+   "title": "Cowles Mountain trail day",
+   "date": "07/05",
+   "dateLabel": "Sun, Jul 5, 2026",
+   "month": "2026-07",
+   "time": "7:30 AM – 12:00 PM",
+   "location": "Cowles Mountain, San Diego"
+  },
+  {
+   "title": "Away",
+   "date": "07/02",
+   "dateLabel": "Thu, Jul 2, 2026",
+   "month": "2026-07",
+   "time": "9:30 AM – 10:30 AM",
+   "location": "Kearny Mesa office"
+  }
+ ],
+ "notes": [
+  {
+   "title": "June budget",
+   "body": "Net pay: $5200\nApartment: $1400\nFood shop: $600\nTransport: $200\nSocial: $400\nSavings transfer: $1000\nMiscellaneous: $300\nRemaining at month end: $1300"
+  },
+  {
+   "title": "Shopping list - weekend",
+   "body": "To buy:\n- Coffee\n- Milk, plain yogurt\n- Cheddar, the sharp one\n- Wholewheat loaf\n- Tomatoes\n- Apples\n- Pasta"
+  },
+  {
+   "title": "Meals for the week",
+   "body": "Monday: chicken and rice\nTuesday: lentil soup, bread\nWednesday: pasta, tomato sauce\nThursday: leftovers\nFriday: fish and potatoes\nSaturday: out\nSunday: cook ahead for the week"
+  },
+  {
+   "title": "Gift ideas Erin",
+   "body": "For her birthday in July:\n- A piece from the jewelry counter at Nordstrom\n- Two nights away in Big Bear\n- Italian cooking lessons\n- A spa weekend up in the mountains\n- A vintage film camera"
+  },
+  {
+   "title": "Fixes around the apartment",
+   "body": "To fix at home:\n- Kitchen faucet is still dripping\n- Replace the bulb in the hallway\n- Bedroom shelf has come loose\n- Bathroom grout needs redoing\nFor anything larger than that, ring the building manager"
+  },
+  {
+   "title": "Palomar hike",
+   "body": "Leave by 7 from San Diego station\nTrain through to Alpine\nCable car up to Palomar Observatory\nSunscreen and water, plenty of it\nHome by about 6pm"
+  },
+  {
+   "title": "Trip planning",
+   "body": "Flight out: October 19\nFour nights, hotel downtown\nMuseums and the market quarter\nShortlist of places to eat\nFlight home: October 23"
+  },
+  {
+   "title": "Codes to remember",
+   "body": "Various codes:\n- Gym locker: 1234\n- Office wifi code: MeridianOffice2024\n- Photo gallery: 464630\n- Underground parking: 9876\n- Private tabs: 2567"
+  },
+  {
+   "title": "To watch",
+   "body": "Watchlist:\n- Oppenheimer\n- Dune 2\n- Top Gun Maverick\n- Everything Everywhere All at Once\n- The Bear (series)\n- Succession, season 4"
+  },
+  {
+   "title": "Work deadlines",
+   "body": "Due in August:\n- Sunbelt Logistics monthly report - the 9th\n- Sales tax returns - the 19th\n- Internal audit - the 24th\n- Advanced Excel course - the 29th"
+  },
+  {
+   "title": "Places to try",
+   "body": "Worth a try:\n- The taco place on 30th\n- Ramen in Kearny Mesa, walking distance from the office\n- The Waterfront Bar, for brunch and not just drinks\n- OB Surf Lodge at sunset\n- Bakery on University Avenue, opens at 7"
+  },
+  {
+   "title": "This year's list",
+   "body": "For this year:\n- Sign up for a photography course\n- Put in real training for the San Diego Half Marathon\n- Stay on the Italian in Duolingo\n- More hikes with Erin\n- Finally sort the balcony\n- At least five books"
+  },
+  {
+   "title": "Important",
+   "body": "At Long Valley, see Renee"
+  },
+  {
+   "title": "Training split",
+   "body": "Weekly split:\nMon - chest, triceps\nWed - back, biceps\nFri - legs, shoulders\nCardio 20 minutes each session\nProtein right after"
+  },
+  {
+   "title": "Darija words to remember",
+   "body": "contabilità = accounting\nescursione in montagna = mountain hiking\nfine giornata = end of the work day\nonesto = straight, honest\nmi manchi = I miss you"
+  },
+  {
+   "title": "Yemma's msemen recipe",
+   "body": "Fine semolina: 300g\nStrong flour: 200g\nSalt: 1 tsp\nWarm water, enough for the dough to come together\nOil and softened butter for the folding\nLet it rest 20 min, then flatten and fold each ball\nDry pan, good and hot, a few minutes each side"
+  },
+  {
+   "title": "Lines worth keeping",
+   "body": "\"Seven falls, eight times back on your feet\"\n\"Nobody comes into the world an expert\"\n\"Where talent gives up, discipline carries on\""
+  }
+ ],
+ "maps": [],
+ "revolut": {
+  "balance": "$0.00",
+  "transactions": []
+ },
+ "weather": {
+  "city": "San Diego",
+  "tempC": 20,
+  "hi": 22,
+  "lo": 16,
+  "condition": "Partly Cloudy"
+ },
+ "photos": [
+  "photo_0.webp",
+  "photo_1.webp",
+  "photo_2.webp",
+  "photo_3.webp",
+  "photo_4.webp",
+  "photo_5.webp",
+  "photo_6.webp",
+  "photo_7.webp",
+  "photo_8.webp"
+ ],
+ "screenTime": []
+}

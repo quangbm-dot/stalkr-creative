@@ -1,0 +1,2529 @@
+{
+ "caseName": "What Are You Hiding, Sadie?",
+ "title": "Wes Tanner & Sadie",
+ "now": "2026-08-06T23:59:00",
+ "client": {
+  "name": "Wes Tanner",
+  "avatar": "client.webp"
+ },
+ "owner": {
+  "first": "Sadie",
+  "full": "Sadie Kovach",
+  "avatar": null
+ },
+ "wallpaper": "wallpaper.webp",
+ "passcode": "0000",
+ "totalQuestions": 7,
+ "questions": [
+  {
+   "id": 1,
+   "text": "Let's start small, please. Two days back she met with her advisor — can you find out what that meeting was actually about?",
+   "answer": "Horizon",
+   "decoys": [
+    "Authenticity",
+    "Epistemology",
+    "Heidegger"
+   ],
+   "hint": "Check the calendar two days back — what does the logged appointment say?"
+  },
+  {
+   "id": 2,
+   "text": "Horizon. So she was telling the truth, and now I feel terrible... Still, those two months I was gone — can you find me the name of somewhere she went out?",
+   "answer": "Red Rock Bar",
+   "decoys": [
+    "The Vig Uptown",
+    "The Nash Jazz Club",
+    "Lux Central Café"
+   ],
+   "hint": "Open Instagram and look for a bar that Sadie follows to find a post showing her dancing and smiling at a guy."
+  },
+  {
+   "id": 3,
+   "text": "She's got a twin sister — there might be a few photos of the two of them together. Can you get me that girl's full name?",
+   "answer": "Cleo Kovach",
+   "decoys": [
+    "Tessa Brandt",
+    "Bianca Ochoa",
+    "Gwen Ashby"
+   ],
+   "hint": "Open Photos and find a photo of Sadie standing next to her twin sister. Then check WhatsApp or Messages for that person's contact info."
+  },
+  {
+   "id": 4,
+   "text": "Can you find the real reason she wanted that break, not whatever she told me?",
+   "answer": "Who she is in a room he isn't in",
+   "decoys": [
+    "Extra work shifts at the library",
+    "Time to focus on her philosophy studies",
+    "Saving up to move out of mom's"
+   ],
+   "hint": "Check her conversation with her sister Cleo."
+  },
+  {
+   "id": 5,
+   "text": "During the pause in their relationship, she let someone new in. Could you find his username for me?",
+   "answer": "rory on tape",
+   "decoys": [
+    "dez alvarado",
+    "tessa brandt",
+    "owen b"
+   ],
+   "hint": "She accepted someone's friend request on Instagram. Try searching her email to see if there's an Instagram notification about it."
+  },
+  {
+   "id": 6,
+   "text": "Who is this guy anyway? I've never met him — how do they even know each other?",
+   "answer": "An interview",
+   "decoys": [
+    "A study group",
+    "A book club",
+    "A philosophy class"
+   ],
+   "hint": "Open Rory On Tape's Insta profile to find a post with Sadie on the university campus."
+  },
+  {
+   "id": 7,
+   "text": "She's always had a thing for journalists. Can you tell me what he actually does for work?",
+   "answer": "A podcast",
+   "decoys": [
+    "A documentary",
+    "A thesis",
+    "A newsletter"
+   ],
+   "hint": "See if he says anything under one of his Instagram posts about a project he's working on."
+  }
+ ],
+ "onboarding": [
+  {
+   "text": "Hey... I genuinely don't know how to open this. I'm Wes, I need your help, and it's about Sadie — my girlfriend.",
+   "label": "Wes",
+   "image": "onboarding_1.webp"
+  },
+  {
+   "text": "Two years, the two of us, and it worked — even with the few months I had to spend away for work. We loved each other. That part I'm sure of.",
+   "label": "Wes & Sadie",
+   "image": "onboarding_2.webp"
+  },
+  {
+   "text": "Then I came home and she wasn't the same person. She keeps her distance, she's gone cold on me. There's something big she isn't telling me — I can feel it.",
+   "label": "Sadie",
+   "image": "onboarding_3.webp"
+  },
+  {
+   "text": "She left her phone behind at mine last night. I'm aware this isn't something I should be doing... But I can't go on not knowing. Help me look?",
+   "label": "Wes",
+   "image": "onboarding_4.webp"
+  }
+ ],
+ "home": [
+  {
+   "app": "whatsapp",
+   "label": "WhatsApp"
+  },
+  {
+   "app": "phone",
+   "label": "Phone"
+  },
+  {
+   "app": "maps",
+   "label": "Maps"
+  },
+  {
+   "app": "gmail",
+   "label": "Email"
+  },
+  {
+   "app": "instagram",
+   "label": "Insta"
+  },
+  {
+   "app": "calendar",
+   "label": "Calendar"
+  },
+  {
+   "app": "notes",
+   "label": "Notes"
+  }
+ ],
+ "dock": [
+  {
+   "app": "messages",
+   "label": "Messages"
+  },
+  {
+   "app": "photos",
+   "label": "Photos"
+  }
+ ],
+ "missingApps": [],
+ "calls": [
+  {
+   "name": "Nadia",
+   "time": "Today, 6:45 PM",
+   "type": "incoming",
+   "detail": "2 min"
+  },
+  {
+   "name": "Tessa",
+   "time": "Today, 12:53 PM",
+   "type": "outgoing",
+   "detail": "5 min"
+  },
+  {
+   "name": "Marlee Dunbar",
+   "time": "Today, 10:03 AM",
+   "type": "incoming",
+   "detail": "3 min"
+  },
+  {
+   "name": "Palabras Bilingual Bookstore",
+   "time": "Tuesday, 11:56 AM",
+   "type": "incoming",
+   "detail": "1 min"
+  },
+  {
+   "name": "Bianca",
+   "time": "Sunday, 6:42 PM",
+   "type": "incoming",
+   "detail": "1 min"
+  },
+  {
+   "name": "Tessa",
+   "time": "Sunday, 9:45 AM",
+   "type": "outgoing",
+   "detail": "2 min"
+  },
+  {
+   "name": "Ruiz Bike Repair",
+   "time": "7/30/26, 4:32 PM",
+   "type": "outgoing",
+   "detail": "2 min"
+  },
+  {
+   "name": "Colby",
+   "time": "7/29/26, 5:26 PM",
+   "type": "incoming",
+   "detail": "5 min"
+  },
+  {
+   "name": "Owen",
+   "time": "7/29/26, 9:21 AM",
+   "type": "outgoing",
+   "detail": "2 min"
+  },
+  {
+   "name": "Karim",
+   "time": "7/28/26, 7:52 PM",
+   "type": "incoming",
+   "detail": "4 min"
+  },
+  {
+   "name": "Cleo Kovach",
+   "time": "7/28/26, 2:35 PM",
+   "type": "outgoing",
+   "detail": "4 min"
+  },
+  {
+   "name": "Priya",
+   "time": "7/27/26, 11:10 AM",
+   "type": "incoming",
+   "detail": "3 min"
+  },
+  {
+   "name": "Nia",
+   "time": "7/26/26, 7:11 PM",
+   "type": "incoming",
+   "detail": "4 min"
+  },
+  {
+   "name": "Amira Haddad",
+   "time": "7/26/26, 3:45 PM",
+   "type": "outgoing",
+   "detail": "3 min"
+  },
+  {
+   "name": "Dez",
+   "time": "7/26/26, 10:12 AM",
+   "type": "incoming",
+   "detail": "4 min"
+  },
+  {
+   "name": "+1 (602) 555-0185",
+   "time": "7/25/26, 7:30 PM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Bree Callahan",
+   "time": "7/25/26, 2:11 PM",
+   "type": "incoming",
+   "detail": "2 min"
+  },
+  {
+   "name": "Emma",
+   "time": "7/25/26, 9:52 AM",
+   "type": "outgoing",
+   "detail": "6 min"
+  },
+  {
+   "name": "Malik",
+   "time": "7/24/26, 8:42 PM",
+   "type": "incoming",
+   "detail": "2 min"
+  },
+  {
+   "name": "Hollis",
+   "time": "7/24/26, 4:48 PM",
+   "type": "outgoing",
+   "detail": "5 min"
+  },
+  {
+   "name": "Delaney",
+   "time": "7/24/26, 11:31 AM",
+   "type": "incoming",
+   "detail": "4 min"
+  },
+  {
+   "name": "+1 (602) 555-0178",
+   "time": "7/23/26, 6:00 PM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Bianca",
+   "time": "7/23/26, 12:42 PM",
+   "type": "outgoing",
+   "detail": "3 min"
+  },
+  {
+   "name": "Tessa",
+   "time": "7/23/26, 8:46 AM",
+   "type": "incoming",
+   "detail": "4 min"
+  }
+ ],
+ "messages": [
+  {
+   "id": "conv-sms-key-1",
+   "title": "Gwen Ashby",
+   "time": "4:35 PM",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hi Sadie, hope all is well with you"
+    },
+    {
+     "me": true,
+     "text": "Doing great, thanks! How about you?"
+    },
+    {
+     "me": false,
+     "text": "All good! Reaching out about the apartment"
+    },
+    {
+     "me": false,
+     "text": "Good news — your application has been accepted 😊"
+    },
+    {
+     "me": true,
+     "text": "That's such good news!!! Thank you so much!"
+    },
+    {
+     "me": true,
+     "text": "I really can't wait to move in"
+    },
+    {
+     "me": false,
+     "text": "Perfect! Shall we set up the key handover?"
+    },
+    {
+     "me": true,
+     "text": "Yes of course! Whatever time suits you"
+    },
+    {
+     "me": false,
+     "text": "Would tomorrow afternoon suit you?"
+    },
+    {
+     "me": true,
+     "text": "Perfect! At what time?"
+    },
+    {
+     "me": false,
+     "text": "Would 4:30pm work for you?"
+    },
+    {
+     "me": true,
+     "text": "4:30 works perfectly!"
+    },
+    {
+     "me": true,
+     "text": "Should we just meet at the apartment directly?"
+    },
+    {
+     "me": false,
+     "text": "Yes perfect! 212 E Coronado Road"
+    },
+    {
+     "me": true,
+     "text": "Got it! Which papers should I bring?"
+    },
+    {
+     "me": false,
+     "text": "Your ID along with the security deposit check"
+    },
+    {
+     "me": true,
+     "text": "$1200 right?"
+    },
+    {
+     "me": false,
+     "text": "Exactly! Plus first month's rent"
+    },
+    {
+     "me": true,
+     "text": "Ok, everything's set on my side"
+    },
+    {
+     "me": false,
+     "text": "Looking forward to meeting you! The room will be ready for you to move in a week from today 🙂"
+    },
+    {
+     "me": true,
+     "text": "Amazing, a week from today it is! See you tomorrow then"
+    },
+    {
+     "me": false,
+     "text": "Hello Sadie!"
+    },
+    {
+     "me": false,
+     "text": "I'm on my way, should be there in 10 minutes"
+    },
+    {
+     "me": true,
+     "text": "Perfect! I've already arrived"
+    },
+    {
+     "me": false,
+     "text": "Great! Just confirming our key handover appointment for 4:30pm"
+    },
+    {
+     "me": true,
+     "text": "Confirmed! I've got everything with me"
+    },
+    {
+     "me": false,
+     "text": "Perfect! I'm standing in front of the building"
+    },
+    {
+     "me": true,
+     "text": "On my way!"
+    }
+   ],
+   "avatar": "msg_0.webp"
+  },
+  {
+   "id": "conv-sms-2",
+   "title": "Cleo Kovach",
+   "time": "2:45 PM",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "where are you rn?"
+    },
+    {
+     "me": true,
+     "text": "on campus, why?"
+    },
+    {
+     "me": false,
+     "text": "left my keys at your place yesterday 🙄"
+    },
+    {
+     "me": true,
+     "text": "oh no"
+    },
+    {
+     "me": true,
+     "text": "should be back at the house around four"
+    },
+    {
+     "me": false,
+     "text": "cool works for me"
+    },
+    {
+     "me": true,
+     "text": "oh also I've got the landlord at 4:30"
+    },
+    {
+     "me": false,
+     "text": "for the new place?"
+    },
+    {
+     "me": true,
+     "text": "yeah!! key handover 🔑"
+    },
+    {
+     "me": false,
+     "text": "finally moving out of mom's huh 😂"
+    },
+    {
+     "me": true,
+     "text": "ha ha so funny"
+    },
+    {
+     "me": false,
+     "text": "gonna be so weird not having you down the hall!!"
+    },
+    {
+     "me": true,
+     "text": "aww 🥺"
+    },
+    {
+     "me": false,
+     "text": "wanna do something tonight to celebrate?"
+    },
+    {
+     "me": true,
+     "text": "count me in. Lux Central?"
+    },
+    {
+     "me": false,
+     "text": "yes!! like 7?"
+    },
+    {
+     "me": true,
+     "text": "ok see you then"
+    },
+    {
+     "me": true,
+     "text": "oh and your keys are sitting on my kitchen table"
+    },
+    {
+     "me": false,
+     "text": "lifesaver, thanks twin ❤️"
+    }
+   ],
+   "avatar": "msg_1.webp"
+  },
+  {
+   "id": "conv-sms-3",
+   "title": "Wes Tanner",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "babe what are you up to?"
+    },
+    {
+     "me": true,
+     "text": "third hour of Heidegger and he still hasn't got to the point 😴"
+    },
+    {
+     "me": false,
+     "text": "again? 😩"
+    },
+    {
+     "me": true,
+     "text": "exam's in 3 days"
+    },
+    {
+     "me": false,
+     "text": "want me to come help?"
+    },
+    {
+     "me": true,
+     "text": "you don't know the first thing about philosophy 😂"
+    },
+    {
+     "me": false,
+     "text": "still, I can help you study"
+    },
+    {
+     "me": true,
+     "text": "how exactly"
+    },
+    {
+     "me": false,
+     "text": "you read me your notes"
+    },
+    {
+     "me": false,
+     "text": "and I nod like I get it"
+    },
+    {
+     "me": true,
+     "text": "lmao you're such an idiot"
+    },
+    {
+     "me": false,
+     "text": "whatever, I'll be at yours in twenty"
+    },
+    {
+     "me": true,
+     "text": "ok fine but you're bringing snacks"
+    },
+    {
+     "me": false,
+     "text": "deal ❤️"
+    },
+    {
+     "me": true,
+     "text": "btw I got the apartment!!"
+    },
+    {
+     "me": false,
+     "text": "WAIT SERIOUSLY??"
+    },
+    {
+     "me": true,
+     "text": "yep, landlord gave the green light this morning"
+    },
+    {
+     "me": false,
+     "text": "babe that's incredible!!!"
+    },
+    {
+     "me": true,
+     "text": "the keys land in my hand tomorrow"
+    },
+    {
+     "me": false,
+     "text": "so we'll finally have some space 😏"
+    },
+    {
+     "me": true,
+     "text": "haha yeah no more worrying about Cleo"
+    },
+    {
+     "me": false,
+     "text": "right, I'm turning up with champagne then"
+    },
+    {
+     "me": true,
+     "text": "you're insane we have class in the morning"
+    },
+    {
+     "me": false,
+     "text": "one glass. to celebrate. that's it"
+    },
+    {
+     "me": true,
+     "text": "fine. one glass, then it's back to the books"
+    }
+   ],
+   "avatar": "msg_2.webp"
+  },
+  {
+   "id": "conv-sms-4",
+   "title": "Tessa Brandt",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Sadie — are you on shift tomorrow?"
+    },
+    {
+     "me": true,
+     "text": "hey! yeah 2 til 6"
+    },
+    {
+     "me": false,
+     "text": "Oh good, so am I"
+    },
+    {
+     "me": false,
+     "text": "we can grab our break together then"
+    },
+    {
+     "me": true,
+     "text": "yes please, I've barely seen you all week"
+    },
+    {
+     "me": false,
+     "text": "The returns cart has eaten my whole life honestly 😅"
+    },
+    {
+     "me": true,
+     "text": "ha, mine was up to my chin yesterday"
+    },
+    {
+     "me": false,
+     "text": "Bring snacks and we'll survive it"
+    },
+    {
+     "me": true,
+     "text": "perfect, I've got news to tell you"
+    },
+    {
+     "me": false,
+     "text": "oh?? what's going on"
+    },
+    {
+     "me": true,
+     "text": "I finally found a place!"
+    },
+    {
+     "me": false,
+     "text": "Wait, for real?? 😱"
+    },
+    {
+     "me": true,
+     "text": "yes! a room in a house share"
+    },
+    {
+     "me": false,
+     "text": "which part of town?"
+    },
+    {
+     "me": true,
+     "text": "Coronado, pretty close to campus, like a 20 min walk"
+    },
+    {
+     "me": false,
+     "text": "Nice one. What are they asking for rent?"
+    },
+    {
+     "me": true,
+     "text": "$350, utilities included"
+    },
+    {
+     "me": false,
+     "text": "honestly that's a steal for Phoenix!"
+    },
+    {
+     "me": true,
+     "text": "yeah I got super lucky"
+    },
+    {
+     "me": false,
+     "text": "when do you move in?"
+    },
+    {
+     "me": true,
+     "text": "soon as the keys are mine, in theory"
+    },
+    {
+     "me": false,
+     "text": "the desk won't be the same without you 😢"
+    },
+    {
+     "me": true,
+     "text": "no wait, I'm keeping the job!"
+    },
+    {
+     "me": false,
+     "text": "oh right, of course 😅"
+    },
+    {
+     "me": false,
+     "text": "anyway see you tomorrow!"
+    },
+    {
+     "me": true,
+     "text": "yes! see you then 😊"
+    }
+   ],
+   "avatar": "msg_3.webp"
+  },
+  {
+   "id": "conv-sms-5",
+   "title": "Quinn Farrell",
+   "time": "Monday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "ok girl guess what"
+    },
+    {
+     "me": true,
+     "text": "what??"
+    },
+    {
+     "me": false,
+     "text": "bumped into Rory at Lux Central"
+    },
+    {
+     "me": true,
+     "text": "and??"
+    },
+    {
+     "me": false,
+     "text": "he was asking about you"
+    },
+    {
+     "me": true,
+     "text": "seriously?"
+    },
+    {
+     "me": false,
+     "text": "yeah wanted to know if you were single"
+    },
+    {
+     "me": true,
+     "text": "omg 😳"
+    },
+    {
+     "me": true,
+     "text": "and what did you say"
+    },
+    {
+     "me": false,
+     "text": "that you're with someone but it's complicated"
+    },
+    {
+     "me": true,
+     "text": "quinn!!"
+    },
+    {
+     "me": false,
+     "text": "what?? it's not exactly untrue"
+    },
+    {
+     "me": true,
+     "text": "with theo it's honestly not that complicated"
+    },
+    {
+     "me": false,
+     "text": "girl come on"
+    },
+    {
+     "me": false,
+     "text": "you two are always fighting"
+    },
+    {
+     "me": true,
+     "text": "that's just how relationships are"
+    },
+    {
+     "me": false,
+     "text": "not THAT much though"
+    },
+    {
+     "me": true,
+     "text": "anyway what else did rory say"
+    },
+    {
+     "me": false,
+     "text": "that he'd love to see you again"
+    },
+    {
+     "me": true,
+     "text": "he said it just like that??"
+    },
+    {
+     "me": false,
+     "text": "pretty much yeah"
+    },
+    {
+     "me": false,
+     "text": "I passed him your insta"
+    },
+    {
+     "me": true,
+     "text": "YOU WHAT"
+    },
+    {
+     "me": false,
+     "text": "chill it's literally just instagram"
+    },
+    {
+     "me": true,
+     "text": "you're unbelievable"
+    },
+    {
+     "me": false,
+     "text": "oh come on, a little distraction wouldn't hurt you"
+    }
+   ],
+   "avatar": "msg_4.webp"
+  },
+  {
+   "id": "conv-sms-6",
+   "title": "+1 (602) 555-0129",
+   "time": "Sunday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Sadie? Rory here"
+    },
+    {
+     "me": false,
+     "text": "got your number off Quinn, hope that's alright"
+    },
+    {
+     "me": true,
+     "text": "hey! no it's totally fine"
+    },
+    {
+     "me": false,
+     "text": "Good to hear it. Feels like ages since we crossed paths"
+    },
+    {
+     "me": true,
+     "text": "yeah, not since that party in the spring I think"
+    },
+    {
+     "me": false,
+     "text": "That's the one. So what's keeping you busy these days?"
+    },
+    {
+     "me": true,
+     "text": "still deep in philosophy"
+    },
+    {
+     "me": true,
+     "text": "and working at the library"
+    },
+    {
+     "me": false,
+     "text": "nice! I wrapped up my degree in September"
+    },
+    {
+     "me": true,
+     "text": "and what do you do now?"
+    },
+    {
+     "me": false,
+     "text": "working at a startup"
+    },
+    {
+     "me": true,
+     "text": "you enjoying it?"
+    },
+    {
+     "me": false,
+     "text": "I do actually, nobody breathing down my neck"
+    },
+    {
+     "me": false,
+     "text": "Listen, any chance you're free for a coffee this week?"
+    },
+    {
+     "me": true,
+     "text": "uh"
+    },
+    {
+     "me": true,
+     "text": "honestly I don't think that's a good idea"
+    },
+    {
+     "me": false,
+     "text": "no worries at all! another time maybe"
+    },
+    {
+     "me": true,
+     "text": "yeah, maybe"
+    },
+    {
+     "me": false,
+     "text": "Enjoy your evening, Sadie"
+    }
+   ],
+   "avatar": "msg_5.webp"
+  },
+  {
+   "id": "conv-sms-7",
+   "title": "Hollis Pike",
+   "time": "Saturday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Good morning Sadie, I trust the week is treating you well."
+    },
+    {
+     "me": false,
+     "text": "A quick reminder that the Heidegger paper is due on Monday."
+    },
+    {
+     "me": true,
+     "text": "Morning Professor — it hasn't slipped my mind"
+    },
+    {
+     "me": true,
+     "text": "the whole weekend is set aside for it"
+    },
+    {
+     "me": false,
+     "text": "Very good. My door is open if anything is unclear."
+    },
+    {
+     "me": true,
+     "text": "thank you so much!!"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-8",
+   "title": "Dez Alvarado",
+   "time": "Friday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "yo asha!"
+    },
+    {
+     "me": true,
+     "text": "hey hugo! how've you been?"
+    },
+    {
+     "me": false,
+     "text": "good good! still glued to your textbooks?"
+    },
+    {
+     "me": true,
+     "text": "haha always"
+    },
+    {
+     "me": false,
+     "text": "some things really don't change huh"
+    },
+    {
+     "me": true,
+     "text": "afraid not 😅 what about you, still at the shop?"
+    },
+    {
+     "me": false,
+     "text": "yeah, took on saturdays as well now"
+    },
+    {
+     "me": true,
+     "text": "oof, that's a lot"
+    },
+    {
+     "me": false,
+     "text": "hey remember our philosophy teacher from high school?"
+    },
+    {
+     "me": true,
+     "text": "ms. bennett? obviously"
+    },
+    {
+     "me": false,
+     "text": "ran into her yesterday at the grocery store"
+    },
+    {
+     "me": false,
+     "text": "and she asked how you were"
+    },
+    {
+     "me": true,
+     "text": "aww that's sweet!"
+    },
+    {
+     "me": false,
+     "text": "she was so proud you stuck with philosophy"
+    },
+    {
+     "me": true,
+     "text": "honestly that means a lot"
+    },
+    {
+     "me": false,
+     "text": "said you were her favorite student"
+    },
+    {
+     "me": true,
+     "text": "aww 🥺"
+    },
+    {
+     "me": false,
+     "text": "anyway, back to the reading with you"
+    },
+    {
+     "me": true,
+     "text": "thanks for passing that along about ms. bennett!"
+    },
+    {
+     "me": false,
+     "text": "anytime! catch you soon"
+    }
+   ],
+   "avatar": "msg_7.webp"
+  },
+  {
+   "id": "conv-sms-9",
+   "title": "Bianca Ochoa",
+   "time": "7/30/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "hey Sadie, it's your neighbor Bianca"
+    },
+    {
+     "me": true,
+     "text": "hi! all good?"
+    },
+    {
+     "me": false,
+     "text": "All good! Listen, a package came for you and I took it in"
+    },
+    {
+     "me": true,
+     "text": "aw thank you, that's so kind!"
+    },
+    {
+     "me": false,
+     "text": "come grab it whenever suits you"
+    },
+    {
+     "me": true,
+     "text": "amazing, thank you"
+    },
+    {
+     "me": false,
+     "text": "It's a flat one, book shaped 📦"
+    },
+    {
+     "me": true,
+     "text": "ah that'll be the Descartes, finally"
+    },
+    {
+     "me": false,
+     "text": "Mystery solved then 😄"
+    },
+    {
+     "me": true,
+     "text": "could I swing by tonight around 6?"
+    },
+    {
+     "me": false,
+     "text": "Six works, I'll be home"
+    },
+    {
+     "me": true,
+     "text": "thanks again! catch you tonight"
+    }
+   ],
+   "avatar": "msg_8.webp"
+  },
+  {
+   "id": "conv-sms-10",
+   "title": "David Chen",
+   "time": "7/29/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Sadie, how's the Nietzsche section coming along?"
+    },
+    {
+     "me": true,
+     "text": "hi david! yeah I finished it last night"
+    },
+    {
+     "me": false,
+     "text": "Great — Kant gets finished tonight on my end"
+    },
+    {
+     "me": true,
+     "text": "great, we can pull the synthesis together tomorrow"
+    },
+    {
+     "me": false,
+     "text": "Did you get hold of a copy of the Ellis paper in the end?"
+    },
+    {
+     "me": true,
+     "text": "yeah, the desk had one on reserve"
+    },
+    {
+     "me": true,
+     "text": "I'll bring it with me"
+    },
+    {
+     "me": false,
+     "text": "Sounds good. Hayden Library at two?"
+    },
+    {
+     "me": true,
+     "text": "perfect! room 3 like always?"
+    },
+    {
+     "me": false,
+     "text": "That's the one. Tomorrow then"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-11",
+   "title": "FedEx",
+   "time": "7/28/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Your package is out for delivery today, 2pm to 6pm window. Tracking 4821 9930 5567."
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-12",
+   "title": "Xfinity Mobile",
+   "time": "7/27/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Xfinity Mobile: your $19.99 statement is ready in your account. Payment due 28/04."
+    }
+   ]
+  }
+ ],
+ "whatsapp": [
+  {
+   "id": "conv-wa-3",
+   "title": "Quinn Farrell",
+   "time": "11:45 AM",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "SADIEEEE"
+    },
+    {
+     "me": false,
+     "text": "What are your plans this weekend?"
+    },
+    {
+     "me": true,
+     "text": "Hey! Nothing locked in yet"
+    },
+    {
+     "me": false,
+     "text": "Right — girls' night, my place, Saturday"
+    },
+    {
+     "me": false,
+     "text": "Just us girls, low key"
+    },
+    {
+     "me": true,
+     "text": "count me in"
+    },
+    {
+     "me": true,
+     "text": "What can I bring?"
+    },
+    {
+     "me": false,
+     "text": "Don't you dare bring a thing, it's all handled"
+    },
+    {
+     "me": false,
+     "text": "Just yourself and a good mood"
+    },
+    {
+     "me": true,
+     "text": "Haha deal!"
+    },
+    {
+     "me": true,
+     "text": "What time were you thinking?"
+    },
+    {
+     "me": false,
+     "text": "Does 7 work for you?"
+    },
+    {
+     "me": true,
+     "text": "seven works"
+    },
+    {
+     "me": true,
+     "text": "so ready for this"
+    },
+    {
+     "me": false,
+     "text": "hey — where are things at with Wes?"
+    },
+    {
+     "me": true,
+     "text": "ehh. save that one for Saturday?"
+    },
+    {
+     "me": false,
+     "text": "Oh no, is everything okay?"
+    },
+    {
+     "me": true,
+     "text": "Nothing major, I'll fill you in Saturday ❤️"
+    },
+    {
+     "me": false,
+     "text": "Ok hon, big hug"
+    },
+    {
+     "me": true,
+     "text": "love you ❤️"
+    }
+   ],
+   "avatar": "msg_4.webp"
+  },
+  {
+   "id": "conv-wa-4",
+   "title": "David",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Sadie, where are we at with the presentation?"
+    },
+    {
+     "me": true,
+     "text": "the Descartes section is written"
+    },
+    {
+     "me": false,
+     "text": "Nice work. Kant is behind me too"
+    },
+    {
+     "me": false,
+     "text": "Now we just have to tie the two halves together"
+    },
+    {
+     "me": true,
+     "text": "Yep exactly"
+    },
+    {
+     "me": true,
+     "text": "Want to meet at the library tomorrow and finish it off?"
+    },
+    {
+     "me": false,
+     "text": "Works for me — two o'clock?"
+    },
+    {
+     "me": true,
+     "text": "Yeah that's perfect"
+    },
+    {
+     "me": false,
+     "text": "Great, see you tomorrow then!"
+    }
+   ]
+  },
+  {
+   "id": "conv-wa-2",
+   "title": "Tessa Brandt",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Sadie — are you on the desk at Hayden tomorrow?"
+    },
+    {
+     "me": true,
+     "text": "Yeah, 2 til 6"
+    },
+    {
+     "me": false,
+     "text": "Great, same shift as me then"
+    },
+    {
+     "me": false,
+     "text": "Oh, has the new Judith Butler crossed your desk yet?"
+    },
+    {
+     "me": true,
+     "text": "Not yet! Is it any good?"
+    },
+    {
+     "me": false,
+     "text": "Skimmed it, looks really interesting"
+    },
+    {
+     "me": false,
+     "text": "Want me to bring it in tomorrow?"
+    },
+    {
+     "me": true,
+     "text": "yes please, do"
+    },
+    {
+     "me": false,
+     "text": "Right, I'm off. Tomorrow then"
+    },
+    {
+     "me": true,
+     "text": "Great, see you tomorrow!"
+    }
+   ],
+   "avatar": "msg_3.webp"
+  },
+  {
+   "id": "conv-wa-5",
+   "title": "Bianca",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Sadie, you there?"
+    },
+    {
+     "me": false,
+     "text": "You are not going to believe this"
+    },
+    {
+     "me": true,
+     "text": "No, what?"
+    },
+    {
+     "me": false,
+     "text": "My landlord wants to bump my rent up $100"
+    },
+    {
+     "me": true,
+     "text": "What?? Can he even do that?"
+    },
+    {
+     "me": false,
+     "text": "Apparently so... says it's the three-year review"
+    },
+    {
+     "me": true,
+     "text": "that is not okay"
+    },
+    {
+     "me": false,
+     "text": "no idea how I'm meant to cover that"
+    },
+    {
+     "me": true,
+     "text": "So what's your plan?"
+    },
+    {
+     "me": false,
+     "text": "start hunting for somewhere else, probably"
+    },
+    {
+     "me": false,
+     "text": "If you hear of anything good, let me know..."
+    },
+    {
+     "me": true,
+     "text": "I'll ask around, promise"
+    },
+    {
+     "me": false,
+     "text": "Thanks, you're a gem ❤️"
+    }
+   ],
+   "avatar": "msg_8.webp"
+  },
+  {
+   "id": "conv-wa-6",
+   "title": "Owen Prescott",
+   "time": "Sunday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Sadie — our old philosophy teacher, do you remember her?"
+    },
+    {
+     "me": true,
+     "text": "Mrs. Halloran, obviously"
+    },
+    {
+     "me": false,
+     "text": "Yes! Ran into her downtown"
+    },
+    {
+     "me": false,
+     "text": "She asked how you were getting on"
+    },
+    {
+     "me": true,
+     "text": "Aw that's sweet! How is she?"
+    },
+    {
+     "me": false,
+     "text": "She's well. Same classroom, same school"
+    },
+    {
+     "me": false,
+     "text": "She was so proud you're sticking with philosophy"
+    },
+    {
+     "me": true,
+     "text": "okay that just made my day"
+    },
+    {
+     "me": true,
+     "text": "she's honestly the reason I stuck with it"
+    },
+    {
+     "me": true,
+     "text": "I really should go visit her sometime"
+    },
+    {
+     "me": false,
+     "text": "Yes, she'd love that!"
+    },
+    {
+     "me": true,
+     "text": "So what's new with you these days?"
+    },
+    {
+     "me": false,
+     "text": "Still grinding through engineering down in Tucson"
+    },
+    {
+     "me": true,
+     "text": "and how's that treating you?"
+    },
+    {
+     "me": false,
+     "text": "Yeah it's fine, bit stressful but I'm managing"
+    },
+    {
+     "me": true,
+     "text": "what year are you in now?"
+    },
+    {
+     "me": false,
+     "text": "Third. One more after this and I'm out"
+    },
+    {
+     "me": true,
+     "text": "you'll fly through it"
+    },
+    {
+     "me": false,
+     "text": "We'll see 😅 the January exams are the real test"
+    },
+    {
+     "me": true,
+     "text": "nice. do you get back to Phoenix much?"
+    },
+    {
+     "me": false,
+     "text": "Now and then — drink when I'm next up?"
+    },
+    {
+     "me": true,
+     "text": "yes, absolutely"
+    }
+   ]
+  },
+  {
+   "id": "conv-wa-7",
+   "title": "Bree",
+   "time": "Saturday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Sadie my love ❤️"
+    },
+    {
+     "me": false,
+     "text": "How has it been this long?"
+    },
+    {
+     "me": true,
+     "text": "Bree!! far too long, I know"
+    },
+    {
+     "me": true,
+     "text": "What have you been up to lately?"
+    },
+    {
+     "me": false,
+     "text": "Still stuck in the marketing internship"
+    },
+    {
+     "me": false,
+     "text": "I like it, but it's full on"
+    },
+    {
+     "me": false,
+     "text": "And you, how's school going?"
+    },
+    {
+     "me": true,
+     "text": "good! drowning in reading and weirdly happy about it"
+    },
+    {
+     "me": false,
+     "text": "Haha still nose-deep in your books!"
+    },
+    {
+     "me": true,
+     "text": "some habits don't shift 😄"
+    },
+    {
+     "me": false,
+     "text": "Are you still doing the library job?"
+    },
+    {
+     "me": true,
+     "text": "yep, couple of shifts a week, it pays for the books"
+    },
+    {
+     "me": false,
+     "text": "That is extremely on brand for you 😄"
+    },
+    {
+     "me": true,
+     "text": "I know, I know"
+    },
+    {
+     "me": false,
+     "text": "We should really catch up soon!"
+    },
+    {
+     "me": true,
+     "text": "yes — can you do next week?"
+    },
+    {
+     "me": false,
+     "text": "Done. I'll text you dates"
+    },
+    {
+     "me": true,
+     "text": "it's a plan ❤️"
+    }
+   ],
+   "avatar": "wa_5.webp"
+  },
+  {
+   "id": "conv-wa-8",
+   "title": "Hollis Pike",
+   "time": "Friday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Sadie, I hope the week is treating you kindly."
+    },
+    {
+     "me": false,
+     "text": "Please note the Tuesday seminar now sits on Thursday, same hour."
+    },
+    {
+     "me": true,
+     "text": "Thank you for letting me know, Mr. Pike"
+    },
+    {
+     "me": true,
+     "text": "Thursday works great for me"
+    },
+    {
+     "me": false,
+     "text": "Noted. Enjoy your day."
+    }
+   ]
+  },
+  {
+   "id": "conv-wa-9",
+   "title": "Delivery",
+   "time": "7/30/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Delivery scheduled today between 2pm and 6pm. Tracking number 6640 2215 8830."
+    },
+    {
+     "me": false,
+     "text": "Delivered at 2:22pm. Thanks for shipping with us!"
+    }
+   ]
+  },
+  {
+   "id": "conv-wa-10",
+   "title": "Nia",
+   "time": "7/29/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Sadie — your roommate post came up on my feed"
+    },
+    {
+     "me": false,
+     "text": "Is the apartment still up for grabs?"
+    },
+    {
+     "me": true,
+     "text": "Hey! Yes, still available"
+    },
+    {
+     "me": true,
+     "text": "shall we sit down and talk it through?"
+    },
+    {
+     "me": false,
+     "text": "Yes please. What days suit you?"
+    },
+    {
+     "me": true,
+     "text": "Does tomorrow afternoon work?"
+    },
+    {
+     "me": false,
+     "text": "Tomorrow's good — three-ish?"
+    },
+    {
+     "me": true,
+     "text": "Ok, let's meet out front of the building"
+    },
+    {
+     "me": false,
+     "text": "Lovely, see you then"
+    }
+   ]
+  },
+  {
+   "id": "conv-wa-key-1",
+   "title": "Cleo Kovach",
+   "time": "7/2/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hey sis, since you'd rather work than join us, I took your green top for tonight!"
+    },
+    {
+     "me": true,
+     "text": "What?? 😂"
+    },
+    {
+     "me": true,
+     "text": "Still, you could have asked"
+    },
+    {
+     "me": false,
+     "text": "Sorry, I was rushing"
+    },
+    {
+     "me": false,
+     "text": "And you weren't around anyway"
+    },
+    {
+     "me": true,
+     "text": "Fine ok, but ask me next time"
+    },
+    {
+     "me": false,
+     "text": "Promise!"
+    },
+    {
+     "me": true,
+     "text": "You're returning it tomorrow though"
+    },
+    {
+     "me": false,
+     "text": "Obviously! Enjoy your night at the library 🤓"
+    },
+    {
+     "me": true,
+     "text": "Hilarious..."
+    },
+    {
+     "me": true,
+     "text": "Hey Cleo"
+    },
+    {
+     "me": true,
+     "text": "There's something I need to tell you"
+    },
+    {
+     "me": false,
+     "text": "What? Now you're worrying me"
+    },
+    {
+     "me": true,
+     "text": "No, nothing serious"
+    },
+    {
+     "me": true,
+     "text": "I'm taking a break with him"
+    },
+    {
+     "me": false,
+     "text": "You mean with Wes?"
+    },
+    {
+     "me": false,
+     "text": "Oh yeah, why??"
+    },
+    {
+     "me": true,
+     "text": "I needed to figure out who I am in a room he isn't in"
+    },
+    {
+     "me": false,
+     "text": "Oh honey... want to meet up and talk it through?"
+    },
+    {
+     "me": true,
+     "text": "Yes, that would help me"
+    },
+    {
+     "me": false,
+     "text": "Give me 30 minutes and I'm there ❤️"
+    }
+   ],
+   "avatar": "msg_1.webp"
+  }
+ ],
+ "gmail": [
+  {
+   "sender": "To: Hollis Pike",
+   "subject": "Re: A place on the seminar",
+   "preview": "Dear Professor Pike, Thank you - I would be glad to take a place on the research seminar, and rather flattered",
+   "body": "Dear Professor Pike,\n\nThank you - I would be glad to take a place on the research seminar, and rather flattered to have been asked. Could you tell me a little more about what the sessions will cover?\n\nWith thanks,\nSadie",
+   "time": "Yesterday",
+   "folder": "sent"
+  },
+  {
+   "sender": "Hollis Pike",
+   "subject": "Your Nietzsche paper - marked",
+   "preview": "Sadie, Your paper on Nietzsche and the critique of morality is genuinely impressive - the concepts are handled",
+   "body": "Sadie,\n\nYour paper on Nietzsche and the critique of morality is genuinely impressive - the concepts are handled with a precision I rarely see at this level. I have marked it 17/20.\n\nI would also like to invite you onto next semester's research seminar.\n\nWith warm regards,\nProfessor Pike",
+   "time": "Yesterday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Flatmates",
+   "subject": "Response to your application - House share, Coronado",
+   "preview": "Hello Sadie, We've got excellent news about your application for the flatshare on E Coronado Road! If you're s",
+   "body": "Hello Sadie,\n\nWe've got excellent news about your application for the flatshare on E Coronado Road!\n\nIf you're still interested in the listing, Gwen Ashby, the property owner, is ready to meet you and hand over the keys.\n\nPlease let us know your availability as soon as you can.\n\nBest regards,\nThe Flatmates team",
+   "time": "Yesterday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Tessa Brandt",
+   "subject": "Re: This week's desk rota",
+   "preview": "Tessa - Tuesday and Thursday are both fine by me. You were not exaggerating about how busy it has got. See you",
+   "body": "Tessa - Tuesday and Thursday are both fine by me. You were not exaggerating about how busy it has got. See you tomorrow 😊",
+   "time": "Tuesday",
+   "folder": "sent"
+  },
+  {
+   "sender": "Tessa Brandt",
+   "subject": "This week's desk rota",
+   "preview": "Sadie - any chance you can take Tuesday and Thursday this week? Exam season has the desk completely swamped. Y",
+   "body": "Sadie - any chance you can take Tuesday and Thursday this week? Exam season has the desk completely swamped. You are a lifesaver!",
+   "time": "Tuesday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: David Chen",
+   "subject": "Re: Sartre project - Friday deadline",
+   "preview": "David - my section is done and read through twice. Thursday at 6 suits me. Shall we take a table at the librar",
+   "body": "David - my section is done and read through twice. Thursday at 6 suits me. Shall we take a table at the library?",
+   "time": "Tuesday",
+   "folder": "sent"
+  },
+  {
+   "sender": "David Chen",
+   "subject": "Sartre project - Friday deadline",
+   "preview": "Sadie - did your existentialism section come together? Submission is Friday, so I would like us to sit down Th",
+   "body": "Sadie - did your existentialism section come together? Submission is Friday, so I would like us to sit down Thursday and do the formatting pass. Does 6pm work for you?",
+   "time": "Monday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Spotify",
+   "subject": "Your Wrapped is ready - philosophy edition",
+   "preview": "Discover your most listened to philosophy podcasts this year! From NPR to Philosophy Now, relive your favorite",
+   "body": "Discover your most listened to philosophy podcasts this year! From NPR to Philosophy Now, relive your favorite moments of reflection.",
+   "time": "Sunday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Bianca Ochoa",
+   "subject": "Re: Saturday at mine?",
+   "preview": "Yes to the Beauvoir documentary, and yes to sushi 😄 Your place at 7?",
+   "body": "Yes to the Beauvoir documentary, and yes to sushi 😄 Your place at 7?",
+   "time": "Saturday",
+   "folder": "sent"
+  },
+  {
+   "sender": "Changing Hands Bookstore",
+   "subject": "New in philosophy - April 2026",
+   "preview": "Just landed on the philosophy table: 'Ethics and Artificial Intelligence' by Marie Redding, 'Phenomenology of ",
+   "body": "Just landed on the philosophy table: 'Ethics and Artificial Intelligence' by Marie Redding, 'Phenomenology of the Everyday' by Jean Martel, and plenty more besides...",
+   "time": "Saturday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Bianca Ochoa",
+   "subject": "Saturday at mine?",
+   "preview": "Neighbor! Saturday, my place, a film? There is a Simone de Beauvoir documentary with your name written all ove",
+   "body": "Neighbor! Saturday, my place, a film? There is a Simone de Beauvoir documentary with your name written all over it. And we order sushi, obviously.",
+   "time": "Friday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "NPR Books",
+   "subject": "Philosophy Bites - Weekly program",
+   "preview": "On this week's schedule: Monday, 'Spinoza and the affects'. Tuesday, 'Hannah Arendt and the banality of evil'.",
+   "body": "On this week's schedule: Monday, 'Spinoza and the affects'. Tuesday, 'Hannah Arendt and the banality of evil'. Wednesday, 'Foucault and biopower'...",
+   "time": "Friday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Trey Radley",
+   "subject": "Re: Grandma's birthday - next Sunday",
+   "preview": "Trey - as if I would forget. Grandma armed with Bergson is going to be quite something 😂 I would not miss it.",
+   "body": "Trey - as if I would forget. Grandma armed with Bergson is going to be quite something 😂 I would not miss it.",
+   "time": "7/30/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Trey Radley",
+   "subject": "Grandma's birthday - next Sunday",
+   "preview": "Cousin! Grandma's birthday is next Sunday, do not let it slip. She has been reading something on Bergson and f",
+   "body": "Cousin! Grandma's birthday is next Sunday, do not let it slip. She has been reading something on Bergson and fully intends to corner you about it 😄",
+   "time": "7/29/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Philosophy Now",
+   "subject": "Your student subscription is about to lapse",
+   "preview": "Your student subscription ends on August 12. Renew now to continue receiving Philosophy Now at preferential ra",
+   "body": "Your student subscription ends on August 12. Renew now to continue receiving Philosophy Now at preferential rates!",
+   "time": "7/28/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Delaney Voss",
+   "subject": "Re: The books I left behind",
+   "preview": "Delaney! All good here thanks. Your books are safe with me - the Sartre is unmistakable 😊 Come and get them wh",
+   "body": "Delaney! All good here thanks. Your books are safe with me - the Sartre is unmistakable 😊 Come and get them whenever suits you.",
+   "time": "7/27/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Delaney Voss",
+   "subject": "The books I left behind",
+   "preview": "Sadie! Hope life has been kind since we stopped sharing a place. A few of my books are still on your shelves, ",
+   "body": "Sadie! Hope life has been kind since we stopped sharing a place. A few of my books are still on your shelves, my copy of 'Being and Nothingness' among them. Could you hang onto them? I will swing by next week to collect.",
+   "time": "7/27/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Emma Reyes",
+   "subject": "Re: Camus group - Fridays at the library",
+   "preview": "Emma - count me in for the Camus group, Friday at 5pm. I have just been back through The Stranger and I have o",
+   "body": "Emma - count me in for the Camus group, Friday at 5pm. I have just been back through The Stranger and I have opinions about the absurd.",
+   "time": "7/25/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Emma Reyes",
+   "subject": "Camus group - Fridays at the library",
+   "preview": "Hello! We have a Camus reading group going - Fridays at the library, currently working through 'The Stranger'.",
+   "body": "Hello! We have a Camus reading group going - Fridays at the library, currently working through 'The Stranger'. Come along, the next one is Friday at 5pm!",
+   "time": "7/24/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Amazon",
+   "subject": "Your order is on its way",
+   "preview": "'Meditations on First Philosophy' by Descartes has left our warehouse. Expect it tomorrow between 9am and 12pm",
+   "body": "'Meditations on First Philosophy' by Descartes has left our warehouse. Expect it tomorrow between 9am and 12pm.",
+   "time": "7/23/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Arizona State University",
+   "subject": "Semester 6 - partial results posted",
+   "preview": "Semester 6 results are now posted on your student portal. Moral philosophy came in at 18/20 - very well done i",
+   "body": "Semester 6 results are now posted on your student portal. Moral philosophy came in at 18/20 - very well done indeed!",
+   "time": "7/22/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Netflix",
+   "subject": "Now streaming: 'Socrates, the eternal questioning'",
+   "preview": "New this week: a documentary on Socrates and the art of the question. One for the philosophy shelf.",
+   "body": "New this week: a documentary on Socrates and the art of the question. One for the philosophy shelf.",
+   "time": "7/21/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Bree Callahan",
+   "subject": "Re: It's been ages!",
+   "preview": "Hey Bree! Yes it's been forever! I'd love to get coffee, I have lots to tell you about university. Are you fre",
+   "body": "Hey Bree! Yes it's been forever! I'd love to get coffee, I have lots to tell you about university. Are you free Wednesday afternoon?",
+   "time": "7/21/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Bree Callahan",
+   "subject": "It's been ages!",
+   "preview": "Sadie! Ages, it has been actual ages. I want the whole story on this philosophy degree of yours. Coffee this w",
+   "body": "Sadie! Ages, it has been actual ages. I want the whole story on this philosophy degree of yours. Coffee this week?",
+   "time": "7/20/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Owen Prescott",
+   "subject": "Re: A photo from school",
+   "preview": "Owen! Mrs. Halloran and those endless walks through the Critique of Pure Reason 😄 honestly she is the reason a",
+   "body": "Owen! Mrs. Halloran and those endless walks through the Critique of Pure Reason 😄 honestly she is the reason any of it stuck. Thanks for digging out the photo!",
+   "time": "7/19/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Owen Prescott",
+   "subject": "A photo from school",
+   "preview": "Sadie! A photo turned up of the two of us in philosophy class back at school. Remember Mrs. Halloran grinding ",
+   "body": "Sadie! A photo turned up of the two of us in philosophy class back at school. Remember Mrs. Halloran grinding through Kant with us? You were right to stick with it.",
+   "time": "7/18/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Ravi Gupta",
+   "subject": "Re: News from home",
+   "preview": "Namaste uncle Ravi! That is very kind of you. You are right that grandfather would have thrown himself into th",
+   "body": "Namaste uncle Ravi! That is very kind of you. You are right that grandfather would have thrown himself into the ethics arguments we have now. I would love to visit soon.",
+   "time": "7/17/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Best Buy",
+   "subject": "Philosophy shelf - this month's new releases",
+   "preview": "This month on the philosophy shelf: new essays, reissued classics and revision guides. Orders over $20 ship fr",
+   "body": "This month on the philosophy shelf: new essays, reissued classics and revision guides. Orders over $20 ship free.",
+   "time": "7/17/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Ravi Gupta",
+   "subject": "News from home",
+   "preview": "Namaste Sadie! Word from your parents is that philosophy is going very well. Your grandfather would have loved",
+   "body": "Namaste Sadie! Word from your parents is that philosophy is going very well. Your grandfather would have loved this - metaphysics was his favorite argument. Come and see us soon.",
+   "time": "7/16/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: ASU Library Circulation",
+   "subject": "Re: Evening desk gap — week of July 20",
+   "preview": "Hello, I can take the Wednesday evening, 6pm to 9pm. Please add it to my timesheet. Thank you, Sadie",
+   "body": "Hello,\n\nI can take the Wednesday evening, 6pm to 9pm. Please add it to my timesheet.\n\nThank you,\nSadie",
+   "time": "7/16/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "To: Priya Raval",
+   "subject": "Re: Thursday's notes",
+   "preview": "Priya - my handwriting, made legible. We got as far as the second antinomy and then the room was booked out fr",
+   "body": "Priya - my handwriting, made legible. We got as far as the second antinomy and then the room was booked out from under us. I will type up the rest tonight and send it over. Thanks for holding the table while I ran for the bus 😄",
+   "time": "7/15/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "ASU Library Circulation",
+   "subject": "Evening desk gap — week of July 20",
+   "preview": "Hello Sadie, We are short on the Wednesday evening desk that week, 6pm to 9pm. If you are able to cover it, re",
+   "body": "Hello Sadie,\n\nWe are short on the Wednesday evening desk that week, 6pm to 9pm. If you are able to cover it, reply here and it will go straight onto your timesheet.\n\nThank you,\nCirculation",
+   "time": "7/15/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Ruiz Bike Repair",
+   "subject": "Your bike is ready to collect",
+   "preview": "Hi Sadie, New chain and rear pads are on, and we trued the back wheel while it was up on the stand. Total is $",
+   "body": "Hi Sadie,\n\nNew chain and rear pads are on, and we trued the back wheel while it was up on the stand. Total is $64.00, payable at the counter.\n\nWe are open until 6pm all week.",
+   "time": "7/14/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Rory Beckett",
+   "subject": "Instagram",
+   "preview": "Hey Sadie! Thanks for accepting my friend request on insta ;) I noticed you study philosophy, that's fascinati",
+   "body": "Hey Sadie! Thanks for accepting my friend request on insta ;) I noticed you study philosophy, that's fascinating! Hopefully we can talk about your readings sometime. See you around maybe!",
+   "time": "7/13/26",
+   "folder": "inbox"
+  }
+ ],
+ "calendar": [
+  {
+   "title": "Poetry circle",
+   "date": "09/01",
+   "dateLabel": "Tue, Sep 1, 2026",
+   "month": "2026-09",
+   "time": "9:00 AM – 10:00 AM",
+   "location": "Student center"
+  },
+  {
+   "title": "Collect an order at Grand Avenue Books",
+   "date": "08/29",
+   "dateLabel": "Sat, Aug 29, 2026",
+   "month": "2026-08",
+   "time": "6:00 PM – 7:00 PM",
+   "location": "Grand Avenue Books, Phoenix"
+  },
+  {
+   "title": "Coffee with Quinn",
+   "date": "08/26",
+   "dateLabel": "Wed, Aug 26, 2026",
+   "month": "2026-08",
+   "time": "2:00 PM – 3:00 PM",
+   "location": "Lux Central"
+  },
+  {
+   "title": "Chapter 2 rewrite",
+   "date": "08/23",
+   "dateLabel": "Sun, Aug 23, 2026",
+   "month": "2026-08",
+   "time": "10:00 AM – 11:30 AM",
+   "location": "Hayden Library"
+  },
+  {
+   "title": "Run before it gets hot",
+   "date": "08/20",
+   "dateLabel": "Thu, Aug 20, 2026",
+   "month": "2026-08",
+   "time": "12:00 PM – 1:00 PM",
+   "location": "Encanto Park"
+  },
+  {
+   "title": "A novel, for pleasure not credit",
+   "date": "08/17",
+   "dateLabel": "Mon, Aug 17, 2026",
+   "month": "2026-08",
+   "time": "12:00 PM – 1:00 PM",
+   "location": "Literary Café"
+  },
+  {
+   "title": "Dinner with Cleo & Rory",
+   "date": "08/14",
+   "dateLabel": "Fri, Aug 14, 2026",
+   "month": "2026-08",
+   "time": "7:00 PM – 8:30 PM",
+   "location": "Grand Avenue Restaurant"
+  },
+  {
+   "title": "Podcast workshop: how an episode holds together",
+   "date": "08/12",
+   "dateLabel": "Wed, Aug 12, 2026",
+   "month": "2026-08",
+   "time": "9:00 AM – 10:00 AM",
+   "location": "Student room, campus"
+  },
+  {
+   "title": "Rework the plan and the argument",
+   "date": "08/10",
+   "dateLabel": "Mon, Aug 10, 2026",
+   "month": "2026-08",
+   "time": "3:00 PM – 4:30 PM",
+   "location": "Burton Barr Central Library"
+  },
+  {
+   "title": "Vertigo night with friends",
+   "date": "08/08",
+   "dateLabel": "Sat, Aug 8, 2026",
+   "month": "2026-08",
+   "time": "4:00 PM – 5:30 PM",
+   "location": "Grand Rex, Phoenix"
+  },
+  {
+   "title": "Coffee and the podcast queue",
+   "date": "08/06",
+   "dateLabel": "Thu, Aug 6, 2026",
+   "month": "2026-08",
+   "time": "2:00 PM – 3:00 PM",
+   "location": "Neighborhood café"
+  },
+  {
+   "title": "Advisor meeting — Horizon",
+   "date": "08/04",
+   "dateLabel": "Tue, Aug 4, 2026",
+   "month": "2026-08",
+   "time": "2:30 PM – 3:30 PM",
+   "location": "Phoenix Campus, Philosophy Dept"
+  },
+  {
+   "title": "Hegel reading block",
+   "date": "08/04",
+   "dateLabel": "Tue, Aug 4, 2026",
+   "month": "2026-08",
+   "time": "11:00 AM – 12:30 PM",
+   "location": "Media library"
+  },
+  {
+   "title": "Laps at the pool",
+   "date": "08/02",
+   "dateLabel": "Sun, Aug 2, 2026",
+   "month": "2026-08",
+   "time": "5:00 PM – 6:00 PM",
+   "location": "ASU Swimming Pool"
+  },
+  {
+   "title": "Camus reading group",
+   "date": "07/31",
+   "dateLabel": "Fri, Jul 31, 2026",
+   "month": "2026-07",
+   "time": "5:00 PM – 6:00 PM",
+   "location": "Campus library, group study room"
+  },
+  {
+   "title": "Advisor check-in on progress",
+   "date": "07/31",
+   "dateLabel": "Fri, Jul 31, 2026",
+   "month": "2026-07",
+   "time": "9:00 AM – 10:00 AM",
+   "location": "ARC Room, BD"
+  },
+  {
+   "title": "Screening of a novel adaptation",
+   "date": "07/28",
+   "dateLabel": "Tue, Jul 28, 2026",
+   "month": "2026-07",
+   "time": "8:00 PM – 10:00 PM",
+   "location": "Le Palace Vertigo"
+  },
+  {
+   "title": "Plant walk with the group",
+   "date": "07/25",
+   "dateLabel": "Sat, Jul 25, 2026",
+   "month": "2026-07",
+   "time": "12:00 PM – 1:00 PM",
+   "location": "Greenhouse Garden"
+  },
+  {
+   "title": "Poetry and novels evening",
+   "date": "07/23",
+   "dateLabel": "Thu, Jul 23, 2026",
+   "month": "2026-07",
+   "time": "6:00 PM – 7:00 PM",
+   "location": "Café Babel"
+  },
+  {
+   "title": "Lecture on knowledge and truth",
+   "date": "07/20",
+   "dateLabel": "Mon, Jul 20, 2026",
+   "month": "2026-07",
+   "time": "10:00 AM – 11:00 AM",
+   "location": "Faculty of Philosophy, Phoenix"
+  },
+  {
+   "title": "Routine checkup",
+   "date": "07/17",
+   "dateLabel": "Fri, Jul 17, 2026",
+   "month": "2026-07",
+   "time": "1:00 PM – 2:00 PM",
+   "location": "Medical office"
+  },
+  {
+   "title": "Dermatologist appointment",
+   "date": "07/17",
+   "dateLabel": "Fri, Jul 17, 2026",
+   "month": "2026-07",
+   "time": "10:00 AM – 11:00 AM",
+   "location": "ASU Health Services"
+  },
+  {
+   "title": "Sit still and breathe",
+   "date": "07/14",
+   "dateLabel": "Tue, Jul 14, 2026",
+   "month": "2026-07",
+   "time": "9:30 AM – 10:30 AM",
+   "location": "Silent library"
+  },
+  {
+   "title": "Philosophy seminar, online",
+   "date": "07/10",
+   "dateLabel": "Fri, Jul 10, 2026",
+   "month": "2026-07",
+   "time": "12:00 PM – 1:00 PM",
+   "location": ""
+  },
+  {
+   "title": "Desk shift",
+   "date": "07/09",
+   "dateLabel": "Thu, Jul 9, 2026",
+   "month": "2026-07",
+   "time": "2:00 PM – 6:00 PM",
+   "location": "Campus library, front desk"
+  },
+  {
+   "title": "Browse Bookmans Used Books",
+   "date": "07/07",
+   "dateLabel": "Tue, Jul 7, 2026",
+   "month": "2026-07",
+   "time": "10:00 AM – 11:00 AM",
+   "location": "Palabras Bilingual Bookstore"
+  },
+  {
+   "title": "Podcast, studio session",
+   "date": "07/04",
+   "dateLabel": "Sat, Jul 4, 2026",
+   "month": "2026-07",
+   "time": "2:00 PM – 3:00 PM",
+   "location": "Mobile studio"
+  },
+  {
+   "title": "Reading night out",
+   "date": "06/30",
+   "dateLabel": "Tue, Jun 30, 2026",
+   "month": "2026-06",
+   "time": "6:00 PM – 7:00 PM",
+   "location": "Community center"
+  },
+  {
+   "title": "Thesis talk over coffee",
+   "date": "06/27",
+   "dateLabel": "Sat, Jun 27, 2026",
+   "month": "2026-06",
+   "time": "5:30 PM – 7:00 PM",
+   "location": "Lux Central, Phoenix"
+  },
+  {
+   "title": "Bike in for a service",
+   "date": "06/25",
+   "dateLabel": "Thu, Jun 25, 2026",
+   "month": "2026-06",
+   "time": "9:00 AM – 9:45 AM",
+   "location": "Ruiz Bike Repair"
+  },
+  {
+   "title": "Yoga on the grass",
+   "date": "06/24",
+   "dateLabel": "Wed, Jun 24, 2026",
+   "month": "2026-06",
+   "time": "11:30 AM – 12:30 PM",
+   "location": "Steele Indian School Park"
+  },
+  {
+   "title": "Podcast recording slot",
+   "date": "06/21",
+   "dateLabel": "Sun, Jun 21, 2026",
+   "month": "2026-06",
+   "time": "9:00 AM – 10:00 AM",
+   "location": "Mobile studio"
+  },
+  {
+   "title": "Track down the reading list titles",
+   "date": "06/19",
+   "dateLabel": "Fri, Jun 19, 2026",
+   "month": "2026-06",
+   "time": "12:00 PM – 12:45 PM",
+   "location": ""
+  },
+  {
+   "title": "Dinner, the usual crowd",
+   "date": "06/17",
+   "dateLabel": "Wed, Jun 17, 2026",
+   "month": "2026-06",
+   "time": "2:00 PM – 3:30 PM",
+   "location": "Lux Central, Phoenix"
+  },
+  {
+   "title": "Metaphysics lecture",
+   "date": "06/15",
+   "dateLabel": "Mon, Jun 15, 2026",
+   "month": "2026-06",
+   "time": "4:00 PM – 5:00 PM",
+   "location": "Faculty of Philosophy, Phoenix"
+  },
+  {
+   "title": "Library, new arrivals",
+   "date": "06/12",
+   "dateLabel": "Fri, Jun 12, 2026",
+   "month": "2026-06",
+   "time": "2:00 PM – 3:30 PM",
+   "location": "Phoenix Municipal Library"
+  },
+  {
+   "title": "Loop around Encanto Park",
+   "date": "06/12",
+   "dateLabel": "Fri, Jun 12, 2026",
+   "month": "2026-06",
+   "time": "10:00 AM – 11:00 AM",
+   "location": "Encanto Park"
+  },
+  {
+   "title": "Podcast planning hour",
+   "date": "06/08",
+   "dateLabel": "Mon, Jun 8, 2026",
+   "month": "2026-06",
+   "time": "11:00 AM – 12:00 PM",
+   "location": "Apartment, ASU"
+  }
+ ],
+ "notes": [
+  {
+   "title": "Evening at Tessa's",
+   "body": "Sat August 8, 8pm\n\nMy list:\n- a bottle of red (the Willamette pinot?)\n- gulab jamun for after\n\nFilm for the night: \"Her\" - we will be arguing about it until 2am"
+  },
+  {
+   "title": "April: money in, money out",
+   "body": "Coming in: $450 from the library shifts\n\nGoing out:\nrent $280 / food $80 / transit $30 / books $40 / going out $20\n\nWhich leaves $0 😅\nBeg dad for an advance?"
+  },
+  {
+   "title": "Thoughts, unsorted",
+   "body": "Why does everyone need to be told they are doing fine?\n\nBad faith, Sartre would call it...\n\nAnd yet the only hours I feel like myself are the hours nobody is looking."
+  },
+  {
+   "title": "Revision plan",
+   "body": "1st week - Kant, practical reason\n2nd week - phenomenology\n3rd week - existentialism\n\nExam lands August 27. Breathe."
+  },
+  {
+   "title": "Training, with Malik",
+   "body": "The week, as agreed:\n- Monday: 30min cardio\n- Wednesday: weights\n- Friday: yoga\n\nGoal: three months without dropping it this time! No hiding behind the reading list 😅"
+  },
+  {
+   "title": "Nietzsche, lines worth keeping",
+   "body": "\"He who has a why can endure any how\"\n\n\"One must have chaos within oneself to give birth to a dancing star\"\n\nOpen the existentialism presentation with these"
+  },
+  {
+   "title": "Podcast queue",
+   "body": "Queue:\n- Radiolab (NPR)\n- Philosophize This\n- Science Friday\n\nHollis says the Simone de Beauvoir episode is the one to start with"
+  },
+  {
+   "title": "Spinoza seminar, notes",
+   "body": "The Ethics, laid out like geometry\n\nDeus sive Natura - \"God, or Nature\"\n- one substance, and only one\n- attributes, and the modes underneath them\n- freedom read as necessity\n\nGo back over part I, prop. 7"
+  },
+  {
+   "title": "To buy, when there is money",
+   "body": "Wanted:\n- Being and Nothingness, Sartre - used copy if there is one\n- Aristotle, on virtue and the good life\n- Camus, The Myth of Sisyphus\n\nAsk at Bookmans whether students get anything off"
+  },
+  {
+   "title": "Thesis, possible angles",
+   "body": "Working title: authenticity, Sartre against Heidegger\n\n- being-toward-death\n- bad faith\n- the anxiety that comes with both\n\nHollis, Tuesday at 3pm, to talk it through"
+  },
+  {
+   "title": "My dream future apartment",
+   "body": "Call to reserve a spot in the shared apartment\n\nRemember reason two on the list ChatGPT gave you\n\nGwen's number: +1 (602) 555-0158\nAvailable from May\nRent: $350/month, utilities included"
+  },
+  {
+   "title": "Mom's lentil dal",
+   "body": "Dictated by mom over the phone:\n- 200g red lentils\n- onion, garlic, a thumb of ginger\n- turmeric, cumin, ground coriander\n- a tin of coconut milk\n- crushed tomatoes\n\nTwenty minutes on the stove, and it feeds a whole house"
+  },
+  {
+   "title": "Excuses to see him again",
+   "body": "Dermatologist appointment\n\n- Book left behind at his place\n- Advice for class\n- Sudden skin problem\n- Need moral support\n- Coffee afterward to cheer me up"
+  },
+  {
+   "title": "Desk — closing routine",
+   "body": "Before the doors:\n- returns cart emptied and reshelved\n- reservations shelf checked against the list\n- study rooms swept, lights off\n- printer paper topped up\n- second floor trolley still squeaks, ask Tessa who oils it\n\nTakes 20 minutes if nobody turns up at five to six. Somebody always turns up at five to six."
+  },
+  {
+   "title": "Shopping for the week",
+   "body": "- red lentils, rice\n- onions, garlic, ginger\n- coconut milk, tinned tomatoes\n- oat milk\n- coffee (the cheap one)\n- washing powder\n\nComes to about $28. It comes to about $28 every single week and I still check."
+  }
+ ],
+ "maps": [
+  {
+   "name": "The Nash Jazz Club",
+   "subtitle": "Jazz evenings"
+  },
+  {
+   "name": "Sun Devil Fitness Complex",
+   "subtitle": "Pool and weights"
+  },
+  {
+   "name": "Home",
+   "subtitle": "My apartment"
+  },
+  {
+   "name": "Encanto Park",
+   "subtitle": "Large urban park"
+  },
+  {
+   "name": "Key study location",
+   "subtitle": "Recommended study center"
+  },
+  {
+   "name": "Harkins Valley Art",
+   "subtitle": "Independent movie theater"
+  },
+  {
+   "name": "Neighborhood Grocery",
+   "subtitle": "Local grocery store"
+  },
+  {
+   "name": "Tea room",
+   "subtitle": "Cozy tea room"
+  },
+  {
+   "name": "Ink & Leaf Stationery",
+   "subtitle": "Stationery and supplies"
+  },
+  {
+   "name": "Game shop",
+   "subtitle": "Board game shop"
+  },
+  {
+   "name": "Lux Central Café",
+   "subtitle": "Café near the university"
+  },
+  {
+   "name": "Cibo Urban Pizzeria",
+   "subtitle": "Pizzeria near the course"
+  },
+  {
+   "name": "Memorial Union Dining",
+   "subtitle": "Student meal"
+  },
+  {
+   "name": "Ruiz Bike Repair",
+   "subtitle": "Repairs and spares"
+  },
+  {
+   "name": "The Vig Uptown",
+   "subtitle": "Local brasserie"
+  },
+  {
+   "name": "Office",
+   "subtitle": "Place of study and work"
+  },
+  {
+   "name": "Bookmans Used Books",
+   "subtitle": "Neighborhood bookstore"
+  },
+  {
+   "name": "Grand Avenue Books",
+   "subtitle": "Independent bookstore"
+  },
+  {
+   "name": "Snooze Eatery",
+   "subtitle": "Local crêperie"
+  }
+ ],
+ "revolut": {
+  "balance": "$0.00",
+  "transactions": []
+ },
+ "weather": {
+  "city": "Local",
+  "tempC": 18,
+  "hi": 21,
+  "lo": 12,
+  "condition": "Clear"
+ },
+ "photos": [
+  "photo_0.webp",
+  "photo_1.webp",
+  "photo_2.webp",
+  "photo_3.webp",
+  "photo_4.webp",
+  "photo_5.webp",
+  "photo_6.webp",
+  "photo_7.webp",
+  "photo_8.webp"
+ ],
+ "screenTime": []
+}

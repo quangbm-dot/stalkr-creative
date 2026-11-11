@@ -64,13 +64,41 @@
 }
 
 .row {
+  position: relative;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 12px 16px;
+  border: none;
   border-bottom: 1px solid var(--ios-sep);
+  background: none;
+  color: inherit;
   font-size: 15px;
+  text-align: left;
+  font-family: inherit;
+  cursor: pointer;
 }
 
 .caret {
   color: var(--ios-gray);
+}
+
+.stRow {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 16px;
+  border: none;
+  border-bottom: 1px solid var(--ios-sep);
+  background: none;
+  color: inherit;
+  font-size: 15px;
+  text-align: left;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.stDuration {
+  color: var(--ios-text-secondary);
 }

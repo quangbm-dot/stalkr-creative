@@ -8,7 +8,7 @@ interface InstagramProps {
 }
 
 export default function Instagram({ caseData, onBack }: InstagramProps) {
-  const { username, displayName, avatar, posts } = caseData.instagram;
+  const { username, displayName, avatar, bio, posts } = caseData.instagram;
 
   return (
     <AppScreen title={username} onBack={onBack} theme="light">
@@ -30,6 +30,7 @@ export default function Instagram({ caseData, onBack }: InstagramProps) {
         </div>
       </div>
       <div className={styles.name}>{displayName}</div>
+      {bio && <div className={styles.bio}>{bio}</div>}
 
       <div className={styles.feed}>
         {posts.map((p, i) => (

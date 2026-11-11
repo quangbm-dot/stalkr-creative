@@ -1,0 +1,2552 @@
+{
+ "caseName": "Reagan Wants My Spot",
+ "title": "Talia Brenner & Reagan",
+ "now": "2026-08-06T23:59:00",
+ "client": {
+  "name": "Talia Brenner",
+  "avatar": "client.webp"
+ },
+ "owner": {
+  "first": "Reagan",
+  "full": "Reagan Duffy",
+  "avatar": null
+ },
+ "wallpaper": "wallpaper.webp",
+ "passcode": "110922",
+ "totalQuestions": 7,
+ "questions": [
+  {
+   "id": 1,
+   "text": "Sorry, diving right in here.\nI know for a fact she talks about me behind my back.\nWhat's the exact word she calls me?",
+   "answer": "understudy",
+   "decoys": [
+    "star",
+    "ballerina",
+    "princess"
+   ],
+   "hint": "Check WhatsApp — her conversation with Josie."
+  },
+  {
+   "id": 2,
+   "text": "She accused me of having an affair.\nWhere exactly does she claim the affair took place?",
+   "answer": "Studio 3",
+   "decoys": [
+    "Studio B",
+    "Studio C",
+    "Main studio"
+   ],
+   "hint": "Insta — conversation with Owen. She names one specific studio."
+  },
+  {
+   "id": 3,
+   "text": "She's after getting the role back.\nThat's the entire reason, that's all I ever was to her...\nPeople keep mentioning a little fox turning up around the academy...\nBesides Owen and Julian, who else did she target?",
+   "answer": "Josie",
+   "decoys": [
+    "Kelsey",
+    "Talia Brenner",
+    "Sloane"
+   ],
+   "hint": "Insta — Reagan's bio has a 🦊. Now check other people's stories and posts: someone found that fox on their locker."
+  },
+  {
+   "id": 4,
+   "text": "So it's Josie.\nSomeone had to be feeding Reagan those locker codes, she couldn't have just guessed them.\nWho gave her those locker codes?",
+   "answer": "Dolan",
+   "decoys": [
+    "Baxter",
+    "Rourke",
+    "Palmer"
+   ],
+   "hint": "Check WhatsApp — her conversation with someone from about two weeks ago."
+  },
+  {
+   "id": 5,
+   "text": "He handed her the entire list and told her to keep it quiet.\nShe copied it down anyway.\nWhich code does she have written down for Josie?",
+   "answer": "K740",
+   "decoys": [
+    "K812",
+    "K355",
+    "K204"
+   ],
+   "hint": "Check Photos — a picture of the locker codes lists."
+  },
+  {
+   "id": 6,
+   "text": "She held onto it — she isn't even hiding it from herself.\nWho else knows she's been getting into other people's lockers?",
+   "answer": "Julian",
+   "decoys": [
+    "Talia",
+    "Reagan",
+    "Hana"
+   ],
+   "hint": "Email — in deleted emails"
+  },
+  {
+   "id": 7,
+   "text": "So he caught her, threatened to spill her secret, and she shut up about it.\nAnd I don't mean whatever she took from him.\nWhat is she hiding about herself, the thing she can't let anyone at the academy find out?",
+   "answer": "epilepsy",
+   "decoys": [
+    "eczema",
+    "acne",
+    "anemia"
+   ],
+   "hint": "WhatsApp — conversation with her mom, or the Music app."
+  }
+ ],
+ "onboarding": [
+  {
+   "text": "I'm Talia. You've never heard of me, and I'm writing to you anyway, because I've run out of ideas. The last few days have been a nightmare I can't wake up from.",
+   "label": "Talia",
+   "image": "onboarding_1.webp"
+  },
+  {
+   "text": "Owen walked out on me a few days ago. He says I cheated on him with someone — that's a lie, none of it happened. And I know exactly whose idea it was: Reagan's.",
+   "label": "Talia & Owen",
+   "image": "onboarding_2.webp"
+  },
+  {
+   "text": "She's been my rival since we were at school together, and she's never stopped being jealous of me. This time it worked — my relationship is in pieces. I need to prove that every bit of it was her doing.",
+   "label": "Reagan Duffy",
+   "image": "onboarding_3.webp"
+  },
+  {
+   "text": "Her attention was elsewhere and I got hold of her phone. Go through it and bring me proof of what she did. Please...",
+   "label": "Talia",
+   "image": "onboarding_4.webp"
+  }
+ ],
+ "home": [
+  {
+   "app": "gmail",
+   "label": "Email"
+  },
+  {
+   "app": "notes",
+   "label": "Notes"
+  },
+  {
+   "app": "photos",
+   "label": "Photos"
+  },
+  {
+   "app": "settings",
+   "label": "Settings"
+  },
+  {
+   "app": "instagram",
+   "label": "Insta"
+  },
+  {
+   "app": "clock",
+   "label": "Clock"
+  },
+  {
+   "app": "calendar",
+   "label": "Calendar"
+  },
+  {
+   "app": "calculator",
+   "label": "Calculator"
+  },
+  {
+   "app": "maps",
+   "label": "Google Maps"
+  }
+ ],
+ "dock": [
+  {
+   "app": "messages",
+   "label": "Messages"
+  },
+  {
+   "app": "whatsapp",
+   "label": "WhatsApp"
+  },
+  {
+   "app": "phone",
+   "label": "Phone"
+  }
+ ],
+ "missingApps": [],
+ "calls": [
+  {
+   "name": "Owen Whitaker",
+   "time": "Today, 2:09 PM",
+   "type": "outgoing",
+   "detail": "3 min"
+  },
+  {
+   "name": "+1 (617) 455-6677",
+   "time": "Today, 1:49 PM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Salon Capri",
+   "time": "Today, 11:29 AM",
+   "type": "outgoing",
+   "detail": "2 min"
+  },
+  {
+   "name": "+1 (617) 555-0167",
+   "time": "Today, 10:01 AM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Dr. Amory (dermatology)",
+   "time": "Today, 9:03 AM",
+   "type": "incoming",
+   "detail": "2 min"
+  },
+  {
+   "name": "Kelsey",
+   "time": "Today, 8:38 AM",
+   "type": "outgoing",
+   "detail": "3 min"
+  },
+  {
+   "name": "Nora",
+   "time": "Yesterday, 4:49 PM",
+   "type": "incoming",
+   "detail": "2 min"
+  },
+  {
+   "name": "Reid Palmer",
+   "time": "Tuesday, 11:50 AM",
+   "type": "outgoing",
+   "detail": "3 min"
+  },
+  {
+   "name": "Ivy",
+   "time": "Monday, 8:14 PM",
+   "type": "incoming",
+   "detail": "2 min"
+  },
+  {
+   "name": "Hank Brill",
+   "time": "Monday, 12:22 PM",
+   "type": "outgoing",
+   "detail": "2 min"
+  },
+  {
+   "name": "Nell",
+   "time": "Sunday, 4:22 PM",
+   "type": "incoming",
+   "detail": "2 min"
+  },
+  {
+   "name": "Hana Weiss",
+   "time": "Saturday, 9:01 PM",
+   "type": "outgoing",
+   "detail": "4 min"
+  },
+  {
+   "name": "Dean",
+   "time": "Saturday, 8:50 AM",
+   "type": "incoming",
+   "detail": "5 min"
+  },
+  {
+   "name": "Priya Raman",
+   "time": "Friday, 12:53 PM",
+   "type": "incoming",
+   "detail": "3 min"
+  },
+  {
+   "name": "Bryce",
+   "time": "Friday, 9:14 AM",
+   "type": "outgoing",
+   "detail": "2 min"
+  },
+  {
+   "name": "Sloane",
+   "time": "7/30/26, 5:05 PM",
+   "type": "incoming",
+   "detail": "2 min"
+  },
+  {
+   "name": "Miles Rourke",
+   "time": "7/30/26, 10:21 AM",
+   "type": "outgoing",
+   "detail": "1 min"
+  },
+  {
+   "name": "Maura",
+   "time": "7/29/26, 7:01 PM",
+   "type": "incoming",
+   "detail": "4 min"
+  },
+  {
+   "name": "Trey",
+   "time": "7/28/26, 8:56 PM",
+   "type": "incoming",
+   "detail": "3 min"
+  },
+  {
+   "name": "+1 (617) 555-0161",
+   "time": "7/28/26, 6:09 PM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Devon",
+   "time": "7/28/26, 11:39 AM",
+   "type": "outgoing",
+   "detail": "2 min"
+  },
+  {
+   "name": "Nia",
+   "time": "7/27/26, 4:57 PM",
+   "type": "outgoing",
+   "detail": "5 min"
+  },
+  {
+   "name": "Trent Baxter",
+   "time": "7/27/26, 9:44 AM",
+   "type": "incoming",
+   "detail": "4 min"
+  }
+ ],
+ "messages": [
+  {
+   "id": "conv-sms-1",
+   "title": "Mom",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "sweetheart did you eat lunch today?"
+    },
+    {
+     "me": true,
+     "text": "yes mom I promise, don't stress"
+    },
+    {
+     "me": false,
+     "text": "what did you end up having?"
+    },
+    {
+     "me": true,
+     "text": "a salad and some yogurt"
+    },
+    {
+     "me": false,
+     "text": "that's not nearly enough for a dancer"
+    },
+    {
+     "me": true,
+     "text": "it's fine, really"
+    },
+    {
+     "me": false,
+     "text": "what time are you getting home tonight?"
+    },
+    {
+     "me": true,
+     "text": "like 7ish I think"
+    },
+    {
+     "me": false,
+     "text": "great, I made pasta"
+    },
+    {
+     "me": true,
+     "text": "with what?"
+    },
+    {
+     "me": false,
+     "text": "tomato basil, just how you like it"
+    },
+    {
+     "me": true,
+     "text": "mmm sounds perfect"
+    },
+    {
+     "me": false,
+     "text": "and how did class go today?"
+    },
+    {
+     "me": true,
+     "text": "good! sir Dolan told us about the big rehearsal tomorrow"
+    },
+    {
+     "me": false,
+     "text": "oh right, for the audition?"
+    },
+    {
+     "me": true,
+     "text": "yep exactly"
+    },
+    {
+     "me": false,
+     "text": "are you feeling stressed about it?"
+    },
+    {
+     "me": true,
+     "text": "a little but I'll be okay"
+    },
+    {
+     "me": false,
+     "text": "I believe in you sweetheart"
+    },
+    {
+     "me": true,
+     "text": "you're the best mom ❤️"
+    }
+   ],
+   "avatar": "msg_0.webp"
+  },
+  {
+   "id": "conv-sms-key-1",
+   "title": "Mr. Dolan (teacher)",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Reagan, I trust you're keeping well"
+    },
+    {
+     "me": true,
+     "text": "yes I'm doing great sir! how about you?"
+    },
+    {
+     "me": false,
+     "text": "Very well, thank you"
+    },
+    {
+     "me": false,
+     "text": "There's some important information I need to pass along to you"
+    },
+    {
+     "me": true,
+     "text": "ok go ahead, I'm listening"
+    },
+    {
+     "me": false,
+     "text": "We're meeting in two days for the last rehearsal before the audition. Make sure the others hear about it."
+    },
+    {
+     "me": true,
+     "text": "oh alright! at what time?"
+    },
+    {
+     "me": false,
+     "text": "11:00 sharp, over in the main rehearsal room"
+    },
+    {
+     "me": true,
+     "text": "great, I'll write it down"
+    },
+    {
+     "me": false,
+     "text": "Keep in mind this is crucial, this rehearsal will decide whether you take part in the final audition"
+    },
+    {
+     "me": true,
+     "text": "absolutely! and who exactly am I supposed to tell?"
+    },
+    {
+     "me": false,
+     "text": "Julian, Owen and yourself"
+    },
+    {
+     "me": true,
+     "text": "ok, that's fine"
+    },
+    {
+     "me": true,
+     "text": "I'll go tell everyone right away"
+    },
+    {
+     "me": false,
+     "text": "Perfect. Everyone show up on time and in full costume"
+    },
+    {
+     "me": true,
+     "text": "of course sir"
+    },
+    {
+     "me": false,
+     "text": "Don't forget to bring your new pointe shoes"
+    },
+    {
+     "me": true,
+     "text": "got it, I'll pass it on to the others"
+    },
+    {
+     "me": false,
+     "text": "Excellent. I'm relying on you to relay this information"
+    },
+    {
+     "me": true,
+     "text": "you can rely on me!"
+    },
+    {
+     "me": false,
+     "text": "Thank you Reagan. I'll see you all there then"
+    },
+    {
+     "me": true,
+     "text": "see you there sir!"
+    },
+    {
+     "me": false,
+     "text": "Have a pleasant evening"
+    },
+    {
+     "me": true,
+     "text": "you have a good evening as well"
+    },
+    {
+     "me": false,
+     "text": "One more thing, get yourselves ready mentally"
+    },
+    {
+     "me": true,
+     "text": "thanks for the tip sir"
+    }
+   ],
+   "avatar": "msg_1.webp"
+  },
+  {
+   "id": "conv-sms-2",
+   "title": "Kelsey",
+   "time": "Monday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "hey cuz!"
+    },
+    {
+     "me": true,
+     "text": "hi kelsey! how've you been?"
+    },
+    {
+     "me": false,
+     "text": "good, you? still grinding on your pointe work?"
+    },
+    {
+     "me": true,
+     "text": "haha yep, still at it!"
+    },
+    {
+     "me": true,
+     "text": "actually I've got a big rehearsal this week"
+    },
+    {
+     "me": false,
+     "text": "for what?"
+    },
+    {
+     "me": true,
+     "text": "a huge audition"
+    },
+    {
+     "me": false,
+     "text": "omg you're gonna be famous"
+    },
+    {
+     "me": true,
+     "text": "lol we'll see about that"
+    },
+    {
+     "me": false,
+     "text": "no i'm serious, i'll be telling people I knew you first"
+    },
+    {
+     "me": true,
+     "text": "ok now you're just embarrassing me 😂"
+    },
+    {
+     "me": false,
+     "text": "that's the job, I'm your cousin"
+    },
+    {
+     "me": false,
+     "text": "hey what are you up to this weekend?"
+    },
+    {
+     "me": true,
+     "text": "nothing planned, why?"
+    },
+    {
+     "me": false,
+     "text": "we should hang if you're free"
+    },
+    {
+     "me": true,
+     "text": "yes please!! does saturday afternoon suit you?"
+    }
+   ],
+   "avatar": "msg_2.webp"
+  },
+  {
+   "id": "conv-sms-3",
+   "title": "Trey",
+   "time": "Sunday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hey Reagan, we're still on for tomorrow right?"
+    },
+    {
+     "me": true,
+     "text": "yes for sure!"
+    },
+    {
+     "me": false,
+     "text": "Good. Core is the focus for this session"
+    },
+    {
+     "me": true,
+     "text": "oof that's gonna sting 😅"
+    },
+    {
+     "me": false,
+     "text": "You'll thank me later. A dancer with a weak middle never gets far"
+    },
+    {
+     "me": true,
+     "text": "I know, I know"
+    },
+    {
+     "me": true,
+     "text": "especially with my audition coming up"
+    },
+    {
+     "me": false,
+     "text": "oh right, that's soon! are you ready?"
+    },
+    {
+     "me": true,
+     "text": "I hope so! we'll find out"
+    },
+    {
+     "me": false,
+     "text": "Not a shred of doubt from me, you're going to nail it 💪"
+    }
+   ],
+   "avatar": "msg_3.webp"
+  },
+  {
+   "id": "conv-sms-4",
+   "title": "Trent Baxter",
+   "time": "Saturday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "yo reagan!"
+    },
+    {
+     "me": true,
+     "text": "hey trent! long time no talk"
+    },
+    {
+     "me": false,
+     "text": "for real, not since high school"
+    },
+    {
+     "me": true,
+     "text": "what are you up to these days?"
+    },
+    {
+     "me": false,
+     "text": "doing engineering over at MIT"
+    },
+    {
+     "me": false,
+     "text": "you still dancing?"
+    },
+    {
+     "me": true,
+     "text": "yes! I'm at Wexford Academy now"
+    },
+    {
+     "me": false,
+     "text": "sick! you're gonna be famous"
+    },
+    {
+     "me": true,
+     "text": "ha, we shall see"
+    },
+    {
+     "me": false,
+     "text": "we should grab lunch sometime"
+    },
+    {
+     "me": true,
+     "text": "yeah for sure, good idea"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-5",
+   "title": "Nia",
+   "time": "Friday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Reagan, apologies for all the racket last night"
+    },
+    {
+     "me": true,
+     "text": "honestly it's fine, don't give it a thought!"
+    },
+    {
+     "me": true,
+     "text": "honestly I didn't even hear a thing"
+    },
+    {
+     "me": false,
+     "text": "oh good! it was my son and his buddies"
+    },
+    {
+     "me": false,
+     "text": "they had the game on loud"
+    },
+    {
+     "me": true,
+     "text": "ha, that explains it!"
+    },
+    {
+     "me": false,
+     "text": "anyway, dance classes going well?"
+    },
+    {
+     "me": true,
+     "text": "yes, really well, thank you!"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-6",
+   "title": "Devon",
+   "time": "7/30/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "reagan! did you finish the report yet?"
+    },
+    {
+     "me": true,
+     "text": "hey! which report??"
+    },
+    {
+     "me": false,
+     "text": "the one for our internship"
+    },
+    {
+     "me": true,
+     "text": "ugh I totally spaced on it"
+    },
+    {
+     "me": true,
+     "text": "when's it due again?"
+    },
+    {
+     "me": false,
+     "text": "next Monday"
+    },
+    {
+     "me": true,
+     "text": "ok so I've still got time"
+    },
+    {
+     "me": false,
+     "text": "barely, it's supposed to be ten pages"
+    },
+    {
+     "me": true,
+     "text": "ten?? nobody told me ten"
+    },
+    {
+     "me": false,
+     "text": "it's written on the brief, which you clearly never opened"
+    },
+    {
+     "me": false,
+     "text": "wanna knock it out together?"
+    },
+    {
+     "me": true,
+     "text": "good call! does Sunday work?"
+    },
+    {
+     "me": false,
+     "text": "sweet! your place or mine?"
+    },
+    {
+     "me": true,
+     "text": "mine if that's cool"
+    },
+    {
+     "me": false,
+     "text": "sounds good! around 2?"
+    },
+    {
+     "me": true,
+     "text": "perfect, see you Sunday!"
+    }
+   ],
+   "avatar": "msg_6.webp"
+  },
+  {
+   "id": "conv-sms-7",
+   "title": "Aaron Gallo",
+   "time": "7/29/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "reagan! guess what"
+    },
+    {
+     "me": true,
+     "text": "what?!"
+    },
+    {
+     "me": false,
+     "text": "I passed my driving test!"
+    },
+    {
+     "me": true,
+     "text": "noooo for real?!"
+    },
+    {
+     "me": false,
+     "text": "yes! passed on the first try"
+    },
+    {
+     "me": true,
+     "text": "congrats!!! 🎉"
+    },
+    {
+     "me": false,
+     "text": "thanks! wanna celebrate this weekend?"
+    },
+    {
+     "me": true,
+     "text": "absolutely!"
+    },
+    {
+     "me": false,
+     "text": "and I'm driving us there 😎"
+    },
+    {
+     "me": true,
+     "text": "haha can't wait to witness that"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-8",
+   "title": "Maura",
+   "time": "7/28/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Reagan! It's been ages, how are things?"
+    },
+    {
+     "me": true,
+     "text": "hey maura! all good here, what about you?"
+    },
+    {
+     "me": false,
+     "text": "Everything's good on my side too! Still in the studio every day?"
+    },
+    {
+     "me": true,
+     "text": "yes of course! you still over in London?"
+    },
+    {
+     "me": false,
+     "text": "yes! I'm loving it here"
+    },
+    {
+     "me": false,
+     "text": "you should come visit sometime!"
+    },
+    {
+     "me": true,
+     "text": "that would be so fun!"
+    },
+    {
+     "me": false,
+     "text": "Yes! Give me a shout the moment you have a week free"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-9",
+   "title": "Miles Rourke",
+   "time": "7/27/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "hi reagan"
+    },
+    {
+     "me": true,
+     "text": "hey max!"
+    },
+    {
+     "me": false,
+     "text": "my sister says you dance really well"
+    },
+    {
+     "me": true,
+     "text": "aw she's definitely overselling it"
+    },
+    {
+     "me": false,
+     "text": "she said you've got an audition coming"
+    },
+    {
+     "me": true,
+     "text": "yeah it's true! a selection round"
+    },
+    {
+     "me": false,
+     "text": "nice! good luck then"
+    },
+    {
+     "me": true,
+     "text": "thanks, that's really sweet!"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-10",
+   "title": "Sloane",
+   "time": "7/26/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "reagan do you have the notes from lit class?"
+    },
+    {
+     "me": true,
+     "text": "hey! yeah I've got them all"
+    },
+    {
+     "me": false,
+     "text": "could you send them over please?"
+    },
+    {
+     "me": true,
+     "text": "yeah no problem, I'll scan the pages tonight"
+    },
+    {
+     "me": false,
+     "text": "thank you so much!"
+    },
+    {
+     "me": true,
+     "text": "no problem! hey what are you doing after class?"
+    },
+    {
+     "me": false,
+     "text": "nothing really, why?"
+    },
+    {
+     "me": true,
+     "text": "we could grab a coffee"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-11",
+   "title": "Bryce",
+   "time": "7/25/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "yo reagan! how's it going?"
+    },
+    {
+     "me": true,
+     "text": "yo bryce! doing fine, you?"
+    },
+    {
+     "me": false,
+     "text": "sick! what are you up to?"
+    },
+    {
+     "me": true,
+     "text": "running through my choreo again"
+    },
+    {
+     "me": false,
+     "text": "ah right, your dance stuff"
+    },
+    {
+     "me": true,
+     "text": "lol yep, my dance stuff"
+    },
+    {
+     "me": false,
+     "text": "how long do you even practice for"
+    },
+    {
+     "me": true,
+     "text": "like four hours today, my feet hate me"
+    },
+    {
+     "me": false,
+     "text": "yeah I'd be done after twenty minutes"
+    },
+    {
+     "me": false,
+     "text": "as for me, I'm down at the park riding my board"
+    },
+    {
+     "me": true,
+     "text": "cool! just don't wipe out"
+    },
+    {
+     "me": false,
+     "text": "don't worry, I've got this 😎"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-12",
+   "title": "Hank Brill",
+   "time": "7/24/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Delivery guy here, I'm standing at the entrance to your building"
+    },
+    {
+     "me": true,
+     "text": "be right down!"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-13",
+   "title": "Nora",
+   "time": "7/23/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Reagan, good news, the pointe shoes are in!"
+    },
+    {
+     "me": true,
+     "text": "finally! I'll swing by for them tomorrow"
+    },
+    {
+     "me": false,
+     "text": "See you tomorrow then, and keep in mind we close at 6pm"
+    }
+   ],
+   "avatar": "msg_13.webp"
+  }
+ ],
+ "whatsapp": [
+  {
+   "id": "conv-wa-key-3",
+   "title": "Mom",
+   "time": "7:35 PM",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "My little ballerina ❤️"
+    },
+    {
+     "me": false,
+     "text": "Look what I came across while tidying up"
+    },
+    {
+     "me": true,
+     "text": "what mom?"
+    },
+    {
+     "me": false,
+     "text": "[Photo sent]"
+    },
+    {
+     "me": false,
+     "text": "The day you came into the world"
+    },
+    {
+     "me": false,
+     "text": "You were so adorable"
+    },
+    {
+     "me": true,
+     "text": "oh my god 😂"
+    },
+    {
+     "me": true,
+     "text": "i was so tiny"
+    },
+    {
+     "me": false,
+     "text": "My tiny little love"
+    },
+    {
+     "me": false,
+     "text": "Can you spot the calendar behind?"
+    },
+    {
+     "me": false,
+     "text": "It was September 9, 2008"
+    },
+    {
+     "me": true,
+     "text": "ahh yes I can see it"
+    },
+    {
+     "me": false,
+     "text": "You hadn't even turned one year old"
+    },
+    {
+     "me": false,
+     "text": "You were such an angel"
+    },
+    {
+     "me": true,
+     "text": "you're gonna make me cry 🥺"
+    },
+    {
+     "me": false,
+     "text": "My most treasured memories"
+    },
+    {
+     "me": false,
+     "text": "You were so expressive even then"
+    },
+    {
+     "me": false,
+     "text": "We could tell even then you'd become a dancer"
+    },
+    {
+     "me": true,
+     "text": "mom stoppp 😭❤️"
+    },
+    {
+     "me": false,
+     "text": "I love you more than anything sweetheart"
+    },
+    {
+     "me": false,
+     "text": "You'll forever be my baby"
+    },
+    {
+     "me": true,
+     "text": "love you too mom"
+    },
+    {
+     "me": true,
+     "text": "thank you for the photo"
+    },
+    {
+     "me": false,
+     "text": "❤️❤️❤️"
+    },
+    {
+     "me": false,
+     "text": "My pride"
+    },
+    {
+     "me": true,
+     "text": "😘😘😘"
+    },
+    {
+     "me": false,
+     "text": "Have a lovely evening my princess"
+    },
+    {
+     "me": true,
+     "text": "you too mom"
+    },
+    {
+     "me": true,
+     "text": "💕"
+    },
+    {
+     "me": false,
+     "text": "Morning my sweetheart ❤️"
+    },
+    {
+     "me": true,
+     "text": "Hi mom"
+    },
+    {
+     "me": false,
+     "text": "How are you doing this morning?"
+    },
+    {
+     "me": true,
+     "text": "I'm doing fine mom"
+    },
+    {
+     "me": false,
+     "text": "Did you take your epilepsy medication this morning?"
+    },
+    {
+     "me": true,
+     "text": "Yes yes"
+    },
+    {
+     "me": true,
+     "text": "It stays between us mom"
+    },
+    {
+     "me": false,
+     "text": "I worry about you, you know that"
+    },
+    {
+     "me": true,
+     "text": "There's no need to mom"
+    },
+    {
+     "me": false,
+     "text": "Even if you'd rather your teacher and classmates not know about your epileptic seizures, I hope you brought your medication with you today, Reagan"
+    },
+    {
+     "me": true,
+     "text": "I know mom"
+    },
+    {
+     "me": true,
+     "text": "I'm being careful, promise"
+    },
+    {
+     "me": false,
+     "text": "You're my precious girl"
+    },
+    {
+     "me": false,
+     "text": "And your health comes before anything"
+    },
+    {
+     "me": true,
+     "text": "love you loads mom ❤️"
+    },
+    {
+     "me": false,
+     "text": "I love you so much too my darling"
+    },
+    {
+     "me": false,
+     "text": "Look after yourself"
+    },
+    {
+     "me": true,
+     "text": "I promise"
+    },
+    {
+     "me": false,
+     "text": "See you this evening sweetheart"
+    },
+    {
+     "me": true,
+     "text": "see you tonight mom 😘"
+    }
+   ],
+   "avatar": "msg_0.webp"
+  },
+  {
+   "id": "conv-wa-key-1",
+   "title": "Josie",
+   "time": "10:18 AM",
+   "unread": false,
+   "msgs": [
+    {
+     "me": true,
+     "text": "Hey Josie! 💃"
+    },
+    {
+     "me": false,
+     "text": "hey reagan!"
+    },
+    {
+     "me": true,
+     "text": "Were you at the class this morning?"
+    },
+    {
+     "me": false,
+     "text": "yep I was there"
+    },
+    {
+     "me": true,
+     "text": "She stuck herself right in the middle again, such an understudy"
+    },
+    {
+     "me": false,
+     "text": "lmaooo"
+    },
+    {
+     "me": false,
+     "text": "talia again"
+    },
+    {
+     "me": true,
+     "text": "she just can't stop herself"
+    },
+    {
+     "me": true,
+     "text": "always shoving herself front and center that girl"
+    },
+    {
+     "me": false,
+     "text": "totally"
+    },
+    {
+     "me": false,
+     "text": "acting like she's the star of the group"
+    },
+    {
+     "me": true,
+     "text": "exactly!"
+    },
+    {
+     "me": true,
+     "text": "anyway thanks again for the photo 💕"
+    },
+    {
+     "me": false,
+     "text": "anytime babe!"
+    }
+   ],
+   "avatar": "wa_1.webp"
+  },
+  {
+   "id": "conv-wa-1",
+   "title": "Kelsey",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "hey cuz!"
+    },
+    {
+     "me": true,
+     "text": "hey kelsey! how's it going?"
+    },
+    {
+     "me": false,
+     "text": "yeah all good here"
+    },
+    {
+     "me": false,
+     "text": "what are you up to this weekend?"
+    },
+    {
+     "me": true,
+     "text": "dance class Saturday morning"
+    },
+    {
+     "me": true,
+     "text": "and you, any plans?"
+    },
+    {
+     "me": false,
+     "text": "nothing much planned"
+    },
+    {
+     "me": false,
+     "text": "wanna meet up Sunday?"
+    },
+    {
+     "me": true,
+     "text": "yes please!"
+    },
+    {
+     "me": true,
+     "text": "what do you wanna do?"
+    },
+    {
+     "me": false,
+     "text": "shopping?"
+    },
+    {
+     "me": true,
+     "text": "perfect"
+    },
+    {
+     "me": true,
+     "text": "where should we meet?"
+    },
+    {
+     "me": false,
+     "text": "Park Street?"
+    },
+    {
+     "me": true,
+     "text": "ok does 2pm work for you?"
+    },
+    {
+     "me": false,
+     "text": "perfect!"
+    },
+    {
+     "me": false,
+     "text": "see you Sunday 😘"
+    }
+   ],
+   "avatar": "msg_2.webp"
+  },
+  {
+   "id": "conv-wa-2",
+   "title": "Trey",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Yo Reagan 👋"
+    },
+    {
+     "me": false,
+     "text": "so, ready for tomorrow?"
+    },
+    {
+     "me": true,
+     "text": "hey trey"
+    },
+    {
+     "me": true,
+     "text": "yes I'm so ready"
+    },
+    {
+     "me": false,
+     "text": "Core is top of the list today"
+    },
+    {
+     "me": true,
+     "text": "perfect weather for dancing"
+    },
+    {
+     "me": false,
+     "text": "That's the idea!"
+    },
+    {
+     "me": false,
+     "text": "Give it a few weeks and it shows"
+    },
+    {
+     "me": true,
+     "text": "I really hope so"
+    },
+    {
+     "me": false,
+     "text": "so? how'd it go?"
+    },
+    {
+     "me": true,
+     "text": "so well!"
+    },
+    {
+     "me": true,
+     "text": "I gave it everything I had"
+    },
+    {
+     "me": true,
+     "text": "completely wiped though 😅"
+    },
+    {
+     "me": false,
+     "text": "Means it worked!"
+    },
+    {
+     "me": false,
+     "text": "Plenty of water and one real day off, that's your job now"
+    },
+    {
+     "me": true,
+     "text": "👍👍"
+    }
+   ],
+   "avatar": "msg_3.webp"
+  },
+  {
+   "id": "conv-wa-3",
+   "title": "Aaron Gallo",
+   "time": "Monday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "reagan !!"
+    },
+    {
+     "me": false,
+     "text": "guess what"
+    },
+    {
+     "me": true,
+     "text": "what ?? 😂"
+    },
+    {
+     "me": false,
+     "text": "I ran into Ms. Baxter"
+    },
+    {
+     "me": false,
+     "text": "our English teacher from middle school"
+    },
+    {
+     "me": true,
+     "text": "nooo for real ??"
+    },
+    {
+     "me": false,
+     "text": "she recognized me instantly"
+    },
+    {
+     "me": false,
+     "text": "she asked how you were getting on"
+    },
+    {
+     "me": true,
+     "text": "aw so sweet"
+    },
+    {
+     "me": true,
+     "text": "what did you say to her?"
+    },
+    {
+     "me": false,
+     "text": "that you were doing ballet full time"
+    },
+    {
+     "me": false,
+     "text": "she was so proud"
+    },
+    {
+     "me": false,
+     "text": "she still remembers your recitals"
+    },
+    {
+     "me": true,
+     "text": "she came to every single one of them"
+    },
+    {
+     "me": false,
+     "text": "she said that too"
+    },
+    {
+     "me": false,
+     "text": "apparently she still has the program from the last one"
+    },
+    {
+     "me": true,
+     "text": "no way"
+    },
+    {
+     "me": true,
+     "text": "awww 🥺"
+    },
+    {
+     "me": true,
+     "text": "that honestly made my day"
+    },
+    {
+     "me": false,
+     "text": "she says hi and sends her love"
+    },
+    {
+     "me": true,
+     "text": "tell her I think about her too"
+    },
+    {
+     "me": true,
+     "text": "next time you bump into her"
+    },
+    {
+     "me": false,
+     "text": "promise!"
+    }
+   ]
+  },
+  {
+   "id": "conv-wa-4",
+   "title": "Nia",
+   "time": "Sunday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Reagan, quick one"
+    },
+    {
+     "me": false,
+     "text": "I've got a package for you"
+    },
+    {
+     "me": true,
+     "text": "hi nia!"
+    },
+    {
+     "me": true,
+     "text": "thanks a million"
+    },
+    {
+     "me": true,
+     "text": "I'll swing by later today to grab it"
+    },
+    {
+     "me": false,
+     "text": "Sounds good"
+    },
+    {
+     "me": false,
+     "text": "I'm home right up until 6pm"
+    },
+    {
+     "me": true,
+     "text": "perfect, thanks"
+    }
+   ]
+  },
+  {
+   "id": "conv-wa-key-4",
+   "title": "Brynn Kelleher",
+   "time": "Saturday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": true,
+     "text": "Girl I've got something crazy to tell you"
+    },
+    {
+     "me": false,
+     "text": "Whaaat ?? tell me"
+    },
+    {
+     "me": true,
+     "text": "You know the thing I grabbed from Julian's locker?"
+    },
+    {
+     "me": false,
+     "text": "Yesss"
+    },
+    {
+     "me": true,
+     "text": "I have to return it to him but I held onto a copy 😏"
+    },
+    {
+     "me": false,
+     "text": "Wait let me have a look"
+    },
+    {
+     "me": false,
+     "text": "OMG"
+    },
+    {
+     "me": false,
+     "text": "Is that really a kiss between Julian and who I think it is ??"
+    },
+    {
+     "me": false,
+     "text": "You've got exactly what you need to cut her down to size 😈"
+    },
+    {
+     "me": true,
+     "text": "Exactly 🦊"
+    },
+    {
+     "me": true,
+     "text": "Don't worry, I stashed the photo in my hidden photos"
+    }
+   ],
+   "avatar": "wa_6.webp"
+  },
+  {
+   "id": "conv-wa-5",
+   "title": "Bryce",
+   "time": "Saturday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "yo reagan"
+    },
+    {
+     "me": false,
+     "text": "you coming down to the skate park tomorrow?"
+    },
+    {
+     "me": true,
+     "text": "hey bryce"
+    },
+    {
+     "me": true,
+     "text": "I'd love to but I've got class"
+    },
+    {
+     "me": false,
+     "text": "aw too bad"
+    },
+    {
+     "me": false,
+     "text": "rain check?"
+    },
+    {
+     "me": true,
+     "text": "yes for sure!"
+    },
+    {
+     "me": false,
+     "text": "cool"
+    },
+    {
+     "me": false,
+     "text": "I'll keep you posted"
+    },
+    {
+     "me": true,
+     "text": "👍"
+    }
+   ]
+  },
+  {
+   "id": "conv-wa-6",
+   "title": "Devon",
+   "time": "Friday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Reagan, quick favor"
+    },
+    {
+     "me": false,
+     "text": "do you have the notes from yesterday's class?"
+    },
+    {
+     "me": true,
+     "text": "hey devon"
+    },
+    {
+     "me": true,
+     "text": "yeah of course"
+    },
+    {
+     "me": true,
+     "text": "I'll email them to you"
+    },
+    {
+     "me": false,
+     "text": "Seriously, you're the best"
+    },
+    {
+     "me": false,
+     "text": "thank you so much"
+    },
+    {
+     "me": true,
+     "text": "anytime 😊"
+    },
+    {
+     "me": true,
+     "text": "just sent it"
+    },
+    {
+     "me": false,
+     "text": "Just landed in my inbox, thank you!"
+    }
+   ],
+   "avatar": "msg_6.webp"
+  },
+  {
+   "id": "conv-wa-7",
+   "title": "Sloane",
+   "time": "7/30/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "reagan did you read the book for tomorrow?"
+    },
+    {
+     "me": true,
+     "text": "which one?"
+    },
+    {
+     "me": false,
+     "text": "the Whitman one"
+    },
+    {
+     "me": true,
+     "text": "oh yeah"
+    },
+    {
+     "me": true,
+     "text": "I started but never finished it"
+    },
+    {
+     "me": false,
+     "text": "same honestly"
+    },
+    {
+     "me": true,
+     "text": "i read like the first thirty pages"
+    },
+    {
+     "me": false,
+     "text": "that's thirty more than me"
+    },
+    {
+     "me": true,
+     "text": "we're going to get destroyed"
+    },
+    {
+     "me": false,
+     "text": "she never calls on us anyway"
+    },
+    {
+     "me": false,
+     "text": "we'll just wing it"
+    },
+    {
+     "me": true,
+     "text": "😅😅"
+    },
+    {
+     "me": true,
+     "text": "so how did class go?"
+    },
+    {
+     "me": false,
+     "text": "it turned out okay in the end"
+    },
+    {
+     "me": true,
+     "text": "phew!"
+    },
+    {
+     "me": false,
+     "text": "we lucked out"
+    }
+   ]
+  },
+  {
+   "id": "conv-wa-8",
+   "title": "Hana Weiss",
+   "time": "7/29/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hi Reagan 👋"
+    },
+    {
+     "me": false,
+     "text": "How's the prep going for tomorrow's French test?"
+    },
+    {
+     "me": true,
+     "text": "hi hana!"
+    },
+    {
+     "me": true,
+     "text": "barely 😅"
+    },
+    {
+     "me": false,
+     "text": "Ha, me neither"
+    },
+    {
+     "me": false,
+     "text": "Should we cram together?"
+    },
+    {
+     "me": true,
+     "text": "yeah good idea"
+    },
+    {
+     "me": true,
+     "text": "library at 7?"
+    },
+    {
+     "me": false,
+     "text": "Works for me"
+    },
+    {
+     "me": true,
+     "text": "the one on Harvard St right?"
+    },
+    {
+     "me": false,
+     "text": "Yes, the quiet room upstairs if it's free"
+    },
+    {
+     "me": true,
+     "text": "perfect, i'll bring my notes"
+    },
+    {
+     "me": true,
+     "text": "see you then"
+    },
+    {
+     "me": false,
+     "text": "so how'd it go?"
+    },
+    {
+     "me": true,
+     "text": "honestly not bad at all"
+    },
+    {
+     "me": true,
+     "text": "thanks for the cram session!"
+    }
+   ]
+  },
+  {
+   "id": "conv-wa-9",
+   "title": "Nora",
+   "time": "7/27/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Reagan! Guess what came in"
+    },
+    {
+     "me": false,
+     "text": "the ballet slippers you ordered are here"
+    },
+    {
+     "me": true,
+     "text": "amazing! thanks nora"
+    },
+    {
+     "me": true,
+     "text": "I'll swing by to grab them tomorrow"
+    },
+    {
+     "me": false,
+     "text": "Wonderful"
+    },
+    {
+     "me": false,
+     "text": "they're gorgeous"
+    },
+    {
+     "me": true,
+     "text": "did the pink ones come in too?"
+    },
+    {
+     "me": false,
+     "text": "They did, I've set a pair aside in your size"
+    },
+    {
+     "me": true,
+     "text": "you're the best 💕"
+    },
+    {
+     "me": true,
+     "text": "I can't wait to try them on"
+    },
+    {
+     "me": false,
+     "text": "Something tells me you won't want to wear anything else"
+    },
+    {
+     "me": false,
+     "text": "see you later!"
+    }
+   ],
+   "avatar": "msg_13.webp"
+  },
+  {
+   "id": "conv-wa-10",
+   "title": "Hank Brill",
+   "time": "7/25/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Uber Eats — I'll be at your door with the order in about 15 minutes"
+    },
+    {
+     "me": true,
+     "text": "perfect, thanks"
+    }
+   ]
+  },
+  {
+   "id": "conv-wa-key-2",
+   "title": "Mr. Dolan (teacher)",
+   "time": "7/24/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hello Reagan"
+    },
+    {
+     "me": true,
+     "text": "Hello Mr. Dolan!"
+    },
+    {
+     "me": false,
+     "text": "I could really use a hand. Could you swing by my office later?"
+    },
+    {
+     "me": true,
+     "text": "Yes of course! What's it for?"
+    },
+    {
+     "me": false,
+     "text": "I've got some administrative documents that need photocopying. In particular there's the list of student locker codes."
+    },
+    {
+     "me": true,
+     "text": "No problem, I can handle that"
+    },
+    {
+     "me": false,
+     "text": "But keep it confidential okay. Above all don't take any photos, this is sensitive data."
+    },
+    {
+     "me": true,
+     "text": "Yes of course, you can count on me"
+    },
+    {
+     "me": false,
+     "text": "I trust you. Drop by around 2pm, I'll leave the documents on my desk."
+    },
+    {
+     "me": true,
+     "text": "Perfect, I'll see you at 2!"
+    }
+   ],
+   "avatar": "msg_1.webp"
+  }
+ ],
+ "gmail": [
+  {
+   "sender": "To: Colleen Duffy (Mom)",
+   "subject": "Big audition next week",
+   "preview": "Mom! I have a huge audition next week — a recruiter from the Boston Ballet is coming to watch us. I'm terrifie",
+   "body": "Mom! I have a huge audition next week — a recruiter from the Boston Ballet is coming to watch us. I'm terrified and thrilled in equal measure. I'll call you tonight and tell you all about it. Love you",
+   "time": "4:30 PM",
+   "folder": "sent"
+  },
+  {
+   "sender": "To: Ray Dolan",
+   "subject": "Question about Mr. Curtis Ashby's visit",
+   "preview": "Dear Mr.Dolan, I received your email regarding Mr. Curtis Ashby's visit. Could you tell me if there are specif",
+   "body": "Dear Mr.Dolan,\n\nI received your email regarding Mr. Curtis Ashby's visit. Could you tell me if there are specific exercises he prefers to see during auditions? I would like to prepare as best as possible.\n\nThank you very much,\nReagan Duffy",
+   "time": "3:45 PM",
+   "folder": "sent"
+  },
+  {
+   "sender": "Ray Dolan",
+   "subject": "Exceptional visit - Boston Ballet Selection",
+   "preview": "Dear students, I hope you are all keeping well and that your training is going smoothly. I am writing to let y",
+   "body": "Dear students,\n\nI hope you are all keeping well and that your training is going smoothly. I am writing to let you know of an exceptional opportunity that has come our way.\n\nRemember that in 3 days, we will have the honor of welcoming Mr. Curtis Ashby for the detection of young talents. He will select one boy and one girl to join the Boston Ballet.\n\nI urge you all to give your very best during this visit. This is a unique chance to display your talent and dedication to this magnificent art.\n\nSincerely,\nRay Dolan\nClassical Dance Teacher",
+   "time": "2:00 PM",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Kelsey Nunn",
+   "subject": "Re: Hey cuz!",
+   "preview": "Kelsey! Classes are going great, thanks for asking 😊 Nothing is settled about the audition yet, so keep everyt",
+   "body": "Kelsey! Classes are going great, thanks for asking 😊 Nothing is settled about the audition yet, so keep everything crossed for me 🤞 And yes, I'm free this weekend — shall we go to the movies? Love you",
+   "time": "Yesterday",
+   "folder": "sent"
+  },
+  {
+   "sender": "Kelsey Nunn",
+   "subject": "Hey cousin!",
+   "preview": "Hi Reagan! I hope your dance classes are going well. Mom told me you have an important audition coming up soon",
+   "body": "Hi Reagan! I hope your dance classes are going well. Mom told me you have an important audition coming up soon? I'm crossing my fingers for you! See you this weekend? Kisses",
+   "time": "Yesterday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Repetto",
+   "subject": "New season - dance shoes just in",
+   "preview": "The spring collection of classical dance shoes is here. Fine leathers, made to stay comfortable through the lo",
+   "body": "The spring collection of classical dance shoes is here. Fine leathers, made to stay comfortable through the longest days of training. Use code SPRING2026 at checkout for 20% off.",
+   "time": "Tuesday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Nora Gilman",
+   "subject": "Re: Your leotards are in!",
+   "preview": "Great! I'll come by tomorrow once class is done, so about 5pm. Thank you so much Nora! 😊",
+   "body": "Great! I'll come by tomorrow once class is done, so about 5pm. Thank you so much Nora! 😊",
+   "time": "Monday",
+   "folder": "sent"
+  },
+  {
+   "sender": "Nora Gilman",
+   "subject": "Your leotards are in!",
+   "preview": "Reagan, your leotards have finally arrived. Come and collect them whenever it suits you, we're open until 7pm.",
+   "body": "Reagan, your leotards have finally arrived. Come and collect them whenever it suits you, we're open until 7pm. See you very soon!",
+   "time": "Monday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Coolidge Corner Theatre",
+   "subject": "Your booking is confirmed",
+   "preview": "Hello Reagan, Your two tickets are confirmed. Please arrive fifteen minutes before the screening; the box offi",
+   "body": "Hello Reagan,\n\nYour two tickets are confirmed. Please arrive fifteen minutes before the screening; the box office holds unclaimed seats for ten minutes only.\n\nThank you,\nCoolidge Corner Theatre",
+   "time": "Sunday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Spotify",
+   "subject": "New additions to your 'Ballet music' playlist",
+   "preview": "New classical pieces have been added to your playlist, among them freshly remastered Tchaikovsky recordings. G",
+   "body": "New classical pieces have been added to your playlist, among them freshly remastered Tchaikovsky recordings. Give them a listen.",
+   "time": "Sunday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Boston Ballet",
+   "subject": "Re: Swan Lake - April performances",
+   "preview": "Hello, could you tell me whether the student rate applies to the Sunday matinee as well? I'd like to bring my ",
+   "body": "Hello, could you tell me whether the student rate applies to the Sunday matinee as well? I'd like to bring my mother. Thank you! Reagan Duffy",
+   "time": "Friday",
+   "folder": "sent"
+  },
+  {
+   "sender": "Boston Ballet",
+   "subject": "Swan Lake - the April run",
+   "preview": "Swan Lake comes back to our stage with the stars of the Boston Ballet. Tickets for these exceptional performan",
+   "body": "Swan Lake comes back to our stage with the stars of the Boston Ballet. Tickets for these exceptional performances are available now, and students pay a reduced rate on presentation of a valid card.",
+   "time": "Friday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Devon Pratt",
+   "subject": "Re: Notes from dance history class",
+   "preview": "Devon you've saved my life! The notes and the scans are exactly what I needed to get through this. I owe you o",
+   "body": "Devon you've saved my life! The notes and the scans are exactly what I needed to get through this. I owe you one 💕",
+   "time": "7/30/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Devon Pratt",
+   "subject": "Notes from dance history class",
+   "preview": "Attached are my notes from the class on the rise of romantic ballet. I also scanned the book pages the teacher",
+   "body": "Attached are my notes from the class on the rise of romantic ballet. I also scanned the book pages the teacher told us to read. Good luck with the revision!",
+   "time": "7/30/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Amazon",
+   "subject": "Your order is on its way",
+   "preview": "Your package containing 'Portable dance barre' has left our warehouse and will be delivered tomorrow before 6p",
+   "body": "Your package containing 'Portable dance barre' has left our warehouse and will be delivered tomorrow before 6pm. Track it with number AZ123456789.",
+   "time": "7/29/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Boston Public Library",
+   "subject": "Item due in three days",
+   "preview": "Dear Reagan Duffy, The item you borrowed from the Brookline branch is due back in three days. You may renew it",
+   "body": "Dear Reagan Duffy,\n\nThe item you borrowed from the Brookline branch is due back in three days. You may renew it online once if no one else is waiting for it.\n\nBoston Public Library",
+   "time": "7/29/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Wexford Academy",
+   "subject": "Reminder - second semester tuition",
+   "preview": "Dear Sir/Madam, We remind you that the tuition fees for the second semester must be paid by August 11 at the l",
+   "body": "Dear Sir/Madam,\n\nWe remind you that the tuition fees for the second semester must be paid by August 11 at the latest. The sum owed is $850 and may be settled online or by check.\n\nSincerely,\nAccounting Department",
+   "time": "7/27/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Maura Quinn",
+   "subject": "Re: Summer ballet school here in London",
+   "preview": "Maura! It really does sound amazing — could you send me the link? I'm definitely interested. Thanks for thinki",
+   "body": "Maura! It really does sound amazing — could you send me the link? I'm definitely interested. Thanks for thinking of me! xx Reagan",
+   "time": "7/26/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Maura Quinn",
+   "subject": "Summer ballet school here in London",
+   "preview": "Reagan! I've found a ballet summer school here in London and it looks amazing. Registration shuts next month a",
+   "body": "Reagan! I've found a ballet summer school here in London and it looks amazing. Registration shuts next month and honestly it would be a crime not to apply. Let me know what you think. Maura xx",
+   "time": "7/26/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Central Pharmacy",
+   "subject": "Re: Your prescription is ready",
+   "preview": "Hello, thank you for letting me know! I finish class late this week, so I'll come by on Friday around 5pm. I'l",
+   "body": "Hello, thank you for letting me know! I finish class late this week, so I'll come by on Friday around 5pm. I'll bring my card. Reagan Duffy",
+   "time": "7/25/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Central Pharmacy",
+   "subject": "Your prescription is waiting for you",
+   "preview": "The anti-inflammatory prescribed by Dr. Amory is now waiting for you at the pharmacy counter. Please remember ",
+   "body": "The anti-inflammatory prescribed by Dr. Amory is now waiting for you at the pharmacy counter. Please remember to bring your health insurance card.",
+   "time": "7/25/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Netflix",
+   "subject": "Just added: a documentary on dance stars",
+   "preview": "Now on Netflix: 'Stars', an exclusive documentary that follows the careers of the greatest classical dancers.",
+   "body": "Now on Netflix: 'Stars', an exclusive documentary that follows the careers of the greatest classical dancers.",
+   "time": "7/24/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Trey Dillard",
+   "subject": "Re: Strength sessions built for dancers",
+   "preview": "Trey, I'm in! My teacher tells us over and over that strong muscles are the best protection against injury. Co",
+   "body": "Trey, I'm in! My teacher tells us over and over that strong muscles are the best protection against injury. Could we find a moment this week to go through it?",
+   "time": "7/23/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Trey Dillard",
+   "subject": "Strength sessions built for dancers",
+   "preview": "Reagan, I've designed a strength program shaped around what classical dancers actually need. It would fit well",
+   "body": "Reagan, I've designed a strength program shaped around what classical dancers actually need. It would fit well alongside your training, so just tell me if you'd like to go over it together!",
+   "time": "7/23/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Hana Weiss",
+   "subject": "Re: French class - this week's exercises",
+   "preview": "Hana you're a lifesaver — with all the training I'd completely forgotten those exercises existed. And that lis",
+   "body": "Hana you're a lifesaver — with all the training I'd completely forgotten those exercises existed. And that list of idiomatic expressions is going to be so useful!",
+   "time": "7/21/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Hana Weiss",
+   "subject": "French class - this week's exercises",
+   "preview": "Reagan — here are the exercises we have to hand in next week. I've also noted down a few idiomatic expressions",
+   "body": "Reagan — here are the exercises we have to hand in next week. I've also noted down a few idiomatic expressions that might show up on the test. Good luck!",
+   "time": "7/21/26",
+   "folder": "inbox"
+  }
+ ],
+ "calendar": [
+  {
+   "title": "Take Mom's car in for inspection",
+   "date": "09/05",
+   "dateLabel": "Sat, Sep 5, 2026",
+   "month": "2026-09",
+   "time": "10:00 AM – 12:00 PM",
+   "location": "Brookline Inspection Station"
+  },
+  {
+   "title": "Trent — birthday today",
+   "date": "08/28",
+   "dateLabel": "Fri, Aug 28, 2026",
+   "month": "2026-08",
+   "time": "All day",
+   "location": ""
+  },
+  {
+   "title": "Whole family, dinner out",
+   "date": "08/26",
+   "dateLabel": "Wed, Aug 26, 2026",
+   "month": "2026-08",
+   "time": "7:00 PM – 9:00 PM",
+   "location": "Eastern Standard"
+  },
+  {
+   "title": "Girls night at the movies",
+   "date": "08/23",
+   "dateLabel": "Sun, Aug 23, 2026",
+   "month": "2026-08",
+   "time": "2:00 PM – 5:00 PM",
+   "location": "Coolidge Corner Theatre"
+  },
+  {
+   "title": "Blood draw — nothing to eat first",
+   "date": "08/21",
+   "dateLabel": "Fri, Aug 21, 2026",
+   "month": "2026-08",
+   "time": "8:30 AM – 9:30 AM",
+   "location": "Longwood Diagnostics"
+  },
+  {
+   "title": "Pilates with Brynn, finally booked",
+   "date": "08/19",
+   "dateLabel": "Wed, Aug 19, 2026",
+   "month": "2026-08",
+   "time": "5:00 PM – 6:00 PM",
+   "location": "Coolidge Corner"
+  },
+  {
+   "title": "Renew the CharlieCard",
+   "date": "08/18",
+   "dateLabel": "Tue, Aug 18, 2026",
+   "month": "2026-08",
+   "time": "11:00 AM – 12:00 PM",
+   "location": "MBTA CharlieCard Store"
+  },
+  {
+   "title": "Mall trip with Mom",
+   "date": "08/16",
+   "dateLabel": "Sun, Aug 16, 2026",
+   "month": "2026-08",
+   "time": "4:00 PM – 6:00 PM",
+   "location": "Copley Place"
+  },
+  {
+   "title": "Booked in with the osteopath, back again",
+   "date": "08/14",
+   "dateLabel": "Fri, Aug 14, 2026",
+   "month": "2026-08",
+   "time": "9:00 AM – 10:00 AM",
+   "location": "45 Francis St"
+  },
+  {
+   "title": "Revision with Hana",
+   "date": "08/13",
+   "dateLabel": "Thu, Aug 13, 2026",
+   "month": "2026-08",
+   "time": "3:00 PM – 5:00 PM",
+   "location": "Brookline Booksmith"
+  },
+  {
+   "title": "Don't forget — Kelsey's birthday 🎂 (cousin)",
+   "date": "08/11",
+   "dateLabel": "Tue, Aug 11, 2026",
+   "month": "2026-08",
+   "time": "All day",
+   "location": ""
+  },
+  {
+   "title": "Brunch with Kelsey",
+   "date": "08/09",
+   "dateLabel": "Sun, Aug 9, 2026",
+   "month": "2026-08",
+   "time": "11:30 AM – 1:00 PM",
+   "location": "Zaftigs Delicatessen"
+  },
+  {
+   "title": "Cut and blow-dry booked",
+   "date": "08/04",
+   "dateLabel": "Tue, Aug 4, 2026",
+   "month": "2026-08",
+   "time": "2:00 PM – 3:00 PM",
+   "location": "Salon Capri"
+  },
+  {
+   "title": "Derm checkup, annual one",
+   "date": "08/01",
+   "dateLabel": "Sat, Aug 1, 2026",
+   "month": "2026-08",
+   "time": "10:00 AM – 11:30 AM",
+   "location": "Dr. Amory's office, 1322 Beacon St"
+  },
+  {
+   "title": "Brynn's big day 🎉",
+   "date": "07/24",
+   "dateLabel": "Fri, Jul 24, 2026",
+   "month": "2026-07",
+   "time": "All day",
+   "location": ""
+  }
+ ],
+ "notes": [
+  {
+   "title": "Days out to plan",
+   "body": "Things to do with Brynn:\n✓ ticked off: Romeo and Juliet at the Boston Opera\n- that Degas exhibition at the Museum of Fine Arts\n- brunch in Coolidge Corner one weekend\n- a pilates class, the two of us this time\n\nOnce this term is behind us we've earned every bit of it!"
+  },
+  {
+   "title": "This week at a glance",
+   "body": "This week's schedule:\nMon: Classical class 9am + floor barre 2pm\nTue: Variations 10am + stretching\nWed: Rest (foot massage)\nThu: Class with Mr. Dolan 9am + cardio\nFri: Dress rehearsal\nSat: Year-end performance!\n\nThe final stretch 🩰"
+  },
+  {
+   "title": "Ballet terminology",
+   "body": "English terms I need cold before the oral:\n- Arabesque\n- Grand jeté\n- Port de bras\n- Chassé\n- Sissonne\n\nMaura said she'd quiz me on all of them next week"
+  },
+  {
+   "title": "Mr. Dolan's advice",
+   "body": "Notes from yesterday's correction:\n- keep the shoulders down the whole way through port de bras\n- engage the core before every single pirouette\n- breathe with the music, let it lead\n- 'Technique serving emotion'\n\nUp next: the Kitri variation"
+  },
+  {
+   "title": "Music that gets me going",
+   "body": "The music that lifts me:\n🎵 Tchaikovsky - Swan Lake\n🎵 the Don Quixote variation\n🎵 Giselle, second act\n🎵 Delibes - Coppélia\n🎵 La Bayadère - temple dancer\n\nKept here for the days when nothing wants to move 💪"
+  },
+  {
+   "title": "Present ideas for mom",
+   "body": "Mom's birthday, present ideas:\n- that hardback history of the Boston Ballet\n- an afternoon at the spa, the massage kind\n- dinner at the restaurant she always picks\n- a small piece of jewelry, a bracelet maybe\n\nWhatever I pick, stay under $150"
+  },
+  {
+   "title": "Films to get through",
+   "body": "Films still to watch:\n🎬 Black Swan (one more time)\n🎬 White Nights\n🎬 Center Stage\n🎬 Turning Point\n🎬 La La Land, round five at least\n\nMovie night with the girls this weekend maybe?"
+  },
+  {
+   "title": "Star Market run",
+   "body": "For the week:\n- bananas and blueberries for the smoothies\n- spinach\n- almond milk, the unsweetened one\n- Greek yogurt\n- eggs\n- oats\n- pasta and a jar of tomato basil for Mom\n- magnesium, the pharmacy was out again"
+  },
+  {
+   "title": "Feet, after pointe",
+   "body": "The routine that actually helps:\n- ice bath, 10 minutes, no longer\n- tape the second toe before class, not after\n- arnica on the bruising at night\n- roll the arches on the ball while I study\n- new lambswool every week, no reusing it\n\nAnd cut the nails short on Sundays, not the morning of a class!"
+  },
+  {
+   "title": "Codes I keep forgetting",
+   "body": "Personal photos = dog birthday 🐶\nHome wifi code = Ballerina2024\ncode snap: 2512"
+  },
+  {
+   "title": "Shopping list for class",
+   "body": "To pick up at Nora's shop:\n- Gaynor Minden pointe shoes, size 4\n- footless tights, three pairs\n- a pair of soft ballet shoes\n- cohesive bandage for my feet"
+  },
+  {
+   "title": "Quotes to hold onto",
+   "body": "For the days when I stop believing in myself 💫\n\n'Every day is a new chance to become better'\n\n'You should dance like nobody's watching'\n\n'Dance is the hidden language of the soul' - Martha Graham"
+  },
+  {
+   "title": "Warm-up, every morning",
+   "body": "My barre order, never change it:\n1. Pliés - 16 counts\n2. Tendus - 8 front, 8 side, 8 back\n3. Dégagés\n4. Ronds de jambe\n5. Développés\n6. Grands battements\n\nThen stretch at the end, no excuses!"
+  },
+  {
+   "title": "The smoothie after training",
+   "body": "The smoothie recipe that actually works:\n- one banana\n- a good handful of spinach\n- almond milk\n- a spoonful of almond butter\n- blueberries\n- ice, a few cubes\n\nNothing beats it after a hard class!"
+  },
+  {
+   "title": "Goals for the 2026 season",
+   "body": "What to work on this season:\n- tidy up the turns en seconde\n- let the adages breathe more\n- cleaner, sharper work on pointe\n- more expression through the variations\n\nThe goal: Prix de Lausanne junior"
+  }
+ ],
+ "maps": [
+  {
+   "name": "Home",
+   "subtitle": "38 Peterborough St, Boston MA 02215"
+  },
+  {
+   "name": "Olmsted Park",
+   "subtitle": "Weekend jogging"
+  },
+  {
+   "name": "Star Market Fenway",
+   "subtitle": "1400 Boylston St, Boston MA 02215"
+  },
+  {
+   "name": "Flour Bakery",
+   "subtitle": "The best in the neighborhood"
+  },
+  {
+   "name": "Zaftigs Delicatessen",
+   "subtitle": "Sunday brunch"
+  },
+  {
+   "name": "Salon Capri",
+   "subtitle": "Cut and blow-dry"
+  },
+  {
+   "name": "Brookline Booksmith",
+   "subtitle": "279 Harvard St, Brookline MA 02446"
+  },
+  {
+   "name": "Coolidge Corner Theatre",
+   "subtitle": "290 Harvard St, Brookline MA 02446"
+  },
+  {
+   "name": "Longwood Diagnostics",
+   "subtitle": "Blood draw, fasting beforehand"
+  },
+  {
+   "name": "Coolidge Corner Pharmacy",
+   "subtitle": "1322 Beacon St, Brookline MA 02446"
+  }
+ ],
+ "revolut": {
+  "balance": "$0.00",
+  "transactions": []
+ },
+ "weather": {
+  "city": "Local",
+  "tempC": 18,
+  "hi": 21,
+  "lo": 12,
+  "condition": "Clear"
+ },
+ "photos": [
+  "photo_0.webp",
+  "photo_1.webp",
+  "photo_2.webp",
+  "photo_3.webp",
+  "photo_4.webp",
+  "photo_5.webp",
+  "photo_6.webp",
+  "photo_7.webp",
+  {
+   "image": "photo_8.webp",
+   "caption": "LOCKER CODES:\nK740 - Josie Tran\nK812 - Julian Reyes\nK355 - Owen Whitaker\nK204 - Talia Brenner\nK118 - Reagan Duffy"
+  }
+ ],
+ "screenTime": [
+  {
+   "appName": "Instagram",
+   "durationMinutes": 110
+  },
+  {
+   "appName": "Snapchat",
+   "durationMinutes": 95
+  },
+  {
+   "appName": "WhatsApp",
+   "durationMinutes": 70
+  },
+  {
+   "appName": "Messages",
+   "durationMinutes": 60
+  },
+  {
+   "appName": "Photos",
+   "durationMinutes": 45
+  },
+  {
+   "appName": "Spotify",
+   "durationMinutes": 40
+  },
+  {
+   "appName": "Forme",
+   "durationMinutes": 18
+  },
+  {
+   "appName": "Phone",
+   "durationMinutes": 15
+  },
+  {
+   "appName": "Notes",
+   "durationMinutes": 12
+  },
+  {
+   "appName": "Gmail",
+   "durationMinutes": 11
+  },
+  {
+   "appName": "Calculatrice",
+   "durationMinutes": 8
+  },
+  {
+   "appName": "Settings",
+   "durationMinutes": 6
+  }
+ ]
+}

@@ -240,17 +240,35 @@ a {
    chỉ hiện mờ dần sau khi người chơi đứng im 2s (data-hand-visible). */
 [data-hand] [class*="hintHand"],
 [data-hand] [class*="snoopHint"],
-[data-hand] [class*="barHint"] {
+[data-hand] [class*="barHint"],
+[data-hand] [class*="backHint"],
+[data-hand] [class*="tabHint"] {
   opacity: 0 !important;
   transition: opacity 0.9s ease;
 }
 [data-hand="hand"][data-hand-visible="true"] [class*="hintHand"],
 [data-hand="snoop"][data-hand-visible="true"] [class*="snoopHint"],
-[data-hand="bar"][data-hand-visible="true"] [class*="barHint"] {
+[data-hand="bar"][data-hand-visible="true"] [class*="barHint"],
+[data-hand="back"][data-hand-visible="true"] [class*="backHint"],
+[data-hand="hand"][data-hand-visible="true"] [class*="tabHint"] {
   opacity: 1 !important;
 }
 
-/* Dòng lộ đáp án trong mini app: chỉ nhấp nháy khi bàn tay "hand" đã hiện. */
+/* Dòng lộ đáp án trong mini app: chỉ nhấp nháy khi bàn tay "hand" đã hiện.
+   KHÔNG áp dụng cho bubbleHot (tin nhắn cụ thể trong thread dài) — bấm vào
+   dòng hot để MỞ thread đã tự unlock/chuyển bàn tay sang "bar" ngay lập
+   tức, nên lúc người chơi thật sự ở trong thread để thấy tin thì state
+   "hand" đã hết từ trước — bubbleHot phải luôn sáng, không phụ thuộc state
+   bàn tay (xem keyframes bubbleHotPulse trong từng app, tự chạy sẵn). */
 [data-hand]:not([data-hand="hand"][data-hand-visible="true"]) [class*="hintRow"] {
   animation: none !important;
+}
+
+/* Thanh câu hỏi thu gọn (.belowBar trong PhoneFrame) nằm ĐÈ lên đúng 90px
+   cuối màn hình, không chừa chỗ riêng — nội dung mọi app (email dài, đoạn
+   chat dài...) cuộn xuống hết bị nó che mất đoạn cuối. Chừa padding-bottom
+   cho khung cuộn của app khi thanh này đang hiện (data-bar-active, xem
+   App.tsx), áp dụng chung cho mọi app qua class "appbody" của AppScreen. */
+[data-bar-active="true"] [class*="appbody"] {
+  padding-bottom: 90px;
 }

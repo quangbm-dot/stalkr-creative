@@ -29,6 +29,10 @@ export interface AppComponentProps {
    *  app đó) để tự gắn glow+bàn tay trỏ vào đúng dòng. undefined = app
    *  không phải hintApp hiện tại, hoặc câu này không có dòng cụ thể. */
   hintTargetId?: string;
+  /** Messages/WhatsApp: tô sáng đúng TIN NHẮN này bên trong đoạn chat đang
+   *  mở (hintTargetId chỉ chọn đúng đoạn chat, không nói tin cụ thể nào) —
+   *  chuỗi con khớp nguyên văn trong text tin nhắn. */
+  hintMessageId?: string;
   /** Gọi khi người chơi đã "tìm thấy" manh mối — app không có hintTargetId
    *  cụ thể (vd Settings) gọi ngay khi mở; app có (Messages/Notes/
    *  Calendar/Airbnb/Revolut) chỉ gọi khi CHẠM đúng dòng khớp

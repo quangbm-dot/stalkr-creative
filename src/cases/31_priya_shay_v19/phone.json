@@ -1,0 +1,7087 @@
+{
+ "caseName": "The Friend Who Stayed",
+ "title": "Priya & Shay",
+ "now": "2026-08-06T23:59:00",
+ "client": {
+  "name": "Priya",
+  "avatar": "client.webp"
+ },
+ "owner": {
+  "first": "Shay",
+  "full": "Shay Okafor",
+  "avatar": null
+ },
+ "wallpaper": "wallpaper.webp",
+ "passcode": "0603",
+ "totalQuestions": 7,
+ "questions": [
+  {
+   "id": 1,
+   "text": "I'm in my room. Her phone has been face-down on the couch for ten minutes and I've already stood up twice.\nA few months ago she told me someone saw my boyfriend Eli with another girl. She wouldn't say who. 💔\nWho did she say saw them?",
+   "answer": "Tamsin",
+   "decoys": [
+    "Marisol",
+    "Jonah",
+    "Wren"
+   ],
+   "hint": "Check her Messages."
+  },
+  {
+   "id": 2,
+   "text": "Tamsin. We sat next to each other at crits all term.\nThat night Shay sat on the edge of my bed and held up her phone, and I just stopped breathing.\nWhat bar was he supposedly at?",
+   "answer": "The Lantern Room",
+   "decoys": [
+    "The Velvet Hour",
+    "Ember & Oak",
+    "The Brass Fox"
+   ],
+   "hint": "Look through her Photos."
+  },
+  {
+   "id": 3,
+   "text": "Oh my god. I even mailed her a birthday card. 🥲\nEli kept saying he was at her party that night. I told him that was very convenient.\nSo where was he actually that night?",
+   "answer": "Calder Street Pier",
+   "decoys": [
+    "Edgewater Beach",
+    "Tremont Park",
+    "Wade Lagoon"
+   ],
+   "hint": "Look on Instagram."
+  },
+  {
+   "id": 4,
+   "text": "He was telling the truth the whole time. And I blocked him.\nBut Tamsin swore to me in the hallway. She looked straight at me. She had no reason to lie, unless someone gave her one.\nWhat did Shay give her for saying so?",
+   "answer": "Concert tickets",
+   "decoys": [
+    "Gift card",
+    "Cash",
+    "Dinner"
+   ],
+   "hint": "Go back to her Messages."
+  },
+  {
+   "id": 5,
+   "text": "That's what I was worth. A night out. 😤\nIn May she told me she couldn't split groceries anymore because money was tight.\nHow much did that cost her?",
+   "answer": "$148",
+   "decoys": [
+    "$62",
+    "$24",
+    "$96"
+   ],
+   "hint": "Check RevoBank."
+  },
+  {
+   "id": 6,
+   "text": "And I bought her pizza that week because she said she was broke.\nRight after that, the studio went quiet. Nobody saved me a desk at crit. Shay said people were talking about me and I should give them space. So I did.\nWhat's the group they all moved to?",
+   "answer": "Studio 4B",
+   "decoys": [
+    "MArch Cohort '27",
+    "Studio 4A",
+    "Thesis Crit Group"
+   ],
+   "hint": "Look in WhatsApp."
+  },
+  {
+   "id": 7,
+   "text": "I'm not in it. Of course I'm not.\nShe set that up, and then she sat on the bathroom floor with me while I cried about being left out.\nHow many things has she told people about me?",
+   "answer": "6",
+   "decoys": [
+    "4",
+    "5",
+    "7"
+   ],
+   "hint": "Look through her Notes."
+  }
+ ],
+ "onboarding": [
+  {
+   "text": "I'm Priya. Second-year architecture master's, Cleveland. Shay Okafor is my roommate, the desk next to mine at studio, and since April, honestly, my only friend. She just went for a run without her phone.",
+   "label": "Priya",
+   "image": "onboarding_1.webp"
+  },
+  {
+   "text": "In April Shay showed me proof that my boyfriend Eli was cheating. I ended it that night. A few weeks later she told me the studio group had been talking about me, so I stopped going.",
+   "label": "Priya & Shay",
+   "image": "onboarding_2.webp"
+  },
+  {
+   "text": "Since then it's been my room, my laptop, and Shay bringing me ginger tea. In June I won a fellowship. I'm so tired lately that I've been thinking about giving it back.",
+   "label": "Shay",
+   "image": "onboarding_3.webp"
+  },
+  {
+   "text": "Something doesn't add up, and I can't trust my own judgment right now. So you look. Tell me what my only friend really says about me. She'll be back in twenty minutes.",
+   "label": "Priya",
+   "image": "onboarding_4.webp"
+  }
+ ],
+ "home": [
+  {
+   "app": "instagram",
+   "label": "Instagram"
+  },
+  {
+   "app": "revolut",
+   "label": "RevoBank"
+  },
+  {
+   "app": "notes",
+   "label": "Notes"
+  },
+  {
+   "app": "calendar",
+   "label": "Calendar"
+  },
+  {
+   "app": "phone",
+   "label": "Phone"
+  },
+  {
+   "app": "weather",
+   "label": "Weather"
+  },
+  {
+   "app": "maps",
+   "label": "Maps"
+  },
+  {
+   "app": "settings",
+   "label": "Settings"
+  }
+ ],
+ "dock": [
+  {
+   "app": "messages",
+   "label": "Messages"
+  },
+  {
+   "app": "gmail",
+   "label": "Mail"
+  },
+  {
+   "app": "photos",
+   "label": "Photos"
+  },
+  {
+   "app": "whatsapp",
+   "label": "WhatsApp"
+  }
+ ],
+ "missingApps": [],
+ "calls": [
+  {
+   "name": "Mama ❤️",
+   "time": "Yesterday, 10:10 PM",
+   "type": "outgoing",
+   "detail": "10 min"
+  },
+  {
+   "name": "Tobe 🇳🇬",
+   "time": "Yesterday, 1:10 PM",
+   "type": "outgoing",
+   "detail": "5 min"
+  },
+  {
+   "name": "Mama ❤️",
+   "time": "Yesterday, 6:42 AM",
+   "type": "incoming",
+   "detail": "21 min"
+  },
+  {
+   "name": "Dave's Market",
+   "time": "Tuesday, 10:10 PM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Priya 🌿",
+   "time": "Tuesday, 7:45 PM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Mama ❤️",
+   "time": "Monday, 7:30 AM",
+   "type": "incoming",
+   "detail": "6 min"
+  },
+  {
+   "name": "Tobe 🇳🇬",
+   "time": "Monday, 1:25 AM",
+   "type": "outgoing",
+   "detail": "14 min"
+  },
+  {
+   "name": "Marisol",
+   "time": "Sunday, 8:30 PM",
+   "type": "incoming",
+   "detail": "7 min"
+  },
+  {
+   "name": "Ray (Model Shop)",
+   "time": "Saturday, 10:15 AM",
+   "type": "incoming",
+   "detail": "1 min"
+  },
+  {
+   "name": "Ray (Model Shop)",
+   "time": "Friday, 2:05 PM",
+   "type": "incoming",
+   "detail": "2 min"
+  },
+  {
+   "name": "CityRx Pharmacy",
+   "time": "Friday, 11:40 AM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "CityRx Pharmacy",
+   "time": "7/29/26, 4:48 PM",
+   "type": "incoming",
+   "detail": "1 min"
+  },
+  {
+   "name": "Lakeshore ISSO",
+   "time": "7/29/26, 2:05 PM",
+   "type": "outgoing",
+   "detail": "8 min"
+  },
+  {
+   "name": "Folake (Naija in CLE)",
+   "time": "7/27/26, 11:15 PM",
+   "type": "outgoing",
+   "detail": "10 min"
+  },
+  {
+   "name": "Mr. Dominguez (Landlord)",
+   "time": "7/27/26, 6:00 PM",
+   "type": "outgoing",
+   "detail": "2 min"
+  },
+  {
+   "name": "Mama ❤️",
+   "time": "7/24/26, 5:58 AM",
+   "type": "outgoing",
+   "detail": "29 min"
+  },
+  {
+   "name": "Mr. Dominguez (Landlord)",
+   "time": "7/22/26, 6:30 PM",
+   "type": "outgoing",
+   "detail": "2 min"
+  },
+  {
+   "name": "Sable Print Shop",
+   "time": "7/20/26, 1:12 PM",
+   "type": "outgoing",
+   "detail": "1 min"
+  },
+  {
+   "name": "Aunty Ngozi",
+   "time": "7/18/26, 5:20 PM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Jonah",
+   "time": "7/15/26, 12:40 AM",
+   "type": "incoming",
+   "detail": "7 min"
+  },
+  {
+   "name": "Tobe 🇳🇬",
+   "time": "7/13/26, 9:50 PM",
+   "type": "incoming",
+   "detail": "19 min"
+  },
+  {
+   "name": "Brandt Family Dental",
+   "time": "7/12/26, 3:03 PM",
+   "type": "outgoing",
+   "detail": "2 min"
+  },
+  {
+   "name": "Chidi (cousin)",
+   "time": "7/9/26, 8:55 PM",
+   "type": "incoming",
+   "detail": "15 min"
+  },
+  {
+   "name": "Lakeshore Bursar Office",
+   "time": "7/8/26, 3:20 PM",
+   "type": "outgoing",
+   "detail": "2 min"
+  },
+  {
+   "name": "Lakefront Fiber Support",
+   "time": "7/3/26, 7:22 PM",
+   "type": "outgoing",
+   "detail": "18 min"
+  },
+  {
+   "name": "Mama ❤️",
+   "time": "6/28/26, 6:15 AM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Wren",
+   "time": "6/22/26, 9:48 PM",
+   "type": "outgoing",
+   "detail": "4 min"
+  },
+  {
+   "name": "Uncle Segun",
+   "time": "6/15/26, 2:30 PM",
+   "type": "incoming",
+   "detail": "6 min"
+  },
+  {
+   "name": "Clearview Eye Care",
+   "time": "6/8/26, 1:45 PM",
+   "type": "outgoing",
+   "detail": "1 min"
+  },
+  {
+   "name": "Tobe 🇳🇬",
+   "time": "5/30/26, 2:10 AM",
+   "type": "incoming",
+   "detail": "22 min"
+  },
+  {
+   "name": "Tony's Slice House",
+   "time": "5/21/26, 11:32 PM",
+   "type": "outgoing",
+   "detail": "1 min"
+  },
+  {
+   "name": "Callum",
+   "time": "5/14/26, 10:05 PM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Nadia Brooks (Eli's Sister)",
+   "time": "6/2/25, 4:40 PM",
+   "type": "outgoing",
+   "detail": "4 min"
+  }
+ ],
+ "messages": [
+  {
+   "id": "mut-conv-2",
+   "title": "Mama ❤️",
+   "time": "6:30 AM",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Good morning my daughter. I woke up thanking God for you"
+    },
+    {
+     "me": true,
+     "text": "Good morning Mama. Thank you. Did the light come back?"
+    },
+    {
+     "me": false,
+     "text": "Yes, since yesterday evening. Mrs. Bello brought us moi moi"
+    },
+    {
+     "me": true,
+     "text": "Please greet her for me"
+    },
+    {
+     "me": false,
+     "text": "I will. Are you eating well? Your voice sounded thin"
+    },
+    {
+     "me": true,
+     "text": "I'm eating Mama. I made jollof on Sunday, it'll last all week"
+    },
+    {
+     "me": false,
+     "text": "Good. Put fish inside, not only rice"
+    },
+    {
+     "me": true,
+     "text": "Yes ma 😂"
+    },
+    {
+     "me": false,
+     "text": "Psalm 121 for today. The Lord shall keep your going out and your coming in"
+    },
+    {
+     "me": true,
+     "text": "Amen 🙏🏾"
+    },
+    {
+     "me": false,
+     "text": "Your cousin Chidi says he saw you looking tired at the market"
+    },
+    {
+     "me": true,
+     "text": "He exaggerates. I was carrying heavy bags"
+    },
+    {
+     "me": false,
+     "text": "Rest your body my dear. Studies will not run away"
+    },
+    {
+     "me": true,
+     "text": "I will rest this weekend, promise"
+    },
+    {
+     "me": false,
+     "text": "Your father's memorial anniversary is next month. We will do the small mass"
+    },
+    {
+     "me": true,
+     "text": "I know, Mama. I'll light a candle here and call during the mass"
+    },
+    {
+     "me": false,
+     "text": "That will warm his heart wherever he is"
+    },
+    {
+     "me": true,
+     "text": "I miss him"
+    },
+    {
+     "me": false,
+     "text": "We all do. He would be proud of you. Very proud"
+    },
+    {
+     "me": false,
+     "text": "Good morning. Tobe said he will call you today. Pick up o"
+    },
+    {
+     "me": true,
+     "text": "Morning Mama. I'll pick up, I promise"
+    },
+    {
+     "me": false,
+     "text": "Good morning my dear. Did you eat before you left the house?"
+    },
+    {
+     "me": true,
+     "text": "Good morning Mama. Yes, I had cereal."
+    },
+    {
+     "me": false,
+     "text": "Cereal again? Eh eh. Cook rice and stew, it will last you."
+    },
+    {
+     "me": true,
+     "text": "I did that last weekend, Mama. There's still some 😄"
+    },
+    {
+     "me": false,
+     "text": "Mrs. Bello's grandson passed his exams. Rejoice with her"
+    },
+    {
+     "me": false,
+     "text": "Good. Mrs. Bello says hello. Her knee is better."
+    },
+    {
+     "me": true,
+     "text": "That's wonderful news! Send her my congratulations"
+    },
+    {
+     "me": true,
+     "text": "Tell her I'm glad. Is the generator fixed?"
+    },
+    {
+     "me": false,
+     "text": "Yes, the man came. Only 2 days of light today but God is faithful."
+    },
+    {
+     "me": true,
+     "text": "Amen. I'll call you after studio."
+    },
+    {
+     "me": false,
+     "text": "Don't stay too late in that building. Take the bus, no walking in the dark."
+    },
+    {
+     "me": true,
+     "text": "I always take the bus. Promise."
+    },
+    {
+     "me": false,
+     "text": "Good morning my daughter. I prayed for you at 5 o'clock. How was your sleep?"
+    },
+    {
+     "me": false,
+     "text": "Did you buy your bread and tea like I said? Do not suffer in that cold place"
+    },
+    {
+     "me": false,
+     "text": "Good morning my dear. God is faithful. Have you eaten?"
+    },
+    {
+     "me": false,
+     "text": "The Lord keeps you. Psalm 121."
+    },
+    {
+     "me": true,
+     "text": "It's August Mama, it's hot here 😂 I bought plenty of tea"
+    },
+    {
+     "me": true,
+     "text": "Good morning Mama ❤️ I slept a little. Studio was late."
+    },
+    {
+     "me": false,
+     "text": "You are always in that studio. Are you eating? Real food, not noodles."
+    },
+    {
+     "me": true,
+     "text": "I cooked jollof on Sunday. Enough for the whole week 😄"
+    },
+    {
+     "me": false,
+     "text": "Very good. Did you put enough pepper? Americans don't know pepper."
+    },
+    {
+     "me": true,
+     "text": "Yes Mama, my tongue is still burning"
+    },
+    {
+     "me": false,
+     "text": "Hahaha. Mrs. Bello says hello. Her son is getting married in December."
+    },
+    {
+     "me": true,
+     "text": "Tell her congratulations from me!"
+    },
+    {
+     "me": false,
+     "text": "The generator was bad again last night. NEPA took the light for many hours."
+    },
+    {
+     "me": true,
+     "text": "Ah, I'm sorry Mama. Is the neighbor still sharing diesel?"
+    },
+    {
+     "me": false,
+     "text": "Yes yes, we manage. God is faithful."
+    },
+    {
+     "me": true,
+     "text": "Amen. I'll call you Sunday after my run."
+    },
+    {
+     "me": false,
+     "text": "Okay my dear. Drink water. Don't carry the whole world on your head."
+    },
+    {
+     "me": true,
+     "text": "I'll try Mama. Love you ❤️"
+    },
+    {
+     "me": false,
+     "text": "Love you more. Goodnight when it reaches you."
+    },
+    {
+     "me": true,
+     "text": "Good morning Mama. Yes, I made jollof on Sunday, there's plenty"
+    },
+    {
+     "me": false,
+     "text": "Good. Don't be sleeping late. Studio is not worth your health"
+    },
+    {
+     "me": true,
+     "text": "I won't, Mama. How is your knee?"
+    },
+    {
+     "me": false,
+     "text": "Better. Mrs. Bello brought pepper soup. I am praying for your exams, Nne"
+    },
+    {
+     "me": true,
+     "text": "Thank you Mama ❤️ I'll call Sunday"
+    },
+    {
+     "me": true,
+     "text": "Thank you Mama ❤️"
+    },
+    {
+     "me": false,
+     "text": "Your cousin Chidi sent photos from his naming ceremony. Beautiful baby."
+    },
+    {
+     "me": true,
+     "text": "I saw! Sending him a message now."
+    },
+    {
+     "me": true,
+     "text": "Good morning Mama, I just saw the voice note. Beautiful prayer 🙏🏾"
+    },
+    {
+     "me": false,
+     "text": "Good morning my dear. Have you eaten?"
+    }
+   ],
+   "avatar": "msg_0.webp"
+  },
+  {
+   "id": "mut-conv-1",
+   "title": "Priya 🌿",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": true,
+     "text": "so proud of you 🌿 you earned every bit of it"
+    },
+    {
+     "me": false,
+     "text": "still processing. dinner's on me tonight"
+    },
+    {
+     "me": true,
+     "text": "no, I'm cooking. jollof, you're not allowed in the kitchen"
+    },
+    {
+     "me": true,
+     "text": "made ginger tea. it's on your desk, drink it before it goes cold"
+    },
+    {
+     "me": false,
+     "text": "thank you. you're the only person who checks on me"
+    },
+    {
+     "me": false,
+     "text": "Oat milk is almost gone. Adding it to the list?"
+    },
+    {
+     "me": true,
+     "text": "Already on it. Dave's after crit."
+    },
+    {
+     "me": false,
+     "text": "You are a saint."
+    },
+    {
+     "me": true,
+     "text": "A saint with a coupon 😄"
+    },
+    {
+     "me": false,
+     "text": "The dishwasher is making the noise again."
+    },
+    {
+     "me": true,
+     "text": "I'll text Mr. Dominguez tonight. Don't run it until he looks."
+    },
+    {
+     "me": true,
+     "text": "I made tea. It's on the counter, left side. Don't let it go cold"
+    },
+    {
+     "me": false,
+     "text": "Thanks. Cold already. Metaphor for something"
+    },
+    {
+     "me": true,
+     "text": "I'll make another 😊"
+    },
+    {
+     "me": false,
+     "text": "Made tea. There's a cup on your desk. The green one."
+    },
+    {
+     "me": true,
+     "text": "You're the best 🫶 I'm in the model shop till late"
+    },
+    {
+     "me": false,
+     "text": "Laser cutter at 3 tomorrow? I booked the slot before yours."
+    },
+    {
+     "me": true,
+     "text": "Yes, I'm 4 to 5. I'll bring the file on the drive."
+    },
+    {
+     "me": false,
+     "text": "Do we have any oat milk left"
+    },
+    {
+     "me": true,
+     "text": "No. I'm passing Dave's tomorrow, I'll grab one"
+    },
+    {
+     "me": false,
+     "text": "Okay. Thank you. I'll pay you back"
+    },
+    {
+     "me": true,
+     "text": "Don't worry about it. Did you sleep?"
+    },
+    {
+     "me": false,
+     "text": "Define sleep"
+    },
+    {
+     "me": true,
+     "text": "Come on. Lights off by 1, I'll knock on your door if not"
+    },
+    {
+     "me": false,
+     "text": "Fine. Goodnight Shay"
+    },
+    {
+     "me": true,
+     "text": "Left rice and stew in the fridge. Take some."
+    },
+    {
+     "me": false,
+     "text": "Thank you. I'll eat it standing up like a civilized person."
+    },
+    {
+     "me": false,
+     "text": "can I tell you something? I think I might give the fellowship back. I'm so tired"
+    },
+    {
+     "me": true,
+     "text": "do what's right for you"
+    },
+    {
+     "me": false,
+     "text": "ok. thanks for being the one person I can say it to"
+    },
+    {
+     "me": false,
+     "text": "Bin day is tomorrow, by the way."
+    },
+    {
+     "me": true,
+     "text": "On it. Going out for a run, will take it down first."
+    }
+   ],
+   "avatar": "msg_1.webp"
+  },
+  {
+   "id": "mut-conv-6",
+   "title": "Mr. Dominguez (Landlord)",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hello Shay, the building will have the water shut off on Wednesday from 9 to noon for pipe repair."
+    },
+    {
+     "me": false,
+     "text": "Ms. Okafor, the plumber is coming tomorrow between 9 and noon to fix the kitchen faucet. Someone needs to be home."
+    },
+    {
+     "me": true,
+     "text": "Thanks for the notice Mr. Dominguez. I'll tell Priya"
+    },
+    {
+     "me": false,
+     "text": "Also the hallway light on your floor is being replaced, my guy comes Friday."
+    },
+    {
+     "me": true,
+     "text": "Great, one of us will be home"
+    },
+    {
+     "me": false,
+     "text": "Hi Shay, friendly reminder that August rent is due August 1. Thank you! - Mr. Dominguez"
+    },
+    {
+     "me": true,
+     "text": "Good morning Mr. Dominguez. Priya or I will be there. Thank you"
+    },
+    {
+     "me": false,
+     "text": "Also the buzzer repair is scheduled for next week"
+    },
+    {
+     "me": true,
+     "text": "Great, thank you. It's been broken since spring"
+    },
+    {
+     "me": false,
+     "text": "I know. Parts were delayed"
+    },
+    {
+     "me": true,
+     "text": "Understood"
+    },
+    {
+     "me": true,
+     "text": "Thanks Mr. Dominguez, Priya's half is on its way and I'll send mine in a couple of days"
+    },
+    {
+     "me": true,
+     "text": "Hello Mr. Dominguez, the dishwasher is leaking at the bottom door. Could someone look at it?"
+    },
+    {
+     "me": false,
+     "text": "Thanks for letting me know. I can send Carl tomorrow afternoon."
+    },
+    {
+     "me": true,
+     "text": "That works. Priya or I will be home after 4."
+    },
+    {
+     "me": false,
+     "text": "Carl will come between 4 and 5."
+    },
+    {
+     "me": false,
+     "text": "Your kitchen faucet is still dripping? I can send him then too."
+    },
+    {
+     "me": true,
+     "text": "Yes please, it's been a slow drip for weeks"
+    },
+    {
+     "me": false,
+     "text": "Noted. He will bring a new washer."
+    },
+    {
+     "me": true,
+     "text": "Thank you!"
+    },
+    {
+     "me": false,
+     "text": "The plumber finished. Please let me know if there are any leaks"
+    },
+    {
+     "me": true,
+     "text": "Checked this morning, all dry. Thank you"
+    },
+    {
+     "me": false,
+     "text": "Reminder the hallway gets repainted next week. Please keep it clear of bikes and boxes"
+    },
+    {
+     "me": true,
+     "text": "Will do"
+    },
+    {
+     "me": false,
+     "text": "Carl was just here, says the hose is cracked. He is ordering a new one."
+    },
+    {
+     "me": true,
+     "text": "Thank you. Should we avoid using it until then?"
+    },
+    {
+     "me": false,
+     "text": "Yes please, hand wash for a few days."
+    },
+    {
+     "me": true,
+     "text": "Will do."
+    },
+    {
+     "me": false,
+     "text": "Reminder: the building will have the water shut off in two days from 10 to noon for pipe work."
+    },
+    {
+     "me": true,
+     "text": "Noted, thanks for the warning."
+    },
+    {
+     "me": false,
+     "text": "Haven't seen yours yet, please send when you can."
+    },
+    {
+     "me": true,
+     "text": "So sorry, sending tonight"
+    },
+    {
+     "me": true,
+     "text": "Also the back stairs light is out again on our floor. Not urgent."
+    },
+    {
+     "me": false,
+     "text": "I'll put it on Carl's list."
+    },
+    {
+     "me": false,
+     "text": "Trash pickup is a day later than usual this week because the truck is in for repairs"
+    },
+    {
+     "me": true,
+     "text": "Thanks for the heads up"
+    },
+    {
+     "me": false,
+     "text": "New dishwasher hose is in. Carl will install it tomorrow morning."
+    },
+    {
+     "me": true,
+     "text": "Great, I'll make sure someone is home. Thank you."
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-9",
+   "title": "Mei",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "are you booking the laser tomorrow? the sheet fills up by 9"
+    },
+    {
+     "me": true,
+     "text": "yes, 2 to 4. I need 3 sheets of chipboard cut"
+    },
+    {
+     "me": false,
+     "text": "ok I'll take 4 to 6 then. we can share a hot coffee run between"
+    },
+    {
+     "me": true,
+     "text": "deal ☕"
+    },
+    {
+     "me": false,
+     "text": "my section drawing looks like soup. can you look at it?"
+    },
+    {
+     "me": true,
+     "text": "it's 2am Mei. send a pic"
+    },
+    {
+     "me": false,
+     "text": "I can't, file's too big. tomorrow at my desk?"
+    },
+    {
+     "me": true,
+     "text": "yes. line weights are probably the problem. thicken the cut lines"
+    },
+    {
+     "me": false,
+     "text": "oh. that's so obvious. thank you 😭"
+    },
+    {
+     "me": false,
+     "text": "Prof Ibarra moved the crit to 10am. did you see?"
+    },
+    {
+     "me": true,
+     "text": "no!! thank you. I was going to print at 9"
+    },
+    {
+     "me": false,
+     "text": "Sable opens at 8. you'll make it"
+    },
+    {
+     "me": false,
+     "text": "how did your crit go?"
+    },
+    {
+     "me": true,
+     "text": "better than expected. Ibarra liked the courtyard idea. said my circulation is 'quietly confident'"
+    },
+    {
+     "me": false,
+     "text": "that's a compliment from him!"
+    },
+    {
+     "me": false,
+     "text": "mine was a bloodbath lol. he said my massing was 'a decision not yet made'"
+    },
+    {
+     "me": true,
+     "text": "ouch. you'll fix it. let's do lunch, I'll treat you to a slice"
+    },
+    {
+     "me": false,
+     "text": "you don't have to"
+    },
+    {
+     "me": true,
+     "text": "it's a slice, Mei 😂"
+    },
+    {
+     "me": false,
+     "text": "ok ok. Tony's at 1"
+    },
+    {
+     "me": false,
+     "text": "do you have an X-Acto spare? mine is dull and the store is closed"
+    },
+    {
+     "me": true,
+     "text": "yes, there's a pack in my drawer. take the whole thing"
+    },
+    {
+     "me": false,
+     "text": "you're the best. I'll replace it"
+    },
+    {
+     "me": false,
+     "text": "also the summer desk reshuffle list is up. you're two rows over from me now"
+    },
+    {
+     "me": true,
+     "text": "ugh, that's by the window with no outlet"
+    },
+    {
+     "me": false,
+     "text": "I have an extension cord. you can have it"
+    },
+    {
+     "me": true,
+     "text": "hero 🙌"
+    },
+    {
+     "me": false,
+     "text": "are you running tonight? I want to start, but I'm scared of the hill"
+    },
+    {
+     "me": true,
+     "text": "I go along the lakefront, it's flat. 6:30. I'll go slow"
+    },
+    {
+     "me": false,
+     "text": "ok. don't judge my pace"
+    },
+    {
+     "me": true,
+     "text": "never. we walk the hard parts"
+    },
+    {
+     "me": false,
+     "text": "That was actually fun?? my legs are dead but I'm happy"
+    },
+    {
+     "me": true,
+     "text": "same time next week then 😊"
+    },
+    {
+     "me": false,
+     "text": "Are you still up for ramen tomorrow? I found a place near campus with student pricing"
+    },
+    {
+     "me": true,
+     "text": "Yes! What time?"
+    },
+    {
+     "me": false,
+     "text": "Seven? I'll book"
+    },
+    {
+     "me": true,
+     "text": "Seven is good. I'll finish the section drawing before"
+    },
+    {
+     "me": false,
+     "text": "Ambitious"
+    },
+    {
+     "me": true,
+     "text": "Hopeful"
+    },
+    {
+     "me": false,
+     "text": "That was so good. We should do it every week"
+    },
+    {
+     "me": true,
+     "text": "Every week is dangerous for my budget 😂 every other week"
+    },
+    {
+     "me": false,
+     "text": "Deal. Biweekly ramen club"
+    },
+    {
+     "me": true,
+     "text": "Chair of the club: you"
+    },
+    {
+     "me": false,
+     "text": "Shay are you going to the lecture this week?"
+    },
+    {
+     "me": true,
+     "text": "Yes, I'll save you a seat"
+    },
+    {
+     "me": false,
+     "text": "Thanks! I'm bringing onigiri, want one?"
+    },
+    {
+     "me": true,
+     "text": "Yes please!! Tuna if you have it"
+    },
+    {
+     "me": false,
+     "text": "Tuna mayo, coming up 🍙"
+    },
+    {
+     "me": false,
+     "text": "Did you finish the structures problem set?"
+    },
+    {
+     "me": true,
+     "text": "Almost. Number four is killing me"
+    },
+    {
+     "me": false,
+     "text": "Same. Want to compare after the lecture?"
+    },
+    {
+     "me": true,
+     "text": "Yes, library table by the window"
+    },
+    {
+     "me": false,
+     "text": "Perfect. Also your sketch of the Terminal Tower was so good!"
+    },
+    {
+     "me": true,
+     "text": "Aw thank you Mei"
+    },
+    {
+     "me": false,
+     "text": "See you there"
+    },
+    {
+     "me": false,
+     "text": "printing boards at Sable tomorrow, want me to grab yours too?"
+    },
+    {
+     "me": true,
+     "text": "yes please, I'll Venmo you for it tonight"
+    },
+    {
+     "me": false,
+     "text": "Reading list for the fall seminar just dropped. Eight books"
+    },
+    {
+     "me": true,
+     "text": "Eight?? In two weeks?"
+    },
+    {
+     "me": false,
+     "text": "Library has most of them"
+    },
+    {
+     "me": true,
+     "text": "Library desk, here I come"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-16",
+   "title": "Lakeshore Fab Lab Desk",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": true,
+     "text": "Hi, I'd like to book the laser cutter for tomorrow afternoon, about two hours"
+    },
+    {
+     "me": false,
+     "text": "Hi Shay, tomorrow has 2:00 to 4:00 open. Want it?"
+    },
+    {
+     "me": true,
+     "text": "Yes please"
+    },
+    {
+     "me": false,
+     "text": "Booked. Reminder: bring your own material or buy from the desk. No acrylic without a pre-approved file."
+    },
+    {
+     "me": true,
+     "text": "Chipboard only, thanks"
+    },
+    {
+     "me": false,
+     "text": "Your slot starts in 30 minutes. Please check in at the desk."
+    },
+    {
+     "me": true,
+     "text": "On my way"
+    },
+    {
+     "me": true,
+     "text": "Hi, is the 3D printer on level 2 free next week?"
+    },
+    {
+     "me": false,
+     "text": "Printer 2 is down for maintenance for a few more days. Printer 3 has slots."
+    },
+    {
+     "me": true,
+     "text": "Printer 3 tomorrow morning please, for a small site model"
+    },
+    {
+     "me": false,
+     "text": "Booked 9:30 to 11:00. Max print size 8 inches."
+    },
+    {
+     "me": true,
+     "text": "That works"
+    },
+    {
+     "me": false,
+     "text": "Reminder: the lab closes early tomorrow for a staff meeting, last booking 3:00."
+    },
+    {
+     "me": true,
+     "text": "Thanks. Does that include the model shop side?"
+    },
+    {
+     "me": false,
+     "text": "Model shop has its own hours, check with Ray."
+    },
+    {
+     "me": true,
+     "text": "I left a roll of tape and a steel ruler at station 4 yesterday. Did anyone turn it in?"
+    },
+    {
+     "me": false,
+     "text": "We have a steel ruler in the lost bin with initials S.O. on it."
+    },
+    {
+     "me": true,
+     "text": "That's mine 🙏 I'll come get it today"
+    },
+    {
+     "me": false,
+     "text": "Desk is open until 7."
+    },
+    {
+     "me": true,
+     "text": "Thank you!"
+    },
+    {
+     "me": false,
+     "text": "Lakeshore Fab Lab: your laser cutter reservation for 2:00 PM tomorrow is confirmed. Bay 2."
+    },
+    {
+     "me": true,
+     "text": "Thanks, confirmed on my end."
+    },
+    {
+     "me": false,
+     "text": "Reminder: bring your own material or purchase at the desk. No MDF over 1/4 inch."
+    },
+    {
+     "me": true,
+     "text": "Is chipboard allowed?"
+    },
+    {
+     "me": false,
+     "text": "Chipboard is fine. No acrylic with film on it."
+    },
+    {
+     "me": true,
+     "text": "Got it, thank you."
+    },
+    {
+     "me": false,
+     "text": "Notice: Bay 2 will be down for a lens clean in two days. Bookings moved to Bay 3."
+    },
+    {
+     "me": true,
+     "text": "Could I get an extra 30 minutes on my slot the day after? I have a big sheet."
+    },
+    {
+     "me": false,
+     "text": "That 2:00 PM slot is followed by another booking. We can offer a 1:30 PM start instead."
+    },
+    {
+     "me": true,
+     "text": "1:30 works. Please switch it."
+    },
+    {
+     "me": false,
+     "text": "Done. Booking updated to 1:30 PM to 3:00 PM."
+    },
+    {
+     "me": false,
+     "text": "Fall semester lab safety refresher is required for all returning students. Sessions open next week."
+    },
+    {
+     "me": true,
+     "text": "How long is it?"
+    },
+    {
+     "me": false,
+     "text": "About forty minutes. Sign up on the portal."
+    },
+    {
+     "me": true,
+     "text": "Will do, thank you"
+    },
+    {
+     "me": false,
+     "text": "Your cut was left on the bed. Please collect leftover pieces."
+    },
+    {
+     "me": true,
+     "text": "Sorry! Coming back now."
+    },
+    {
+     "me": false,
+     "text": "No problem. Desk closes at 8."
+    },
+    {
+     "me": false,
+     "text": "Reminder: your next reservation is in two days at 11:00 AM, Bay 3."
+    },
+    {
+     "me": true,
+     "text": "Thanks. Is there a student rate for the 3D printer yet?"
+    },
+    {
+     "me": false,
+     "text": "Not yet. Check the board in the lobby."
+    },
+    {
+     "me": true,
+     "text": "Will do."
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-20",
+   "title": "Prof. Ibarra",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Shay, can you send me the updated section drawings before the review? PDF is fine."
+    },
+    {
+     "me": true,
+     "text": "Yes, Professor. I'll send them tonight, I'm still fixing the stair detail."
+    },
+    {
+     "me": false,
+     "text": "Good. Also your model base reads a bit heavy. Try thinner chipboard."
+    },
+    {
+     "me": true,
+     "text": "Understood, I'll rebuild it. I can use the 1/16 basswood."
+    },
+    {
+     "me": false,
+     "text": "Basswood works. Don't over-polish it."
+    },
+    {
+     "me": true,
+     "text": "Sent the PDF to your email, 14 pages 🙏🏾"
+    },
+    {
+     "me": false,
+     "text": "Received. Good progress on the courtyard section. Let's talk about circulation tomorrow."
+    },
+    {
+     "me": true,
+     "text": "Is my slot still 2:30 for the mid review?"
+    },
+    {
+     "me": false,
+     "text": "Moved to 3:15. Dr. Okoye is joining as guest critic."
+    },
+    {
+     "me": true,
+     "text": "Thank you for telling me. I'll update my calendar."
+    },
+    {
+     "me": false,
+     "text": "Your board layout is cluttered. Fewer words, more drawing."
+    },
+    {
+     "me": true,
+     "text": "Noted. I'll cut the text blocks by half and enlarge the elevation."
+    },
+    {
+     "me": false,
+     "text": "Good. Print one A1 test before the final run."
+    },
+    {
+     "me": true,
+     "text": "Will do. Sable Print Shop has a student rate."
+    },
+    {
+     "me": false,
+     "text": "Do you have a minute at the studio today? I want to see your site model."
+    },
+    {
+     "me": true,
+     "text": "Yes, I'm at my desk until about 5."
+    },
+    {
+     "me": false,
+     "text": "On my way."
+    },
+    {
+     "me": true,
+     "text": "Thank you for the feedback today. The ramp idea is clearer now."
+    },
+    {
+     "me": false,
+     "text": "The ramp is the strongest move you've made. Keep it."
+    },
+    {
+     "me": false,
+     "text": "Reminder: summer reading response is due next week. Two pages."
+    },
+    {
+     "me": true,
+     "text": "I'll have it by then. Is Kahn's essay on the list?"
+    },
+    {
+     "me": false,
+     "text": "Yes, chapter three only."
+    },
+    {
+     "me": true,
+     "text": "Laser cutter booking is full until late next week. Any workaround?"
+    },
+    {
+     "me": false,
+     "text": "Ask Ray at the model shop about the evening block. Tell him I said so."
+    },
+    {
+     "me": true,
+     "text": "Will do, thank you!"
+    },
+    {
+     "me": false,
+     "text": "Your reading response was thoughtful. Slightly overlong. Fine."
+    },
+    {
+     "me": true,
+     "text": "Thank you, Professor. I'll trim next time."
+    },
+    {
+     "me": false,
+     "text": "Are you free to help hang boards for the open house this Saturday morning? Paid in pizza."
+    },
+    {
+     "me": true,
+     "text": "Yes, I can be there by 9. Pizza is a strong offer 😄"
+    },
+    {
+     "me": false,
+     "text": "Bring tape and a level."
+    },
+    {
+     "me": false,
+     "text": "Shay, can you send me the updated section drawings before the pin-up at the end of the week?"
+    },
+    {
+     "me": true,
+     "text": "Yes, Professor. I'll upload them tomorrow morning."
+    },
+    {
+     "me": false,
+     "text": "Good. The lighting studies were strong last time."
+    },
+    {
+     "me": true,
+     "text": "Thank you, that means a lot."
+    },
+    {
+     "me": false,
+     "text": "Open house went well. Several visitors asked about your ramp drawing."
+    },
+    {
+     "me": true,
+     "text": "That makes me really happy to hear. Thank you for trusting me with the wall."
+    },
+    {
+     "me": false,
+     "text": "Rest tomorrow. You look tired."
+    },
+    {
+     "me": true,
+     "text": "I will try 🙂"
+    },
+    {
+     "me": false,
+     "text": "Reminder that the crit room has changed to 204."
+    },
+    {
+     "me": true,
+     "text": "Thanks for the heads up. I'll tell my row."
+    },
+    {
+     "me": false,
+     "text": "Office hours are moved to 3 PM today if you want to talk through the facade."
+    },
+    {
+     "me": true,
+     "text": "I'd like that. I'll bring the tracing paper study."
+    },
+    {
+     "me": false,
+     "text": "Perfect."
+    },
+    {
+     "me": true,
+     "text": "See you then."
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-15",
+   "title": "Dhruv",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Do you have the Rhino file for the section cut template? I lost mine"
+    },
+    {
+     "me": true,
+     "text": "Yes, sending to your email"
+    },
+    {
+     "me": true,
+     "text": "Check Lakeshore mail not Gmail"
+    },
+    {
+     "me": false,
+     "text": "Got it, you're a lifesaver"
+    },
+    {
+     "me": false,
+     "text": "Also is the laser cutter on level 2 broken again or is that just me"
+    },
+    {
+     "me": true,
+     "text": "It was fine yesterday. Make sure you book the slot though, the Fab Lab desk gets annoyed"
+    },
+    {
+     "me": false,
+     "text": "Booked for tomorrow 4pm. If I'm late tell them I'm dying"
+    },
+    {
+     "me": true,
+     "text": "I'll tell them you're dramatic"
+    },
+    {
+     "me": false,
+     "text": "Accurate"
+    },
+    {
+     "me": false,
+     "text": "Quick one. 1/8 inch basswood or chipboard for the massing model?"
+    },
+    {
+     "me": true,
+     "text": "Chipboard for massing, basswood only for the final. Basswood is expensive"
+    },
+    {
+     "me": false,
+     "text": "Everything's expensive. Do you know anyone selling leftover sheets"
+    },
+    {
+     "me": true,
+     "text": "Ray has an offcuts bin at the model shop, ask him nicely"
+    },
+    {
+     "me": false,
+     "text": "Ray hates me since the glue incident"
+    },
+    {
+     "me": true,
+     "text": "Ha. Tell him you'll sweep"
+    },
+    {
+     "me": false,
+     "text": "Sacrificing my dignity for wood. Fine"
+    },
+    {
+     "me": false,
+     "text": "Coffee at the studio café? I'll buy, I owe you for the template"
+    },
+    {
+     "me": true,
+     "text": "Okay. Ten minutes"
+    },
+    {
+     "me": false,
+     "text": "Iced oat latte for you right?"
+    },
+    {
+     "me": true,
+     "text": "Just a regular drip, small. Thanks"
+    },
+    {
+     "me": false,
+     "text": "Noted, no frills"
+    },
+    {
+     "me": false,
+     "text": "Prof. Ibarra moved the desk crit earlier, to the start of next week. Did you see"
+    },
+    {
+     "me": true,
+     "text": "Just saw. Thank you. That's two days less than I wanted"
+    },
+    {
+     "me": false,
+     "text": "Same. I haven't even started the elevations"
+    },
+    {
+     "me": true,
+     "text": "Start with the north one, it's the simplest. Then copy the line weights across"
+    },
+    {
+     "me": false,
+     "text": "You're so organized it's scary"
+    },
+    {
+     "me": true,
+     "text": "It's called a checklist, Dhruv"
+    },
+    {
+     "me": false,
+     "text": "I do not have one. I have vibes"
+    },
+    {
+     "me": true,
+     "text": "Vibes don't print at 36 by 48"
+    },
+    {
+     "me": false,
+     "text": "Printing tomorrow, are you using Sable or the school plotter?"
+    },
+    {
+     "me": true,
+     "text": "Sable. Cheaper per board and no queue"
+    },
+    {
+     "me": false,
+     "text": "Ok going Sable then. Want to walk over together? I'm going at ten"
+    },
+    {
+     "me": true,
+     "text": "Ten works"
+    },
+    {
+     "me": false,
+     "text": "Bringing my own tube this time. Last time I carried them like a bouquet 😂"
+    },
+    {
+     "me": true,
+     "text": "I remember. You looked like a bride"
+    },
+    {
+     "me": false,
+     "text": "Never again"
+    },
+    {
+     "me": false,
+     "text": "do you still have the structures notes from spring"
+    },
+    {
+     "me": true,
+     "text": "Yes, scanned. Sending to your email"
+    },
+    {
+     "me": false,
+     "text": "thank you thank you"
+    },
+    {
+     "me": true,
+     "text": "Don't lose them this time 😅"
+    },
+    {
+     "me": false,
+     "text": "i'm printing a section model tomorrow, the plotter line is long"
+    },
+    {
+     "me": true,
+     "text": "Go early, before 10. Lines are shorter"
+    },
+    {
+     "me": false,
+     "text": "smart. coffee after?"
+    },
+    {
+     "me": true,
+     "text": "Café at noon"
+    },
+    {
+     "me": false,
+     "text": "plotter jammed again lol, i'm going to live here"
+    },
+    {
+     "me": true,
+     "text": "Bring snacks and a sleeping bag"
+    },
+    {
+     "me": false,
+     "text": "Did Ibarra post the crit order yet?"
+    },
+    {
+     "me": true,
+     "text": "Not yet. Probably tonight"
+    },
+    {
+     "me": false,
+     "text": "I hope I'm not first. Can't face it"
+    },
+    {
+     "me": true,
+     "text": "You'll do great. Your section drawings are gorgeous"
+    },
+    {
+     "me": false,
+     "text": "Stop, you're making me blush. Coffee run?"
+    },
+    {
+     "me": true,
+     "text": "I'm skipping the café today, too pricey. I have tea at my desk"
+    },
+    {
+     "me": false,
+     "text": "I'll bring you one. My treat"
+    },
+    {
+     "me": true,
+     "text": "You don't have to!"
+    },
+    {
+     "me": false,
+     "text": "Already ordered. Oat latte?"
+    },
+    {
+     "me": true,
+     "text": "Thank you Dhruv 🥹"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-18",
+   "title": "Uncle Segun",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Good morning Shay. Your Uncle Segun here. How is school?"
+    },
+    {
+     "me": true,
+     "text": "Good morning Uncle! School is going well, thank you sir"
+    },
+    {
+     "me": false,
+     "text": "That is good. Remember, discipline and prayer. Your father would be proud"
+    },
+    {
+     "me": true,
+     "text": "Thank you Uncle 🙏🏾"
+    },
+    {
+     "me": false,
+     "text": "Are you eating well? You are too thin on the video call"
+    },
+    {
+     "me": true,
+     "text": "I am eating Uncle, I promise. I cook jollof in bulk"
+    },
+    {
+     "me": false,
+     "text": "Good. Do not live on noodles"
+    },
+    {
+     "me": true,
+     "text": "Lol, only sometimes"
+    },
+    {
+     "me": false,
+     "text": "I am sending greetings from Ibadan. The family is planning a small celebration in September. Chidi will explain"
+    },
+    {
+     "me": true,
+     "text": "He told me already, I will record a message for you"
+    },
+    {
+     "me": false,
+     "text": "That is kind. Do not make it long, I get shy"
+    },
+    {
+     "me": true,
+     "text": "30 seconds, Uncle. Short and sweet"
+    },
+    {
+     "me": false,
+     "text": "Shay, please send me your address in Cleveland again. I want to post you something small"
+    },
+    {
+     "me": true,
+     "text": "Uncle, you don't need to send anything"
+    },
+    {
+     "me": false,
+     "text": "Do not argue with your elder 😄"
+    },
+    {
+     "me": true,
+     "text": "Okay Uncle. I'll email it so I don't mix up the apartment number"
+    },
+    {
+     "me": false,
+     "text": "Good. Email is better"
+    },
+    {
+     "me": true,
+     "text": "Thank you Uncle. I appreciate you"
+    },
+    {
+     "me": false,
+     "text": "Shay, good morning. I hope school is going well."
+    },
+    {
+     "me": true,
+     "text": "Good morning Uncle. It's going fine, thank you. Very busy."
+    },
+    {
+     "me": false,
+     "text": "Good, good. Study hard. Education is the one thing nobody can take."
+    },
+    {
+     "me": true,
+     "text": "Yes Uncle."
+    },
+    {
+     "me": false,
+     "text": "Did your cousin Funmi reach you? She wants advice about studying abroad."
+    },
+    {
+     "me": true,
+     "text": "Not yet. Give her my number, I'll gladly help."
+    },
+    {
+     "me": false,
+     "text": "I will. She is thinking about Canada."
+    },
+    {
+     "me": true,
+     "text": "Canada is cold but the schools are good. I'll tell her about applications."
+    },
+    {
+     "me": false,
+     "text": "Thank you. Remember the family in your prayers."
+    },
+    {
+     "me": true,
+     "text": "Always."
+    },
+    {
+     "me": false,
+     "text": "I saw the picture of your drawing on Instagram. Very nice, very neat."
+    },
+    {
+     "me": true,
+     "text": "Thank you Uncle! It's the old courthouse downtown 😊"
+    },
+    {
+     "me": false,
+     "text": "You will be a great architect. Build me a house in Ikeja one day."
+    },
+    {
+     "me": true,
+     "text": "Deal. A big one with a veranda 😄"
+    },
+    {
+     "me": false,
+     "text": "Shay, how is your school going? Your mother says you are working hard."
+    },
+    {
+     "me": true,
+     "text": "Good afternoon Uncle. Yes sir, it is going well. Busy semester."
+    },
+    {
+     "me": false,
+     "text": "Good. Education is the only inheritance nobody can take. Keep it up."
+    },
+    {
+     "me": true,
+     "text": "Thank you Uncle. I appreciate it."
+    },
+    {
+     "me": false,
+     "text": "My football team won again yesterday. You should have seen it 😄"
+    },
+    {
+     "me": true,
+     "text": "Congratulations Uncle! Greet Aunty for me."
+    },
+    {
+     "me": false,
+     "text": "God bless your studies. Greet your roommate for me"
+    },
+    {
+     "me": false,
+     "text": "God keep you. Greetings from your Aunty."
+    },
+    {
+     "me": true,
+     "text": "Greet her for me, Uncle. Thank you."
+    },
+    {
+     "me": true,
+     "text": "I will. Her name is Priya, she's lovely"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-22",
+   "title": "RTA Customer Service",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "RTA: You are subscribed to service alerts for Route 19. Msg&data rates may apply. Reply STOP to cancel."
+    },
+    {
+     "me": false,
+     "text": "RTA Alert: Route 19 is running 15 min behind due to construction on Professor Ave."
+    },
+    {
+     "me": false,
+     "text": "RTA Alert: Route 19 service has returned to normal."
+    },
+    {
+     "me": true,
+     "text": "Hi, I think I lost my student pass on the bus today. Can I get a replacement?"
+    },
+    {
+     "me": false,
+     "text": "RTA Customer Service: Hello. Sorry to hear that. Student passes can be replaced at the Tower City office. A $10 fee applies."
+    },
+    {
+     "me": true,
+     "text": "Is there a way to waive the fee? I'm a full-time student."
+    },
+    {
+     "me": false,
+     "text": "The fee can't be waived, but if your pass is found and turned in, we'll contact you for free pickup."
+    },
+    {
+     "me": true,
+     "text": "Okay, thank you. Can you check if anything was turned in on Route 19?"
+    },
+    {
+     "me": false,
+     "text": "Checking now. Please describe the pass."
+    },
+    {
+     "me": true,
+     "text": "Blue card, Lakeshore U logo, my photo on it. Name Shay Okafor."
+    },
+    {
+     "me": false,
+     "text": "Good news, a pass matching that was turned in to the Windermere depot. You can pick it up with a photo ID."
+    },
+    {
+     "me": true,
+     "text": "That is such a relief!! Thank you 🙏🏾"
+    },
+    {
+     "me": false,
+     "text": "RTA Alert: Detour on Route 51 this weekend for the street festival."
+    },
+    {
+     "me": false,
+     "text": "RTA Alert: Red Line trains delayed due to a signal problem at Tower City."
+    },
+    {
+     "me": false,
+     "text": "RTA Alert: Red Line service has resumed."
+    },
+    {
+     "me": false,
+     "text": "RTA: Your student pass expires at the end of this month. Renew online with your student ID."
+    },
+    {
+     "me": true,
+     "text": "Does the renewal require a new enrollment letter?"
+    },
+    {
+     "me": false,
+     "text": "Current students can renew with a student ID number. No letter needed."
+    },
+    {
+     "me": true,
+     "text": "Great, renewed it just now."
+    },
+    {
+     "me": false,
+     "text": "RTA: Your pass balance is $12.25. Reload at any ticket machine or in the app."
+    },
+    {
+     "me": true,
+     "text": "Hi, my bus pass isn't scanning on the 19 line. Is there a fix?"
+    },
+    {
+     "me": false,
+     "text": "Sorry to hear that. Is the card the student pass or the regular fare card?"
+    },
+    {
+     "me": true,
+     "text": "Student pass."
+    },
+    {
+     "me": false,
+     "text": "Student passes expire at the end of each term. Please visit the Tower City office with ID to renew."
+    },
+    {
+     "me": true,
+     "text": "Understood. What are the office hours?"
+    },
+    {
+     "me": false,
+     "text": "Weekdays, 8 AM to 5 PM."
+    },
+    {
+     "me": true,
+     "text": "Thank you."
+    },
+    {
+     "me": false,
+     "text": "Service alert: Line 19 detour near Fulton Rd due to road work through the end of the week."
+    },
+    {
+     "me": false,
+     "text": "Service alert: Healthline running with 15 minute delays."
+    },
+    {
+     "me": true,
+     "text": "I renewed my pass today but the app still shows it as expired."
+    },
+    {
+     "me": false,
+     "text": "Thanks for reaching out. It can take up to 24 hours to sync. Please try logging out and in."
+    },
+    {
+     "me": true,
+     "text": "Did that. Still expired."
+    },
+    {
+     "me": false,
+     "text": "Can you give us the last 4 digits of your card?"
+    },
+    {
+     "me": true,
+     "text": "7392"
+    },
+    {
+     "me": false,
+     "text": "Found it. We've manually refreshed your pass. Please try again."
+    },
+    {
+     "me": true,
+     "text": "It works now, thank you so much."
+    },
+    {
+     "me": false,
+     "text": "Happy to help. Please rate your experience."
+    },
+    {
+     "me": false,
+     "text": "Service alert: Line 51 normal service has resumed."
+    },
+    {
+     "me": false,
+     "text": "RTA Alert: Route 19 will be on a detour starting tomorrow morning. See the RTA site for details."
+    },
+    {
+     "me": false,
+     "text": "RTA: Your pass balance is $8.50."
+    },
+    {
+     "me": false,
+     "text": "Reminder: fare increase announced for next month. See rtaonline for details."
+    },
+    {
+     "me": true,
+     "text": "Ugh, thanks for the notice."
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-13",
+   "title": "Chidi (cousin)",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Cuzzzz you alive? Mama said you've gone quiet on the family group"
+    },
+    {
+     "me": true,
+     "text": "Alive oh 😅 studio has been swallowing me. Crits all week"
+    },
+    {
+     "me": false,
+     "text": "Architecture people and suffering, same thing"
+    },
+    {
+     "me": true,
+     "text": "Lol. How's Columbus? Still the night shifts?"
+    },
+    {
+     "me": false,
+     "text": "Yeah three nights a week at the hospital. Pay is ok, my back is not"
+    },
+    {
+     "me": false,
+     "text": "I got into the nursing bridge program btw!!"
+    },
+    {
+     "me": true,
+     "text": "WAIT. Chidi!! 🎉🎉 congratulations"
+    },
+    {
+     "me": false,
+     "text": "Starts in January. My mum already told the whole church"
+    },
+    {
+     "me": true,
+     "text": "Of course she did 😂 I'm so proud of you"
+    },
+    {
+     "me": false,
+     "text": "Don't tell Aunty Ngozi yet, I want to tell her myself"
+    },
+    {
+     "me": true,
+     "text": "My lips are sealed"
+    },
+    {
+     "me": false,
+     "text": "Settle a debate. Party jollof or Ghana jollof"
+    },
+    {
+     "me": true,
+     "text": "Chidi do not start this with me"
+    },
+    {
+     "me": false,
+     "text": "I'm just asking 😭"
+    },
+    {
+     "me": true,
+     "text": "Party jollof. Smoky bottom. Non negotiable"
+    },
+    {
+     "me": false,
+     "text": "Knew I liked you"
+    },
+    {
+     "me": false,
+     "text": "My roommate made it with basmati. I almost called the police"
+    },
+    {
+     "me": true,
+     "text": "Report him"
+    },
+    {
+     "me": true,
+     "text": "I cooked a huge pot last weekend. Eating it all week. Rice is my best friend rn"
+    },
+    {
+     "me": false,
+     "text": "Same. Budget life"
+    },
+    {
+     "me": false,
+     "text": "Uncle Segun is turning 60 in September. Family wants to do a video thing with everyone saying a few words"
+    },
+    {
+     "me": true,
+     "text": "I can do a short one. 30 seconds?"
+    },
+    {
+     "me": false,
+     "text": "Perfect. I'll collect them and edit"
+    },
+    {
+     "me": true,
+     "text": "Send me the deadline"
+    },
+    {
+     "me": false,
+     "text": "End of August is fine"
+    },
+    {
+     "me": true,
+     "text": "Noted. I'll put it in my calendar"
+    },
+    {
+     "me": false,
+     "text": "Of course you will 😂 color coded?"
+    },
+    {
+     "me": true,
+     "text": "Green for family. Obviously"
+    },
+    {
+     "me": false,
+     "text": "Cousin, I'm applying for a master's in Toronto. Can you read my statement?"
+    },
+    {
+     "me": true,
+     "text": "Of course! Send it. Deadline when?"
+    },
+    {
+     "me": false,
+     "text": "End of the month. Sending now"
+    },
+    {
+     "me": true,
+     "text": "Got it. First paragraph is strong, the second one repeats itself"
+    },
+    {
+     "me": false,
+     "text": "Playlist swap. Send me what you've been running to"
+    },
+    {
+     "me": false,
+     "text": "Fair. I'll cut it"
+    },
+    {
+     "me": true,
+     "text": "Also mention your internship, it shows initiative"
+    },
+    {
+     "me": false,
+     "text": "Thank you o. You're the best 🙏🏾"
+    },
+    {
+     "me": true,
+     "text": "Anytime. Send the new draft when it's ready"
+    },
+    {
+     "me": true,
+     "text": "Lo-fi for studio, Afrobeats for the lakefront. Sending the run one"
+    },
+    {
+     "me": true,
+     "text": "It's mostly Rema and Tems, some older Fela when I need to feel serious"
+    },
+    {
+     "me": false,
+     "text": "Fela for running is wild. Ok I'm trying it tomorrow"
+    },
+    {
+     "me": false,
+     "text": "Cuz!! Did Mama send you the naming ceremony pictures?"
+    },
+    {
+     "me": true,
+     "text": "Yes!! Congratulations Chidi. He looks just like you 😄"
+    },
+    {
+     "me": false,
+     "text": "Poor child 😂 His name is Obinna Michael."
+    },
+    {
+     "me": true,
+     "text": "Strong name. Is your wife resting?"
+    },
+    {
+     "me": false,
+     "text": "Her mother is staying with us, so she's being spoiled"
+    },
+    {
+     "me": true,
+     "text": "Good. Tell her I said well done."
+    },
+    {
+     "me": false,
+     "text": "Will do. When are you coming back to visit?"
+    },
+    {
+     "me": true,
+     "text": "Not sure yet. Flights are expensive. Maybe after I graduate."
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-10",
+   "title": "Aunty Ngozi",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Good morning my dear Shay. How are you keeping? Your mother told me you are working too hard"
+    },
+    {
+     "me": true,
+     "text": "Good morning Aunty! I'm okay, just busy with school. How is everyone at home?"
+    },
+    {
+     "me": false,
+     "text": "We are well, thank God. Light has been bad this month but we manage. Chidi is in Cleveland, did he call you?"
+    },
+    {
+     "me": true,
+     "text": "He did! We are meeting next week for suya"
+    },
+    {
+     "me": false,
+     "text": "Very good. Make sure he eats vegetables. That boy lives on bread"
+    },
+    {
+     "me": true,
+     "text": "I will 😂"
+    },
+    {
+     "me": false,
+     "text": "God bless the work of your hands. I am praying for your exams"
+    },
+    {
+     "me": true,
+     "text": "Thank you Aunty 🙏🏾"
+    },
+    {
+     "me": false,
+     "text": "Shay, my daughter Ada is applying to schools abroad. Can you advise her on the portfolio?"
+    },
+    {
+     "me": true,
+     "text": "Of course. Ask her to message me. I can look at her drawings and tell her what schools like"
+    },
+    {
+     "me": false,
+     "text": "She will be so happy. She admires you. She says you draw buildings like they are breathing"
+    },
+    {
+     "me": true,
+     "text": "That's so kind. Tell her to send ten pieces and I'll pick the strongest"
+    },
+    {
+     "me": false,
+     "text": "Happy Sunday. Did you go to church there?"
+    },
+    {
+     "me": true,
+     "text": "I went to the service near campus. They sing well"
+    },
+    {
+     "me": false,
+     "text": "Good. Never stop praying, my dear. Whatever you are going through, God sees it"
+    },
+    {
+     "me": true,
+     "text": "Amen Aunty. I'm okay, truly"
+    },
+    {
+     "me": false,
+     "text": "Ada sent her drawings to your email. Please see them when you can"
+    },
+    {
+     "me": true,
+     "text": "Got them! The sketch of the Lagos market is beautiful. I'll send notes by the weekend"
+    },
+    {
+     "me": false,
+     "text": "God bless you. I will send a little something for you through Tobe"
+    },
+    {
+     "me": true,
+     "text": "Aunty no, please, you don't have to"
+    },
+    {
+     "me": false,
+     "text": "It is not a discussion. Eat well"
+    },
+    {
+     "me": true,
+     "text": "Thank you. I love you Aunty"
+    },
+    {
+     "me": true,
+     "text": "Sent Ada my notes. Tell her to cut two pieces and add one plan drawing"
+    },
+    {
+     "me": false,
+     "text": "She is already working on it. God bless you my dear"
+    },
+    {
+     "me": false,
+     "text": "Good morning Shay. How is school? Are you eating well?"
+    },
+    {
+     "me": true,
+     "text": "Good morning Aunty. School is busy but good. I'm eating, don't worry 😊"
+    },
+    {
+     "me": false,
+     "text": "Your mother tells me you are too thin. Eat beans and plantain."
+    },
+    {
+     "me": true,
+     "text": "I will, Aunty. I cooked beans last weekend."
+    },
+    {
+     "me": false,
+     "text": "Good girl. I am sending you a small something this month, just to buy food."
+    },
+    {
+     "me": true,
+     "text": "Aunty no, you don't have to!"
+    },
+    {
+     "me": false,
+     "text": "Don't argue with me. It's only for food."
+    },
+    {
+     "me": true,
+     "text": "Thank you so much, Aunty. God bless you 🙏🏾"
+    },
+    {
+     "me": false,
+     "text": "How is your roommate? The Indian girl, she is kind?"
+    },
+    {
+     "me": true,
+     "text": "Priya is very kind. We look after each other."
+    },
+    {
+     "me": false,
+     "text": "Good. Stay close to good people."
+    },
+    {
+     "me": false,
+     "text": "Our church is having a harvest thanksgiving next month. Your mother will cook."
+    },
+    {
+     "me": true,
+     "text": "I wish I could be there. Send me photos please"
+    },
+    {
+     "me": false,
+     "text": "I will. Pray for your cousin's exams."
+    },
+    {
+     "me": true,
+     "text": "I already did. Tell him I said good luck!"
+    },
+    {
+     "me": false,
+     "text": "Wake up early, drink water, God is good."
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-4",
+   "title": "Jonah",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "crit moved to 2pm tomorrow, Ibarra's flight got delayed"
+    },
+    {
+     "me": true,
+     "text": "thanks for the heads up"
+    },
+    {
+     "me": false,
+     "text": "also can I borrow your 1:200 scale ruler?"
+    },
+    {
+     "me": true,
+     "text": "it's in the blue tray at my desk, take it"
+    },
+    {
+     "me": false,
+     "text": "legend 🙏"
+    },
+    {
+     "me": false,
+     "text": "Are you still running the lakefront loop in the mornings? Thinking of joining"
+    },
+    {
+     "me": false,
+     "text": "Running this weekend? Lakefront, I'll bring water"
+    },
+    {
+     "me": true,
+     "text": "Yes. Seven? Before the heat"
+    },
+    {
+     "me": false,
+     "text": "Seven is criminal but ok"
+    },
+    {
+     "me": true,
+     "text": "That's when the lake is quiet"
+    },
+    {
+     "me": false,
+     "text": "Fine, poet"
+    },
+    {
+     "me": false,
+     "text": "Jonah, did you hear about the free pizza in the atrium today?"
+    },
+    {
+     "me": true,
+     "text": "no! what time"
+    },
+    {
+     "me": false,
+     "text": "already gone 😭 I got the last two slices"
+    },
+    {
+     "me": true,
+     "text": "you're dead to me"
+    },
+    {
+     "me": false,
+     "text": "I'll bring you a slice next time. Promise"
+    },
+    {
+     "me": false,
+     "text": "Heads up, the Tremont bus now skips the stop by the library"
+    },
+    {
+     "me": true,
+     "text": "Ugh. That's my stop"
+    },
+    {
+     "me": false,
+     "text": "Walk two blocks. Think of it as cardio"
+    },
+    {
+     "me": true,
+     "text": "I run along the lake and you're giving me cardio advice 😂"
+    },
+    {
+     "me": false,
+     "text": "Touché"
+    },
+    {
+     "me": true,
+     "text": "lol okay. also can I borrow your scale ruler tomorrow"
+    },
+    {
+     "me": false,
+     "text": "yeah it's in my bag. coffee at the café at 9?"
+    },
+    {
+     "me": true,
+     "text": "see you there"
+    },
+    {
+     "me": true,
+     "text": "returning your ruler, left it on your desk"
+    },
+    {
+     "me": false,
+     "text": "thx!! you saved my elevation"
+    },
+    {
+     "me": true,
+     "text": "anytime"
+    },
+    {
+     "me": false,
+     "text": "yo are you still running at the lakefront this week"
+    },
+    {
+     "me": false,
+     "text": "There's a free outdoor movie at the park tonight. Bring a blanket"
+    },
+    {
+     "me": true,
+     "text": "yes, mornings before 8. it's cooler"
+    },
+    {
+     "me": false,
+     "text": "i'll come, i need to stop being a couch potato"
+    },
+    {
+     "me": true,
+     "text": "lol you said that in May"
+    },
+    {
+     "me": false,
+     "text": "and i meant it then too"
+    },
+    {
+     "me": true,
+     "text": "Free is my favorite price. What's showing?"
+    },
+    {
+     "me": false,
+     "text": "Some old Spike Lee thing"
+    },
+    {
+     "me": true,
+     "text": "Do the Right Thing??"
+    },
+    {
+     "me": false,
+     "text": "That one. You in?"
+    },
+    {
+     "me": true,
+     "text": "I'm in. I'll bring snacks from Dave's"
+    },
+    {
+     "me": false,
+     "text": "Not the cheese puffs again"
+    },
+    {
+     "me": true,
+     "text": "The cheese puffs are the point"
+    },
+    {
+     "me": false,
+     "text": "Fine. Cheese puffs approved. See you at eight"
+    },
+    {
+     "me": true,
+     "text": "Bringing two bags 😄"
+    },
+    {
+     "me": true,
+     "text": "Meet at the Edgewater lot, 7:15"
+    },
+    {
+     "me": false,
+     "text": "ok. bringing water. you bringing the playlist?"
+    },
+    {
+     "me": true,
+     "text": "Afrobeats mix, no complaints"
+    },
+    {
+     "me": false,
+     "text": "never complaining about burna"
+    },
+    {
+     "me": false,
+     "text": "my legs are dead. you're a monster"
+    },
+    {
+     "me": true,
+     "text": "Four miles. Stretch properly or tomorrow will be worse"
+    },
+    {
+     "me": false,
+     "text": "are you going to the rooftop thing on Friday?"
+    },
+    {
+     "me": true,
+     "text": "maybe. depends how my model goes"
+    },
+    {
+     "me": false,
+     "text": "classic you 😂 come for an hour"
+    },
+    {
+     "me": false,
+     "text": "ok fine, same time again in two days?"
+    },
+    {
+     "me": true,
+     "text": "Yes. Bring a hat, the sun's brutal"
+    },
+    {
+     "me": false,
+     "text": "yo are you at the studio tonight"
+    },
+    {
+     "me": true,
+     "text": "Yeah till midnight probably. Gluing hell"
+    },
+    {
+     "me": false,
+     "text": "I'm bringing a pizza. Half pepperoni, half veggie"
+    },
+    {
+     "me": true,
+     "text": "You're a saint"
+    },
+    {
+     "me": false,
+     "text": "Do you have the X-Acto set? Mine snapped"
+    },
+    {
+     "me": true,
+     "text": "Second drawer, left. Don't lose the cap this time"
+    },
+    {
+     "me": false,
+     "text": "No promises 😂"
+    },
+    {
+     "me": false,
+     "text": "See you in 20, pizza at the front desk"
+    },
+    {
+     "me": true,
+     "text": "Thank you!! Saving you a seat by the window"
+    },
+    {
+     "me": true,
+     "text": "That pizza saved my night. Owe you one"
+    },
+    {
+     "me": false,
+     "text": "Pay me in bass wood scraps"
+    },
+    {
+     "me": true,
+     "text": "Deal"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-21",
+   "title": "Marcus",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hey Shay, it's Marcus from the lakefront run group. Folake gave me your number 🙂"
+    },
+    {
+     "me": true,
+     "text": "Hi Marcus! Yes she told me. You do the early loop right?"
+    },
+    {
+     "me": false,
+     "text": "Yep. Meet at the boathouse at 6:30 most mornings. Easy pace, about 5 miles."
+    },
+    {
+     "me": true,
+     "text": "That early is brutal but okay. I'll try tomorrow"
+    },
+    {
+     "me": false,
+     "text": "No pressure. Wear something reflective, the path is dark that early."
+    },
+    {
+     "me": true,
+     "text": "Made it! My legs hate me 😭"
+    },
+    {
+     "me": false,
+     "text": "Ha, that's day one. Day three is worse, then it clicks."
+    },
+    {
+     "me": true,
+     "text": "Are we still on for tomorrow? Looks like rain."
+    },
+    {
+     "me": false,
+     "text": "Light rain is fine. Lightning, we bail."
+    },
+    {
+     "me": true,
+     "text": "Deal"
+    },
+    {
+     "me": false,
+     "text": "We're doing the long route to Edgewater on Sunday. 8 miles. You in?"
+    },
+    {
+     "me": true,
+     "text": "8 is a lot. Can I turn back at the halfway point if I need to?"
+    },
+    {
+     "me": false,
+     "text": "Of course. Nobody gets left behind. Someone will turn back with you."
+    },
+    {
+     "me": true,
+     "text": "I did the whole thing!!! Please tell me there are bagels"
+    },
+    {
+     "me": false,
+     "text": "There are bagels. Someone brought cream cheese too 🎉"
+    },
+    {
+     "me": true,
+     "text": "Heads up, my knee is a little sore. Skipping the next two mornings."
+    },
+    {
+     "me": false,
+     "text": "Smart. Ice it and stretch. Don't push through knee stuff."
+    },
+    {
+     "me": true,
+     "text": "Thanks coach 😅"
+    },
+    {
+     "me": false,
+     "text": "Back this week? We're trying a new playlist, all Afrobeats because someone requested it."
+    },
+    {
+     "me": true,
+     "text": "That someone was me. Burna, Tems, Rema."
+    },
+    {
+     "me": false,
+     "text": "Already loaded. Bring speaker if you have one."
+    },
+    {
+     "me": true,
+     "text": "I only have my phone but I'll turn it all the way up"
+    },
+    {
+     "me": false,
+     "text": "There's a 5K at Edgewater next month. Free entry for locals. Want to sign up with us?"
+    },
+    {
+     "me": true,
+     "text": "Free is my favorite price. Send me the link?"
+    },
+    {
+     "me": false,
+     "text": "Registration is through the club page, I'll add you to the roster myself."
+    },
+    {
+     "me": true,
+     "text": "Thank you Marcus 🙏🏾"
+    },
+    {
+     "me": false,
+     "text": "hey stranger, you alive? haven't heard from you in a bit"
+    },
+    {
+     "me": true,
+     "text": "Barely 😂 studio eats everything. How are you?"
+    },
+    {
+     "me": false,
+     "text": "good, got the junior drafter job at that firm downtown"
+    },
+    {
+     "me": true,
+     "text": "Marcus!! Congratulations!"
+    },
+    {
+     "me": false,
+     "text": "they use Revit all day. i'm learning fast"
+    },
+    {
+     "me": true,
+     "text": "Proud of you. Treat yourself"
+    },
+    {
+     "me": false,
+     "text": "will do. lets get tacos soon"
+    },
+    {
+     "me": false,
+     "text": "You seem quieter lately. Everything okay?"
+    },
+    {
+     "me": true,
+     "text": "Just a heavy studio stretch. Running is the only time my head is quiet."
+    },
+    {
+     "me": false,
+     "text": "Then keep coming. The lake doesn't judge."
+    },
+    {
+     "me": true,
+     "text": "Tacos near campus? I'm broke, don't judge 😅"
+    },
+    {
+     "me": false,
+     "text": "my treat, you got me through studio in undergrad"
+    },
+    {
+     "me": true,
+     "text": "Okay okay. 7pm?"
+    },
+    {
+     "me": false,
+     "text": "7 works"
+    },
+    {
+     "me": false,
+     "text": "Group run moved to 7 tomorrow because of the heat."
+    },
+    {
+     "me": true,
+     "text": "Perfect, I'll be there."
+    },
+    {
+     "me": false,
+     "text": "Bring water. I mean it 😄"
+    },
+    {
+     "me": false,
+     "text": "running late, order me the al pastor"
+    },
+    {
+     "me": true,
+     "text": "Already did. Hurry up."
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-14",
+   "title": "Kemi",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Shay!! Are you coming to Chicago for Dami's wedding or not. I need to know for the aso-ebi"
+    },
+    {
+     "me": true,
+     "text": "I want to. Let me check bus prices"
+    },
+    {
+     "me": false,
+     "text": "Bus?? Girl"
+    },
+    {
+     "me": true,
+     "text": "Flights are a dream I cannot afford right now 😂"
+    },
+    {
+     "me": false,
+     "text": "I'll look for someone driving from Cleveland. Dami's cousin lives in Strongsville"
+    },
+    {
+     "me": true,
+     "text": "That would be amazing"
+    },
+    {
+     "me": false,
+     "text": "Colour is emerald green and gold. I'll send you the fabric details"
+    },
+    {
+     "me": true,
+     "text": "Send it. I might ask the tailor Folake knows"
+    },
+    {
+     "me": false,
+     "text": "Folake in CLE? The one with the food page?"
+    },
+    {
+     "me": true,
+     "text": "Yes her. She knows everyone"
+    },
+    {
+     "me": false,
+     "text": "Ok good. Also did you see the new hair place on Pearl Road"
+    },
+    {
+     "me": true,
+     "text": "No?"
+    },
+    {
+     "me": false,
+     "text": "Knotless braids for $120. Half of what Chicago charges"
+    },
+    {
+     "me": true,
+     "text": "Hmm. Maybe after the semester. I do my own twists now to save 😅"
+    },
+    {
+     "me": false,
+     "text": "You and your discipline"
+    },
+    {
+     "me": false,
+     "text": "Ok confirmed, ride from Strongsville, leaves early in the morning. You'd be back late on the last day"
+    },
+    {
+     "me": true,
+     "text": "That morning is a studio morning but I can work on the model there. Let me tell my desk neighbors"
+    },
+    {
+     "me": false,
+     "text": "Just tell them it's a wedding. They'll understand"
+    },
+    {
+     "me": true,
+     "text": "Lol. Fine"
+    },
+    {
+     "me": false,
+     "text": "Fabric arrived! Four yards each. Shipping yours, what's your address?"
+    },
+    {
+     "me": true,
+     "text": "Tremont, second floor. The buzzer is broken so text me when it's there"
+    },
+    {
+     "me": false,
+     "text": "Broken buzzer is a lifestyle"
+    },
+    {
+     "me": true,
+     "text": "Mr. Dominguez says next week. He's said that since March"
+    },
+    {
+     "me": false,
+     "text": "Landlords 🙄"
+    },
+    {
+     "me": false,
+     "text": "Tailor quote came back. $85 for the skirt and top"
+    },
+    {
+     "me": true,
+     "text": "Ok. That's... fine. I can do that"
+    },
+    {
+     "me": false,
+     "text": "You sure? I can cover half"
+    },
+    {
+     "me": true,
+     "text": "No no, I'm okay. Thank you though"
+    },
+    {
+     "me": false,
+     "text": "You always say you're okay 😅 How's school actually"
+    },
+    {
+     "me": true,
+     "text": "Busy. Good busy. Final review in the fall, I'm just trying to survive until then"
+    },
+    {
+     "me": false,
+     "text": "Call me this weekend. I want to hear your voice not read it"
+    },
+    {
+     "me": true,
+     "text": "Tomorrow afternoon?"
+    },
+    {
+     "me": false,
+     "text": "Tomorrow. I'll call at 2"
+    },
+    {
+     "me": false,
+     "text": "are you free to look over my portfolio layout this weekend"
+    },
+    {
+     "me": true,
+     "text": "Yes. Send me the PDF and I'll comment"
+    },
+    {
+     "me": false,
+     "text": "you're the only one who gives real feedback"
+    },
+    {
+     "me": true,
+     "text": "Because I like you. Mostly."
+    },
+    {
+     "me": false,
+     "text": "sent. Be gentle"
+    },
+    {
+     "me": false,
+     "text": "Girl, are we still on for Saturday brunch?"
+    },
+    {
+     "me": true,
+     "text": "Yes! Somewhere cheap but good 😅"
+    },
+    {
+     "me": false,
+     "text": "There's a diner on Professor with $7 pancakes"
+    },
+    {
+     "me": true,
+     "text": "Say less"
+    },
+    {
+     "me": false,
+     "text": "11 okay? I need to sleep in"
+    },
+    {
+     "me": true,
+     "text": "11 works. I'll bus over"
+    },
+    {
+     "me": false,
+     "text": "I can pick you up, I have the car"
+    },
+    {
+     "me": true,
+     "text": "Even better. Thank you Kemi"
+    },
+    {
+     "me": false,
+     "text": "Did you see Ada's wedding invite? Lagos in December!"
+    },
+    {
+     "me": true,
+     "text": "I did. I don't know if I can travel. Flights are impossible right now"
+    },
+    {
+     "me": false,
+     "text": "We'll figure it out. Saturday we talk 💛"
+    },
+    {
+     "me": true,
+     "text": "💛"
+    },
+    {
+     "me": true,
+     "text": "Okay: page 3 type is too small, page 7 great, page 9 needs more white space"
+    },
+    {
+     "me": false,
+     "text": "ok that's fair actually"
+    },
+    {
+     "me": true,
+     "text": "Your fabric came today! The colour is unreal 😍"
+    },
+    {
+     "me": true,
+     "text": "Dinner on me when you get the internship, jollof"
+    },
+    {
+     "me": false,
+     "text": "deal 😂"
+    },
+    {
+     "me": true,
+     "text": "Go to sleep Kemi"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-11",
+   "title": "Sable Print Shop",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Sable Print Shop: Your order #4471 (2 boards, 24x36 matte) has been received. Estimated ready: tomorrow 11 AM."
+    },
+    {
+     "me": true,
+     "text": "Can I get it by 9? I have a crit at 10"
+    },
+    {
+     "me": false,
+     "text": "We open at 8. We'll push yours to the front, come in at 8:30"
+    },
+    {
+     "me": true,
+     "text": "Thank you so much!"
+    },
+    {
+     "me": false,
+     "text": "Sable Print Shop: Order #4471 is ready for pickup. Total $38.50."
+    },
+    {
+     "me": false,
+     "text": "Sable Print Shop: Your order #4602 (1 board, 30x40 mounted) has been received."
+    },
+    {
+     "me": false,
+     "text": "Sable Print Shop: Order #4602 is ready for pickup. Total $27.00."
+    },
+    {
+     "me": true,
+     "text": "Hi, can I reprint one sheet from that order? There's a smear on the corner"
+    },
+    {
+     "me": false,
+     "text": "Sure, bring it in and we'll reprint at no charge"
+    },
+    {
+     "me": false,
+     "text": "Sable Print Shop: Summer hours begin next week. Mon-Fri 8 AM to 6 PM."
+    },
+    {
+     "me": true,
+     "text": "Hi, I'm planning to print four boards, 36 by 48, matte. Can I get a quote?"
+    },
+    {
+     "me": false,
+     "text": "Hi Shay! With student ID it's $18 per board, so $72 total. Ready next business day."
+    },
+    {
+     "me": true,
+     "text": "Perfect. Can I pay on pickup?"
+    },
+    {
+     "me": false,
+     "text": "Yes, card or cash"
+    },
+    {
+     "me": true,
+     "text": "I'll send the PDFs tonight"
+    },
+    {
+     "me": false,
+     "text": "Got your files. One has a missing font on board three. Want us to convert to outlines?"
+    },
+    {
+     "me": true,
+     "text": "Yes please. Thank you for catching that"
+    },
+    {
+     "me": false,
+     "text": "Done. Ready tomorrow after noon"
+    },
+    {
+     "me": true,
+     "text": "Picking up at three, is that ok?"
+    },
+    {
+     "me": false,
+     "text": "Perfect, they're at the front counter"
+    },
+    {
+     "me": false,
+     "text": "Hi Shay, your order #4417 (3 boards, 24x36, matte) is ready for pickup."
+    },
+    {
+     "me": true,
+     "text": "Thanks! I'll swing by around 5."
+    },
+    {
+     "me": false,
+     "text": "Student discount applied. Total $27.50."
+    },
+    {
+     "me": true,
+     "text": "Perfect, I'll bring my ID."
+    },
+    {
+     "me": false,
+     "text": "Reminder: we close early on weekends this month, 5 PM."
+    },
+    {
+     "me": true,
+     "text": "Hi, can I send a PDF for 8 half-size prints? They need to be in B&W."
+    },
+    {
+     "me": false,
+     "text": "Sure. Email it to the shop address, we'll get to it today."
+    },
+    {
+     "me": true,
+     "text": "Sent. Name is OKAFOR_sections."
+    },
+    {
+     "me": false,
+     "text": "Got it. Ready in an hour. $9.20."
+    },
+    {
+     "me": false,
+     "text": "Hi Shay, we're offering ten percent off roll prints through the weekend if you need more"
+    },
+    {
+     "me": true,
+     "text": "Thanks. I might do a last set later this week"
+    },
+    {
+     "me": false,
+     "text": "We open at nine"
+    },
+    {
+     "me": true,
+     "text": "See you then"
+    },
+    {
+     "me": true,
+     "text": "One of the pages came out slightly streaky. Can you reprint it?"
+    },
+    {
+     "me": false,
+     "text": "Of course, no charge. Printer head needed a clean. Come by."
+    },
+    {
+     "me": true,
+     "text": "Thank you!"
+    },
+    {
+     "me": false,
+     "text": "New: large-format foam board mounting, $12 per sheet. Ask at the counter."
+    },
+    {
+     "me": true,
+     "text": "Good to know 👍🏾"
+    },
+    {
+     "me": false,
+     "text": "Sable Print Shop: Your order #4790 (4 boards) has been received. Estimated ready: tomorrow 1 PM."
+    },
+    {
+     "me": true,
+     "text": "Hi, my friend Mei is picking these up for me. Is that okay?"
+    },
+    {
+     "me": false,
+     "text": "Yes, just give her the order number."
+    },
+    {
+     "me": true,
+     "text": "Perfect, 4790. Thanks!"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-23",
+   "title": "Lakefront Fiber Support",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Lakefront Fiber: Your installation is scheduled for tomorrow between 10 and 12. Someone 18+ must be home."
+    },
+    {
+     "me": true,
+     "text": "My roommate will be home. Her name is Priya."
+    },
+    {
+     "me": false,
+     "text": "Thanks, noted. The technician will call 15 minutes before arrival."
+    },
+    {
+     "me": false,
+     "text": "Lakefront Fiber: Installation complete. Your plan is the Basic 300 at $39.99/mo."
+    },
+    {
+     "me": false,
+     "text": "Lakefront Fiber: Your first bill is ready. Autopay will draft in 5 days."
+    },
+    {
+     "me": true,
+     "text": "Hi, our internet has been dropping every night around 9. Can you check the line?"
+    },
+    {
+     "me": false,
+     "text": "Hello Shay, sorry about that. Please try restarting the router and tell me if the light is white or red."
+    },
+    {
+     "me": true,
+     "text": "It's blinking red right now"
+    },
+    {
+     "me": false,
+     "text": "Red means we lost signal. Please unplug for 30 seconds, then plug back in."
+    },
+    {
+     "me": true,
+     "text": "Done. White light now. Thanks"
+    },
+    {
+     "me": false,
+     "text": "Glad to hear it. Let us know if it happens again."
+    },
+    {
+     "me": true,
+     "text": "It happened again last night. Two drops during my upload for a deadline 😩"
+    },
+    {
+     "me": false,
+     "text": "We're so sorry. I'm scheduling a technician visit. Would tomorrow afternoon work?"
+    },
+    {
+     "me": true,
+     "text": "I have class until 2 but my roommate may be home. Can it be after 3?"
+    },
+    {
+     "me": false,
+     "text": "Yes, 3 to 5 tomorrow. Confirmed."
+    },
+    {
+     "me": false,
+     "text": "Lakefront Fiber: Technician is on the way. ETA 3:40 PM."
+    },
+    {
+     "me": false,
+     "text": "Lakefront Fiber: Visit complete. Damaged connector at the pole was replaced."
+    },
+    {
+     "me": true,
+     "text": "Speeds are way better. Thank you so much"
+    },
+    {
+     "me": false,
+     "text": "Wonderful. We've applied a $10 credit for the trouble."
+    },
+    {
+     "me": true,
+     "text": "That's kind. Thank you!"
+    },
+    {
+     "me": false,
+     "text": "Lakefront Fiber: Your July bill is ready. Autopay will draft in 5 days."
+    },
+    {
+     "me": true,
+     "text": "Hi, my bill shows $39.99 but my roommate Priya splits it with me. Can you put her on a second autopay?"
+    },
+    {
+     "me": false,
+     "text": "We can't split autopay, but she can pay her share via a one-time payment using your account number."
+    },
+    {
+     "me": true,
+     "text": "Okay, that works. Thanks!"
+    },
+    {
+     "me": false,
+     "text": "Lakefront Fiber: Your bill of $39.99 is due in 5 days."
+    },
+    {
+     "me": true,
+     "text": "Hi, my wifi has been dropping every evening this week. Can you check the line?"
+    },
+    {
+     "me": false,
+     "text": "Sorry for the trouble! We see some instability on your node. Can you restart the router?"
+    },
+    {
+     "me": true,
+     "text": "Restarted it twice already."
+    },
+    {
+     "me": false,
+     "text": "Understood. We'll send a technician. Available slots: August 5, 9 to 12 or August 7, 1 to 4."
+    },
+    {
+     "me": true,
+     "text": "The morning one works."
+    },
+    {
+     "me": false,
+     "text": "Scheduled. An adult must be home."
+    },
+    {
+     "me": false,
+     "text": "Lakefront Fiber: Reminder, a planned outage will occur in your area overnight. Estimated 2 hours."
+    },
+    {
+     "me": true,
+     "text": "Thanks for the heads up, I'll download my reading before then."
+    },
+    {
+     "me": false,
+     "text": "Your payment of $39.99 has been received. Thank you!"
+    },
+    {
+     "me": false,
+     "text": "Reminder: technician visit is scheduled for tomorrow between 9 and 12."
+    },
+    {
+     "me": false,
+     "text": "Lakefront Fiber: How did we do? Reply 1-5 to rate your recent support experience."
+    },
+    {
+     "me": true,
+     "text": "5"
+    },
+    {
+     "me": true,
+     "text": "Thank you. Will someone call before arrival?"
+    },
+    {
+     "me": false,
+     "text": "Yes, the tech will text you 30 minutes before."
+    },
+    {
+     "me": true,
+     "text": "Great."
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-7",
+   "title": "Folake (Naija in CLE)",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Heyyy Shay! Saw your name on the Naija in CLE list. Are you the one who does the jollof in bulk? 😂"
+    },
+    {
+     "me": true,
+     "text": "Haha who told you that 😭 yes that's me"
+    },
+    {
+     "me": false,
+     "text": "Chidi did. He said you cook for the whole week and freeze it"
+    },
+    {
+     "me": true,
+     "text": "Guilty. It's the only way I survive crit weeks"
+    },
+    {
+     "me": false,
+     "text": "We do a small hangout at my place on the last Sunday of the month. Rice, music, people complaining about winter"
+    },
+    {
+     "me": true,
+     "text": "In May?? 😂"
+    },
+    {
+     "me": false,
+     "text": "Cleveland people complain year round. Come na"
+    },
+    {
+     "me": true,
+     "text": "I'll try. Depends on my studio schedule. What can I bring?"
+    },
+    {
+     "me": false,
+     "text": "Just yourself. Or plantain if you're feeling generous"
+    },
+    {
+     "me": true,
+     "text": "Plantain I can do. Send address?"
+    },
+    {
+     "me": false,
+     "text": "1840 W 25th, the green door, apt 3. Buzzer is broken so just call me"
+    },
+    {
+     "me": true,
+     "text": "Okay see you then 🙏🏾"
+    },
+    {
+     "me": false,
+     "text": "Thank you for coming yesterday!! The plantain finished before the rice 😂"
+    },
+    {
+     "me": true,
+     "text": "Lol I'm glad. Your place is so warm, I didn't want to leave"
+    },
+    {
+     "me": false,
+     "text": "You looked tired o. You okay?"
+    },
+    {
+     "me": true,
+     "text": "Just school. End of semester stuff. I'm fine"
+    },
+    {
+     "me": false,
+     "text": "Mm. If you say so. Eat something real this week, not noodles"
+    },
+    {
+     "me": true,
+     "text": "How did you know it was noodles 😭"
+    },
+    {
+     "me": false,
+     "text": "Because I was a student once. Go and cook"
+    },
+    {
+     "me": true,
+     "text": "Do you know anyone who braids hair at a fair price? Mine is a disaster"
+    },
+    {
+     "me": false,
+     "text": "Yes! Blessing on Lorain. She does knotless for $120 if you book early, less if you bring your own hair"
+    },
+    {
+     "me": true,
+     "text": "$120 is a lot for me right now. Maybe twists instead"
+    },
+    {
+     "me": false,
+     "text": "Then do twists, she charges $60. I'll send her number"
+    },
+    {
+     "me": true,
+     "text": "Thank you Folake 🥹"
+    },
+    {
+     "me": false,
+     "text": "Blessing: 216 555 0133. Tell her I sent you"
+    },
+    {
+     "me": true,
+     "text": "Booked for the weekend after next. Sitting in the chair for four hours, pray for me"
+    },
+    {
+     "me": false,
+     "text": "Bring a podcast. Or Burna on speaker, she won't mind"
+    },
+    {
+     "me": false,
+     "text": "Month-end hangout is at mine again. Pepper soup this time!"
+    },
+    {
+     "me": true,
+     "text": "Ooh. I have a big deadline but I'll come for an hour at least"
+    },
+    {
+     "me": false,
+     "text": "An hour is fine. Eat and run"
+    },
+    {
+     "me": true,
+     "text": "The twists are holding up so well, people keep asking me where I did them"
+    },
+    {
+     "me": false,
+     "text": "Send them to Blessing 😂 she owes me a discount now"
+    },
+    {
+     "me": false,
+     "text": "Shay! Are you coming to the Naija potluck this weekend at Kamara's place?"
+    },
+    {
+     "me": true,
+     "text": "Yes! What should I bring? Money is a bit tight so something cheap 😅"
+    },
+    {
+     "me": false,
+     "text": "Jollof. Nobody can do it like you"
+    },
+    {
+     "me": true,
+     "text": "Flattery works. Big pot then."
+    },
+    {
+     "me": false,
+     "text": "Someone is bringing puff-puff. Please nobody burn it this time"
+    },
+    {
+     "me": true,
+     "text": "Lol, that was one time"
+    },
+    {
+     "me": false,
+     "text": "Shay! Naija Fest is coming up at Public Square. Jollof tasting, music, all of it"
+    },
+    {
+     "me": true,
+     "text": "Ooh when? I need to taste something that isn't mine"
+    },
+    {
+     "me": false,
+     "text": "Next Saturday afternoon. Entry is free"
+    },
+    {
+     "me": true,
+     "text": "Free is perfect"
+    },
+    {
+     "me": false,
+     "text": "Lol I know you. Bring a friend"
+    },
+    {
+     "me": true,
+     "text": "I'll see if Priya wants to come. She's never had proper puff-puff"
+    },
+    {
+     "me": false,
+     "text": "Bring her! We will convert her"
+    },
+    {
+     "me": false,
+     "text": "Also do you still have that Ankara fabric guy's number?"
+    },
+    {
+     "me": true,
+     "text": "Yes, sending it now. Tell him I referred you"
+    },
+    {
+     "me": false,
+     "text": "Thank you dear 🙏🏾"
+    },
+    {
+     "me": false,
+     "text": "My church group is meeting after, you should come for a bit"
+    },
+    {
+     "me": true,
+     "text": "Maybe, let me see how my week goes"
+    },
+    {
+     "me": true,
+     "text": "Sunday still on? I can bring the plantain and also a tiny bowl of my egusi"
+    },
+    {
+     "me": false,
+     "text": "Still on. 3pm. Bring the egusi, we'll fight over it"
+    },
+    {
+     "me": false,
+     "text": "Do you need a ride? I can pick you up in Tremont"
+    },
+    {
+     "me": true,
+     "text": "Yes please, saves me two bus transfers. Thank you!"
+    },
+    {
+     "me": false,
+     "text": "Be outside at 4:30"
+    },
+    {
+     "me": true,
+     "text": "Will do 🙏🏾"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-key-tobe",
+   "title": "Tobe 🇳🇬",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "sent $200, check Zelle"
+    },
+    {
+     "me": true,
+     "text": "got it. thank you Tobe 🙏🏾 I'll pay you back when things settle"
+    },
+    {
+     "me": false,
+     "text": "no paying back. you sounded off on the phone. what's going on"
+    },
+    {
+     "me": true,
+     "text": "bursar put a hold on my account. full balance due and my payment got declined"
+    },
+    {
+     "me": false,
+     "text": "what happens if the fellowship falls through? the Aldane one"
+    },
+    {
+     "me": true,
+     "text": "I'm first alternate. if a spot opens it covers the balance and the hold clears"
+    },
+    {
+     "me": false,
+     "text": "and if it doesn't open?"
+    },
+    {
+     "me": true,
+     "text": "ISSO checks my enrollment. the hold stays, no registration, no status"
+    },
+    {
+     "me": false,
+     "text": "Shay. say it plainly"
+    },
+    {
+     "me": true,
+     "text": "I lose my visa, Tobe."
+    },
+    {
+     "me": false,
+     "text": "ok. breathe. I can send more next week. please don't do anything stupid"
+    },
+    {
+     "me": true,
+     "text": "it's not about a few hundred dollars"
+    },
+    {
+     "me": false,
+     "text": "Mama doesn't hear any of this yet"
+    },
+    {
+     "me": true,
+     "text": "never. she'd get on a plane tomorrow"
+    },
+    {
+     "me": false,
+     "text": "call her Sunday, she says you've been quiet"
+    },
+    {
+     "me": true,
+     "text": "will do"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-19",
+   "title": "Lakeshore Student Health",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Lakeshore Student Health: Reminder, your appointment is on file for a flu shot clinic. Reply C to confirm or R to reschedule."
+    },
+    {
+     "me": true,
+     "text": "C"
+    },
+    {
+     "me": false,
+     "text": "Thanks! You're confirmed. Please bring your student ID and insurance card."
+    },
+    {
+     "me": true,
+     "text": "Quick question, is the flu shot covered under the student plan or is there a copay?"
+    },
+    {
+     "me": false,
+     "text": "Hi Shay, this is the front desk. It's covered at no charge under the student plan. The clinic visit itself has no copay either."
+    },
+    {
+     "me": true,
+     "text": "Perfect, thank you!"
+    },
+    {
+     "me": false,
+     "text": "Lakeshore Student Health: We missed you at the clinic today. Reply R to reschedule."
+    },
+    {
+     "me": true,
+     "text": "So sorry, I got stuck in a crit that ran over. Can I come tomorrow morning?"
+    },
+    {
+     "me": false,
+     "text": "Yes, walk-ins are open from 9 to 11 tomorrow. Just check in at the front desk."
+    },
+    {
+     "me": true,
+     "text": "Great, see you then 🙏🏾"
+    },
+    {
+     "me": false,
+     "text": "Lakeshore Student Health: Thanks for visiting today. Your immunization record has been updated in the patient portal."
+    },
+    {
+     "me": true,
+     "text": "Hi, I can't log into the patient portal. It says my account is locked."
+    },
+    {
+     "me": false,
+     "text": "Sorry about that! Portal locks after 5 failed attempts. We've sent a reset link to your lakeshoreu.edu email."
+    },
+    {
+     "me": true,
+     "text": "Got it, it worked. Thank you"
+    },
+    {
+     "me": false,
+     "text": "Lakeshore Student Health: Your prescription refill request is ready for pickup at CityRx Pharmacy."
+    },
+    {
+     "me": true,
+     "text": "Thanks, I'll grab it after studio"
+    },
+    {
+     "me": true,
+     "text": "I've had a headache for a few days, mostly behind my eyes. Is there anything open for a quick visit?"
+    },
+    {
+     "me": false,
+     "text": "We have a nurse slot tomorrow at 10:30. Want it?"
+    },
+    {
+     "me": true,
+     "text": "Yes please"
+    },
+    {
+     "me": false,
+     "text": "Booked. If symptoms get worse, please go to urgent care."
+    },
+    {
+     "me": true,
+     "text": "Nurse said it's most likely screen strain and not enough water. Eye exam recommended."
+    },
+    {
+     "me": false,
+     "text": "Lakeshore Student Health: Reminder to drink water, sleep, and take breaks from screens. Your health matters. 💧"
+    },
+    {
+     "me": false,
+     "text": "Lakeshore Student Health: reminder of your appointment in 3 days at 9:30 AM for annual physical."
+    },
+    {
+     "me": false,
+     "text": "Reply C to confirm or R to reschedule."
+    },
+    {
+     "me": true,
+     "text": "C"
+    },
+    {
+     "me": false,
+     "text": "Thank you, you are confirmed. Please arrive 10 minutes early and bring your student ID."
+    },
+    {
+     "me": true,
+     "text": "Does the student plan cover an eye exam, or do I need to go to Clearview on my own?"
+    },
+    {
+     "me": false,
+     "text": "Vision is a separate benefit. Clearview Eye Care is in network with a discounted student rate."
+    },
+    {
+     "me": true,
+     "text": "Okay, I'll call them this week"
+    },
+    {
+     "me": false,
+     "text": "Lakeshore Student Health: Fall immunization deadline reminder. Check the patient portal for your status."
+    },
+    {
+     "me": false,
+     "text": "Your lab results are available in the patient portal."
+    },
+    {
+     "me": true,
+     "text": "Thanks, I'll check tonight."
+    },
+    {
+     "me": false,
+     "text": "Flu shot clinic: walk-in hours begin next month at the Wellness Center, no appointment needed."
+    },
+    {
+     "me": true,
+     "text": "Is the flu shot covered under the student plan?"
+    },
+    {
+     "me": false,
+     "text": "Yes, covered at no cost with your student health plan."
+    },
+    {
+     "me": true,
+     "text": "Great, thank you."
+    },
+    {
+     "me": false,
+     "text": "Reminder: your dental cleaning referral is valid until the end of the month."
+    },
+    {
+     "me": true,
+     "text": "Noted."
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-5",
+   "title": "Wren",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "want to split the 9am laser slot? my parts are small"
+    },
+    {
+     "me": true,
+     "text": "yes please, I only need 40 minutes"
+    },
+    {
+     "me": false,
+     "text": "perfect. I'll book it under mine"
+    },
+    {
+     "me": true,
+     "text": "I'll bring the chipboard"
+    },
+    {
+     "me": true,
+     "text": "Wren, thanks again for lending me the tripod last month. I forgot to return it!"
+    },
+    {
+     "me": false,
+     "text": "lol no stress, keep it till you're done with the model photos"
+    },
+    {
+     "me": true,
+     "text": "you're kind. I'll bring it Thursday with a snack"
+    },
+    {
+     "me": false,
+     "text": "a snack?? now you have to"
+    },
+    {
+     "me": true,
+     "text": "chin chin from Folake's. the Nigerian kind"
+    },
+    {
+     "me": false,
+     "text": "I'm obsessed already"
+    },
+    {
+     "me": false,
+     "text": "Do you have a patch kit? My tire's flat again"
+    },
+    {
+     "me": true,
+     "text": "I don't, but the Tremont Bike Co-op lends tools"
+    },
+    {
+     "me": false,
+     "text": "Wait they do? For free?"
+    },
+    {
+     "me": true,
+     "text": "Volunteer night is tomorrow. Bring the wheel"
+    },
+    {
+     "me": false,
+     "text": "You're a genius"
+    },
+    {
+     "me": true,
+     "text": "I just read their flyer 😅"
+    },
+    {
+     "me": false,
+     "text": "Fixed it. Co-op guy was so nice. Thank you!!"
+    },
+    {
+     "me": true,
+     "text": "Yay! Now you can bike to the lakefront while Jonah and I run"
+    },
+    {
+     "me": false,
+     "text": "I'll bike, you two run. Division of labor"
+    },
+    {
+     "me": true,
+     "text": "Fair"
+    },
+    {
+     "me": false,
+     "text": "did you see the photo contest at the library? Might enter"
+    },
+    {
+     "me": true,
+     "text": "you should. your shadow shots are good"
+    },
+    {
+     "me": false,
+     "text": "stop, I'm blushing"
+    },
+    {
+     "me": true,
+     "text": "the deadline is soon right"
+    },
+    {
+     "me": false,
+     "text": "end of next week. I'll send you my top three to pick"
+    },
+    {
+     "me": true,
+     "text": "deal"
+    },
+    {
+     "me": false,
+     "text": "did you see the new Tadao Ando thing in the magazine at the library"
+    },
+    {
+     "me": true,
+     "text": "Not yet. Is it the concrete chapel?"
+    },
+    {
+     "me": false,
+     "text": "yes!! the light slit is insane"
+    },
+    {
+     "me": true,
+     "text": "I'll go look tomorrow after the print shop"
+    },
+    {
+     "me": false,
+     "text": "also do you have an extra X-Acto blade. mine snapped"
+    },
+    {
+     "me": true,
+     "text": "Yes, I have a pack. At my desk, grab two"
+    },
+    {
+     "me": false,
+     "text": "you're a hero"
+    },
+    {
+     "me": false,
+     "text": "Sketch swap? I'll bring my pens, you bring your sketchbook, we sit at the café"
+    },
+    {
+     "me": true,
+     "text": "Yes. I need an hour of drawing for no reason"
+    },
+    {
+     "me": false,
+     "text": "Tomorrow at three?"
+    },
+    {
+     "me": true,
+     "text": "Three works. I'll take the bus"
+    },
+    {
+     "me": false,
+     "text": "Which stop, since they changed it"
+    },
+    {
+     "me": true,
+     "text": "Ha, I'll walk the extra two blocks"
+    },
+    {
+     "me": false,
+     "text": "did you see that new brutalist library photo series?"
+    },
+    {
+     "me": true,
+     "text": "Yes!! The one with the concrete stairs. I want to draw it"
+    },
+    {
+     "me": false,
+     "text": "Post it when you do, your line work is so clean"
+    },
+    {
+     "me": true,
+     "text": "You're sweet 🥹 I need a free evening first"
+    },
+    {
+     "me": false,
+     "text": "Free evening, mythical creature"
+    },
+    {
+     "me": true,
+     "text": "Haha exactly"
+    },
+    {
+     "me": false,
+     "text": "Gallery thing next Friday, free wine. Come with me?"
+    },
+    {
+     "me": true,
+     "text": "Free wine is hard to say no to. Send me the address"
+    },
+    {
+     "me": false,
+     "text": "Sent. Wear something that isn't studio dust"
+    },
+    {
+     "me": true,
+     "text": "Rude but fair 😂"
+    },
+    {
+     "me": false,
+     "text": "Also borrowing your tripod soon?"
+    },
+    {
+     "me": true,
+     "text": "Anytime, it's by my door"
+    },
+    {
+     "me": true,
+     "text": "Coffee at the studio café later? My treat, I have a free-drink stamp card"
+    },
+    {
+     "me": false,
+     "text": "stamp card supremacy. 3pm?"
+    },
+    {
+     "me": true,
+     "text": "Perfect"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-8",
+   "title": "Ray (Model Shop)",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Shay, can you cover Thursday afternoon? Foam core delivery is coming and I have a dentist thing"
+    },
+    {
+     "me": true,
+     "text": "Yes, I'm free after 1. I'll be there"
+    },
+    {
+     "me": false,
+     "text": "Perfect. Keys are in the tool crib, top drawer"
+    },
+    {
+     "me": true,
+     "text": "Got it"
+    },
+    {
+     "me": false,
+     "text": "Hey, the bandsaw blade snapped again. Don't let anyone use it till I swap it"
+    },
+    {
+     "me": true,
+     "text": "Taped a sign on it already. Sorry, a first-year was fighting it"
+    },
+    {
+     "me": false,
+     "text": "Not your fault. Thanks for the sign"
+    },
+    {
+     "me": false,
+     "text": "I've got some news and I hate it. The department cut my student-assistant budget, I can only keep two of you on shifts"
+    },
+    {
+     "me": true,
+     "text": "Oh. Am I one of the two?"
+    },
+    {
+     "me": false,
+     "text": "Not this term. I fought for it. You're the most careful with the cutters, that's why I'm telling you first"
+    },
+    {
+     "me": true,
+     "text": "I understand. It's not your fault"
+    },
+    {
+     "me": false,
+     "text": "If anything opens up mid-term you're first call. I mean that"
+    },
+    {
+     "me": true,
+     "text": "Thank you Ray. I really enjoyed working with you"
+    },
+    {
+     "me": false,
+     "text": "Likewise. Still want you to use the shop, I'll leave your access on"
+    },
+    {
+     "me": true,
+     "text": "Quick favor, can I come in tonight and use the hot wire cutter for my massing model?"
+    },
+    {
+     "me": false,
+     "text": "Yep, I'm here till 10. Bring goggles"
+    },
+    {
+     "me": true,
+     "text": "I'm 5 min away"
+    },
+    {
+     "me": false,
+     "text": "Leftover basswood in the scrap bin if you want it. Free for you"
+    },
+    {
+     "me": true,
+     "text": "You're a saint. Taking a handful 🙏"
+    },
+    {
+     "me": false,
+     "text": "One of my other assistants quit. Want to do four hours a week through the summer? It's $16/hr"
+    },
+    {
+     "me": true,
+     "text": "YES. Please. When do I start?"
+    },
+    {
+     "me": false,
+     "text": "Let me check paperwork with the office. Probably next week. Might be capped by hours rules, I'll confirm"
+    },
+    {
+     "me": true,
+     "text": "Okay. Thank you again"
+    },
+    {
+     "me": false,
+     "text": "Update, HR says four hours is fine. Come in Tuesday morning and sign the form"
+    },
+    {
+     "me": true,
+     "text": "Perfect, 9am?"
+    },
+    {
+     "me": false,
+     "text": "9 works. Coffee on me"
+    },
+    {
+     "me": false,
+     "text": "Hey Shay, quick favor. Do you remember where we keep the 1/16 basswood?"
+    },
+    {
+     "me": true,
+     "text": "Bottom shelf, left of the band saw. Behind the foam core"
+    },
+    {
+     "me": false,
+     "text": "Found it. You're still the only one who knows this shop"
+    },
+    {
+     "me": true,
+     "text": "Haha, label your shelves Ray"
+    },
+    {
+     "me": false,
+     "text": "Labels are for people with time"
+    },
+    {
+     "me": true,
+     "text": "Labels are for people who want to find things"
+    },
+    {
+     "me": false,
+     "text": "Laser cutter is down for maintenance till the 30th. Tell your cohort so they stop emailing me"
+    },
+    {
+     "me": true,
+     "text": "Will do. I'll put it in the cohort group"
+    },
+    {
+     "me": false,
+     "text": "The offcuts bin is full of good stuff. Take what you need for your studio models, no charge"
+    },
+    {
+     "me": true,
+     "text": "Really? Thank you Ray 🙏"
+    },
+    {
+     "me": false,
+     "text": "Just don't tell the freshmen"
+    },
+    {
+     "me": true,
+     "text": "My lips are sealed"
+    },
+    {
+     "me": false,
+     "text": "Hey Shay, the basswood order came in. Want me to hold a few sheets for you?"
+    },
+    {
+     "me": true,
+     "text": "Yes please. Three sheets of 1/16. I'll pay at the desk."
+    },
+    {
+     "me": false,
+     "text": "Done. Behind the counter with your name on it."
+    },
+    {
+     "me": true,
+     "text": "Thanks Ray. I'll come by tomorrow after lunch."
+    },
+    {
+     "me": false,
+     "text": "Band saw is down till further notice. Use the hand saw in the back if you need."
+    },
+    {
+     "me": true,
+     "text": "Good to know. Is the hot wire cutter ok?"
+    },
+    {
+     "me": false,
+     "text": "Yep, that one works. Wear the glasses."
+    },
+    {
+     "me": true,
+     "text": "Always. Thanks for looking out for us"
+    },
+    {
+     "me": false,
+     "text": "Saw your drawings on the studio wall. Real nice linework"
+    },
+    {
+     "me": true,
+     "text": "Thank you! That means a lot from you"
+    },
+    {
+     "me": false,
+     "text": "Come by when you have time. Coffee's on me"
+    },
+    {
+     "me": true,
+     "text": "Tomorrow afternoon?"
+    },
+    {
+     "me": false,
+     "text": "Tomorrow works"
+    },
+    {
+     "me": true,
+     "text": "See you then"
+    },
+    {
+     "me": false,
+     "text": "Someone left a tape measure on the big table. Is it yours?"
+    },
+    {
+     "me": true,
+     "text": "Yes! Yellow one, scratched? I'll pick it up in the morning."
+    },
+    {
+     "me": false,
+     "text": "Heads up, laser cutter #2 is down for maintenance till tomorrow"
+    },
+    {
+     "me": true,
+     "text": "Ugh. Can I use #1 tonight instead?"
+    },
+    {
+     "me": false,
+     "text": "It's booked 5 to 8. After 8 is open"
+    },
+    {
+     "me": true,
+     "text": "I'll take 8:15 if that's okay"
+    },
+    {
+     "me": false,
+     "text": "Done. Bring your own sheets, we're low on birch"
+    },
+    {
+     "me": true,
+     "text": "Got a few left from last week"
+    },
+    {
+     "me": false,
+     "text": "Miss having you in the shop. Hours might come back in fall"
+    },
+    {
+     "me": true,
+     "text": "That would be amazing. Please keep me in mind"
+    },
+    {
+     "me": false,
+     "text": "Always. You were my best assistant"
+    },
+    {
+     "me": true,
+     "text": "🥹 Thank you Ray"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-17",
+   "title": "Mrs. Bello (Mama's neighbor)",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Good morning Shay. Your mother asked me to send you this number in case her phone is off. Light has been bad this week"
+    },
+    {
+     "me": true,
+     "text": "Good morning Mrs. Bello, thank you. Is she okay?"
+    },
+    {
+     "me": false,
+     "text": "She is fine, only the generator is giving trouble. Your brother is sending money for fuel"
+    },
+    {
+     "me": true,
+     "text": "Thank God. Please greet her for me"
+    },
+    {
+     "me": false,
+     "text": "I will. She prays for you every morning, you know that"
+    },
+    {
+     "me": true,
+     "text": "I know 🙏🏾 I hear the voice notes"
+    },
+    {
+     "me": false,
+     "text": "I am going to the market this weekend. Your mother wants me to buy ofada rice for when you visit. When are you coming?"
+    },
+    {
+     "me": true,
+     "text": "I don't know yet Mrs. Bello. School schedule is complicated. Maybe after graduation"
+    },
+    {
+     "me": false,
+     "text": "Graduation is when?"
+    },
+    {
+     "me": true,
+     "text": "May next year God willing"
+    },
+    {
+     "me": false,
+     "text": "Ah, that is long. But we will wait"
+    },
+    {
+     "me": false,
+     "text": "My grandson is asking if you can help him with his drawing for school. He saw your Instagram"
+    },
+    {
+     "me": true,
+     "text": "Aww tell him to send me anything he draws and I'll give him tips 😊"
+    },
+    {
+     "me": false,
+     "text": "He will be happy. He wants to be like you, building houses"
+    },
+    {
+     "me": true,
+     "text": "Tell him to start with buildings on his street. Look at the doors and windows"
+    },
+    {
+     "me": false,
+     "text": "I will tell him"
+    },
+    {
+     "me": false,
+     "text": "Good evening Shay, it is Mrs. Bello. Your mother asked me to check if your phone is working."
+    },
+    {
+     "me": true,
+     "text": "Good evening Mrs. Bello. Yes it is, I just had a long day. Tell Mama I'll call tonight."
+    },
+    {
+     "me": false,
+     "text": "Okay my dear. She worries too much."
+    },
+    {
+     "me": true,
+     "text": "I know 😄 How is your knee?"
+    },
+    {
+     "me": false,
+     "text": "Better. I can walk to church again."
+    },
+    {
+     "me": true,
+     "text": "Glory to God!"
+    },
+    {
+     "me": false,
+     "text": "Your mother's church group is doing a thanksgiving service this weekend. She wants you to join the video call"
+    },
+    {
+     "me": true,
+     "text": "What time will it be in Lagos?"
+    },
+    {
+     "me": false,
+     "text": "Ten in the morning, so five in the morning for you"
+    },
+    {
+     "me": true,
+     "text": "Ha. I'll try the replay then"
+    },
+    {
+     "me": false,
+     "text": "She will understand 😄"
+    },
+    {
+     "me": true,
+     "text": "Please tell her I love her"
+    },
+    {
+     "me": false,
+     "text": "The water tank was repaired, you know. Your mother was worried about the pump."
+    },
+    {
+     "me": true,
+     "text": "That's good news. Thank you for helping her."
+    },
+    {
+     "me": false,
+     "text": "We are neighbors. We help each other."
+    },
+    {
+     "me": false,
+     "text": "I made some akara today and thought of you."
+    },
+    {
+     "me": false,
+     "text": "Good afternoon Shay, I am Mrs. Bello. Your mother asked me to send you a small greeting."
+    },
+    {
+     "me": true,
+     "text": "I miss akara so much 😭"
+    },
+    {
+     "me": false,
+     "text": "Come home and eat then."
+    },
+    {
+     "me": true,
+     "text": "Soon, Mrs. Bello. God willing."
+    },
+    {
+     "me": true,
+     "text": "Good afternoon Mrs. Bello! How are you and Uncle?"
+    },
+    {
+     "me": false,
+     "text": "We are well by God's grace. The market was busy today."
+    },
+    {
+     "me": true,
+     "text": "Please greet him for me. And congratulations on your son's wedding!"
+    },
+    {
+     "me": false,
+     "text": "Thank you my child. You must come home for it if possible."
+    },
+    {
+     "me": true,
+     "text": "I will pray about it. God bless you ma 🙏🏾"
+    },
+    {
+     "me": false,
+     "text": "God bless you, child. Go and rest."
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-12",
+   "title": "Femi",
+   "time": "Monday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Shay!! Did you hear the new Rema album? it's on repeat for me"
+    },
+    {
+     "me": true,
+     "text": "Not yet! Is it good for studying or only for dancing?"
+    },
+    {
+     "me": false,
+     "text": "Dancing. Studying you need lo-fi, you old woman 😂"
+    },
+    {
+     "me": true,
+     "text": "I'm 27, Femi 😭"
+    },
+    {
+     "me": false,
+     "text": "Old woman in a student body. How's Cleveland"
+    },
+    {
+     "me": true,
+     "text": "Cold and gray as ever. How's Toronto?"
+    },
+    {
+     "me": false,
+     "text": "Colder. I'm moving to a new apartment next month. Send me ideas for a small living room"
+    },
+    {
+     "me": true,
+     "text": "Okay. Light colors, one big mirror, and low furniture so the ceiling feels higher. I'll sketch something"
+    },
+    {
+     "me": false,
+     "text": "This is why I keep you around"
+    },
+    {
+     "me": true,
+     "text": "here's the sketch of your living room. the sofa goes under the window"
+    },
+    {
+     "me": false,
+     "text": "Wait that's actually amazing. I can't believe you did that for free"
+    },
+    {
+     "me": true,
+     "text": "It was a warm-up for my brain. It's fun"
+    },
+    {
+     "me": false,
+     "text": "Your mom called my mom, apparently you didn't pick up one morning 👀"
+    },
+    {
+     "me": true,
+     "text": "I was in the shower! She called four times 😂 I called back right away"
+    },
+    {
+     "me": false,
+     "text": "Mothers. Mine texts me a Bible verse every day and then asks if I read it"
+    },
+    {
+     "me": true,
+     "text": "Same energy. Mine does voice notes"
+    },
+    {
+     "me": false,
+     "text": "Do you ever miss Lagos?"
+    },
+    {
+     "me": true,
+     "text": "Every single day. The noise, the food, even the traffic. Mostly the noise"
+    },
+    {
+     "me": false,
+     "text": "Same. Ottawa quiet is its own kind of loneliness"
+    },
+    {
+     "me": false,
+     "text": "Moved in! Photo of the sofa under the window. You were right"
+    },
+    {
+     "me": true,
+     "text": "Yay!! It looks so good in the evening light"
+    },
+    {
+     "me": false,
+     "text": "Come visit in the fall. I'll feed you until you can't move"
+    },
+    {
+     "me": true,
+     "text": "I would love that. Things are a bit complicated right now but I'll try"
+    },
+    {
+     "me": false,
+     "text": "Complicated how? Do you want to talk"
+    },
+    {
+     "me": true,
+     "text": "Just school and money stuff. Nothing new. I'm managing"
+    },
+    {
+     "me": false,
+     "text": "Okay. But you know you can tell me things, right?"
+    },
+    {
+     "me": true,
+     "text": "I know. Thank you Femi ❤️"
+    },
+    {
+     "me": false,
+     "text": "Sending you a playlist for your runs. It's all Afrobeats, no skipping allowed"
+    },
+    {
+     "me": true,
+     "text": "Got it. I'll test it on the lakefront tonight"
+    },
+    {
+     "me": false,
+     "text": "Sis, did you see the new Asake video?"
+    },
+    {
+     "me": true,
+     "text": "Not yet! Is it good?"
+    },
+    {
+     "me": false,
+     "text": "The dance is crazy. Watch it now"
+    },
+    {
+     "me": true,
+     "text": "Watching 😂 okay the choreography is unreal"
+    },
+    {
+     "me": false,
+     "text": "I told you. Add it to your running playlist"
+    },
+    {
+     "me": true,
+     "text": "Already did"
+    },
+    {
+     "me": false,
+     "text": "How's school? Mama says you're thin"
+    },
+    {
+     "me": true,
+     "text": "Mama says that every week. I'm fine, just busy"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-key-marisol",
+   "title": "Marisol",
+   "time": "7/30/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "did you see the laser cutter queue?? Jonah booked 4 hours straight"
+    },
+    {
+     "me": true,
+     "text": "lol of course he did. I'm going at 7am instead"
+    },
+    {
+     "me": false,
+     "text": "you're a saint. crit tmrw, you ready?"
+    },
+    {
+     "me": true,
+     "text": "mostly. section drawings are still a crime scene"
+    },
+    {
+     "me": true,
+     "text": "are you awake? I need to tell someone and you can NOT repeat this"
+    },
+    {
+     "me": false,
+     "text": "ok?? what happened"
+    },
+    {
+     "me": true,
+     "text": "apparently Tamsin saw Eli at a bar with some girl. P is wrecked"
+    },
+    {
+     "me": false,
+     "text": "WHAT. Eli?? Eli Eli? he seemed so sweet"
+    },
+    {
+     "me": true,
+     "text": "I showed her a photo tonight. she ended it right there. she's in her room and I'm sitting outside her door 😔"
+    },
+    {
+     "me": false,
+     "text": "oh my god. poor P. are you ok?"
+    },
+    {
+     "me": true,
+     "text": "I'm fine. I just need her to not be alone tonight. please don't say anything to anyone yet, let her come to it herself"
+    },
+    {
+     "me": false,
+     "text": "I won't. you're a good friend, Shay. text me if she needs anything"
+    },
+    {
+     "me": false,
+     "text": "she wasn't at studio again today. people are asking"
+    },
+    {
+     "me": true,
+     "text": "I know. I'm worried about her. I'll keep checking in"
+    },
+    {
+     "me": false,
+     "text": "coffee before crit tomorrow? my treat"
+    },
+    {
+     "me": true,
+     "text": "can't, sorry, admin stuff in the morning. rain check?"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-key-tamsin",
+   "title": "Tamsin",
+   "time": "6/28/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": true,
+     "text": "hey, are you around? need a favor, kind of weird"
+    },
+    {
+     "me": false,
+     "text": "sure, what's up"
+    },
+    {
+     "me": true,
+     "text": "if P ever asks, can you say you saw Eli at a bar on Saturday with some girl?"
+    },
+    {
+     "me": false,
+     "text": "wait what?? did I see that"
+    },
+    {
+     "me": true,
+     "text": "no. but he IS cheating, I have a photo. she just won't believe it from me alone. she'd believe you"
+    },
+    {
+     "me": false,
+     "text": "Shay that's a lot. what if I'm wrong"
+    },
+    {
+     "me": true,
+     "text": "you're not wrong. I'm asking you to trust me. and I'll make it worth it. you've been dying to see Marrow Bay, right?"
+    },
+    {
+     "me": false,
+     "text": "...they're sold out 😭"
+    },
+    {
+     "me": true,
+     "text": "not for me. two seats, it's done, give it a few min to land"
+    },
+    {
+     "me": false,
+     "text": "ok. omg. ok I'll say it"
+    },
+    {
+     "me": true,
+     "text": "keep it simple. a bar, some girl, her face turned away, you didn't get a good look"
+    },
+    {
+     "me": true,
+     "text": "the concert tickets are in your email 🎟️ thank you for backing me up."
+    },
+    {
+     "me": false,
+     "text": "P cornered me in the hallway after crit. I told her. she just stared at me"
+    },
+    {
+     "me": true,
+     "text": "perfect. thank you. I owe you"
+    },
+    {
+     "me": false,
+     "text": "that show was unreal!! thank you again 🥹"
+    },
+    {
+     "me": true,
+     "text": "glad you went. we're even"
+    },
+    {
+     "me": false,
+     "text": "I keep feeling weird about P though"
+    },
+    {
+     "me": true,
+     "text": "don't. it's done"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-3",
+   "title": "Eli (P's)",
+   "time": "10/19/25",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "hey Shay, it's Eli. can you keep Priya out of the apartment Saturday from 3 to 6?"
+    },
+    {
+     "me": true,
+     "text": "sure, why?"
+    },
+    {
+     "me": false,
+     "text": "surprise dinner for passing her proposal. Nadia's helping me cook"
+    },
+    {
+     "me": true,
+     "text": "aww. I'll drag her to the model shop, she won't suspect a thing"
+    },
+    {
+     "me": false,
+     "text": "you're the best. I'll leave the key under the mat"
+    },
+    {
+     "me": false,
+     "text": "it worked!! she cried 😭 thank you again"
+    }
+   ]
+  }
+ ],
+ "whatsapp": [
+  {
+   "id": "conv-wa-key-marisol",
+   "title": "Marisol",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": true,
+     "text": "making a new group just for studio logistics. the old cohort chat is 90% memes"
+    },
+    {
+     "me": false,
+     "text": "omg yes please. what are you calling it"
+    },
+    {
+     "me": true,
+     "text": "Studio 4B. just desk row for now: you, Tamsin, Jonah, Wren, Callum, Daniel"
+    },
+    {
+     "me": false,
+     "text": "should I add Priya? she sits right next to us"
+    },
+    {
+     "me": true,
+     "text": "not yet. she's really overwhelmed with everything with Eli and she asked me for some space from people. let's not pile on"
+    },
+    {
+     "me": false,
+     "text": "ok that makes sense. poor thing 😔"
+    },
+    {
+     "me": true,
+     "text": "can you keep it between us? she'd take it the wrong way"
+    },
+    {
+     "me": false,
+     "text": "of course 🤐"
+    },
+    {
+     "me": false,
+     "text": "food run at 1, I'm doing the café. want anything?"
+    },
+    {
+     "me": true,
+     "text": "I'm good, brought rice from home"
+    },
+    {
+     "me": false,
+     "text": "end of term drinks? the place on Professor St, I'll save a table"
+    },
+    {
+     "me": true,
+     "text": "can't tonight, I'll catch up with you all next time"
+    },
+    {
+     "me": false,
+     "text": "Jonah asked about P again in Studio 4B. what do I even tell him"
+    },
+    {
+     "me": true,
+     "text": "tell him she's pulling away from everyone, not just him. it's true"
+    },
+    {
+     "me": false,
+     "text": "fall crit schedule drops next week, start thinking about your slots"
+    },
+    {
+     "me": true,
+     "text": "already dreading it 😩"
+    }
+   ],
+   "avatar": "wa_0.webp"
+  },
+  {
+   "id": "mut-conv-wa-dominguez",
+   "title": "Mr. Dominguez (Landlord)",
+   "time": "Sunday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Good morning Ms. Okafor, this is Mr. Dominguez. Just confirming I received rent for this month from you and Priya. Thank you"
+    },
+    {
+     "me": true,
+     "text": "Good morning Mr. Dominguez, you're welcome. Thank you for confirming"
+    },
+    {
+     "me": true,
+     "text": "The kitchen faucet is dripping again. Could someone come look at it?"
+    },
+    {
+     "me": false,
+     "text": "I will send my plumber tomorrow between 10 and 2. Is someone home?"
+    },
+    {
+     "me": true,
+     "text": "Priya will be home. I'll let her know"
+    },
+    {
+     "me": false,
+     "text": "Plumber replaced the cartridge. Let me know if it drips again"
+    },
+    {
+     "me": true,
+     "text": "All good now, thank you!"
+    },
+    {
+     "me": false,
+     "text": "Reminder: street cleaning on Professor Ave begins next week. Please move cars if you have one"
+    },
+    {
+     "me": true,
+     "text": "We don't have a car, but thanks for the heads up 🙂"
+    },
+    {
+     "me": false,
+     "text": "Ha, of course. You are my easiest tenants"
+    },
+    {
+     "me": true,
+     "text": "Hi Mr. Dominguez, my half of rent will be a couple of days late this month. I'll have it by the 4th. Sorry"
+    },
+    {
+     "me": false,
+     "text": "No problem, just keep me informed. Priya's already came in"
+    },
+    {
+     "me": true,
+     "text": "Thank you for understanding"
+    },
+    {
+     "me": false,
+     "text": "Received your transfer. Thank you Shay"
+    },
+    {
+     "me": false,
+     "text": "The hallway light on the second floor is flickering. Replacing the bulb this afternoon"
+    },
+    {
+     "me": true,
+     "text": "Thanks. The AC filter in our unit looks dirty too, do you change those?"
+    },
+    {
+     "me": false,
+     "text": "Yes. I will bring a new one by this weekend. Leave the closet unlocked"
+    },
+    {
+     "me": true,
+     "text": "Will do"
+    },
+    {
+     "me": false,
+     "text": "Filter changed. It was very clogged. Keep the windows closed when AC is running please"
+    },
+    {
+     "me": true,
+     "text": "Got it, thank you"
+    },
+    {
+     "me": false,
+     "text": "A package for your unit was left at my office by mistake. Come pick it up when you can"
+    },
+    {
+     "me": true,
+     "text": "I'll come by in the evening, thanks!"
+    },
+    {
+     "me": false,
+     "text": "Hello, I will be doing the lease renewal paperwork next month. I'll send details closer to the date"
+    },
+    {
+     "me": true,
+     "text": "Okay, sounds good. Thanks for letting me know"
+    },
+    {
+     "me": false,
+     "text": "Rent for this month received. Thank you both"
+    },
+    {
+     "me": true,
+     "text": "👍"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-wa-mama-1on1",
+   "title": "Mama ❤️",
+   "time": "7/30/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Good morning my dear. The Lord is your keeper, Psalm 121. Have a blessed day 🙏"
+    },
+    {
+     "me": true,
+     "text": "Good morning Mama! Amen 🙏 I'm heading to studio now"
+    },
+    {
+     "me": false,
+     "text": "🎤 Voice message (0:48)"
+    },
+    {
+     "me": true,
+     "text": "Mama I can't listen properly right now, I'm in the library. I'll reply tonight"
+    },
+    {
+     "me": true,
+     "text": "🎤 Voice message (1:12)"
+    },
+    {
+     "me": false,
+     "text": "Are you eating well? Don't be eating only noodles o"
+    },
+    {
+     "me": true,
+     "text": "I cooked jollof yesterday, a big pot. It will last me the whole week 😄"
+    },
+    {
+     "me": false,
+     "text": "Good girl. Put plenty pepper. Send me a picture next time"
+    },
+    {
+     "me": false,
+     "text": "Mrs. Bello said to greet you. Her son is coming back from Canada"
+    },
+    {
+     "me": true,
+     "text": "Please greet her for me. Tell her I said congratulations"
+    },
+    {
+     "me": false,
+     "text": "Light has been off for three days here. NEPA wahala again. We are using the generator"
+    },
+    {
+     "me": true,
+     "text": "Ah Mama, sorry. Is the fuel okay? Tell Tobe if you need anything"
+    },
+    {
+     "me": false,
+     "text": "We are managing. God is faithful"
+    },
+    {
+     "me": false,
+     "text": "🎤 Voice message (2:05)"
+    },
+    {
+     "me": true,
+     "text": "Happy Mother's Day Mama!! I love you so much ❤️ I'm calling you later today"
+    },
+    {
+     "me": false,
+     "text": "Thank you my daughter. I am so proud of you. Your father would be too"
+    },
+    {
+     "me": true,
+     "text": "❤️❤️"
+    },
+    {
+     "me": false,
+     "text": "How is school? You sound tired on the phone"
+    },
+    {
+     "me": true,
+     "text": "Just end of semester crits Mama. Lots of model building. I'm fine, I promise"
+    },
+    {
+     "me": false,
+     "text": "Drink water and sleep. A tired mind builds crooked houses"
+    },
+    {
+     "me": true,
+     "text": "😂 I'm putting that on my studio wall"
+    },
+    {
+     "me": false,
+     "text": "Good morning. Today's word: Be still, and know. Do not worry about tomorrow"
+    },
+    {
+     "me": true,
+     "text": "Thank you Mama. I needed that today"
+    },
+    {
+     "me": false,
+     "text": "Is something wrong?"
+    },
+    {
+     "me": true,
+     "text": "No no, just a long week. Don't worry 🙂"
+    },
+    {
+     "me": false,
+     "text": "A mother knows. But I will not push. I am praying for you"
+    },
+    {
+     "me": false,
+     "text": "🎤 Voice message (0:36)"
+    },
+    {
+     "me": true,
+     "text": "Mama the network was bad, can you send it again?"
+    },
+    {
+     "me": false,
+     "text": "I said the church choir is doing a thanksgiving service and they asked about you"
+    },
+    {
+     "me": true,
+     "text": "Tell them I miss the choir. I'm listening to old recordings on my runs"
+    },
+    {
+     "me": false,
+     "text": "Ahh my heart. God bless you"
+    },
+    {
+     "me": false,
+     "text": "Good morning my dear. May your hands prosper in all you do 🙏"
+    },
+    {
+     "me": true,
+     "text": "Amen Mama. Good morning"
+    },
+    {
+     "me": false,
+     "text": "The market price of tomatoes is mad. I paid triple. Is it also expensive there?"
+    },
+    {
+     "me": true,
+     "text": "Everything is expensive here too 😅 I buy the cheap ones from Dave's Market and cook them down"
+    },
+    {
+     "me": false,
+     "text": "Smart girl"
+    },
+    {
+     "me": false,
+     "text": "Did you take your vitamins? The ones I sent with Tobe"
+    },
+    {
+     "me": true,
+     "text": "Yes Mama, every morning 💊"
+    },
+    {
+     "me": false,
+     "text": "Good. Rest this weekend. Go to church if there is one near you"
+    },
+    {
+     "me": true,
+     "text": "I'll try, there's a Nigerian congregation in Tremont. Folake invited me"
+    },
+    {
+     "me": false,
+     "text": "Wonderful. 🙏🙏"
+    }
+   ],
+   "avatar": "msg_0.webp"
+  },
+  {
+   "id": "mut-conv-wa-mei",
+   "title": "Mei",
+   "time": "7/24/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Shay!! Your tower drawing on Instagram is gorgeous. How long did that take?"
+    },
+    {
+     "me": true,
+     "text": "Thank you Mei 😊 About four hours, mostly the brick hatching"
+    },
+    {
+     "me": false,
+     "text": "I'm drawing the Terminal Tower next. Want to sketch together at the lakefront sometime?"
+    },
+    {
+     "me": true,
+     "text": "Yes! Next sunny day"
+    },
+    {
+     "me": false,
+     "text": "It's sunny tomorrow morning. 9am by the lighthouse?"
+    },
+    {
+     "me": true,
+     "text": "Perfect. I'll bring my 0.3 pens and a thermos of tea"
+    },
+    {
+     "me": false,
+     "text": "That was so fun today. My hands are frozen but I love the lake in spring"
+    },
+    {
+     "me": true,
+     "text": "Same. We should make it a regular thing"
+    },
+    {
+     "me": false,
+     "text": "Have you tried the new ramen place on Professor? They have a lunch special"
+    },
+    {
+     "me": true,
+     "text": "I'm on a strict instant-noodle budget this month 😅 maybe next time"
+    },
+    {
+     "me": false,
+     "text": "Ha, I get it. I'll make you my mom's dumplings instead. Come over"
+    },
+    {
+     "me": true,
+     "text": "Deal!! I'll bring rice and a pot of stew"
+    },
+    {
+     "me": false,
+     "text": "Playlist swap: send me your lo-fi study mix"
+    },
+    {
+     "me": true,
+     "text": "Sent 🎧 the second half is mostly Afrobeats, fair warning"
+    },
+    {
+     "me": false,
+     "text": "I'm obsessed already. Wizkid at 2am while building models, who knew"
+    },
+    {
+     "me": true,
+     "text": "Welcome to the club 😂"
+    },
+    {
+     "me": false,
+     "text": "Dumpling night was the best. Thank you for coming over"
+    },
+    {
+     "me": true,
+     "text": "I'm still thinking about the pork ones. Your mom is a genius"
+    },
+    {
+     "me": false,
+     "text": "Did you survive finals?"
+    },
+    {
+     "me": true,
+     "text": "Barely! I think I slept 9 hours total last week"
+    },
+    {
+     "me": false,
+     "text": "Same. I'm going home to Columbus for a few days. Bring you back some snacks?"
+    },
+    {
+     "me": true,
+     "text": "Yes please! Anything with sesame 😍"
+    },
+    {
+     "me": false,
+     "text": "Back in Cleveland. Sesame cookies for you 🍪"
+    },
+    {
+     "me": true,
+     "text": "You're the best, thank you!"
+    },
+    {
+     "me": false,
+     "text": "There's an art walk in Tremont this weekend. Free, lots of local sketchers. Want to go?"
+    },
+    {
+     "me": true,
+     "text": "Yes!! I'll bring my sketchbook"
+    },
+    {
+     "me": false,
+     "text": "I met the guy who does the pen drawings of the steel mills. He said your style is really clean"
+    },
+    {
+     "me": true,
+     "text": "Wait what, he saw my page? I'm blushing 🙈"
+    },
+    {
+     "me": false,
+     "text": "Told you. Keep posting"
+    },
+    {
+     "me": false,
+     "text": "You okay? You seemed quiet on our run"
+    },
+    {
+     "me": true,
+     "text": "Yeah, just tired. Summer studio is heavy"
+    },
+    {
+     "me": false,
+     "text": "Okay. If you ever want to talk, I'm around. Zero pressure"
+    },
+    {
+     "me": true,
+     "text": "Thanks Mei. Really. 🙂"
+    },
+    {
+     "me": false,
+     "text": "Found a cheap used drafting lamp at the thrift store near me. Want me to grab it for you?"
+    },
+    {
+     "me": true,
+     "text": "How much?"
+    },
+    {
+     "me": false,
+     "text": "Eight dollars. It works and everything"
+    },
+    {
+     "me": true,
+     "text": "Yes please, I'll pay you back when I see you"
+    },
+    {
+     "me": false,
+     "text": "Got it. Don't worry about paying, it's a gift"
+    },
+    {
+     "me": true,
+     "text": "Mei, no. Let me at least buy you a coffee"
+    },
+    {
+     "me": false,
+     "text": "Fine, fine. Latte, oat milk ☕"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-wa-fablab",
+   "title": "Lakeshore Fab Lab Desk",
+   "time": "7/22/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Lakeshore Fab Lab: Your laser cutter reservation for tomorrow 10:00 to 11:30 is confirmed. Bring your own material or buy from the desk."
+    },
+    {
+     "me": true,
+     "text": "Thank you. Can I bring 3mm chipboard?"
+    },
+    {
+     "me": false,
+     "text": "Yes, chipboard is fine. No MDF and no acrylic with protective film left on."
+    },
+    {
+     "me": true,
+     "text": "Got it"
+    },
+    {
+     "me": false,
+     "text": "Reminder: please clear the bed and empty the scrap bin after your session."
+    },
+    {
+     "me": false,
+     "text": "Lakeshore Fab Lab: Machine 2 is down for maintenance until further notice. Reservations moved to Machine 1."
+    },
+    {
+     "me": true,
+     "text": "Is my slot for the day after tomorrow still valid?"
+    },
+    {
+     "me": false,
+     "text": "Yes, same time on Machine 1."
+    },
+    {
+     "me": false,
+     "text": "Final review week: extended hours open till midnight. Book early, slots fill fast."
+    },
+    {
+     "me": true,
+     "text": "Can I get a late slot tonight? I only need 40 minutes"
+    },
+    {
+     "me": false,
+     "text": "We have 11:00 PM open. Want it?"
+    },
+    {
+     "me": true,
+     "text": "Yes please"
+    },
+    {
+     "me": false,
+     "text": "Booked. Don't forget your student ID at the desk."
+    },
+    {
+     "me": true,
+     "text": "I left a black cutting mat on the bench last night. Has anyone turned it in?"
+    },
+    {
+     "me": false,
+     "text": "Found it, it's behind the desk. Pick up anytime."
+    },
+    {
+     "me": false,
+     "text": "Summer hours start next week: open 10 to 4, closed on holidays."
+    },
+    {
+     "me": true,
+     "text": "Thanks. Is the 3D printer open to students over the summer?"
+    },
+    {
+     "me": false,
+     "text": "Yes, by appointment. Send us your file and we'll quote the filament cost."
+    },
+    {
+     "me": false,
+     "text": "Your reservation for tomorrow 1:00 to 2:00 is confirmed."
+    },
+    {
+     "me": true,
+     "text": "Thank you!"
+    },
+    {
+     "me": false,
+     "text": "Your session ended. Please rate your experience 1-5."
+    },
+    {
+     "me": true,
+     "text": "5 😊"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-wa-sable-print",
+   "title": "Sable Print Shop",
+   "time": "7/22/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": true,
+     "text": "Hi, this is Shay from the architecture school. Do you do 24x36 matte prints on same-day turnaround?"
+    },
+    {
+     "me": false,
+     "text": "Hi Shay! Yes, 24x36 matte is $11 each. Same-day if the file is in by 1 PM."
+    },
+    {
+     "me": true,
+     "text": "Is there a student discount?"
+    },
+    {
+     "me": false,
+     "text": "10% with a student ID. Show it at the counter."
+    },
+    {
+     "me": true,
+     "text": "Perfect, I'll come by around noon with 4 boards. Sending the PDFs now."
+    },
+    {
+     "me": false,
+     "text": "Got them. One of the files is RGB with a really heavy black fill, it will eat a lot of ink and look muddy. Want us to convert it?"
+    },
+    {
+     "me": true,
+     "text": "Yes please convert it. Thank you for catching that!"
+    },
+    {
+     "me": false,
+     "text": "Your prints are ready for pickup. Total is $39.60 after the discount."
+    },
+    {
+     "me": true,
+     "text": "Coming now, I'm on the bus. Are you open until 7?"
+    },
+    {
+     "me": false,
+     "text": "Open until 8 tonight. See you soon."
+    },
+    {
+     "me": false,
+     "text": "Hi Shay, reminder that we're closed for inventory tomorrow. Back to normal hours the day after. Drop files by email if you need something queued."
+    },
+    {
+     "me": true,
+     "text": "Thanks for the heads up! I'll send two A1 sheets tomorrow morning by email."
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-wa-uncle-segun",
+   "title": "Uncle Segun",
+   "time": "7/18/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Shay my daughter, good evening. This is Uncle Segun. Your mother gave me this number."
+    },
+    {
+     "me": true,
+     "text": "Good evening Uncle! So nice to hear from you. How is everyone in Ibadan?"
+    },
+    {
+     "me": false,
+     "text": "We are fine, thank God. Your cousin Bisi is starting university in September. Studying engineering."
+    },
+    {
+     "me": true,
+     "text": "Wow, congratulations to her! Please tell her I said well done."
+    },
+    {
+     "me": false,
+     "text": "She wants to ask you some questions about studying abroad one day. Is it okay?"
+    },
+    {
+     "me": true,
+     "text": "Of course. She can message me anytime. I'll share what I know."
+    },
+    {
+     "me": false,
+     "text": "God bless you. 🙏🏾"
+    },
+    {
+     "me": false,
+     "text": "Good morning Shay. Forwarded: Good morning family! May your day be filled with blessings and favour 🌞"
+    },
+    {
+     "me": true,
+     "text": "Good morning Uncle! Amen 🙏🏾"
+    },
+    {
+     "me": false,
+     "text": "Bisi has your number now. She will send you a message. Please be patient with her, she asks a lot of questions 😂"
+    },
+    {
+     "me": true,
+     "text": "Ha, no problem at all. I was the same at her age."
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-wa-kemi",
+   "title": "Kemi",
+   "time": "7/14/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Shay!! Are you still looking for a cheap bookshelf? Somebody on my floor is moving out and giving away stuff"
+    },
+    {
+     "me": true,
+     "text": "YES. Mine is a stack of milk crates right now 😭 Is it free?"
+    },
+    {
+     "me": false,
+     "text": "Free. You just have to carry it. It's a tall IKEA one, white"
+    },
+    {
+     "me": true,
+     "text": "I'll find a way. Can Femi help? He has a car"
+    },
+    {
+     "me": false,
+     "text": "I'll ask him. He'll say yes if you promise him puff-puff"
+    },
+    {
+     "me": true,
+     "text": "Deal. I can make puff-puff on a stove with one working burner, it's fine"
+    },
+    {
+     "me": false,
+     "text": "Femi says Saturday morning works. 10ish?"
+    },
+    {
+     "me": true,
+     "text": "Perfect. Thank you thank you. I owe you both"
+    },
+    {
+     "me": true,
+     "text": "The shelf fits!! Look at me being a real adult"
+    },
+    {
+     "me": false,
+     "text": "Haha congrats. Now put actual books on it and not just your sketchbooks"
+    },
+    {
+     "me": true,
+     "text": "The sketchbooks ARE books Kemi"
+    },
+    {
+     "me": false,
+     "text": "Are you coming to Folake's thing at the end of the month? There'll be proper suya"
+    },
+    {
+     "me": true,
+     "text": "If I can finish my model by then. I'll let you know closer to the day"
+    },
+    {
+     "me": false,
+     "text": "Okay. Don't disappear on us again ❤️"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-wa-ray-modelshop",
+   "title": "Ray (Model Shop)",
+   "time": "7/14/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hey Shay, can you cover the 2 to 5 slot tomorrow? Jorge's out sick"
+    },
+    {
+     "me": true,
+     "text": "Yes! I have a crit at 5 but I can be there at 2"
+    },
+    {
+     "me": false,
+     "text": "Perfect. Two big basswood sheets came in, need sorting"
+    },
+    {
+     "me": true,
+     "text": "On it 👍"
+    },
+    {
+     "me": true,
+     "text": "Sheets sorted and labeled. Left the offcuts bin by the band saw"
+    },
+    {
+     "me": false,
+     "text": "You're a lifesaver. Put your hours in the sheet"
+    },
+    {
+     "me": false,
+     "text": "Reminder, the spray booth is out of order till next week. No spray adhesive jobs"
+    },
+    {
+     "me": true,
+     "text": "Got it, I'll tell the second years"
+    },
+    {
+     "me": false,
+     "text": "Shay, got a minute tomorrow? Wanted to talk about next semester hours"
+    },
+    {
+     "me": true,
+     "text": "Sure, I'm free after 11"
+    },
+    {
+     "me": false,
+     "text": "Cool, come by the shop"
+    },
+    {
+     "me": true,
+     "text": "Thanks for being straight with me earlier"
+    },
+    {
+     "me": false,
+     "text": "Budget came down from the dean's office, not my call. I fought for you"
+    },
+    {
+     "me": false,
+     "text": "Going from 15 hrs a week to about 5 is rough, I know"
+    },
+    {
+     "me": true,
+     "text": "I understand. Can I still pick up random shifts?"
+    },
+    {
+     "me": false,
+     "text": "Always. I'll text you when someone calls out"
+    },
+    {
+     "me": false,
+     "text": "Spring show install needs an extra pair of hands, 3 hours, regular rate"
+    },
+    {
+     "me": true,
+     "text": "I'll take it"
+    },
+    {
+     "me": true,
+     "text": "Install done, signed the sheet"
+    },
+    {
+     "me": false,
+     "text": "Thanks, I'll get it into payroll"
+    },
+    {
+     "me": false,
+     "text": "The laser cutter in the shop is making that weird noise again. If you see anyone from the Fab Lab tell them"
+    },
+    {
+     "me": true,
+     "text": "Will do"
+    },
+    {
+     "me": false,
+     "text": "Someone cancelled tomorrow morning, 4 hours. Want it?"
+    },
+    {
+     "me": true,
+     "text": "Yes please"
+    },
+    {
+     "me": false,
+     "text": "9 to 1. Don't be late, I'm bringing donuts 🍩"
+    },
+    {
+     "me": true,
+     "text": "Done! Table saw guard is loose btw"
+    },
+    {
+     "me": false,
+     "text": "Noted, thank you"
+    },
+    {
+     "me": false,
+     "text": "Shop's closing for summer cleaning for two weeks starting next week"
+    },
+    {
+     "me": true,
+     "text": "Okay. Enjoy the break Ray"
+    },
+    {
+     "me": false,
+     "text": "You too. Keep drawing, saw your Instagram, that Tremont water tower one was great"
+    },
+    {
+     "me": true,
+     "text": "Thank you!! Means a lot coming from you"
+    },
+    {
+     "me": false,
+     "text": "Hours might go up next month if the budget clears. Will let you know"
+    },
+    {
+     "me": true,
+     "text": "Fingers crossed 🤞"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-wa-mrs-bello",
+   "title": "Mrs. Bello (Mama's neighbor)",
+   "time": "7/9/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Good morning Shay my dear. Mama asked me to check that you are eating well o. Are you eating?"
+    },
+    {
+     "me": true,
+     "text": "Good morning Mrs. Bello! Yes ma, I'm eating. I cooked a big pot of jollof on Sunday, it's lasting me all week 😄"
+    },
+    {
+     "me": false,
+     "text": "Ah ah, very good. Make sure you put enough pepper. America people don't know pepper."
+    },
+    {
+     "me": true,
+     "text": "Ha! I put enough ma. I promise."
+    },
+    {
+     "me": false,
+     "text": "Your mother's generator was fixed yesterday. The light has been steady since. God is faithful."
+    },
+    {
+     "me": true,
+     "text": "That is such good news, thank you for telling me. She didn't mention it on the phone, she just said everything was fine."
+    },
+    {
+     "me": false,
+     "text": "You know your mother. She will never complain. I am the one who tells you everything 😂"
+    },
+    {
+     "me": true,
+     "text": "Please keep telling me ma. I'm grateful."
+    },
+    {
+     "me": false,
+     "text": "Good evening Shay. Church is raising money for the new roof. I am not asking you o, just telling you so you can pray with us."
+    },
+    {
+     "me": true,
+     "text": "I'll pray with you. Tell Pastor I said hello. 🙏"
+    },
+    {
+     "me": false,
+     "text": "Amen. Rest well, my dear. Don't work too hard on those buildings."
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-wa-bike-coop",
+   "title": "Tremont Bike Co-op",
+   "time": "7/2/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": true,
+     "text": "Hi, I dropped off a blue commuter bike for a brake check last week. Is it done?"
+    },
+    {
+     "me": false,
+     "text": "Hey Shay. Front pads were worn down to the metal, we replaced them. Cable was fraying so we swapped that too. Total $22 parts, labor is free for members."
+    },
+    {
+     "me": true,
+     "text": "That's more than I expected but thank you for catching it. Can I pay when I pick up?"
+    },
+    {
+     "me": false,
+     "text": "Sure. We take cash or card. Open until 6."
+    },
+    {
+     "me": false,
+     "text": "Your membership renews next month, it's $15 for the year. No pressure, just a reminder."
+    },
+    {
+     "me": true,
+     "text": "Thanks! Can I volunteer a couple of shifts instead of paying? I saw the sign on the door"
+    },
+    {
+     "me": false,
+     "text": "Yes, 2 volunteer shifts of 3 hours covers it. Do you want the Saturday afternoon ones?"
+    },
+    {
+     "me": true,
+     "text": "Saturday afternoons are good. Put me down for the next two."
+    },
+    {
+     "me": false,
+     "text": "Done. Bring closed-toe shoes, we'll teach you to true a wheel."
+    },
+    {
+     "me": true,
+     "text": "Great, I love that 😄 See you then"
+    }
+   ]
+  }
+ ],
+ "gmail": [
+  {
+   "sender": "Lakeshore ISSO",
+   "subject": "Fall international student orientation",
+   "preview": "Welcome back, international students! Orientation sessions run in the week before classes begin, including a c",
+   "body": "Welcome back, international students!\n\nOrientation sessions run in the week before classes begin, including a campus bank account workshop and a winter clothing swap. Register through the ISSO portal.\n\nLakeshore ISSO",
+   "time": "Tuesday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "ArchDaily Weekly",
+   "subject": "This week: adaptive reuse in post-industrial cities",
+   "preview": "This week's picks: five warehouse conversions, a timber library in Oslo, and a roundup of small public pavilio",
+   "body": "This week's picks: five warehouse conversions, a timber library in Oslo, and a roundup of small public pavilions.",
+   "time": "Tuesday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Dr. Marcus Halloran",
+   "subject": "Withdrawal — Aldane Fellowship (FINAL)",
+   "preview": "[FINAL — schedule from her laptop. Send 6:00 AM, August 15] Dear Dr. Halloran, I am writing to formally withdr",
+   "body": "[FINAL — schedule from her laptop. Send 6:00 AM, August 15]\n\nDear Dr. Halloran,\n\nI am writing to formally withdraw from the Aldane Fellowship, effective immediately. This has not been an easy decision, and it is made for family reasons that I would prefer to keep private.\n\nI am grateful for the confidence the committee placed in me, and I hope the place can pass to the next candidate without delay.\n\nWith thanks,\nPriya Nair",
+   "time": "Monday",
+   "folder": "sent"
+  },
+  {
+   "sender": "Lakeshore Fab Lab",
+   "subject": "Laser cutter booking confirmed",
+   "preview": "Your booking is confirmed: Laser cutter 2, 7:00 AM to 9:00 AM tomorrow. Please arrive 10 minutes early and bri",
+   "body": "Your booking is confirmed: Laser cutter 2, 7:00 AM to 9:00 AM tomorrow. Please arrive 10 minutes early and bring your own material.",
+   "time": "Monday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Dr. Marcus Halloran",
+   "subject": "Withdrawal — Aldane Fellowship (v1)",
+   "preview": "[v1 — send 11:00 PM] Dear Dr. Halloran, I am writing to withdraw from the Aldane Fellowship. I'm sorry for the",
+   "body": "[v1 — send 11:00 PM]\n\nDear Dr. Halloran,\n\nI am writing to withdraw from the Aldane Fellowship. I'm sorry for the short notice.\n\nPriya Nair",
+   "time": "Sunday",
+   "folder": "sent"
+  },
+  {
+   "sender": "Spotify",
+   "subject": "Your Spotify receipt",
+   "preview": "Thanks for being a Premium Student subscriber. Your payment of $5.99 was processed successfully.",
+   "body": "Thanks for being a Premium Student subscriber. Your payment of $5.99 was processed successfully.",
+   "time": "Saturday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "RevoBank",
+   "subject": "Your July statement is ready",
+   "preview": "Your statement for the month is ready to view in the app.",
+   "body": "Your statement for the month is ready to view in the app.",
+   "time": "Saturday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Studio 4 Crit Coordinator",
+   "subject": "Re: Fall crit schedule — draft",
+   "preview": "Hi, I can do either slot in week 1, but Thursday afternoons in week 2 clash with my model shop shift. Could I ",
+   "body": "Hi,\n\nI can do either slot in week 1, but Thursday afternoons in week 2 clash with my model shop shift. Could I swap to the morning?\n\nThanks,\nShay",
+   "time": "7/30/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Studio 4 Crit Coordinator",
+   "subject": "Fall crit schedule — draft",
+   "preview": "Hi all, Attached below is the draft crit schedule for the first four weeks of fall. Please reply by the end of",
+   "body": "Hi all,\n\nAttached below is the draft crit schedule for the first four weeks of fall. Please reply by the end of the week if you have a conflict.\n\nWeek 1: Tuesday 10 AM, Studio 4B\nWeek 2: Thursday 2 PM, Studio 4B\n\nThanks!",
+   "time": "7/29/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Mr. Dominguez",
+   "subject": "Re: Reminder: August rent due",
+   "preview": "Hi Mr. Dominguez, Thank you for the reminder. My half will be in the portal by the end of the week. Also, the ",
+   "body": "Hi Mr. Dominguez,\n\nThank you for the reminder. My half will be in the portal by the end of the week. Also, the bathroom fan is rattling again, whenever you have a chance.\n\nShay Okafor, Unit 2B",
+   "time": "7/28/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Tremont Apartments",
+   "subject": "Reminder: August rent due",
+   "preview": "Hi, this is a friendly reminder that August rent is due on the first. Please send payment through the portal. ",
+   "body": "Hi, this is a friendly reminder that August rent is due on the first. Please send payment through the portal.\n\nMr. Dominguez",
+   "time": "7/28/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Dr. Marcus Halloran",
+   "subject": "Re: A concern about Priya Nair",
+   "preview": "Shay, Thank you for writing, and for looking out for a friend. I would rather not discuss this over email. Cou",
+   "body": "Shay,\n\nThank you for writing, and for looking out for a friend. I would rather not discuss this over email. Could we meet in person at some point in the next couple of weeks? My office is Merrow Hall, Room 210.\n\nLet me know what works.\n\nMarcus Halloran\nAssociate Dean and Program Director, Aldane Fellowship",
+   "time": "7/26/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Dr. Marcus Halloran",
+   "subject": "A concern about Priya Nair",
+   "preview": "Dear Dr. Halloran, I hope you don't mind me writing. I'm a second-year student in the same cohort as Priya Nai",
+   "body": "Dear Dr. Halloran,\n\nI hope you don't mind me writing. I'm a second-year student in the same cohort as Priya Nair, and also her roommate. I wouldn't normally do this, but I'm worried about her.\n\nShe has been dealing with serious burnout since the spring. She barely sleeps, has stopped going to studio, and has pulled away from almost everyone. I think the Fellowship may be adding to the pressure, and I'm not sure she'll ask for help herself.\n\nI'd really appreciate it if this stayed between us. I only want her to be okay.\n\nThank you for your time,\nShay Okafor",
+   "time": "7/25/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Lakeshore Fab Lab Desk",
+   "subject": "Fab Lab closed Friday for maintenance",
+   "preview": "The Fab Lab will be closed this Friday for equipment maintenance. All laser cutter bookings that day are cance",
+   "body": "The Fab Lab will be closed this Friday for equipment maintenance. All laser cutter bookings that day are canceled and will be rebooked on request.\n\nFab Lab Desk",
+   "time": "7/25/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Naija in CLE",
+   "subject": "Jollof cook-off this month",
+   "preview": "Come hungry. Our annual jollof cook-off is back at the Tremont community hall. Bring a dish or just bring your",
+   "body": "Come hungry. Our annual jollof cook-off is back at the Tremont community hall. Bring a dish or just bring your appetite.",
+   "time": "7/24/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Dhruv Mehta",
+   "subject": "Re: laser cutter file settings",
+   "preview": "That fixed it, thank you! The cut came out clean on the first pass. I owe you a coffee from the café. Shay",
+   "body": "That fixed it, thank you! The cut came out clean on the first pass. I owe you a coffee from the café.\n\nShay",
+   "time": "7/21/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Dhruv Mehta",
+   "subject": "Re: laser cutter file settings",
+   "preview": "Use 0.003 in for the kerf offset and set the cut line to hairline red. That's what the Fab Lab wants. If it st",
+   "body": "Use 0.003 in for the kerf offset and set the cut line to hairline red. That's what the Fab Lab wants. If it still jams, ask Ray.\n\nDhruv",
+   "time": "7/21/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Lakeshore Library",
+   "subject": "Renewal request",
+   "preview": "Hello, could you please renew Details in Architecture Drawing for another two weeks? Thank you. Shay Okafor",
+   "body": "Hello, could you please renew Details in Architecture Drawing for another two weeks? Thank you.\n\nShay Okafor",
+   "time": "7/21/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Lakeshore Library",
+   "subject": "Overdue notice: 1 item",
+   "preview": "Our records show that the following item is overdue: Details in Architecture Drawing: Section and Elevation Pl",
+   "body": "Our records show that the following item is overdue:\n\nDetails in Architecture Drawing: Section and Elevation\n\nPlease return it or renew online to avoid fines.\n\nLakeshore Library",
+   "time": "7/20/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Joanna Reyes",
+   "subject": "Re: Coffee chat?",
+   "preview": "Hi Shay, Happy to chat. I'm at a small firm in Lakewood doing mostly adaptive reuse. I'm free for a video call",
+   "body": "Hi Shay,\n\nHappy to chat. I'm at a small firm in Lakewood doing mostly adaptive reuse. I'm free for a video call next week, mornings are best. Send your portfolio ahead and I'll look through it.\n\nJoanna",
+   "time": "7/18/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Sable Print Shop",
+   "subject": "Your boards are ready for pickup",
+   "preview": "Your order of 3 A1 boards is ready at the counter. We are open until 7 PM.",
+   "body": "Your order of 3 A1 boards is ready at the counter. We are open until 7 PM.",
+   "time": "7/17/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Joanna Reyes",
+   "subject": "Coffee chat?",
+   "preview": "Dear Ms. Reyes, I'm a second-year MArch student at Lakeshore University interested in adaptive reuse. A mutual",
+   "body": "Dear Ms. Reyes,\n\nI'm a second-year MArch student at Lakeshore University interested in adaptive reuse. A mutual contact from Career Services suggested I reach out. Would you have 20 minutes for a short video call about your path into practice?\n\nI'm happy to send my portfolio ahead of time.\n\nThank you,\nShay Okafor",
+   "time": "7/16/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Tremont Library Branch",
+   "subject": "Your hold is ready",
+   "preview": "The item you requested is ready for pickup at the Tremont branch. We'll hold it for 5 days. Tremont Library Br",
+   "body": "The item you requested is ready for pickup at the Tremont branch. We'll hold it for 5 days.\n\nTremont Library Branch",
+   "time": "7/15/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Lakeshore ISSO",
+   "subject": "Reminder: enrollment verification",
+   "preview": "Dear student, This is a reminder that all F-1 students must have their enrollment verified each term. Please r",
+   "body": "Dear student,\n\nThis is a reminder that all F-1 students must have their enrollment verified each term. Please review your account and contact our office if anything is unresolved.\n\nLakeshore International Student and Scholar Office",
+   "time": "7/14/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Tremont Thai Kitchen",
+   "subject": "Order receipt: pad see ew",
+   "preview": "Thanks for ordering from Tremont Thai Kitchen! 1 x Pad See Ew: $12.50 Tax: $1.00 Total: $13.50 Enjoy your meal",
+   "body": "Thanks for ordering from Tremont Thai Kitchen!\n\n1 x Pad See Ew: $12.50\nTax: $1.00\nTotal: $13.50\n\nEnjoy your meal.",
+   "time": "7/12/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Clearview Eye Care",
+   "subject": "Time for your annual eye exam",
+   "preview": "Hi Shay, It's been a year since your last visit. Book your annual eye exam online or call us. Students receive",
+   "body": "Hi Shay,\n\nIt's been a year since your last visit. Book your annual eye exam online or call us. Students receive 15% off frames.\n\nClearview Eye Care",
+   "time": "7/9/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Lakeshore Bursar Office",
+   "subject": "Registration hold placed on your account",
+   "preview": "Dear Shay, A registration hold has been placed on your student account. Your outstanding balance is $4,200.00.",
+   "body": "Dear Shay,\n\nA registration hold has been placed on your student account. Your outstanding balance is $4,200.00. Please submit payment or contact our office to arrange a plan. Holds that remain unresolved may be reported to the International Student and Scholar Office.\n\nLakeshore Bursar Office\n(216) 555-0108",
+   "time": "7/7/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Marcus Hill",
+   "subject": "Re: Structures section notes",
+   "preview": "Marcus, thank you, this is a lifesaver. Your handwriting is fine. The moment diagram finally makes sense. Shay",
+   "body": "Marcus, thank you, this is a lifesaver. Your handwriting is fine. The moment diagram finally makes sense.\n\nShay",
+   "time": "7/7/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Marcus Hill",
+   "subject": "Structures section notes",
+   "preview": "Shay, you asked for my notes from the structures review session. Attached. My handwriting is bad, sorry. The m",
+   "body": "Shay, you asked for my notes from the structures review session. Attached. My handwriting is bad, sorry. The moment diagram on page two is the part to focus on.\n\nMarcus",
+   "time": "7/6/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Archive Weekly",
+   "subject": "Ten timber towers you should know",
+   "preview": "This week in architecture: - Ten timber towers changing the skyline - A school in Kigali built from compressed",
+   "body": "This week in architecture:\n\n- Ten timber towers changing the skyline\n- A school in Kigali built from compressed earth\n- Drawing by hand in the age of renders\n\nRead more on our site. Unsubscribe anytime.",
+   "time": "7/2/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Lakeshore Writing Center",
+   "subject": "Appointment confirmed: thesis statement review",
+   "preview": "Your appointment is confirmed for tomorrow at 2:00 PM with a writing consultant in the Library, room 204. Brin",
+   "body": "Your appointment is confirmed for tomorrow at 2:00 PM with a writing consultant in the Library, room 204. Bring a draft and any questions.\n\nLakeshore Writing Center",
+   "time": "6/29/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Tremont Wash & Fold",
+   "subject": "Your laundry is ready",
+   "preview": "Hi Shay, your wash and fold order (12 lb) is ready for pickup. Total: $16.80. We're open until 8 PM tonight. T",
+   "body": "Hi Shay, your wash and fold order (12 lb) is ready for pickup. Total: $16.80. We're open until 8 PM tonight.\n\nTremont Wash & Fold",
+   "time": "6/25/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Revo Bank Support",
+   "subject": "New device signed in to your account",
+   "preview": "Hi Shay, We noticed a sign-in from an iPhone in Cleveland, OH. If this was you, no action is needed. If not, s",
+   "body": "Hi Shay,\n\nWe noticed a sign-in from an iPhone in Cleveland, OH. If this was you, no action is needed. If not, secure your account in the app.\n\nRevo Bank Support",
+   "time": "6/21/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "School of Architecture Admin",
+   "subject": "Teaching assistant pool — fall",
+   "preview": "Hi Shay, Thanks for your interest in a teaching assistant position for fall. The TA pool is now full and we ar",
+   "body": "Hi Shay,\n\nThanks for your interest in a teaching assistant position for fall. The TA pool is now full and we are not able to place additional students. We will keep your name on file in case of cancellations.\n\nSchool of Architecture Admin",
+   "time": "6/18/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Studio Café",
+   "subject": "Your loyalty card: one more for a free coffee",
+   "preview": "You're 1 stamp away from a free drip coffee at Studio Café. Open late during crit weeks. See you soon!",
+   "body": "You're 1 stamp away from a free drip coffee at Studio Café. Open late during crit weeks.\n\nSee you soon!",
+   "time": "6/17/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Folake (Naija in CLE)",
+   "subject": "Re: Potluck Saturday: bring your jollof!",
+   "preview": "Hi Folake, Count me in. I'll bring a big pot of jollof and some plantain. I'm taking the bus so I'll arrive ar",
+   "body": "Hi Folake,\n\nCount me in. I'll bring a big pot of jollof and some plantain. I'm taking the bus so I'll arrive around 4:15.\n\nThank you for organizing!\nShay",
+   "time": "6/12/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Folake (Naija in CLE)",
+   "subject": "Potluck Saturday: bring your jollof!",
+   "preview": "Hi everyone, Naija in CLE potluck is this Saturday at 4 PM at the Edgewater park pavilion. Sign-up sheet is li",
+   "body": "Hi everyone,\n\nNaija in CLE potluck is this Saturday at 4 PM at the Edgewater park pavilion. Sign-up sheet is linked below. We still need someone for puff-puff and someone for drinks.\n\nShay, your jollof was gone in ten minutes last time, so no pressure but please come!\n\nFolake",
+   "time": "6/12/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Lakefront Fiber Support",
+   "subject": "Planned maintenance in your area tonight",
+   "preview": "Hi Shay, We will perform network maintenance in the Tremont area tonight between midnight and 4 AM. You may no",
+   "body": "Hi Shay,\n\nWe will perform network maintenance in the Tremont area tonight between midnight and 4 AM. You may notice brief interruptions to your internet service.\n\nThanks for your patience.\nLakefront Fiber",
+   "time": "6/8/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Aldane Fellowship Office",
+   "subject": "Aldane Fellowship 2026 — Selection outcome",
+   "preview": "Dear Shay, Thank you for applying to the Aldane Fellowship 2026 and for the care you put into your portfolio a",
+   "body": "Dear Shay,\n\nThank you for applying to the Aldane Fellowship 2026 and for the care you put into your portfolio and project statement. The selection committee reviewed a very strong field this year.\n\nI am writing to let you know that you have not been selected as a Fellow in this cycle. The committee was impressed by your application, however, and has placed you on the alternates list.\n\nPlease note that alternates are not guaranteed a place. Fellows may confirm or withdraw through the middle of August, and the full selection summary has been shared with the committee and listed alternates. Should a place become available, we will contact you directly using this address. Until then, no action is needed on your part.\n\nWith thanks and best wishes for the coming year,\n\nAldane Fellowship Office\nSchool of Architecture, Lakeshore University",
+   "time": "6/7/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Mr. Dominguez (Landlord)",
+   "subject": "Maintenance visit Thursday",
+   "preview": "Hello Shay and Priya, I will send a plumber Thursday between 10 AM and noon to look at the kitchen faucet. Som",
+   "body": "Hello Shay and Priya,\n\nI will send a plumber Thursday between 10 AM and noon to look at the kitchen faucet. Someone should be home to let him in.\n\nThank you,\nMr. Dominguez",
+   "time": "6/3/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Mei Tanaka",
+   "subject": "Re: Rhino file for the massing model",
+   "preview": "Mei, Got the file, the layers are indeed named. The contours look good. Yes to splitting the basswood order, I",
+   "body": "Mei,\n\nGot the file, the layers are indeed named. The contours look good. Yes to splitting the basswood order, I only need two sheets as well. I can pay you back at studio tomorrow.\n\nShay",
+   "time": "5/27/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Mei Tanaka",
+   "subject": "Rhino file for the massing model",
+   "preview": "Hey Shay, Here is the Rhino file with the massing study we talked about. Layers are named, I promise. Let me k",
+   "body": "Hey Shay,\n\nHere is the Rhino file with the massing study we talked about. Layers are named, I promise. Let me know if the contours look off on your end.\n\nAlso, do you want to split a basswood order? I only need two sheets.\n\nMei",
+   "time": "5/27/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Lakeshore Graduate Awards",
+   "subject": "Brightwater Travel Grant — decision",
+   "preview": "Dear Shay, Thank you for applying to the Brightwater Travel Grant. Unfortunately, we are unable to offer you f",
+   "body": "Dear Shay,\n\nThank you for applying to the Brightwater Travel Grant. Unfortunately, we are unable to offer you funding this round. Demand far exceeded the funds available, and this decision is final for the current cycle.\n\nWe encourage you to apply again next year.\n\nGraduate Awards Office",
+   "time": "5/22/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Lakeshore Student Health",
+   "subject": "Free flu shot clinic this fall",
+   "preview": "Dear students, Student Health will host a free flu shot clinic in the Student Union this fall. Walk-ins welcom",
+   "body": "Dear students,\n\nStudent Health will host a free flu shot clinic in the Student Union this fall. Walk-ins welcome. Bring your student ID.\n\nStay healthy,\nLakeshore Student Health",
+   "time": "5/20/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Lakeshore Library Desk",
+   "subject": "Due soon: 3 items",
+   "preview": "The following items are due in 3 days: - Rowe, Collage City - Zumthor, Atmospheres - Ching, Building Construct",
+   "body": "The following items are due in 3 days:\n\n- Rowe, Collage City\n- Zumthor, Atmospheres\n- Ching, Building Construction Illustrated\n\nRenew online or at the circulation desk. Overdue fines are $0.25 per day per item.",
+   "time": "5/14/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Tobe Okafor",
+   "subject": "Re: Mama's phone",
+   "preview": "Tobe, Thank you for taking care of the phone. I called her already and talked for a full hour, so tell her my ",
+   "body": "Tobe,\n\nThank you for taking care of the phone. I called her already and talked for a full hour, so tell her my voice notes are now long enough.\n\nHow is Houston? Is the heat as bad as they say?\n\nShay",
+   "time": "5/10/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Tobe Okafor",
+   "subject": "Mama's phone",
+   "preview": "Shay, Mama's phone screen cracked again. I'm sending her a new one from Houston, it should reach Lagos in abou",
+   "body": "Shay,\n\nMama's phone screen cracked again. I'm sending her a new one from Houston, it should reach Lagos in about two weeks. Tell her to stop saying she doesn't need it.\n\nAlso call her this weekend, she says your voice notes are too short.\n\nTobe",
+   "time": "5/9/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Sable Print Shop",
+   "subject": "Receipt: 4 boards, 24x36 matte",
+   "preview": "Thanks for your order! 4 x 24x36 matte foam-core boards: $38.00 Student discount: -$3.80 Total: $34.20 Your or",
+   "body": "Thanks for your order!\n\n4 x 24x36 matte foam-core boards: $38.00\nStudent discount: -$3.80\nTotal: $34.20\n\nYour order was picked up by Shay O. Please keep this receipt for your records.",
+   "time": "5/2/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Brandt Family Dental",
+   "subject": "Re: Appointment reminder: cleaning next week",
+   "preview": "Hello, I have a studio review at that time and need to move my cleaning. Do you have anything the following we",
+   "body": "Hello,\n\nI have a studio review at that time and need to move my cleaning. Do you have anything the following week, early morning if possible?\n\nThank you,\nShay Okafor",
+   "time": "4/24/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Brandt Family Dental",
+   "subject": "Appointment reminder: cleaning next week",
+   "preview": "Hi Shay, This is a reminder of your cleaning and exam next week at 9:30 AM with Dr. Brandt's team. Please arri",
+   "body": "Hi Shay,\n\nThis is a reminder of your cleaning and exam next week at 9:30 AM with Dr. Brandt's team. Please arrive 10 minutes early and bring your insurance card.\n\nNeed to reschedule? Call us at least 24 hours ahead.\n\nBrandt Family Dental",
+   "time": "4/24/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "CityRx Pharmacy",
+   "subject": "Your prescription is ready for pickup",
+   "preview": "Hello Shay, Your refill is ready at the CityRx Pharmacy on Professor Ave. Please pick it up within 7 days or i",
+   "body": "Hello Shay,\n\nYour refill is ready at the CityRx Pharmacy on Professor Ave. Please pick it up within 7 days or it will be returned to stock.\n\nHours: Mon-Fri 9-7, Sat 10-4.\n\nReply STOP to opt out of text reminders.",
+   "time": "4/18/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Prof. Ibarra",
+   "subject": "Re: Precedent study: comments",
+   "preview": "Dear Prof. Ibarra, Thank you for the feedback. I've moved the adaptive reuse argument to the front and labeled",
+   "body": "Dear Prof. Ibarra,\n\nThank you for the feedback. I've moved the adaptive reuse argument to the front and labeled the structural grid. I'll stop by office hours on Thursday to go over the revised section.\n\nBest,\nShay",
+   "time": "4/12/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Prof. Ibarra",
+   "subject": "Precedent study: comments",
+   "preview": "Shay, I went through your precedent study. The section drawings are strong, especially the way you handled the",
+   "body": "Shay,\n\nI went through your precedent study. The section drawings are strong, especially the way you handled the light well. Two notes:\n\n1. Your argument about adaptive reuse is buried on page four. Move it to the front.\n2. Label the structural grid. Reviewers will ask.\n\nCome by office hours if you want to talk it through.\n\nProf. Ibarra",
+   "time": "4/11/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "RTA Customer Service",
+   "subject": "Service change: Route 19 detour in Tremont",
+   "preview": "Rider alert: Due to street resurfacing, Route 19 will detour around Professor Avenue for the next two weeks. S",
+   "body": "Rider alert:\n\nDue to street resurfacing, Route 19 will detour around Professor Avenue for the next two weeks. Stops at Starkweather and Literary will be temporarily relocated one block east.\n\nPlan your trip at the RTA trip planner. Thank you for riding.",
+   "time": "4/5/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Dave's Market",
+   "subject": "This week's deals: rice, eggs, bananas",
+   "preview": "Hi neighbor! This week at Dave's Market: - Long grain rice 10 lb bag: $6.99 - Eggs, dozen: $2.49 - Bananas: $0",
+   "body": "Hi neighbor!\n\nThis week at Dave's Market:\n- Long grain rice 10 lb bag: $6.99\n- Eggs, dozen: $2.49\n- Bananas: $0.49/lb\n- Instant noodles 5-pack: $2.19\n\nShow your Dave's Card at checkout to save more.\n\nUnsubscribe at any time.",
+   "time": "3/30/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Aunty Ngozi",
+   "subject": "Fwd: Cousin Chidera's wedding plans",
+   "preview": "My dear Shay, See the details below from your cousin. The traditional wedding is in December. Your mama says y",
+   "body": "My dear Shay,\n\nSee the details below from your cousin. The traditional wedding is in December. Your mama says you will try to come but I told her school comes first. Eat well and wear your coat o, I saw Cleveland weather on the news.\n\nGod bless you,\nAunty Ngozi\n\n---------- Forwarded message ----------\nSave the date! Details to follow. Aso ebi colors will be announced soon.",
+   "time": "3/21/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Lakeshore Career Services",
+   "subject": "Portfolio review nights: sign up now",
+   "preview": "Hi Shay, Portfolio review nights for architecture and design students start next week in the Career Services l",
+   "body": "Hi Shay,\n\nPortfolio review nights for architecture and design students start next week in the Career Services lounge. Each slot is 20 minutes with a working professional.\n\nBring a PDF and one printed spread. Slots fill quickly, so book early through the student portal.\n\nLakeshore Career Services",
+   "time": "3/12/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Aldane Fellowship Office",
+   "subject": "We received your application",
+   "preview": "Dear Shay, This message confirms that your application to the Aldane Fellowship 2026 was received. You will he",
+   "body": "Dear Shay,\n\nThis message confirms that your application to the Aldane Fellowship 2026 was received. You will hear about the outcome in the early summer. Please keep your Lakeshore email active and check it regularly.\n\nAldane Fellowship Office",
+   "time": "3/9/26",
+   "folder": "inbox"
+  }
+ ],
+ "calendar": [
+  {
+   "title": "Tremont Arts Walk",
+   "date": "08/29",
+   "dateLabel": "Sat, Aug 29, 2026",
+   "month": "2026-08",
+   "time": "9:00 PM – 12:00 AM",
+   "location": "Tremont"
+  },
+  {
+   "title": "Video call with Aunty Ngozi",
+   "date": "08/23",
+   "dateLabel": "Sun, Aug 23, 2026",
+   "month": "2026-08",
+   "time": "5:00 PM – 5:45 PM",
+   "location": ""
+  },
+  {
+   "title": "Flu shot",
+   "date": "08/20",
+   "dateLabel": "Thu, Aug 20, 2026",
+   "month": "2026-08",
+   "time": "2:00 PM – 2:20 PM",
+   "location": "Lakeshore Student Health"
+  },
+  {
+   "title": "ISSO — tuition hold deadline (SEVIS)",
+   "date": "08/18",
+   "dateLabel": "Tue, Aug 18, 2026",
+   "month": "2026-08",
+   "time": "All day",
+   "location": "Lakeshore ISSO"
+  },
+  {
+   "title": "A. deadline",
+   "date": "08/15",
+   "dateLabel": "Sat, Aug 15, 2026",
+   "month": "2026-08",
+   "time": "All day",
+   "location": ""
+  },
+  {
+   "title": "Internet tech visit",
+   "date": "08/13",
+   "dateLabel": "Thu, Aug 13, 2026",
+   "month": "2026-08",
+   "time": "5:00 PM – 7:00 PM",
+   "location": "Home"
+  },
+  {
+   "title": "Portfolio checklist review",
+   "date": "08/12",
+   "dateLabel": "Wed, Aug 12, 2026",
+   "month": "2026-08",
+   "time": "7:00 PM – 8:00 PM",
+   "location": "Studio 4B"
+  },
+  {
+   "title": "Office hours: Prof. Ibarra",
+   "date": "08/11",
+   "dateLabel": "Tue, Aug 11, 2026",
+   "month": "2026-08",
+   "time": "7:00 PM – 7:30 PM",
+   "location": "Merrow Hall, room 214"
+  },
+  {
+   "title": "Dentist cleaning",
+   "date": "08/11",
+   "dateLabel": "Tue, Aug 11, 2026",
+   "month": "2026-08",
+   "time": "3:00 PM – 4:00 PM",
+   "location": "Brandt Family Dental"
+  },
+  {
+   "title": "Call Mama",
+   "date": "08/09",
+   "dateLabel": "Sun, Aug 9, 2026",
+   "month": "2026-08",
+   "time": "5:00 PM – 5:45 PM",
+   "location": ""
+  },
+  {
+   "title": "Fab Lab safety refresher",
+   "date": "08/08",
+   "dateLabel": "Sat, Aug 8, 2026",
+   "month": "2026-08",
+   "time": "3:00 PM – 4:00 PM",
+   "location": "Lakeshore Fab Lab"
+  },
+  {
+   "title": "Coffee — Dr. Halloran",
+   "date": "08/08",
+   "dateLabel": "Sat, Aug 8, 2026",
+   "month": "2026-08",
+   "time": "2:00 PM – 2:45 PM",
+   "location": "Merrow Hall, Room 210"
+  },
+  {
+   "title": "Lakefront run",
+   "date": "08/06",
+   "dateLabel": "Thu, Aug 6, 2026",
+   "month": "2026-08",
+   "time": "10:00 PM – 11:00 PM",
+   "location": "Edgewater Beach"
+  },
+  {
+   "title": "Laser cutter booking",
+   "date": "08/05",
+   "dateLabel": "Wed, Aug 5, 2026",
+   "month": "2026-08",
+   "time": "11:00 AM – 1:00 PM",
+   "location": "Lakeshore Fab Lab"
+  },
+  {
+   "title": "Library books due",
+   "date": "08/04",
+   "dateLabel": "Tue, Aug 4, 2026",
+   "month": "2026-08",
+   "time": "All day",
+   "location": "Tremont Library Branch"
+  },
+  {
+   "title": "Thesis crit — desk row",
+   "date": "08/03",
+   "dateLabel": "Mon, Aug 3, 2026",
+   "month": "2026-08",
+   "time": "6:00 PM – 8:00 PM",
+   "location": "Studio 4B"
+  },
+  {
+   "title": "Call Mama",
+   "date": "08/02",
+   "dateLabel": "Sun, Aug 2, 2026",
+   "month": "2026-08",
+   "time": "5:00 PM – 5:45 PM",
+   "location": ""
+  },
+  {
+   "title": "Call Tobe",
+   "date": "08/01",
+   "dateLabel": "Sat, Aug 1, 2026",
+   "month": "2026-08",
+   "time": "12:30 AM – 1:00 AM",
+   "location": ""
+  },
+  {
+   "title": "Rent due",
+   "date": "08/01",
+   "dateLabel": "Sat, Aug 1, 2026",
+   "month": "2026-08",
+   "time": "All day",
+   "location": ""
+  },
+  {
+   "title": "Laundry pickup",
+   "date": "07/29",
+   "dateLabel": "Wed, Jul 29, 2026",
+   "month": "2026-07",
+   "time": "10:00 PM – 10:20 PM",
+   "location": "Tremont Wash & Fold"
+  },
+  {
+   "title": "Jollof batch cook",
+   "date": "07/22",
+   "dateLabel": "Wed, Jul 22, 2026",
+   "month": "2026-07",
+   "time": "8:00 PM – 10:30 PM",
+   "location": "Home"
+  },
+  {
+   "title": "Career Services portfolio review",
+   "date": "07/15",
+   "dateLabel": "Wed, Jul 15, 2026",
+   "month": "2026-07",
+   "time": "4:00 PM – 4:45 PM",
+   "location": "Lakeshore Career Services, Merrow Hall 2nd floor"
+  },
+  {
+   "title": "Eye exam",
+   "date": "07/09",
+   "dateLabel": "Thu, Jul 9, 2026",
+   "month": "2026-07",
+   "time": "2:30 PM – 3:15 PM",
+   "location": "Clearview Eye Care"
+  },
+  {
+   "title": "Lakefront fireworks",
+   "date": "07/04",
+   "dateLabel": "Sat, Jul 4, 2026",
+   "month": "2026-07",
+   "time": "11:30 PM – 2:00 AM",
+   "location": "Edgewater Beach"
+  },
+  {
+   "title": "Bike co-op open night",
+   "date": "06/27",
+   "dateLabel": "Sat, Jun 27, 2026",
+   "month": "2026-06",
+   "time": "11:00 PM – 1:00 AM",
+   "location": "Tremont Bike Co-op"
+  },
+  {
+   "title": "Writing Center appointment",
+   "date": "06/19",
+   "dateLabel": "Fri, Jun 19, 2026",
+   "month": "2026-06",
+   "time": "5:00 PM – 5:45 PM",
+   "location": "Lakeshore Writing Center"
+  },
+  {
+   "title": "Model shop: Ray catch-up",
+   "date": "06/10",
+   "dateLabel": "Wed, Jun 10, 2026",
+   "month": "2026-06",
+   "time": "3:00 PM – 3:30 PM",
+   "location": "School of Architecture, model shop"
+  },
+  {
+   "title": "Pharmacy pickup",
+   "date": "06/03",
+   "dateLabel": "Wed, Jun 3, 2026",
+   "month": "2026-06",
+   "time": "9:30 PM – 10:00 PM",
+   "location": "CityRx Pharmacy, Tremont"
+  },
+  {
+   "title": "Marrow Bay — T",
+   "date": "05/28",
+   "dateLabel": "Thu, May 28, 2026",
+   "month": "2026-05",
+   "time": "11:30 PM – 2:30 AM",
+   "location": ""
+  },
+  {
+   "title": "Naija in CLE meetup",
+   "date": "05/21",
+   "dateLabel": "Thu, May 21, 2026",
+   "month": "2026-05",
+   "time": "10:00 PM – 12:30 AM",
+   "location": "Edgewater Park pavilion"
+  },
+  {
+   "title": "Print boards pickup",
+   "date": "05/12",
+   "dateLabel": "Tue, May 12, 2026",
+   "month": "2026-05",
+   "time": "2:00 PM – 2:30 PM",
+   "location": "Sable Print Shop"
+  },
+  {
+   "title": "Sketchbook swap",
+   "date": "05/02",
+   "dateLabel": "Sat, May 2, 2026",
+   "month": "2026-05",
+   "time": "6:00 PM – 7:30 PM",
+   "location": "Studio Café"
+  }
+ ],
+ "notes": [
+  {
+   "title": "groceries",
+   "body": "Dave's Market:\n- rice (big bag)\n- eggs\n- instant noodles x6\n- cereal\n- tomatoes + peppers for jollof\n- tea bags (ginger)\n- bananas"
+  },
+  {
+   "title": "crit prep",
+   "body": "Crit this week:\n- print 4 boards at Sable (before 3pm)\n- section drawings, redo stair detail\n- bring basswood model, extra pins\n- practice 5 min version of the talk\n- ask Prof. Ibarra about the facade question"
+  },
+  {
+   "title": "things to ask Mama",
+   "body": "- how is her knee, did she go to the clinic\n- is Mrs. Bello still bringing her soup\n- recipe for the pepper soup she makes when someone is sick\n- ask about church harvest thing\n- tell her I'm eating fine (cereal counts)\n- NO long details about school stuff, she will just worry and pray louder\n\nCall her Sunday evening my time, it's very early morning there so she'll be up already.\n\nSend her a photo of the lake. She likes the lake."
+  },
+  {
+   "title": "rent split",
+   "body": "My half: $640\n- paid to P on the 1st\n- utilities split, P covers internet\n- landlord wants August rent confirmation by Friday"
+  },
+  {
+   "title": "keep it straight",
+   "body": "keep it straight\n\nSaid:\n- Marisol: Tamsin saw Eli at a bar with some girl (April)\n- Marisol: P is \"not herself\", that's why she's skipping studio\n- Jonah: P has been struggling since the breakup, give her space\n- Wren: P isn't answering me either, I think she needs time alone\n- Marisol: P is in counseling, twice a week. Don't say anything to her\n- The director (email): worried about her, she isn't sleeping, she's overwhelmed\n\nMaybe:\n- Callum: she's overwhelmed by the fellowship\n- Tamsin: keep it vague if anyone asks\n\nRule: never tell two people different versions. Check this list BEFORE I open my mouth."
+  },
+  {
+   "title": "portfolio edits",
+   "body": "To do before end of month:\n- re-export boards at 300 dpi, they looked muddy at the print shop\n- fix the section drawing, line weights too uniform\n- rewrite project statements, shorter. Ask ChatGPT to tighten, then put my own voice back in\n- consistent title block across all sheets\n- name the files properly (no more final_final2)\n- get Mei to look at the layout\n\nProject name idea: 'Threshold House'. Keep it."
+  },
+  {
+   "title": "lakefront run loop",
+   "body": "Loop 1 (short, 25 min): apartment > Tremont Ave > down the hill > lakefront path > turn at the pier lights > back\n\nLoop 2 (long, 50 min): same but continue to the boat launch and back\n\nPace goal: stop checking my watch every 2 minutes\n\nBring: keys, bus pass, earbuds. Water fountain near the boat launch works, the other one doesn't.\n\nPlaylists that work: lo-fi study mix 3, Afrobeats run mix (Burna, Rema, Ayra Starr). No sad songs on the way back."
+  },
+  {
+   "title": "cheap meals rotation",
+   "body": "Under $3 a portion\n\n- jollof + fried egg\n- instant noodles + frozen veg + chili oil\n- beans and plantain (Folake gave me the good beans recipe)\n- oatmeal with peanut butter\n- cereal for dinner, no judgment\n- pasta with canned tomatoes + garlic\n\nFree food: department seminars on Wednesdays, grab extra for tomorrow. Studio café does 2-for-1 muffins after 3pm.\n\nBuy rice in the big bag, it lasts forever."
+  },
+  {
+   "title": "studio supplies to buy",
+   "body": "Need (only when there's money):\n- foam core x4 (white)\n- basswood sheets 1/16\n- X-Acto blades, the box of 100 is cheaper\n- tracing paper roll\n- spray mount (ask Sable Print Shop if they have it cheaper)\n- tiny scale figures, 1:100\n- new pen refills 0.3\n\nBorrow instead of buy: steel ruler (Wren), cutting mat (Callum)\n\nCheck the model shop's free bin first. Ray said there's usually offcuts."
+  },
+  {
+   "title": "laser cutter bookings",
+   "body": "Fab Lab slots, max 2 hrs each, book 48 hrs ahead\n\n- Tues 4–6pm: site model base (1/16 chipboard)\n- Thurs 9–11am: facade test pieces\n- Sat morning: backup slot, ask Fab Lab desk if free\n\nReminders:\n- bring own material, they don't sell the 1/8 basswood anymore\n- vector line weight 0.001 in red or it won't cut\n- clean the bed after, last time somebody left a mess and everyone got blamed\n- check air assist is ON before pressing start"
+  },
+  {
+   "title": "drawing ideas (shay.draws)",
+   "body": "Line drawings to post, one per week-ish\n\n- the old Tremont church tower from the bus stop\n- grain elevators by the river, ink only\n- Public library reading room staircase\n- the pedestrian bridge, from below\n- studio window at night, reflections\n- corner store awning on Professor Ave\n\nNotes: use the 0.3 pen, keep it loose. Caption short. No hashtag spam.\nPost around 8pm, that's when people scroll."
+  },
+  {
+   "title": "jollof batch (big pot)",
+   "body": "Big pot for the week, makes about 8 portions\n\n- 3 cups long grain parboiled rice\n- 1 can tomato paste + 1 jar roasted peppers, blended\n- 1 onion, 2 scotch bonnet (ONE if Priya's eating, she taps out fast)\n- thyme, curry powder, bay leaf, stock cube\n- oil\n\nFry the paste until it darkens, don't rush it. Low heat, foil under the lid so it steams. Stir only at the very end.\n\nMama says add the butter at the end. She is right.\nFreeze in single portions, label with masking tape."
+  },
+  {
+   "title": "apartment chores w/ Priya",
+   "body": "Rotation\n- Bathroom: me, odd weeks\n- Kitchen deep clean: Priya, odd weeks\n- Trash + recycling out Monday night\n- Take turns buying dish soap and paper towels\n\nLandlord says the radiator guy is coming sometime this month, someone has to be home.\n\nLeft a tea bag + sticky note on her desk. Small things.\n\nFix the loose cabinet hinge (YouTube it)."
+  },
+  {
+   "title": "reading list - studio theory",
+   "body": "Due for seminar:\n- chapter on thresholds and circulation (finish by Thurs)\n- the essay on housing and informal settlements, good for my Lagos precedent\n- short piece on adaptive reuse, 12 pages\n- Prof. Ibarra's handout on daylight analysis\n\nTo read for fun, someday: the Nigerian modernism book from the library, recall date coming up so renew it.\n\nTip: read on the bus, 20 min each way adds up."
+  },
+  {
+   "title": "bus times",
+   "body": "Tremont to campus:\n- 19 at 7:42 / 8:12\n- last bus home from studio 11:35\n- Saturday runs every 40 min\n\nRTA pass renews on the 1st"
+  },
+  {
+   "title": "packing list - Lagos",
+   "body": "(old, from last Christmas)\n- gifts for Mama and Aunty Ngozi\n- ginger candy\n- passport + I-20\n- chargers\n- phone cards\n- Tobe's jacket"
+  }
+ ],
+ "maps": [
+  {
+   "name": "Home",
+   "subtitle": "Tremont apartment, shared with Priya"
+  },
+  {
+   "name": "Merrow Hall",
+   "subtitle": "School of Architecture, faculty offices"
+  },
+  {
+   "name": "Dave's Market",
+   "subtitle": "Cheap groceries, usual $8–$15 runs"
+  },
+  {
+   "name": "Lakeshore ISSO",
+   "subtitle": "International Student Services office"
+  },
+  {
+   "name": "Edgewater Beach",
+   "subtitle": "Lakefront run route, start point"
+  },
+  {
+   "name": "Studio Café",
+   "subtitle": "Coffee near the studio, open late"
+  },
+  {
+   "name": "Sable Print Shop",
+   "subtitle": "Board printing, large format"
+  },
+  {
+   "name": "Lakeshore Fab Lab",
+   "subtitle": "Laser cutter and model shop"
+  },
+  {
+   "name": "Tremont Library Branch",
+   "subtitle": "Quiet study spot with free Wi-Fi, library branch in Tremont"
+  },
+  {
+   "name": "CityRx Pharmacy",
+   "subtitle": "Pharmacy for refills and cold medicine, 6 visits total"
+  },
+  {
+   "name": "Brandt Family Dental",
+   "subtitle": "Dentist, cleanings twice a year"
+  },
+  {
+   "name": "Tremont Thai Kitchen",
+   "subtitle": "Cheap lunch special, pad see ew, takeout place"
+  },
+  {
+   "name": "Tony's Slice House",
+   "subtitle": "Dollar-slice pizza after late crits, 4 visits total"
+  },
+  {
+   "name": "Tremont Wash & Fold",
+   "subtitle": "Laundromat, bring quarters and a book"
+  },
+  {
+   "name": "Tremont Bike Co-op",
+   "subtitle": "Volunteer repair shop, used tubes and patch kits"
+  },
+  {
+   "name": "Lincoln Park",
+   "subtitle": "Park in Tremont, good bench for sketching the church spires"
+  },
+  {
+   "name": "Public Square Bus Stop",
+   "subtitle": "Main RTA transfer point downtown, Route 19 and the Red Line"
+  },
+  {
+   "name": "Lakeshore Student Health",
+   "subtitle": "Campus clinic, annual checkup and flu shot"
+  },
+  {
+   "name": "Lakeshore Writing Center",
+   "subtitle": "Essay polish appointments, second floor of the library"
+  },
+  {
+   "name": "Clearview Eye Care",
+   "subtitle": "Optometrist, glasses fitting"
+  },
+  {
+   "name": "Lakefront Running Trail",
+   "subtitle": "Usual 5K loop along the water, about 20 runs total"
+  },
+  {
+   "name": "Folake's Place",
+   "subtitle": "Friend from Lagos, jollof and Afrobeats nights, Lakewood"
+  }
+ ],
+ "revolut": {
+  "balance": "$63.12",
+  "transactions": [
+   {
+    "name": "Dave's Market",
+    "amount": "-$11.35",
+    "date": "Monday, 10:30 PM",
+    "note": "Groceries"
+   },
+   {
+    "name": "RTA",
+    "amount": "-$45.00",
+    "date": "Saturday, 1:00 PM",
+    "note": "Bus pass"
+   },
+   {
+    "name": "Studio Café",
+    "amount": "-$4.75",
+    "date": "Friday, 1:42 PM",
+    "note": "Iced coffee before crit"
+   },
+   {
+    "name": "CityRx Pharmacy",
+    "amount": "-$12.40",
+    "date": "7/24/26, 9:05 PM",
+    "note": "Allergy tablets"
+   },
+   {
+    "name": "Tremont Wash & Fold",
+    "amount": "-$9.50",
+    "date": "7/18/26, 4:20 PM",
+    "note": "Laundry, two loads"
+   },
+   {
+    "name": "Sable Print Shop",
+    "amount": "-$22.10",
+    "date": "7/17/26, 7:20 PM",
+    "note": "Card declined"
+   },
+   {
+    "name": "Zelle from Tobe Okafor",
+    "amount": "+$200.00",
+    "date": "7/13/26, 9:01 PM",
+    "note": "sent $200"
+   },
+   {
+    "name": "LAKESHORE UNIV BURSAR",
+    "amount": "-$4,200.00",
+    "date": "7/9/26, 3:12 PM",
+    "note": "Declined: insufficient funds. Tuition balance payment $4,200.00 not processed."
+   },
+   {
+    "name": "Tremont Thai Kitchen",
+    "amount": "-$14.20",
+    "date": "7/9/26, 1:15 AM",
+    "note": "Takeout after late studio night"
+   },
+   {
+    "name": "LAKESHORE UNIV BURSAR",
+    "amount": "-$1,000.00",
+    "date": "6/22/26, 4:05 PM",
+    "note": "Partial tuition payment"
+   },
+   {
+    "name": "TIXHUB *MARROW BAY",
+    "amount": "-$148.00",
+    "date": "4/13/26, 2:47 PM",
+    "note": "Marrow Bay live, 2 tickets, e-tickets sent by email. $148.00"
+   },
+   {
+    "name": "TIXHUB *CINEPLEX",
+    "amount": "-$24.00",
+    "date": "4/2/26, 11:10 PM",
+    "note": "1 movie ticket"
+   }
+  ]
+ },
+ "weather": {
+  "city": "Cleveland",
+  "tempC": 26,
+  "hi": 28,
+  "lo": 22,
+  "condition": "Partly Cloudy"
+ },
+ "photos": [
+  "photo_0.webp",
+  "photo_1.webp",
+  "photo_2.webp",
+  "photo_3.webp",
+  "photo_4.webp",
+  "photo_5.webp",
+  "photo_6.webp",
+  {
+   "image": "photo_7.webp",
+   "caption": "The Lantern Room"
+  },
+  "photo_8.webp"
+ ],
+ "screenTime": [
+  {
+   "appName": "Spotify",
+   "durationMinutes": 142
+  },
+  {
+   "appName": "YouTube",
+   "durationMinutes": 96
+  },
+  {
+   "appName": "Instagram",
+   "durationMinutes": 83
+  },
+  {
+   "appName": "Notes",
+   "durationMinutes": 74
+  },
+  {
+   "appName": "Phone",
+   "durationMinutes": 52
+  },
+  {
+   "appName": "Podcasts",
+   "durationMinutes": 47
+  },
+  {
+   "appName": "Maps",
+   "durationMinutes": 38
+  },
+  {
+   "appName": "Reminders",
+   "durationMinutes": 21
+  },
+  {
+   "appName": "WhatsApp",
+   "durationMinutes": 20
+  },
+  {
+   "appName": "Messages",
+   "durationMinutes": 18
+  },
+  {
+   "appName": "Health",
+   "durationMinutes": 17
+  },
+  {
+   "appName": "Spotify",
+   "durationMinutes": 16
+  },
+  {
+   "appName": "Instagram",
+   "durationMinutes": 14
+  },
+  {
+   "appName": "Camera",
+   "durationMinutes": 14
+  },
+  {
+   "appName": "Mail",
+   "durationMinutes": 11
+  },
+  {
+   "appName": "Clock",
+   "durationMinutes": 11
+  },
+  {
+   "appName": "Weather",
+   "durationMinutes": 9
+  },
+  {
+   "appName": "Notes",
+   "durationMinutes": 8
+  },
+  {
+   "appName": "Calculator",
+   "durationMinutes": 6
+  },
+  {
+   "appName": "Maps",
+   "durationMinutes": 3
+  }
+ ]
+}

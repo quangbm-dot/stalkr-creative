@@ -1,0 +1,2530 @@
+{
+ "caseName": "Who Is Tessa, Roland?",
+ "title": "Diane & Roland",
+ "now": "2026-08-06T23:59:00",
+ "client": {
+  "name": "Diane",
+  "avatar": "client.webp"
+ },
+ "owner": {
+  "first": "Roland",
+  "full": "Roland Whitlock",
+  "avatar": null
+ },
+ "wallpaper": "wallpaper.webp",
+ "passcode": "14052020",
+ "totalQuestions": 7,
+ "questions": [
+  {
+   "id": 1,
+   "text": "Thanks for agreeing to help!\nTwo nights ago, right in the middle of our dinner, his phone rang and he stepped outside for a good thirty minutes.\nWho called him during our dinner?",
+   "answer": "Tessa",
+   "decoys": [
+    "Dana",
+    "Hal",
+    "Kip"
+   ],
+   "hint": "Look for \"Dinner out — Vacation Week\" in the Calendar app, then check the call history for whoever rang him that day."
+  },
+  {
+   "id": 2,
+   "text": "An assistant right in his office building, yet he's never once mentioned her name at home.\nHe sometimes goes out after work with people from the office. I bet she's been there too.\nWhere have they met up after work with someone else from the office?",
+   "answer": "Canon",
+   "decoys": [
+    "Seattle Art Museum",
+    "The Walrus and the Carpenter",
+    "Ivar's Acres of Clams"
+   ],
+   "hint": "Check WhatsApp for his conversation with his colleague Curtis Vance. They set up after-work drinks with Tessa, so read to the end to see which place they went to."
+  },
+  {
+   "id": 3,
+   "text": "So there's afterwork drinks too, and still not a word about her from him.\nOne evening he told me he had a client dinner and didn't get home till late.\nWhat's the name of the place he actually went to a week ago, on the night of that client dinner?",
+   "answer": "Canlis",
+   "decoys": [
+    "Le Comptoir",
+    "The Walrus and the Carpenter",
+    "Ivar's Acres of Clams"
+   ],
+   "hint": "Check the Calendar for a dinner a week ago, then look in his Email. Both name the same place."
+  },
+  {
+   "id": 4,
+   "text": "Twenty.\nI genuinely don't know what to do with that number.\nI have a feeling he's been buying her things.\nWhat did he get her?",
+   "answer": "plane tickets",
+   "decoys": [
+    "Cartier earrings",
+    "cooking class",
+    "designer handbag"
+   ],
+   "hint": "Go to Messages and find the conversation with Tessa, then make the connection with Wallet"
+  },
+  {
+   "id": 5,
+   "text": "Seriously?\nIt'll be the last straw if he's spending more on her than he does on me.\nHow much exactly did he spend on those plane tickets?",
+   "answer": "6600",
+   "decoys": [
+    "8500",
+    "2200",
+    "12000"
+   ],
+   "hint": "Check Wallet for reservation number A347529 — it's tied to a charge on his Chase Bank card, that'll show you the cost."
+  },
+  {
+   "id": 6,
+   "text": "Six grand, spent on her.\nHe takes so many of these trips I've lost count of them all.\nWhen's he supposed to be back from this trip?",
+   "answer": "August 18",
+   "decoys": [
+    "August 13",
+    "August 10",
+    "August 16"
+   ],
+   "hint": "Check the calendar for whatever day is marked \"Return\"."
+  },
+  {
+   "id": 7,
+   "text": "I cannot believe this...\nHe's spending our actual wedding anniversary with her.\nPlease, what's the exact name of their hotel in Denver?",
+   "answer": "The Crawford Hotel",
+   "decoys": [
+    "The Brown Palace Hotel",
+    "The Fairmont Hotel",
+    "The Omni Hotel"
+   ],
+   "hint": "Open Maps and search for the pinned hotel in Denver."
+  }
+ ],
+ "onboarding": [
+  {
+   "text": "Hello... I'm Diane. A friend of mine said you're the person people come to when they're where I am now. I need that help, and I can't wait.",
+   "label": "Diane",
+   "image": "onboarding_1.webp"
+  },
+  {
+   "text": "Roland is my husband. There's the three of us — him, me, and our little boy Owen. A close family, I'd have said. That's what I believed, anyway.",
+   "label": "Diane & Roland",
+   "image": "onboarding_2.webp"
+  },
+  {
+   "text": "For a year it's been late nights, client dinners, trips away. Two nights ago his phone went at dinner and he took it outside. Half an hour. I think there's someone else",
+   "label": "Roland",
+   "image": "onboarding_3.webp"
+  },
+  {
+   "text": "This morning, he left his phone on the hall table. He occasionally goes on business trips, and there's even one booked right over our anniversary. I keep hoping I'm mistaken. Just give it to me straight",
+   "label": "Diane",
+   "image": "onboarding_4.webp"
+  }
+ ],
+ "home": [
+  {
+   "app": "wallet",
+   "label": "Wallet"
+  },
+  {
+   "app": "whatsapp",
+   "label": "WhatsApp"
+  },
+  {
+   "app": "revolut",
+   "label": "RevoBank"
+  },
+  {
+   "app": "photos",
+   "label": "Photos"
+  },
+  {
+   "app": "notes",
+   "label": "Notes"
+  },
+  {
+   "app": "maps",
+   "label": "Maps"
+  },
+  {
+   "app": "settings",
+   "label": "Settings"
+  },
+  {
+   "app": "calendar",
+   "label": "Calendar"
+  }
+ ],
+ "dock": [
+  {
+   "app": "messages",
+   "label": "Messages"
+  },
+  {
+   "app": "phone",
+   "label": "Phone"
+  },
+  {
+   "app": "gmail",
+   "label": "Email"
+  }
+ ],
+ "missingApps": [],
+ "calls": [
+  {
+   "name": "Grant Mullins",
+   "time": "Today, 12:00 PM",
+   "type": "incoming",
+   "detail": "6 min"
+  },
+  {
+   "name": "Trevor",
+   "time": "Today, 9:03 AM",
+   "type": "outgoing",
+   "detail": "4 min"
+  },
+  {
+   "name": "Hal",
+   "time": "Yesterday, 2:30 PM",
+   "type": "outgoing",
+   "detail": "5 min"
+  },
+  {
+   "name": "Ruby Chen",
+   "time": "Yesterday, 11:14 AM",
+   "type": "incoming",
+   "detail": "7 min"
+  },
+  {
+   "name": "Electrician (Dean's guy)",
+   "time": "Yesterday, 9:26 AM",
+   "type": "outgoing",
+   "detail": "5 min"
+  },
+  {
+   "name": "Tessa",
+   "time": "Tuesday, 8:44 PM",
+   "type": "incoming",
+   "detail": "32 min"
+  },
+  {
+   "name": "Dana",
+   "time": "Tuesday, 8:29 AM",
+   "type": "outgoing",
+   "detail": "5 min"
+  },
+  {
+   "name": "Tessa",
+   "time": "Monday, 6:20 PM",
+   "type": "outgoing",
+   "detail": "3 min"
+  },
+  {
+   "name": "Kip",
+   "time": "Monday, 4:36 PM",
+   "type": "incoming",
+   "detail": "10 min"
+  },
+  {
+   "name": "Alina",
+   "time": "Monday, 10:20 AM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Dean Hollis",
+   "time": "Sunday, 7:00 PM",
+   "type": "incoming",
+   "detail": "8 min"
+  },
+  {
+   "name": "Denise Kowalczyk",
+   "time": "Sunday, 8:42 AM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Paige Dunlap",
+   "time": "Saturday, 8:54 PM",
+   "type": "incoming",
+   "detail": "4 min"
+  },
+  {
+   "name": "Wes",
+   "time": "Saturday, 1:16 PM",
+   "type": "outgoing",
+   "detail": "2 min"
+  },
+  {
+   "name": "Dana",
+   "time": "Friday, 5:33 PM",
+   "type": "incoming",
+   "detail": "5 min"
+  },
+  {
+   "name": "Coreen Zhao",
+   "time": "Friday, 1:19 PM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Grant Mullins",
+   "time": "Friday, 9:26 AM",
+   "type": "outgoing",
+   "detail": "12 min"
+  },
+  {
+   "name": "Brett",
+   "time": "7/30/26, 12:00 PM",
+   "type": "outgoing",
+   "detail": "3 min"
+  },
+  {
+   "name": "Coreen Zhao",
+   "time": "7/30/26, 8:44 AM",
+   "type": "incoming",
+   "detail": "2 min"
+  },
+  {
+   "name": "Nina Salazar",
+   "time": "7/29/26, 4:40 PM",
+   "type": "incoming",
+   "detail": "6 min"
+  },
+  {
+   "name": "Andre Boyd",
+   "time": "7/29/26, 2:34 PM",
+   "type": "outgoing",
+   "detail": "4 min"
+  },
+  {
+   "name": "Shelby",
+   "time": "7/28/26, 7:00 PM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Cody",
+   "time": "7/28/26, 10:02 AM",
+   "type": "outgoing",
+   "detail": "5 min"
+  },
+  {
+   "name": "Ruby Chen",
+   "time": "7/27/26, 9:33 PM",
+   "type": "outgoing",
+   "detail": "1 min"
+  },
+  {
+   "name": "Trevor",
+   "time": "7/27/26, 8:48 AM",
+   "type": "incoming",
+   "detail": "3 min"
+  },
+  {
+   "name": "Hal",
+   "time": "7/26/26, 1:25 PM",
+   "type": "incoming",
+   "detail": "4 min"
+  },
+  {
+   "name": "Alina",
+   "time": "7/25/26, 7:58 PM",
+   "type": "outgoing",
+   "detail": "8 min"
+  },
+  {
+   "name": "Kip",
+   "time": "7/25/26, 2:57 PM",
+   "type": "incoming",
+   "detail": "6 min"
+  },
+  {
+   "name": "+1 (206) 555-0155",
+   "time": "7/24/26, 5:23 PM",
+   "type": "incoming",
+   "detail": "4 min"
+  },
+  {
+   "name": "Ruby Chen",
+   "time": "7/24/26, 12:22 PM",
+   "type": "outgoing",
+   "detail": "2 min"
+  },
+  {
+   "name": "Trevor",
+   "time": "7/24/26, 9:30 AM",
+   "type": "incoming",
+   "detail": "2 min"
+  }
+ ],
+ "contacts": [
+  {
+   "name": "Tessa",
+   "phoneNumber": "+1 (206) 555-0188"
+  },
+  {
+   "name": "Bethany Cole",
+   "phoneNumber": "+1 (206) 555-0177"
+  },
+  {
+   "name": "Trevor",
+   "phoneNumber": "+1 (206) 555-0129"
+  },
+  {
+   "name": "Ruby Chen",
+   "phoneNumber": "+1 (206) 555-0186"
+  },
+  {
+   "name": "Hal",
+   "phoneNumber": "+1 (206) 555-0107"
+  },
+  {
+   "name": "Kip",
+   "phoneNumber": "+1 (206) 555-0170"
+  },
+  {
+   "name": "Denise Kowalczyk",
+   "phoneNumber": "+1 (206) 555-0134"
+  },
+  {
+   "name": "Marissa",
+   "phoneNumber": "+1 (206) 555-0130"
+  },
+  {
+   "name": "Grant Mullins",
+   "phoneNumber": "+1 (206) 555-0157"
+  },
+  {
+   "name": "Alina",
+   "phoneNumber": "+1 (206) 555-0120"
+  },
+  {
+   "name": "Dean Hollis",
+   "phoneNumber": "+1 (206) 555-0181"
+  },
+  {
+   "name": "Brett",
+   "phoneNumber": "+1 (206) 555-0148"
+  },
+  {
+   "name": "Andre Boyd",
+   "phoneNumber": "+1 (206) 555-0182"
+  },
+  {
+   "name": "Nina Salazar",
+   "phoneNumber": "+1 (206) 555-0171"
+  },
+  {
+   "name": "Coreen Zhao",
+   "phoneNumber": "+1 (206) 555-0112"
+  },
+  {
+   "name": "Curtis Vance",
+   "phoneNumber": "+1 (206) 555-0185"
+  },
+  {
+   "name": "Wes",
+   "phoneNumber": "+1 (206) 555-0178"
+  },
+  {
+   "name": "Paige Dunlap",
+   "phoneNumber": "+1 (206) 555-0154"
+  },
+  {
+   "name": "Dana",
+   "phoneNumber": "+1 (206) 555-0100"
+  },
+  {
+   "name": "Cody",
+   "phoneNumber": "+1 (206) 555-0160"
+  },
+  {
+   "name": "Shelby",
+   "phoneNumber": "+1 (206) 555-0196"
+  },
+  {
+   "name": "Bartell Drugs — pharmacy",
+   "phoneNumber": "+1 (206) 631-2048"
+  },
+  {
+   "name": "Broadmoor Golf Club",
+   "phoneNumber": "+1 (206) 448-6127"
+  },
+  {
+   "name": "Elliott Bay Book Company",
+   "phoneNumber": "+1 (206) 519-7364"
+  },
+  {
+   "name": "Electrician (Dean's guy)",
+   "phoneNumber": "+1 (206) 892-4531"
+  }
+ ],
+ "messages": [
+  {
+   "id": "conv-sms-key-1",
+   "title": "Tessa",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hi Roland! Hope all is well with you"
+    },
+    {
+     "me": true,
+     "text": "Tessa! Good to hear from you"
+    },
+    {
+     "me": false,
+     "text": "You too! Things have been crazy for me lately"
+    },
+    {
+     "me": true,
+     "text": "How's everything at the office?"
+    },
+    {
+     "me": false,
+     "text": "It's fine, just as stressful as always but whatever"
+    },
+    {
+     "me": false,
+     "text": "What about you? How are the kids?"
+    },
+    {
+     "me": true,
+     "text": "All good here, Owen is shooting up fast"
+    },
+    {
+     "me": false,
+     "text": "Oh I bet! Anyway..."
+    },
+    {
+     "me": false,
+     "text": "I've got something for you"
+    },
+    {
+     "me": true,
+     "text": "Oh yeah? What's that?"
+    },
+    {
+     "me": false,
+     "text": "A little surprise"
+    },
+    {
+     "me": true,
+     "text": "Now you've got me curious"
+    },
+    {
+     "me": false,
+     "text": "Could I swing by and drop it off tonight?"
+    },
+    {
+     "me": true,
+     "text": "Sure! What time were you thinking?"
+    },
+    {
+     "me": false,
+     "text": "Does 7pm work for you?"
+    },
+    {
+     "me": true,
+     "text": "Perfect"
+    },
+    {
+     "me": false,
+     "text": "Alright, see you later then!"
+    },
+    {
+     "me": true,
+     "text": "See you tonight"
+    },
+    {
+     "me": false,
+     "text": "Hey! I'm downstairs"
+    },
+    {
+     "me": true,
+     "text": "Coming!"
+    },
+    {
+     "me": true,
+     "text": "Thanks so much for tonight"
+    },
+    {
+     "me": false,
+     "text": "Anytime! Hope you'll enjoy it"
+    },
+    {
+     "me": true,
+     "text": "I'm dying to see what it is"
+    },
+    {
+     "me": true,
+     "text": "Tessa... this is amazing"
+    },
+    {
+     "me": false,
+     "text": "So you like it?"
+    },
+    {
+     "me": false,
+     "text": "Thanks for this wonderful gift. The number is A347529 right?"
+    },
+    {
+     "me": true,
+     "text": "Yep that's the one! Good eye"
+    },
+    {
+     "me": false,
+     "text": "😊 Good night Roland"
+    }
+   ],
+   "avatar": "msg_0.webp"
+  },
+  {
+   "id": "conv-sms-1",
+   "title": "Trevor",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hey cousin, anything locked in for the weekend?"
+    },
+    {
+     "me": true,
+     "text": "Hey! Wide open so far"
+    },
+    {
+     "me": false,
+     "text": "Feel like getting out on the course Sunday morning?"
+    },
+    {
+     "me": true,
+     "text": "Now you're talking. Which course?"
+    },
+    {
+     "me": false,
+     "text": "Broadmoor, where else"
+    },
+    {
+     "me": true,
+     "text": "Works for me. Tee off at 9?"
+    },
+    {
+     "me": false,
+     "text": "Make it 9:30, no need to be up at dawn"
+    },
+    {
+     "me": true,
+     "text": "😄 done, 9:30 it is"
+    },
+    {
+     "me": false,
+     "text": "Are you booking the tee time or should I?"
+    },
+    {
+     "me": true,
+     "text": "I'll ring the pro shop, the membership is in my name"
+    },
+    {
+     "me": false,
+     "text": "Perfect. And bring the good driver this time"
+    },
+    {
+     "me": true,
+     "text": "That one is retired and you know it 😄"
+    },
+    {
+     "me": false,
+     "text": "Oh and the new girlfriend wants the four of us to grab dinner sometime"
+    },
+    {
+     "me": true,
+     "text": "Wait, since when are you seeing anyone?!"
+    },
+    {
+     "me": false,
+     "text": "Barely three weeks in, still very new"
+    },
+    {
+     "me": true,
+     "text": "Does she have a name?"
+    },
+    {
+     "me": false,
+     "text": "Coreen. She's in advertising"
+    },
+    {
+     "me": true,
+     "text": "Nice one! Dinner sounds good to me"
+    },
+    {
+     "me": false,
+     "text": "Awesome, I'll throw a few dates your way"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-6",
+   "title": "Marissa",
+   "time": "Monday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Roland! Quick one, how are you?"
+    },
+    {
+     "me": true,
+     "text": "Marissa! All good here, and you?"
+    },
+    {
+     "me": false,
+     "text": "Can't complain. I'm in Seattle next week actually"
+    },
+    {
+     "me": true,
+     "text": "Oh that's great! Can we meet up?"
+    },
+    {
+     "me": false,
+     "text": "For sure! Tuesday or Wednesday evening?"
+    },
+    {
+     "me": true,
+     "text": "Let's say Tuesday"
+    },
+    {
+     "me": false,
+     "text": "Nice. Somewhere near the water suit you?"
+    },
+    {
+     "me": true,
+     "text": "Yeah that works, got a spot in mind?"
+    },
+    {
+     "me": false,
+     "text": "The Walrus and the Carpenter, ever been?"
+    },
+    {
+     "me": true,
+     "text": "Heard good things! 7:30?"
+    },
+    {
+     "me": false,
+     "text": "7:30 is good. Do you want to book or shall I?"
+    },
+    {
+     "me": true,
+     "text": "I'll call them, they fill up fast midweek"
+    },
+    {
+     "me": false,
+     "text": "Worth asking for a table outside?"
+    },
+    {
+     "me": true,
+     "text": "Always, if the weather holds"
+    },
+    {
+     "me": false,
+     "text": "Locked in. It'll be so good to see you"
+    },
+    {
+     "me": true,
+     "text": "Same here! See you Tuesday"
+    }
+   ],
+   "avatar": "msg_2.webp"
+  },
+  {
+   "id": "conv-sms-2",
+   "title": "Ruby Chen",
+   "time": "Monday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Roland, hate to bug you this late"
+    },
+    {
+     "me": true,
+     "text": "You're never a bother Ruby. What's up?"
+    },
+    {
+     "me": false,
+     "text": "Got a package for you, delivery guy buzzed my place instead"
+    },
+    {
+     "me": true,
+     "text": "Oh nice, mind if I swing by tonight to grab it?"
+    },
+    {
+     "me": false,
+     "text": "Sure thing, I'm around until 7"
+    },
+    {
+     "me": true,
+     "text": "Great, I'll knock about 6:30"
+    },
+    {
+     "me": false,
+     "text": "Sounds good, see you then"
+    },
+    {
+     "me": false,
+     "text": "Forget it! Neighbors look out for each other"
+    },
+    {
+     "me": true,
+     "text": "You saved me there Ruby, thanks again!"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-3",
+   "title": "Hal",
+   "time": "Sunday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Roland! Did that piece on Vertexis in the Financial Times reach you?"
+    },
+    {
+     "me": true,
+     "text": "Not yet, what's it about?"
+    },
+    {
+     "me": false,
+     "text": "It's all about how much you grew in 2025"
+    },
+    {
+     "me": true,
+     "text": "Ha, hoping it's a flattering one 😅"
+    },
+    {
+     "me": false,
+     "text": "Yeah, really solid! Revenue up 23%"
+    },
+    {
+     "me": true,
+     "text": "Brilliant. Good of you to flag it"
+    },
+    {
+     "me": false,
+     "text": "Hey, we still good for Thursday?"
+    },
+    {
+     "me": true,
+     "text": "Absolutely! That little Italian place near the office, right?"
+    },
+    {
+     "me": false,
+     "text": "Yep, 8 o'clock like we said"
+    },
+    {
+     "me": true,
+     "text": "Great, Thursday it is!"
+    }
+   ],
+   "avatar": "msg_4.webp"
+  },
+  {
+   "id": "conv-sms-4",
+   "title": "Kip",
+   "time": "Saturday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hi Roland, I've come down with something so Wednesday is off"
+    },
+    {
+     "me": true,
+     "text": "Ugh, sorry to hear it. Rest up"
+    },
+    {
+     "me": false,
+     "text": "Sorry about that. Any chance we do Friday, same time?"
+    },
+    {
+     "me": true,
+     "text": "Friday at 6 works for me"
+    },
+    {
+     "me": false,
+     "text": "Have you got balls or shall I bring a fresh tube?"
+    },
+    {
+     "me": true,
+     "text": "Bring a tube, mine are completely flat"
+    },
+    {
+     "me": false,
+     "text": "Will do. Court 3 is held for us until 7"
+    },
+    {
+     "me": true,
+     "text": "Plenty of time, thanks Kip"
+    },
+    {
+     "me": false,
+     "text": "Great. Keep drilling that backhand until then 😉"
+    },
+    {
+     "me": true,
+     "text": "😄 you got it, coach!"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-5",
+   "title": "Denise Kowalczyk",
+   "time": "Friday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Mr. Whitlock, quick reminder that Owen is booked in tomorrow at 3pm"
+    },
+    {
+     "me": true,
+     "text": "Noted, thank you Dr Kowalczyk!"
+    }
+   ],
+   "avatar": "msg_6.webp"
+  },
+  {
+   "id": "conv-sms-7",
+   "title": "Grant Mullins",
+   "time": "7/29/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hi, your Uber Eats delivery is about 5 minutes away"
+    },
+    {
+     "me": true,
+     "text": "Great, heading down now"
+    },
+    {
+     "me": false,
+     "text": "No rush, I'm waiting out front"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-8",
+   "title": "Alina",
+   "time": "7/28/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hi Roland, your number came from Diane"
+    },
+    {
+     "me": true,
+     "text": "Hi Alina! She mentioned you'd be in touch"
+    },
+    {
+     "me": false,
+     "text": "Something about needing a sitter for Owen?"
+    },
+    {
+     "me": true,
+     "text": "That's the one. Just the odd evening here and there"
+    },
+    {
+     "me": false,
+     "text": "Sounds good to me. Could we sit down and talk it through?"
+    },
+    {
+     "me": true,
+     "text": "Definitely. Would the weekend suit?"
+    },
+    {
+     "me": false,
+     "text": "Does Saturday afternoon work?"
+    },
+    {
+     "me": true,
+     "text": "Great, come by ours at 3?"
+    },
+    {
+     "me": false,
+     "text": "Will do, I'll get the address off Diane"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-9",
+   "title": "Dean Hollis",
+   "time": "7/27/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Yo! How's things, Roland?"
+    },
+    {
+     "me": true,
+     "text": "Dean! All fine here, you?"
+    },
+    {
+     "me": false,
+     "text": "Can't complain. Anything on Saturday night?"
+    },
+    {
+     "me": true,
+     "text": "Nothing on the calendar, what's up?"
+    },
+    {
+     "me": false,
+     "text": "Having a few people over at mine"
+    },
+    {
+     "me": true,
+     "text": "Count me in. What time?"
+    },
+    {
+     "me": false,
+     "text": "Doors at 8, drinks first then we'll order food in"
+    },
+    {
+     "me": true,
+     "text": "Nice. Want me to bring anything?"
+    },
+    {
+     "me": false,
+     "text": "I'll bring a bottle of wine if you want"
+    },
+    {
+     "me": true,
+     "text": "Done, I'll sort it"
+    },
+    {
+     "me": false,
+     "text": "Something red if you can, nobody else ever brings any"
+    },
+    {
+     "me": true,
+     "text": "There's a Saint-Émilion in the rack with your name on it"
+    },
+    {
+     "me": false,
+     "text": "Now I'm properly looking forward to it"
+    },
+    {
+     "me": true,
+     "text": "Consider it packed"
+    },
+    {
+     "me": false,
+     "text": "Sweet, Saturday it is"
+    }
+   ],
+   "avatar": "msg_9.webp"
+  },
+  {
+   "id": "conv-sms-10",
+   "title": "Brett",
+   "time": "7/26/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Mr. Whitlock, would this afternoon suit for me to look at that leak?"
+    },
+    {
+     "me": true,
+     "text": "That works. What sort of time?"
+    },
+    {
+     "me": false,
+     "text": "Anywhere from 2 to 4, if that's alright?"
+    },
+    {
+     "me": true,
+     "text": "Fine by me, I'll be home"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-11",
+   "title": "Andre Boyd",
+   "time": "7/25/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Evening Mr. Whitlock, your prescription is in and ready to collect"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-12",
+   "title": "Nina Salazar",
+   "time": "7/24/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Evening Roland! I'm away on a training course, so no yoga tomorrow"
+    },
+    {
+     "me": true,
+     "text": "That's fine Nina, enjoy the course!"
+    },
+    {
+     "me": false,
+     "text": "Thanks! Back to the usual slot Monday"
+    },
+    {
+     "me": true,
+     "text": "Great, make the most of it"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-13",
+   "title": "Coreen Zhao",
+   "time": "7/23/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hi Roland, you're confirmed for Friday at 4"
+    },
+    {
+     "me": true,
+     "text": "Lovely, thanks Coreen. Friday then"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-key-2",
+   "title": "Bethany Cole",
+   "time": "6/28/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hi Roland!"
+    },
+    {
+     "me": true,
+     "text": "Bethany! How's it going?"
+    },
+    {
+     "me": false,
+     "text": "Really good thanks! And you?"
+    },
+    {
+     "me": true,
+     "text": "Fine, the usual work grind"
+    },
+    {
+     "me": false,
+     "text": "I get it... anyway"
+    },
+    {
+     "me": false,
+     "text": "Your son turns six in May, doesn't he?"
+    },
+    {
+     "me": true,
+     "text": "Yep, exactly! Great memory"
+    },
+    {
+     "me": false,
+     "text": "I had him in mind for my niece's birthday"
+    },
+    {
+     "me": false,
+     "text": "They're the same age, aren't they?"
+    },
+    {
+     "me": true,
+     "text": "Oh right, that's true! Leah, correct?"
+    },
+    {
+     "me": false,
+     "text": "Exactly! Would you like Owen to join?"
+    },
+    {
+     "me": true,
+     "text": "When's it happening?"
+    },
+    {
+     "me": false,
+     "text": "August 8, on a Saturday afternoon"
+    },
+    {
+     "me": true,
+     "text": "Should work, I'll check and get back to you"
+    },
+    {
+     "me": false,
+     "text": "Perfect! No pressure at all"
+    },
+    {
+     "me": false,
+     "text": "It'll be a good time for them"
+    },
+    {
+     "me": true,
+     "text": "Yeah, they really get along"
+    },
+    {
+     "me": false,
+     "text": "Gotta run, meeting in 5min"
+    },
+    {
+     "me": true,
+     "text": "Go for it! Talk soon"
+    },
+    {
+     "me": false,
+     "text": "Catch you later Roland!"
+    },
+    {
+     "me": true,
+     "text": "Bye!"
+    },
+    {
+     "me": true,
+     "text": "Oh by the way, Saturday is a go!"
+    },
+    {
+     "me": false,
+     "text": "Awesome! Thank you Roland 😊"
+    }
+   ]
+  }
+ ],
+ "whatsapp": [
+  {
+   "id": "conv-wa-2",
+   "title": "Trevor",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Cousin! Are you free this weekend or booked solid?"
+    },
+    {
+     "me": true,
+     "text": "Hey! Pretty open this weekend"
+    },
+    {
+     "me": true,
+     "text": "What's up?"
+    },
+    {
+     "me": false,
+     "text": "A pair of tickets to the Sounders-Timbers game Sunday just landed in my lap"
+    },
+    {
+     "me": false,
+     "text": "You in?"
+    },
+    {
+     "me": true,
+     "text": "Oh, 100%!"
+    },
+    {
+     "me": true,
+     "text": "Feels like forever since I watched one from the stands"
+    },
+    {
+     "me": false,
+     "text": "Nice! Say 2pm at the light rail station?"
+    },
+    {
+     "me": true,
+     "text": "Deal, the beers are on me"
+    },
+    {
+     "me": false,
+     "text": "Haha same as always 😄"
+    },
+    {
+     "me": false,
+     "text": "So how's work treating you?"
+    },
+    {
+     "me": true,
+     "text": "Same grind as ever, pretty heavy stretch right now"
+    },
+    {
+     "me": true,
+     "text": "Closing out the year-end budgets..."
+    },
+    {
+     "me": false,
+     "text": "Chin up, cousin!"
+    },
+    {
+     "me": false,
+     "text": "The game'll be good for you, take your mind off it"
+    },
+    {
+     "me": true,
+     "text": "Hope so! See you Sunday 👍"
+    }
+   ]
+  },
+  {
+   "id": "conv-wa-3",
+   "title": "Ruby Chen",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Roland, sorry to interrupt your evening"
+    },
+    {
+     "me": false,
+     "text": "The delivery guy's out here trying to find your unit"
+    },
+    {
+     "me": false,
+     "text": "He keeps buzzing my unit instead of yours"
+    },
+    {
+     "me": true,
+     "text": "Ruby! Good of you to say something"
+    },
+    {
+     "me": true,
+     "text": "On my way down now"
+    },
+    {
+     "me": false,
+     "text": "Great, I've asked him to hang on"
+    },
+    {
+     "me": true,
+     "text": "Really appreciate it, thank you"
+    }
+   ]
+  },
+  {
+   "id": "conv-wa-4",
+   "title": "Kip",
+   "time": "Monday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Roland, does Thursday at 6 work for you?"
+    },
+    {
+     "me": true,
+     "text": "Kip! Thursday is fine by me"
+    },
+    {
+     "me": true,
+     "text": "Still want to keep drilling that backhand?"
+    },
+    {
+     "me": false,
+     "text": "That's the plan, plus some work coming into the net"
+    },
+    {
+     "me": false,
+     "text": "You've come a long way, stick with it"
+    },
+    {
+     "me": true,
+     "text": "Thanks! Can't wait to see it come together"
+    },
+    {
+     "me": true,
+     "text": "Court 3 like usual?"
+    },
+    {
+     "me": false,
+     "text": "Perfect! See you Thursday"
+    }
+   ]
+  },
+  {
+   "id": "conv-wa-5",
+   "title": "Hal",
+   "time": "Sunday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Roland, does our old econ teacher ring any bells?"
+    },
+    {
+     "me": true,
+     "text": "The bearded one who never once sat down?"
+    },
+    {
+     "me": false,
+     "text": "Yeah! Bumped into him this morning"
+    },
+    {
+     "me": false,
+     "text": "He has aged a bit 😅"
+    },
+    {
+     "me": true,
+     "text": "Haha none of us are getting younger!"
+    },
+    {
+     "me": true,
+     "text": "Did he actually recognize you?"
+    },
+    {
+     "me": false,
+     "text": "Instantly! The man forgets nothing"
+    },
+    {
+     "me": false,
+     "text": "He even asked how you've been"
+    },
+    {
+     "me": true,
+     "text": "Oh nice, what'd you tell him?"
+    },
+    {
+     "me": false,
+     "text": "That you were a big shot in finance over in Seattle now 😄"
+    },
+    {
+     "me": false,
+     "text": "He was really happy for you"
+    },
+    {
+     "me": true,
+     "text": "Ha, he always said we'd land on our feet"
+    },
+    {
+     "me": false,
+     "text": "He asked if you still play golf as badly as you did at 17"
+    },
+    {
+     "me": false,
+     "text": "I told him better, but not by much 😄"
+    },
+    {
+     "me": true,
+     "text": "Thanks for that, remind me to return the favor"
+    },
+    {
+     "me": false,
+     "text": "He wasn't wrong. Decent teacher after all"
+    },
+    {
+     "me": false,
+     "text": "We should get everyone together for dinner soon"
+    },
+    {
+     "me": true,
+     "text": "Count me in, I'll send over a few free evenings"
+    },
+    {
+     "me": false,
+     "text": "Sorted. Have a good one, dude"
+    }
+   ],
+   "avatar": "msg_4.webp"
+  },
+  {
+   "id": "conv-wa-6",
+   "title": "Grant Mullins",
+   "time": "Saturday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hi, your delivery's set for between 12 and 2 today"
+    },
+    {
+     "me": true,
+     "text": "Works for me, I'll be home. Thanks!"
+    }
+   ]
+  },
+  {
+   "id": "conv-wa-7",
+   "title": "Marissa",
+   "time": "Friday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Roland! How are you keeping?"
+    },
+    {
+     "me": false,
+     "text": "We haven't spoken in forever"
+    },
+    {
+     "me": true,
+     "text": "Marissa! Doing well thanks"
+    },
+    {
+     "me": true,
+     "text": "Way too long, you're right!"
+    },
+    {
+     "me": true,
+     "text": "So how's the new job treating you?"
+    },
+    {
+     "me": false,
+     "text": "Honestly great, the team is brilliant"
+    },
+    {
+     "me": false,
+     "text": "What about you, still with Vertexis?"
+    },
+    {
+     "me": true,
+     "text": "Still there and still happy!"
+    },
+    {
+     "me": true,
+     "text": "Plenty of work, but I wouldn't swap it"
+    },
+    {
+     "me": false,
+     "text": "Nice! Let's grab lunch one of these weeks"
+    },
+    {
+     "me": true,
+     "text": "Yes please. I'll send over some slots next week"
+    }
+   ],
+   "avatar": "msg_2.webp"
+  },
+  {
+   "id": "conv-wa-8",
+   "title": "Denise Kowalczyk",
+   "time": "7/30/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Mr. Whitlock, we've got you down for August 5 at 3:30 PM"
+    }
+   ],
+   "avatar": "msg_6.webp"
+  },
+  {
+   "id": "conv-wa-9",
+   "title": "Alina",
+   "time": "7/29/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hi Roland, it was Shelby who passed on your number"
+    },
+    {
+     "me": false,
+     "text": "She said you were after a decent Indian place?"
+    },
+    {
+     "me": true,
+     "text": "Hi Alina! That's right"
+    },
+    {
+     "me": true,
+     "text": "You know a good one?"
+    },
+    {
+     "me": false,
+     "text": "I know exactly the one, the little Indian kitchen by the market"
+    },
+    {
+     "me": false,
+     "text": "Proper home cooking and it barely dents your wallet"
+    },
+    {
+     "me": true,
+     "text": "Perfect. Do you have the street address?"
+    },
+    {
+     "me": false,
+     "text": "812 5th Ave, right by the corner"
+    },
+    {
+     "me": false,
+     "text": "Ask them for the table in the window 😉"
+    },
+    {
+     "me": true,
+     "text": "Brilliant, thanks for the steer"
+    },
+    {
+     "me": false,
+     "text": "Any time! Tell me how you get on"
+    }
+   ]
+  },
+  {
+   "id": "conv-wa-10",
+   "title": "Dean Hollis",
+   "time": "7/28/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Roland, word from Diane is that you need an electrician?"
+    },
+    {
+     "me": false,
+     "text": "I know a really good guy if you want the number"
+    },
+    {
+     "me": true,
+     "text": "Dean! She's not wrong"
+    },
+    {
+     "me": true,
+     "text": "Got a few outlets that need redoing"
+    },
+    {
+     "me": true,
+     "text": "Can you send me his info?"
+    },
+    {
+     "me": false,
+     "text": "Here you go, the electrician: +1 (206) 892-4531"
+    },
+    {
+     "me": false,
+     "text": "He did my whole place, flawless work"
+    },
+    {
+     "me": false,
+     "text": "And didn't gouge me either"
+    },
+    {
+     "me": true,
+     "text": "Brilliant, thanks so much"
+    },
+    {
+     "me": true,
+     "text": "I'll give him a ring tomorrow"
+    },
+    {
+     "me": false,
+     "text": "He usually has a slot inside the week too"
+    },
+    {
+     "me": true,
+     "text": "Even better, the kitchen outlets are the urgent ones"
+    },
+    {
+     "me": true,
+     "text": "I'll see what he says"
+    },
+    {
+     "me": false,
+     "text": "Just tell him I sent you"
+    },
+    {
+     "me": false,
+     "text": "That should smooth the way"
+    },
+    {
+     "me": true,
+     "text": "Got it. Thanks again 👍"
+    }
+   ],
+   "avatar": "msg_9.webp"
+  },
+  {
+   "id": "conv-wa-key-1",
+   "title": "Curtis Vance",
+   "time": "7/17/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hey Roland!"
+    },
+    {
+     "me": false,
+     "text": "How are you? How'd your day go?"
+    },
+    {
+     "me": true,
+     "text": "Hey Curtis! Doing great. Thanks!"
+    },
+    {
+     "me": true,
+     "text": "Hectic day like always"
+    },
+    {
+     "me": true,
+     "text": "And you?"
+    },
+    {
+     "me": false,
+     "text": "Same, I had a discussion that dragged on and on"
+    },
+    {
+     "me": false,
+     "text": "Oh hey, guess what?"
+    },
+    {
+     "me": true,
+     "text": "What?"
+    },
+    {
+     "me": false,
+     "text": "I bumped into Tessa yesterday"
+    },
+    {
+     "me": false,
+     "text": "She proposed the three of us meet up after work"
+    },
+    {
+     "me": true,
+     "text": "Ah nice!"
+    },
+    {
+     "me": true,
+     "text": "It's been ages since we all got together"
+    },
+    {
+     "me": false,
+     "text": "Right! I agreed on the spot"
+    },
+    {
+     "me": false,
+     "text": "Maybe we could do next Thursday?"
+    },
+    {
+     "me": true,
+     "text": "Thursday's good for me"
+    },
+    {
+     "me": true,
+     "text": "Got a spot in mind?"
+    },
+    {
+     "me": false,
+     "text": "How about the back bar at Canon? We checked it out last year"
+    },
+    {
+     "me": true,
+     "text": "The one with the great background music?"
+    },
+    {
+     "me": false,
+     "text": "That's the one"
+    },
+    {
+     "me": true,
+     "text": "Oh yeah! Perfect"
+    },
+    {
+     "me": false,
+     "text": "I'll confirm with Tessa tomorrow"
+    },
+    {
+     "me": false,
+     "text": "And I'll let you know about the time"
+    },
+    {
+     "me": true,
+     "text": "👍"
+    },
+    {
+     "me": true,
+     "text": "Really looking forward to seeing you guys!"
+    },
+    {
+     "me": false,
+     "text": "Me too! Have a great evening Roland"
+    },
+    {
+     "me": false,
+     "text": "Tessa's in. Thursday at 6:30, back bar at Canon"
+    },
+    {
+     "me": true,
+     "text": "Great, see you both there"
+    },
+    {
+     "me": false,
+     "text": "Good to catch up with you and Tessa at Canon tonight"
+    },
+    {
+     "me": true,
+     "text": "Same here. Let's not wait so long next time"
+    },
+    {
+     "me": false,
+     "text": "Oh Roland, did you get a chance to look at the Q1 numbers? The boss wants to present them Monday"
+    }
+   ]
+  }
+ ],
+ "gmail": [
+  {
+   "sender": "To: Vertexis HR",
+   "subject": "Re: Compliance training August 8",
+   "preview": "Hello, Count me in for the training on August 8. Roland Whitlock",
+   "body": "Hello,\n\nCount me in for the training on August 8.\n\nRoland Whitlock",
+   "time": "9:15 AM",
+   "folder": "sent"
+  },
+  {
+   "sender": "Vertexis HR",
+   "subject": "Compliance training August 8 - attendance required",
+   "preview": "Roland, A reminder that the compliance training is mandatory this year. It runs August 8, 9am to 5pm, in the c",
+   "body": "Roland,\n\nA reminder that the compliance training is mandatory this year. It runs August 8, 9am to 5pm, in the conference room.\n\nPlease confirm you will be there.\n\nHR Department",
+   "time": "8:30 AM",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Kip Bernard",
+   "subject": "Re: Have to cancel tomorrow's lesson",
+   "preview": "Kip, Moving it is no trouble at all. Thursday at 3pm suits me fine. Hope whatever it is sorts itself out. Unti",
+   "body": "Kip,\n\nMoving it is no trouble at all. Thursday at 3pm suits me fine.\n\nHope whatever it is sorts itself out.\n\nUntil Thursday,\nRoland",
+   "time": "Yesterday",
+   "folder": "sent"
+  },
+  {
+   "sender": "Kip Bernard",
+   "subject": "Have to cancel tomorrow's lesson",
+   "preview": "Roland, Something personal has come up and I have to drop our 3 PM lesson tomorrow, sorry about that. Could we",
+   "body": "Roland,\n\nSomething personal has come up and I have to drop our 3 PM lesson tomorrow, sorry about that.\n\nCould we push it to Thursday, same hour?\n\nApologies again,\nKip",
+   "time": "Yesterday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Denise Kowalczyk",
+   "subject": "Your results are back",
+   "preview": "Mr. Whitlock, Your results have come back and there is nothing at all to worry about. Collect them from the of",
+   "body": "Mr. Whitlock,\n\nYour results have come back and there is nothing at all to worry about.\n\nCollect them from the office whenever suits, or say the word and I will send them by secure mail.\n\nDr Kowalczyk",
+   "time": "Yesterday",
+   "folder": "trash"
+  },
+  {
+   "sender": "To: Hal Benali",
+   "subject": "Class dinner August 26 - are you in?",
+   "preview": "Hal, The old class is getting together for dinner on August 26 at The Walrus and the Carpenter. Far too many y",
+   "body": "Hal,\n\nThe old class is getting together for dinner on August 26 at The Walrus and the Carpenter. Far too many years have gone by!\n\nCan you make it? We are looking at fifteen or so around the table.\n\nLet me know before it fills up,\nRoland",
+   "time": "Yesterday",
+   "folder": "sent"
+  },
+  {
+   "sender": "Central Labs",
+   "subject": "Test Results - Urgent",
+   "preview": "Mr. Whitlock, Your test results are now ready. As requested, we are forwarding them to you as a priority. Plea",
+   "body": "Mr. Whitlock,\n\nYour test results are now ready. As requested, we are forwarding them to you as a priority.\n\nPlease note that these results need to be transmitted quickly to prepare the certificate upon receipt of the laboratory result, per your instructions.\n\nBest regards,\nCentral Labs",
+   "time": "Yesterday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Financial Times",
+   "subject": "Today's markets: US equities rally",
+   "preview": "Roland, Where the market landed today, in brief: - The S&P closed 1.2% higher - The dollar slipped against the",
+   "body": "Roland,\n\nWhere the market landed today, in brief:\n- The S&P closed 1.2% higher\n- The dollar slipped against the euro\n- Tech names did most of the pulling\n\nFull analysis inside...",
+   "time": "Yesterday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Amazon Business",
+   "subject": "Your order #114-3921785-4620119 has shipped",
+   "preview": "Hello, Two items are on the truck: - One financial calculator - One hardback notebook Delivery lands tomorrow ",
+   "body": "Hello,\n\nTwo items are on the truck:\n- One financial calculator\n- One hardback notebook\n\nDelivery lands tomorrow before 6 PM.\n\nTracking: 1Z999AA1234567890",
+   "time": "Tuesday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Finance Team",
+   "subject": "Quarterly report - needs your sign-off",
+   "preview": "Team, The quarterly report is attached and needs signing off. Anything you want changed, get it to me by Frida",
+   "body": "Team,\n\nThe quarterly report is attached and needs signing off.\n\nAnything you want changed, get it to me by Friday.\n\nRoland",
+   "time": "Tuesday",
+   "folder": "sent"
+  },
+  {
+   "sender": "Harold Beckett",
+   "subject": "Re: Notarial appointment - Confirmation",
+   "preview": "Mr. Whitlock, Following your request, I confirm our appointment for August 13, 2026 at 3:00 PM at my office. A",
+   "body": "Mr. Whitlock,\n\nFollowing your request, I confirm our appointment for August 13, 2026 at 3:00 PM at my office.\n\nAs agreed, we will move forward with finalizing the paternity certificate once you receive the laboratory results. I remind you that per your choice, these results will only be accessible through their secure portal in private browsing mode.\n\nKindly bring the documents we discussed.\n\nBest regards,\nHarold Beckett\nNotary",
+   "time": "Tuesday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Promo-Viagra",
+   "subject": "Wonder pills -80% TODAY ONLY",
+   "preview": "Prices nobody else will match! Viagra, Cialis and Levitra, all in stock Plain packaging, delivered inside 24h ",
+   "body": "Prices nobody else will match!\n\nViagra, Cialis and Levitra, all in stock\nPlain packaging, delivered inside 24h\nNo prescription, no questions asked\nPay in bitcoin, fully secure\n\nStock is moving, order today!!!",
+   "time": "Tuesday",
+   "folder": "spam"
+  },
+  {
+   "sender": "To: Vertexis Management",
+   "subject": "FY2027 budget proposal",
+   "preview": "Hello, Attached is the budget proposal for fiscal year 2027, following on from this morning's meeting. Happy t",
+   "body": "Hello,\n\nAttached is the budget proposal for fiscal year 2027, following on from this morning's meeting.\n\nHappy to walk you through any of it.\n\nRoland Whitlock\nFinancial Director",
+   "time": "Monday",
+   "folder": "sent"
+  },
+  {
+   "sender": "To: Harold Beckett",
+   "subject": "Request for notary appointment",
+   "preview": "Maître, I would like to set up an appointment with you to finalize the file we discussed. Would you be free on",
+   "body": "Maître,\n\nI would like to set up an appointment with you to finalize the file we discussed.\n\nWould you be free on August 13 around 3:00 PM?\n\nAs agreed, the certificate will need to be prepared upon receipt of the laboratory result.\n\nBest regards,\nRoland Whitlock",
+   "time": "Monday",
+   "folder": "sent"
+  },
+  {
+   "sender": "Cryptomonnaie-Facile",
+   "subject": "🚀 BITCOIN just broke $100K - BUY NOW!",
+   "preview": "BITCOIN IS ABOUT TO GO VERTICAL!! Put in $500 today, pull out $50,000 inside a week — GUARANTEED! Tap the link",
+   "body": "BITCOIN IS ABOUT TO GO VERTICAL!!\n\nPut in $500 today, pull out $50,000 inside a week — GUARANTEED!\n\nTap the link NOW, this window closes fast!!!\n\n💰💰💰",
+   "time": "Monday",
+   "folder": "spam"
+  },
+  {
+   "sender": "To: Ruby Chen",
+   "subject": "Re: Leak on the 3rd floor",
+   "preview": "Ruby, Appreciate the warning. I have been round my whole place and there is nothing showing, thankfully. Do te",
+   "body": "Ruby,\n\nAppreciate the warning. I have been round my whole place and there is nothing showing, thankfully.\n\nDo tell me what the building manager says.\n\nEnjoy your evening,\nRoland",
+   "time": "Sunday",
+   "folder": "sent"
+  },
+  {
+   "sender": "Ruby Chen",
+   "subject": "Leak on the 3rd floor",
+   "preview": "Roland, Quick heads up — water is coming through on the 3rd floor and your unit sits right under it. The build",
+   "body": "Roland,\n\nQuick heads up — water is coming through on the 3rd floor and your unit sits right under it.\n\nThe building manager knows, but would you mind checking your own place for damage?\n\nRuby",
+   "time": "Sunday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Golf Magazine",
+   "subject": "The 10 best courses in Washington 2026",
+   "preview": "The courses we think are worth the drive this season: 1. Broadmoor Golf Club 2. The municipal course out past ",
+   "body": "The courses we think are worth the drive this season:\n\n1. Broadmoor Golf Club\n2. The municipal course out past Tacoma\n3. The resort layout up in Bellevue\n...\n\nFull rundown here",
+   "time": "Saturday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Alina Ouali",
+   "subject": "Thanks for Saturday",
+   "preview": "Alina, Saturday at Diane's was a great evening, and it was lovely to finally meet you properly. Hopefully we c",
+   "body": "Alina,\n\nSaturday at Diane's was a great evening, and it was lovely to finally meet you properly.\n\nHopefully we can do it again before long.\n\nHave a good week,\nRoland",
+   "time": "Saturday",
+   "folder": "sent"
+  },
+  {
+   "sender": "To: Trevor Dubois",
+   "subject": "Re: Saturday tee time?",
+   "preview": "Trevor, Saturday at 9am is on. The new clubs are coming with me. Shall we meet up at the club house? Roland",
+   "body": "Trevor,\n\nSaturday at 9am is on. The new clubs are coming with me.\n\nShall we meet up at the club house?\n\nRoland",
+   "time": "Friday",
+   "folder": "sent"
+  },
+  {
+   "sender": "Trevor Dubois",
+   "subject": "Saturday tee time?",
+   "preview": "Roland, I grabbed us a 9 AM slot at Broadmoor for Saturday morning — fancy eighteen holes? Shout if that clash",
+   "body": "Roland,\n\nI grabbed us a 9 AM slot at Broadmoor for Saturday morning — fancy eighteen holes?\n\nShout if that clashes with anything.\n\nTrevor",
+   "time": "Friday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "National Lottery",
+   "subject": "CONGRATULATIONS! You have won $500,000!",
+   "preview": "CONGRATULATIONS!! Your address came out of our international draw! The sum of $500,000 is being held in your n",
+   "body": "CONGRATULATIONS!!\n\nYour address came out of our international draw!\n\nThe sum of $500,000 is being held in your name!\n\nReply with your bank details and we release the funds today!\n\nWhat a day for you!",
+   "time": "Friday",
+   "folder": "spam"
+  },
+  {
+   "sender": "Uber",
+   "subject": "Your Uber receipt - Trip from July 30",
+   "preview": "Hello Roland, Here is the summary of your trip: Date: July 30, 2026, 10:15 PM From: King Street Station (Canli",
+   "body": "Hello Roland,\n\nHere is the summary of your trip:\n\nDate: July 30, 2026, 10:15 PM\nFrom: King Street Station (Canlis)\nTo: 42 Lilas St, 98111 Seattle\nDistance: 2.6 miles\nDuration: 18 minutes\nAmount: $24.50\n\nDriver: Mohamed (5 stars)\n\nThank you for choosing Uber!",
+   "time": "7/30/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Booking.com",
+   "subject": "This week's deals on your next trip",
+   "preview": "Roland, This week's deals, while they last: 🏖️ Maldives, 5* resort — 30% off 🗼 Tokyo, full package — 25% off 🍝",
+   "body": "Roland,\n\nThis week's deals, while they last:\n\n🏖️ Maldives, 5* resort — 30% off\n🗼 Tokyo, full package — 25% off\n🍝 Tuscany, villa and pool — 20% off\n\nOffer closes August 11!",
+   "time": "7/30/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Canlis",
+   "subject": "Reservation Confirmation - Canlis",
+   "preview": "Dear Mr. Whitlock, We hereby confirm your reservation for July 30, 2026 at 8:00 PM at Canlis restaurant. Table",
+   "body": "Dear Mr. Whitlock,\n\nWe hereby confirm your reservation for July 30, 2026 at 8:00 PM at Canlis restaurant.\n\nTable #12 - Station view\n7-course tasting menu\n\nWe look forward to welcoming you.\n\nBest regards,\nThe Canlis team",
+   "time": "7/29/26",
+   "folder": "trash"
+  }
+ ],
+ "calendar": [
+  {
+   "title": "Summer break — plan the trip",
+   "date": "10/02",
+   "dateLabel": "Fri, Oct 2, 2026",
+   "month": "2026-10",
+   "time": "10:00 AM – 12:00 PM",
+   "location": "Seattle",
+   "description": "Summer gastronomic trip planning"
+  },
+  {
+   "title": "Cleaning at Shelby Nguyen's",
+   "date": "09/28",
+   "dateLabel": "Mon, Sep 28, 2026",
+   "month": "2026-09",
+   "time": "9:00 AM – 9:45 AM",
+   "location": "Dental office",
+   "description": "Dental checkup and cleaning"
+  },
+  {
+   "title": "Dinner with Hal — work",
+   "date": "09/10",
+   "dateLabel": "Thu, Sep 10, 2026",
+   "month": "2026-09",
+   "time": "7:00 PM – 9:00 PM",
+   "location": "Le Comptoir, Seattle",
+   "description": "Professional meal with Hal"
+  },
+  {
+   "title": "Brett coming about the leak",
+   "date": "09/08",
+   "dateLabel": "Tue, Sep 8, 2026",
+   "month": "2026-09",
+   "time": "9:00 AM – 10:00 AM",
+   "location": "Apartment, Seattle",
+   "description": "Plumbing work at home"
+  },
+  {
+   "title": "Yoga with Nina",
+   "date": "09/06",
+   "dateLabel": "Sun, Sep 6, 2026",
+   "month": "2026-09",
+   "time": "7:45 AM – 8:45 AM",
+   "location": "Studio Nina",
+   "description": "Session guided by Nina"
+  },
+  {
+   "title": "Court time with Kip",
+   "date": "09/05",
+   "dateLabel": "Sat, Sep 5, 2026",
+   "month": "2026-09",
+   "time": "6:00 PM – 7:30 PM",
+   "location": "Tennis Club",
+   "description": "Session with tennis coach"
+  },
+  {
+   "title": "Medical checkup",
+   "date": "08/27",
+   "dateLabel": "Thu, Aug 27, 2026",
+   "month": "2026-08",
+   "time": "9:00 AM – 9:30 AM",
+   "location": "Medical office",
+   "description": "Annual medical checkup"
+  },
+  {
+   "title": "Evening yoga",
+   "date": "08/25",
+   "dateLabel": "Tue, Aug 25, 2026",
+   "month": "2026-08",
+   "time": "6:30 PM – 7:30 PM",
+   "location": "Studio Nina, Seattle",
+   "description": "Postures and breathing"
+  },
+  {
+   "title": "Gym before work",
+   "date": "08/20",
+   "dateLabel": "Thu, Aug 20, 2026",
+   "month": "2026-08",
+   "time": "7:00 AM – 8:00 AM",
+   "location": "Gym — Fitness, Seattle",
+   "description": "Weights, then twenty minutes on the bike"
+  },
+  {
+   "title": "Return flight",
+   "date": "08/18",
+   "dateLabel": "Tue, Aug 18, 2026",
+   "month": "2026-08",
+   "time": "6:00 PM – 7:30 PM",
+   "location": "Seattle",
+   "description": "Back from vacation — August 18, 2026 — check-in at home"
+  },
+  {
+   "title": "Wedding anniversary ❤️",
+   "date": "08/16",
+   "dateLabel": "Sun, Aug 16, 2026",
+   "month": "2026-08",
+   "time": "7:00 PM – 11:00 PM",
+   "location": "",
+   "description": ""
+  },
+  {
+   "title": "Haircut — Coreen",
+   "date": "08/13",
+   "dateLabel": "Thu, Aug 13, 2026",
+   "month": "2026-08",
+   "time": "5:30 PM – 6:15 PM",
+   "location": "Coreen Zhao Salon, Seattle",
+   "description": "Monthly cut"
+  },
+  {
+   "title": "Cleaning — Dana",
+   "date": "08/11",
+   "dateLabel": "Tue, Aug 11, 2026",
+   "month": "2026-08",
+   "time": "9:00 AM – 11:00 AM",
+   "location": "Apartment, Seattle",
+   "description": "Usual Tuesday slot"
+  },
+  {
+   "title": "Club championship — Broadmoor",
+   "date": "08/10",
+   "dateLabel": "Mon, Aug 10, 2026",
+   "month": "2026-08",
+   "time": "8:00 AM – 1:00 PM",
+   "location": "Broadmoor Golf Club",
+   "description": "18 holes, registered"
+  },
+  {
+   "title": "Q1 budget review",
+   "date": "08/08",
+   "dateLabel": "Sat, Aug 8, 2026",
+   "month": "2026-08",
+   "time": "9:30 AM – 11:00 AM",
+   "location": "Vertexis HQ, Seattle",
+   "description": "Budget review and financial KPIs"
+  },
+  {
+   "title": "Dinner out — vacation week",
+   "date": "08/04",
+   "dateLabel": "Tue, Aug 4, 2026",
+   "month": "2026-08",
+   "time": "7:00 PM – 9:00 PM",
+   "location": "Seaside, Oregon",
+   "description": "Dinner with friends after vacation"
+  },
+  {
+   "title": "Dinner Canlis",
+   "date": "07/30",
+   "dateLabel": "Thu, Jul 30, 2026",
+   "month": "2026-07",
+   "time": "8:00 PM – 10:30 PM",
+   "location": "Canlis Restaurant, King Street Station, Seattle",
+   "description": ""
+  }
+ ],
+ "notes": [
+  {
+   "title": "Priority client files",
+   "body": "Portfolio review March:\n\nCrawford Denver: ref 462 - total charged $6,480\nFairmont: 84729536 - refinancing\nOmni: 92847163 - merger acquisition\nMarriott: 65738492 - Europe expansion\n\nValidation meeting Friday 2pm with audit team"
+  },
+  {
+   "title": "Tokyo, week of April 15",
+   "body": "Tokyo, week of the 15th:\nDelta 275 out of Seattle 15/04, wheels up 1:25pm, lands NRT\nPark Hyatt for the 5 nights\nTables held: 16/04 7pm, then 18/04 8pm\n\nInvestor meeting 17/04 10am — their Nihonbashi office, 1-9-1, Chuo-ku"
+  },
+  {
+   "title": "Strategy notes - Q2",
+   "body": "Out of the management meeting:\n- R&D budget going up 15%\n- We are chasing a 2.3MUSD acquisition\n- Tax structure on the overseas subsidiaries to revisit\n- Board hears it all 18/04\n\nStill to do: build the ROI slides, run the figures past accounting"
+  },
+  {
+   "title": "Office refit - quotes",
+   "body": "Three quotes in so far:\n- Painting and floors, $8500 — Hal vouches for the crew\n- Rewiring the lighting to LED, $2200\n- New desk chairs and storage, $12000\n\nBest to have them in while we are away in the summer\nCall the home insurer before anything starts"
+  },
+  {
+   "title": "Around the apartment",
+   "body": "Still outstanding:\n\n- Outlets in the kitchen — the electrician Dean recommended\n- Bathroom fan is louder every week\n- Reseal the shower tray\n- Bulbs for the hallway, three of them\n- Ask the building about the second garage remote\n\nPick up: sealant, bulbs, filter for the coffee machine\n\nDana can only get behind the couch if the boxes go to the basement first"
+  },
+  {
+   "title": "Broadmoor - Saturday round",
+   "body": "Round with Trevor on Saturday:\n- First tee at 2:30pm\n- Book a cart, the knee is still tender\n- New shoes go in the bag\n- Eat at the club house afterwards\n\nPro shop tel: +1 (206) 422-2295"
+  },
+  {
+   "title": "Owen's daycare",
+   "body": "Where things stand for Owen:\n- Sunnyside Daycare: enrolled, starts Monday\n- Backup option: Little Sprouts, waitlisted\n\nBudgeting $1,200/month\nPack the extra change of clothes the moment anything is confirmed"
+  },
+  {
+   "title": "Gift ideas for Diane's birthday",
+   "body": "She turns 40 on September 18 — this one has to be good:\n\n- Two nights at a spa somewhere quiet\n- A cooking class with a proper chef\n- Cartier earrings\n- Fly her somewhere warm for a long weekend\n\nSound Ruby out about what she'd actually want"
+  },
+  {
+   "title": "Where the savings sit",
+   "body": "Spreading the portfolio around:\n\n- REIT yield: 25kUSD, done\n- Digital coins: 10kUSD, split across the two big ones\n- Retirement account: another 5kUSD in before end of March\n- Life insurance: move 50kUSD across\n\nSit down with the bank advisor 2/04 10am\nStill want to look at the tech mutual funds"
+  },
+  {
+   "title": "Wine cellar",
+   "body": "March 2026 inventory:\n\nBordeaux:\n- Pauillac 2015 (6 btl) - drink 2028+\n- Saint-Émilion 2018 (12 btl) - ready\n\nBurgundy:\n- Chablis 1er cru 2019 (8 btl)\n- Gevrey-Chambertin 2016 (4 btl)\n\nOrder: Champagne Dom Pérignon 2014"
+  },
+  {
+   "title": "Home contacts worth keeping",
+   "body": "Worth keeping these to hand:\n\n- Wes at the garage — sorted the BMW\n- Brett, plumbing — fixed the kitchen leak\n- Dana, cleaning — Tuesday and Friday each week\n- Coreen, hair — once a month\n- Nina, yoga — Wednesdays at 7pm\n\nEvery one of them turned up when they said they would"
+  },
+  {
+   "title": "Personal memos",
+   "body": "(don't forget!)\nKeep in mind, 8-digit safari code, birth date of Owen our beloved son\n\nOthers:\n- Car service: 28/08/2026\n- Dentist: 12/09/2026 3pm\n- Renew insurance: May"
+  },
+  {
+   "title": "birthday",
+   "body": "Owen 14/05/2020 ❤️"
+  }
+ ],
+ "maps": [
+  {
+   "name": "Elliott Bay Book Company",
+   "subtitle": "Business – bookstore"
+  },
+  {
+   "name": "Broadmoor Golf Club",
+   "subtitle": "Leisure — golf"
+  },
+  {
+   "name": "Macrina Bakery",
+   "subtitle": "Business – bakery"
+  },
+  {
+   "name": "Bartell Drugs",
+   "subtitle": "Health — pharmacy"
+  },
+  {
+   "name": "Canon",
+   "subtitle": "Bar — cocktails"
+  },
+  {
+   "name": "Olympus Spa",
+   "subtitle": "Health — spa"
+  },
+  {
+   "name": "The Walrus and the Carpenter",
+   "subtitle": "Fine dining restaurant"
+  },
+  {
+   "name": "Ivar's Acres of Clams",
+   "subtitle": "Restaurant — seafood"
+  },
+  {
+   "name": "Gym — Fitness",
+   "subtitle": "Leisure — sports"
+  },
+  {
+   "name": "Coreen Zhao Salon",
+   "subtitle": "Business — hair salon"
+  },
+  {
+   "name": "Metropolitan Market",
+   "subtitle": "Business – food"
+  },
+  {
+   "name": "Discovery Park",
+   "subtitle": "Leisure — walking"
+  },
+  {
+   "name": "Gas Works Park",
+   "subtitle": "Leisure — park"
+  },
+  {
+   "name": "Green Lake Loop",
+   "subtitle": "Leisure — running"
+  },
+  {
+   "name": "The Crawford Hotel",
+   "subtitle": "Denver pin — phone (303) 555-0144"
+  },
+  {
+   "name": "Beckett Notary & Estate",
+   "subtitle": "Denver pin — notary office"
+  },
+  {
+   "name": "Office",
+   "subtitle": "Work at Vertexis"
+  },
+  {
+   "name": "Home",
+   "subtitle": "My apartment"
+  },
+  {
+   "name": "Seattle Art Museum",
+   "subtitle": "Cultural leisure"
+  }
+ ],
+ "mapSharedWith": [
+  {
+   "name": "Trevor Dubois"
+  },
+  {
+   "name": "Ruby Chen"
+  },
+  {
+   "name": "Hal Benali"
+  },
+  {
+   "name": "Alina Ouali"
+  }
+ ],
+ "revolut": {
+  "balance": "$1,667.44",
+  "transactions": [
+   {
+    "name": "Seattle Golf Club",
+    "amount": "-$223.20",
+    "date": "Tuesday, 8:15 PM",
+    "note": "Quarterly membership"
+   },
+   {
+    "name": "Metropolitan Market",
+    "amount": "-$73.77",
+    "date": "Saturday, 6:40 PM",
+    "note": "Weekly shop"
+   },
+   {
+    "name": "Canlis",
+    "amount": "-$130.00",
+    "date": "7/30/26, 9:47 PM",
+    "note": "Business dinner"
+   },
+   {
+    "name": "Macrina Bakery",
+    "amount": "-$12.37",
+    "date": "7/28/26, 8:15 AM",
+    "note": "Coffee and pastry"
+   },
+   {
+    "name": "Elliott Bay Book Company",
+    "amount": "-$46.49",
+    "date": "7/19/26, 4:20 PM",
+    "note": "Books"
+   },
+   {
+    "name": "Spotify",
+    "amount": "-$9.99",
+    "date": "7/14/26, 9:00 PM",
+    "note": "Monthly streaming"
+   },
+   {
+    "name": "Le Gourmet Seattle",
+    "amount": "-$120.00",
+    "date": "6/29/26, 12:30 PM",
+    "note": "Sunday brunch"
+   },
+   {
+    "name": "RATP",
+    "amount": "-$2.77",
+    "date": "6/17/26, 7:30 AM",
+    "note": "Transport - metro"
+   },
+   {
+    "name": "Nordstrom",
+    "amount": "-$223.50",
+    "date": "6/10/26, 8:05 PM",
+    "note": "Clothing - shopping"
+   },
+   {
+    "name": "Target",
+    "amount": "-$52.08",
+    "date": "5/28/26, 6:20 PM",
+    "note": "Monthly groceries"
+   }
+  ]
+ },
+ "weather": {
+  "city": "Local",
+  "tempC": 18,
+  "hi": 21,
+  "lo": 12,
+  "condition": "Clear"
+ },
+ "photos": [
+  "photo_0.webp",
+  {
+   "image": "photo_1.webp",
+   "caption": "Canlis\nKing Street Station\nJuly 30, 2026 - 21:47\n\"Journey\" tasting menu\nTOTAL: $130.00\nThank you for your visit"
+  },
+  "photo_2.webp",
+  "photo_3.webp",
+  "photo_4.webp",
+  "photo_5.webp",
+  "photo_6.webp",
+  "photo_7.webp",
+  "photo_8.webp"
+ ],
+ "screenTime": [
+  {
+   "appName": "WhatsApp",
+   "durationMinutes": 72
+  },
+  {
+   "appName": "Messages",
+   "durationMinutes": 68
+  },
+  {
+   "appName": "Safari",
+   "durationMinutes": 60
+  },
+  {
+   "appName": "Photos",
+   "durationMinutes": 55
+  },
+  {
+   "appName": "Spotify",
+   "durationMinutes": 50
+  },
+  {
+   "appName": "Google Maps",
+   "durationMinutes": 40
+  },
+  {
+   "appName": "Gmail",
+   "durationMinutes": 28
+  },
+  {
+   "appName": "Calendrier",
+   "durationMinutes": 18
+  },
+  {
+   "appName": "Notes",
+   "durationMinutes": 17
+  },
+  {
+   "appName": "RevoBank",
+   "durationMinutes": 15
+  },
+  {
+   "appName": "Phone",
+   "durationMinutes": 14
+  },
+  {
+   "appName": "Cartes",
+   "durationMinutes": 12
+  },
+  {
+   "appName": "Settings",
+   "durationMinutes": 11
+  }
+ ],
+ "instagram": {
+  "username": "roland_whitlock",
+  "displayName": "Roland Whitlock",
+  "avatar": null,
+  "bio": "",
+  "posts": []
+ },
+ "wallet": {
+  "bank": "Chase",
+  "last4": "4589",
+  "balance": "$26,404.87",
+  "transactions": [
+   {
+    "name": "ref A347529",
+    "amount": "-$6,600.00",
+    "date": "Yesterday, 2:00 PM"
+   },
+   {
+    "name": "Metropolitan Market",
+    "amount": "-$59.97",
+    "date": "7/27/26, 6:00 PM"
+   },
+   {
+    "name": "Cinema — evening show",
+    "amount": "-$15.00",
+    "date": "7/26/26, 8:15 PM"
+   },
+   {
+    "name": "Lunch — the corner diner",
+    "amount": "-$11.24",
+    "date": "7/25/26, 9:30 AM"
+   },
+   {
+    "name": "Nordstrom — Seattle",
+    "amount": "-$257.24",
+    "date": "7/24/26, 2:40 PM"
+   },
+   {
+    "name": "Multiplex tickets",
+    "amount": "-$13.50",
+    "date": "7/23/26, 9:15 PM"
+   },
+   {
+    "name": "Airbnb — Seattle stay",
+    "amount": "-$120.00",
+    "date": "7/22/26, 7:00 PM"
+   },
+   {
+    "name": "Bartell Drugs — refill",
+    "amount": "-$16.37",
+    "date": "7/21/26, 10:05 AM"
+   },
+   {
+    "name": "Spotify — monthly plan",
+    "amount": "-$9.99",
+    "date": "7/20/26, 9:20 AM"
+   },
+   {
+    "name": "QFC — grocery run",
+    "amount": "-$46.26",
+    "date": "7/19/26, 12:10 PM"
+   },
+   {
+    "name": "Dick's Sporting Goods — Seattle store",
+    "amount": "-$71.70",
+    "date": "7/18/26, 6:25 PM"
+   },
+   {
+    "name": "Dinner — the bistro on the corner",
+    "amount": "-$37.34",
+    "date": "7/17/26, 8:00 PM"
+   },
+   {
+    "name": "Pro shop — Broadmoor",
+    "amount": "-$125.00",
+    "date": "7/16/26, 12:45 PM"
+   },
+   {
+    "name": "Magazine subscription — yearly",
+    "amount": "-$4.77",
+    "date": "7/16/26, 7:50 AM"
+   },
+   {
+    "name": "Financial Times — annual renewal",
+    "amount": "-$9.41",
+    "date": "7/15/26, 8:15 AM"
+   },
+   {
+    "name": "Target",
+    "amount": "-$32.47",
+    "date": "7/14/26, 5:35 PM"
+   },
+   {
+    "name": "Metropolitan Market — Seattle",
+    "amount": "-$92.13",
+    "date": "7/13/26, 8:10 PM"
+   },
+   {
+    "name": "Amtrak — booking",
+    "amount": "-$67.00",
+    "date": "7/13/26, 9:45 AM"
+   },
+   {
+    "name": "Metropolitan Market",
+    "amount": "-$52.22",
+    "date": "7/12/26, 11:20 AM"
+   }
+  ]
+ },
+ "airbnb": {
+  "name": "",
+  "listings": []
+ }
+}

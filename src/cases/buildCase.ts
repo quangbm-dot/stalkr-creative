@@ -81,16 +81,21 @@ export interface PhoneJson {
   dock: { app: string; label: string }[];
   missingApps: string[];
   calls: CaseConfig["calls"];
+  contacts?: CaseConfig["contacts"];
   messages: Thread[];
   whatsapp: Thread[];
   gmail: CaseConfig["gmail"];
   calendar: CaseConfig["calendar"];
   notes: CaseConfig["notes"];
   maps: CaseConfig["maps"]["locations"];
+  mapSharedWith?: { name: string }[];
   revolut: CaseConfig["revolut"];
+  wallet?: CaseConfig["wallet"];
   weather: CaseConfig["weather"];
-  photos: string[];
-  instagram?: { username: string; displayName: string; avatar: string | null; posts: { image: string; location: string; caption: string; username: string }[] };
+  photos: (string | { image: string; caption?: string })[];
+  instagram?: { username: string; displayName: string; avatar: string | null; bio?: string; posts: { image: string; location: string; caption: string; username: string }[] };
+  screenTime?: { appName: string; durationMinutes: number }[];
+  airbnb?: { name: string; listings: { title: string; image: string; rating?: string; subtitle?: string; price?: string }[] };
 }
 
 export interface QuestionOverride {
@@ -107,6 +112,15 @@ export interface QuestionOverride {
   easyHint?: string;
   /** Tên dòng chứa manh mối trong hintApp (tên chat / tiêu đề sự kiện...) — bàn tay chỉ đúng vào dòng này. */
   hintTarget?: string;
+  /** Messages/WhatsApp: tin nhắn cụ thể bên trong đoạn chat hintTarget cần
+   *  tô sáng (đoạn chat dài, nhiều câu cùng trỏ 1 thread không biết đọc tin
+   *  nào) — chuỗi con khớp nguyên văn trong text của 1 tin nhắn thật. */
+  hintMessage?: string;
+  /** Câu cần đi qua NHIỀU app liên tiếp (vd Gmail → RevoBank) — có mảng này
+   *  thì bỏ qua hintApp/hintTarget/hintMessage ở trên, tự xác định từng
+   *  bước. Xem EvidenceRound.hintSteps (App.tsx): rời app của bước hiện tại
+   *  (về home) là sang bước kế, bước CUỐI mới thực sự mở khoá đáp án. */
+  hintSteps?: { app: AppKey; target?: string; message?: string }[];
 }
 
 export interface CaseOverrides {
@@ -156,18 +170,29 @@ export function buildCase(
   // tiếp trong draft mở đầu bằng 1 dòng phản ứng với đáp án câu trước —
   // dùng dòng đó làm correctReply, phần còn lại làm prompt của câu sau.
   const qs = data.questions;
+  // v10: build riêng bản 3/5/7 câu (ROUNDS=3/5/7 khi build, xem vite.config.ts)
+  // — cắt bớt số câu THẬT SỰ chơi, không đụng gì tới data gốc (reactionSource
+  // vẫn trỏ đúng câu kế tiếp trong qs đầy đủ, không bị lệch vì dùng index i
+  // gốc chứ không phải vị trí sau khi cắt).
   const kept = o.questions
     .map((ov, i) => ({ ov, q: qs[i], i }))
-    .filter(({ ov }) => !(MISSING_APPS as readonly string[]).includes(ov.hintApp));
+    .filter(({ ov }) => !(MISSING_APPS as readonly string[]).includes(ov.hintApp))
+    .slice(0, __ROUNDS__);
 
   const evidenceRounds: EvidenceRound[] = kept.map(({ ov, q, i }, k) => {
     const answer = ov.answer ?? q.answer;
     const reactionSource = qs[i + 1];
     const isLast = k === kept.length - 1;
     const hint = (__V9_EASY__ && ov.easyHint) || q.hint;
+    // Vài story nguồn viết câu hỏi liền 1 đoạn, không xuống dòng tách riêng
+    // "lời phản ứng" khỏi "câu hỏi thật" (khác style \n của story khác) —
+    // withoutFirstLine lúc đó trả về chuỗi rỗng (cắt sạch dòng DUY NHẤT).
+    // Fallback về nguyên văn q.text để câu hỏi không bao giờ trống trơn.
+    const strippedPrompt = withoutFirstLine(q.text);
     return {
       informant: client,
-      prompt: __V9_EASY__ && ov.easyQuestion ? ov.easyQuestion : k === 0 ? q.text : withoutFirstLine(q.text),
+      prompt:
+        __V9_EASY__ && ov.easyQuestion ? ov.easyQuestion : k === 0 ? q.text : strippedPrompt || q.text,
       choices: seededShuffle([answer, ...q.decoys.slice(0, 3)], q.id + id.length),
       correct: answer,
       correctReply: isLast || !reactionSource ? o.finalReply : firstLine(reactionSource.text),
@@ -176,6 +201,8 @@ export function buildCase(
       hint,
       hintApp: ov.hintApp as AppKey,
       hintTargetId: ov.hintTarget,
+      hintMessageId: ov.hintMessage,
+      hintSteps: ov.hintSteps,
     };
   });
 
@@ -201,13 +228,15 @@ export function buildCase(
   const pages: AppIcon[][] = [homeIcons.slice(0, 8), [...homeIcons.slice(8), ...fillers]].filter((p) => p.length);
 
   const ownerAvatar = img(data.owner.avatar) || client.avatar;
-  const photos = data.photos.map((p) => ({ src: img(p) }));
+  const photos = data.photos.map((p) =>
+    typeof p === "string" ? { src: img(p) } : { src: img(p.image), caption: p.caption },
+  );
 
   const config: CaseConfig = {
     caseTitle: data.title,
     tagline: data.caseName,
     heroImage: img(data.onboarding[1]?.image ?? data.onboarding[0]?.image),
-    evidenceTotal: data.totalQuestions,
+    evidenceTotal: evidenceRounds.length,
     hintBudget: 4,
     evidenceRounds,
     client: {
@@ -223,22 +252,38 @@ export function buildCase(
     messages: data.messages.map((t) => ({ ...t, avatar: t.avatar ? img(t.avatar) : undefined })),
     whatsapp: data.whatsapp.map((t) => ({ ...t, avatar: t.avatar ? img(t.avatar) : undefined })),
     calls: data.calls,
+    contacts: data.contacts ?? [],
     notes: data.notes,
     calendar: data.calendar,
     instagram: { username: data.instagram?.username ?? "", displayName: data.instagram?.displayName ?? data.owner.full, avatar: img(data.instagram?.avatar) || ownerAvatar,
+      bio: data.instagram?.bio,
       posts: (data.instagram?.posts ?? []).map((p) => ({ image: img(p.image), location: p.location, caption: p.caption, username: p.username })) },
-    airbnb: { name: "", img: "", listings: [] },
+    airbnb: {
+      name: data.airbnb?.name ?? "",
+      img: "",
+      listings: (data.airbnb?.listings ?? []).map((l) => ({
+        title: l.title, img: img(l.image), rating: l.rating, subtitle: l.subtitle, price: l.price,
+      })),
+    },
     gmail: data.gmail,
+    screenTime: data.screenTime ?? [],
     photos,
     vaultCode: data.passcode,
     weather: data.weather,
     revolut: data.revolut,
-    maps: { locations: data.maps, sectionLabel: "Saved places" },
+    wallet: data.wallet ?? { bank: "City Bank", last4: "4821", balance: "$2,140", transactions: [] },
+    maps: { locations: data.maps, sectionLabel: "Saved places", sharedWith: data.mapSharedWith },
     now: data.now,
     endCard: {
       headline: o.endHeadline,
       subhead: o.endSubhead ?? `${data.totalQuestions} questions. One phone. Every answer is hiding inside it.`,
-      ctaLabel: "Continue the case",
+      // v20: "Continue the case" nói sai sự thật — bấm vào là đi thẳng ra
+      // app store/download (openLinkApp), không hề quay lại chơi tiếp ĐÚNG
+      // case này. Đổi theo đúng cách 6 case khác trong repo đã dùng ("See
+      // what happens next") — thật hơn (chỉ ngụ ý câu chuyện còn tiếp diễn
+      // trong app thật, không khẳng định chơi tiếp case này) mà vẫn ngắn
+      // gọn, đồng bộ với các case còn lại.
+      ctaLabel: "See what happens next",
     },
   };
 

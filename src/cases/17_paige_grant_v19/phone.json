@@ -1,0 +1,3244 @@
+{
+ "caseName": "How Many Girls, Grant?",
+ "title": "Paige & Grant",
+ "now": "2026-08-05T23:59:00",
+ "client": {
+  "name": "Paige",
+  "avatar": "msg_1.webp"
+ },
+ "owner": {
+  "first": "Grant",
+  "full": "Grant Mercer",
+  "avatar": null
+ },
+ "wallpaper": "wallpaper.webp",
+ "passcode": "909880",
+ "totalQuestions": 7,
+ "questions": [
+  {
+   "id": 1,
+   "text": "He swore he'd deleted every dating app off his phone.\nI don't mean chat apps like Snapchat or Instagram, I mean actual dating apps.\nWhich dating app is still sending him matches?",
+   "answer": "Tinder",
+   "decoys": [
+    "Hinge",
+    "Feeld",
+    "OkCupid"
+   ],
+   "hint": "Go through his emails, and don't skip the Spam folder. The match notifications show which app they come from."
+  },
+  {
+   "id": 2,
+   "text": "So Tinder isn’t even installed on this device.\nWhat device is he opening it on?",
+   "answer": "Galaxy Tab S9",
+   "decoys": [
+    "iPad Air 5",
+    "Pixel 8 Pro",
+    "iPhone 15 Pro"
+   ],
+   "hint": "Dig through his emails — there's a login alert from a new device on that dating app."
+  },
+  {
+   "id": 3,
+   "text": "I bet he's been paying for dating apps behind my back.\nHow many dating subscriptions is he paying for?",
+   "answer": "2",
+   "decoys": [
+    "1",
+    "3",
+    "4"
+   ],
+   "hint": "Go through his emails and his banking apps."
+  },
+  {
+   "id": 4,
+   "text": "Two active subscriptions.\nHe swore up and down there was only ever one, and I bought it.\nWhat's the second app called?",
+   "answer": "Bumble",
+   "decoys": [
+    "Tinder",
+    "Hinge",
+    "Grindr"
+   ],
+   "hint": "Look through his banking apps."
+  },
+  {
+   "id": 5,
+   "text": "Hmm... his bio made me laugh when we matched, but I can't remember the words.\nWhat did he write in his Tinder bio?",
+   "answer": "I can get rid of Tinder for you.",
+   "decoys": [
+    "I can fix your Wi-Fi for you.",
+    "I can cook dinner for you.",
+    "I can plan a trip for you."
+   ],
+   "hint": "Check Photos for a screenshot of his dating profile."
+  },
+  {
+   "id": 6,
+   "text": "Okay... Kelsey, Whitney and Tessa.\nWhich app did he meet Kelsey and Whitney on?",
+   "answer": "Tinder",
+   "decoys": [
+    "Bumble",
+    "Snapchat",
+    "Instagram"
+   ],
+   "hint": "Look through his emails."
+  },
+  {
+   "id": 7,
+   "text": "He claimed to be an entrepreneur.....\nWhat does he actually do for a living?",
+   "answer": "He's unemployed",
+   "decoys": [
+    "He's a financial consultant",
+    "He's a freelancer",
+    "He's a business owner"
+   ],
+   "hint": "Look at his income through the banking apps."
+  }
+ ],
+ "onboarding": [
+  {
+   "text": "Hi… Your name came from a friend of mine. She says nobody gets to the truth faster than you. I wouldn't be asking if this didn't matter.",
+   "label": "Paige",
+   "image": "onboarding_1.webp"
+  },
+  {
+   "text": "Grant and I matched on Tinder a few weeks back. The first date couldn't have gone better — he listened, he made me laugh, and he told me straight out that I was the only one he was talking to.",
+   "label": "Paige",
+   "image": "onboarding_2.webp"
+  },
+  {
+   "text": "Since then, though, something sits wrong and won't go away. Replies that arrive hours late. Evenings he describes without really describing anything… Maybe the problem is that it's all a little too perfect.",
+   "label": "Paige",
+   "image": "onboarding_3.webp"
+  },
+  {
+   "text": "I've got into his phone. Going through someone's things isn't me, but I can't keep guessing. Is he being straight with me… or am I one of several?",
+   "label": "Paige",
+   "image": "onboarding_4.webp"
+  }
+ ],
+ "home": [
+  {
+   "app": "wallet",
+   "label": "Wallet"
+  },
+  {
+   "app": "settings",
+   "label": "Settings"
+  },
+  {
+   "app": "notes",
+   "label": "Notes"
+  },
+  {
+   "app": "calendar",
+   "label": "Calendar"
+  },
+  {
+   "app": "clock",
+   "label": "Clock"
+  },
+  {
+   "app": "photos",
+   "label": "Photos"
+  },
+  {
+   "app": "gmail",
+   "label": "Gmail"
+  },
+  {
+   "app": "phone",
+   "label": "Phone"
+  },
+  {
+   "app": "maps",
+   "label": "Google Maps"
+  },
+  {
+   "app": "calculator",
+   "label": "Calculator"
+  },
+  {
+   "app": "revolut",
+   "label": "RevoBank"
+  },
+  {
+   "app": "weather",
+   "label": "Weather"
+  }
+ ],
+ "dock": [
+  {
+   "app": "messages",
+   "label": "Messages"
+  },
+  {
+   "app": "whatsapp",
+   "label": "WhatsApp"
+  }
+ ],
+ "missingApps": [],
+ "calls": [
+  {
+   "name": "Paige 💕",
+   "time": "Today, 9:30 PM",
+   "type": "incoming",
+   "detail": "7 min"
+  },
+  {
+   "name": "Trey",
+   "time": "Yesterday, 6:27 PM",
+   "type": "outgoing",
+   "detail": "4 min"
+  },
+  {
+   "name": "Paige 💕",
+   "time": "Monday, 7:45 PM",
+   "type": "outgoing",
+   "detail": "3 min"
+  },
+  {
+   "name": "Tessa",
+   "time": "Sunday, 11:25 PM",
+   "type": "outgoing",
+   "detail": "5 min"
+  },
+  {
+   "name": "Paige 💕",
+   "time": "Saturday, 8:15 PM",
+   "type": "incoming",
+   "detail": "9 min"
+  },
+  {
+   "name": "Nolan (Bro)",
+   "time": "Friday, 7:49 PM",
+   "type": "incoming",
+   "detail": "4 min"
+  },
+  {
+   "name": "Paige 💕",
+   "time": "Friday, 2:41 PM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Paige 💕",
+   "time": "7/29/26, 9:53 PM",
+   "type": "incoming",
+   "detail": "5 min"
+  },
+  {
+   "name": "Mom ❤️",
+   "time": "7/28/26, 6:56 PM",
+   "type": "incoming",
+   "detail": "9 min"
+  },
+  {
+   "name": "Kelsey",
+   "time": "7/27/26, 10:27 PM",
+   "type": "outgoing",
+   "detail": "5 min"
+  },
+  {
+   "name": "Tessa",
+   "time": "7/26/26, 10:30 PM",
+   "type": "incoming",
+   "detail": "3 min"
+  },
+  {
+   "name": "Verde Pizza",
+   "time": "7/26/26, 7:53 PM",
+   "type": "outgoing",
+   "detail": "2 min"
+  },
+  {
+   "name": "Paige 💕",
+   "time": "7/25/26, 6:20 PM",
+   "type": "outgoing",
+   "detail": "3 min"
+  },
+  {
+   "name": "Whitney",
+   "time": "7/23/26, 9:00 PM",
+   "type": "incoming",
+   "detail": "4 min"
+  },
+  {
+   "name": "Paige 💕",
+   "time": "7/22/26, 9:00 PM",
+   "type": "incoming",
+   "detail": "7 min"
+  },
+  {
+   "name": "Dez",
+   "time": "7/21/26, 6:59 PM",
+   "type": "incoming",
+   "detail": "3 min"
+  },
+  {
+   "name": "Kelsey",
+   "time": "7/19/26, 8:30 PM",
+   "type": "incoming",
+   "detail": "3 min"
+  },
+  {
+   "name": "Paige 💕",
+   "time": "7/17/26, 5:55 PM",
+   "type": "outgoing",
+   "detail": "2 min"
+  },
+  {
+   "name": "Whitney",
+   "time": "7/15/26, 7:45 PM",
+   "type": "outgoing",
+   "detail": "3 min"
+  },
+  {
+   "name": "Kelsey",
+   "time": "7/12/26, 7:06 PM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Mom ❤️",
+   "time": "7/9/26, 5:09 PM",
+   "type": "outgoing",
+   "detail": "6 min"
+  },
+  {
+   "name": "Trey",
+   "time": "7/7/26, 12:14 PM",
+   "type": "outgoing",
+   "detail": "1 min"
+  },
+  {
+   "name": "Dad",
+   "time": "7/2/26, 9:10 PM",
+   "type": "incoming",
+   "detail": "5 min"
+  },
+  {
+   "name": "Nolan (Bro)",
+   "time": "6/25/26, 9:29 PM",
+   "type": "outgoing",
+   "detail": "2 min"
+  },
+  {
+   "name": "Cole",
+   "time": "6/22/26, 9:57 PM",
+   "type": "incoming",
+   "detail": "3 min"
+  },
+  {
+   "name": "Dez",
+   "time": "6/17/26, 7:36 PM",
+   "type": "missed",
+   "detail": ""
+  }
+ ],
+ "contacts": [
+  {
+   "name": "Omar",
+   "phoneNumber": "+14435550191"
+  },
+  {
+   "name": "Kelsey",
+   "phoneNumber": "+14435550149"
+  },
+  {
+   "name": "Whitney",
+   "phoneNumber": "+14435550120"
+  },
+  {
+   "name": "Tessa",
+   "phoneNumber": "+14435550133"
+  },
+  {
+   "name": "Renata Voss",
+   "phoneNumber": "+14435550131"
+  },
+  {
+   "name": "Sloane",
+   "phoneNumber": "+14435550124"
+  },
+  {
+   "name": "Verde Pizza",
+   "phoneNumber": "+14105550147"
+  },
+  {
+   "name": "FedEx",
+   "phoneNumber": "46339"
+  },
+  {
+   "name": "Reagan Ostrander (Diego's sister)",
+   "phoneNumber": "+14435550121"
+  },
+  {
+   "name": "Mom ❤️",
+   "phoneNumber": "+14435550182"
+  },
+  {
+   "name": "Amazon",
+   "phoneNumber": "262966"
+  },
+  {
+   "name": "Dad",
+   "phoneNumber": "+14435550125"
+  },
+  {
+   "name": "3rd-floor neighbor",
+   "phoneNumber": "+14435550123"
+  },
+  {
+   "name": "Trey",
+   "phoneNumber": "+14435550163"
+  },
+  {
+   "name": "Marcus",
+   "phoneNumber": "+14435550135"
+  },
+  {
+   "name": "Ledo Pizza Hampden",
+   "phoneNumber": "+14105550121"
+  },
+  {
+   "name": "Paige 💕",
+   "phoneNumber": "+14435550190"
+  },
+  {
+   "name": "Jarrett",
+   "phoneNumber": "+14435550150"
+  },
+  {
+   "name": "Verizon",
+   "phoneNumber": "4004"
+  },
+  {
+   "name": "Floyds 99 Barbershop",
+   "phoneNumber": "+14105550104"
+  },
+  {
+   "name": "Cole",
+   "phoneNumber": "+14435550179"
+  },
+  {
+   "name": "Rylee Bascomb ✨",
+   "phoneNumber": "+14435550177"
+  },
+  {
+   "name": "USPS",
+   "phoneNumber": "28777"
+  },
+  {
+   "name": "Dez",
+   "phoneNumber": "+14435550161"
+  },
+  {
+   "name": "Roxie Nilsen",
+   "phoneNumber": "+14435550162"
+  },
+  {
+   "name": "Nolan (Bro)",
+   "phoneNumber": "+14435550194"
+  },
+  {
+   "name": "Ty (cousin)",
+   "phoneNumber": "+14435550122"
+  }
+ ],
+ "messages": [
+  {
+   "id": "conv-maxime",
+   "title": "Dez",
+   "time": "4:32 PM",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Yoo FIFA tonight or what?"
+    },
+    {
+     "me": true,
+     "text": "Nah can't, got a date"
+    },
+    {
+     "me": false,
+     "text": "Again?? Bro you're on a run 😂"
+    },
+    {
+     "me": true,
+     "text": "She's not like the others, I mean it"
+    },
+    {
+     "me": false,
+     "text": "You literally say that every single time 😂😂"
+    },
+    {
+     "me": true,
+     "text": "Nah but I mean it this time!"
+    },
+    {
+     "me": false,
+     "text": "So the date, how was it?"
+    },
+    {
+     "me": true,
+     "text": "Honestly amazing bro, she's so cool"
+    },
+    {
+     "me": false,
+     "text": "Like you're deleting Tinder then?"
+    },
+    {
+     "me": true,
+     "text": "Yeah yeah for sure"
+    },
+    {
+     "me": false,
+     "text": "Ha, sure, whatever you say"
+    },
+    {
+     "me": false,
+     "text": "Trey's throwing something Saturday, you in?"
+    },
+    {
+     "me": true,
+     "text": "Can't, I already got something going on"
+    },
+    {
+     "me": false,
+     "text": "Something = a girl, right?"
+    },
+    {
+     "me": true,
+     "text": "Maybe 😏"
+    },
+    {
+     "me": false,
+     "text": "Which one though, Paige or one of the others?"
+    },
+    {
+     "me": true,
+     "text": "A gentleman never tells"
+    },
+    {
+     "me": false,
+     "text": "Lmaooo you're unbelievable"
+    },
+    {
+     "me": false,
+     "text": "Fancy a game right now?"
+    },
+    {
+     "me": true,
+     "text": "Go on then, nothing on tonight"
+    },
+    {
+     "me": false,
+     "text": "Booting the console up now"
+    },
+    {
+     "me": true,
+     "text": "On my way"
+    },
+    {
+     "me": false,
+     "text": "Yo did you catch the game last night?"
+    },
+    {
+     "me": true,
+     "text": "Yeah the Ravens were ruthless"
+    },
+    {
+     "me": false,
+     "text": "Bro I thought it was gone at halftime"
+    },
+    {
+     "me": true,
+     "text": "Same, I nearly turned it off"
+    },
+    {
+     "me": false,
+     "text": "Glad you didn't"
+    },
+    {
+     "me": false,
+     "text": "That drive in the fourth 🔥🔥"
+    },
+    {
+     "me": true,
+     "text": "Absolutely mental"
+    },
+    {
+     "me": false,
+     "text": "Got any plans this weekend?"
+    },
+    {
+     "me": true,
+     "text": "Nothing fixed yet, I'll shout"
+    },
+    {
+     "me": false,
+     "text": "Alright let me know"
+    }
+   ]
+  },
+  {
+   "id": "conv-sarah",
+   "title": "Paige 💕",
+   "time": "11:32 AM",
+   "unread": false,
+   "msgs": [
+    {
+     "me": true,
+     "text": "Hey! It's Grant, we matched on Tinder 😊"
+    },
+    {
+     "me": false,
+     "text": "Hey! Of course I remember, your bio made me laugh 😄"
+    },
+    {
+     "me": true,
+     "text": "Aw thank you! You seem pretty great yourself, so what music are you into?"
+    },
+    {
+     "me": false,
+     "text": "Little of everything honestly, but mostly hip-hop and R&B lately"
+    },
+    {
+     "me": true,
+     "text": "Same page then, Lil Baby has been on repeat for me"
+    },
+    {
+     "me": false,
+     "text": "Lil Baby never misses 🔥"
+    },
+    {
+     "me": false,
+     "text": "So what do you do, job-wise?"
+    },
+    {
+     "me": true,
+     "text": "I'm an entrepreneur, I develop business projects 💼"
+    },
+    {
+     "me": false,
+     "text": "Oh nice! What sort of field?"
+    },
+    {
+     "me": true,
+     "text": "Some tech, some e-commerce, just depends what comes up"
+    },
+    {
+     "me": false,
+     "text": "I have a thing for ambitious people 😊"
+    },
+    {
+     "me": true,
+     "text": "Would you maybe want to grab a drink sometime?"
+    },
+    {
+     "me": false,
+     "text": "Yes please! When are you free?"
+    },
+    {
+     "me": true,
+     "text": "Would tomorrow night work?"
+    },
+    {
+     "me": false,
+     "text": "Perfect! Got somewhere nice in mind?"
+    },
+    {
+     "me": true,
+     "text": "There's a cocktail place I love just off Fells Point"
+    },
+    {
+     "me": false,
+     "text": "Oh I love it over there!"
+    },
+    {
+     "me": true,
+     "text": "Meet up around 8?"
+    },
+    {
+     "me": false,
+     "text": "Yes! Okay I'm a little nervous now 🙈"
+    },
+    {
+     "me": true,
+     "text": "Same 😊 See you tonight!"
+    },
+    {
+     "me": false,
+     "text": "I've arrived, waiting outside for you!"
+    },
+    {
+     "me": true,
+     "text": "I spot you, the pretty one in red? 😍"
+    },
+    {
+     "me": false,
+     "text": "I keep thinking about yesterday, it was lovely 🥰"
+    },
+    {
+     "me": true,
+     "text": "Same here, the whole evening went by too fast"
+    },
+    {
+     "me": false,
+     "text": "And thank you for the necklace, that was so sweet ❤️"
+    },
+    {
+     "me": true,
+     "text": "Honestly it's nothing. It suited you so well I had to"
+    },
+    {
+     "me": false,
+     "text": "Awww, you are far too sweet 🥺"
+    },
+    {
+     "me": false,
+     "text": "So what are you up to this weekend?"
+    },
+    {
+     "me": true,
+     "text": "Unfortunately I've got something lined up, a work trip"
+    },
+    {
+     "me": false,
+     "text": "Aw that stinks, where are you headed?"
+    },
+    {
+     "me": true,
+     "text": "Dubai, got meetings with some investors"
+    },
+    {
+     "me": false,
+     "text": "Wow, look at you. When do you land back?"
+    },
+    {
+     "me": true,
+     "text": "About a week, give or take"
+    },
+    {
+     "me": false,
+     "text": "Okay. I'll be missing you 🥺"
+    },
+    {
+     "me": true,
+     "text": "I'll miss you too darling 💕"
+    },
+    {
+     "me": false,
+     "text": "So, how is Dubai?"
+    },
+    {
+     "me": true,
+     "text": "Honestly, the weather here is something else"
+    },
+    {
+     "me": false,
+     "text": "You had better come home with a present 😂"
+    },
+    {
+     "me": true,
+     "text": "No promises 😏"
+    },
+    {
+     "me": false,
+     "text": "You back yet?"
+    },
+    {
+     "me": true,
+     "text": "Yeah, and the jet lag is wrecking me 😴"
+    },
+    {
+     "me": false,
+     "text": "Then sleep it off! Are we seeing each other soon?"
+    },
+    {
+     "me": true,
+     "text": "Yes, the moment I feel human again!"
+    },
+    {
+     "me": true,
+     "text": "Are you free Saturday evening?"
+    },
+    {
+     "me": false,
+     "text": "Yes! So what do you feel like doing?"
+    },
+    {
+     "me": true,
+     "text": "Dinner, then a walk somewhere?"
+    },
+    {
+     "me": false,
+     "text": "That sounds perfect 🥰"
+    },
+    {
+     "me": false,
+     "text": "Honestly even better than the first time 💕"
+    },
+    {
+     "me": true,
+     "text": "It really was. You're something else, you know"
+    },
+    {
+     "me": false,
+     "text": "You're far too sweet 🥺 Good night"
+    },
+    {
+     "me": true,
+     "text": "Good night darling 💕"
+    },
+    {
+     "me": false,
+     "text": "What have you got on today?"
+    },
+    {
+     "me": true,
+     "text": "Swamped with work today, can I ring you tonight?"
+    },
+    {
+     "me": false,
+     "text": "Of course, no worries 😊"
+    }
+   ],
+   "avatar": "msg_1.webp"
+  },
+  {
+   "id": "conv-maman",
+   "title": "Mom ❤️",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hi sweetie! You still coming Sunday?"
+    },
+    {
+     "me": true,
+     "text": "Hi mom! Yes, I'm coming"
+    },
+    {
+     "me": false,
+     "text": "Wonderful! There will be roast chicken 🍗"
+    },
+    {
+     "me": true,
+     "text": "So good, I love it"
+    },
+    {
+     "me": false,
+     "text": "I'll do the potatoes the way you like them too"
+    },
+    {
+     "me": true,
+     "text": "You're the best mom 😅"
+    },
+    {
+     "me": false,
+     "text": "Just bring an appetite, that's all I ask"
+    },
+    {
+     "me": false,
+     "text": "You coming solo or bringing somebody?"
+    },
+    {
+     "me": true,
+     "text": "Just me this time mom 😅"
+    },
+    {
+     "me": false,
+     "text": "Fine, fine 😉 Sunday then!"
+    },
+    {
+     "me": false,
+     "text": "You didn't forget grandma's birthday on the 15th, right?"
+    },
+    {
+     "me": true,
+     "text": "Nope, I've got it written down!"
+    },
+    {
+     "me": false,
+     "text": "👍 It will mean a lot to her"
+    },
+    {
+     "me": false,
+     "text": "How you doing, honey?"
+    },
+    {
+     "me": true,
+     "text": "All fine here mom, and you?"
+    },
+    {
+     "me": false,
+     "text": "Very well! Are you actually eating properly?"
+    },
+    {
+     "me": true,
+     "text": "Yes mom, I promise 😂"
+    },
+    {
+     "me": false,
+     "text": "Worrying is what mothers are for!"
+    },
+    {
+     "me": true,
+     "text": "❤️"
+    },
+    {
+     "me": false,
+     "text": "We're still on for Sunday?"
+    },
+    {
+     "me": true,
+     "text": "Definitely! Should be there for noon"
+    },
+    {
+     "me": false,
+     "text": "Lovely, Sunday then sweetheart 😘"
+    }
+   ]
+  },
+  {
+   "id": "conv-frangin",
+   "title": "Nolan (Bro)",
+   "time": "Sunday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Yoo"
+    },
+    {
+     "me": true,
+     "text": "Heyy! How's your week going?"
+    },
+    {
+     "me": false,
+     "text": "Chill, you? Mom said you had a date"
+    },
+    {
+     "me": true,
+     "text": "That woman can't keep anything quiet 😂"
+    },
+    {
+     "me": false,
+     "text": "So how did it go?"
+    },
+    {
+     "me": true,
+     "text": "Really good, she's actually so cool"
+    },
+    {
+     "me": false,
+     "text": "Nice! You gonna introduce me?"
+    },
+    {
+     "me": true,
+     "text": "One day maybe 😏"
+    },
+    {
+     "me": false,
+     "text": "Hey do you still have my PS5 controller by any chance?"
+    },
+    {
+     "me": true,
+     "text": "Oh yeah it's at my place, my bad I forgot"
+    },
+    {
+     "me": false,
+     "text": "Any chance you bring it Sunday?"
+    },
+    {
+     "me": true,
+     "text": "Yeah for sure, no worries!"
+    },
+    {
+     "me": false,
+     "text": "FIFA tonight?"
+    },
+    {
+     "me": true,
+     "text": "I'm in! 9pm?"
+    },
+    {
+     "me": false,
+     "text": "Deal. Hope you like losing"
+    },
+    {
+     "me": true,
+     "text": "Big talk from a man who loses 😂"
+    },
+    {
+     "me": false,
+     "text": "Dad's talking about doing a BBQ, did he tell you"
+    },
+    {
+     "me": true,
+     "text": "Oh sweet! When?"
+    },
+    {
+     "me": false,
+     "text": "He said couple weeks out if the weather holds"
+    },
+    {
+     "me": true,
+     "text": "Is he doing the whole thing on the grill again"
+    },
+    {
+     "me": false,
+     "text": "Obviously, he bought a new one last month"
+    },
+    {
+     "me": true,
+     "text": "Of course he did 😂"
+    },
+    {
+     "me": false,
+     "text": "He has been waiting for an excuse to use it"
+    },
+    {
+     "me": true,
+     "text": "Nicee, putting it in the calendar"
+    }
+   ]
+  },
+  {
+   "id": "conv-fedex",
+   "title": "FedEx",
+   "time": "Saturday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "FEDEX: Delivery scheduled today between 8am and 1pm. Reschedule at fedex.com"
+    }
+   ]
+  },
+  {
+   "id": "conv-antoine",
+   "title": "Trey",
+   "time": "Friday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Bro, Rod Wave tickets, have you seen?"
+    },
+    {
+     "me": true,
+     "text": "No, when is it?"
+    },
+    {
+     "me": false,
+     "text": "Capital One Arena in March, I got hold of a few"
+    },
+    {
+     "me": true,
+     "text": "Wait seriously?? How many did you snag?"
+    },
+    {
+     "me": false,
+     "text": "4 so far, want me to grab you one?"
+    },
+    {
+     "me": true,
+     "text": "Obviously! Money's coming straight back to you"
+    },
+    {
+     "me": false,
+     "text": "They're $85 each"
+    },
+    {
+     "me": true,
+     "text": "Fine, transfer goes out tonight"
+    },
+    {
+     "me": false,
+     "text": "Perfect, that night is going to be wild"
+    },
+    {
+     "me": false,
+     "text": "Did you sort the money btw?"
+    },
+    {
+     "me": true,
+     "text": "Damn, completely forgot. Doing it now"
+    },
+    {
+     "me": false,
+     "text": "All good, no rush"
+    },
+    {
+     "me": true,
+     "text": "Sent, it's on its way!"
+    },
+    {
+     "me": false,
+     "text": "Landed, cheers!"
+    },
+    {
+     "me": false,
+     "text": "I'm hosting Saturday, are you around?"
+    },
+    {
+     "me": true,
+     "text": "Can't say yet, I'll let you know"
+    },
+    {
+     "me": false,
+     "text": "Dez, Marcus and Cole are all in"
+    },
+    {
+     "me": true,
+     "text": "What time does it kick off?"
+    },
+    {
+     "me": false,
+     "text": "People start showing up around 9"
+    },
+    {
+     "me": false,
+     "text": "No pressure though, just say either way"
+    },
+    {
+     "me": true,
+     "text": "Right, I'll try to make it work"
+    },
+    {
+     "me": false,
+     "text": "So what about Saturday?"
+    },
+    {
+     "me": true,
+     "text": "Can't, sorry, I already got something"
+    },
+    {
+     "me": false,
+     "text": "Shame! We'll catch you the next one"
+    },
+    {
+     "me": true,
+     "text": "Yeah totally, have fun!"
+    }
+   ]
+  },
+  {
+   "id": "conv-laposte",
+   "title": "USPS",
+   "time": "7/29/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "USPS: Package 9400111899223197428490 is on the truck today. Follow it at usps.com/track"
+    },
+    {
+     "me": false,
+     "text": "USPS: Package 9400111899223197428490 was left in your mailbox."
+    }
+   ]
+  },
+  {
+   "id": "conv-amazon",
+   "title": "Amazon",
+   "time": "7/29/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Amazon: 'JBL Bluetooth Headphones' has shipped and arrives tomorrow."
+    },
+    {
+     "me": false,
+     "text": "Amazon: Delivered. Your parcel was left with a neighbor."
+    }
+   ]
+  },
+  {
+   "id": "conv-verizon",
+   "title": "Verizon",
+   "time": "7/27/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Verizon: January statement ready. Total due $24.99. See it at verizon.com"
+    }
+   ]
+  }
+ ],
+ "whatsapp": [
+  {
+   "id": "whatsapp-maxime",
+   "title": "Dez",
+   "time": "3:01 PM",
+   "unread": false,
+   "msgs": [
+    {
+     "me": true,
+     "text": "Yo bro"
+    },
+    {
+     "me": false,
+     "text": "Yo"
+    },
+    {
+     "me": true,
+     "text": "Anything happening tonight?"
+    },
+    {
+     "me": false,
+     "text": "Idk, you got any ideas?"
+    },
+    {
+     "me": true,
+     "text": "FIFA session?"
+    },
+    {
+     "me": false,
+     "text": "Yeah go on, mine or yours?"
+    },
+    {
+     "me": true,
+     "text": "Mine works, my mom's out"
+    },
+    {
+     "me": false,
+     "text": "Perfect. Shall I bring beers?"
+    },
+    {
+     "me": true,
+     "text": "Yeah bring them"
+    },
+    {
+     "me": false,
+     "text": "I'll pick up a pack on the way"
+    },
+    {
+     "me": true,
+     "text": "What time you heading over?"
+    },
+    {
+     "me": false,
+     "text": "8pm, does that work?"
+    },
+    {
+     "me": true,
+     "text": "Perfect 👍"
+    },
+    {
+     "me": false,
+     "text": "Prepare to get beaten lol"
+    },
+    {
+     "me": true,
+     "text": "Lmao bold words from someone who lost 5-0 last time"
+    },
+    {
+     "me": false,
+     "text": "That one doesn't count 😂"
+    },
+    {
+     "me": true,
+     "text": "Yeah we'll figure it out tonight"
+    },
+    {
+     "me": false,
+     "text": "Right, later then"
+    },
+    {
+     "me": true,
+     "text": "Later tonight bro"
+    }
+   ]
+  },
+  {
+   "id": "whatsapp-maman",
+   "title": "Mom ❤️",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hello sweetheart, how are you?"
+    },
+    {
+     "me": true,
+     "text": "Good mom, and you?"
+    },
+    {
+     "me": false,
+     "text": "Good! You coming over for lunch Sunday?"
+    },
+    {
+     "me": true,
+     "text": "Yep, I'll come"
+    },
+    {
+     "me": false,
+     "text": "Lovely! Roast chicken's on the menu"
+    },
+    {
+     "me": true,
+     "text": "Amazing! With your potatoes as well?"
+    },
+    {
+     "me": false,
+     "text": "Of course, sweetheart 😊"
+    },
+    {
+     "me": true,
+     "text": "You're the best, thank you!"
+    },
+    {
+     "me": false,
+     "text": "What time will you get here?"
+    },
+    {
+     "me": true,
+     "text": "Should be there for noon"
+    },
+    {
+     "me": false,
+     "text": "Wonderful! Is Paige coming with you?"
+    },
+    {
+     "me": true,
+     "text": "No, she can't make it this Sunday"
+    },
+    {
+     "me": false,
+     "text": "Okay, some other time then"
+    },
+    {
+     "me": true,
+     "text": "Yeah yeah"
+    },
+    {
+     "me": false,
+     "text": "Love you son, Sunday then!"
+    },
+    {
+     "me": true,
+     "text": "Love you mom ❤️"
+    }
+   ]
+  },
+  {
+   "id": "whatsapp-groupe-potes",
+   "title": "Dez, Trey, Cole",
+   "time": "Monday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Yo guys, we going out tonight?"
+    },
+    {
+     "me": true,
+     "text": "I'm in. What are we thinking?"
+    },
+    {
+     "me": false,
+     "text": "The usual spot work for everyone?"
+    },
+    {
+     "me": false,
+     "text": "Not tonight for me"
+    },
+    {
+     "me": false,
+     "text": "Aw damn, why not?"
+    },
+    {
+     "me": false,
+     "text": "Got dinner with my girl"
+    },
+    {
+     "me": false,
+     "text": "Ooooh domestic bliss over here 😂"
+    },
+    {
+     "me": true,
+     "text": "Lmaoo give the man a break"
+    },
+    {
+     "me": false,
+     "text": "Guess it's just the 3 of us then"
+    },
+    {
+     "me": true,
+     "text": "Works for me. What time are we saying?"
+    },
+    {
+     "me": false,
+     "text": "9pm outside the bar?"
+    },
+    {
+     "me": true,
+     "text": "Yeah that works"
+    },
+    {
+     "me": false,
+     "text": "Same"
+    },
+    {
+     "me": false,
+     "text": "Enjoy it lads"
+    },
+    {
+     "me": true,
+     "text": "Cheers! Have a good dinner with your girl"
+    },
+    {
+     "me": false,
+     "text": "You'll get the full report 😏"
+    },
+    {
+     "me": false,
+     "text": "Right, tonight then!"
+    },
+    {
+     "me": true,
+     "text": "👋"
+    },
+    {
+     "me": false,
+     "text": "Man, yesterday was a good one"
+    },
+    {
+     "me": true,
+     "text": "Right? Everyone was on it"
+    },
+    {
+     "me": false,
+     "text": "That waitress was so cute 😍"
+    },
+    {
+     "me": true,
+     "text": "Lol you didn't even try to talk to her"
+    },
+    {
+     "me": false,
+     "text": "There's always the next one!"
+    },
+    {
+     "me": false,
+     "text": "You say that every single time 😂"
+    },
+    {
+     "me": false,
+     "text": "So what did you lot end up doing?"
+    },
+    {
+     "me": true,
+     "text": "Just grabbed some drinks, nothing wild"
+    },
+    {
+     "me": false,
+     "text": "You're coming out with us next round!"
+    },
+    {
+     "me": false,
+     "text": "You have my word!"
+    }
+   ]
+  },
+  {
+   "id": "whatsapp-theo",
+   "title": "Nolan (Bro)",
+   "time": "Monday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Yo bro"
+    },
+    {
+     "me": true,
+     "text": "Hey"
+    },
+    {
+     "me": false,
+     "text": "You coming to mom and dad's Sunday?"
+    },
+    {
+     "me": true,
+     "text": "Yeah I think so"
+    },
+    {
+     "me": false,
+     "text": "Nice. Dad's got it in his head we're watching the game together"
+    },
+    {
+     "me": true,
+     "text": "Oh yeah? Which game?"
+    },
+    {
+     "me": false,
+     "text": "Real Madrid at home to the Ravens"
+    },
+    {
+     "me": true,
+     "text": "Oh nice, the big rivalry one!"
+    },
+    {
+     "me": false,
+     "text": "Should be a proper battle"
+    },
+    {
+     "me": true,
+     "text": "Who you got winning?"
+    },
+    {
+     "me": false,
+     "text": "I'd take the Ravens 2-1"
+    },
+    {
+     "me": true,
+     "text": "I'm calling 3-0, easy"
+    },
+    {
+     "me": false,
+     "text": "Lol you're way too optimistic"
+    },
+    {
+     "me": true,
+     "text": "We'll find out. Chips are your job"
+    },
+    {
+     "me": false,
+     "text": "Okay, deal"
+    },
+    {
+     "me": true,
+     "text": "Right, Sunday then!"
+    },
+    {
+     "me": false,
+     "text": "Yep, see you Sunday 👊"
+    }
+   ]
+  },
+  {
+   "id": "whatsapp-antoine",
+   "title": "Trey",
+   "time": "Saturday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Yo, tickets for Rod Wave just dropped, did you see?"
+    },
+    {
+     "me": true,
+     "text": "No, what?"
+    },
+    {
+     "me": false,
+     "text": "He's playing Baltimore in March!"
+    },
+    {
+     "me": true,
+     "text": "Oh for real, we gotta go!"
+    },
+    {
+     "me": false,
+     "text": "Want me to grab the tickets?"
+    },
+    {
+     "me": true,
+     "text": "Yeah go ahead, get me one"
+    },
+    {
+     "me": false,
+     "text": "Ok so it's $60 a ticket"
+    },
+    {
+     "me": true,
+     "text": "Yeah that works"
+    },
+    {
+     "me": true,
+     "text": "I'll get it back to you quick"
+    },
+    {
+     "me": false,
+     "text": "No rush, no stress"
+    },
+    {
+     "me": true,
+     "text": "That show is going to be unreal"
+    },
+    {
+     "me": false,
+     "text": "Right? I'm buzzing already"
+    },
+    {
+     "me": false,
+     "text": "CFG Bank Arena, August 6"
+    },
+    {
+     "me": true,
+     "text": "Sorted, putting it in my calendar"
+    },
+    {
+     "me": false,
+     "text": "We're going to lose our minds 🔥"
+    },
+    {
+     "me": true,
+     "text": "Let's gooooo"
+    }
+   ]
+  },
+  {
+   "id": "whatsapp-basicfit",
+   "title": "Brick Bodies Hampden",
+   "time": "Saturday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "🏋️ Reminder: Your subscription will be renewed on 02/15. Amount: $24.99"
+    },
+    {
+     "me": false,
+     "text": "💪 Today's tip: keep the water bottle close during your workout!"
+    },
+    {
+     "me": false,
+     "text": "🎉 Members' offer: bring a friend, get a month on us!"
+    }
+   ]
+  },
+  {
+   "id": "whatsapp-kevin",
+   "title": "Cole",
+   "time": "Friday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Yo you got the link for the stream tonight?"
+    },
+    {
+     "me": true,
+     "text": "Which stream?"
+    },
+    {
+     "me": false,
+     "text": "The boxing tonight"
+    },
+    {
+     "me": true,
+     "text": "Oh yeah, hold on let me find it"
+    },
+    {
+     "me": false,
+     "text": "Cheers bro"
+    },
+    {
+     "me": true,
+     "text": "You watching at yours?"
+    },
+    {
+     "me": false,
+     "text": "Yeah, Jarrett is coming over"
+    },
+    {
+     "me": true,
+     "text": "Nice, save me a spot next time"
+    },
+    {
+     "me": false,
+     "text": "Anytime bro"
+    },
+    {
+     "me": true,
+     "text": "Got it, it's in your Twitter DMs"
+    },
+    {
+     "me": false,
+     "text": "Received. Legend 🙏"
+    },
+    {
+     "me": true,
+     "text": "Who you betting on?"
+    },
+    {
+     "me": false,
+     "text": "Fury, obviously. Not even a question"
+    },
+    {
+     "me": true,
+     "text": "Yeah same, he's gonna destroy him"
+    },
+    {
+     "me": false,
+     "text": "Enjoy the fight bro!"
+    },
+    {
+     "me": true,
+     "text": "You too 💪"
+    }
+   ]
+  },
+  {
+   "id": "whatsapp-amelie",
+   "title": "Whitney",
+   "time": "Thursday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": true,
+     "text": "Hey there 👋"
+    },
+    {
+     "me": false,
+     "text": "Hey! Everything good?"
+    },
+    {
+     "me": true,
+     "text": "Yeah pretty good, you?"
+    },
+    {
+     "me": false,
+     "text": "All good! So you're a sporty one, right?"
+    },
+    {
+     "me": true,
+     "text": "Yeah I keep myself in shape 💪"
+    },
+    {
+     "me": false,
+     "text": "What kind of stuff do you do?"
+    },
+    {
+     "me": true,
+     "text": "Gym mostly, and football with mates now and then"
+    },
+    {
+     "me": false,
+     "text": "Nice! Yoga's my thing"
+    },
+    {
+     "me": true,
+     "text": "Oh nice, I should really try that sometime"
+    },
+    {
+     "me": false,
+     "text": "I could show you 😏"
+    },
+    {
+     "me": true,
+     "text": "Was your day alright?"
+    },
+    {
+     "me": false,
+     "text": "Yeah pretty chill, you?"
+    },
+    {
+     "me": true,
+     "text": "Yeah good! Worked the whole day"
+    },
+    {
+     "me": false,
+     "text": "What do you do for work then?"
+    },
+    {
+     "me": true,
+     "text": "Finance is my world, financial consultant to be exact"
+    },
+    {
+     "me": false,
+     "text": "Ooh fancy! Bet that keeps you busy"
+    },
+    {
+     "me": true,
+     "text": "Yeah it's cool, comes with a lot of responsibility"
+    },
+    {
+     "me": false,
+     "text": "I bet! You enjoy it though?"
+    },
+    {
+     "me": true,
+     "text": "Honestly yeah, it keeps me sharp"
+    },
+    {
+     "me": false,
+     "text": "Hey you 🙂"
+    },
+    {
+     "me": true,
+     "text": "Hey! You good?"
+    },
+    {
+     "me": false,
+     "text": "Good! I was just thinking about you"
+    },
+    {
+     "me": true,
+     "text": "Were you now? That's cute 😊"
+    },
+    {
+     "me": false,
+     "text": "Yeah I was wondering if that meet up is still on"
+    },
+    {
+     "me": true,
+     "text": "Course I do! Let's actually put something in"
+    },
+    {
+     "me": false,
+     "text": "What did you have in mind?"
+    },
+    {
+     "me": true,
+     "text": "Drinks? I know a good bar"
+    },
+    {
+     "me": false,
+     "text": "That works for me!"
+    },
+    {
+     "me": true,
+     "text": "Would this weekend suit?"
+    },
+    {
+     "me": false,
+     "text": "My Saturday evening is wide open!"
+    },
+    {
+     "me": true,
+     "text": "Cool, let's do it then"
+    },
+    {
+     "me": false,
+     "text": "Already looking forward to it 😊"
+    },
+    {
+     "me": true,
+     "text": "Me neither!"
+    },
+    {
+     "me": true,
+     "text": "Hey, so sorry but something came up tonight..."
+    },
+    {
+     "me": false,
+     "text": "Oh no 😕 Nothing bad I hope?"
+    },
+    {
+     "me": true,
+     "text": "No no, just something urgent with work I have to sort"
+    },
+    {
+     "me": false,
+     "text": "No worries at all, we'll find another day"
+    },
+    {
+     "me": true,
+     "text": "Thanks for being cool about it, you're the best"
+    },
+    {
+     "me": false,
+     "text": "Hey you! Are you back on your feet?"
+    },
+    {
+     "me": true,
+     "text": "Yeah thanks! And you?"
+    },
+    {
+     "me": false,
+     "text": "All calm here! So, do we try again?"
+    },
+    {
+     "me": true,
+     "text": "Yeah we need to lock down a time"
+    },
+    {
+     "me": false,
+     "text": "What days are you free?"
+    },
+    {
+     "me": true,
+     "text": "I'll look at my week and come back to you!"
+    },
+    {
+     "me": false,
+     "text": "So, that schedule? 😄"
+    },
+    {
+     "me": true,
+     "text": "Ah sorry, that one slipped past me! Next week maybe?"
+    },
+    {
+     "me": false,
+     "text": "Okay sounds good!"
+    },
+    {
+     "me": true,
+     "text": "Was the weekend good?"
+    },
+    {
+     "me": false,
+     "text": "Yeah chill! Went shopping with a friend"
+    },
+    {
+     "me": true,
+     "text": "Nice! What did you get?"
+    },
+    {
+     "me": false,
+     "text": "A cute little summer dress 👗"
+    },
+    {
+     "me": true,
+     "text": "Very nice, I'll be needing photographic evidence"
+    },
+    {
+     "me": false,
+     "text": "Maybe, if you behave 😏"
+    },
+    {
+     "me": false,
+     "text": "Heyy! How's your week going?"
+    },
+    {
+     "me": true,
+     "text": "Hey! Yeah good, you?"
+    },
+    {
+     "me": false,
+     "text": "Good! What have you got on?"
+    },
+    {
+     "me": true,
+     "text": "Just chilling, watching Netflix lol"
+    },
+    {
+     "me": false,
+     "text": "Haha what have you put on?"
+    },
+    {
+     "me": true,
+     "text": "Squid Game finally, I'd never got round to it"
+    },
+    {
+     "me": false,
+     "text": "Ooooh you're in for it, it's brilliant"
+    },
+    {
+     "me": false,
+     "text": "How far into Squid Game are you now?"
+    },
+    {
+     "me": true,
+     "text": "Finished it already! It was insane"
+    },
+    {
+     "me": false,
+     "text": "See!! That ending though, right?"
+    },
+    {
+     "me": true,
+     "text": "Not a chance I saw that coming"
+    },
+    {
+     "me": false,
+     "text": "We should watch something together one of these days 🎬"
+    },
+    {
+     "me": true,
+     "text": "Deal, I'd like that"
+    }
+   ],
+   "avatar": "wa_7.webp"
+  },
+  {
+   "id": "whatsapp-papa",
+   "title": "Dad",
+   "time": "7/29/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Grant, give me a ring when you get 5 min"
+    },
+    {
+     "me": true,
+     "text": "Sure, calling you in 10 min"
+    },
+    {
+     "me": false,
+     "text": "Ok"
+    },
+    {
+     "me": true,
+     "text": "Right, I've got the car details written down"
+    },
+    {
+     "me": false,
+     "text": "Good lad, sending the garage address over"
+    },
+    {
+     "me": false,
+     "text": "Ridgely Auto Service, 4500 Falls Road"
+    },
+    {
+     "me": true,
+     "text": "Ok cheers! What time is it booked for?"
+    },
+    {
+     "me": false,
+     "text": "10am Saturday, and ask for Mr. Kowalski"
+    },
+    {
+     "me": true,
+     "text": "Got it 👍"
+    },
+    {
+     "me": false,
+     "text": "And don't forget to bring the paperwork"
+    },
+    {
+     "me": true,
+     "text": "Yeah yeah, don't worry"
+    }
+   ]
+  },
+  {
+   "id": "whatsapp-fedex",
+   "title": "FedEx",
+   "time": "7/25/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "📦 Out for delivery. Your driver should reach you between 2pm and 6pm today."
+    },
+    {
+     "me": false,
+     "text": "📦 Your driver will be at your door in about 30 minutes."
+    },
+    {
+     "me": false,
+     "text": "✅ Delivered. Thanks for choosing FedEx!"
+    }
+   ]
+  },
+  {
+   "id": "whatsapp-marc",
+   "title": "Ty (cousin)",
+   "time": "7/22/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hey cuz!"
+    },
+    {
+     "me": true,
+     "text": "Yoo Ty, what's new?"
+    },
+    {
+     "me": false,
+     "text": "Good! You free for grandma's birthday?"
+    },
+    {
+     "me": true,
+     "text": "Wait when is it again?"
+    },
+    {
+     "me": false,
+     "text": "August 11, we're doing something over at my parents' place"
+    },
+    {
+     "me": true,
+     "text": "Right, putting it in my calendar"
+    },
+    {
+     "me": false,
+     "text": "Starts around 1 I think, my mom is doing the food"
+    },
+    {
+     "me": true,
+     "text": "Sweet. Is Nolan coming too?"
+    },
+    {
+     "me": false,
+     "text": "Yeah your mom already said yes for all of you"
+    },
+    {
+     "me": true,
+     "text": "Classic 😂"
+    },
+    {
+     "me": false,
+     "text": "What are you thinking for a gift?"
+    },
+    {
+     "me": true,
+     "text": "Not sure yet, you got any ideas?"
+    },
+    {
+     "me": false,
+     "text": "We could go in together on something nice?"
+    },
+    {
+     "me": true,
+     "text": "Yeah good call! Like what?"
+    },
+    {
+     "me": false,
+     "text": "A spa weekend, something along those lines"
+    },
+    {
+     "me": true,
+     "text": "Oh not bad! How much would that run us?"
+    },
+    {
+     "me": false,
+     "text": "Like $180, split 3-4 ways that's $45 each"
+    },
+    {
+     "me": true,
+     "text": "Yeah that works, let's do it"
+    },
+    {
+     "me": false,
+     "text": "Nice! I'll sort the booking"
+    },
+    {
+     "me": true,
+     "text": "Thanks cuz!"
+    }
+   ]
+  },
+  {
+   "id": "whatsapp-groupe-famille",
+   "title": "Mom ❤️, Dad, Nolan (Bro)",
+   "time": "7/19/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Right kids, any plans for the Easter break?"
+    },
+    {
+     "me": false,
+     "text": "Now there is a question!"
+    },
+    {
+     "me": false,
+     "text": "We could get away somewhere?"
+    },
+    {
+     "me": true,
+     "text": "Where to?"
+    },
+    {
+     "me": false,
+     "text": "What about the Outer Banks again?"
+    },
+    {
+     "me": false,
+     "text": "Oh yeah, why not!"
+    },
+    {
+     "me": false,
+     "text": "We haven't been down there in years"
+    },
+    {
+     "me": true,
+     "text": "Remind me when the Easter break falls?"
+    },
+    {
+     "me": false,
+     "text": "August 28 to the 22nd"
+    },
+    {
+     "me": true,
+     "text": "I'll see whether I can get the time off"
+    },
+    {
+     "me": false,
+     "text": "Nothing on my end!"
+    },
+    {
+     "me": false,
+     "text": "Lovely! I'll start looking at cottages"
+    },
+    {
+     "me": false,
+     "text": "Nothing too pricey though 😅"
+    },
+    {
+     "me": false,
+     "text": "Leave it with me 😊"
+    },
+    {
+     "me": false,
+     "text": "Already excited!"
+    }
+   ]
+  },
+  {
+   "id": "whatsapp-julien",
+   "title": "Marcus",
+   "time": "7/17/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Grant! It has been forever"
+    },
+    {
+     "me": true,
+     "text": "Marcus! How you doing bro?"
+    },
+    {
+     "me": false,
+     "text": "Good! What have you been doing?"
+    },
+    {
+     "me": true,
+     "text": "Job hunting at the moment, honestly"
+    },
+    {
+     "me": false,
+     "text": "Damn, so Dicks Sporting Goods is done then?"
+    },
+    {
+     "me": true,
+     "text": "Nah I quit a few months back"
+    },
+    {
+     "me": false,
+     "text": "Ok ok, so what are you looking for?"
+    },
+    {
+     "me": true,
+     "text": "Little of everything, sales, logistics..."
+    },
+    {
+     "me": false,
+     "text": "I can ask my boss if you want, we're hiring"
+    },
+    {
+     "me": true,
+     "text": "Oh yeah that'd be awesome! Where's it at?"
+    },
+    {
+     "me": false,
+     "text": "Order picking, the Amazon site at Sparrows Point"
+    },
+    {
+     "me": true,
+     "text": "What's the pay like?"
+    },
+    {
+     "me": false,
+     "text": "Minimum wage plus bonuses, works out around $2200 net"
+    },
+    {
+     "me": true,
+     "text": "Ok that's decent, keep me posted?"
+    },
+    {
+     "me": false,
+     "text": "I'll put the word in and get back to you!"
+    },
+    {
+     "me": true,
+     "text": "Cheers bro 🙏"
+    }
+   ]
+  },
+  {
+   "id": "whatsapp-voisin",
+   "title": "3rd-floor neighbor",
+   "time": "7/13/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hi, could you grab a package for me tomorrow? I won't be home"
+    },
+    {
+     "me": true,
+     "text": "Hi, yeah no problem"
+    },
+    {
+     "me": false,
+     "text": "Thank you so much! Should be an Amazon package"
+    },
+    {
+     "me": true,
+     "text": "No problem, I'll sort it"
+    },
+    {
+     "me": false,
+     "text": "They usually come by in the morning"
+    },
+    {
+     "me": true,
+     "text": "I'm around all morning anyway"
+    },
+    {
+     "me": false,
+     "text": "That is a real help, thank you"
+    },
+    {
+     "me": false,
+     "text": "I'll collect it tomorrow evening then"
+    },
+    {
+     "me": true,
+     "text": "All good 👍"
+    },
+    {
+     "me": true,
+     "text": "Your package showed up, I grabbed it"
+    },
+    {
+     "me": false,
+     "text": "Wonderful, thank you! I'll knock around 7pm"
+    },
+    {
+     "me": true,
+     "text": "Fine, I'll be in"
+    },
+    {
+     "me": false,
+     "text": "Thank you again for the favor!"
+    }
+   ]
+  }
+ ],
+ "gmail": [
+  {
+   "sender": "Discord",
+   "subject": "You were mentioned in The Squad Gaming",
+   "preview": "@Dez mentioned you in #general: '@Grant are you coming tonight?'",
+   "body": "@Dez mentioned you in #general:\n'@Grant are you coming tonight?'",
+   "time": "5:30 PM",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Tinder",
+   "subject": "New login detected on your Tinder account",
+   "preview": "Hello Grant, We detected a new login to your Tinder account. Device: Galaxy Tab S9 Location: Washington, DC Da",
+   "body": "Hello Grant,\n\nWe detected a new login to your Tinder account.\n\nDevice: Galaxy Tab S9\nLocation: Washington, DC\nDate: Today\n\nIf this was you, you can ignore this email. Otherwise, secure your account immediately.\n\nThe Tinder Team",
+   "time": "9:30 AM",
+   "folder": "spam"
+  },
+  {
+   "sender": "Apple",
+   "subject": "Your receipt from Apple",
+   "preview": "Thank you for your purchase. iCloud+ 50 GB: $0.99/month Apple",
+   "body": "Thank you for your purchase.\n\niCloud+ 50 GB: $0.99/month\n\nApple",
+   "time": "Yesterday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "DoorDash",
+   "subject": "Your order is out for delivery! 🍕",
+   "preview": "Your McDonald's order is 20 minutes away.",
+   "body": "Your McDonald's order is 20 minutes away.",
+   "time": "Monday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Craigslist",
+   "subject": "You have a reply on your listing",
+   "preview": "Hello Grant, Someone has replied to your listing 'PS4 Pro Console'. Craigslist",
+   "body": "Hello Grant,\n\nSomeone has replied to your listing 'PS4 Pro Console'.\n\nCraigslist",
+   "time": "Sunday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Nolan",
+   "subject": "Re: FIFA tonight?",
+   "preview": "Yoo, 9pm works! Hope you like losing 😂 Nolan",
+   "body": "Yoo,\n\n9pm works! Hope you like losing 😂\n\nNolan",
+   "time": "Saturday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Nolan",
+   "subject": "FIFA tonight?",
+   "preview": "Hey bro, Wanna play FIFA around 9pm tonight? Grant",
+   "body": "Hey bro,\n\nWanna play FIFA around 9pm tonight?\n\nGrant",
+   "time": "Saturday",
+   "folder": "sent"
+  },
+  {
+   "sender": "Verizon",
+   "subject": "Your monthly bill is ready to view",
+   "preview": "Hello, Your January mobile statement is ready in your account. Total due: $24.99. Verizon",
+   "body": "Hello,\n\nYour January mobile statement is ready in your account. Total due: $24.99.\n\nVerizon",
+   "time": "Saturday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "YouTube",
+   "subject": "MrBeast uploaded a new video",
+   "preview": "New from MrBeast: 'I TRIED THE HARDEST JOB' Tap to watch!",
+   "body": "New from MrBeast: 'I TRIED THE HARDEST JOB'\n\nTap to watch!",
+   "time": "Friday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Craigslist Support",
+   "subject": "Problem with my listing",
+   "preview": "Hello, I can't edit my listing for the PS4. The button doesn't work. Thank you for your help, Grant Mercer",
+   "body": "Hello,\n\nI can't edit my listing for the PS4. The button doesn't work.\n\nThank you for your help,\nGrant Mercer",
+   "time": "Friday",
+   "folder": "sent"
+  },
+  {
+   "sender": "Amazon",
+   "subject": "Your package is on its way!",
+   "preview": "Hello Grant, 'JBL Bluetooth Earbuds' has left our warehouse and arrives tomorrow. Amazon",
+   "body": "Hello Grant,\n\n'JBL Bluetooth Earbuds' has left our warehouse and arrives tomorrow.\n\nAmazon",
+   "time": "Thursday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Uber",
+   "subject": "Receipt for your 01/15 trip",
+   "preview": "Thanks for riding with Uber. Charged: $14.50 Route: Fells Point → Penn Station",
+   "body": "Thanks for riding with Uber.\n\nCharged: $14.50\nRoute: Fells Point → Penn Station",
+   "time": "7/29/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Dez",
+   "subject": "Re: Saturday party",
+   "preview": "Yo, Ok I'm coming! I'll bring a pack of Heineken. Grant",
+   "body": "Yo,\n\nOk I'm coming! I'll bring a pack of Heineken.\n\nGrant",
+   "time": "7/29/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Zocdoc",
+   "subject": "Appointment reminder: tomorrow, 10:30 AM",
+   "preview": "Hello Grant, Just a reminder: Dr. Alcott is expecting you tomorrow at 10:30 AM. Zocdoc",
+   "body": "Hello Grant,\n\nJust a reminder: Dr. Alcott is expecting you tomorrow at 10:30 AM.\n\nZocdoc",
+   "time": "7/28/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Netflix",
+   "subject": "The new arrivals you shouldn't miss",
+   "preview": "Check out the new shows and movies added to Netflix this week.",
+   "body": "Check out the new shows and movies added to Netflix this week.",
+   "time": "7/27/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Verde Pizza",
+   "subject": "Booking a table for Saturday",
+   "preview": "Hello, Could I book a table for 4 on Saturday evening, around 8pm? Thank you, Grant",
+   "body": "Hello,\n\nCould I book a table for 4 on Saturday evening, around 8pm?\n\nThank you,\nGrant",
+   "time": "7/27/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Uber Eats",
+   "subject": "🍔 50% off your next order",
+   "preview": "Take 50% off your next order, up to $10, with the code WEEKEND50. Uber Eats",
+   "body": "Take 50% off your next order, up to $10, with the code WEEKEND50.\n\nUber Eats",
+   "time": "7/26/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Floyds 99",
+   "subject": "Booking request",
+   "preview": "Hello, Do you have anything free for a men's cut on Friday, around 2pm? Thank you, Grant Mercer",
+   "body": "Hello,\n\nDo you have anything free for a men's cut on Friday, around 2pm?\n\nThank you,\nGrant Mercer",
+   "time": "7/25/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Spotify",
+   "subject": "Your Discover Weekly just refreshed 🎵",
+   "preview": "Hi Grant, We lined up 30 fresh tracks for you. Your Discover Weekly is waiting! Spotify",
+   "body": "Hi Grant,\n\nWe lined up 30 fresh tracks for you. Your Discover Weekly is waiting!\n\nSpotify",
+   "time": "7/25/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Mom",
+   "subject": "Re: Lunch on Sunday?",
+   "preview": "Hey mom, Sunday is fine for me! Expect me around noon. Love you",
+   "body": "Hey mom,\n\nSunday is fine for me! Expect me around noon.\n\nLove you",
+   "time": "7/24/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Mom",
+   "subject": "Lunch on Sunday?",
+   "preview": "Hey sweetie, Come and eat with us on Sunday? There will be roast chicken. Love, Mom",
+   "body": "Hey sweetie,\n\nCome and eat with us on Sunday? There will be roast chicken.\n\nLove,\nMom",
+   "time": "7/24/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "PlayStation",
+   "subject": "Your PlayStation Store purchase is confirmed",
+   "preview": "Hello Grant, Your purchase is confirmed: FIFA 24 Ultimate Team - 4600 Points: $39.99 PlayStation",
+   "body": "Hello Grant,\n\nYour purchase is confirmed:\nFIFA 24 Ultimate Team - 4600 Points: $39.99\n\nPlayStation",
+   "time": "7/23/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Service Client Amazon",
+   "subject": "Damaged item - Order #AMZ-789456",
+   "preview": "Hello, My parcel turned up with the box already open and the item damaged. What do I need to do to get a refun",
+   "body": "Hello,\n\nMy parcel turned up with the box already open and the item damaged. What do I need to do to get a refund?\n\nBest regards,\nGrant Mercer",
+   "time": "7/22/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "LinkedIn",
+   "subject": "Your profile got 3 views this week",
+   "preview": "Hello Grant, 3 people looked at your profile over the past week. LinkedIn",
+   "body": "Hello Grant,\n\n3 people looked at your profile over the past week.\n\nLinkedIn",
+   "time": "7/21/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Best Buy",
+   "subject": "30% off gaming headsets, this weekend only!",
+   "preview": "30% off selected gaming headsets, this weekend only. Best Buy",
+   "body": "30% off selected gaming headsets, this weekend only.\n\nBest Buy",
+   "time": "7/19/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Trey",
+   "subject": "Re: Rod Wave concert tickets",
+   "preview": "Yes please! Put me down for a ticket, money comes straight back to you. Thanks man!",
+   "body": "Yes please! Put me down for a ticket, money comes straight back to you.\n\nThanks man!",
+   "time": "7/18/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Trey",
+   "subject": "Rod Wave concert tickets",
+   "preview": "Yo Grant! I got hold of tickets for Rod Wave in March! Want one? Trey",
+   "body": "Yo Grant!\n\nI got hold of tickets for Rod Wave in March! Want one?\n\nTrey",
+   "time": "7/18/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Steam",
+   "subject": "You have a game waiting from a friend!",
+   "preview": "Hi Grant, A gift from Dez is waiting: 'Counter-Strike 2'. Sign in to claim it. Steam",
+   "body": "Hi Grant,\n\nA gift from Dez is waiting: 'Counter-Strike 2'. Sign in to claim it.\n\nSteam",
+   "time": "7/17/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Nike",
+   "subject": "Air Max: the new collection is here",
+   "preview": "The new Air Max collection has landed. Members ship free.",
+   "body": "The new Air Max collection has landed. Members ship free.",
+   "time": "7/15/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Tinder",
+   "subject": "🔥 You have a new match with Paige!",
+   "preview": "Hi Grant, You matched with Paige! Don't wait to send her a message. See you on Tinder!",
+   "body": "Hi Grant,\n\nYou matched with Paige! Don't wait to send her a message.\n\nSee you on Tinder!",
+   "time": "7/14/26",
+   "folder": "spam"
+  },
+  {
+   "sender": "Tinder",
+   "subject": "🔥 You have a new match with Piper!",
+   "preview": "Hi Grant, You matched with Piper! Don't wait. The Tinder Team",
+   "body": "Hi Grant,\n\nYou matched with Piper! Don't wait.\n\nThe Tinder Team",
+   "time": "7/12/26",
+   "folder": "spam"
+  },
+  {
+   "sender": "Instagram",
+   "subject": "We noticed a new sign-in",
+   "preview": "A new login was detected from Washington, DC.",
+   "body": "A new login was detected from Washington, DC.",
+   "time": "7/12/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Micro Center",
+   "subject": "Winter clearance: save up to 60%!",
+   "preview": "The winter sales are here! Discover our best deals on TVs, audio and gaming. Micro Center",
+   "body": "The winter sales are here! Discover our best deals on TVs, audio and gaming.\n\nMicro Center",
+   "time": "7/9/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Tinder",
+   "subject": "🔥 You have a new match with Whitney!",
+   "preview": "Hi Grant, You matched with Whitney! Don't wait to send her a message. See you on Tinder!",
+   "body": "Hi Grant,\n\nYou matched with Whitney! Don't wait to send her a message.\n\nSee you on Tinder!",
+   "time": "7/7/26",
+   "folder": "spam"
+  },
+  {
+   "sender": "Twitch",
+   "subject": "Ludwig is live!",
+   "preview": "Ludwig is streaming: [Event] Ludwigs Charity Stream 2024! Join the live now.",
+   "body": "Ludwig is streaming: [Event] Ludwigs Charity Stream 2024!\n\nJoin the live now.",
+   "time": "7/7/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "M&T Bank",
+   "subject": "Your monthly statement is ready",
+   "preview": "Hello, Your December account statement is available in your online space. M&T Bank",
+   "body": "Hello,\n\nYour December account statement is available in your online space.\n\nM&T Bank",
+   "time": "7/2/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Tinder",
+   "subject": "💕 Clara liked you back!",
+   "preview": "Hi Grant, You matched with Clara! Start the chat. See you on Tinder!",
+   "body": "Hi Grant,\n\nYou matched with Clara! Start the chat.\n\nSee you on Tinder!",
+   "time": "6/29/26",
+   "folder": "spam"
+  },
+  {
+   "sender": "Tinder",
+   "subject": "🔥 You have a new match with Kelsey!",
+   "preview": "Hi Grant, You matched with Kelsey! Don't wait to send her a message. See you on Tinder!",
+   "body": "Hi Grant,\n\nYou matched with Kelsey! Don't wait to send her a message.\n\nSee you on Tinder!",
+   "time": "6/26/26",
+   "folder": "spam"
+  },
+  {
+   "sender": "Tinder",
+   "subject": "🔥 It's a match, say hi to Camille!",
+   "preview": "Hi Grant, You matched with Camille! Send her a message. The Tinder Team",
+   "body": "Hi Grant,\n\nYou matched with Camille! Send her a message.\n\nThe Tinder Team",
+   "time": "6/25/26",
+   "folder": "spam"
+  },
+  {
+   "sender": "Tinder",
+   "subject": "💘 You have a new match with Renata!",
+   "preview": "Hi Grant, You matched with Renata! Make the first move. See you on Tinder!",
+   "body": "Hi Grant,\n\nYou matched with Renata! Make the first move.\n\nSee you on Tinder!",
+   "time": "6/22/26",
+   "folder": "spam"
+  },
+  {
+   "sender": "Tinder",
+   "subject": "🔥 You have a new match with Sierra!",
+   "preview": "Hi Grant, You matched with Sierra! Don't wait too long. The Tinder Team",
+   "body": "Hi Grant,\n\nYou matched with Sierra! Don't wait too long.\n\nThe Tinder Team",
+   "time": "6/19/26",
+   "folder": "spam"
+  },
+  {
+   "sender": "Tinder",
+   "subject": "💕 Julie is a match!",
+   "preview": "Hi Grant, You matched with Julie! Start the conversation. See you on Tinder!",
+   "body": "Hi Grant,\n\nYou matched with Julie! Start the conversation.\n\nSee you on Tinder!",
+   "time": "6/17/26",
+   "folder": "spam"
+  },
+  {
+   "sender": "Tinder",
+   "subject": "🔥 You and Charlotte matched!",
+   "preview": "Hi Grant, You matched with Charlotte! Send her a message. The Tinder Team",
+   "body": "Hi Grant,\n\nYou matched with Charlotte! Send her a message.\n\nThe Tinder Team",
+   "time": "6/12/26",
+   "folder": "spam"
+  },
+  {
+   "sender": "Tinder",
+   "subject": "💘 Emma matched with you!",
+   "preview": "Hi Grant, You matched with Emma! Don't wait to send her a message. See you on Tinder!",
+   "body": "Hi Grant,\n\nYou matched with Emma! Don't wait to send her a message.\n\nSee you on Tinder!",
+   "time": "6/7/26",
+   "folder": "spam"
+  },
+  {
+   "sender": "Tinder",
+   "subject": "Confirmation of your Tinder Gold subscription",
+   "preview": "Hello Grant, Thank you for your Tinder Gold subscription! Details: - Subscription: Tinder Gold - Price: $19.99",
+   "body": "Hello Grant,\n\nThank you for your Tinder Gold subscription!\n\nDetails:\n- Subscription: Tinder Gold\n- Price: $19.99/month\n- Auto-renewal\n\nYou now benefit from:\n- Unlimited Likes\n- See who liked you\n- 5 Super Likes per day\n- Passport to swipe anywhere in the world\n\nThe Tinder Team",
+   "time": "6/7/26",
+   "folder": "trash"
+  },
+  {
+   "sender": "Tinder",
+   "subject": "Come back to Tinder! New profiles are waiting for you 💕",
+   "preview": "Hi Grant, You've been away for a while. Come back to discover new profiles near you! The Tinder Team",
+   "body": "Hi Grant,\n\nYou've been away for a while. Come back to discover new profiles near you!\n\nThe Tinder Team",
+   "time": "6/2/26",
+   "folder": "spam"
+  },
+  {
+   "sender": "Tinder",
+   "subject": "Back in the game! 🔥 New profiles for you",
+   "preview": "Hi Grant, You're back and that's great! We have lots of new profiles in your area. See you on Tinder!",
+   "body": "Hi Grant,\n\nYou're back and that's great! We have lots of new profiles in your area.\n\nSee you on Tinder!",
+   "time": "5/28/26",
+   "folder": "spam"
+  },
+  {
+   "sender": "Tinder",
+   "subject": "We miss you! Come back to Tinder 💔",
+   "preview": "Hi Grant, It's been a while since we've seen you. Lots of new profiles are waiting for you! Come back soon, Th",
+   "body": "Hi Grant,\n\nIt's been a while since we've seen you. Lots of new profiles are waiting for you!\n\nCome back soon,\nThe Tinder Team",
+   "time": "5/23/26",
+   "folder": "spam"
+  },
+  {
+   "sender": "Tinder",
+   "subject": "Welcome to Tinder! 🎉",
+   "preview": "Hi Grant, Welcome to Tinder! Your profile is now active. Start swiping to find people who match with you. Good",
+   "body": "Hi Grant,\n\nWelcome to Tinder! Your profile is now active. Start swiping to find people who match with you.\n\nGood luck!",
+   "time": "5/8/26",
+   "folder": "spam"
+  }
+ ],
+ "calendar": [
+  {
+   "title": "Paige's birthday 🎂 - book something",
+   "date": "08/28",
+   "dateLabel": "Fri, Aug 28, 2026",
+   "month": "2026-08",
+   "time": "All day",
+   "location": "",
+   "description": "Find a gift!! (tight budget)"
+  },
+  {
+   "title": "Cinema night with Paige",
+   "date": "08/21",
+   "dateLabel": "Fri, Aug 21, 2026",
+   "month": "2026-08",
+   "time": "7:00 PM – 10:00 PM",
+   "location": "AMC",
+   "description": ""
+  },
+  {
+   "title": "Dentist follow-up",
+   "date": "08/19",
+   "dateLabel": "Wed, Aug 19, 2026",
+   "month": "2026-08",
+   "time": "2:00 PM – 2:45 PM",
+   "location": "Dental Office",
+   "description": "Filling"
+  },
+  {
+   "title": "Mom's birthday lunch ❤️",
+   "date": "08/18",
+   "dateLabel": "Tue, Aug 18, 2026",
+   "month": "2026-08",
+   "time": "All day",
+   "location": "",
+   "description": "Find a gift"
+  },
+  {
+   "title": "Haircut appointment",
+   "date": "08/11",
+   "dateLabel": "Tue, Aug 11, 2026",
+   "month": "2026-08",
+   "time": "10:00 AM – 11:00 AM",
+   "location": "Hair Style",
+   "description": "Haircut"
+  },
+  {
+   "title": "Gym",
+   "date": "08/08",
+   "dateLabel": "Sat, Aug 8, 2026",
+   "month": "2026-08",
+   "time": "10:00 AM – 11:30 AM",
+   "location": "Brick Bodies",
+   "description": ""
+  },
+  {
+   "title": "Drinks out 🍸",
+   "date": "08/02",
+   "dateLabel": "Sun, Aug 2, 2026",
+   "month": "2026-08",
+   "time": "7:00 PM – 10:00 PM",
+   "location": "The Corner Bar",
+   "description": ""
+  },
+  {
+   "title": "Garage - Ridgely Auto",
+   "date": "08/01",
+   "dateLabel": "Sat, Aug 1, 2026",
+   "month": "2026-08",
+   "time": "10:00 AM – 11:00 AM",
+   "location": "Ridgely Auto Service, 4500 Falls Road",
+   "description": "Ask for Mr. Kowalski, bring the paperwork"
+  },
+  {
+   "title": "FIFA with Nolan 🎮",
+   "date": "07/30",
+   "dateLabel": "Thu, Jul 30, 2026",
+   "month": "2026-07",
+   "time": "9:00 PM – 11:00 PM",
+   "location": "",
+   "description": ""
+  },
+  {
+   "title": "Gym",
+   "date": "07/29",
+   "dateLabel": "Wed, Jul 29, 2026",
+   "month": "2026-07",
+   "time": "10:00 AM – 11:30 AM",
+   "location": "Brick Bodies",
+   "description": ""
+  },
+  {
+   "title": "Gym",
+   "date": "07/22",
+   "dateLabel": "Wed, Jul 22, 2026",
+   "month": "2026-07",
+   "time": "10:00 AM – 11:30 AM",
+   "location": "Brick Bodies",
+   "description": ""
+  },
+  {
+   "title": "Date Paige 💕",
+   "date": "07/17",
+   "dateLabel": "Fri, Jul 17, 2026",
+   "month": "2026-07",
+   "time": "8:00 PM – 11:00 PM",
+   "location": "Italian Restaurant",
+   "description": "First real date"
+  },
+  {
+   "title": "Dentist, cleaning",
+   "date": "07/12",
+   "dateLabel": "Sun, Jul 12, 2026",
+   "month": "2026-07",
+   "time": "2:00 PM – 3:00 PM",
+   "location": "Dental Office",
+   "description": "Cleaning"
+  },
+  {
+   "title": "Nolan's birthday drinks 🎉",
+   "date": "07/07",
+   "dateLabel": "Tue, Jul 7, 2026",
+   "month": "2026-07",
+   "time": "All day",
+   "location": "",
+   "description": "22 years old"
+  },
+  {
+   "title": "Gym",
+   "date": "07/02",
+   "dateLabel": "Thu, Jul 2, 2026",
+   "month": "2026-07",
+   "time": "10:00 AM – 11:30 AM",
+   "location": "Brick Bodies",
+   "description": ""
+  },
+  {
+   "title": "Dr. Alcott, checkup",
+   "date": "06/22",
+   "dateLabel": "Mon, Jun 22, 2026",
+   "month": "2026-06",
+   "time": "10:00 AM – 11:00 AM",
+   "location": "Dr. Alcott's Office",
+   "description": "Annual checkup"
+  },
+  {
+   "title": "Date Sloane 🍷",
+   "date": "06/13",
+   "dateLabel": "Sat, Jun 13, 2026",
+   "month": "2026-06",
+   "time": "7:30 PM – 10:00 PM",
+   "location": "The Daily Grind",
+   "description": "Tinder date"
+  },
+  {
+   "title": "Dez's place, party",
+   "date": "06/07",
+   "dateLabel": "Sun, Jun 7, 2026",
+   "month": "2026-06",
+   "time": "8:00 PM – 11:30 PM",
+   "location": "Dez's place",
+   "description": "Bring beers"
+  }
+ ],
+ "notes": [
+  {
+   "title": "Shopping list",
+   "body": "🛒 FOOD RUN\n\n- Spaghetti\n- Jar of red sauce\n- Box of eggs\n- Loaf of sliced bread\n- Sliced ham\n- Bag of grated cheese\n- Yogurts\n- Milk\n- Bananas\n- Ground coffee\n- Toilet roll\n\nTry not to go over $40"
+  },
+  {
+   "title": "Date – El Farol with R ✨",
+   "body": "Get reeeally ready.\n\nSpot: El Farol\nTime: 8pm"
+  },
+  {
+   "title": "Watchlist",
+   "body": "📺 TO WATCH\n\nQueued up:\n- The Last of Us S2\n- House of the Dragon S2\n- Fallout\n- Shogun\n- 3 Body Problem\n\nHalfway through:\n- Breaking Bad (S3)\n\nDone with:\n- Squid Game\n- The Bear S1"
+  },
+  {
+   "title": "Birthdays",
+   "body": "🎂 DATES TO REMEMBER\n\nPaige: July 19\nMom: August 3\nDez: October 30\nDad: February 6\n\n🎁 Don't forget Paige's gift!!!"
+  },
+  {
+   "title": "Weekly workout plan",
+   "body": "💪 WEEKLY PLANNN\n\nMonday, chest and triceps\n- Bench press 4x10\n- Push-ups 3x15\n- Dips 3x10\n- Triceps extensions 3x12\n\nWednesday, back and biceps\n- Pull-ups 3x8\n- Rows 4x10\n- Bicep curls 3x12\n\nFriday, legs\n- Squats 4x12\n- Lunges 3x10\n- Calf raises 3x15\n\nWhat I want by summer: more size"
+  },
+  {
+   "title": "Passwords",
+   "body": "🔐 CODES\n\nWifi at home: Mercer2024!\nBuilding entry: 909880\nMailbox: 44\n\nNetflix: mom's account\n🧭🔞 code &co: grant_pass999\nMy Eyes Only: 9857\nSpotify: Dez's account"
+  },
+  {
+   "title": "Carbonara",
+   "body": "CARBONARA PASTA (easy version)\n\n- 7 oz pasta\n- 5 oz bacon bits\n- 2 egg yolks\n- Sour cream (one spoon)\n- Shredded cheese\n- Salt, pepper\n\n1. Cook pasta\n2. Fry bacon bits\n3. Mix eggs + cream + cheese\n4. Pour on hot pasta OFF THE HEAT\n5. Add bacon\n\nDone in 15 min 👌"
+  },
+  {
+   "title": "My details",
+   "body": "📋 MY INFO\n\nLast name: MERCER\nFirst name: Grant\nDate of birth: 07/15/2000\nAddress: 1423 Hickory Ave, Baltimore, MD 21211\n\nSocial security #: 215 44 8890\n\nRevoBank Bank\nIBAN: Routing 052001633 / Acct 4471 8890"
+  }
+ ],
+ "maps": [
+  {
+   "name": "Washington Monument",
+   "subtitle": "Trip with Dez"
+  },
+  {
+   "name": "Patterson Park",
+   "subtitle": "Runs"
+  },
+  {
+   "name": "The Daily Grind",
+   "subtitle": ""
+  },
+  {
+   "name": "Pack Square Asheville",
+   "subtitle": ""
+  },
+  {
+   "name": "Richmond Canal Walk",
+   "subtitle": "Summer vacation"
+  },
+  {
+   "name": "McDonald's Charles Street",
+   "subtitle": ""
+  },
+  {
+   "name": "Union Station",
+   "subtitle": ""
+  },
+  {
+   "name": "Old City Philadelphia",
+   "subtitle": ""
+  },
+  {
+   "name": "Albuquerque Old Town",
+   "subtitle": ""
+  },
+  {
+   "name": "30th Street Station",
+   "subtitle": "Weekend at cousin's"
+  },
+  {
+   "name": "Savannah City Market",
+   "subtitle": ""
+  },
+  {
+   "name": "Audi Field",
+   "subtitle": "D.C. United match"
+  },
+  {
+   "name": "Ocean City Boardwalk",
+   "subtitle": "Vacation"
+  },
+  {
+   "name": "My place",
+   "subtitle": "Home"
+  },
+  {
+   "name": "James River Park",
+   "subtitle": "Hiking"
+  },
+  {
+   "name": "Ledo Pizza Hampden",
+   "subtitle": ""
+  },
+  {
+   "name": "Charleston Waterfront Park",
+   "subtitle": ""
+  },
+  {
+   "name": "Steel Pier Atlantic City",
+   "subtitle": ""
+  },
+  {
+   "name": "State College Downtown",
+   "subtitle": "College friends"
+  },
+  {
+   "name": "Baltimore Penn Station",
+   "subtitle": ""
+  },
+  {
+   "name": "El Farol",
+   "subtitle": "New Mexico"
+  },
+  {
+   "name": "Canyon Road",
+   "subtitle": "New Mexico"
+  },
+  {
+   "name": "Brick Bodies Hampden",
+   "subtitle": "Gym"
+  },
+  {
+   "name": "Bethlehem Christmas Market",
+   "subtitle": "Christmas Market"
+  },
+  {
+   "name": "Las Cruces Depot",
+   "subtitle": ""
+  },
+  {
+   "name": "ALDI Canton",
+   "subtitle": "Groceries"
+  }
+ ],
+ "revolut": {
+  "balance": "$138.18",
+  "transactions": [
+   {
+    "name": "Rent",
+    "amount": "-$400.00",
+    "date": "Today, 10:00 AM",
+    "note": "Room rent"
+   },
+   {
+    "name": "Brick Bodies",
+    "amount": "-$19.99",
+    "date": "Today, 9:00 AM",
+    "note": "Gym membership"
+   },
+   {
+    "name": "Wawa",
+    "amount": "-$32.17",
+    "date": "Yesterday, 5:10 PM",
+    "note": "Gas"
+   },
+   {
+    "name": "Maryland Unemployment",
+    "amount": "-$850.00",
+    "date": "Yesterday, 8:00 AM",
+    "note": "Unemployment benefit"
+   },
+   {
+    "name": "Ledo Pizza",
+    "amount": "-$20.14",
+    "date": "Monday, 8:40 PM",
+    "note": "Takeaway"
+   },
+   {
+    "name": "ALDI",
+    "amount": "-$27.09",
+    "date": "Monday, 6:15 PM",
+    "note": "Groceries"
+   },
+   {
+    "name": "The Corner Bar",
+    "amount": "-$35.00",
+    "date": "Sunday, 11:45 PM",
+    "note": "Drinks"
+   },
+   {
+    "name": "McDonald's",
+    "amount": "-$12.08",
+    "date": "Sunday, 1:30 PM",
+    "note": "Fast food"
+   },
+   {
+    "name": "Family",
+    "amount": "-$100.00",
+    "date": "Saturday, 12:00 PM",
+    "note": "Monthly allowance"
+   },
+   {
+    "name": "Bumble",
+    "amount": "-$15.00",
+    "date": "Saturday, 10:30 AM",
+    "note": "Subscription"
+   },
+   {
+    "name": "MTA Maryland",
+    "amount": "-$20.00",
+    "date": "Friday, 9:15 AM",
+    "note": "Transit pass"
+   },
+   {
+    "name": "Giant Food",
+    "amount": "-$15.87",
+    "date": "Thursday, 7:30 PM",
+    "note": "Groceries"
+   },
+   {
+    "name": "Amtrak",
+    "amount": "-$45.00",
+    "date": "7/29/26, 2:20 PM",
+    "note": "Train ticket"
+   },
+   {
+    "name": "Starbucks",
+    "amount": "-$11.19",
+    "date": "7/27/26, 3:00 PM",
+    "note": "Café"
+   },
+   {
+    "name": "Verizon",
+    "amount": "-$19.99",
+    "date": "7/25/26, 9:00 AM",
+    "note": "Phone plan"
+   },
+   {
+    "name": "Uber Eats",
+    "amount": "-$24.40",
+    "date": "7/23/26, 8:15 PM",
+    "note": "Food delivery"
+   },
+   {
+    "name": "Amazon",
+    "amount": "-$33.50",
+    "date": "7/19/26, 4:30 PM",
+    "note": "Order"
+   },
+   {
+    "name": "Match Group",
+    "amount": "-$19.99",
+    "date": "7/7/26, 2:00 PM",
+    "note": "Subscription"
+   },
+   {
+    "name": "Maryland Unemployment",
+    "amount": "-$850.00",
+    "date": "7/5/26, 8:00 AM",
+    "note": "Unemployment benefit"
+   }
+  ]
+ },
+ "weather": {
+  "city": "Baltimore",
+  "tempC": 6,
+  "hi": 8,
+  "lo": 2,
+  "condition": "Cloudy"
+ },
+ "photos": [
+  "photo_0.webp",
+  "photo_1.webp",
+  "photo_2.webp",
+  "photo_3.webp",
+  "photo_4.webp",
+  "photo_5.webp",
+  "photo_6.webp",
+  "photo_7.webp",
+  {
+   "image": "photo_8.webp",
+   "caption": "I can get rid of Tinder for you."
+  }
+ ],
+ "screenTime": [
+  {
+   "appName": "Snapchat",
+   "durationMinutes": 285
+  },
+  {
+   "appName": "WhatsApp",
+   "durationMinutes": 168
+  },
+  {
+   "appName": "Messages",
+   "durationMinutes": 145
+  },
+  {
+   "appName": "ChatGPT",
+   "durationMinutes": 98
+  },
+  {
+   "appName": "Photos",
+   "durationMinutes": 65
+  },
+  {
+   "appName": "Gmail",
+   "durationMinutes": 52
+  },
+  {
+   "appName": "Fitness",
+   "durationMinutes": 45
+  },
+  {
+   "appName": "RevoBank",
+   "durationMinutes": 38
+  },
+  {
+   "appName": "Google Maps",
+   "durationMinutes": 32
+  },
+  {
+   "appName": "Spotify",
+   "durationMinutes": 28
+  },
+  {
+   "appName": "Calendar",
+   "durationMinutes": 22
+  },
+  {
+   "appName": "Weather",
+   "durationMinutes": 18
+  },
+  {
+   "appName": "Notes",
+   "durationMinutes": 15
+  },
+  {
+   "appName": "Safari",
+   "durationMinutes": 14
+  },
+  {
+   "appName": "Phone",
+   "durationMinutes": 12
+  },
+  {
+   "appName": "Airbnb",
+   "durationMinutes": 10
+  },
+  {
+   "appName": "Settings",
+   "durationMinutes": 4
+  }
+ ],
+ "instagram": {
+  "username": "grant_mrc",
+  "displayName": "Grant Mercer",
+  "avatar": null,
+  "bio": "",
+  "posts": []
+ },
+ "airbnb": {
+  "name": "",
+  "listings": []
+ }
+}

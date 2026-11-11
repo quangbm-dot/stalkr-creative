@@ -1,0 +1,1362 @@
+{
+ "caseName": "I Wish I Never Asked",
+ "title": "Sutton Landry & Corinne",
+ "now": "2026-08-06T23:59:00",
+ "client": {
+  "name": "Sutton Landry",
+  "avatar": "client.webp"
+ },
+ "owner": {
+  "first": "Corinne",
+  "full": "Corinne Vance",
+  "avatar": null
+ },
+ "wallpaper": "wallpaper.webp",
+ "passcode": "080996",
+ "totalQuestions": 7,
+ "questions": [
+  {
+   "id": 1,
+   "text": "Dominic. She's never once said that name to me. Sorry to keep asking — can you get me the rest of it, his surname?",
+   "answer": "Reyes",
+   "decoys": [
+    "Greer",
+    "Moretti",
+    "Ritter"
+   ],
+   "hint": "Open Contacts and search for Dominic — his profile gives his full last name."
+  },
+  {
+   "id": 2,
+   "text": "Reyes. Okay. She wrote to that man about me, didn't she — can you tell me what the two of them were arranging?",
+   "answer": "Wire transfer",
+   "decoys": [
+    "Networking evening",
+    "Architecture expo",
+    "Conference carpool"
+   ],
+   "hint": "Open Email and search for messages linked to Dominic. Open the email in Corinne's sent folder: the subject line perfectly sums up their conversation."
+  },
+  {
+   "id": 3,
+   "text": "She sent him my bank information. Like a work ticket. Please just say the number back to me — how much did I actually transfer her?",
+   "answer": "15,000",
+   "decoys": [
+    "23,000",
+    "25,000",
+    "12,000"
+   ],
+   "hint": "Open RevoBank and look in the transaction history for the money received from Sutton — the exact amount appears by clicking on the transfer line."
+  },
+  {
+   "id": 4,
+   "text": "I signed that transfer myself. I remember feeling generous about it... Could you find out how much more they were planning to get out of me?",
+   "answer": "$25,000",
+   "decoys": [
+    "$40,000",
+    "$15,000",
+    "$3,500"
+   ],
+   "hint": "Open WhatsApp and go to the conversation with Dominic to find the total amount he wants to reach. Then subtract what Sutton has already paid to find out how much more they're going to ask him for."
+  },
+  {
+   "id": 5,
+   "text": "Twenty-five more, on top. I keep thinking I can't have been the only one — could you find me the name of somebody else they took money from?",
+   "answer": "Howard Tillman",
+   "decoys": [
+    "Cole Prather",
+    "Dale Ritter",
+    "Tobias Greer"
+   ],
+   "hint": "Open WhatsApp and scroll all the way up to the very first messages in the conversation with Dominic - right at the top, before anything else, they mention someone named Howard and a transfer."
+  },
+  {
+   "id": 6,
+   "text": "Howard Tillman. A real person, with a real life, who also doesn't know yet. Can you tell me how much she's taken in total, all of us added together?",
+   "answer": "23,000",
+   "decoys": [
+    "40,000",
+    "15,000",
+    "25,000"
+   ],
+   "hint": "Look in the Notes app for a locked note — the code is based on Corinne's date of birth, which you'll find in her contact profile."
+  },
+  {
+   "id": 7,
+   "text": "Twenty-three thousand. She sat at my table while that number was going up... Could you tell me where she actually worked before any of this?",
+   "answer": "Fenwick Design Group",
+   "decoys": [
+    "Odell Associates",
+    "Charlotte Design Studio",
+    "Piedmont Canopy Fund"
+   ],
+   "hint": "Go to the Email app, open the side menu and go to the Trash. You'll find an official contract termination letter there that mentions the name of her former firm."
+  }
+ ],
+ "onboarding": [
+  {
+   "text": "Hey... My name's Sutton. I write software. I spend all day refusing to trust a system until the logs prove it out. I never once did that with her. I feel like an idiot.",
+   "label": "Sutton",
+   "image": "onboarding_1.webp"
+  },
+  {
+   "text": "I met Corinne at a networking evening in Charlotte, back in the winter. She was starting a reforestation charity — the Piedmont Canopy Fund. In July I wired her the money myself. I was proud of it.",
+   "label": "Sutton & Corinne",
+   "image": "onboarding_2.webp"
+  },
+  {
+   "text": "For about three weeks now she's been somewhere else. Short answers. My questions just slide off her. Then this morning Neil called me from Atlanta. He'd gone looking for the Fund's filings, and there aren't any.",
+   "label": "Corinne",
+   "image": "onboarding_3.webp"
+  },
+  {
+   "text": "She left her phone on the table this morning. I haven't opened it. If I read it myself I'll find the version where she meant it... I've done that every night for weeks. Please, you look.",
+   "label": "Sutton",
+   "image": "onboarding_4.webp"
+  }
+ ],
+ "home": [
+  {
+   "app": "weather",
+   "label": "Weather"
+  },
+  {
+   "app": "notes",
+   "label": "Notes"
+  },
+  {
+   "app": "messages",
+   "label": "Messages"
+  },
+  {
+   "app": "revolut",
+   "label": "RevoBank"
+  },
+  {
+   "app": "gmail",
+   "label": "Email"
+  },
+  {
+   "app": "photos",
+   "label": "Photos"
+  },
+  {
+   "app": "settings",
+   "label": "Settings"
+  },
+  {
+   "app": "calendar",
+   "label": "Calendar"
+  },
+  {
+   "app": "calculator",
+   "label": "Calculator"
+  }
+ ],
+ "dock": [
+  {
+   "app": "whatsapp",
+   "label": "WhatsApp"
+  },
+  {
+   "app": "phone",
+   "label": "Phone"
+  }
+ ],
+ "missingApps": [],
+ "calls": [
+  {
+   "name": "+1 (704) 555-0189",
+   "time": "Yesterday, 5:51 PM",
+   "type": "outgoing",
+   "detail": "2 min"
+  },
+  {
+   "name": "+1 (704) 555-0188",
+   "time": "Tuesday, 9:46 AM",
+   "type": "incoming",
+   "detail": "1 min"
+  },
+  {
+   "name": "Marisol Quinn",
+   "time": "Monday, 9:29 PM",
+   "type": "incoming",
+   "detail": "5 min"
+  },
+  {
+   "name": "Harper — building manager",
+   "time": "Monday, 4:24 PM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Omar Nasser",
+   "time": "Sunday, 11:44 AM",
+   "type": "outgoing",
+   "detail": "4 min"
+  },
+  {
+   "name": "Cassidy Waller",
+   "time": "Saturday, 4:52 PM",
+   "type": "incoming",
+   "detail": "2 min"
+  },
+  {
+   "name": "Kendra Sloane",
+   "time": "Friday, 1:27 PM",
+   "type": "incoming",
+   "detail": "3 min"
+  },
+  {
+   "name": "Wyatt Lundgren",
+   "time": "Friday, 9:00 AM",
+   "type": "outgoing",
+   "detail": "2 min"
+  },
+  {
+   "name": "Aubrey Pace",
+   "time": "7/30/26, 7:45 AM",
+   "type": "incoming",
+   "detail": "3 min"
+  },
+  {
+   "name": "Vince Moretti",
+   "time": "7/29/26, 8:46 PM",
+   "type": "outgoing",
+   "detail": "3 min"
+  },
+  {
+   "name": "Whitney Carr",
+   "time": "7/28/26, 11:13 AM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Dilworth Dental",
+   "time": "7/27/26, 9:11 AM",
+   "type": "outgoing",
+   "detail": "2 min"
+  },
+  {
+   "name": "Cole Prather",
+   "time": "7/26/26, 6:59 PM",
+   "type": "incoming",
+   "detail": "4 min"
+  },
+  {
+   "name": "Naomi Sato",
+   "time": "7/25/26, 3:21 PM",
+   "type": "outgoing",
+   "detail": "2 min"
+  },
+  {
+   "name": "Wes Holloway",
+   "time": "7/24/26, 9:00 AM",
+   "type": "incoming",
+   "detail": "3 min"
+  },
+  {
+   "name": "Nadia Karam",
+   "time": "7/23/26, 6:50 PM",
+   "type": "incoming",
+   "detail": "4 min"
+  },
+  {
+   "name": "Dale Ritter",
+   "time": "7/22/26, 12:33 PM",
+   "type": "outgoing",
+   "detail": "2 min"
+  },
+  {
+   "name": "Delia Boone",
+   "time": "7/18/26, 8:00 AM",
+   "type": "incoming",
+   "detail": "3 min"
+  },
+  {
+   "name": "Tobias Greer",
+   "time": "7/16/26, 8:05 PM",
+   "type": "outgoing",
+   "detail": "4 min"
+  },
+  {
+   "name": "Renee Colvin",
+   "time": "7/15/26, 4:52 PM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Ray Okonkwo",
+   "time": "7/15/26, 2:33 PM",
+   "type": "incoming",
+   "detail": "5 min"
+  },
+  {
+   "name": "Kendra Sloane",
+   "time": "7/9/26, 9:27 AM",
+   "type": "outgoing",
+   "detail": "4 min"
+  },
+  {
+   "name": "Corinne",
+   "time": "7/2/26, 11:00 PM",
+   "type": "outgoing",
+   "detail": "3 min"
+  },
+  {
+   "name": "Dominic",
+   "time": "6/17/26, 6:30 PM",
+   "type": "outgoing",
+   "detail": "3 min"
+  }
+ ],
+ "messages": [
+  {
+   "id": "conv-sms-kwame",
+   "title": "Tobias Greer",
+   "time": "Monday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Morning Corinne — quick check that Tuesday at 7:30am in the Dilworth studio is still on?"
+    },
+    {
+     "me": true,
+     "text": "Yep, still works on my end"
+    },
+    {
+     "me": false,
+     "text": "Great. Bring your own mat — twists are the focus this week"
+    },
+    {
+     "me": true,
+     "text": "Noted! the Bechtler block's in the bag as well"
+    },
+    {
+     "me": false,
+     "text": "Good. And Friday at 6pm — in the studio, or would you rather join online?"
+    },
+    {
+     "me": true,
+     "text": "The studio please, if there's still a spot for me"
+    },
+    {
+     "me": false,
+     "text": "Two spots left on the list, and one of them has your name against it now"
+    },
+    {
+     "me": true,
+     "text": "Perfect. Is the room still freezing at that hour, or has the heating been sorted?"
+    },
+    {
+     "me": false,
+     "text": "Half sorted. Bring the extra layer for the first twenty minutes"
+    },
+    {
+     "me": true,
+     "text": "You're a gem, Tobias"
+    },
+    {
+     "me": false,
+     "text": "Any time. One other thing — private sessions begin in July, so catch me after class if you'd like to hear more"
+    },
+    {
+     "me": true,
+     "text": "Huh, interesting — want to hash it out on Tuesday then?"
+    },
+    {
+     "me": false,
+     "text": "I'd love that. Have a good one 🙏"
+    }
+   ],
+   "avatar": "msg_0.webp"
+  },
+  {
+   "id": "conv-sms-fleur",
+   "title": "Delia Boone",
+   "time": "Saturday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Your email about the Bechtler on Saturday just landed — I'm in, and already excited 😊"
+    },
+    {
+     "me": true,
+     "text": "Same here! Have you settled on a time yet?"
+    },
+    {
+     "me": false,
+     "text": "Mornings are a squeeze for me — any chance we make it 2pm?"
+    },
+    {
+     "me": true,
+     "text": "That works. Are we buying at the door, or is that handled already?"
+    },
+    {
+     "me": false,
+     "text": "Handled — the two Koolhaas tickets are already sitting in my inbox"
+    },
+    {
+     "me": true,
+     "text": "Thank you, you star! And Not Just Coffee after, the way you suggested?"
+    },
+    {
+     "me": false,
+     "text": "Definitely, I've been thinking about a proper flat white all week"
+    },
+    {
+     "me": true,
+     "text": "Ha, me too. Do you know the blocks around the Bechtler at all?"
+    },
+    {
+     "me": false,
+     "text": "Yeah, we could stroll around uptown a bit beforehand if you're up for it"
+    },
+    {
+     "me": true,
+     "text": "I'd like that, I never walk that stretch properly"
+    },
+    {
+     "me": false,
+     "text": "There's a stationery shop on Tryon I keep meaning to show you"
+    },
+    {
+     "me": true,
+     "text": "Dangerous. I still haven't used the notebooks I bought in May"
+    },
+    {
+     "me": false,
+     "text": "Nobody ever does, that's rather the point of them"
+    },
+    {
+     "me": true,
+     "text": "Done then — 2pm, right by the Bechtler entrance"
+    },
+    {
+     "me": false,
+     "text": "Lovely. Saturday it is, big hug xx"
+    }
+   ],
+   "avatar": "msg_1.webp"
+  }
+ ],
+ "whatsapp": [
+  {
+   "id": "conv-wa-filler-fleur",
+   "title": "Delia Boone",
+   "time": "11:20 AM",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "CORINNE ARE YOU THERE"
+    },
+    {
+     "me": false,
+     "text": "I GOT THE JOB 😭😭😭"
+    },
+    {
+     "me": true,
+     "text": "WAIT WHAT ?!?! you're joking !!"
+    },
+    {
+     "me": false,
+     "text": "NOT JOKING they called two hours ago and I just froze on the phone"
+    },
+    {
+     "me": true,
+     "text": "aaah I'm so happy for you !! nobody worked harder for this than you did"
+    },
+    {
+     "me": false,
+     "text": "honestly I figured it was over after that second interview went sideways"
+    },
+    {
+     "me": true,
+     "text": "it wasn't even that bad though! you were in your head about it"
+    },
+    {
+     "me": false,
+     "text": "yeah maybe lol"
+    },
+    {
+     "me": true,
+     "text": "we HAVE to celebrate!! this weekend?"
+    },
+    {
+     "me": false,
+     "text": "yes yes yes!!! Saturday night?"
+    },
+    {
+     "me": true,
+     "text": "Saturday works. should Renee be there too ?"
+    },
+    {
+     "me": false,
+     "text": "definitely ! I'll give her a ring tomorrow"
+    },
+    {
+     "me": true,
+     "text": "and I'm booking somewhere, no arguments"
+    },
+    {
+     "me": false,
+     "text": "fine, but nowhere with a tasting menu. I want a normal amount of food"
+    },
+    {
+     "me": true,
+     "text": "😂 noted. burgers and a bottle of red then"
+    },
+    {
+     "me": false,
+     "text": "exactly that"
+    },
+    {
+     "me": true,
+     "text": "so happy for you! ok now go to bed, you need to recover from all these emotions 😂"
+    },
+    {
+     "me": false,
+     "text": "hahaha I'll do my best. night !!"
+    },
+    {
+     "me": true,
+     "text": "did you remember to tell your mom?"
+    },
+    {
+     "me": false,
+     "text": "yeah she cried lol"
+    },
+    {
+     "me": true,
+     "text": "obviously she did 😂 ok, I'll send you a few restaurant ideas for Saturday"
+    },
+    {
+     "me": false,
+     "text": "go on then, I'm ready !"
+    }
+   ],
+   "avatar": "msg_1.webp"
+  },
+  {
+   "id": "conv-wa-filler-charlotte",
+   "title": "Marisol Quinn",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "hey! you coming to the next meetup Thursday night?"
+    },
+    {
+     "me": true,
+     "text": "what's the topic this time?"
+    },
+    {
+     "me": false,
+     "text": "circular economy and crowdfunding this round, with a speaker coming over from Wells Fargo"
+    },
+    {
+     "me": true,
+     "text": "ooh that's exactly my thing. putting it in my diary now!"
+    },
+    {
+     "me": false,
+     "text": "please do! usual venue, Undercurrent Coffee, doors from 7pm"
+    },
+    {
+     "me": true,
+     "text": "noted, I'll do my best to be there"
+    },
+    {
+     "me": false,
+     "text": "yesterday was pretty good, right?"
+    },
+    {
+     "me": true,
+     "text": "really good! the speaker Wells Fargo sent laid it out so clearly. my notebook is full"
+    }
+   ],
+   "avatar": "wa_1.webp"
+  },
+  {
+   "id": "conv-wa-filler-lena",
+   "title": "Kendra Sloane",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "hey! did you catch that they're relaunching the sustainable HR network program in September?"
+    },
+    {
+     "me": true,
+     "text": "no I totally missed that! got a link?"
+    },
+    {
+     "me": false,
+     "text": "I'll send the link over tonight. this round tilts a lot further towards social impact"
+    },
+    {
+     "me": true,
+     "text": "honestly I'm in. growing my contacts on the environmental NGO side is exactly the thing I never get round to"
+    },
+    {
+     "me": false,
+     "text": "good call. I came out of the last one with three great contacts, and one of them heads up programs at Greenpeace USA"
+    },
+    {
+     "me": true,
+     "text": "wait seriously?! can you connect me with her at some point?"
+    },
+    {
+     "me": false,
+     "text": "for sure! let's grab coffee one of these days"
+    },
+    {
+     "me": true,
+     "text": "yes please 🙏 I'm free most afternoons except Tuesdays"
+    },
+    {
+     "me": false,
+     "text": "noted. I'll dig out that link tonight as well, before I forget again"
+    },
+    {
+     "me": true,
+     "text": "you said that last week 😄"
+    },
+    {
+     "me": false,
+     "text": "and I meant it both times"
+    },
+    {
+     "me": true,
+     "text": "awesome! so what's your weekend looking like? we could hang?"
+    },
+    {
+     "me": false,
+     "text": "Saturday is gone to family things sadly. Sunday afternoon is completely free though"
+    },
+    {
+     "me": true,
+     "text": "Sunday works. that coffee place on East Blvd?"
+    },
+    {
+     "me": false,
+     "text": "yeah our usual spot works"
+    },
+    {
+     "me": true,
+     "text": "3pm?"
+    },
+    {
+     "me": false,
+     "text": "perfect. see you Sunday!"
+    },
+    {
+     "me": false,
+     "text": "oh btw I bumped into your old manager at a thing yesterday"
+    },
+    {
+     "me": true,
+     "text": "haha which one?! 😂"
+    }
+   ],
+   "avatar": "wa_2.webp"
+  },
+  {
+   "id": "conv-wa-filler-kwame",
+   "title": "Tobias Greer",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Morning Corinne — quick heads up, tomorrow's class moves back half an hour to 8:30 instead of 8. Have a lovely day 🙏"
+    },
+    {
+     "me": true,
+     "text": "got it, thanks!"
+    },
+    {
+     "me": false,
+     "text": "great class this morning 🧘 your balance poses are really coming along"
+    },
+    {
+     "me": true,
+     "text": "that's very kind, Tobias! warrior III still has me wobbling, but it's a bit less ugly each week"
+    }
+   ],
+   "avatar": "msg_0.webp"
+  },
+  {
+   "id": "conv-wa-filler-isabelle",
+   "title": "Whitney Carr",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "hey do you know a good spot for cheap flowers in uptown Charlotte?"
+    },
+    {
+     "me": true,
+     "text": "the flower stalls at the Camden Rd market ! go Tuesday or Friday, that's when they're freshest"
+    },
+    {
+     "me": false,
+     "text": "wait, that's completely new to me !"
+    },
+    {
+     "me": true,
+     "text": "it's the sweetest place, I go all the time. we could go together Friday if you want"
+    },
+    {
+     "me": false,
+     "text": "I'd love that! what time?"
+    },
+    {
+     "me": true,
+     "text": "10:30? it's not too packed yet then"
+    },
+    {
+     "me": false,
+     "text": "perfect! and after maybe we grab coffee somewhere?"
+    },
+    {
+     "me": true,
+     "text": "of course! I know a great spot right nearby"
+    },
+    {
+     "me": false,
+     "text": "yay! can't wait 😊"
+    },
+    {
+     "me": true,
+     "text": "oh and bring cash, half the stalls don't take cards"
+    },
+    {
+     "me": false,
+     "text": "good to know! I'd have turned up with just my phone"
+    },
+    {
+     "me": true,
+     "text": "everyone does the first time 😄"
+    },
+    {
+     "me": false,
+     "text": "this morning was so much fun! I scored tulips and peonies"
+    },
+    {
+     "me": true,
+     "text": "such a good combo 😍 did you see how fresh they were?"
+    },
+    {
+     "me": false,
+     "text": "so good. and the coffee after hit perfectly. let's do it again soon!"
+    },
+    {
+     "me": true,
+     "text": "absolutely 💛"
+    }
+   ],
+   "avatar": "wa_4.webp"
+  },
+  {
+   "id": "conv-wa-filler-ravi",
+   "title": "Ray Okonkwo",
+   "time": "Monday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "hey! the hallway mailbox is jammed again"
+    },
+    {
+     "me": true,
+     "text": "ugh, again… I'll raise it with the building manager today"
+    },
+    {
+     "me": false,
+     "text": "thanks! unrelated — could you take in a delivery for me tomorrow if I'm not home?"
+    },
+    {
+     "me": true,
+     "text": "of course, I'm working from home all morning anyway"
+    },
+    {
+     "me": false,
+     "text": "awesome thanks!"
+    },
+    {
+     "me": true,
+     "text": "your parcel arrived. leaving it just outside your door"
+    },
+    {
+     "me": false,
+     "text": "absolute lifesaver, Corinne 🙏"
+    },
+    {
+     "me": true,
+     "text": "no worries! did you eat yet? I made way too much soup if you want some"
+    },
+    {
+     "me": false,
+     "text": "haha yes please, give me five minutes and I'm down"
+    },
+    {
+     "me": true,
+     "text": "great, I'll hit the buzzer"
+    }
+   ],
+   "avatar": "wa_5.webp"
+  },
+  {
+   "id": "conv-wa-filler-postnl",
+   "title": "USPS",
+   "time": "Monday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Your parcel 9405 5119 9870 3042 9184 47 is out for delivery today and should reach you between 1pm and 5pm. Track the driver at usps.com/track"
+    }
+   ]
+  },
+  {
+   "id": "conv-wa-filler-sven",
+   "title": "Dale Ritter",
+   "time": "Sunday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Corinne! have you heard from our aunt at all lately? she's gone totally quiet on me"
+    },
+    {
+     "me": true,
+     "text": "I talked to her Sunday. she was up in Greensboro for the weekend I think"
+    },
+    {
+     "me": false,
+     "text": "ah that explains it. I just wanted to confirm about the family cookout on the 27th"
+    },
+    {
+     "me": true,
+     "text": "the 14th? I didn't even know there was one"
+    },
+    {
+     "me": false,
+     "text": "haha yeah mom's putting it together. she posted in the family group but maybe you're not in it anymore?"
+    },
+    {
+     "me": true,
+     "text": "I left that group ages ago lol too many messages"
+    },
+    {
+     "me": false,
+     "text": "hahaha fair. anyway you coming or not?"
+    },
+    {
+     "me": true,
+     "text": "I'll try my best to make it! whose place are we at this year?"
+    },
+    {
+     "me": false,
+     "text": "same as always, my mom's back yard over in Kannapolis"
+    },
+    {
+     "me": true,
+     "text": "makes sense, there's actually room in that yard"
+    },
+    {
+     "me": false,
+     "text": "exactly. bring that pasta salad thing if you're feeling generous"
+    },
+    {
+     "me": true,
+     "text": "adding it to my calendar right now. give your mom a hug from me!"
+    }
+   ],
+   "avatar": "wa_7.webp"
+  },
+  {
+   "id": "conv-wa-key-farid",
+   "title": "Dominic",
+   "time": "Saturday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": true,
+     "text": "any word from Howard yet?"
+    },
+    {
+     "me": false,
+     "text": "Howard Tillman came through and wired his share. Two pigeons now 😂"
+    },
+    {
+     "me": true,
+     "text": "Great. We stick to the plan."
+    },
+    {
+     "me": false,
+     "text": "true, but we can't ease off. Sutton is the big fish"
+    },
+    {
+     "me": true,
+     "text": "I know. I'm slowly reeling him in"
+    },
+    {
+     "me": false,
+     "text": "We still need $40,000 out of Sutton. He's already paid the 15,000, so we have to figure out how to ask for the rest without raising suspicions."
+    },
+    {
+     "me": true,
+     "text": "Relax, it's handled. I'll pitch him a second phase of the reforestation project. He trusts me."
+    },
+    {
+     "me": false,
+     "text": "fine, just don't overdo it. keep it natural"
+    },
+    {
+     "me": true,
+     "text": "I know exactly what I'm doing. this isn't my first rodeo"
+    },
+    {
+     "me": false,
+     "text": "haha yeah fair. keep me posted"
+    },
+    {
+     "me": false,
+     "text": "My new secret number is the +52 country code followed by the serial number of my Mexican SIM card. I already sent you a photo of the card — it's in your photos."
+    },
+    {
+     "me": true,
+     "text": "got it. I'm deleting this message"
+    },
+    {
+     "me": false,
+     "text": "and from now on stop using the old number"
+    },
+    {
+     "me": true,
+     "text": "understood"
+    },
+    {
+     "me": false,
+     "text": "And if Sutton starts asking questions, then what?"
+    },
+    {
+     "me": true,
+     "text": "If it all falls apart, I'm off to San Jose. Everything's already arranged."
+    },
+    {
+     "me": false,
+     "text": "and what am I supposed to do then?"
+    },
+    {
+     "me": true,
+     "text": "you grab your new number and vanish on your side. that was the deal"
+    },
+    {
+     "me": false,
+     "text": "yeah ok. let's just hope it doesn't get to that"
+    },
+    {
+     "me": true,
+     "text": "hang in there a bit longer. it's nearly done"
+    }
+   ],
+   "avatar": "wa_8.webp"
+  },
+  {
+   "id": "conv-wa-filler-daan",
+   "title": "Cole Prather",
+   "time": "Friday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "hey! do you still have my old bike down in your basement?"
+    },
+    {
+     "me": true,
+     "text": "yep still here! wanna swing by and grab it?"
+    },
+    {
+     "me": false,
+     "text": "yeah if it's not a hassle. I can come by anytime"
+    },
+    {
+     "me": true,
+     "text": "does tonight after 7 work for you?"
+    },
+    {
+     "me": false,
+     "text": "works for me, I'll swing by"
+    },
+    {
+     "me": true,
+     "text": "cool. it's behind the boxes down there, might need a wipe"
+    },
+    {
+     "me": false,
+     "text": "no worries, it lived in a shed for two years before that"
+    },
+    {
+     "me": true,
+     "text": "ok see you later"
+    },
+    {
+     "me": false,
+     "text": "got the bike, thanks! hey do you happen to have a pump I could borrow?"
+    },
+    {
+     "me": true,
+     "text": "haha yeah I've got one. you swinging back by tonight?"
+    },
+    {
+     "me": false,
+     "text": "if it's not too early, yeah"
+    },
+    {
+     "me": true,
+     "text": "8pm?"
+    },
+    {
+     "me": false,
+     "text": "8 it is. you're a star Corinne"
+    }
+   ],
+   "avatar": "wa_9.webp"
+  }
+ ],
+ "gmail": [
+  {
+   "sender": "To: Marisol Quinn",
+   "subject": "Zero Waste Workshop — go in together?",
+   "preview": "Hey Marisol, I see you're on the list for Thursday's workshop, so shall we go in together? I could be outside ",
+   "body": "Hey Marisol,\n\nI see you're on the list for Thursday's workshop, so shall we go in together? I could be outside Optimist Hall at around 6:45pm.\n\nSee you soon,\nCorinne",
+   "time": "Monday",
+   "folder": "sent"
+  },
+  {
+   "sender": "Charlotte Environment Meetup",
+   "subject": "Reminder: your 'Zero Waste' workshop, Thursday 7pm",
+   "preview": "Hi Corinne, A reminder that the Charlotte Eco Network group holds its 'Zero Waste Workshop' this Thursday at 7",
+   "body": "Hi Corinne,\n\nA reminder that the Charlotte Eco Network group holds its 'Zero Waste Workshop' this Thursday at 7pm, over at Optimist Hall, 1115 N Brevard St.\n\n14 people have confirmed so far, Marisol Quinn among them.\n\nSee you Thursday!\nMeetup",
+   "time": "Monday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Vince Moretti",
+   "subject": "Re: Networking evening at the coworking space this Friday",
+   "preview": "Hey Vince, Thanks for the heads up! I'd like to come along — it really hangs on how the end of my week goes. I",
+   "body": "Hey Vince,\n\nThanks for the heads up! I'd like to come along — it really hangs on how the end of my week goes. I'll confirm on Thursday.\n\nCorinne",
+   "time": "Sunday",
+   "folder": "sent"
+  },
+  {
+   "sender": "To: Delia Boone",
+   "subject": "Re: Architecture expo at the Bechtler — are you coming?",
+   "preview": "Delia! Saturday is written into the diary, and Koolhaas is precisely my kind of afternoon. Not Just Coffee aft",
+   "body": "Delia!\n\nSaturday is written into the diary, and Koolhaas is precisely my kind of afternoon. Not Just Coffee afterwards goes without saying — no one else in this city makes a flat white like that. Simplest if we meet at the door rather than somewhere first, no?\n\nLove,\nCorinne",
+   "time": "Saturday",
+   "folder": "sent"
+  },
+  {
+   "sender": "Delia Boone",
+   "subject": "Re: Architecture expo at the Bechtler — are you coming?",
+   "preview": "Corinne! I have two tickets booked for Saturday afternoon — tell me if that runs into something else. Everyone",
+   "body": "Corinne!\n\nI have two tickets booked for Saturday afternoon — tell me if that runs into something else. Everyone says the Koolhaas exhibition is wonderful and I can hardly wait. Not Just Coffee straight afterwards, needless to say?\n\nx Delia",
+   "time": "Saturday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Amtrak",
+   "subject": "Your Amtrak Subscription — Automatic Renewal on August 18",
+   "preview": "Hi Corinne, Just a reminder that your Amtrak Flex pass renews automatically on August 18, 2026, and $89.00 wil",
+   "body": "Hi Corinne,\n\nJust a reminder that your Amtrak Flex pass renews automatically on August 18, 2026, and $89.00 will be charged that day.\n\nNeed to switch plans or cancel altogether? Log in to your account before August 15 — it takes about two minutes.\n\nSafe travels,\nAmtrak",
+   "time": "Friday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "LinkedIn",
+   "subject": "Corinne, 3 People Viewed Your Profile This Week",
+   "preview": "Hi Corinne, 3 people viewed your profile this week. Upgrade to LinkedIn Premium to find out exactly who has be",
+   "body": "Hi Corinne,\n\n3 people viewed your profile this week. Upgrade to LinkedIn Premium to find out exactly who has been reading your background.\n\nStay visible to your network!\n\n— LinkedIn",
+   "time": "7/28/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Booking Confirmation",
+   "subject": "Your Flight Booking — Reference 7QK14R",
+   "preview": "Your booking has been successfully registered. Booking reference: 7QK14R. Flight details can be found in your ",
+   "body": "Your booking has been successfully registered. Booking reference: 7QK14R. Flight details can be found in your personal account.\n\nThanks for booking with AirBooking. Your e-ticket is waiting in your customer account. Remember to check in online 24 hours before departure.\n\nFor any questions, reach our customer service at +1 (704) 555-0199.\n\nHave a great trip,\nThe AirBooking Team",
+   "time": "7/27/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Greenpeace USA",
+   "subject": "Act Now: Our Outer Banks Campaign Needs You",
+   "preview": "Dear Corinne, The campaign to protect the Outer Banks has arrived at the point where it is decided one way or ",
+   "body": "Dear Corinne,\n\nThe campaign to protect the Outer Banks has arrived at the point where it is decided one way or the other. Even the smallest gesture of support shifts that balance.\n\nSign the petition, share it with the people around you, and give something if you can afford to.\n\nNothing changes until enough of us push together.\n\nGreenpeace USA",
+   "time": "7/25/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Amazon",
+   "subject": "A few things we picked for you 🌿",
+   "preview": "Hi Corinne, Three picks we think will land well with you: • *Sustainable Architectures*, from Rizzoli • Leucht",
+   "body": "Hi Corinne,\n\nThree picks we think will land well with you:\n\n• *Sustainable Architectures*, from Rizzoli\n• Leuchtturm1917 notebook, recycled paper\n• A bamboo diffuser for essential oils\n\nOrders of $20 or more ship free.\n\nThe Amazon team",
+   "time": "7/23/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Nordstrom",
+   "subject": "Corinne, your return has been received — refund in progress",
+   "preview": "Hi Corinne, We have received your return (order #Amtrak-9934821). Your refund of $67.95 has been sent and shou",
+   "body": "Hi Corinne,\n\nWe have received your return (order #Amtrak-9934821). Your refund of $67.95 has been sent and should appear on your account within 5 to 7 business days.\n\nThanks for shopping with us,\nNordstrom",
+   "time": "7/22/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Best Buy",
+   "subject": "Your Best Buy order #CB-8820441 has shipped",
+   "preview": "Hi Corinne, Good news: your order has shipped from our warehouse and should reach you tomorrow, some time betw",
+   "body": "Hi Corinne,\n\nGood news: your order has shipped from our warehouse and should reach you tomorrow, some time between 12pm and 6pm.\n\n**Item:** Philips Hue LED desk lamp\n**Carrier / tracking:** FedEx 4492 1038 8241\n\nFollow the parcel every step of the way using the link below.\n\nThanks for shopping with us,\nThe Best Buy team",
+   "time": "7/20/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Tobias Greer",
+   "subject": "Re: June Class Schedule — Dilworth Yoga",
+   "preview": "Hi Tobias, Thanks for the timetable! Sign me up for Wednesdays at 8:15. One other thing — has anything freed u",
+   "body": "Hi Tobias,\n\nThanks for the timetable! Sign me up for Wednesdays at 8:15. One other thing — has anything freed up on Saturday, August 8?\n\nHave a great day,\nCorinne",
+   "time": "7/19/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Tobias Greer",
+   "subject": "June Class Schedule — Dilworth Yoga",
+   "preview": "Hi Corinne, Here is the June timetable. Two things worth noting: from July 28 the Wednesday morning session be",
+   "body": "Hi Corinne,\n\nHere is the June timetable. Two things worth noting: from July 28 the Wednesday morning session begins at 8:15 am, and Saturday classes are unchanged.\n\nReserve online while you can — spaces are going fast at the moment!\n\nSee you on the mat,\nTobias",
+   "time": "7/19/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Truist Bank",
+   "subject": "Your May 2026 statement is ready",
+   "preview": "Hi Corinne, Your account statement for May 2026 is available in your online banking space. Balance as of 18th ",
+   "body": "Hi Corinne,\n\nYour account statement for May 2026 is available in your online banking space.\n\nBalance as of 18th July 2026: please log in to your customer account for details.\n\nKind regards,\nTruist Bank",
+   "time": "7/19/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Kendra Sloane",
+   "subject": "Re: GreenFuture Conference — one car?",
+   "preview": "Perfect, Kendra! 9:30 works for me — I'll be waiting at my building entrance so you don't need to park. And ye",
+   "body": "Perfect, Kendra! 9:30 works for me — I'll be waiting at my building entrance so you don't need to park. And yes to lunch with the panel afterwards, I'm curious who sticks around.\n\nTalk soon!\nCorinne",
+   "time": "7/15/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Kendra Sloane",
+   "subject": "Re: GreenFuture Conference — one car?",
+   "preview": "Hey Corinne! Yes to travelling together — I'll pick you up at 9:30 and we can take one car. A few of the panel",
+   "body": "Hey Corinne!\n\nYes to travelling together — I'll pick you up at 9:30 and we can take one car. A few of the panel are staying on for lunch afterwards as well, so we could sit in with them if you're keen.\n\nSee you soon,\nKendra",
+   "time": "7/15/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Dominic Reyes",
+   "subject": "Re: Sutton's Bank Transfer",
+   "preview": "Hey Dominic, here are Sutton's bank details as agreed. You can go ahead and process the transfer whenever you'",
+   "body": "Hey Dominic, here are Sutton's bank details as agreed. You can go ahead and process the transfer whenever you're ready.\n\nYou'll find everything in the attachment. Let me know when it's done.\n\nCorinne",
+   "time": "6/27/26",
+   "folder": "sent"
+  }
+ ],
+ "calendar": [
+  {
+   "title": "Flight CLT → San Jose",
+   "date": "08/15",
+   "dateLabel": "Sat, Aug 15, 2026",
+   "month": "2026-08",
+   "time": "7:45 AM – 8:30 PM",
+   "location": "Charlotte Douglas (CLT)"
+  }
+ ],
+ "notes": [
+  {
+   "title": "Shopping — this week",
+   "body": "Market run on Saturday — Camp North End:\n\n🥦 Broccoli, zucchini, a box of cherry tomatoes\n🍋 Lemons (for water and for cooking)\n🧀 Goat cheese, fresh\n🍞 Sourdough, Golden Crust Bakery\n☕ Coffee beans — Not Just Coffee, if there are any left\n🧴 Bar soap, nearly out\n\nThen Harris Teeter:\n- Oat milk\n- Brown rice\n- Chickpeas, 3 cans\n- Soy sauce"
+  },
+  {
+   "title": "Green Cities conf — June notes",
+   "body": "Green Cities Network Conference — July 29, Camp North End\n\nWorth keeping:\n- Marisol Q. → easily the best session of the day, on urban greening\n- the man over from Raleigh, whose name I have lost → pilot scheme for green roofs\n\nThings to bring back:\n→ fold ESG indicators into the NGO reporting\n→ is there a partnership to be had with NC State University?\n→ set up a call with the network coordinator\n\nTo do: subscribe to the Cities4Climate newsletter"
+  },
+  {
+   "title": "Apartment — small fixes",
+   "body": "Things I keep walking past:\n\n✦ kitchen tap drips if you don't push the handle right down\n✦ bulb over the bathroom mirror — buy two, the other one is going\n✦ balcony door sticks in the damp\n✦ mailbox in the hallway still jams (Harper says the whole row gets replaced, believe it when I see it)\n✦ curtain rail in the bedroom is a finger's width off level and I cannot unsee it\n\nBuy: bulbs ×2, silicone spray, picture hooks"
+  },
+  {
+   "title": "Codes",
+   "body": "— Apartment Wi-Fi: Tulip2024!\n— South End coworking Wi-Fi: cowork@southend\n— Netflix: corinne_vance / Clt@2022\n— Spotify subscription: corinne.vance@gmail.com / check email\n— Bike code (red lock): 7341\n— Mailbox code: 284\n— Groen NGO file (internal reference): GRN-2026-04\n— 7QK14R — Leaving in 9 days\n— Amazon locker code: AZ-882-NC\n— Truist card PIN (backup): see paper diary"
+  },
+  {
+   "title": "On the nightstand 📚",
+   "body": "Reading at the moment:\n— Kim Stanley Robinson, 'The Ministry for the Future' → p. 214, hard work and impossible to put down\n— Calvino, 'Invisible Cities', on a second read → just as beautiful the second time\n— set aside for now: 'Doughnut Economics' — Kate Raworth\n\nLined up to listen to:\n- My Climate Journey\n- 99% Invisible, the sustainable cities episode\n- Conan O'Brien Needs a Friend, purely to switch my brain off"
+  },
+  {
+   "title": "Tobias — yoga classes",
+   "body": "Booked in with Tobias:\n- Tuesdays, 7:30am — hatha, Dilworth studio\n- Fridays, 6:00pm — vinyasa, online when the week gets away from me\n\nWhat we are working on: opening the hips, breathing through the twists\nNever leave without: my own mat, foam block, water\n\nStill need to ask him: is he taking private clients in July?"
+  },
+  {
+   "title": "Watchlist 🎬",
+   "body": "Recommended by people whose taste I trust:\n\n— 'Columbus' (the one Delia goes on about, all modernist buildings and long silences)\n— 'The Biggest Little Farm' — Ray lent me his copy, must actually watch it\n— 'Chef's Table', the pastry season\n— 'Slow Horses', season two, whenever I have three free evenings in a row\n\nSeen, no need to keep on the list:\n— 'Perfect Days' → the best thing I watched all spring\n— 'My Octopus Teacher' → cried, obviously"
+  },
+  {
+   "title": "Gift ideas for Delia",
+   "body": "Delia's birthday is August 31 — not another last-minute gift this year.\n\n- a book on brutalist design, she cannot get enough of it\n- the Maison Margiela candle: Replica — Flower Market\n- a year of an architecture or interiors magazine\n- or nothing to unwrap at all, and take her to the Mint Museum instead\n\nUpper limit: $60"
+  },
+  {
+   "title": "Departure",
+   "body": "✅ To do before leaving:\n\n□ Cancel gym membership\n□ Notify the landlady (notice sent?)\n□ Empty the fridge + give plants to Ray\n□ Pick up parcel — Amazon locker code: AZ-882-NC (see Codes note)\n□ Move files onto external hard drive\n□ Close secondary RevoBank account\n□ Wipe shared Drive history\n□ Return office keys\n□ Confirm booking (ref. 7QK14R)\n□ Call mum"
+  },
+  {
+   "title": "Mornings that work",
+   "body": "The mornings that are finally holding:\n\n6:45am — out of bed on the first alarm (phone in airplane mode overnight!)\n7:00am — a large glass of water, ten minutes of stretching\n7:15am — journal: three gratitudes, one intention\n7:45am — breakfast in quiet, phone left alone\n8:15am — on the bike and out\n\nAim: five mornings out of seven, at the very least."
+  },
+  {
+   "title": "Resolutions for spring",
+   "body": "By the end of June:\n\n✦ finish off the carbon impact report for the NGO\n✦ back into the water — the rec center pool, two lanes, no excuses\n✦ call mum at least twice a week\n✦ stop handing whole evenings over to Instagram\n✦ take Whitney somewhere neither of us has eaten before\n✦ read outdoors at least once a week\n\nHow my head feels: crowded. Slowing down would help."
+  },
+  {
+   "title": "Recipe — weeknight shakshuka",
+   "body": "For two:\n- 1 can crushed tomatoes\n- 1 red bell pepper\n- 1 onion\n- 2 cloves of garlic\n- 4 eggs\n- Cumin, smoked paprika, a spoonful of harissa\n- Feta and fresh coriander over the top\n\nOnion, garlic and pepper go into the pan to start. Tomatoes and spices after that, then let it cook down for ten minutes. Make four hollows, crack an egg into each, lid on for 5-7 minutes. Pita alongside.\n\n→ quick, and genuinely good. Mum would approve."
+  }
+ ],
+ "maps": [],
+ "revolut": {
+  "balance": "$15,961.74",
+  "transactions": [
+   {
+    "name": "Not Just Coffee",
+    "amount": "-$9.02",
+    "date": "Monday, 9:15 AM",
+    "note": "Flat white and a pastry"
+   },
+   {
+    "name": "Trader Joe's",
+    "amount": "-$50.98",
+    "date": "7/30/26, 6:05 PM",
+    "note": "Grocery shopping"
+   },
+   {
+    "name": "IKEA Charlotte",
+    "amount": "-$120.00",
+    "date": "7/23/26, 2:20 PM",
+    "note": "Furniture purchase"
+   },
+   {
+    "name": "Sutton Landry",
+    "amount": "-$15,000.00",
+    "date": "7/12/26, 4:00 PM",
+    "note": "Transfer received from Sutton Landry"
+   },
+   {
+    "name": "Spotify",
+    "amount": "-$9.99",
+    "date": "7/7/26, 12:00 AM",
+    "note": "Monthly subscription"
+   },
+   {
+    "name": "Duke Energy",
+    "amount": "-$82.15",
+    "date": "6/28/26, 8:00 AM",
+    "note": "Monthly electricity bill"
+   },
+   {
+    "name": "Bistro de Pijp",
+    "amount": "-$68.87",
+    "date": "6/20/26, 7:15 PM",
+    "note": "Meal with friends"
+   },
+   {
+    "name": "GVB",
+    "amount": "-$12.50",
+    "date": "6/2/26, 8:40 AM",
+    "note": "Tram ride"
+   },
+   {
+    "name": "Harris Teeter",
+    "amount": "-$37.94",
+    "date": "5/20/26, 6:30 PM",
+    "note": "Grocery shopping"
+   }
+  ]
+ },
+ "weather": {
+  "city": "Charlotte",
+  "tempC": 18,
+  "hi": 20,
+  "lo": 14,
+  "condition": "Partly Cloudy"
+ },
+ "photos": [
+  "photo_0.webp",
+  "photo_1.webp",
+  "photo_2.webp",
+  "photo_3.webp",
+  "photo_4.webp",
+  "photo_5.webp",
+  "photo_6.webp",
+  "photo_7.webp",
+  "photo_8.webp"
+ ],
+ "screenTime": [
+  {
+   "appName": "WhatsApp",
+   "durationMinutes": 65
+  },
+  {
+   "appName": "Internet",
+   "durationMinutes": 60
+  },
+  {
+   "appName": "Email",
+   "durationMinutes": 58
+  },
+  {
+   "appName": "Spotify",
+   "durationMinutes": 50
+  },
+  {
+   "appName": "Photos",
+   "durationMinutes": 28
+  },
+  {
+   "appName": "Phone",
+   "durationMinutes": 25
+  },
+  {
+   "appName": "Weather",
+   "durationMinutes": 22
+  },
+  {
+   "appName": "Notes",
+   "durationMinutes": 18
+  },
+  {
+   "appName": "RevoBank",
+   "durationMinutes": 12
+  },
+  {
+   "appName": "Settings",
+   "durationMinutes": 9
+  }
+ ]
+}

@@ -1,0 +1,6826 @@
+{
+ "caseName": "The Man Who Kept Her Safe",
+ "title": "Dana & Celeste",
+ "now": "2026-08-06T23:59:00",
+ "client": {
+  "name": "Dana",
+  "avatar": "client.webp"
+ },
+ "owner": {
+  "first": "Celeste",
+  "full": "Celeste Moreau",
+  "avatar": null
+ },
+ "wallpaper": "wallpaper.webp",
+ "passcode": "7316",
+ "totalQuestions": 7,
+ "questions": [
+  {
+   "id": 1,
+   "text": "Celeste left her phone at the studio last night. I'm holding it right now.\nShe hasn't slept at her own apartment in weeks. Her plants are dead. I checked. 🥲\nWho is she staying with?",
+   "answer": "Julian",
+   "decoys": [
+    "Priya",
+    "Marcus",
+    "Rachel"
+   ],
+   "hint": "Check her Messages."
+  },
+  {
+   "id": 2,
+   "text": "Right. The guy she calls 'J' before she changes the subject.\nShe told me he's 'in finance', like that's a whole sentence.\nWhat does Julian do for work?",
+   "answer": "Investment Consultant",
+   "decoys": [
+    "Wedding Photographer",
+    "Business Broker",
+    "Real Estate Agent"
+   ],
+   "hint": "Look in her Mail."
+  },
+  {
+   "id": 3,
+   "text": "Okay. A real job title, at least.\nShe told me once that someone keeps leaving her letters. Then she never brought it up again. 😔\nHow many of those letters has she gotten in total?",
+   "answer": "5",
+   "decoys": [
+    "3",
+    "4",
+    "6"
+   ],
+   "hint": "Look through her Notes."
+  },
+  {
+   "id": 4,
+   "text": "She told me it was 'a couple'.\nShe wouldn't let me read a single one. Said it would just scare me too.\nWhat did the most recent letter say?",
+   "answer": "I'M ALWAYS CLOSER THAN YOU THINK",
+   "decoys": [
+    "I see you when you sleep",
+    "You belong to me",
+    "Lock your door tonight"
+   ],
+   "hint": "Check her Photos."
+  },
+  {
+   "id": 5,
+   "text": "That's not a love letter. That's a threat. 😳\nI know she went to the police after her apartment got broken into. She told me that much.\nWho did she tell the police it might be?",
+   "answer": "Brent Holloway",
+   "decoys": [
+    "Tom Bergstrom",
+    "Owen Pratt",
+    "Marcus Hartley"
+   ],
+   "hint": "Look in her Mail."
+  },
+  {
+   "id": 6,
+   "text": "That's three hours away. She never once said she was leaving Portland.\nShe told me she's 'putting in her share' on a house with him. Like it's a dinner bill.\nHow much money is she supposed to put in?",
+   "answer": "$85,000",
+   "decoys": [
+    "$170,000",
+    "$689,000",
+    "$140,000"
+   ],
+   "hint": "Check her Messages."
+  },
+  {
+   "id": 7,
+   "text": "She doesn't have that kind of money. The only thing she owns worth that much is her half of Northlight. 😤\nWe built that studio out of one rented strobe and a leaky lease. If she's selling, she's already talking to someone.\nWho is she meeting with about selling her half?",
+   "answer": "Gina Ostrow",
+   "decoys": [
+    "Priya Shah",
+    "Rachel Hartley",
+    "Tom Bergstrom"
+   ],
+   "hint": "Check her Calendar."
+  }
+ ],
+ "onboarding": [
+  {
+   "text": "Celeste left her phone at the studio last night. She never forgets it. She's been jumpy for months, and in three days she's moving a lot of money. I need to know what's going on.",
+   "label": "Dana",
+   "image": "onboarding_1.webp"
+  },
+  {
+   "text": "Six years ago we split one rented strobe and a terrible lease and called it Northlight & Co. She shoots, I edit. She laughs at her own jokes before the punchline. I miss that laugh.",
+   "label": "Dana & Celeste",
+   "image": "onboarding_2.webp"
+  },
+  {
+   "text": "Celeste Moreau, thirty-three, wedding photographer. She notices everything: the groom's shaky hands, the aunt crying for the wrong reason. Lately she flinches when her phone buzzes, and she's stopped telling me things.",
+   "label": "Celeste",
+   "image": "onboarding_3.webp"
+  },
+  {
+   "text": "Last week a broker I'd never heard of called asking about 'the partnership transition'. Transition. I have her phone for one morning before she comes looking for it. Help me figure out what she's gotten into.",
+   "label": "Dana",
+   "image": "onboarding_4.webp"
+  }
+ ],
+ "home": [
+  {
+   "app": "notes",
+   "label": "Notes"
+  },
+  {
+   "app": "photos",
+   "label": "Photos"
+  },
+  {
+   "app": "calendar",
+   "label": "Calendar"
+  },
+  {
+   "app": "maps",
+   "label": "Maps"
+  },
+  {
+   "app": "clock",
+   "label": "Clock"
+  },
+  {
+   "app": "weather",
+   "label": "Weather"
+  },
+  {
+   "app": "settings",
+   "label": "Settings"
+  },
+  {
+   "app": "wallet",
+   "label": "Wallet"
+  },
+  {
+   "app": "revolut",
+   "label": "RevoBank"
+  }
+ ],
+ "dock": [
+  {
+   "app": "messages",
+   "label": "Messages"
+  },
+  {
+   "app": "phone",
+   "label": "Phone"
+  },
+  {
+   "app": "gmail",
+   "label": "Mail"
+  }
+ ],
+ "missingApps": [],
+ "calls": [
+  {
+   "name": "Julian ❤️",
+   "time": "Yesterday, 5:48 PM",
+   "type": "incoming",
+   "detail": "2 min"
+  },
+  {
+   "name": "Julian ❤️",
+   "time": "Yesterday, 12:20 PM",
+   "type": "outgoing",
+   "detail": "1 min"
+  },
+  {
+   "name": "Julian ❤️",
+   "time": "Tuesday, 9:15 PM",
+   "type": "incoming",
+   "detail": "5 min"
+  },
+  {
+   "name": "Baan Thai Kitchen",
+   "time": "Tuesday, 6:10 PM",
+   "type": "outgoing",
+   "detail": "1 min"
+  },
+  {
+   "name": "Dana Whitfield",
+   "time": "Tuesday, 9:32 AM",
+   "type": "outgoing",
+   "detail": "7 min"
+  },
+  {
+   "name": "Anna Kerr",
+   "time": "Monday, 2:10 PM",
+   "type": "outgoing",
+   "detail": "5 min"
+  },
+  {
+   "name": "Tante Odile",
+   "time": "Sunday, 7:05 PM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Hawthorne Pharmacy",
+   "time": "Saturday, 4:45 PM",
+   "type": "outgoing",
+   "detail": "1 min"
+  },
+  {
+   "name": "Burnside Animal Clinic",
+   "time": "Friday, 11:40 AM",
+   "type": "outgoing",
+   "detail": "3 min"
+  },
+  {
+   "name": "Priya Shah",
+   "time": "7/30/26, 7:02 PM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "+1 (888) 555-0193",
+   "time": "7/29/26, 10:17 AM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Cedar & Vine Events",
+   "time": "7/28/26, 3:15 PM",
+   "type": "incoming",
+   "detail": "6 min"
+  },
+  {
+   "name": "Elise Moreau",
+   "time": "7/28/26, 12:05 PM",
+   "type": "incoming",
+   "detail": "Blocked"
+  },
+  {
+   "name": "Rose City Camera Rentals",
+   "time": "7/27/26, 11:30 AM",
+   "type": "outgoing",
+   "detail": "2 min"
+  },
+  {
+   "name": "Gina Ostrow",
+   "time": "7/25/26, 3:55 PM",
+   "type": "incoming",
+   "detail": "3 min"
+  },
+  {
+   "name": "Maman",
+   "time": "7/24/26, 8:20 AM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Wild Stem Florals",
+   "time": "7/23/26, 1:08 PM",
+   "type": "outgoing",
+   "detail": "3 min"
+  },
+  {
+   "name": "Julian ❤️",
+   "time": "7/20/26, 6:36 PM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Belmont Property Management",
+   "time": "7/20/26, 10:35 AM",
+   "type": "outgoing",
+   "detail": "2 min"
+  },
+  {
+   "name": "Dana Whitfield",
+   "time": "7/17/26, 8:50 AM",
+   "type": "incoming",
+   "detail": "10 min"
+  },
+  {
+   "name": "Priya Shah",
+   "time": "7/16/26, 7:50 PM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Clay & Kiln Pottery",
+   "time": "7/14/26, 5:20 PM",
+   "type": "outgoing",
+   "detail": "1 min"
+  },
+  {
+   "name": "Ravi Menon",
+   "time": "7/13/26, 5:25 PM",
+   "type": "incoming",
+   "detail": "9 min"
+  },
+  {
+   "name": "Pearl Print Lab",
+   "time": "7/9/26, 12:00 PM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Elise Moreau",
+   "time": "7/7/26, 7:41 PM",
+   "type": "incoming",
+   "detail": "Blocked"
+  },
+  {
+   "name": "Fuji Repair Center",
+   "time": "7/6/26, 1:10 PM",
+   "type": "outgoing",
+   "detail": "7 min"
+  },
+  {
+   "name": "Hawthorne Pharmacy",
+   "time": "7/2/26, 4:45 PM",
+   "type": "incoming",
+   "detail": "1 min"
+  },
+  {
+   "name": "Wild Stem Florals",
+   "time": "6/27/26, 2:20 PM",
+   "type": "outgoing",
+   "detail": "5 min"
+  },
+  {
+   "name": "Priya Shah",
+   "time": "6/24/26, 8:30 PM",
+   "type": "incoming",
+   "detail": "38 min"
+  },
+  {
+   "name": "Elise Moreau",
+   "time": "6/22/26, 6:12 PM",
+   "type": "incoming",
+   "detail": "Blocked"
+  },
+  {
+   "name": "Rose City Camera Rentals",
+   "time": "6/19/26, 11:05 AM",
+   "type": "outgoing",
+   "detail": "3 min"
+  },
+  {
+   "name": "Maman",
+   "time": "6/14/26, 6:40 PM",
+   "type": "incoming",
+   "detail": "21 min"
+  },
+  {
+   "name": "Portland Dental Care",
+   "time": "6/12/26, 10:15 AM",
+   "type": "outgoing",
+   "detail": "2 min"
+  }
+ ],
+ "messages": [
+  {
+   "id": "conv-sms-key-julian",
+   "title": "Julian ❤️",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hi Celeste, it's Julian from the Hartley wedding. Hope it's okay I got your number from the studio card."
+    },
+    {
+     "me": true,
+     "text": "Hi Julian! Of course. Thank you for the kind words yesterday."
+    },
+    {
+     "me": false,
+     "text": "You made a very tense groomsman cry laughing. That's a skill."
+    },
+    {
+     "me": true,
+     "text": "Occupational hazard 😂"
+    },
+    {
+     "me": false,
+     "text": "Can I buy you a coffee? Not a wedding thing. Just coffee."
+    },
+    {
+     "me": true,
+     "text": "Ok. I'm slammed this week though"
+    },
+    {
+     "me": false,
+     "text": "I can wait."
+    },
+    {
+     "me": false,
+     "text": "Had a great time last night. Same again soon?"
+    },
+    {
+     "me": true,
+     "text": "Me too. I have a wedding that day but I'm free after 9"
+    },
+    {
+     "me": false,
+     "text": "I keep thinking about your lantern photos. Stunning."
+    },
+    {
+     "me": true,
+     "text": "Thank you! That was a long night. Frozen hands the whole time."
+    },
+    {
+     "me": true,
+     "text": "Got you something. It's small. Don't laugh."
+    },
+    {
+     "me": false,
+     "text": "I will absolutely laugh. Show me."
+    },
+    {
+     "me": true,
+     "text": "Pottery mug. Slightly crooked."
+    },
+    {
+     "me": false,
+     "text": "Perfect. Crooked is my brand. ❤️"
+    },
+    {
+     "me": true,
+     "text": "A groom from last fall trashed my editing online today. Late delivery, moody. It's so unfair."
+    },
+    {
+     "me": false,
+     "text": "That's rude. You deliver on time."
+    },
+    {
+     "me": true,
+     "text": "It stings anyway"
+    },
+    {
+     "me": false,
+     "text": "Guys like that don't let go. Keep an eye on it."
+    },
+    {
+     "me": true,
+     "text": "Weird thing. Someone taped a note to my door."
+    },
+    {
+     "me": false,
+     "text": "What did it say?"
+    },
+    {
+     "me": true,
+     "text": "Nothing useful. Rude, handwritten."
+    },
+    {
+     "me": false,
+     "text": "Send me a photo. I don't like this."
+    },
+    {
+     "me": true,
+     "text": "Sending. It's probably a prank."
+    },
+    {
+     "me": false,
+     "text": "Dinner at 8? I booked the place with the terrace."
+    },
+    {
+     "me": true,
+     "text": "Yes! I'll wear the green dress"
+    },
+    {
+     "me": false,
+     "text": "Of course you will."
+    },
+    {
+     "me": true,
+     "text": "Thank you for tonight. Best dinner I've had in a long time."
+    },
+    {
+     "me": false,
+     "text": "You deserve it. Sleep well ❤️"
+    },
+    {
+     "me": true,
+     "text": "Julian. Someone was in my apartment."
+    },
+    {
+     "me": false,
+     "text": "Are you hurt? Are you still in there?"
+    },
+    {
+     "me": true,
+     "text": "I'm in the hallway. Nothing's taken. There's another note on my pillow."
+    },
+    {
+     "me": false,
+     "text": "Don't go back in. I'm coming. Ten minutes."
+    },
+    {
+     "me": false,
+     "text": "Call the police. I'm on my way."
+    },
+    {
+     "me": true,
+     "text": "Ok"
+    },
+    {
+     "me": false,
+     "text": "Did you file the report?"
+    },
+    {
+     "me": true,
+     "text": "Online. It asked for a possible suspect and I froze."
+    },
+    {
+     "me": false,
+     "text": "Think. Who's been angry at you? The guy from the fall wedding who trashed your editing. Put him down. Better to give them something."
+    },
+    {
+     "me": true,
+     "text": "I feel awful accusing someone."
+    },
+    {
+     "me": false,
+     "text": "You're not accusing. You're giving them a lead. For your safety."
+    },
+    {
+     "me": true,
+     "text": "Ok. Done."
+    },
+    {
+     "me": false,
+     "text": "Pack a bag. I mean it. You're not sleeping in that apartment."
+    },
+    {
+     "me": true,
+     "text": "Julian..."
+    },
+    {
+     "me": false,
+     "text": "Humor me. Just till we know it's safe."
+    },
+    {
+     "me": true,
+     "text": "Ok. Bags are in your hall. Biscuit is at Dana's."
+    },
+    {
+     "me": false,
+     "text": "Your key's on the counter. This is home now 🏠"
+    },
+    {
+     "me": true,
+     "text": "All my stuff is at yours now lol"
+    },
+    {
+     "me": false,
+     "text": "Exactly where it should be. ❤️"
+    },
+    {
+     "me": false,
+     "text": "Coming home soon? I made pasta."
+    },
+    {
+     "me": true,
+     "text": "On my way home 🙂"
+    },
+    {
+     "me": false,
+     "text": "Where are you?"
+    },
+    {
+     "me": true,
+     "text": "At work, editing"
+    },
+    {
+     "me": false,
+     "text": "Share your location babe? Just so I can stop worrying."
+    },
+    {
+     "me": true,
+     "text": "Sure. Sent."
+    },
+    {
+     "me": false,
+     "text": "That woman calling the studio is poisoning you against me. Block her. Please."
+    },
+    {
+     "me": true,
+     "text": "Done."
+    },
+    {
+     "me": true,
+     "text": "Dinner was lovely. Thank you for making me eat vegetables."
+    },
+    {
+     "me": false,
+     "text": "Anything for you ❤️"
+    },
+    {
+     "me": false,
+     "text": "Think about what I said. Somewhere quieter. Central Oregon. A fresh start, just us."
+    },
+    {
+     "me": true,
+     "text": "I keep thinking about it. I saved the three you sent."
+    },
+    {
+     "me": false,
+     "text": "It's been three hours. Where are you?"
+    },
+    {
+     "me": true,
+     "text": "Sorry. Phone died at the print lab."
+    },
+    {
+     "me": false,
+     "text": "Heading to Seattle for the client thing. Back tomorrow."
+    },
+    {
+     "me": true,
+     "text": "Safe travels! Call me tonight?"
+    },
+    {
+     "me": false,
+     "text": "Still in Seattle. Client dinner running late, staying over."
+    },
+    {
+     "me": true,
+     "text": "Ok. Miss you. Sleeping at your place alone feels weird."
+    },
+    {
+     "me": false,
+     "text": "Lock everything. Text me when you're in bed. Love you."
+    },
+    {
+     "me": true,
+     "text": "In bed. Love you."
+    },
+    {
+     "me": true,
+     "text": "Julian there was another one. At the back door at work."
+    },
+    {
+     "me": false,
+     "text": "Take a photo and get out of there. I'm on the first train. Back by noon."
+    },
+    {
+     "me": true,
+     "text": "I'm ok. Photo taken."
+    },
+    {
+     "me": false,
+     "text": "I'm back. Where are you? Stay put, I'll pick you up."
+    },
+    {
+     "me": true,
+     "text": "Do you think I'm being paranoid?"
+    },
+    {
+     "me": false,
+     "text": "I think you're exhausted and surrounded by people who don't see what I see. You have me."
+    },
+    {
+     "me": false,
+     "text": "The Lava Ridge house is still on the market. 4 bed, 3 bath, $689,000."
+    },
+    {
+     "me": true,
+     "text": "That number is terrifying lol"
+    },
+    {
+     "me": false,
+     "text": "Total down payment is $170,000. We split it."
+    },
+    {
+     "me": false,
+     "text": "Your half is $85,000, babe. Then it's ours."
+    },
+    {
+     "me": true,
+     "text": "Where would I even find that kind of money?"
+    },
+    {
+     "me": false,
+     "text": "You're sitting on more than you realize."
+    },
+    {
+     "me": false,
+     "text": "Tomorrow's the meeting, right? Proud of you."
+    },
+    {
+     "me": true,
+     "text": "Nervous. But yes."
+    },
+    {
+     "me": true,
+     "text": "Done. They said it's doable."
+    },
+    {
+     "me": false,
+     "text": "That's my girl. ❤️"
+    },
+    {
+     "me": false,
+     "text": "I sent you the wire instructions. Check your email."
+    },
+    {
+     "me": true,
+     "text": "Got it. Looks official."
+    },
+    {
+     "me": true,
+     "text": "Bank is booked for the morning of August 9, at 11."
+    },
+    {
+     "me": false,
+     "text": "Perfect. I'll drive you. Wear something nice."
+    },
+    {
+     "me": false,
+     "text": "Where are you? Home for dinner? I miss you."
+    },
+    {
+     "me": true,
+     "text": "Still at work, editing. Soon!"
+    },
+    {
+     "me": true,
+     "text": "Late edit tonight, don't wait up ❤️"
+    },
+    {
+     "me": false,
+     "text": "Babe? You're not answering."
+    },
+    {
+     "me": false,
+     "text": "Call me."
+    }
+   ],
+   "avatar": "msg_0.webp"
+  },
+  {
+   "id": "conv-sms-key-dana",
+   "title": "Dana",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Did you send the Okafor gallery? Client emailed me twice."
+    },
+    {
+     "me": true,
+     "text": "Sent last night, it's in the shared drive. Her link expired, resending"
+    },
+    {
+     "me": false,
+     "text": "Thanks. You're a menace."
+    },
+    {
+     "me": true,
+     "text": "😂"
+    },
+    {
+     "me": false,
+     "text": "Battery count for the weekend. Tell me you have six charged."
+    },
+    {
+     "me": true,
+     "text": "Eight. I'm not an animal."
+    },
+    {
+     "me": false,
+     "text": "Good. Coffee's on me tomorrow."
+    },
+    {
+     "me": true,
+     "text": "Lease letter from the studio landlord. Rent's going up AGAIN"
+    },
+    {
+     "me": false,
+     "text": "Of course it is. We'll fight it. Bring bagels."
+    },
+    {
+     "me": false,
+     "text": "Happy Valentine's to me and my cull lists 🥲"
+    },
+    {
+     "me": true,
+     "text": "Come over, I'm making soup"
+    },
+    {
+     "me": false,
+     "text": "Only if there's bread"
+    },
+    {
+     "me": true,
+     "text": "Biscuit threw up on the camera bag. Fully on purpose."
+    },
+    {
+     "me": false,
+     "text": "He's a critic."
+    },
+    {
+     "me": true,
+     "text": "Hartley wedding done. I'm dead. Send help and carbs."
+    },
+    {
+     "me": false,
+     "text": "Cull tomorrow, 1pm. Bring the cards."
+    },
+    {
+     "me": true,
+     "text": "A guest from the Hartley wedding texted me. Julian. Tall, beard, said he liked my work lol"
+    },
+    {
+     "me": false,
+     "text": "A guest who texts the photographer. Bold."
+    },
+    {
+     "me": true,
+     "text": "He's funny though"
+    },
+    {
+     "me": false,
+     "text": "Funny is a start. Don't forget the cull."
+    },
+    {
+     "me": false,
+     "text": "Rose City called, your lens is ready."
+    },
+    {
+     "me": true,
+     "text": "Perfect, grabbing it after pottery"
+    },
+    {
+     "me": false,
+     "text": "Wait, you went on a second date and didn't tell me?"
+    },
+    {
+     "me": true,
+     "text": "Third. I was getting to it."
+    },
+    {
+     "me": false,
+     "text": "I want details. Practical ones. Job, car, red flags."
+    },
+    {
+     "me": true,
+     "text": "Finance. No red flags. He cooks."
+    },
+    {
+     "me": false,
+     "text": "'In finance' is not a job description. But fine. Cooking counts."
+    },
+    {
+     "me": true,
+     "text": "Someone left a letter at my door. Probably nothing."
+    },
+    {
+     "me": false,
+     "text": "What kind of letter?"
+    },
+    {
+     "me": true,
+     "text": "Just a weird note. Probably a prank. Don't worry about it."
+    },
+    {
+     "me": false,
+     "text": "Text me if there's another one."
+    },
+    {
+     "me": false,
+     "text": "Two bookings came in overnight. Summer is going to be a bloodbath."
+    },
+    {
+     "me": true,
+     "text": "I love bloodbaths with deposits"
+    },
+    {
+     "me": true,
+     "text": "Julian cooked for me again. I may never leave."
+    },
+    {
+     "me": false,
+     "text": "Save me a plate."
+    },
+    {
+     "me": true,
+     "text": "Someone was in my apartment. Nothing taken. There was another letter on my pillow."
+    },
+    {
+     "me": false,
+     "text": "WHAT. Are you ok? Where are you?"
+    },
+    {
+     "me": true,
+     "text": "At Julian's. I called the police. I'm ok."
+    },
+    {
+     "me": false,
+     "text": "I'm coming over."
+    },
+    {
+     "me": true,
+     "text": "No, it's fine. Julian's here. I'll call later."
+    },
+    {
+     "me": false,
+     "text": "Did the cops say anything?"
+    },
+    {
+     "me": true,
+     "text": "Filed a report. I gave them a name. They'll look into it."
+    },
+    {
+     "me": false,
+     "text": "Whose name?"
+    },
+    {
+     "me": true,
+     "text": "Let's talk at the studio. Not over text."
+    },
+    {
+     "me": true,
+     "text": "Can you take Biscuit for a bit? J is allergic. I'm staying at his place for now, just till things calm down."
+    },
+    {
+     "me": false,
+     "text": "Sure. I'll pick him up after lunch."
+    },
+    {
+     "me": false,
+     "text": "Cat acquired. He's already judging my couch."
+    },
+    {
+     "me": true,
+     "text": "Thank you. Seriously."
+    },
+    {
+     "me": false,
+     "text": "You okay? Honestly."
+    },
+    {
+     "me": true,
+     "text": "Honestly? Tired. J is taking really good care of me."
+    },
+    {
+     "me": false,
+     "text": "Biscuit sat on the keyboard and deleted ten minutes of edits. Want him back?"
+    },
+    {
+     "me": true,
+     "text": "Ha. Keep him. For now."
+    },
+    {
+     "me": false,
+     "text": "Some woman called the studio landline asking for you. Said she's family. Wouldn't leave a name."
+    },
+    {
+     "me": true,
+     "text": "Don't pick up if she calls again."
+    },
+    {
+     "me": false,
+     "text": "I'm not your secretary. But ok. Who is she?"
+    },
+    {
+     "me": true,
+     "text": "Nobody to worry about. Please just let it ring."
+    },
+    {
+     "me": false,
+     "text": "...Fine."
+    },
+    {
+     "me": false,
+     "text": "She called again. Asked if you were okay. Hung up before I could say anything."
+    },
+    {
+     "me": true,
+     "text": "Let it go to voicemail."
+    },
+    {
+     "me": true,
+     "text": "We're starting over somewhere quieter. J and me."
+    },
+    {
+     "me": false,
+     "text": "We? Define quieter."
+    },
+    {
+     "me": true,
+     "text": "Out of the city. Not decided yet. Don't make that face."
+    },
+    {
+     "me": false,
+     "text": "I'm making the face. You can't see it."
+    },
+    {
+     "me": true,
+     "text": "Another one. At the studio. J's out of town, I'm fine."
+    },
+    {
+     "me": false,
+     "text": "Where? Do you want me to come in?"
+    },
+    {
+     "me": true,
+     "text": "No. I'm fine. Honestly kind of glad J wasn't here to see it. He'd freak."
+    },
+    {
+     "me": false,
+     "text": "Send me a pic."
+    },
+    {
+     "me": true,
+     "text": "No. It'll just scare you too."
+    },
+    {
+     "me": false,
+     "text": "Lock the door behind you."
+    },
+    {
+     "me": false,
+     "text": "June invoices are done."
+    },
+    {
+     "me": true,
+     "text": "You're a hero."
+    },
+    {
+     "me": false,
+     "text": "New ramen place near the studio. Lunch?"
+    },
+    {
+     "me": true,
+     "text": "Can't, J is expecting me."
+    },
+    {
+     "me": true,
+     "text": "J and I are doing a house. I'm putting in my share. Basically a dinner bill with more zeros lol"
+    },
+    {
+     "me": false,
+     "text": "A HOUSE. Celeste."
+    },
+    {
+     "me": true,
+     "text": "Don't start. I'll tell you more later."
+    },
+    {
+     "me": false,
+     "text": "You've missed the last two culls. Everything ok?"
+    },
+    {
+     "me": true,
+     "text": "Just busy. I'll catch up."
+    },
+    {
+     "me": true,
+     "text": "If I ever text you something weird, don't ignore it ok?"
+    },
+    {
+     "me": false,
+     "text": "Weird how?"
+    },
+    {
+     "me": true,
+     "text": "Just don't ignore it. Even if I say I'm fine."
+    },
+    {
+     "me": false,
+     "text": "Ok. Now you're scaring me."
+    },
+    {
+     "me": true,
+     "text": "Don't be. Probably nothing. Love you."
+    },
+    {
+     "me": false,
+     "text": "Anna Kerr wants the album consult on the morning of August 9. You in?"
+    },
+    {
+     "me": true,
+     "text": "I have a bank thing that morning, can't do the Kerr consult. Can you take it?"
+    },
+    {
+     "me": false,
+     "text": "A bank thing. Fine, I'll take it. Everything ok?"
+    },
+    {
+     "me": true,
+     "text": "Yeah. Just paperwork. I'll tell you after."
+    },
+    {
+     "me": false,
+     "text": "I'm out. Lock up when you leave."
+    },
+    {
+     "me": true,
+     "text": "Will do. Almost done with the Kerr set."
+    }
+   ],
+   "avatar": "msg_1.webp"
+  },
+  {
+   "id": "mut-conv-claykiln",
+   "title": "Clay & Kiln Pottery",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Clay & Kiln: Your pieces from the last firing are ready for pickup"
+    },
+    {
+     "me": true,
+     "text": "Thanks! I'll swing by this week"
+    },
+    {
+     "me": false,
+     "text": "Clay & Kiln: Your glazed pieces from the last session are ready for pickup on the shelf by the front desk."
+    },
+    {
+     "me": true,
+     "text": "Thanks! I'll swing by this week."
+    },
+    {
+     "me": false,
+     "text": "Reminder: summer session starts soon. Spots are limited"
+    },
+    {
+     "me": true,
+     "text": "Can I join mid-session if I miss the first class?"
+    },
+    {
+     "me": false,
+     "text": "Yes, we can prorate. Just let us know"
+    },
+    {
+     "me": true,
+     "text": "Please sign me up then. Pay at the studio?"
+    },
+    {
+     "me": false,
+     "text": "All set. See you soon"
+    },
+    {
+     "me": false,
+     "text": "Clay & Kiln: New session registration is open. Spots fill fast!"
+    },
+    {
+     "me": false,
+     "text": "Your glazed pieces are out of the kiln and ready for pickup!"
+    },
+    {
+     "me": true,
+     "text": "Yay! Can I pick them up this evening?"
+    },
+    {
+     "me": false,
+     "text": "Sure, we're open until 8 PM."
+    },
+    {
+     "me": false,
+     "text": "Open studio hours are extended this month, drop-ins welcome."
+    },
+    {
+     "me": true,
+     "text": "Great, I might come by"
+    },
+    {
+     "me": false,
+     "text": "Reminder: your class is tomorrow at 6:30 PM. Wheel throwing, level 2."
+    },
+    {
+     "me": true,
+     "text": "See you there"
+    },
+    {
+     "me": false,
+     "text": "New glazes are in this month. Come check out burnt honey and sea salt"
+    },
+    {
+     "me": true,
+     "text": "Sounds lovely, I'll stop in next week"
+    },
+    {
+     "me": false,
+     "text": "We'll save you a shelf slot"
+    },
+    {
+     "me": false,
+     "text": "New fall class schedule is up on our website. Early bird pricing ends soon."
+    },
+    {
+     "me": true,
+     "text": "Thanks, I'll take a look"
+    },
+    {
+     "me": false,
+     "text": "Your forgotten mug is still on the shelf, we'll hold it for another month 🙂"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-nora",
+   "title": "Nora",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hi Celeste! It's Nora Castellano, we spoke at the bridal expo. Do you still have June 27?"
+    },
+    {
+     "me": true,
+     "text": "Hi Nora! Yes, still open. Tell me about the day"
+    },
+    {
+     "me": false,
+     "text": "Garden ceremony in Sellwood, 80 guests, dinner under string lights"
+    },
+    {
+     "me": true,
+     "text": "That sounds dreamy. Have you thought about timeline? Sunset is about 9"
+    },
+    {
+     "me": false,
+     "text": "We hadn't! Is that late for photos?"
+    },
+    {
+     "me": true,
+     "text": "Perfect for portraits. Golden hour dinner shots are my favorite"
+    },
+    {
+     "me": false,
+     "text": "OK I'm sold. Send the package info?"
+    },
+    {
+     "me": true,
+     "text": "Sending now. Check your email"
+    },
+    {
+     "me": false,
+     "text": "Got it! My fiancé Paolo says the 8 hour package is perfect"
+    },
+    {
+     "me": true,
+     "text": "Great choice. I'll hold the date for 48 hours until the deposit"
+    },
+    {
+     "me": false,
+     "text": "Deposit sent!! 🎉"
+    },
+    {
+     "me": true,
+     "text": "Received! You're officially booked 🥂"
+    },
+    {
+     "me": false,
+     "text": "Question: can we do a first look? Paolo is nervous about crying"
+    },
+    {
+     "me": true,
+     "text": "Crying is encouraged. A first look gives you private time to do it"
+    },
+    {
+     "me": false,
+     "text": "OK first look. Where do you recommend?"
+    },
+    {
+     "me": true,
+     "text": "Under the big maple by the garden path. I'll check the light when I scout"
+    },
+    {
+     "me": false,
+     "text": "Is it weird if my dog is in the ceremony?"
+    },
+    {
+     "me": true,
+     "text": "Not weird! What's his name?"
+    },
+    {
+     "me": false,
+     "text": "Pretzel. A corgi. He has a tiny bow tie"
+    },
+    {
+     "me": true,
+     "text": "Okay I'm obsessed. He's getting a portrait session"
+    },
+    {
+     "me": false,
+     "text": "😭 thank you"
+    },
+    {
+     "me": false,
+     "text": "Did you watch the finale?? I'm still mad"
+    },
+    {
+     "me": true,
+     "text": "Not yet, no spoilers!!"
+    },
+    {
+     "me": false,
+     "text": "Okay okay. Just know the dog survives"
+    },
+    {
+     "me": true,
+     "text": "That's the only thing I care about"
+    },
+    {
+     "me": true,
+     "text": "Hi Nora, shot list time! Please add any must-have family photos"
+    },
+    {
+     "me": false,
+     "text": "Sending a list tonight. My family is big, 14 cousins"
+    },
+    {
+     "me": true,
+     "text": "We'll do big group first, then smaller combos. Ask someone to wrangle cousins"
+    },
+    {
+     "me": false,
+     "text": "My Tía Rosa will wrangle. She is terrifying in a good way"
+    },
+    {
+     "me": true,
+     "text": "Perfect. Every wedding needs a Tía Rosa"
+    },
+    {
+     "me": false,
+     "text": "Farmers market tomorrow morning? They have the peaches again"
+    },
+    {
+     "me": true,
+     "text": "I wish. Wedding setup at 8"
+    },
+    {
+     "me": false,
+     "text": "Boo. I'll buy you a basket"
+    },
+    {
+     "me": true,
+     "text": "You're the best"
+    },
+    {
+     "me": false,
+     "text": "Peaches are in my fridge when you want them. Come get them"
+    },
+    {
+     "me": true,
+     "text": "I'm swamped this week. Can you hold them until the weekend?"
+    },
+    {
+     "me": false,
+     "text": "They'll be jam by then 😂"
+    },
+    {
+     "me": true,
+     "text": "Then jam it is"
+    },
+    {
+     "me": false,
+     "text": "Tomorrow!!! I can't sleep"
+    },
+    {
+     "me": true,
+     "text": "Deep breaths. Drink water, eat a real breakfast. I'll see you at 2 for getting-ready shots"
+    },
+    {
+     "me": false,
+     "text": "Okay. Thank you for being calm for me"
+    },
+    {
+     "me": true,
+     "text": "That's my job. See you tomorrow ❤️"
+    },
+    {
+     "me": false,
+     "text": "Thank you for everything. It was magic. Pretzel stole a dinner roll 😂"
+    },
+    {
+     "me": true,
+     "text": "I got that on camera, you're welcome. Sneak peek in a few days"
+    },
+    {
+     "me": false,
+     "text": "Paolo's mom saw the sneak peek and cried"
+    },
+    {
+     "me": true,
+     "text": "Best compliment. Full gallery coming in about 3 weeks"
+    },
+    {
+     "me": false,
+     "text": "My landlord is selling the building. Send good vibes"
+    },
+    {
+     "me": true,
+     "text": "Ugh, I'm sorry. Do you know how long you have?"
+    },
+    {
+     "me": false,
+     "text": "Ninety days minimum, apparently. Already scrolling listings"
+    },
+    {
+     "me": true,
+     "text": "Let me know if you need a hand packing"
+    },
+    {
+     "me": false,
+     "text": "You hate packing"
+    },
+    {
+     "me": true,
+     "text": "I hate it less than I love you"
+    },
+    {
+     "me": false,
+     "text": "Cheesy. Accepted"
+    },
+    {
+     "me": false,
+     "text": "Do you want the leftover lemon bars? I made way too many"
+    },
+    {
+     "me": true,
+     "text": "Yes!! Drop by the studio, I'm there till late"
+    },
+    {
+     "me": false,
+     "text": "On my way. Do you need anything else? Coffee?"
+    },
+    {
+     "me": true,
+     "text": "Just the lemon bars. And your face"
+    },
+    {
+     "me": false,
+     "text": "Cheesy. Love it"
+    },
+    {
+     "me": true,
+     "text": "Those were unreal. I ate three before Dana noticed"
+    },
+    {
+     "me": false,
+     "text": "Recipe is on the way. Zest the lemons FIRST, don't be like me"
+    },
+    {
+     "me": true,
+     "text": "Noted"
+    },
+    {
+     "me": false,
+     "text": "Are you coming to book club? We're doing that novel about the lighthouse"
+    },
+    {
+     "me": true,
+     "text": "I haven't finished it. I'm on chapter 9"
+    },
+    {
+     "me": false,
+     "text": "Chapter 9 is where it gets good. Come anyway, there's wine"
+    },
+    {
+     "me": true,
+     "text": "Wine is persuasive. Let me see how the week goes"
+    },
+    {
+     "me": false,
+     "text": "You always say that and then skip 😒"
+    },
+    {
+     "me": true,
+     "text": "I know. I'm sorry. Things are weird lately"
+    },
+    {
+     "me": false,
+     "text": "Weird how? Good weird?"
+    },
+    {
+     "me": true,
+     "text": "Busy weird. I'll tell you over wine"
+    },
+    {
+     "me": false,
+     "text": "Okay. I'm holding you to it"
+    },
+    {
+     "me": false,
+     "text": "Any news on the gallery? No rush!! Just excited"
+    },
+    {
+     "me": true,
+     "text": "Almost done. Dana's finishing the edits. Tomorrow I'll send the link"
+    },
+    {
+     "me": false,
+     "text": "GOT IT. Looking through right now"
+    },
+    {
+     "me": false,
+     "text": "I'm crying at my desk at work"
+    },
+    {
+     "me": true,
+     "text": "That's the right reaction 😊"
+    },
+    {
+     "me": false,
+     "text": "My sister's in town, we're hitting the Saturday market. Want to join for a bit?"
+    },
+    {
+     "me": true,
+     "text": "I have a wedding. Say hi from me!"
+    },
+    {
+     "me": false,
+     "text": "Will do. Sunscreen!!"
+    },
+    {
+     "me": false,
+     "text": "Can we order an album? 30 pages, linen cover"
+    },
+    {
+     "me": true,
+     "text": "Absolutely. I'll email the layout options"
+    },
+    {
+     "me": false,
+     "text": "Saw a flyer for a ceramics sale at the school on Sunday. Want to go?"
+    },
+    {
+     "me": false,
+     "text": "Perfect, thank you!!"
+    },
+    {
+     "me": true,
+     "text": "Wore it. Still pink 😭"
+    },
+    {
+     "me": false,
+     "text": "Aloe. Fridge-cold. Trust me"
+    },
+    {
+     "me": true,
+     "text": "Thank you 🙏"
+    },
+    {
+     "me": false,
+     "text": "Thinking of you. Text me if you need anything, even dumb stuff"
+    },
+    {
+     "me": true,
+     "text": "Will do. Love you"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-hector",
+   "title": "Hector",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Celeste, Hector here. We're both booked at the Delgado wedding in May. You want to sync on timeline?"
+    },
+    {
+     "me": true,
+     "text": "Yes please. Can you send me your drone plan? Venue has a no-fly zone near the river"
+    },
+    {
+     "me": false,
+     "text": "Just the ceremony from the bluff, 4 minutes max. I checked the permit"
+    },
+    {
+     "me": true,
+     "text": "Great. I'll stay out of your frame during the vows"
+    },
+    {
+     "me": false,
+     "text": "You always do. Some photographers I won't name stand right in front of my lens 😅"
+    },
+    {
+     "me": true,
+     "text": "Not me. Promise"
+    },
+    {
+     "me": false,
+     "text": "Timeline update from the planner. First look moved to 3:30"
+    },
+    {
+     "me": true,
+     "text": "Saw it. That gives us golden hour for portraits, nice"
+    },
+    {
+     "me": false,
+     "text": "Do you have an extra lav mic? Mine died on the last job"
+    },
+    {
+     "me": true,
+     "text": "Don't have one, sorry. Try Rose City Camera Rentals"
+    },
+    {
+     "me": false,
+     "text": "Good idea. Thanks"
+    },
+    {
+     "me": false,
+     "text": "Hey, nice work today. The vows were rough, I was crying behind the camera"
+    },
+    {
+     "me": true,
+     "text": "Same lol. The father-of-the-bride toast destroyed me"
+    },
+    {
+     "me": false,
+     "text": "I'll have a teaser for you in a week. Want to send me your best three stills for the reel?"
+    },
+    {
+     "me": true,
+     "text": "Will do, Dana's sorting them"
+    },
+    {
+     "me": false,
+     "text": "Teaser is up. Link: private vimeo, password is 'lilac'"
+    },
+    {
+     "me": true,
+     "text": "Watching now. The bluff shot is unreal"
+    },
+    {
+     "me": false,
+     "text": "Told you. Drone saves lives"
+    },
+    {
+     "me": false,
+     "text": "Your second light stand is still in my garage lol"
+    },
+    {
+     "me": true,
+     "text": "Keep it for now, I'll grab it when I'm by"
+    },
+    {
+     "me": false,
+     "text": "Cool. Want to do the weekend session? Couple wants rooftop shots"
+    },
+    {
+     "me": true,
+     "text": "Depends on the weather. Rooftops and wind don't mix"
+    },
+    {
+     "me": false,
+     "text": "Forecast says calm. Fingers crossed"
+    },
+    {
+     "me": false,
+     "text": "That rooftop was amazing. Look at this sky"
+    },
+    {
+     "me": true,
+     "text": "Tell me about it. Sunset did all the work"
+    },
+    {
+     "me": false,
+     "text": "Another one to ask. Are you doing the Alder Creek wedding in July?"
+    },
+    {
+     "me": true,
+     "text": "Yes, with Ravi as second. Are you in?"
+    },
+    {
+     "me": false,
+     "text": "Yes. Planner says the barn has bad Wi-Fi so download everything before"
+    },
+    {
+     "me": true,
+     "text": "Noted. Offline shot list it is"
+    },
+    {
+     "me": false,
+     "text": "Taco Tuesday at my place? Bring a friend"
+    },
+    {
+     "me": true,
+     "text": "I'll try. Thanks for the invite"
+    },
+    {
+     "me": false,
+     "text": "You say that every time 😄"
+    },
+    {
+     "me": true,
+     "text": "Next time, promise"
+    },
+    {
+     "me": false,
+     "text": "Oh and my invoice was sent. Net 15 like always"
+    },
+    {
+     "me": true,
+     "text": "Got it. Dana will process it"
+    },
+    {
+     "me": false,
+     "text": "Barn day. Where are you parked? I can't find the gravel lot"
+    },
+    {
+     "me": true,
+     "text": "Past the red tractor, behind the big oak"
+    },
+    {
+     "me": false,
+     "text": "Found it. Wow, that's a lot of hay bales"
+    },
+    {
+     "me": true,
+     "text": "Perfect backdrop though 😂"
+    },
+    {
+     "me": false,
+     "text": "Great day. Dana told me you've been working too hard. Eat something"
+    },
+    {
+     "me": true,
+     "text": "Ha. I ate three tacos last night, I'm fine"
+    },
+    {
+     "me": false,
+     "text": "Need a recommendation for a good flash trigger. Budget is low"
+    },
+    {
+     "me": true,
+     "text": "Godox X2T. Cheap and reliable"
+    },
+    {
+     "me": false,
+     "text": "Ordered. You rock"
+    },
+    {
+     "me": false,
+     "text": "Okay good. Next job: late August, couple from Hood River"
+    },
+    {
+     "me": true,
+     "text": "I'll check my calendar and confirm with you by the end of the week"
+    },
+    {
+     "me": false,
+     "text": "No rush. Also new stabilizer arrived, finally"
+    },
+    {
+     "me": true,
+     "text": "Yay, the shaky era is over"
+    },
+    {
+     "me": false,
+     "text": "Light stand's still here btw"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-belmont",
+   "title": "Belmont Property Management",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Belmont Property Management: Hello Celeste, your lease renewal packet was emailed. Please sign within 14 days."
+    },
+    {
+     "me": true,
+     "text": "Got it, signing tonight. Is the rent staying the same?"
+    },
+    {
+     "me": false,
+     "text": "There's a 3% adjustment starting May 1. Details are on page 2."
+    },
+    {
+     "me": true,
+     "text": "Okay, that's fair. Sent back"
+    },
+    {
+     "me": false,
+     "text": "Received, thank you! Your renewal is complete."
+    },
+    {
+     "me": false,
+     "text": "Reminder: we're doing annual smoke detector checks. A technician will be at your unit on March 20 between 10 AM and 2 PM."
+    },
+    {
+     "me": true,
+     "text": "I'll be at a shoot. Can he come when I'm out? Lockbox is fine"
+    },
+    {
+     "me": false,
+     "text": "Yes, we have your permission to enter. Thanks!"
+    },
+    {
+     "me": true,
+     "text": "The kitchen faucet is dripping again. Third time this year"
+    },
+    {
+     "me": false,
+     "text": "Sorry about that. We'll send our plumber. Any days that work?"
+    },
+    {
+     "me": true,
+     "text": "Anything after the 10th"
+    },
+    {
+     "me": false,
+     "text": "Plumber scheduled for the 14th, morning window. He'll replace the cartridge."
+    },
+    {
+     "me": true,
+     "text": "Thank you"
+    },
+    {
+     "me": false,
+     "text": "Your rent payment for May was received. Thank you!"
+    },
+    {
+     "me": false,
+     "text": "Your rent payment for June was received. Thank you!"
+    },
+    {
+     "me": false,
+     "text": "Hi Celeste, the building will have water shut off for pipe work on June 9, 9 AM to noon. Fill a few jugs ahead of time."
+    },
+    {
+     "me": true,
+     "text": "Thanks for the heads up. I may not be around, is that ok?"
+    },
+    {
+     "me": false,
+     "text": "Totally fine, no access to your unit is needed."
+    },
+    {
+     "me": false,
+     "text": "Hello, this is a notice that the building's water will be shut off for maintenance tomorrow between 9 AM and noon."
+    },
+    {
+     "me": true,
+     "text": "Thanks for the notice. Is the laundry room also affected?"
+    },
+    {
+     "me": false,
+     "text": "Yes, laundry will be unavailable during that time as well."
+    },
+    {
+     "me": false,
+     "text": "A package for you was left at the office, a box from a camera store. Pick up during business hours."
+    },
+    {
+     "me": true,
+     "text": "Thanks, can I get it later this week? I'm out of the neighborhood for a bit"
+    },
+    {
+     "me": false,
+     "text": "Sure, we'll hold it for 10 days."
+    },
+    {
+     "me": false,
+     "text": "Rent reminder: July rent is due on the 1st. Pay through the resident portal."
+    },
+    {
+     "me": true,
+     "text": "Already scheduled. Thanks"
+    },
+    {
+     "me": false,
+     "text": "Your rent payment for July was received. Thank you!"
+    },
+    {
+     "me": false,
+     "text": "Payment received. Thank you!"
+    },
+    {
+     "me": false,
+     "text": "Hi, is your parking space #14 in use? A neighbor says a car with no plates has been parked in it"
+    },
+    {
+     "me": true,
+     "text": "Not mine. My car's at a different lot right now. Please tow it if it's not registered"
+    },
+    {
+     "me": false,
+     "text": "Will do. Thanks for confirming."
+    },
+    {
+     "me": false,
+     "text": "The new bike rack is installed by the east entrance. Please register your bike at the office."
+    },
+    {
+     "me": false,
+     "text": "Gutters will be cleaned on July 22. No need for anyone to be home."
+    },
+    {
+     "me": true,
+     "text": "Got it"
+    },
+    {
+     "me": false,
+     "text": "Rent reminder: August rent is due on the 1st."
+    },
+    {
+     "me": false,
+     "text": "Your rent payment for August was received. Thank you!"
+    },
+    {
+     "me": false,
+     "text": "Reminder that mailbox keys are being replaced. Stop by the office with your old key."
+    },
+    {
+     "me": true,
+     "text": "Will do this week"
+    },
+    {
+     "me": false,
+     "text": "Reminder: the annual smoke detector inspection is next week. We'll leave a notice if no one is home."
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-theo",
+   "title": "Theo",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": true,
+     "text": "Hey Theo, are you free on March 28? Barn wedding out in the Gorge, ceremony at 4"
+    },
+    {
+     "me": false,
+     "text": "Checking. Yes, I'm free. Same rate as last time?"
+    },
+    {
+     "me": true,
+     "text": "Same rate. Plus gas, it's an hour out"
+    },
+    {
+     "me": false,
+     "text": "Deal. Do I need the 70-200 or are you bringing yours?"
+    },
+    {
+     "me": true,
+     "text": "Bring yours, mine's going to be on the 35 all day"
+    },
+    {
+     "me": false,
+     "text": "Cool. Charging every battery I own tonight 🔋"
+    },
+    {
+     "me": true,
+     "text": "Lol same"
+    },
+    {
+     "me": false,
+     "text": "Weather says 40% rain tomorrow. Should I pack the rain covers?"
+    },
+    {
+     "me": true,
+     "text": "Yes. And a towel. Last time you dried your lens with your shirt"
+    },
+    {
+     "me": false,
+     "text": "That shirt had it coming"
+    },
+    {
+     "me": true,
+     "text": "You at the barn yet? Coordinator says first look is moved to 3"
+    },
+    {
+     "me": false,
+     "text": "Here. Parked by the goats. There are goats"
+    },
+    {
+     "me": true,
+     "text": "Get a goat photo for the couple, they'll love it"
+    },
+    {
+     "me": false,
+     "text": "Already on it 🐐"
+    },
+    {
+     "me": true,
+     "text": "Great work yesterday. Sending cards to Dana tonight"
+    },
+    {
+     "me": false,
+     "text": "My cards are in the mail slot of the studio, labeled. Shoot me the invoice whenever"
+    },
+    {
+     "me": true,
+     "text": "Will do today"
+    },
+    {
+     "me": false,
+     "text": "Hey, quick one, can I borrow the 85 for a portrait gig this weekend?"
+    },
+    {
+     "me": true,
+     "text": "Yes. Dana's at the studio until six, grab it from her. Bring it back clean"
+    },
+    {
+     "me": false,
+     "text": "You're the best. I'll bring coffee"
+    },
+    {
+     "me": true,
+     "text": "Oat latte. You know the order"
+    },
+    {
+     "me": false,
+     "text": "I know the order"
+    },
+    {
+     "me": false,
+     "text": "Landed a gig shooting a brewery's menu photos. Terrifying but paying"
+    },
+    {
+     "me": true,
+     "text": "Congrats!! Use window light, skip the flash"
+    },
+    {
+     "me": false,
+     "text": "Window light, noted. Any tips for beer foam?"
+    },
+    {
+     "me": true,
+     "text": "Cold glass, pour slow, shoot fast. It dies in 30 seconds"
+    },
+    {
+     "me": false,
+     "text": "Okay I wrote that on my hand"
+    },
+    {
+     "me": true,
+     "text": "Are you available on June 13? Garden wedding, 150 guests, two photographers needed"
+    },
+    {
+     "me": false,
+     "text": "Booked. Put me on the calendar"
+    },
+    {
+     "me": true,
+     "text": "Done. I'll send the shot list in a few days"
+    },
+    {
+     "me": false,
+     "text": "Do you want me on the groom's side again?"
+    },
+    {
+     "me": true,
+     "text": "Yes, groom prep then ceremony from the back left"
+    },
+    {
+     "me": false,
+     "text": "Can you do a second shooter on the 14th of next month? Barn wedding, 150 guests"
+    },
+    {
+     "me": true,
+     "text": "Let me check my calendar. What's the pay?"
+    },
+    {
+     "me": false,
+     "text": "Same as last time, plus travel"
+    },
+    {
+     "me": true,
+     "text": "I'm in. Send me the timeline when you have it"
+    },
+    {
+     "me": false,
+     "text": "Will do. Bring the 35mm, the barn is dark inside"
+    },
+    {
+     "me": true,
+     "text": "Obviously 😄"
+    },
+    {
+     "me": false,
+     "text": "That went well. The grandmother who cried through the entire vows, I got every one"
+    },
+    {
+     "me": true,
+     "text": "Those are the ones they keep. Nice work"
+    },
+    {
+     "me": false,
+     "text": "Uploading the cards now. 1,900 frames, sorry Dana"
+    },
+    {
+     "me": true,
+     "text": "She'll survive. She'll complain, but she'll survive 😂"
+    },
+    {
+     "me": false,
+     "text": "Timeline's in your email. Ceremony 4:30, golden hour portraits right after"
+    },
+    {
+     "me": true,
+     "text": "Got it. Is the venue okay with flash during the vows?"
+    },
+    {
+     "me": false,
+     "text": "No flash. Officiant was weirdly strict about it"
+    },
+    {
+     "me": true,
+     "text": "Fine by me, I hate it anyway"
+    },
+    {
+     "me": false,
+     "text": "Did you see the new Fuji firmware notes? They finally fixed the autofocus hunting"
+    },
+    {
+     "me": true,
+     "text": "Reading them now. I'll update the spare body first and see"
+    },
+    {
+     "me": false,
+     "text": "Smart. Never update the one you shoot with the night before"
+    },
+    {
+     "me": true,
+     "text": "Lesson learned the hard way 😅"
+    },
+    {
+     "me": false,
+     "text": "My camera is making a clicking sound on the shutter. Fuji repair center says two weeks"
+    },
+    {
+     "me": true,
+     "text": "Ugh. You can use my backup body for the next shoot"
+    },
+    {
+     "me": false,
+     "text": "Seriously? You're a lifesaver"
+    },
+    {
+     "me": true,
+     "text": "Pick it up at the studio. It's in the grey case"
+    },
+    {
+     "me": false,
+     "text": "Lunch tomorrow? That taco truck on Division is back"
+    },
+    {
+     "me": true,
+     "text": "Can't tomorrow, edit deadline. Next week?"
+    },
+    {
+     "me": false,
+     "text": "Deal. I'll bring napkins for your hands this time"
+    },
+    {
+     "me": true,
+     "text": "One time. That was ONE time"
+    },
+    {
+     "me": false,
+     "text": "Twice. I have photos"
+    },
+    {
+     "me": false,
+     "text": "That was a good day. The groom's grandma cried at every single photo"
+    },
+    {
+     "me": true,
+     "text": "Best subject ever. I got her laughing at the cake"
+    },
+    {
+     "me": false,
+     "text": "Sending you my keepers tonight"
+    },
+    {
+     "me": true,
+     "text": "Thanks. I'll swap mine tomorrow, cards are still dumping"
+    },
+    {
+     "me": true,
+     "text": "Do you still have that 70-200 lens? I might need to borrow it for a Saturday"
+    },
+    {
+     "me": false,
+     "text": "Yep. Come grab it anytime, it's in the closet"
+    },
+    {
+     "me": true,
+     "text": "You're the best. Coffee on me"
+    },
+    {
+     "me": false,
+     "text": "Oat milk latte, extra hot, I know"
+    },
+    {
+     "me": true,
+     "text": "That's MY order"
+    },
+    {
+     "me": false,
+     "text": "I've been stealing it for years"
+    },
+    {
+     "me": false,
+     "text": "Heat advisory this weekend. Bring water for outdoor shoots"
+    },
+    {
+     "me": true,
+     "text": "Already packed a cooler. And a tiny fan for the second shooter 😂"
+    },
+    {
+     "me": false,
+     "text": "Send help if the bride cries into a lens"
+    },
+    {
+     "me": true,
+     "text": "Lens cloth is my best friend"
+    },
+    {
+     "me": true,
+     "text": "Got the lens. Thank you, truly"
+    },
+    {
+     "me": false,
+     "text": "Anytime. How was the shoot?"
+    },
+    {
+     "me": true,
+     "text": "Gorgeous light, 96 degrees, nobody fainted. Win"
+    },
+    {
+     "me": false,
+     "text": "Low bar, high victory"
+    },
+    {
+     "me": false,
+     "text": "Anyone got a spare NP-W235? Mine's cooked"
+    },
+    {
+     "me": true,
+     "text": "I have two. Come by the studio"
+    },
+    {
+     "me": false,
+     "text": "You're a lifesaver. Coffee on me"
+    },
+    {
+     "me": true,
+     "text": "Oat latte, large"
+    },
+    {
+     "me": false,
+     "text": "Always"
+    },
+    {
+     "me": false,
+     "text": "Dropped it at the front desk. Battery's in a ziploc, don't lose it 😅"
+    },
+    {
+     "me": false,
+     "text": "Backup body is back in the grey case, battery charged. Thanks again"
+    },
+    {
+     "me": true,
+     "text": "Perfect, thank you!"
+    },
+    {
+     "me": false,
+     "text": "Taco truck on Tuesday?"
+    },
+    {
+     "me": true,
+     "text": "Let me check and I'll text you tomorrow"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-rowan",
+   "title": "Rowan",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hi Celeste, it's Rowan Pierce, the DJ. Cedar & Vine mentioned you for a June wedding?"
+    },
+    {
+     "me": true,
+     "text": "Hi Rowan! Yes, I'm shooting the wedding on June 20. Wanted to coordinate the reception timeline"
+    },
+    {
+     "me": false,
+     "text": "Perfect. I usually announce the grand entrance at 6:45, then dinner music, first dance at 8"
+    },
+    {
+     "me": true,
+     "text": "Can you give me a heads up before the cake cutting? I need a clean angle"
+    },
+    {
+     "me": false,
+     "text": "Of course. I'll make an announcement and wait 30 seconds"
+    },
+    {
+     "me": true,
+     "text": "You're a dream. Most DJs just blast Mr. Brightside"
+    },
+    {
+     "me": false,
+     "text": "That song is a weapon. I only use it when asked"
+    },
+    {
+     "me": true,
+     "text": "Do you do uplighting too? Couple wants a warm amber look"
+    },
+    {
+     "me": false,
+     "text": "Yes, 12 LED uplights, warm amber is my favorite setting. Looks great on skin tones"
+    },
+    {
+     "me": true,
+     "text": "Perfect for photos then"
+    },
+    {
+     "me": false,
+     "text": "Are you coming to book club? We're reading the one about the lighthouse"
+    },
+    {
+     "me": true,
+     "text": "I haven't finished it. I'm on chapter nine"
+    },
+    {
+     "me": false,
+     "text": "Nobody's finished it, we'll mostly drink"
+    },
+    {
+     "me": true,
+     "text": "Then I'm in 😄"
+    },
+    {
+     "me": false,
+     "text": "That was fun. Next pick is yours"
+    },
+    {
+     "me": true,
+     "text": "Something short with a happy ending, please"
+    },
+    {
+     "me": false,
+     "text": "Demanding"
+    },
+    {
+     "me": false,
+     "text": "Setup at 2:30 on the day. I'll bring cables to tape down so nobody trips"
+    },
+    {
+     "me": true,
+     "text": "Love that. See you there"
+    },
+    {
+     "me": false,
+     "text": "Great night. Photos of the dance floor are going to be wild"
+    },
+    {
+     "me": true,
+     "text": "They are. The grandma on the dance floor is gold"
+    },
+    {
+     "me": false,
+     "text": "She requested Earth, Wind & Fire three times. Respect"
+    },
+    {
+     "me": true,
+     "text": "Can you send me your playlist export? I like to use some tracks in my editing sessions"
+    },
+    {
+     "me": false,
+     "text": "Ha, sure. I'll share the Spotify link, it's 'Dance Floor Rescue'"
+    },
+    {
+     "me": true,
+     "text": "Found it. Saved"
+    },
+    {
+     "me": false,
+     "text": "I have a wedding in Astoria next month. Know any good photographers? Mine cancelled"
+    },
+    {
+     "me": true,
+     "text": "That's your wedding or a client's?"
+    },
+    {
+     "me": false,
+     "text": "A client's. Their shooter dropped out. They're panicking"
+    },
+    {
+     "me": true,
+     "text": "Try Ravi Menon, he's great and available"
+    },
+    {
+     "me": false,
+     "text": "You're a hero. Passing along his number"
+    },
+    {
+     "me": false,
+     "text": "He's booked. Thank you!! 🙌"
+    },
+    {
+     "me": true,
+     "text": "Yay. Tell them I said congratulations"
+    },
+    {
+     "me": false,
+     "text": "Did you see the exhibition at the Art Museum? The photo section is great"
+    },
+    {
+     "me": true,
+     "text": "Not yet. I'm saving it for a quiet afternoon"
+    },
+    {
+     "me": false,
+     "text": "Go soon, it ends this month"
+    },
+    {
+     "me": true,
+     "text": "Adding it to my list"
+    },
+    {
+     "me": false,
+     "text": "Quick one. Do you have any shots of the dance floor from the June wedding I can use for my site?"
+    },
+    {
+     "me": true,
+     "text": "Sure, send me an email and I'll pick three. Credit line required"
+    },
+    {
+     "me": false,
+     "text": "Naturally. 'Photo by Northlight & Co'"
+    },
+    {
+     "me": true,
+     "text": "Perfect"
+    },
+    {
+     "me": false,
+     "text": "Book club is at mine next time. I'm making lemon bars"
+    },
+    {
+     "me": true,
+     "text": "I'll try to come. Not sure about my schedule"
+    },
+    {
+     "me": false,
+     "text": "Lemon bars will keep"
+    },
+    {
+     "me": true,
+     "text": "You're too kind 💛"
+    },
+    {
+     "me": false,
+     "text": "Heads up, I have a free date in September if you need a DJ referral for anyone"
+    },
+    {
+     "me": true,
+     "text": "Good to know. I have a couple who might want one"
+    },
+    {
+     "me": false,
+     "text": "Send them my way. I'll throw in a free hour of dance time"
+    },
+    {
+     "me": true,
+     "text": "They'll love that"
+    },
+    {
+     "me": false,
+     "text": "Thanks for being so easy to work with. Rare in this business"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-ravi",
+   "title": "Ravi",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hey Celeste, it's Ravi. Dana gave me your number. Still looking for a second shooter this spring?"
+    },
+    {
+     "me": true,
+     "text": "Hi Ravi! Yes, actually. Do you have full frame bodies?"
+    },
+    {
+     "me": false,
+     "text": "Two. A7 III and an older one as backup. 35 and 85 primes plus a 70-200"
+    },
+    {
+     "me": true,
+     "text": "Perfect. I have a ceremony on April 11 at an orchard out past Hood River. Long day, 11 to 9. $350 flat?"
+    },
+    {
+     "me": false,
+     "text": "Works for me. Do you want me on the groom side or roaming?"
+    },
+    {
+     "me": true,
+     "text": "Groom prep, then roam during cocktail hour. I'll send a shot list the night before"
+    },
+    {
+     "me": false,
+     "text": "Great. Should I bring a flash or are you shooting natural?"
+    },
+    {
+     "me": true,
+     "text": "Bring one. Reception hall is basically a cave"
+    },
+    {
+     "me": true,
+     "text": "Shot list is in your email. Call time is 10:30 at the orchard gate. Wear black, no logos"
+    },
+    {
+     "me": false,
+     "text": "Got it. Leaving at 8 to beat the gorge traffic"
+    },
+    {
+     "me": true,
+     "text": "Good call. Bring snacks, the caterer is slow"
+    },
+    {
+     "me": false,
+     "text": "I'm at the gate. Is the bride's dad the guy in the orange vest?"
+    },
+    {
+     "me": true,
+     "text": "That's the groom's uncle, he runs parking lol. Dad is the tall one in the grey suit"
+    },
+    {
+     "me": false,
+     "text": "Ha ok. Found him"
+    },
+    {
+     "me": true,
+     "text": "Thanks again for yesterday. You were great with the grandparents"
+    },
+    {
+     "me": false,
+     "text": "Anytime. Sending you my cards tonight. About 1,900 frames, I culled a bit"
+    },
+    {
+     "me": true,
+     "text": "Dropbox link works? Dana wants to start on them"
+    },
+    {
+     "me": false,
+     "text": "Uploading now, should be done by lunch"
+    },
+    {
+     "me": true,
+     "text": "Paid you via Zelle just now. Check?"
+    },
+    {
+     "me": false,
+     "text": "Got it, thank you!"
+    },
+    {
+     "me": true,
+     "text": "Hey, are you free for a June wedding at a farm in Dundee? Might need you for a full day again"
+    },
+    {
+     "me": false,
+     "text": "Yes! Sending my calendar. I'm open the whole month except the 13th"
+    },
+    {
+     "me": true,
+     "text": "It's the 20th. Locking you in"
+    },
+    {
+     "me": false,
+     "text": "Quick q, did you ever fix the back button focus thing on your Fuji? Mine's doing something weird"
+    },
+    {
+     "me": true,
+     "text": "Mine was in the menu under AF/MF settings. Instant AF setting. Take a screenshot of yours and I'll look"
+    },
+    {
+     "me": false,
+     "text": "That was it. You're a lifesaver"
+    },
+    {
+     "me": false,
+     "text": "Did the proofs for the Chen engagement go out?"
+    },
+    {
+     "me": true,
+     "text": "Sent this morning. Gallery link has a password"
+    },
+    {
+     "me": false,
+     "text": "They love them. Her mom cried"
+    },
+    {
+     "me": true,
+     "text": "That's the best review a photographer can get"
+    },
+    {
+     "me": false,
+     "text": "Can I get a print of the one under the oak tree?"
+    },
+    {
+     "me": true,
+     "text": "Absolutely, 16x20? I'll order it from the print lab"
+    },
+    {
+     "me": false,
+     "text": "Perfect. Venmo?"
+    },
+    {
+     "me": true,
+     "text": "Pay me when it arrives"
+    },
+    {
+     "me": true,
+     "text": "Sorry I've been slow to text back. Crazy few weeks"
+    },
+    {
+     "me": false,
+     "text": "No worries. See you at the farm in two days. I'll bring extra batteries"
+    },
+    {
+     "me": true,
+     "text": "Yes please. Mine are always at 40% when I need them"
+    },
+    {
+     "me": false,
+     "text": "Heads up, forecast says 96 on the 20th. Bring water and a hat"
+    },
+    {
+     "me": true,
+     "text": "Ugh. Thanks. I'll tell the couple to push the ceremony to 5"
+    },
+    {
+     "me": false,
+     "text": "That was a gorgeous light at the end. The sparkler exit shots look unreal"
+    },
+    {
+     "me": true,
+     "text": "They really do. Dana says you can have the whole summer if you want it"
+    },
+    {
+     "me": true,
+     "text": "The print came in. It's gorgeous"
+    },
+    {
+     "me": false,
+     "text": "Picking it up tomorrow, thank you!"
+    },
+    {
+     "me": false,
+     "text": "Haha yes. I'm free for the one at the vineyard next month too"
+    },
+    {
+     "me": true,
+     "text": "I'll check with Dana and let you know this week"
+    },
+    {
+     "me": true,
+     "text": "Happy birthday week! Dinner on me when you're back in town"
+    },
+    {
+     "me": false,
+     "text": "I'll hold you to it 🎂"
+    },
+    {
+     "me": false,
+     "text": "Know any good lens cleaning kits? Mine is trash"
+    },
+    {
+     "me": true,
+     "text": "The Lenspen with the carbon tip. Cheap and it works"
+    },
+    {
+     "me": false,
+     "text": "Ordering now"
+    },
+    {
+     "me": false,
+     "text": "Sounds good. Let me know whenever"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-imani",
+   "title": "Imani",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Celeste!! The album arrived. I cried in the hallway"
+    },
+    {
+     "me": true,
+     "text": "Yay!! I was hoping you'd love it. Linen cover okay?"
+    },
+    {
+     "me": false,
+     "text": "Perfect. My mom wants three copies lol"
+    },
+    {
+     "me": true,
+     "text": "I'll send the print lab reorder form. Parent albums are smaller and cheaper"
+    },
+    {
+     "me": false,
+     "text": "Amazing. Also, we're expecting!! 🥹 Due in October"
+    },
+    {
+     "me": true,
+     "text": "WHAT. Congratulations!!! I'm so happy for you both"
+    },
+    {
+     "me": false,
+     "text": "Would you do a maternity session? Casual, nothing fancy"
+    },
+    {
+     "me": true,
+     "text": "Of course. Friend rate, free. Let's do it around 30 weeks"
+    },
+    {
+     "me": false,
+     "text": "You're the sweetest. I'll text you when I'm ready"
+    },
+    {
+     "me": false,
+     "text": "Do you have a favorite spot for outdoor portraits? Thinking of the rose garden"
+    },
+    {
+     "me": true,
+     "text": "The roses will be gorgeous by late June. Or Mt. Tabor at sunset"
+    },
+    {
+     "me": false,
+     "text": "Tabor. Hills are good for my legs lol"
+    },
+    {
+     "me": true,
+     "text": "Ha. We'll go slow"
+    },
+    {
+     "me": false,
+     "text": "Um, are you ok? I texted twice about the shoot and didn't hear back"
+    },
+    {
+     "me": true,
+     "text": "I'm so sorry!! Phone's been a mess. Yes, let's lock a date"
+    },
+    {
+     "me": false,
+     "text": "I'm 30 weeks on the 27th of June. Does that work?"
+    },
+    {
+     "me": true,
+     "text": "Works. Golden hour is around 7:30. Meet at the top by the reservoir"
+    },
+    {
+     "me": false,
+     "text": "Perfect! Marcus is bringing a blanket and snacks"
+    },
+    {
+     "me": false,
+     "text": "Birthday brunch for me on the 12th, you better come"
+    },
+    {
+     "me": true,
+     "text": "Wouldn't miss it. Where?"
+    },
+    {
+     "me": false,
+     "text": "The place with the lavender pancakes on Division"
+    },
+    {
+     "me": true,
+     "text": "Say less 🥞"
+    },
+    {
+     "me": false,
+     "text": "Thank you for coming! The candid you took of me blowing out the candle is my new lock screen"
+    },
+    {
+     "me": true,
+     "text": "I'll send you the full set tomorrow"
+    },
+    {
+     "me": false,
+     "text": "You're an angel"
+    },
+    {
+     "me": true,
+     "text": "Aww the photos are in. Preview gallery sent 🥹"
+    },
+    {
+     "me": false,
+     "text": "I'm bawling. I look like a goddess. How did you do that"
+    },
+    {
+     "me": true,
+     "text": "You were glowing, I just pressed the button"
+    },
+    {
+     "me": false,
+     "text": "Stop. We're making the Mt. Tabor one a canvas for the nursery"
+    },
+    {
+     "me": true,
+     "text": "I'll prep a print-ready file"
+    },
+    {
+     "me": false,
+     "text": "Can you recommend a good dentist? Mine retired"
+    },
+    {
+     "me": true,
+     "text": "I go to Portland Dental Care, they're gentle"
+    },
+    {
+     "me": false,
+     "text": "Booked. Thanks!"
+    },
+    {
+     "me": false,
+     "text": "Do you want to come to the baby shower? It's in late August at my mom's"
+    },
+    {
+     "me": true,
+     "text": "I'd love to. Send details?"
+    },
+    {
+     "me": false,
+     "text": "Will do. Also, we picked a name!! Not telling yet 🤐"
+    },
+    {
+     "me": true,
+     "text": "Cruel!! Hint?"
+    },
+    {
+     "me": false,
+     "text": "It's after my grandma. That's all you get"
+    },
+    {
+     "me": true,
+     "text": "I'll figure it out"
+    },
+    {
+     "me": false,
+     "text": "Haven't heard from you in ages, everything alright?"
+    },
+    {
+     "me": true,
+     "text": "All good. Just heads down with work"
+    },
+    {
+     "me": false,
+     "text": "Okay. Love you, text me when you surface"
+    },
+    {
+     "me": true,
+     "text": "Will do. Love you too"
+    },
+    {
+     "me": false,
+     "text": "Gift registry link is on the invite. No pressure"
+    },
+    {
+     "me": true,
+     "text": "Got it. I'm buying the muslin blankets, they're my favorite"
+    },
+    {
+     "me": false,
+     "text": "Perfect, thank you. Also craving pad thai nonstop"
+    },
+    {
+     "me": true,
+     "text": "Baan Thai is the answer. I'll send you a pickup 😄"
+    },
+    {
+     "me": false,
+     "text": "You're an angel ❤️"
+    },
+    {
+     "me": false,
+     "text": "Sending you a playlist for your editing marathons"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-pharmacy",
+   "title": "Hawthorne Pharmacy",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hawthorne Pharmacy: Your prescription refill is ready for pickup"
+    },
+    {
+     "me": true,
+     "text": "Thank you, I'll pick it up after lunch"
+    },
+    {
+     "me": false,
+     "text": "Reminder: pick up your order by end of week or it will be returned to stock"
+    },
+    {
+     "me": true,
+     "text": "Picking it up today, sorry"
+    },
+    {
+     "me": false,
+     "text": "No problem. We'll have it ready at the counter"
+    },
+    {
+     "me": false,
+     "text": "Hawthorne Pharmacy: Your prescription is ready for pickup. Open until 7 PM today."
+    },
+    {
+     "me": false,
+     "text": "Hawthorne Pharmacy: Reminder, your prescription is still waiting for you. Reply STOP to opt out."
+    },
+    {
+     "me": false,
+     "text": "Hawthorne Pharmacy: Flu shots now available, no appointment needed"
+    },
+    {
+     "me": true,
+     "text": "Good to know, thanks"
+    },
+    {
+     "me": false,
+     "text": "Your order is ready: allergy tablets and vitamins"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-ellie",
+   "title": "Ellie",
+   "time": "Monday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Celeste!! Did you sign up for the spring wheel throwing session?"
+    },
+    {
+     "me": true,
+     "text": "I did! Tuesday nights again. Are you in?"
+    },
+    {
+     "me": false,
+     "text": "Signing up now. Last time I made a bowl that looked like a hat"
+    },
+    {
+     "me": true,
+     "text": "I loved the hat bowl. Keep it"
+    },
+    {
+     "me": false,
+     "text": "Lol it holds my keys now. Very functional"
+    },
+    {
+     "me": true,
+     "text": "Did you pick up your glazed mugs yet? Mine are ready"
+    },
+    {
+     "me": false,
+     "text": "Not yet. The speckled white ones? Mine came out better than expected"
+    },
+    {
+     "me": true,
+     "text": "Yes! Mine turned greenish instead of blue. Whatever, I love it"
+    },
+    {
+     "me": false,
+     "text": "Cute. Want to grab coffee after pickup? The place with the oat cortados"
+    },
+    {
+     "me": true,
+     "text": "Can't today, editing deadline. Rain check?"
+    },
+    {
+     "me": false,
+     "text": "Always. Good luck"
+    },
+    {
+     "me": false,
+     "text": "Hey, Kayla's having a housewarming and wanted to invite you. Next month!"
+    },
+    {
+     "me": true,
+     "text": "Aw, I'd love to but I have a wedding that day. Tell her congrats"
+    },
+    {
+     "me": false,
+     "text": "Of course you do. Pottery mugs are my gift, I'll add your name to the card"
+    },
+    {
+     "me": true,
+     "text": "You're the best"
+    },
+    {
+     "me": false,
+     "text": "Missed you at class last night. Wheel #4 was empty"
+    },
+    {
+     "me": true,
+     "text": "Sorry!! Got stuck at work. I'll be there next time"
+    },
+    {
+     "me": false,
+     "text": "Teacher said we're doing handles next. Prepare to suffer"
+    },
+    {
+     "me": false,
+     "text": "Is the sourdough class still on for the 20th?"
+    },
+    {
+     "me": true,
+     "text": "Yep. I'm in. Do we bring our own starter?"
+    },
+    {
+     "me": false,
+     "text": "They provide it. Just bring an apron and a jar"
+    },
+    {
+     "me": true,
+     "text": "Okay okay 🍞"
+    },
+    {
+     "me": false,
+     "text": "Hello? Are you alive? Haven't heard from you in a bit"
+    },
+    {
+     "me": true,
+     "text": "Alive! Just buried in weddings and edits. So sorry"
+    },
+    {
+     "me": false,
+     "text": "Okay good. I miss you at class. Come to the studio sale next week? There's a seconds shelf"
+    },
+    {
+     "me": true,
+     "text": "I'll try. Save me a small vase if you see one"
+    },
+    {
+     "me": false,
+     "text": "My starter died. RIP Doughlores"
+    },
+    {
+     "me": true,
+     "text": "Doughlores 😭 gone too soon"
+    },
+    {
+     "me": false,
+     "text": "I'm starting a new one. Name suggestions?"
+    },
+    {
+     "me": true,
+     "text": "Loafy Fitzgerald"
+    },
+    {
+     "me": false,
+     "text": "Perfect, done"
+    },
+    {
+     "me": false,
+     "text": "Got you a tiny one with a crooked neck. It's perfect and ugly"
+    },
+    {
+     "me": true,
+     "text": "Ha! Hold it for me. I'll swing by soon"
+    },
+    {
+     "me": false,
+     "text": "I'll leave it at the front desk with your name on a sticky note"
+    },
+    {
+     "me": true,
+     "text": "Thank you. Truly"
+    },
+    {
+     "me": false,
+     "text": "Loafy is bubbling! Look at him"
+    },
+    {
+     "me": true,
+     "text": "So proud. Will you sell me a jar of it?"
+    },
+    {
+     "me": false,
+     "text": "I'll give you a jar for free"
+    },
+    {
+     "me": false,
+     "text": "We should do a pottery night, just us. Wine, no wheel"
+    },
+    {
+     "me": true,
+     "text": "I want that. Things are a little weird right now but soon"
+    },
+    {
+     "me": false,
+     "text": "Weird how? You ok?"
+    },
+    {
+     "me": true,
+     "text": "Just busy, I'm fine ❤️"
+    },
+    {
+     "me": false,
+     "text": "Okay. Door's always open. Bring a snack"
+    },
+    {
+     "me": false,
+     "text": "Hope you're doing okay. Haven't seen you around the neighborhood"
+    },
+    {
+     "me": true,
+     "text": "I'm good, just busy. Wedding season"
+    },
+    {
+     "me": false,
+     "text": "Okay. Bread is waiting whenever 🙂"
+    },
+    {
+     "me": false,
+     "text": "New glazes are in. There's one called 'burnt honey'. Very you"
+    },
+    {
+     "me": true,
+     "text": "Okay that sounds amazing"
+    },
+    {
+     "me": false,
+     "text": "I'll hold you a spot at Tuesday's class if you want it"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-jo",
+   "title": "Jo",
+   "time": "Monday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Class tomorrow? I'm making a mug and it already looks like a bucket"
+    },
+    {
+     "me": true,
+     "text": "Buckets are in this season. I'll be there at 6:30"
+    },
+    {
+     "me": false,
+     "text": "Bring your claw clip, the clay gets everywhere"
+    },
+    {
+     "me": true,
+     "text": "It's always in my hair"
+    },
+    {
+     "me": false,
+     "text": "Fair"
+    },
+    {
+     "me": true,
+     "text": "My bowl collapsed 😭"
+    },
+    {
+     "me": false,
+     "text": "Mine did too! Teacher said it's 'a learning experience'"
+    },
+    {
+     "me": true,
+     "text": "Aka it's garbage"
+    },
+    {
+     "me": false,
+     "text": "Aka garbage with character 😂"
+    },
+    {
+     "me": false,
+     "text": "Glaze day! Which color are you going for?"
+    },
+    {
+     "me": true,
+     "text": "Celadon. Maybe speckled"
+    },
+    {
+     "me": false,
+     "text": "Ooh nice. I'm doing a deep blue and praying"
+    },
+    {
+     "me": true,
+     "text": "Pray harder"
+    },
+    {
+     "me": false,
+     "text": "Pickup is next week, my mug turned out kind of nice??"
+    },
+    {
+     "me": true,
+     "text": "Can't wait to see it"
+    },
+    {
+     "me": false,
+     "text": "It's lopsided but it holds coffee. Success"
+    },
+    {
+     "me": false,
+     "text": "Want to grab brunch after class tomorrow? There's a new place near Alberta"
+    },
+    {
+     "me": true,
+     "text": "Yes! I'm starving after clay anyway"
+    },
+    {
+     "me": false,
+     "text": "Pancakes with brown butter. I looked at the menu already"
+    },
+    {
+     "me": true,
+     "text": "You're a menace 😂"
+    },
+    {
+     "me": false,
+     "text": "Teacher says the next session starts in June. You in?"
+    },
+    {
+     "me": true,
+     "text": "I think so. Weddings are packed but evenings are usually okay"
+    },
+    {
+     "me": false,
+     "text": "Cool I'll sign us up"
+    },
+    {
+     "me": true,
+     "text": "Thank you!"
+    },
+    {
+     "me": false,
+     "text": "Do you know any good camera bags? Mine is falling apart"
+    },
+    {
+     "me": true,
+     "text": "Get one with a padded divider, don't cheap out"
+    },
+    {
+     "me": false,
+     "text": "Noted. Budget is $100"
+    },
+    {
+     "me": true,
+     "text": "Then look secondhand. Rose City Camera usually has some"
+    },
+    {
+     "me": false,
+     "text": "Oh good call"
+    },
+    {
+     "me": false,
+     "text": "Guess who finally bought a bike"
+    },
+    {
+     "me": true,
+     "text": "No way. What color?"
+    },
+    {
+     "me": false,
+     "text": "Mustard yellow. It's hideous and I love it"
+    },
+    {
+     "me": true,
+     "text": "Send a pic when you're not sweaty"
+    },
+    {
+     "me": false,
+     "text": "That's never happening"
+    },
+    {
+     "me": false,
+     "text": "First class of the summer session tonight, are you coming?"
+    },
+    {
+     "me": true,
+     "text": "So sorry, I'm stuck editing. Rain check?"
+    },
+    {
+     "me": false,
+     "text": "No worries! I'll save you a wheel"
+    },
+    {
+     "me": true,
+     "text": "You're the best"
+    },
+    {
+     "me": false,
+     "text": "Missed you again. Teacher asked where you were"
+    },
+    {
+     "me": true,
+     "text": "Tell her I'm alive. Just buried in work"
+    },
+    {
+     "me": false,
+     "text": "I'll tell her. Hope you can come back soon"
+    },
+    {
+     "me": true,
+     "text": "Me too"
+    },
+    {
+     "me": true,
+     "text": "Can I borrow your tripod bag for the weekend? Mine's got a broken zipper"
+    },
+    {
+     "me": false,
+     "text": "Sure, it's in my trunk. I'll leave it on the porch"
+    },
+    {
+     "me": true,
+     "text": "Thank you!! I owe you a taco"
+    },
+    {
+     "me": false,
+     "text": "You owe me like 14 tacos at this point"
+    },
+    {
+     "me": true,
+     "text": "Returned your bag. Left a thank-you note inside 🌮"
+    },
+    {
+     "me": false,
+     "text": "Found it. The note had a drawing of a taco with legs"
+    },
+    {
+     "me": true,
+     "text": "His name is Gerald"
+    },
+    {
+     "me": false,
+     "text": "Gerald is going on my fridge"
+    },
+    {
+     "me": false,
+     "text": "Okay I just rewatched the whole first season. Your recommendation was correct and I hate that"
+    },
+    {
+     "me": true,
+     "text": "I'm always correct. Now watch season two"
+    },
+    {
+     "me": false,
+     "text": "No spoilers!!"
+    },
+    {
+     "me": true,
+     "text": "My lips are sealed 🤐"
+    },
+    {
+     "me": false,
+     "text": "Kiln opening was today. Your celadon bowl from spring finally came out, so pretty"
+    },
+    {
+     "me": true,
+     "text": "Really? I want it!"
+    },
+    {
+     "me": false,
+     "text": "I'll hold it for you. It's on the shelf with your name"
+    },
+    {
+     "me": true,
+     "text": "Thank you Jo. Truly"
+    },
+    {
+     "me": false,
+     "text": "Need a new playlist for the drive to the coast. Send me some of your editing ones"
+    },
+    {
+     "me": true,
+     "text": "Sending the mellow one. It's mostly piano and dreamy stuff"
+    },
+    {
+     "me": false,
+     "text": "I will fall asleep at the wheel"
+    },
+    {
+     "me": true,
+     "text": "Fine, I'll add some bangers. Hang on"
+    },
+    {
+     "me": false,
+     "text": "Better. Thank you"
+    },
+    {
+     "me": false,
+     "text": "Back from the coast. Saw a seal. It looked at me like it knew my debts"
+    },
+    {
+     "me": true,
+     "text": "😂 the seal sees all"
+    },
+    {
+     "me": false,
+     "text": "Do you want any saltwater taffy? I'm obviously buying 4 pounds"
+    },
+    {
+     "me": true,
+     "text": "Chocolate-covered anything. You know me"
+    },
+    {
+     "me": false,
+     "text": "Movie night soon? You pick, I'll bring snacks"
+    },
+    {
+     "me": true,
+     "text": "I want to. Things are a bit complicated schedule-wise right now"
+    },
+    {
+     "me": false,
+     "text": "No pressure. Door's open whenever"
+    },
+    {
+     "me": true,
+     "text": "Thanks, Jo. Really"
+    },
+    {
+     "me": false,
+     "text": "Cat update: Pickle knocked the plant off the shelf again. Third plant"
+    },
+    {
+     "me": true,
+     "text": "Pickle is a menace. Mine is currently at a friend's and probably doing worse"
+    },
+    {
+     "me": false,
+     "text": "Oh yeah, how's Biscuit?"
+    },
+    {
+     "me": true,
+     "text": "Fat and happy and getting spoiled. Dana sends me pics"
+    },
+    {
+     "me": false,
+     "text": "Send me one! I need cat content"
+    },
+    {
+     "me": true,
+     "text": "Later, I'm in the car"
+    },
+    {
+     "me": false,
+     "text": "Taffy delivery incoming this week. Be home"
+    },
+    {
+     "me": true,
+     "text": "I'll be at the studio most days. Bring it there"
+    },
+    {
+     "me": false,
+     "text": "Studio, noted. Is Dana still mad about the lens cap thing?"
+    },
+    {
+     "me": true,
+     "text": "She'll never let it go 😂"
+    },
+    {
+     "me": false,
+     "text": "Respect"
+    },
+    {
+     "me": false,
+     "text": "Also my bike got a flat on day two. Send help"
+    },
+    {
+     "me": true,
+     "text": "Watch a tutorial, it's a five-minute fix"
+    },
+    {
+     "me": false,
+     "text": "Rude. Watching one now"
+    },
+    {
+     "me": false,
+     "text": "Hey, your bowl is still here. Want me to bring it to you or just keep it safe?"
+    },
+    {
+     "me": true,
+     "text": "Just keep it for now. I'll pick it up soon"
+    },
+    {
+     "me": false,
+     "text": "Deal. Hope you're okay!"
+    },
+    {
+     "me": false,
+     "text": "Seal says hi"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-rosecity",
+   "title": "Rose City Camera Rentals",
+   "time": "Monday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Rose City Camera Rentals: Your reservation for the 85mm f/1.4 lens is ready for pickup"
+    },
+    {
+     "me": true,
+     "text": "Thanks, I'll grab it this afternoon"
+    },
+    {
+     "me": false,
+     "text": "Reminder: your rental is due back tomorrow by 5 PM"
+    },
+    {
+     "me": true,
+     "text": "Dropping it off at noon"
+    },
+    {
+     "me": false,
+     "text": "Received. Thanks! Your deposit has been released"
+    },
+    {
+     "me": false,
+     "text": "Hi Celeste, we have a 24-70 f/2.8 available for the dates you asked about"
+    },
+    {
+     "me": true,
+     "text": "Yes, please hold it. Pickup the afternoon before"
+    },
+    {
+     "me": false,
+     "text": "Confirmed. See you then"
+    },
+    {
+     "me": false,
+     "text": "Your rental reservation for 2 Fuji bodies and a 70-200 lens is confirmed for pickup tomorrow at 8 AM."
+    },
+    {
+     "me": true,
+     "text": "Thanks! Can I add a spare battery grip?"
+    },
+    {
+     "me": false,
+     "text": "Added. Total is updated in your receipt."
+    },
+    {
+     "me": false,
+     "text": "Reminder: your gear is due back by 6 PM today."
+    },
+    {
+     "me": true,
+     "text": "Running a bit behind, dropping off at 5:30"
+    },
+    {
+     "me": false,
+     "text": "No problem, we're open until 7."
+    },
+    {
+     "me": false,
+     "text": "Rose City Camera Rentals: Your 85mm lens reservation is confirmed for pickup tomorrow after 10 AM."
+    },
+    {
+     "me": true,
+     "text": "Thanks! Will grab it around 11."
+    },
+    {
+     "me": false,
+     "text": "Rose City Camera Rentals: Reminder, your rental is due back tomorrow by 5 PM."
+    },
+    {
+     "me": true,
+     "text": "On it, thanks."
+    },
+    {
+     "me": false,
+     "text": "Rose City Camera Rentals: Summer promo, 20% off weekend rentals through August"
+    },
+    {
+     "me": true,
+     "text": "Nice, thanks for the heads up"
+    },
+    {
+     "me": false,
+     "text": "Summer deal: 20% off weekend rentals through the end of next month."
+    },
+    {
+     "me": true,
+     "text": "Thanks, good to know"
+    },
+    {
+     "me": false,
+     "text": "We just got the new 16-55 lens in stock if you'd like to try it."
+    },
+    {
+     "me": true,
+     "text": "Oh nice, I'll stop by soon"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-kerr",
+   "title": "Anna",
+   "time": "Monday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hi Celeste, Anna Kerr again. Did the proofs for the family portrait come through?"
+    },
+    {
+     "me": true,
+     "text": "Hi Anna! Yes, gallery link went to your email this morning"
+    },
+    {
+     "me": false,
+     "text": "Found it. My mom loves the one by the fence"
+    },
+    {
+     "me": true,
+     "text": "That's my favorite too. Do you want it as an 11x14?"
+    },
+    {
+     "me": false,
+     "text": "Yes please, two of them"
+    },
+    {
+     "me": true,
+     "text": "Will order today. Ready in about a week"
+    },
+    {
+     "me": false,
+     "text": "Prints arrived! They look beautiful, thank you"
+    },
+    {
+     "me": true,
+     "text": "So glad. Send me a pic of them hung up sometime"
+    },
+    {
+     "me": false,
+     "text": "Hi Celeste, it's Anna Kerr! Just confirming the timeline for the 11th: hair at 1, ceremony at 4?"
+    },
+    {
+     "me": true,
+     "text": "Hi Anna! Yes, I'll arrive at 12:30 for getting-ready shots."
+    },
+    {
+     "me": false,
+     "text": "Perfect. Mom wants a shot with the grandparents. Is that okay?"
+    },
+    {
+     "me": true,
+     "text": "Absolutely, it's on the list."
+    },
+    {
+     "me": false,
+     "text": "Will do. Also my cousin is engaged, can I pass along your info?"
+    },
+    {
+     "me": true,
+     "text": "Please do! Tell them to email Northlight and Dana will send the packages"
+    },
+    {
+     "me": false,
+     "text": "Done. They're excited"
+    },
+    {
+     "me": true,
+     "text": "Thanks Anna, that means a lot ❤️"
+    },
+    {
+     "me": false,
+     "text": "Thank you for yesterday!! Everyone loved you. Can't wait to see photos 😭"
+    },
+    {
+     "me": true,
+     "text": "So happy to hear it! Sneak peek coming in a few days."
+    },
+    {
+     "me": true,
+     "text": "Dana will be in touch about the album consult. She'll take good care of you."
+    },
+    {
+     "me": false,
+     "text": "Sounds great, thank you!"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-ept",
+   "title": "Eastside Physical Therapy",
+   "time": "Monday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Eastside Physical Therapy: Hi Celeste, this is a reminder of your evaluation tomorrow at 4:30 PM. Please arrive 10 minutes early to fill out forms."
+    },
+    {
+     "me": true,
+     "text": "Thanks, I'll be there"
+    },
+    {
+     "me": false,
+     "text": "Great. Wear loose clothing for shoulder mobility testing."
+    },
+    {
+     "me": false,
+     "text": "Eastside PT: Your plan of care is two visits per week for 6 weeks. Reply YES to confirm the standing appointments."
+    },
+    {
+     "me": true,
+     "text": "Can we do one visit a week? Weekends are heavy with shoots"
+    },
+    {
+     "me": false,
+     "text": "We can start with one visit weekly and add home exercises. Your therapist Maya will send the sheet."
+    },
+    {
+     "me": true,
+     "text": "Sounds good. YES to the standing appointment"
+    },
+    {
+     "me": false,
+     "text": "Confirmed: weekly at 5:15 PM starting next week."
+    },
+    {
+     "me": false,
+     "text": "Reminder: your visit is today at 5:15 PM."
+    },
+    {
+     "me": true,
+     "text": "Running 10 min late, parking is awful"
+    },
+    {
+     "me": false,
+     "text": "No problem, Maya will see you when you arrive."
+    },
+    {
+     "me": false,
+     "text": "Reminder: your visit is today at 5:15 PM."
+    },
+    {
+     "me": true,
+     "text": "Need to cancel today, client moved their engagement session. So sorry"
+    },
+    {
+     "me": false,
+     "text": "Understood. Would you like to rebook this week? We have a 3:00 PM opening on the 27th."
+    },
+    {
+     "me": true,
+     "text": "Yes, 3:00 PM works"
+    },
+    {
+     "me": false,
+     "text": "Booked. See you then!"
+    },
+    {
+     "me": false,
+     "text": "Maya: you're doing great. Remember the wall slides, 2 sets of 12 daily, and keep the camera strap on the opposite shoulder when you can."
+    },
+    {
+     "me": true,
+     "text": "Switching shoulders is weird but I'll try 😅"
+    },
+    {
+     "me": false,
+     "text": "Reminder: your visit is today at 5:15 PM."
+    },
+    {
+     "me": false,
+     "text": "Your insurance has approved 4 more visits. Would you like to schedule?"
+    },
+    {
+     "me": true,
+     "text": "Yes, every other week for now. The shoulder feels a lot better"
+    },
+    {
+     "me": false,
+     "text": "Wonderful. Added: May 19, June 2, June 16, June 30, all at 5:15 PM."
+    },
+    {
+     "me": true,
+     "text": "Could we move June 2 to the morning? Something came up"
+    },
+    {
+     "me": false,
+     "text": "We have 8:30 AM open on June 2. Want it?"
+    },
+    {
+     "me": true,
+     "text": "Yes thanks"
+    },
+    {
+     "me": false,
+     "text": "Reminder: you have a PT appointment tomorrow at 8:15 AM. Reply C to confirm or R to reschedule."
+    },
+    {
+     "me": true,
+     "text": "C"
+    },
+    {
+     "me": false,
+     "text": "Thanks! See you then. Please wear comfortable clothes."
+    },
+    {
+     "me": false,
+     "text": "Your home exercise sheet has been updated. Remember to ice your shoulder after long shoots."
+    },
+    {
+     "me": false,
+     "text": "Reminder: your visit is today at 5:15 PM."
+    },
+    {
+     "me": false,
+     "text": "That's your last authorized visit. Maya recommends a check-in in 8 weeks. Reply BOOK to schedule."
+    },
+    {
+     "me": true,
+     "text": "BOOK"
+    },
+    {
+     "me": false,
+     "text": "We have a check-in available at 5:15 PM on the 25th of August. Reply YES to hold it."
+    },
+    {
+     "me": true,
+     "text": "YES"
+    },
+    {
+     "me": false,
+     "text": "Reminder: appointment tomorrow at 8:15 AM. Reply C to confirm or R to reschedule."
+    },
+    {
+     "me": true,
+     "text": "R"
+    },
+    {
+     "me": false,
+     "text": "No problem. We have an opening in two days at 4:00 PM. Reply Y to book it."
+    },
+    {
+     "me": true,
+     "text": "Y"
+    },
+    {
+     "me": false,
+     "text": "You're booked. See you then!"
+    },
+    {
+     "me": false,
+     "text": "We haven't seen you in a few weeks. Want to schedule your next session?"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-cedarvine",
+   "title": "Cedar & Vine Events",
+   "time": "Monday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hi Celeste, it's Kendra at Cedar & Vine. We're planning a wedding in May and the couple loves your work. Are you available on May 16?"
+    },
+    {
+     "me": true,
+     "text": "Hi Kendra! Thanks for thinking of me. Let me check... yes, I'm open"
+    },
+    {
+     "me": false,
+     "text": "Wonderful. 120 guests, ceremony at 5, outdoor at a winery in the Willamette Valley"
+    },
+    {
+     "me": true,
+     "text": "Gorgeous. What's the rain plan?"
+    },
+    {
+     "me": false,
+     "text": "Covered barn, same venue. Capacity is fine"
+    },
+    {
+     "me": true,
+     "text": "Perfect. I'll send the contract and a questionnaire today"
+    },
+    {
+     "me": false,
+     "text": "Thank you! The couple are Maya and Ben, by the way"
+    },
+    {
+     "me": true,
+     "text": "Love it. I'll get it to them this afternoon"
+    },
+    {
+     "me": false,
+     "text": "Maya and Ben signed! They want an engagement shoot too, any openings in April?"
+    },
+    {
+     "me": true,
+     "text": "I have April 11 at golden hour. Laurelhurst Park?"
+    },
+    {
+     "me": false,
+     "text": "They'll love that. Booking it"
+    },
+    {
+     "me": true,
+     "text": "I'll send a prep guide on what to wear. Tell them no busy patterns"
+    },
+    {
+     "me": false,
+     "text": "Ha, Maya's closet is mostly stripes. I'll warn her"
+    },
+    {
+     "me": false,
+     "text": "They were thrilled with the preview shots!! Maya is already showing her mom"
+    },
+    {
+     "me": true,
+     "text": "So glad! Full gallery in two weeks"
+    },
+    {
+     "me": false,
+     "text": "Timeline draft for May 16: getting ready 1:30, first look 3:30, ceremony 5. Does that work?"
+    },
+    {
+     "me": true,
+     "text": "Looks good. Can we push first look to 3:45? The light on that terrace is better"
+    },
+    {
+     "me": false,
+     "text": "Done. Updating the vendor sheet"
+    },
+    {
+     "me": true,
+     "text": "Thanks. Can you confirm who's doing florals?"
+    },
+    {
+     "me": false,
+     "text": "Wild Stem Florals. You already know them 😉"
+    },
+    {
+     "me": true,
+     "text": "Love it. Best bouquets in town"
+    },
+    {
+     "me": false,
+     "text": "Reminder for tomorrow: vendor meal is at 6, parking is behind the barn"
+    },
+    {
+     "me": true,
+     "text": "Got it. Arriving at 1 with Theo"
+    },
+    {
+     "me": false,
+     "text": "Perfect. The bride's sister will meet you at the door"
+    },
+    {
+     "me": false,
+     "text": "Maya and Ben said it was the best day of their lives. Thank you for being so calm"
+    },
+    {
+     "me": true,
+     "text": "That's the nicest thing! Thank you Kendra"
+    },
+    {
+     "me": false,
+     "text": "Hi again! Another couple, the Lin-Foster wedding, mid-August, a rooftop downtown. Interested?"
+    },
+    {
+     "me": true,
+     "text": "Yes, send me the details. Rooftop means wind and sun, so I'll scout"
+    },
+    {
+     "me": false,
+     "text": "I'll share the venue contact. Scout anytime"
+    },
+    {
+     "me": true,
+     "text": "Great. Do they want a second shooter?"
+    },
+    {
+     "me": false,
+     "text": "They'd like one, yes"
+    },
+    {
+     "me": true,
+     "text": "Theo, then. I'll quote both"
+    },
+    {
+     "me": false,
+     "text": "Quote approved! Deposit is on the way"
+    },
+    {
+     "me": true,
+     "text": "Received, thank you. I'll send the questionnaire"
+    },
+    {
+     "me": false,
+     "text": "Quick heads up, the rooftop has a noise ordinance, music ends at 9:30"
+    },
+    {
+     "me": true,
+     "text": "Ok. I'll make sure we get the dance floor shots before that"
+    },
+    {
+     "me": false,
+     "text": "Final guest count is 90. Cake cutting moved up to 7:30"
+    },
+    {
+     "me": true,
+     "text": "Thanks. I'll update my shot list"
+    },
+    {
+     "me": false,
+     "text": "All set for next week? The couple asked about a sparkler exit"
+    },
+    {
+     "me": true,
+     "text": "Sparklers are great but we need a cooldown plan for the venue. Ask if the fire marshal's okay"
+    },
+    {
+     "me": false,
+     "text": "Will check. Back to you by tomorrow"
+    },
+    {
+     "me": true,
+     "text": "Thanks Kendra"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-2fa",
+   "title": "Unknown",
+   "time": "Monday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Your RevoBank verification code is 482915. Do not share this code with anyone."
+    },
+    {
+     "me": false,
+     "text": "Your RevoBank verification code is 730268. It expires in 10 minutes."
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-marcus",
+   "title": "Marcus",
+   "time": "Sunday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hey Celeste, Marcus. Imani said you have a spare tripod? Mine broke"
+    },
+    {
+     "me": true,
+     "text": "I have an old carbon one in the studio closet. You can have it"
+    },
+    {
+     "me": false,
+     "text": "Seriously? That's huge. I'll swing by tomorrow"
+    },
+    {
+     "me": true,
+     "text": "Dana will be there, she'll hand it over. Ask her about the coffee machine, she's got opinions"
+    },
+    {
+     "me": false,
+     "text": "Ha. Noted"
+    },
+    {
+     "me": false,
+     "text": "Got the tripod. Dana made me a latte. Bribery works"
+    },
+    {
+     "me": true,
+     "text": "She's so scary and so sweet"
+    },
+    {
+     "me": false,
+     "text": "Still on for the gym this weekend? I want to try that purple route"
+    },
+    {
+     "me": true,
+     "text": "Can't, I have a shoot. Next time!"
+    },
+    {
+     "me": false,
+     "text": "Always shooting. Okay, I'll sacrifice my fingers alone"
+    },
+    {
+     "me": true,
+     "text": "Chalk responsibly 😂"
+    },
+    {
+     "me": false,
+     "text": "Sent you a photo of the climb. I made it!! (barely)"
+    },
+    {
+     "me": true,
+     "text": "You look like a spider in a tree. Proud of you"
+    },
+    {
+     "me": false,
+     "text": "Do you know any good dentists? Imani insists I get a cleaning"
+    },
+    {
+     "me": true,
+     "text": "Portland Dental Care on Hawthorne. They're gentle and don't judge"
+    },
+    {
+     "me": false,
+     "text": "Booking now. Thanks"
+    },
+    {
+     "me": false,
+     "text": "Update: two cavities. Never going to floss again (lie)"
+    },
+    {
+     "me": true,
+     "text": "Floss. It's not that hard"
+    },
+    {
+     "me": false,
+     "text": "Okay mom"
+    },
+    {
+     "me": false,
+     "text": "Venue walkthrough for the Alvarez wedding is booked for the 3rd. Can you make it?"
+    },
+    {
+     "me": true,
+     "text": "Morning or afternoon? I'd prefer before noon"
+    },
+    {
+     "me": false,
+     "text": "11 works for them"
+    },
+    {
+     "me": true,
+     "text": "See you there. I'll scout the light"
+    },
+    {
+     "me": false,
+     "text": "Hey, are you free for the Fourth? We're doing a rooftop thing"
+    },
+    {
+     "me": true,
+     "text": "I'd love to but I have plans. Tell everyone hi"
+    },
+    {
+     "me": false,
+     "text": "No worries. We'll miss you"
+    },
+    {
+     "me": false,
+     "text": "Light is rough in that room. Windows face the wrong way"
+    },
+    {
+     "me": true,
+     "text": "We'll use the side lawn for portraits and bounce light inside"
+    },
+    {
+     "me": false,
+     "text": "Smart. You're good at this"
+    },
+    {
+     "me": true,
+     "text": "Trying to be. Thanks for the intro to the couple"
+    },
+    {
+     "me": false,
+     "text": "Fireworks pic. Some guy dropped a sparkler on his shoe"
+    },
+    {
+     "me": true,
+     "text": "Oh no. Is he ok?"
+    },
+    {
+     "me": false,
+     "text": "Just ego damage. He's fine"
+    },
+    {
+     "me": false,
+     "text": "Hey, are you still looking for a second shooter for the fall rush?"
+    },
+    {
+     "me": true,
+     "text": "Maybe. Why, you know someone?"
+    },
+    {
+     "me": false,
+     "text": "A friend of mine, solid portfolio, super chill. I can send her Instagram"
+    },
+    {
+     "me": true,
+     "text": "Send it over, I'll take a look"
+    },
+    {
+     "me": false,
+     "text": "Sent. Her name is Kiara, she shoots mostly film"
+    },
+    {
+     "me": true,
+     "text": "Her work is lovely. I'll ask Dana to check it too"
+    },
+    {
+     "me": false,
+     "text": "Great. No pressure, just thought of you"
+    },
+    {
+     "me": false,
+     "text": "The DJ needs a shot list for the first dance. Can you send me yours?"
+    },
+    {
+     "me": true,
+     "text": "Sure, emailing it now"
+    },
+    {
+     "me": false,
+     "text": "Got it. Thank you"
+    },
+    {
+     "me": false,
+     "text": "Did you get the softball team photos back from the print lab?"
+    },
+    {
+     "me": true,
+     "text": "They're ready, I'll drop them at your place this week"
+    },
+    {
+     "me": false,
+     "text": "No rush. The team is just excited"
+    },
+    {
+     "me": false,
+     "text": "Quick question. Would a 24mm lens work for baby photos? Imani wants me to do newborn pics myself"
+    },
+    {
+     "me": true,
+     "text": "Better with a 50. Wide makes baby heads look huge. Rent one from Rose City"
+    },
+    {
+     "me": false,
+     "text": "Genius. Thanks"
+    },
+    {
+     "me": true,
+     "text": "Dropped them in your mailbox. Check for the big envelope"
+    },
+    {
+     "me": false,
+     "text": "Got them!! Coach is crying, I'm not kidding"
+    },
+    {
+     "me": true,
+     "text": "Tell her she's welcome 😊"
+    },
+    {
+     "me": false,
+     "text": "Trail run next weekend? Early, before it's hot"
+    },
+    {
+     "me": true,
+     "text": "I'm shooting that day. The one after?"
+    },
+    {
+     "me": false,
+     "text": "Works. 6:30 at the Wildwood trailhead"
+    },
+    {
+     "me": true,
+     "text": "Ugh, 6:30. Fine. I'm bringing a banana"
+    },
+    {
+     "me": false,
+     "text": "Elite fuel"
+    },
+    {
+     "me": false,
+     "text": "Dana told me you moved places. Need help hauling anything?"
+    },
+    {
+     "me": true,
+     "text": "All good, thanks though. Just a few boxes left"
+    },
+    {
+     "me": false,
+     "text": "Offer stands. I have a truck and strong forearms from climbing"
+    },
+    {
+     "me": true,
+     "text": "😂 I'll remember that"
+    },
+    {
+     "me": false,
+     "text": "Quick one, do you carry a spare memory card? Mine's acting weird"
+    },
+    {
+     "me": true,
+     "text": "Yes, 128GB. Take it, you can return it later"
+    },
+    {
+     "me": false,
+     "text": "Saved my morning"
+    },
+    {
+     "me": true,
+     "text": "Good luck today!"
+    },
+    {
+     "me": true,
+     "text": "Sorry, bailing on the run. Rough night, barely slept"
+    },
+    {
+     "me": false,
+     "text": "All good. Rest. Want me to bring you a coffee after?"
+    },
+    {
+     "me": true,
+     "text": "Sweet of you, but I'm okay. Next time"
+    },
+    {
+     "me": false,
+     "text": "You've said next time a lot lately. Everything alright?"
+    },
+    {
+     "me": true,
+     "text": "Just tired. Thanks for asking"
+    },
+    {
+     "me": false,
+     "text": "Okay. I'm around if you want to talk"
+    },
+    {
+     "me": true,
+     "text": "I know. Thank you 🙂"
+    },
+    {
+     "me": false,
+     "text": "Gym opens a new bouldering wall next week. Want to come?"
+    },
+    {
+     "me": true,
+     "text": "Maybe. Let me see how my week shakes out"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-runclub",
+   "title": "Forest Park Run Club, Tasha, Sam",
+   "time": "Sunday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Welcome new runners! Weekly trail run meets at the Lower Macleay trailhead, 6:30 AM. All paces welcome."
+    },
+    {
+     "me": false,
+     "text": "Hi all! Tasha here. Any other slow runners? 🙋‍♀️"
+    },
+    {
+     "me": false,
+     "text": "Sam. Slow is the default. We stop for coffee"
+    },
+    {
+     "me": true,
+     "text": "Celeste, hi! Slow-ish runner. I come for the dirt and the quiet"
+    },
+    {
+     "me": false,
+     "text": "Welcome Celeste!"
+    },
+    {
+     "me": false,
+     "text": "Reminder: trail is muddy after rain. Wear shoes you don't love."
+    },
+    {
+     "me": false,
+     "text": "Too late, I already love mine"
+    },
+    {
+     "me": true,
+     "text": "On my way, 10 minutes behind"
+    },
+    {
+     "me": false,
+     "text": "We'll wait at the first bridge"
+    },
+    {
+     "me": true,
+     "text": "You are angels"
+    },
+    {
+     "me": false,
+     "text": "Next run: a 4 mile loop through Wildwood. Water at the Stone House."
+    },
+    {
+     "me": false,
+     "text": "I'm in. Sam, are you bringing the dog?"
+    },
+    {
+     "me": false,
+     "text": "Obviously. Juno is the real athlete"
+    },
+    {
+     "me": true,
+     "text": "Juno gets the first treat"
+    },
+    {
+     "me": false,
+     "text": "Race season starts. Anyone doing the 10K at the end of May?"
+    },
+    {
+     "me": false,
+     "text": "Considering. Pain, but fun"
+    },
+    {
+     "me": true,
+     "text": "I'll sign up if someone promises to let me walk the hills"
+    },
+    {
+     "me": false,
+     "text": "Promise. Hills are walking zones"
+    },
+    {
+     "me": false,
+     "text": "Signed up! Bib pickup is the day before"
+    },
+    {
+     "me": true,
+     "text": "Okay I'm in. Don't let me quit"
+    },
+    {
+     "me": false,
+     "text": "Pro tip: shorter strides downhill, quiet breathing uphill. See you at 6:30."
+    },
+    {
+     "me": false,
+     "text": "Nice run today, everyone! That sunrise by the Pittock trail 😍"
+    },
+    {
+     "me": true,
+     "text": "Best sunrise so far. Forgot my camera and am furious at myself"
+    },
+    {
+     "me": false,
+     "text": "You have a phone"
+    },
+    {
+     "me": true,
+     "text": "It's not the same!!"
+    },
+    {
+     "me": false,
+     "text": "10K done. Tasha's sprint finish was unreal"
+    },
+    {
+     "me": false,
+     "text": "I saw a hill and got angry"
+    },
+    {
+     "me": true,
+     "text": "Congrats you two! I had a wedding, sorry, bad timing. Next one"
+    },
+    {
+     "me": false,
+     "text": "We drank a mimosa in your honor"
+    },
+    {
+     "me": true,
+     "text": "Perfect response"
+    },
+    {
+     "me": false,
+     "text": "Trail run at Wildwood this morning, meeting at 6:30. Bring water, it's going to be warm"
+    },
+    {
+     "me": false,
+     "text": "I'll be there with bells on"
+    },
+    {
+     "me": false,
+     "text": "Running late, start without me"
+    },
+    {
+     "me": false,
+     "text": "You always say that and then you finish first"
+    },
+    {
+     "me": false,
+     "text": "Great loop today, everyone. Bagels at the corner place after?"
+    },
+    {
+     "me": false,
+     "text": "Summer schedule: runs start at 6:00 AM to beat the heat. Same meeting spot."
+    },
+    {
+     "me": false,
+     "text": "Why is it so early 😭"
+    },
+    {
+     "me": false,
+     "text": "Heat is worse"
+    },
+    {
+     "me": true,
+     "text": "Might skip some. Evenings are tough with work. I'll be back"
+    },
+    {
+     "me": false,
+     "text": "No pressure, we're here whenever"
+    },
+    {
+     "me": false,
+     "text": "Heads up: trail closure near the Lower Macleay entrance for maintenance. Use the alternate lot."
+    },
+    {
+     "me": false,
+     "text": "Parking is the real trial"
+    },
+    {
+     "me": false,
+     "text": "Reminder: the club picnic is next month, bring a dish"
+    },
+    {
+     "me": false,
+     "text": "I'll bring potato salad"
+    },
+    {
+     "me": false,
+     "text": "Sam, you are NOT bringing store-bought hummus again"
+    },
+    {
+     "me": false,
+     "text": "It was good hummus"
+    },
+    {
+     "me": true,
+     "text": "Can't make it this time, work stuff. Have fun!"
+    },
+    {
+     "me": false,
+     "text": "We'll miss you, Celeste"
+    },
+    {
+     "me": false,
+     "text": "Forest Park is magical in the morning right now, the ferns are glowing"
+    },
+    {
+     "me": false,
+     "text": "Wish you were here Celeste 🌲"
+    },
+    {
+     "me": true,
+     "text": "Miss it. Soon"
+    },
+    {
+     "me": false,
+     "text": "We'll save you a spot at the bridge"
+    },
+    {
+     "me": false,
+     "text": "Trail's closed near the lower loop because of fallen trees. Use the upper path"
+    },
+    {
+     "me": false,
+     "text": "Thanks for the heads up"
+    },
+    {
+     "me": false,
+     "text": "Reminder: club picnic next month at Laurelhurst. Bring a side dish!"
+    },
+    {
+     "me": false,
+     "text": "I'm bringing the dog and no side dish"
+    },
+    {
+     "me": false,
+     "text": "Tasha brings cookies"
+    },
+    {
+     "me": true,
+     "text": "Cookies sound dangerous. Count me in for the picnic, maybe"
+    },
+    {
+     "me": false,
+     "text": "Maybe is accepted 😊"
+    },
+    {
+     "me": false,
+     "text": "Anyone want to sign up for the 10K in the fall?"
+    },
+    {
+     "me": true,
+     "text": "Maybe. Ask me in a couple weeks"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-odile",
+   "title": "Tante Odile",
+   "time": "Sunday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Coucou ma chérie! Maman says you have a new phone number for work. Is this still the right one?"
+    },
+    {
+     "me": true,
+     "text": "Hi Tante Odile! Same number, I only changed the carrier. Hope you're well 🙂"
+    },
+    {
+     "me": false,
+     "text": "Very well. The cold here is terrible but the bakery downstairs still saves me a brioche."
+    },
+    {
+     "me": true,
+     "text": "Save me one for the next visit"
+    },
+    {
+     "me": false,
+     "text": "When is the next visit? You promised before the summer."
+    },
+    {
+     "me": true,
+     "text": "I know, I know. Wedding season eats everything. Maybe autumn, once things quiet down"
+    },
+    {
+     "me": false,
+     "text": "Autumn is lovely here. The Saône in October, you remember?"
+    },
+    {
+     "me": true,
+     "text": "I do. I have like two hundred photos of it somewhere"
+    },
+    {
+     "me": false,
+     "text": "Happy birthday to my favorite photographer!! 🎂 33 already, mon Dieu."
+    },
+    {
+     "me": true,
+     "text": "Merci Tante!! You remembered 🥹"
+    },
+    {
+     "me": false,
+     "text": "Of course. I mailed a card, it will be late, the post is a disaster."
+    },
+    {
+     "me": true,
+     "text": "Card arrived! The little drawing of the cat made me laugh"
+    },
+    {
+     "me": false,
+     "text": "That is not a cat, it is a lion. I am wounded."
+    },
+    {
+     "me": true,
+     "text": "😂 a very small lion then"
+    },
+    {
+     "me": false,
+     "text": "I am doing a vide-grenier on Sunday. Selling Papa's old camera bag, the leather one. Do you want it first?"
+    },
+    {
+     "me": true,
+     "text": "YES. Do not sell it. Please. I'll ask Maman to bring it when she visits"
+    },
+    {
+     "me": false,
+     "text": "Bien sûr. I will put it in a box with the lavender sachets."
+    },
+    {
+     "me": true,
+     "text": "Tante, how do I make the tarte tatin your way? Mine is always soggy"
+    },
+    {
+     "me": false,
+     "text": "You cook the apples too long before the pastry. Less. And a hot pan. And salted butter, always."
+    },
+    {
+     "me": true,
+     "text": "Salted butter. Writing it down"
+    },
+    {
+     "me": false,
+     "text": "Did it work?"
+    },
+    {
+     "me": true,
+     "text": "Best one I've ever made 🍎 I ate half standing at the counter"
+    },
+    {
+     "me": false,
+     "text": "That is the correct way to eat it."
+    },
+    {
+     "me": false,
+     "text": "My hip is better, the doctor says walking is good. I walk to the market every morning now."
+    },
+    {
+     "me": true,
+     "text": "That's wonderful news. Don't overdo it on the cobblestones!"
+    },
+    {
+     "me": false,
+     "text": "I am careful. I walk like a duchess."
+    },
+    {
+     "me": false,
+     "text": "Photo of Maman on the balcony, she looks happy. She says you are very busy and quiet lately."
+    },
+    {
+     "me": true,
+     "text": "Busy, yes. I'll call her soon. Tell her I love her?"
+    },
+    {
+     "me": false,
+     "text": "Tell her yourself, chérie. But I will pass it on too."
+    },
+    {
+     "me": true,
+     "text": "Fair 🙂"
+    },
+    {
+     "me": false,
+     "text": "Ma chérie, how is the work? Are you eating properly?"
+    },
+    {
+     "me": true,
+     "text": "Bonjour Tante! Yes I'm eating, I promise. Lots of weddings"
+    },
+    {
+     "me": false,
+     "text": "Good. I made your grand-mère's tarte aux pommes yesterday and thought of you"
+    },
+    {
+     "me": true,
+     "text": "Stop, now I want some 😭"
+    },
+    {
+     "me": false,
+     "text": "Come to Lyon in the autumn. I will bake one just for you"
+    },
+    {
+     "me": true,
+     "text": "I'd love that. Let me see about flights"
+    },
+    {
+     "me": false,
+     "text": "Your cousin Margaux had a baby girl. Here is the news, so you know"
+    },
+    {
+     "me": true,
+     "text": "Oh how wonderful!! Please send her my love"
+    },
+    {
+     "me": false,
+     "text": "I will. Her name is Camille. Very beautiful"
+    },
+    {
+     "me": true,
+     "text": "Camille, I love it. I'll mail a card"
+    },
+    {
+     "me": false,
+     "text": "The heat wave started. 38 degrees. I sit with my feet in a bucket and read the whole day."
+    },
+    {
+     "me": true,
+     "text": "Stay inside and drink water! Portland is mild this week, I'm jealous"
+    },
+    {
+     "me": false,
+     "text": "Water, yes. And a little rosé. For the circulation."
+    },
+    {
+     "me": true,
+     "text": "For the circulation 😂"
+    },
+    {
+     "me": false,
+     "text": "The weather here is very hot. Even the cats are complaining"
+    },
+    {
+     "me": true,
+     "text": "Same here, but I'm used to it from shooting outdoors"
+    },
+    {
+     "me": false,
+     "text": "Do you still want the lavender soap from the market? I can send a parcel."
+    },
+    {
+     "me": true,
+     "text": "Yes please! And the camera bag whenever there's room. I'll pay the postage"
+    },
+    {
+     "me": false,
+     "text": "No postage. It is a gift. Give me an address."
+    },
+    {
+     "me": true,
+     "text": "Let me get back to you on the address, I'm between places this month"
+    },
+    {
+     "me": false,
+     "text": "Between places? Hm. Tell me when you know. Bisous."
+    },
+    {
+     "me": true,
+     "text": "Bisous Tante 🤍"
+    },
+    {
+     "me": false,
+     "text": "Call your mother more. She worries"
+    },
+    {
+     "me": true,
+     "text": "I know. I will this week, I promise"
+    },
+    {
+     "me": false,
+     "text": "Bises, ma belle"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-kim",
+   "title": "Kim",
+   "time": "Saturday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Celeste!! Are you free for the Hollywood Theatre thing next month? They're doing a 35mm night"
+    },
+    {
+     "me": true,
+     "text": "Probably, I'll check the calendar. What's showing?"
+    },
+    {
+     "me": false,
+     "text": "Some old Truffaut double feature. Very you."
+    },
+    {
+     "me": true,
+     "text": "Okay yes. Put me down for two tickets 🎞️"
+    },
+    {
+     "me": false,
+     "text": "Got them. I'll bring the good popcorn salt."
+    },
+    {
+     "me": true,
+     "text": "That was so good. I'm still thinking about the ending"
+    },
+    {
+     "me": false,
+     "text": "Right?? Also your hair looked amazing tonight"
+    },
+    {
+     "me": true,
+     "text": "It was the claw clip doing all the work"
+    },
+    {
+     "me": false,
+     "text": "Do you know a good dentist who takes new patients? Mine retired"
+    },
+    {
+     "me": true,
+     "text": "Portland Dental Care on Hawthorne, I've been going for years. They're nice and don't lecture about flossing"
+    },
+    {
+     "me": false,
+     "text": "Perfect. Booking today."
+    },
+    {
+     "me": false,
+     "text": "Plant swap at my place this weekend if you want a pothos cutting"
+    },
+    {
+     "me": true,
+     "text": "I have a wedding all day. Rain check?"
+    },
+    {
+     "me": false,
+     "text": "Always a wedding 😅 I'll save you one"
+    },
+    {
+     "me": false,
+     "text": "Okay my pothos is thriving. I named it Gerald"
+    },
+    {
+     "me": true,
+     "text": "Gerald deserves a good life"
+    },
+    {
+     "me": false,
+     "text": "Hey, haven't heard from you in a bit. Drinks soon?"
+    },
+    {
+     "me": true,
+     "text": "Sorry, slammed. Let me look at next week"
+    },
+    {
+     "me": false,
+     "text": "No stress. Just don't disappear on me 💛"
+    },
+    {
+     "me": true,
+     "text": "Not disappearing. Promise."
+    },
+    {
+     "me": false,
+     "text": "Did the new ramen place on Division open yet? I keep walking past the paper in the windows"
+    },
+    {
+     "me": true,
+     "text": "Not sure, I haven't been over that way"
+    },
+    {
+     "me": false,
+     "text": "Do you still have the pottery glaze chart? I forgot which blue I used"
+    },
+    {
+     "me": true,
+     "text": "Yes, it's on my other phone case. Sending a photo of the page tonight"
+    },
+    {
+     "me": false,
+     "text": "You're the best"
+    },
+    {
+     "me": false,
+     "text": "Went anyway. Tonkotsu is elite. We should go"
+    },
+    {
+     "me": true,
+     "text": "Yes. Soon. I mean it this time"
+    },
+    {
+     "me": false,
+     "text": "I'll believe it when there's broth in front of me"
+    },
+    {
+     "me": false,
+     "text": "My landlord wants to raise rent by 200. Is that even legal"
+    },
+    {
+     "me": true,
+     "text": "Oregon has a cap, look up the statewide limit on the state site. Should be well under that"
+    },
+    {
+     "me": false,
+     "text": "You are a lifesaver. Looking now."
+    },
+    {
+     "me": false,
+     "text": "My bowl came out of the kiln with a crack 😩"
+    },
+    {
+     "me": true,
+     "text": "Oh no. Kintsugi it. Gold makes everything fancy"
+    },
+    {
+     "me": false,
+     "text": "Okay that's actually a great idea"
+    },
+    {
+     "me": false,
+     "text": "Update: he backed down after I sent the link. Thank you!!"
+    },
+    {
+     "me": true,
+     "text": "Ha! Love that"
+    },
+    {
+     "me": false,
+     "text": "Class on the 22nd is trimming day. Wear clothes you hate"
+    },
+    {
+     "me": true,
+     "text": "Already wearing my sacrificial apron"
+    },
+    {
+     "me": false,
+     "text": "Farmers market tomorrow, peaches are in. Want some?"
+    },
+    {
+     "me": true,
+     "text": "Yes please, whatever you grab. I'll venmo you"
+    },
+    {
+     "me": false,
+     "text": "Dropped a bag on your porch. Nobody answered? Is the apartment okay"
+    },
+    {
+     "me": true,
+     "text": "Oh no, I'm not there much right now, long story. Can you hold them? I'll grab them"
+    },
+    {
+     "me": false,
+     "text": "I took them back home. They'll be jam by the time you come 😂"
+    },
+    {
+     "me": true,
+     "text": "Jam is fine"
+    },
+    {
+     "me": false,
+     "text": "Concert in Laurelhurst Park on the 20th, free. Bring a blanket"
+    },
+    {
+     "me": true,
+     "text": "I'll try. I might be shooting that evening"
+    },
+    {
+     "me": false,
+     "text": "Try hard, ok? I miss you"
+    },
+    {
+     "me": true,
+     "text": "I miss you too ❤️"
+    },
+    {
+     "me": false,
+     "text": "Thanks for walking me to the bus stop after class. Felt good to talk"
+    },
+    {
+     "me": true,
+     "text": "Anytime. See you at the next one"
+    },
+    {
+     "me": false,
+     "text": "Hey, I'll miss next class, visiting my cousin"
+    },
+    {
+     "me": true,
+     "text": "No worries, I'll save your seat and critique your mug"
+    },
+    {
+     "me": false,
+     "text": "Be nice"
+    },
+    {
+     "me": true,
+     "text": "I'm always nice"
+    },
+    {
+     "me": false,
+     "text": "😂"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-maman",
+   "title": "Maman",
+   "time": "7/29/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Bonjour ma puce ☀️ Did the package arrive? The lavender soap and the little calendar from the market."
+    },
+    {
+     "me": true,
+     "text": "Not yet! Tracking says it's stuck in customs. Merci Maman 💛"
+    },
+    {
+     "me": false,
+     "text": "They always do this. I told the post lady to write 'cadeau' on it."
+    },
+    {
+     "me": true,
+     "text": "Haha that's the magic word"
+    },
+    {
+     "me": false,
+     "text": "How is the studio? Are you eating real food or only coffee?"
+    },
+    {
+     "me": true,
+     "text": "Real food. I had soup yesterday. Wedding season is starting so it's chaos but good chaos"
+    },
+    {
+     "me": false,
+     "text": "Soup counts. Call me this weekend?"
+    },
+    {
+     "me": true,
+     "text": "Will try, I have an engagement shoot at golden hour. Might be late for you"
+    },
+    {
+     "me": false,
+     "text": "Late for me is fine. I stay up with the crossword anyway"
+    },
+    {
+     "me": false,
+     "text": "Tante Odile asks if you still want her pralines tart recipe. She will write it by hand, you know how she is"
+    },
+    {
+     "me": true,
+     "text": "YES. Tell her I'll try it for Dana's birthday"
+    },
+    {
+     "me": false,
+     "text": "She cried a little, she is very proud 😂"
+    },
+    {
+     "me": true,
+     "text": "Aw. Send a photo of the recipe when it's written"
+    },
+    {
+     "me": false,
+     "text": "She says use real butter. Not the 'light'. She said it three times"
+    },
+    {
+     "me": true,
+     "text": "Noted. Real butter. Always"
+    },
+    {
+     "me": false,
+     "text": "It's raining all week here. My knee is predicting the end of the world"
+    },
+    {
+     "me": true,
+     "text": "Sorry Maman 😕 Is the heating pad still working?"
+    },
+    {
+     "me": false,
+     "text": "Yes. And I bought the tea you like, the verveine"
+    },
+    {
+     "me": true,
+     "text": "Save me a box for when I visit"
+    },
+    {
+     "me": false,
+     "text": "When do you visit? Be honest."
+    },
+    {
+     "me": true,
+     "text": "Honestly I don't know yet. Maybe fall, after the busy season. I'll look at flights in a bit"
+    },
+    {
+     "me": false,
+     "text": "Fall is good. The light is beautiful in Lyon in October. Take your camera"
+    },
+    {
+     "me": true,
+     "text": "I never go anywhere without it 😅"
+    },
+    {
+     "me": false,
+     "text": "Madame Girard's grandson got married. The photographer was terrible, everyone's eyes closed"
+    },
+    {
+     "me": true,
+     "text": "Oh no 😬 Eyes closed is the worst. Take three frames, always"
+    },
+    {
+     "me": false,
+     "text": "I told her you could have done it. She said Portland is far. I said so is the moon, my daughter would go"
+    },
+    {
+     "me": true,
+     "text": "Ha. Maman 😂"
+    },
+    {
+     "me": true,
+     "text": "Happy Mother's Day Maman!! ❤️ Flowers should get to you in a couple of days"
+    },
+    {
+     "me": false,
+     "text": "Ma chérie, you shouldn't. But I love it. Peonies?"
+    },
+    {
+     "me": true,
+     "text": "Peonies and ranunculus. The florist I work with picked them"
+    },
+    {
+     "me": false,
+     "text": "I will put them next to your baby photo 🥹"
+    },
+    {
+     "me": true,
+     "text": "Please not the one with the bowl haircut"
+    },
+    {
+     "me": false,
+     "text": "That is the one. It is the best one"
+    },
+    {
+     "me": false,
+     "text": "Ma puce, did you get my package? I sent the lavender soaps"
+    },
+    {
+     "me": true,
+     "text": "Not yet Maman, customs maybe. I'll tell you when it arrives"
+    },
+    {
+     "me": false,
+     "text": "D'accord. The tomatoes in the garden are huge this year"
+    },
+    {
+     "me": true,
+     "text": "Send a photo next time, I want to see them"
+    },
+    {
+     "me": false,
+     "text": "Haven't heard your voice in a while. Busy season?"
+    },
+    {
+     "me": true,
+     "text": "Sorry Maman, weddings back to back. I'm fine, just tired. I'll call soon"
+    },
+    {
+     "me": false,
+     "text": "Soon is not a day 😄 but I understand. Sleep."
+    },
+    {
+     "me": true,
+     "text": "I will. Love you"
+    },
+    {
+     "me": false,
+     "text": "Je t'aime. Eat vegetables"
+    },
+    {
+     "me": true,
+     "text": "The soaps arrived! They smell like your grandmother's closet 😊"
+    },
+    {
+     "me": false,
+     "text": "Good. That is exactly the point"
+    },
+    {
+     "me": false,
+     "text": "The heat wave here is crazy. 38 degrees. I am living in the cellar like a bottle of wine"
+    },
+    {
+     "me": true,
+     "text": "Haha stay hydrated! It's hot here too, I shot a ceremony in a vineyard and my lens fogged up"
+    },
+    {
+     "me": false,
+     "text": "Send me one picture from it, I want to see the dresses"
+    },
+    {
+     "me": true,
+     "text": "I'll send a few from the gallery when it's delivered"
+    },
+    {
+     "me": false,
+     "text": "I miss your voice. Call me on Sunday?"
+    },
+    {
+     "me": true,
+     "text": "I'll try, Maman. The week is crazy"
+    },
+    {
+     "me": false,
+     "text": "Always crazy. Take care of yourself"
+    },
+    {
+     "me": false,
+     "text": "Je t'embrasse fort"
+    },
+    {
+     "me": false,
+     "text": "Odile's recipe is in the mail. With a lavender sachet. And the soap, again, because the first one is a mystery"
+    },
+    {
+     "me": true,
+     "text": "Ha! Thank you Maman. I'll make the tart soon 💛"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-priya",
+   "title": "Priya",
+   "time": "7/29/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Wine night this week? I have a bottle judging me."
+    },
+    {
+     "me": true,
+     "text": "YES. Mine or yours?"
+    },
+    {
+     "me": false,
+     "text": "Yours. Your couch is better."
+    },
+    {
+     "me": true,
+     "text": "Deal. 7:30"
+    },
+    {
+     "me": false,
+     "text": "Glaze test results are in! Mine came out neon green 😭"
+    },
+    {
+     "me": true,
+     "text": "Send a pic"
+    },
+    {
+     "me": false,
+     "text": "Too ashamed"
+    },
+    {
+     "me": true,
+     "text": "Class tomorrow?"
+    },
+    {
+     "me": false,
+     "text": "Yes. Bring snacks."
+    },
+    {
+     "me": false,
+     "text": "Did you see the new kiln schedule?"
+    },
+    {
+     "me": true,
+     "text": "Not yet. Forwarding it to my brain."
+    },
+    {
+     "me": false,
+     "text": "Wine night? It's been weeks!"
+    },
+    {
+     "me": true,
+     "text": "I met someone, kind of. Can't tell if it's a story yet"
+    },
+    {
+     "me": false,
+     "text": "WHAT. Details."
+    },
+    {
+     "me": true,
+     "text": "Later 😂"
+    },
+    {
+     "me": false,
+     "text": "Pottery tonight?"
+    },
+    {
+     "me": true,
+     "text": "Can't, dinner plans"
+    },
+    {
+     "me": false,
+     "text": "Ok, next time!"
+    },
+    {
+     "me": false,
+     "text": "Wine night? I'll bring cheese."
+    },
+    {
+     "me": true,
+     "text": "So sorry, can't tonight."
+    },
+    {
+     "me": false,
+     "text": "Hey stranger, you alive?"
+    },
+    {
+     "me": true,
+     "text": "Alive! Crazy few weeks."
+    },
+    {
+     "me": false,
+     "text": "Want to talk?"
+    },
+    {
+     "me": true,
+     "text": "Soon, promise."
+    },
+    {
+     "me": false,
+     "text": "Wine night this week? I have a bottle of that Oregon pinot you liked"
+    },
+    {
+     "me": true,
+     "text": "Yes please. I'll bring cheese from the Alberta market"
+    },
+    {
+     "me": false,
+     "text": "Not the brie that smells like feet again"
+    },
+    {
+     "me": true,
+     "text": "That was ONE time 😂"
+    },
+    {
+     "me": false,
+     "text": "Seven? I'll leave work early"
+    },
+    {
+     "me": true,
+     "text": "Seven works. Gotta charge batteries first, I have a wedding on the weekend"
+    },
+    {
+     "me": false,
+     "text": "Of course you do"
+    },
+    {
+     "me": false,
+     "text": "New glaze session starts soon. Join?"
+    },
+    {
+     "me": true,
+     "text": "Sorry, can't."
+    },
+    {
+     "me": false,
+     "text": "Did you see the heat forecast? 98 on Saturday"
+    },
+    {
+     "me": true,
+     "text": "Ugh. Outdoor ceremony, vineyard. Packing a towel for my neck and a lot of water"
+    },
+    {
+     "me": false,
+     "text": "Sunscreen on the freckles!!"
+    },
+    {
+     "me": true,
+     "text": "I'm usually the color of a lobster by noon"
+    },
+    {
+     "me": false,
+     "text": "Thinking of you. Wine night this month?"
+    },
+    {
+     "me": true,
+     "text": "Sorry, can't. Things are busy."
+    },
+    {
+     "me": false,
+     "text": "My sister just got engaged and I'm 100% recommending you"
+    },
+    {
+     "me": true,
+     "text": "Aw. I'll give her the friends rate"
+    },
+    {
+     "me": false,
+     "text": "She wants a loft shoot. Very her"
+    },
+    {
+     "me": false,
+     "text": "Hey stranger. You alive?"
+    },
+    {
+     "me": true,
+     "text": "Alive. Sorry, buried in edits"
+    },
+    {
+     "me": false,
+     "text": "Mm. Is the pottery thing still on? I signed up for the mug class"
+    },
+    {
+     "me": true,
+     "text": "Oh fun, yes. Bring an apron, clay gets everywhere"
+    },
+    {
+     "me": false,
+     "text": "Noted. Miss your face"
+    },
+    {
+     "me": true,
+     "text": "Miss yours. Soon, promise"
+    },
+    {
+     "me": false,
+     "text": "I made you a mug. Slightly cursed."
+    },
+    {
+     "me": true,
+     "text": "Ha, love it. Can't wait. See you soon."
+    },
+    {
+     "me": false,
+     "text": "You keep saying that."
+    },
+    {
+     "me": true,
+     "text": "I know. I'm sorry."
+    },
+    {
+     "me": false,
+     "text": "Last try: wine night? No pressure. I'm here when you want."
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-mira",
+   "title": "Mira's Hair Studio",
+   "time": "7/28/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Mira's Hair Studio: Hi Celeste! Confirming your trim and gloss on Thursday at 11:00 AM with Mira."
+    },
+    {
+     "me": true,
+     "text": "Confirmed, thanks!"
+    },
+    {
+     "me": false,
+     "text": "Quick question, are you doing the same shade or going a little lighter for summer?"
+    },
+    {
+     "me": true,
+     "text": "Same, just a gloss. I'm a wedding photographer, not a model 😂"
+    },
+    {
+     "me": false,
+     "text": "Ha! Gorgeous hair though. See you then."
+    },
+    {
+     "me": true,
+     "text": "Loved the cut! Thanks for squeezing me in"
+    },
+    {
+     "me": false,
+     "text": "Anytime! We recommend booking your next trim in 8 weeks. Want me to hold a spot?"
+    },
+    {
+     "me": true,
+     "text": "Yes please, whatever you have in early May"
+    },
+    {
+     "me": false,
+     "text": "Held: May 7 at 12:30 PM."
+    },
+    {
+     "me": false,
+     "text": "Reminder: your appointment is tomorrow at 12:30 PM."
+    },
+    {
+     "me": true,
+     "text": "Can I move it? I got double booked for an engagement shoot"
+    },
+    {
+     "me": false,
+     "text": "No problem. We have May 14 at 2:00 PM."
+    },
+    {
+     "me": true,
+     "text": "Perfect"
+    },
+    {
+     "me": false,
+     "text": "Hi Celeste! Your trim is due. Want to book? We have openings next week"
+    },
+    {
+     "me": true,
+     "text": "Yes please, something midday if possible"
+    },
+    {
+     "me": false,
+     "text": "How about 12:30? Same stylist as last time"
+    },
+    {
+     "me": true,
+     "text": "Perfect, thank you"
+    },
+    {
+     "me": false,
+     "text": "Hi Celeste, we're running a summer special: 20% off deep conditioning treatments through the end of July."
+    },
+    {
+     "me": true,
+     "text": "Maybe next month, thanks!"
+    },
+    {
+     "me": false,
+     "text": "Reminder: your appointment is tomorrow at 12:30 PM"
+    },
+    {
+     "me": true,
+     "text": "See you then!"
+    },
+    {
+     "me": false,
+     "text": "Thanks for coming in! If you loved your gloss, we're offering 10% off your next visit"
+    },
+    {
+     "me": false,
+     "text": "Summer special: deep conditioning add-on is half price this month"
+    },
+    {
+     "me": true,
+     "text": "Thanks, I'll think about it"
+    },
+    {
+     "me": false,
+     "text": "No problem! We're here whenever 💇‍♀️"
+    },
+    {
+     "me": false,
+     "text": "It's been a while! Want to book a trim before the busy fall season?"
+    },
+    {
+     "me": true,
+     "text": "Yes. Do you have anything the second week of August?"
+    },
+    {
+     "me": false,
+     "text": "August 13 at 10:00 AM is open."
+    },
+    {
+     "me": true,
+     "text": "Book it. Thank you!"
+    },
+    {
+     "me": false,
+     "text": "Done! See you then 💇‍♀️"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-vega",
+   "title": "Marisol",
+   "time": "7/18/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hi Celeste! Marisol here. Our venue says sunset is 7:48 on the day. Does that work for portraits?"
+    },
+    {
+     "me": true,
+     "text": "Hi Marisol! That's lovely. Golden hour starts around 6:45, so we'll start portraits then."
+    },
+    {
+     "me": true,
+     "text": "Amazing. Reminder that the second deposit invoice is open. Let me know if you have trouble with the link."
+    },
+    {
+     "me": false,
+     "text": "Celeste, quick one. The flowers are confirmed for pickup at 9 on the day"
+    },
+    {
+     "me": true,
+     "text": "Perfect, thank you Marisol. I'll have someone from the studio grab them"
+    },
+    {
+     "me": false,
+     "text": "Do you want the bouquet photographed before the ceremony? I can arrive early"
+    },
+    {
+     "me": true,
+     "text": "Yes please. 30 minutes before the bride's prep ends"
+    },
+    {
+     "me": false,
+     "text": "Got it. Bringing ribbons in a few colors in case she changes her mind"
+    },
+    {
+     "me": true,
+     "text": "You think of everything"
+    },
+    {
+     "me": false,
+     "text": "Paid! Also, can we add 20 minutes with the flower girls?"
+    },
+    {
+     "me": true,
+     "text": "Added to the shot list 💐"
+    },
+    {
+     "me": false,
+     "text": "That was a lovely day. Thanks for working around my chaos"
+    },
+    {
+     "me": true,
+     "text": "Anytime. Your peonies were stunning"
+    },
+    {
+     "me": false,
+     "text": "Peonies are finished for the season, dahlias coming soon"
+    },
+    {
+     "me": true,
+     "text": "Dahlias are gorgeous in photos. Book me for them"
+    },
+    {
+     "me": false,
+     "text": "Will do. Late August bookings fill up fast"
+    },
+    {
+     "me": true,
+     "text": "I'll check my calendar this week"
+    }
+   ]
+  }
+ ],
+ "whatsapp": [],
+ "gmail": [
+  {
+   "sender": "Dana Whitfield",
+   "subject": "Kerr cull — 388 keepers",
+   "preview": "388 keepers out of 2,100. You're welcome. Please for the love of God stop shooting 14 frames of the same toast",
+   "body": "388 keepers out of 2,100. You're welcome. Please for the love of God stop shooting 14 frames of the same toast.\n\nRetouch list is in the shared drive. Coffee's on you tomorrow.\n\nD",
+   "time": "Tuesday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Hawthorne Pharmacy",
+   "subject": "Your prescription is ready for pickup",
+   "preview": "Your prescription is ready at Hawthorne Pharmacy. Please pick it up within 7 days. Bring a photo ID. Store hou",
+   "body": "Your prescription is ready at Hawthorne Pharmacy. Please pick it up within 7 days. Bring a photo ID.\n\nStore hours: 9 AM to 7 PM.",
+   "time": "Tuesday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Maren at The Grove at Sauvie",
+   "subject": "Re: Load-in and parking for your upcoming booking",
+   "preview": "Hi Maren, Thanks for the details. Dana and I will share one car. Could I scout the orchard path about an hour ",
+   "body": "Hi Maren,\n\nThanks for the details. Dana and I will share one car. Could I scout the orchard path about an hour before load-in?\n\nCeleste",
+   "time": "Monday",
+   "folder": "sent"
+  },
+  {
+   "sender": "Maren at The Grove at Sauvie",
+   "subject": "Load-in and parking for your upcoming booking",
+   "preview": "Hi Celeste, Vendors can load in from 1:00 PM through the north gate. Parking is limited to two vehicles per ve",
+   "body": "Hi Celeste,\n\nVendors can load in from 1:00 PM through the north gate. Parking is limited to two vehicles per vendor, so please carpool if you can. The barn will be locked until the florist finishes.\n\nPhotographers are welcome to scout the orchard path beforehand.\n\nMaren",
+   "time": "Monday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Adobe Creative Cloud",
+   "subject": "New in Lightroom: faster masking",
+   "preview": "Faster subject selection, smarter sky masks and a cleaner export panel. See what's new in this month's update.",
+   "body": "Faster subject selection, smarter sky masks and a cleaner export panel. See what's new in this month's update.\n\nUnsubscribe at any time from your account settings.",
+   "time": "Monday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Northlight Billing",
+   "subject": "Invoice #1048 paid — Okafor gallery",
+   "preview": "Good news: invoice #1048 was paid in full. Client: Okafor Amount: $2,400.00 Method: Bank transfer A receipt ha",
+   "body": "Good news: invoice #1048 was paid in full.\n\nClient: Okafor\nAmount: $2,400.00\nMethod: Bank transfer\n\nA receipt has been sent to the client. View the invoice in your dashboard.",
+   "time": "Sunday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Rose City Camera Rentals",
+   "subject": "Question about my lens rental",
+   "preview": "Hi, Could I add a second battery grip to my reservation for the same dates? Thank you! Celeste Moreau",
+   "body": "Hi,\n\nCould I add a second battery grip to my reservation for the same dates? Thank you!\n\nCeleste Moreau",
+   "time": "Saturday",
+   "folder": "sent"
+  },
+  {
+   "sender": "Rose City Camera Rentals",
+   "subject": "Reservation confirmed — 70-200mm lens",
+   "preview": "Your rental is confirmed. Item: 70-200mm f/2.8 lens Pickup: August 7, 10:00 AM Return: August 10, 5:00 PM Plea",
+   "body": "Your rental is confirmed.\n\nItem: 70-200mm f/2.8 lens\nPickup: August 7, 10:00 AM\nReturn: August 10, 5:00 PM\n\nPlease bring a photo ID and the card used to book.",
+   "time": "Saturday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Belmont Property Management",
+   "subject": "August rent received — Apt 4",
+   "preview": "We received your August payment for 1830 SE Belmont St, Apt 4. Thank you. Reminder: the water will be shut off",
+   "body": "We received your August payment for 1830 SE Belmont St, Apt 4. Thank you.\n\nReminder: the water will be shut off for a short maintenance window next week. Notice posted in the lobby.\n\nBelmont Property Management",
+   "time": "Saturday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "WedFolio",
+   "subject": "Fall booking trends for wedding pros",
+   "preview": "Couples are booking earlier than ever. Our report covers pricing, popular venues and how to make your portfoli",
+   "body": "Couples are booking earlier than ever. Our report covers pricing, popular venues and how to make your portfolio stand out this season.\n\nRead the report.",
+   "time": "Saturday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Sam Eriksen",
+   "subject": "Re: Video + photo timeline for the Pierce wedding",
+   "preview": "Hi Sam, That plan works. I'll take the right side for the ceremony and we can swap for the recessional. Let's ",
+   "body": "Hi Sam,\n\nThat plan works. I'll take the right side for the ceremony and we can swap for the recessional. Let's check in by text on the day.\n\nCeleste",
+   "time": "Saturday",
+   "folder": "sent"
+  },
+  {
+   "sender": "Julian Ashford",
+   "subject": "Fwd: wire details — Bend",
+   "preview": "Here are the wire details from the closing office. Send it the morning of August 9, before noon, and we're loc",
+   "body": "Here are the wire details from the closing office. Send it the morning of August 9, before noon, and we're locked in. I'll drive you to the bank. Love you. ❤️\n\n— J\n\n---------- Forwarded message ----------\nFrom: Cascade Peak Title & Escrow <closings@cascadepeaktitle.com>\nSubject: Closing funds — 61190 Lava Ridge Ct, Bend, OR\n\nPlease find the wiring instructions for your file below.\n\nBeneficiary: Ashford Ridge Holdings LLC\nBank: Willamette Federal Bank\nAccount ending: 4471\nAmount: $85,000.00\nReference: Lava Ridge closing\n\nAlways confirm wire instructions by phone before sending funds. Wires cannot be recalled once released.\n\nCascade Peak Title & Escrow\nBend, Oregon\n\n--\nJulian Ashford | Investment Consultant | Private Client Advisory",
+   "time": "Friday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Sam Eriksen",
+   "subject": "Video + photo timeline for the Pierce wedding",
+   "preview": "Hi Celeste, I'm the videographer for the Pierce wedding. I'd like to coordinate so we don't block each other d",
+   "body": "Hi Celeste,\n\nI'm the videographer for the Pierce wedding. I'd like to coordinate so we don't block each other during the ceremony. I'll stay to the left of the aisle if you take the right. Does that work?\n\nSam",
+   "time": "Friday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Fuji X Weekly",
+   "subject": "Film simulation recipes for golden hour",
+   "preview": "This week: five film simulation recipes for warm evening light, plus a reader gallery from Portland photograph",
+   "body": "This week: five film simulation recipes for warm evening light, plus a reader gallery from Portland photographers.\n\nRead the full article on our site.",
+   "time": "Friday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Gina Ostrow",
+   "subject": "Draft valuation worksheet",
+   "preview": "Celeste, As discussed, here is the draft worksheet. It is a working document only, so please read the assumpti",
+   "body": "Celeste,\n\nAs discussed, here is the draft worksheet. It is a working document only, so please read the assumptions tab before drawing any conclusions. Happy to walk through it by phone.\n\nGina",
+   "time": "7/30/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Wild Stem Florals",
+   "subject": "Flower palette for the Kerr wedding",
+   "preview": "Hi Celeste! Sharing the palette so you know what to expect: dusty rose, cream ranunculus and a lot of eucalypt",
+   "body": "Hi Celeste! Sharing the palette so you know what to expect: dusty rose, cream ranunculus and a lot of eucalyptus. Bouquets will be ready at 1 PM. Let me know if you want a boutonniere flat-lay set aside for detail shots.\n\nJo at Wild Stem",
+   "time": "7/30/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Weather Alerts",
+   "subject": "Heat advisory for the Portland area",
+   "preview": "A heat advisory is in effect for the Portland metro area. Temperatures may reach the high 90s in the afternoon",
+   "body": "A heat advisory is in effect for the Portland metro area. Temperatures may reach the high 90s in the afternoon. If you're working outdoors, take breaks in the shade and stay hydrated.",
+   "time": "7/30/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Multnomah County Circuit Court",
+   "subject": "Notice of Hearing — Case 26SP04417",
+   "preview": "NOTICE OF HEARING Case number: 26SP04417 Matter: Petition for Stalking Protective Order Petitioner: Celeste Mo",
+   "body": "NOTICE OF HEARING\n\nCase number: 26SP04417\nMatter: Petition for Stalking Protective Order\nPetitioner: Celeste Moreau\nRespondent: Julian R. Ashford\n\nA hearing has been set in this matter.\n\nDate: August 9\nHearing: 9:00 AM, Courtroom 3A, Multnomah County Courthouse\n\nPlease arrive 30 minutes early for security screening and bring a government-issued photo ID. The respondent will be served with notice of this hearing.\n\nMultnomah County Circuit Court\nOffice of the Clerk",
+   "time": "7/29/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Portland General Electric",
+   "subject": "Your July bill is ready",
+   "preview": "Your July statement is available online. Amount due: $64.18 Due date: August 14 Pay online or set up autopay i",
+   "body": "Your July statement is available online.\n\nAmount due: $64.18\nDue date: August 14\n\nPay online or set up autopay in your account.",
+   "time": "7/29/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Multnomah County Circuit Court",
+   "subject": "Filing Received — Case 26SP04417",
+   "preview": "Your electronic filing has been received by the clerk's office. Case number: 26SP04417 Petitioner: Celeste Mor",
+   "body": "Your electronic filing has been received by the clerk's office.\n\nCase number: 26SP04417\nPetitioner: Celeste Moreau\nStatus: Received, pending review\n\nYou will be notified by email when the court has scheduled your matter. Please do not submit duplicate filings.\n\nMultnomah County Circuit Court\nOffice of the Clerk",
+   "time": "7/28/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Clay & Kiln Pottery",
+   "subject": "Your glazed pieces are ready",
+   "preview": "Hi Celeste! Your bowls came out of the kiln beautifully. They're ready for pickup at the studio any time durin",
+   "body": "Hi Celeste! Your bowls came out of the kiln beautifully. They're ready for pickup at the studio any time during open hours. Pieces not collected within 30 days go to the donation shelf.\n\nClay & Kiln",
+   "time": "7/27/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Nora Castellano",
+   "subject": "Re: Quick question about second shooters",
+   "preview": "Hi Nora, Yes, for weddings that size I recommend a second shooter. It's an add-on to the package and gives you",
+   "body": "Hi Nora,\n\nYes, for weddings that size I recommend a second shooter. It's an add-on to the package and gives you more angles during the ceremony. I'll send the details this week.\n\nBest,\nCeleste",
+   "time": "7/27/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Nora Castellano",
+   "subject": "Quick question about second shooters",
+   "preview": "Hi Celeste, I'm planning a 200-guest wedding for next spring and wondered whether you bring a second shooter, ",
+   "body": "Hi Celeste,\n\nI'm planning a 200-guest wedding for next spring and wondered whether you bring a second shooter, and how that changes the package. No rush!\n\nThanks,\nNora",
+   "time": "7/27/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Pearl Print Lab",
+   "subject": "Your print order has shipped",
+   "preview": "Your order of 12 prints (8x10, lustre) has shipped and should arrive in 2 to 3 business days. Thank you for pr",
+   "body": "Your order of 12 prints (8x10, lustre) has shipped and should arrive in 2 to 3 business days.\n\nThank you for printing with Pearl Print Lab.",
+   "time": "7/26/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Hector Ruiz",
+   "subject": "DJ playlist for the Kerr reception",
+   "preview": "Hey Celeste, Heads up, I'll be doing the music for the Kerr reception. The first dance is a slow acoustic cove",
+   "body": "Hey Celeste,\n\nHeads up, I'll be doing the music for the Kerr reception. The first dance is a slow acoustic cover, and grand entrance is at 6:45 PM. Let me know if you want a signal before the cake cutting.\n\nHector",
+   "time": "7/25/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Anna Kerr",
+   "subject": "Re: Kerr wedding — final timeline",
+   "preview": "Hi Anna, Perfect, thank you. I'll grab the full family group before cocktail hour and make sure your grandmoth",
+   "body": "Hi Anna,\n\nPerfect, thank you. I'll grab the full family group before cocktail hour and make sure your grandmother has a chair for every set-up.\n\nSee you there!\nCeleste",
+   "time": "7/24/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Anna Kerr",
+   "subject": "Kerr wedding — final timeline",
+   "preview": "Hi Celeste! Here's the final timeline. Ceremony is at 4:30, portraits right after, cocktail hour is the best l",
+   "body": "Hi Celeste!\n\nHere's the final timeline. Ceremony is at 4:30, portraits right after, cocktail hour is the best light so please grab the whole family group before the drinks. My grandmother needs to sit for all of it.\n\nThank you for being so calm about my chaos.\n\nAnna",
+   "time": "7/24/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Portland Dental Care",
+   "subject": "Re: Reminder: your cleaning is coming up",
+   "preview": "Hi, Could I move my cleaning to a morning slot later in the month? I have a shoot that afternoon and don't wan",
+   "body": "Hi,\n\nCould I move my cleaning to a morning slot later in the month? I have a shoot that afternoon and don't want to cut it close.\n\nThanks,\nCeleste",
+   "time": "7/22/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Portland Dental Care",
+   "subject": "Reminder: your cleaning is coming up",
+   "preview": "Hi Celeste, This is a friendly reminder that your six-month cleaning with Dr. Sandhu is scheduled for 10:15 AM",
+   "body": "Hi Celeste,\n\nThis is a friendly reminder that your six-month cleaning with Dr. Sandhu is scheduled for 10:15 AM in about two weeks. Please arrive ten minutes early to update your forms.\n\nNeed to reschedule? Reply to this email or call the front desk.\n\nPortland Dental Care",
+   "time": "7/22/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Gina Ostrow",
+   "subject": "NDA to sign before we meet",
+   "preview": "Hi Celeste, Thanks for the call. Attached is our standard mutual NDA. Please sign and send it back before we m",
+   "body": "Hi Celeste,\n\nThanks for the call. Attached is our standard mutual NDA. Please sign and send it back before we meet on July 25 at my office (812 SW Alder St, Suite 300).\n\nBring your last two years of financials if you have them handy.\n\nGina\nOstrow Business Brokerage",
+   "time": "7/21/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Portland Monthly",
+   "subject": "The best pho, patios and farmers' markets this summer",
+   "preview": "This week in Portland: • Ten patios worth the wait • Where to find the best marionberry pie • A guide to the H",
+   "body": "This week in Portland:\n\n• Ten patios worth the wait\n• Where to find the best marionberry pie\n• A guide to the Hollywood farmers' market\n• Free outdoor movies in the park\n\nRead more on our site.",
+   "time": "7/20/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Cedar & Vine Events",
+   "subject": "Vendor meal for photographers — fall season",
+   "preview": "Hi Celeste, We're updating our vendor list for the fall season. Photographers get a boxed meal and a spot to c",
+   "body": "Hi Celeste,\n\nWe're updating our vendor list for the fall season. Photographers get a boxed meal and a spot to charge batteries in the back kitchen. Please confirm any dietary needs by the end of the month.\n\nThanks,\nCedar & Vine Events",
+   "time": "7/18/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Clay & Kiln Pottery",
+   "subject": "Fall wheel-throwing classes open",
+   "preview": "Registration for our fall wheel-throwing series is open! Beginner and intermediate sessions run six weeks in t",
+   "body": "Registration for our fall wheel-throwing series is open! Beginner and intermediate sessions run six weeks in the evenings. Past students get early access through the end of the month.\n\nHope to see you back at the wheel.\n\nClay & Kiln",
+   "time": "7/16/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Burnside Animal Clinic",
+   "subject": "Biscuit is due for her annual vaccines",
+   "preview": "Hello Celeste, Our records show Biscuit's annual vaccines and wellness exam are due this month. You can book o",
+   "body": "Hello Celeste,\n\nOur records show Biscuit's annual vaccines and wellness exam are due this month. You can book online or reply with a few times that work for you.\n\nA reminder that we ask cats to arrive in a carrier.\n\nBurnside Animal Clinic",
+   "time": "7/14/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Mara Lindqvist",
+   "subject": "I think we have something in common",
+   "preview": "Hi Mara, You don't know me. My name is Celeste Moreau and I'm a photographer in Portland. I found your name in",
+   "body": "Hi Mara,\n\nYou don't know me. My name is Celeste Moreau and I'm a photographer in Portland. I found your name in a public record while I was looking into something personal.\n\nI think we have something in common. If you're willing to talk, even briefly, I'd be grateful. I understand completely if you'd rather not.\n\nPlease write to me here only.\n\nCeleste",
+   "time": "7/12/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "To: Tasha Greer",
+   "subject": "Re: Engagement session: outfit ideas?",
+   "preview": "Hi Tasha, The green dress will look beautiful against the trees at Mt. Tabor. Dog is absolutely welcome, just ",
+   "body": "Hi Tasha,\n\nThe green dress will look beautiful against the trees at Mt. Tabor. Dog is absolutely welcome, just bring treats and a friend to hold the leash during couple portraits.\n\nSee you soon,\nCeleste",
+   "time": "7/12/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Tasha Greer",
+   "subject": "Engagement session: outfit ideas?",
+   "preview": "Hi Celeste! Marcus and I are so excited for our engagement shoot. Do you think the green dress works for Mt. T",
+   "body": "Hi Celeste!\n\nMarcus and I are so excited for our engagement shoot. Do you think the green dress works for Mt. Tabor, or would something lighter photograph better? Also, can the dog come? He's very well behaved (mostly).\n\nThanks!\nTasha",
+   "time": "7/11/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Forest Park Run Club",
+   "subject": "Early-morning trail run: meet at Lower Macleay",
+   "preview": "Hey runners! We're meeting at the Lower Macleay trailhead at 6:30 AM for an easy 6-mile loop. Bring water, a h",
+   "body": "Hey runners!\n\nWe're meeting at the Lower Macleay trailhead at 6:30 AM for an easy 6-mile loop. Bring water, a headlamp if it's still dim, and a friend. Coffee at the cart on Alder afterward, as always.\n\nSee you out there,\nThe Forest Park Run Club crew",
+   "time": "7/9/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Cascade Gear Insurance",
+   "subject": "Your equipment policy renews next month",
+   "preview": "Hello Celeste, Your photography equipment policy renews next month. Please review your gear list and let us kn",
+   "body": "Hello Celeste,\n\nYour photography equipment policy renews next month. Please review your gear list and let us know about any new bodies or lenses so coverage stays accurate.\n\nPolicy renewal notice enclosed.\n\nCascade Gear Insurance",
+   "time": "7/8/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Dana Whitfield",
+   "subject": "Album proofs for Okafor",
+   "preview": "Dana, I'm attaching the album layout draft for the Okafor wedding. Can you check the spread order and flag any",
+   "body": "Dana,\n\nI'm attaching the album layout draft for the Okafor wedding. Can you check the spread order and flag any photos with blown highlights? I'll get through the notes tonight.\n\nCeleste",
+   "time": "7/6/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "To: Maman",
+   "subject": "Re: Photos du jardin",
+   "preview": "Maman, Les tomates sont magnifiques! Dis à Tante Odile qu'elle a gagné. Je t'appelle bientôt, promis. Gros bis",
+   "body": "Maman,\n\nLes tomates sont magnifiques! Dis à Tante Odile qu'elle a gagné. Je t'appelle bientôt, promis. Gros bisous.\n\nCeleste",
+   "time": "7/3/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Maman",
+   "subject": "Photos du jardin",
+   "preview": "Ma chérie, Voici les photos de mes tomates, elles sont énormes cette année! Tante Odile dit que c'est grâce au",
+   "body": "Ma chérie,\n\nVoici les photos de mes tomates, elles sont énormes cette année! Tante Odile dit que c'est grâce au compost. Appelle-moi quand tu as un moment, même cinq minutes. Je t'embrasse très fort.\n\nMaman",
+   "time": "7/3/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Spotify",
+   "subject": "Your receipt from Spotify",
+   "preview": "Thanks for being a Premium member. Plan: Premium Individual Amount: $11.99 Billing period: monthly Manage your",
+   "body": "Thanks for being a Premium member.\n\nPlan: Premium Individual\nAmount: $11.99\nBilling period: monthly\n\nManage your plan anytime in account settings.",
+   "time": "7/1/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Priya Shah",
+   "subject": "Re: Wine night? I found a new natural wine bar",
+   "preview": "P, That cheese plate sounds dangerous. Things are a little hectic right now but I'll let you know about an eve",
+   "body": "P,\n\nThat cheese plate sounds dangerous. Things are a little hectic right now but I'll let you know about an evening soon. Miss you.\n\nC",
+   "time": "6/29/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Priya Shah",
+   "subject": "Wine night? I found a new natural wine bar",
+   "preview": "Celeste! There's a tiny wine bar on Division that does a cheese plate I'm now dreaming about. Wine night soon?",
+   "body": "Celeste!\n\nThere's a tiny wine bar on Division that does a cheese plate I'm now dreaming about. Wine night soon? I'll bring the gossip, you bring the laugh I haven't heard in a while.\n\nTell me which evenings are good and I'll book.\n\nP xx",
+   "time": "6/28/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Ellie Park",
+   "subject": "Gallery is gorgeous — thank you",
+   "preview": "Celeste, We finally went through the whole gallery with my parents and everyone cried at the first-dance photo",
+   "body": "Celeste,\n\nWe finally went through the whole gallery with my parents and everyone cried at the first-dance photos. Thank you for catching my grandmother laughing. We'd love to order an album.\n\nWith so much gratitude,\nEllie",
+   "time": "6/24/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Fuji Repair Center",
+   "subject": "Re: Service ticket RC-20931: sensor cleaning complete",
+   "preview": "Thanks! Please ship it to the studio address at the NW Raleigh location instead of my apartment. Charge the ca",
+   "body": "Thanks! Please ship it to the studio address at the NW Raleigh location instead of my apartment. Charge the card on file.\n\nCeleste",
+   "time": "6/19/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Fuji Repair Center",
+   "subject": "Service ticket RC-20931: sensor cleaning complete",
+   "preview": "Hello Celeste, The sensor cleaning on your mirrorless body (service ticket RC-20931) is finished. It's ready t",
+   "body": "Hello Celeste,\n\nThe sensor cleaning on your mirrorless body (service ticket RC-20931) is finished. It's ready to ship or pick up. We also updated the firmware to the latest version.\n\nTotal due: $85.00 on pickup, or we can charge the card on file for shipping.\n\nFuji Repair Center",
+   "time": "6/19/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Uber Receipts",
+   "subject": "Your trip receipt: late reception ride",
+   "preview": "Thanks for riding, Celeste. Total: $23.18 Distance: 6.4 miles Payment: Visa ending 4417 Rate your driver in th",
+   "body": "Thanks for riding, Celeste.\n\nTotal: $23.18\nDistance: 6.4 miles\nPayment: Visa ending 4417\n\nRate your driver in the app.",
+   "time": "6/14/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Eastside Physical Therapy",
+   "subject": "Shoulder exercises from today's visit",
+   "preview": "Hi Celeste, Attached are the shoulder mobility exercises we went over. Since you carry camera gear for long st",
+   "body": "Hi Celeste,\n\nAttached are the shoulder mobility exercises we went over. Since you carry camera gear for long stretches, try to do these twice a day and switch the strap side when you can.\n\nSee you at your follow-up in two weeks.\n\nEastside Physical Therapy",
+   "time": "6/10/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Ace Hardware Belmont",
+   "subject": "Your receipt from Ace Hardware",
+   "preview": "Thank you for shopping with us! Power strip, 6-outlet — $14.99 Gaffer tape — $11.49 Battery pack, AA (8) — $9.",
+   "body": "Thank you for shopping with us!\n\nPower strip, 6-outlet — $14.99\nGaffer tape — $11.49\nBattery pack, AA (8) — $9.99\n\nTotal: $36.47\n\nHave a great day.",
+   "time": "6/5/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Bridgetown Climbing Gym",
+   "subject": "Your membership is on hold",
+   "preview": "Hi Celeste, As requested, your membership is now paused for the next three months. It will reactivate automati",
+   "body": "Hi Celeste,\n\nAs requested, your membership is now paused for the next three months. It will reactivate automatically unless you let us know. We'll keep your locker spot warm.\n\nBridgetown Climbing Gym",
+   "time": "5/30/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Portland Police Bureau Online Reporting",
+   "subject": "Copy of your report #26-118842",
+   "preview": "This is a copy of the report you submitted online. Please keep it for your records. Report number: 26-118842 R",
+   "body": "This is a copy of the report you submitted online. Please keep it for your records.\n\nReport number: 26-118842\nReport type: Residential entry, nothing reported missing\nLocation: 1830 SE Belmont St, Apt 4, Portland, OR\nReporting party: Celeste Moreau\n\nSummary provided by reporting party:\nI came home and found my apartment had been entered. Nothing was taken. A handwritten letter was left on my pillow. I have received earlier letters at my door, on my car and in my mailbox.\n\nPossible suspect: Brent Holloway (former client)\n\nA records officer may contact you if additional information is needed. This copy is not an official police record and does not guarantee follow-up.\n\nPortland Police Bureau — Online Reporting Unit",
+   "time": "5/26/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Portland Police Bureau Online Reporting",
+   "subject": "Your online report was received",
+   "preview": "Thank you. Your online police report has been received and is being processed. You will receive a copy of your",
+   "body": "Thank you. Your online police report has been received and is being processed.\n\nYou will receive a copy of your report with its report number by email once processing is complete. This is an automated message, please do not reply.\n\nIf this is an emergency, call 911.",
+   "time": "5/25/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Imani Brooks",
+   "subject": "Re: Shot list for the rooftop elopement",
+   "preview": "Hi Imani, Love the list. The skyline sign shot is a great idea. I'll scout the rooftop light the day before an",
+   "body": "Hi Imani,\n\nLove the list. The skyline sign shot is a great idea. I'll scout the rooftop light the day before and we'll plan portraits right before sunset.\n\nCeleste",
+   "time": "5/23/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Imani Brooks",
+   "subject": "Shot list for the rooftop elopement",
+   "preview": "Celeste, Here's my wish list for the elopement: the ring exchange, a few portraits at golden hour, and a shot ",
+   "body": "Celeste,\n\nHere's my wish list for the elopement: the ring exchange, a few portraits at golden hour, and a shot of the two of us holding the skyline sign. We'll have eleven guests total.\n\nThanks so much,\nImani",
+   "time": "5/22/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Julian Ashford",
+   "subject": "Fwd: Reservation confirmed — Ember & Ash Table",
+   "preview": "Booked us a table. Forwarding the confirmation so it lands on your calendar. Wear the green dress. ❤️ — J ----",
+   "body": "Booked us a table. Forwarding the confirmation so it lands on your calendar. Wear the green dress. ❤️\n\n— J\n\n---------- Forwarded message ----------\nFrom: Ember & Ash Table <reservations@emberandashtable.com>\nSubject: Reservation confirmed\n\nHi Julian,\nYour table is confirmed:\nParty of 2 · May 2 · 7:30 PM\nNotes: window seat requested\nTo change or cancel, reply to this email at least 24 hours ahead.\n\n--\nJulian Ashford | Investment Consultant | Private Client Advisory\njulian@jashfordadvisory.com | +1 (503) 555-0119",
+   "time": "4/28/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Brent Holloway",
+   "subject": "About your WedFolio review",
+   "preview": "Hi Brent, Thank you for taking the time to share your feedback. I'm sorry the gallery didn't meet your expecta",
+   "body": "Hi Brent,\n\nThank you for taking the time to share your feedback. I'm sorry the gallery didn't meet your expectations, and I'd be glad to look at any specific images you'd like brightened. Just send me the numbers and I'll take care of it.\n\nWishing you and Erin a very happy first year.\n\nBest,\nCeleste\nNorthlight & Co",
+   "time": "4/3/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "WedFolio",
+   "subject": "Brent H. left you a one-star review — Holloway–Pratt wedding",
+   "preview": "Hi Celeste, Brent H. just left a review on your WedFolio profile. Holloway–Pratt wedding ★☆☆☆☆ \"Late delivery ",
+   "body": "Hi Celeste,\n\nBrent H. just left a review on your WedFolio profile.\n\nHolloway–Pratt wedding\n★☆☆☆☆\n\"Late delivery and moody editing. Not what we expected.\"\n\nYou can reply publicly or contact the reviewer directly from your dashboard.\n\nTip: responding within 48 hours improves your profile ranking.\n\n— The WedFolio team",
+   "time": "4/3/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Brent Holloway",
+   "subject": "Gallery thoughts (long, sorry)",
+   "preview": "Celeste, We finally went through the whole gallery. A lot of it is lovely, truly. But the color grading on the",
+   "body": "Celeste,\n\nWe finally went through the whole gallery. A lot of it is lovely, truly. But the color grading on the reception shots is a lot darker than the previews you showed us, and my wife and I are both a little disappointed. Also the delivery took longer than the contract said.\n\nI'm not trying to be difficult, I just think a couple of edits could be brighter. Let me know what's possible.\n\nBrent",
+   "time": "12/4/25",
+   "folder": "inbox"
+  }
+ ],
+ "calendar": [
+  {
+   "title": "Kerr album proofs due",
+   "date": "08/20",
+   "dateLabel": "Thu, Aug 20, 2026",
+   "month": "2026-08",
+   "time": "All day",
+   "location": ""
+  },
+  {
+   "title": "Renters insurance renewal",
+   "date": "08/18",
+   "dateLabel": "Tue, Aug 18, 2026",
+   "month": "2026-08",
+   "time": "All day",
+   "location": ""
+  },
+  {
+   "title": "PGE bill due",
+   "date": "08/14",
+   "dateLabel": "Fri, Aug 14, 2026",
+   "month": "2026-08",
+   "time": "All day",
+   "location": ""
+  },
+  {
+   "title": "Gallery opening — Imani",
+   "date": "08/13",
+   "dateLabel": "Thu, Aug 13, 2026",
+   "month": "2026-08",
+   "time": "6:00 PM – 8:00 PM",
+   "location": "Alberta Arts District"
+  },
+  {
+   "title": "Biscuit — vet checkup",
+   "date": "08/12",
+   "dateLabel": "Wed, Aug 12, 2026",
+   "month": "2026-08",
+   "time": "3:30 PM – 4:15 PM",
+   "location": "Burnside Animal Clinic"
+  },
+  {
+   "title": "Venue walkthrough — Cedar & Vine",
+   "date": "08/12",
+   "dateLabel": "Wed, Aug 12, 2026",
+   "month": "2026-08",
+   "time": "2:00 PM – 3:00 PM",
+   "location": "Cedar & Vine Events, Sellwood"
+  },
+  {
+   "title": "Consult — Marisol Vega",
+   "date": "08/11",
+   "dateLabel": "Tue, Aug 11, 2026",
+   "month": "2026-08",
+   "time": "11:00 AM – 12:00 PM",
+   "location": "Northlight & Co, 2210 NW Raleigh St"
+  },
+  {
+   "title": "Physical therapy — shoulder",
+   "date": "08/10",
+   "dateLabel": "Mon, Aug 10, 2026",
+   "month": "2026-08",
+   "time": "8:30 AM – 9:15 AM",
+   "location": "Eastside Physical Therapy"
+  },
+  {
+   "title": "Okonkwo couple's portrait session",
+   "date": "08/09",
+   "dateLabel": "Sun, Aug 9, 2026",
+   "month": "2026-08",
+   "time": "6:30 PM – 8:30 PM",
+   "location": "Pearl District"
+  },
+  {
+   "title": "Bank — wire",
+   "date": "08/09",
+   "dateLabel": "Sun, Aug 9, 2026",
+   "month": "2026-08",
+   "time": "11:00 AM – 12:00 PM",
+   "location": "Willamette Federal Bank, downtown Portland"
+  },
+  {
+   "title": "Second shooter sync — Theo",
+   "date": "08/08",
+   "dateLabel": "Sat, Aug 8, 2026",
+   "month": "2026-08",
+   "time": "4:00 PM – 4:45 PM",
+   "location": "Northlight & Co studio"
+  },
+  {
+   "title": "Eriksen wedding",
+   "date": "08/08",
+   "dateLabel": "Sat, Aug 8, 2026",
+   "month": "2026-08",
+   "time": "2:00 PM – 11:00 PM",
+   "location": "Cedar & Vine Events, Portland"
+  },
+  {
+   "title": "Pick up rental lens",
+   "date": "08/07",
+   "dateLabel": "Fri, Aug 7, 2026",
+   "month": "2026-08",
+   "time": "4:00 PM – 4:30 PM",
+   "location": "Rose City Camera Rentals"
+  },
+  {
+   "title": "Forest Park run",
+   "date": "08/07",
+   "dateLabel": "Fri, Aug 7, 2026",
+   "month": "2026-08",
+   "time": "6:30 AM – 7:45 AM",
+   "location": "Forest Park Run Club, Lower Macleay trailhead"
+  },
+  {
+   "title": "Late edit session",
+   "date": "08/05",
+   "dateLabel": "Wed, Aug 5, 2026",
+   "month": "2026-08",
+   "time": "6:00 PM – 11:30 PM",
+   "location": "Northlight & Co, 2210 NW Raleigh St"
+  },
+  {
+   "title": "Coffee — Rowan",
+   "date": "08/05",
+   "dateLabel": "Wed, Aug 5, 2026",
+   "month": "2026-08",
+   "time": "8:00 AM – 8:45 AM",
+   "location": "Coffee Cart on Alder"
+  },
+  {
+   "title": "Pharmacy pickup",
+   "date": "08/04",
+   "dateLabel": "Tue, Aug 4, 2026",
+   "month": "2026-08",
+   "time": "12:15 PM – 12:30 PM",
+   "location": "Hawthorne Pharmacy"
+  },
+  {
+   "title": "Call Maman",
+   "date": "08/02",
+   "dateLabel": "Sun, Aug 2, 2026",
+   "month": "2026-08",
+   "time": "10:00 AM – 10:45 AM",
+   "location": ""
+  },
+  {
+   "title": "Kerr wedding",
+   "date": "08/01",
+   "dateLabel": "Sat, Aug 1, 2026",
+   "month": "2026-08",
+   "time": "12:00 PM – 10:30 PM",
+   "location": "Hawthorne Barn Venue, Portland"
+  },
+  {
+   "title": "Studio rent due",
+   "date": "08/01",
+   "dateLabel": "Sat, Aug 1, 2026",
+   "month": "2026-08",
+   "time": "All day",
+   "location": ""
+  },
+  {
+   "title": "Hair — trim and gloss",
+   "date": "07/30",
+   "dateLabel": "Thu, Jul 30, 2026",
+   "month": "2026-07",
+   "time": "5:30 PM – 6:45 PM",
+   "location": "Mira's Hair Studio"
+  },
+  {
+   "title": "Pottery class",
+   "date": "07/29",
+   "dateLabel": "Wed, Jul 29, 2026",
+   "month": "2026-07",
+   "time": "6:30 PM – 8:30 PM",
+   "location": "Clay & Kiln Pottery"
+  },
+  {
+   "title": "Pick up print proofs",
+   "date": "07/28",
+   "dateLabel": "Tue, Jul 28, 2026",
+   "month": "2026-07",
+   "time": "3:00 PM – 3:30 PM",
+   "location": "Pearl Print Lab, NW 13th Ave"
+  },
+  {
+   "title": "Climbing — Ravi",
+   "date": "07/25",
+   "dateLabel": "Sat, Jul 25, 2026",
+   "month": "2026-07",
+   "time": "6:00 PM – 7:30 PM",
+   "location": "Bridgetown Climbing Gym"
+  },
+  {
+   "title": "Meeting — Gina Ostrow",
+   "date": "07/25",
+   "dateLabel": "Sat, Jul 25, 2026",
+   "month": "2026-07",
+   "time": "2:00 PM – 3:00 PM",
+   "location": "Ostrow Business Brokerage, 812 SW Alder St"
+  },
+  {
+   "title": "Wine night — Priya",
+   "date": "07/23",
+   "dateLabel": "Thu, Jul 23, 2026",
+   "month": "2026-07",
+   "time": "7:00 PM – 10:00 PM",
+   "location": "Priya's place, NE Alberta"
+  },
+  {
+   "title": "Dentist — cleaning",
+   "date": "07/22",
+   "dateLabel": "Wed, Jul 22, 2026",
+   "month": "2026-07",
+   "time": "8:30 AM – 9:30 AM",
+   "location": "Portland Dental Care"
+  },
+  {
+   "title": "Drop off X-T5 for sensor cleaning",
+   "date": "07/21",
+   "dateLabel": "Tue, Jul 21, 2026",
+   "month": "2026-07",
+   "time": "10:30 AM – 11:00 AM",
+   "location": "Fuji Repair Center"
+  },
+  {
+   "title": "Call Tante Odile",
+   "date": "07/19",
+   "dateLabel": "Sun, Jul 19, 2026",
+   "month": "2026-07",
+   "time": "11:00 AM – 11:30 AM",
+   "location": ""
+  },
+  {
+   "title": "Bouquet tasting — Wild Stem Florals",
+   "date": "07/16",
+   "dateLabel": "Thu, Jul 16, 2026",
+   "month": "2026-07",
+   "time": "1:30 PM – 2:15 PM",
+   "location": "Wild Stem Florals, SE Division"
+  },
+  {
+   "title": "Oil change",
+   "date": "07/14",
+   "dateLabel": "Tue, Jul 14, 2026",
+   "month": "2026-07",
+   "time": "8:30 AM – 9:30 AM",
+   "location": "Hawthorne Auto Care"
+  },
+  {
+   "title": "Castellano engagement shoot",
+   "date": "07/12",
+   "dateLabel": "Sun, Jul 12, 2026",
+   "month": "2026-07",
+   "time": "5:00 PM – 7:00 PM",
+   "location": "Laurelhurst Park"
+  }
+ ],
+ "notes": [
+  {
+   "title": "Kerr wedding shot list",
+   "body": "Anna + Dave Kerr\n- Getting ready: dress hanging, shoes, rings\n- First look by the fountain\n- Family formals (max 15 min)\n- Grandma Ruth with the cake\n- Sparkler exit, ask the DJ for the cue\nGolden hour portraits around 7:15"
+  },
+  {
+   "title": "Misc reminders",
+   "body": "- Renew lens insurance\n- Ask Dana about the new invoice template\n- Dentist cleaning, call Portland Dental Care\n- For D lock = Lise's, easy for me to remember, nobody else would guess\n- Buy oat milk"
+  },
+  {
+   "title": "Gear checklist",
+   "body": "Before every wedding:\n- 8 batteries charged\n- 4 cards, formatted\n- Both Fuji bodies + 35mm and 56mm\n- Flash + spare AAs\n- Gaffer tape\n- Lens cloths\n- Snacks!! (learned this the hard way)\n- Phone charger"
+  },
+  {
+   "title": "Invoice follow-ups",
+   "body": "To chase\n- Anna K. balance due, reminder sent once\n- Castellano deposit received, thank you note\n- Cedar & Vine Events: ask about the net-30 terms\n- Update the price sheet for next season, bump album prices a bit\n- Print lab order for the Kerr album proofs\n\nAsk Dana which accounting software she prefers before renewing."
+  },
+  {
+   "title": "Pottery class",
+   "body": "Wheel, week 3\n- Centering is still the hard part. Elbows locked to thighs.\n- Cylinders first, then bowls\n- Trim at leather-hard, not before\n- Try the speckled white glaze on the small mugs\n- Pick up Tuesday's pieces after the firing\n\nIdea: make a little dish for the studio desk to hold the lens caps."
+  },
+  {
+   "title": "Glaze list",
+   "body": "Pottery class\n- Celadon (the pale green one)\n- Tenmoku for the mugs\n- Shino, do a test tile first\nBring: apron, sponge, wire tool\nBowls due for firing next week"
+  },
+  {
+   "title": "Books / podcasts",
+   "body": "Want to read\n- The novel Maman keeps mentioning (translated from French, 2nd printing)\n- A cookbook on bread\n- Something about color grading, boring but useful\n\nPodcasts for editing days\n- True crime is a bad idea when alone at the studio late\n- Interview shows are fine\n- Long history ones for batch exports\n\nLibrary hold ready on Belmont, pick up soon."
+  },
+  {
+   "title": "Run routes",
+   "body": "Forest Park loops\n- Wildwood to Pittock Mansion and back: about 6 mi, saves the knees\n- Leif Erikson out-and-back: flat, good for podcast days\n- Lower Macleay is muddy until June, wear the old shoes\n\nNeed new trail shoes. Current pair has ~400 mi on it.\nRun club meets early, bring a headlamp in winter."
+  },
+  {
+   "title": "Studio stuff",
+   "body": "Northlight & Co — 2210 NW Raleigh St\n\nAlarm: 7316 — gave J the code for late pickups 🙄\nWifi: northlight-guest / framesperSecond22\nLandlord: Pacific Lane Properties, rent due the 1st\nTrash day: Thursday\nBack door key is the one with the green tape\nOrder more seamless paper (white + warm gray)"
+  },
+  {
+   "title": "Cat stuff",
+   "body": "Biscuit\n- Dry food: the salmon one, small bag only\n- Wet food half a can in the evening\n- Vet annual due late summer\n- Replace the scratching post, the old one is shredded\n- Brush her on the weekends, she hates it\n- Flea meds: check box for the date"
+  },
+  {
+   "title": "Letters",
+   "body": "Log. Date / where / reported?\n\n1. April 18 — taped to my apartment door, 7 AM. Took a photo. Reported: no\n2. May 2 — under the windshield wiper, car on Belmont. Photo. Reported: no\n3. May 16 — in my mailbox. Photo. Reported: no\n(May 19 — paper in the mailbox. Nevermind, HOA notice about the bike room. Not one of them.)\n4. May 24 — on my pillow, after the break-in. Photo. Reported: yes (online)\n5. June 27 — studio back door, found it when I opened up this morning. J was out of town so I came in alone. Photo. Reported: not yet\n\nKeep every original in the envelope. Photos in the library."
+  },
+  {
+   "title": "Rain plan for outdoor ceremonies",
+   "body": "Standard talk with couples:\n- Ask the venue where the backup space is, and how long a switch takes\n- Check forecast 7 days out, 3 days out, morning of\n- Clear umbrellas = great photos, keep 6 in the car\n- Rain on the day is good luck, say it with a straight face\n- Bring lens cloths, lots\n- Sensor wipes in the bag\n\nRule of thumb: if the radar shows green by 2 pm, call the planner."
+  },
+  {
+   "title": "Client song list — Castellano",
+   "body": "First dance: slow acoustic cover, 3 min max\nEntrance: something upbeat\nParent dances: ask the mothers\nDo NOT play the chicken dance (bride's rule)"
+  },
+  {
+   "title": "Coast engagement shoot packing",
+   "body": "Cannon Beach, golden hour\n- 35mm + 56mm primes\n- 2 bodies, 6 batteries (all charged!)\n- Reflector, small\n- Wind clips for her veil/dress\n- Towel for the car, sand gets everywhere\n- Thermos of tea\n- Extra cards, format them before leaving\n- Water + granola bars for the couple\n\nCheck tide chart the night before."
+  },
+  {
+   "title": "Wine night ideas",
+   "body": "For Priya's:\n- Gamay, something light\n- Sourdough from the bakery on Division\n- Soft cheese + fig jam\n- Dark chocolate with sea salt\n\nShe wants to rewatch the baking show. I vote for something with fewer tents.\nBring the good glasses, not the mismatched ones."
+  },
+  {
+   "title": "Lentil soup",
+   "body": "1 cup green lentils\n1 onion, 2 carrots, 2 celery\n3 cloves garlic\n1 tsp cumin, smoked paprika\n6 cups stock\nSimmer 35 min, lemon at the end.\nMore garlic next time."
+  }
+ ],
+ "maps": [
+  {
+   "name": "Home",
+   "subtitle": "My apartment"
+  },
+  {
+   "name": "Studio",
+   "subtitle": "Northlight & Co, work"
+  },
+  {
+   "name": "J's place",
+   "subtitle": "Where I'm staying lately"
+  },
+  {
+   "name": "Forest Park trailhead",
+   "subtitle": "Morning run spot, Lower Macleay"
+  },
+  {
+   "name": "Clay & Kiln Pottery",
+   "subtitle": "Pottery class, Thursday nights"
+  },
+  {
+   "name": "Rose City Camera Rentals",
+   "subtitle": "Lens and strobe rentals"
+  },
+  {
+   "name": "Evergreen Barn Venue",
+   "subtitle": "Wedding venue, NE Sandy Blvd"
+  },
+  {
+   "name": "Hawthorne Pharmacy",
+   "subtitle": "Pharmacy"
+  },
+  {
+   "name": "Baan Thai Kitchen",
+   "subtitle": "Takeout favorite, pad see ew. About 12 orders total"
+  },
+  {
+   "name": "Pearl Print Lab",
+   "subtitle": "Album and canvas prints for clients. Pickup spot in the Pearl District"
+  },
+  {
+   "name": "Wild Stem Florals",
+   "subtitle": "Florist for bouquet flat-lays and styled shoots"
+  },
+  {
+   "name": "Coffee Cart on Alder",
+   "subtitle": "Oat milk latte stop. Cash tip jar"
+  },
+  {
+   "name": "Burnside Animal Clinic",
+   "subtitle": "Biscuit's vet. Annual shots and checkups"
+  },
+  {
+   "name": "Portland Dental Care",
+   "subtitle": "Cleaning every six months"
+  },
+  {
+   "name": "Mira's Hair Studio",
+   "subtitle": "Trim and gloss, Hawthorne area"
+  },
+  {
+   "name": "Ace Hardware Belmont",
+   "subtitle": "Batteries, gaffer tape, light stands hardware"
+  },
+  {
+   "name": "Bridgetown Climbing Gym",
+   "subtitle": "Bouldering day pass. Went with a friend a few times"
+  },
+  {
+   "name": "Eastside Physical Therapy",
+   "subtitle": "Shoulder and lower back from carrying camera bags. 6 sessions total"
+  },
+  {
+   "name": "Hawthorne Auto Care",
+   "subtitle": "Oil change and tire rotation"
+  },
+  {
+   "name": "Portland International Airport",
+   "subtitle": "Pickups and drop-offs, Terminal arrivals curb"
+  },
+  {
+   "name": "Mt. Tabor Park",
+   "subtitle": "Sunset engagement shoots, reservoir viewpoint"
+  },
+  {
+   "name": "Fuji Repair Center",
+   "subtitle": "Camera body sensor cleaning and lens service"
+  }
+ ],
+ "revolut": {
+  "balance": "$9,846.52",
+  "transactions": [
+   {
+    "name": "Coffee Cart on Alder",
+    "amount": "-$6.75",
+    "date": "Tuesday, 8:12 AM",
+    "note": "Oat milk latte"
+   },
+   {
+    "name": "Hawthorne Pharmacy",
+    "amount": "-$18.90",
+    "date": "Sunday, 4:44 PM",
+    "note": "Prescription pickup"
+   },
+   {
+    "name": "Rose City Camera Rentals",
+    "amount": "-$148.00",
+    "date": "Saturday, 10:35 AM",
+    "note": "Lens rental, 3 days"
+   },
+   {
+    "name": "Sellwood Grocery Co-op",
+    "amount": "-$47.35",
+    "date": "7/30/26, 5:42 PM",
+    "note": "Groceries"
+   },
+   {
+    "name": "Anna Kerr",
+    "amount": "-$1,500.00",
+    "date": "7/30/26, 2:20 PM",
+    "note": "Second installment, Northlight & Co"
+   },
+   {
+    "name": "Clay & Kiln Pottery",
+    "amount": "-$64.00",
+    "date": "7/28/26, 6:05 PM",
+    "note": "Thursday wheel class"
+   },
+   {
+    "name": "Uber",
+    "amount": "-$23.40",
+    "date": "7/26/26, 11:48 PM",
+    "note": "Trip home after reception"
+   },
+   {
+    "name": "Pearl Print Lab",
+    "amount": "-$212.35",
+    "date": "7/22/26, 1:10 PM",
+    "note": "Album proofs, 8x10 prints"
+   },
+   {
+    "name": "Forest Park Run Club",
+    "amount": "-$25.00",
+    "date": "7/18/26, 8:05 AM",
+    "note": "Monthly dues"
+   },
+   {
+    "name": "Okafor",
+    "amount": "-$450.00",
+    "date": "7/9/26, 2:20 PM",
+    "note": "Final balance, engagement session"
+   },
+   {
+    "name": "Cloud Gallery Hosting",
+    "amount": "-$189.00",
+    "date": "6/28/26, 9:00 AM",
+    "note": "Annual client gallery plan"
+   }
+  ]
+ },
+ "weather": {
+  "city": "Portland",
+  "tempC": 27,
+  "hi": 30,
+  "lo": 23,
+  "condition": "Sunny"
+ },
+ "photos": [
+  "photo_0.webp",
+  "photo_1.webp",
+  "photo_2.webp",
+  "photo_3.webp",
+  {
+   "image": "photo_4.webp",
+   "caption": "I'M ALWAYS CLOSER THAN YOU THINK"
+  },
+  {
+   "image": "photo_5.webp",
+   "caption": "I SEE YOU WHEN YOU SLEEP"
+  },
+  {
+   "image": "photo_6.webp",
+   "caption": "YOU DEFINATELY KNOW WHO I AM"
+  },
+  {
+   "image": "photo_7.webp",
+   "caption": "I KNOW WHERE YOU PARK"
+  },
+  {
+   "image": "photo_8.webp",
+   "caption": "YOU BELONG TO ME"
+  }
+ ],
+ "screenTime": [
+  {
+   "appName": "Messages",
+   "durationMinutes": 214
+  },
+  {
+   "appName": "Photos",
+   "durationMinutes": 138
+  },
+  {
+   "appName": "Mail",
+   "durationMinutes": 96
+  },
+  {
+   "appName": "Spotify",
+   "durationMinutes": 88
+  },
+  {
+   "appName": "Camera",
+   "durationMinutes": 64
+  },
+  {
+   "appName": "Safari",
+   "durationMinutes": 63
+  },
+  {
+   "appName": "Calendar",
+   "durationMinutes": 52
+  },
+  {
+   "appName": "Drive",
+   "durationMinutes": 47
+  },
+  {
+   "appName": "Phone",
+   "durationMinutes": 47
+  },
+  {
+   "appName": "Podcasts",
+   "durationMinutes": 36
+  },
+  {
+   "appName": "Weather",
+   "durationMinutes": 23
+  },
+  {
+   "appName": "Maps",
+   "durationMinutes": 22
+  },
+  {
+   "appName": "Journal",
+   "durationMinutes": 19
+  },
+  {
+   "appName": "Health",
+   "durationMinutes": 17
+  },
+  {
+   "appName": "Uber",
+   "durationMinutes": 14
+  },
+  {
+   "appName": "Clock",
+   "durationMinutes": 11
+  },
+  {
+   "appName": "Calculator",
+   "durationMinutes": 9
+  },
+  {
+   "appName": "Settings",
+   "durationMinutes": 8
+  },
+  {
+   "appName": "Wallet",
+   "durationMinutes": 6
+  }
+ ]
+}

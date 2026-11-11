@@ -5,7 +5,9 @@
   bottom: 0;
   z-index: 9999;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   gap: 8px;
   padding: 8px;
   background: rgba(8, 9, 13, 0.94);
@@ -22,4 +24,12 @@
     color: #f2f4f8;
     cursor: pointer;
   }
+}
+
+.caseLabel {
+  font-size: 12px;
+  font-weight: 600;
+  color: #c7ccda;
+  padding: 0 4px;
+  white-space: nowrap;
 }

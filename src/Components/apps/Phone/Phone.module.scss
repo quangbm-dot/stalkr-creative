@@ -2,13 +2,128 @@
   padding-top: 4px;
 }
 
+.tabs {
+  display: flex;
+  gap: 8px;
+  padding: 8px 16px 4px;
+}
+
+.tab,
+.tabActive {
+  position: relative;
+  border: none;
+  border-radius: 16px;
+  padding: 6px 14px;
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 600;
+  background: #f0f0f3;
+  color: #333;
+  cursor: pointer;
+}
+
+.tabActive {
+  background: #d3e3fd;
+  color: #0b57d0;
+}
+
+/* Nằm DƯỚI nút tab (app bar "Recents"/"Contacts" ở ngay phía trên). */
+.tabHint {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -13px;
+  font-size: 24px;
+  line-height: 1;
+  pointer-events: none;
+  z-index: 10;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
+  animation: handTap 1s ease-in-out infinite;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 40px 20px;
+}
+
+.detailAvatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: var(--ios-card-bg-2, #e5e5ea);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 28px;
+  color: #111;
+}
+
+.detailName {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 18px;
+  color: #111;
+}
+
+.detailNumber {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  color: var(--ios-blue, #007aff);
+}
+
 .row {
   display: flex;
   align-items: center;
   gap: 10px;
   padding: 10px 16px;
+  border: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.06);
   background: #fff;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  color: inherit;
+  position: relative;
+}
+
+/* Gợi ý dòng cuộc gọi chứa manh mối của câu hỏi hiện tại — glow nhẹ + bàn
+   tay trỏ vào, giống hệt Messages/WhatsApp. */
+.hintRow {
+  animation: hintRowPulse 1.4s ease-in-out infinite;
+}
+
+@keyframes hintRowPulse {
+  0%, 100% {
+    background: #fff;
+  }
+  50% {
+    background: rgba(255, 214, 102, 0.3);
+  }
+}
+
+.hintHand {
+  position: absolute;
+  bottom: 2px;
+  right: 10px;
+  font-size: 26px;
+  pointer-events: none;
+  z-index: 10;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
+  animation: handTap 1s ease-in-out infinite;
+}
+
+@keyframes handTap {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(3px, 3px);
+  }
 }
 
 .icon,

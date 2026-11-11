@@ -11,6 +11,10 @@ interface RevolutProps {
 
 export default function Revolut({ caseData, onBack, hintTargetId, onFoundClue }: RevolutProps) {
   const { balance, transactions } = caseData.revolut;
+  // Chỉ lấy INDEX đầu tiên khớp tên — tên merchant lặp lại nhiều lần là
+  // chuyện thường (vd đổ xăng Shell nhiều lần), so == riêng từng dòng sẽ
+  // sáng HẾT mọi dòng trùng tên thay vì đúng 1 giao dịch cần tìm.
+  const hotIdx = hintTargetId !== undefined ? transactions.findIndex((t) => t.name === hintTargetId) : -1;
   return (
     <AppScreen title="RevoBank" onBack={onBack}>
       <div className={styles.screen}>
@@ -24,7 +28,7 @@ export default function Revolut({ caseData, onBack, hintTargetId, onFoundClue }:
         </div>
         <div className={styles.sheet}>
           {transactions.map((t, i) => {
-            const isHot = hintTargetId !== undefined && t.name === hintTargetId;
+            const isHot = i === hotIdx;
             return (
               <div
                 key={i}

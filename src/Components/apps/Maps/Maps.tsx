@@ -12,6 +12,9 @@ interface MapsProps {
 
 export default function Maps({ caseData, onBack, hintTargetId, onFoundClue }: MapsProps) {
   const hotIdx = hintTargetId === undefined ? -1 : caseData.maps.locations.findIndex((l) => l.name === hintTargetId);
+  const sharedWith = caseData.maps.sharedWith ?? [];
+  const hotSharedIdx =
+    hintTargetId === undefined ? -1 : sharedWith.findIndex((s) => s.name === hintTargetId);
   return (
     <AppScreen title="Maps" onBack={onBack} theme="light">
       <img className={styles.map} src={mapBg} alt="" />
@@ -36,6 +39,30 @@ export default function Maps({ caseData, onBack, hintTargetId, onFoundClue }: Ma
           );
         })}
       </div>
+      {sharedWith.length > 0 && (
+        <>
+          <div className={styles.sectionLabel}>Location sharing</div>
+          <div className={styles.list}>
+            {sharedWith.map((s, i) => {
+              const isHot = i === hotSharedIdx;
+              return (
+                <div
+                  key={i}
+                  className={`${styles.row} ${isHot ? styles.hintRow : ""}`}
+                  data-hint={isHot ? "row-clue" : undefined}
+                  onClick={() => isHot && onFoundClue?.()}
+                >
+                  <span className={styles.pin}>👤</span>
+                  <span className={styles.text}>
+                    <span className={styles.name}>{s.name}</span>
+                  </span>
+                  {isHot && <span className={styles.hintHand}>👆</span>}
+                </div>
+              );
+            })}
+          </div>
+        </>
+      )}
     </AppScreen>
   );
 }

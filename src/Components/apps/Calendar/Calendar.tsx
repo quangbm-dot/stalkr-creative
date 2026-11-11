@@ -30,6 +30,7 @@ export default function Calendar({ caseData, onBack, hintTargetId, onFoundClue }
     ...Array(startOffset).fill(null),
     ...Array.from({ length: daysInMonth }, (_, i) => i + 1),
   ];
+  const hotIdx = hintTargetId !== undefined ? caseData.calendar.findIndex((e) => e.title === hintTargetId) : -1;
 
   return (
     <AppScreen title="Calendar" onBack={onBack} theme="light">
@@ -54,7 +55,7 @@ export default function Calendar({ caseData, onBack, hintTargetId, onFoundClue }
 
       <div className={styles.agenda}>
         {caseData.calendar.map((e, i) => {
-          const isHot = hintTargetId !== undefined && e.title === hintTargetId;
+          const isHot = i === hotIdx;
           return (
             <div
               key={i}
@@ -67,6 +68,7 @@ export default function Calendar({ caseData, onBack, hintTargetId, onFoundClue }
                 <span className={styles.agendaTitle}>{e.title}</span>
                 {e.time && <span className={styles.agendaMeta}>{e.time}</span>}
                 {e.location && <span className={styles.agendaMeta}>{e.location}</span>}
+                {e.description && <span className={styles.agendaMeta}>{e.description}</span>}
               </span>
               {isHot && <span className={styles.hintHand}>👆</span>}
             </div>

@@ -51,13 +51,55 @@
   }
 }
 
+// Lấp đầy đúng ô lưới 52px của .appbar (xem grid-template-columns ở trên) —
+// trước đây nút back là item lưới trực tiếp, co theo nội dung nên dính sát
+// mép trái màn hình; giờ bọc trong wrapper chiếm trọn ô rồi tự căn giữa nút
+// bên trong, luôn có khoảng hở đều với viền.
+.backWrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
 .back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
   background: none;
   border: none;
   color: var(--ios-blue);
   font-size: 28px;
   line-height: 1;
   cursor: pointer;
+}
+
+// Bàn tay gợi ý thoát app — neo góc dưới-phải của nút back, nảy lên-trái
+// về phía nút giống thao tác chạm (cùng kiểu neo với các bàn tay khác).
+.backHint {
+  position: absolute;
+  bottom: -14px;
+  right: -8px;
+  font-size: 30px;
+  line-height: 1;
+  pointer-events: none;
+  z-index: 10;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
+  animation: backHintTap 1s ease-in-out infinite;
+  transform-origin: bottom right;
+}
+
+@keyframes backHintTap {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(-3px, -3px);
+  }
 }
 
 .title {

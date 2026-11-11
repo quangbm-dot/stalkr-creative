@@ -13,6 +13,42 @@
   background: none;
   text-align: left;
   cursor: pointer;
+  position: relative;
+}
+
+/* Gợi ý dòng email chứa manh mối của câu hỏi hiện tại — glow nhẹ + bàn tay
+   trỏ vào, giống hệt Messages/WhatsApp/Phone. */
+.hintRow {
+  animation: hintRowPulse 1.4s ease-in-out infinite;
+}
+
+@keyframes hintRowPulse {
+  0%, 100% {
+    background: transparent;
+  }
+  50% {
+    background: rgba(255, 214, 102, 0.3);
+  }
+}
+
+.hintHand {
+  position: absolute;
+  bottom: 2px;
+  right: 10px;
+  font-size: 26px;
+  pointer-events: none;
+  z-index: 10;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
+  animation: handTap 1s ease-in-out infinite;
+}
+
+@keyframes handTap {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(3px, 3px);
+  }
 }
 
 .avatar {
@@ -111,6 +147,7 @@
 
 .tab,
 .tabActive {
+  position: relative;
   border: none;
   border-radius: 16px;
   padding: 6px 14px;
@@ -120,6 +157,32 @@
   background: #f0f0f3;
   color: #333;
   cursor: pointer;
+}
+
+/* Email cần tìm nằm ở tab Sent trong khi đang đứng ở Inbox (hoặc ngược
+   lại) — chỉ tay vào đúng tab cần bấm trước khi dòng email kịp hiện ra. */
+/* Nằm DƯỚI nút tab (không phải trên) — phía trên là app bar "Inbox"/"Sent",
+   đặt trên đó sẽ bị đè/lệch ra ngoài header, không rõ đang trỏ vào nút nào. */
+.tabHint {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -13px;
+  font-size: 24px;
+  line-height: 1;
+  pointer-events: none;
+  z-index: 10;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
+  animation: tabHintTap 1s ease-in-out infinite;
+}
+
+@keyframes tabHintTap {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(2px, -3px);
+  }
 }
 
 .tabActive {

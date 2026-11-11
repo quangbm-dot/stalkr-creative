@@ -11,13 +11,14 @@ interface AirbnbProps {
 
 export default function Airbnb({ caseData, onBack, hintTargetId, onFoundClue }: AirbnbProps) {
   const { name, listings } = caseData.airbnb;
+  const hotIdx = hintTargetId !== undefined ? listings.findIndex((l) => l.title === hintTargetId) : -1;
 
   return (
     <AppScreen title="Nestly" onBack={onBack} theme="light">
       <div className={styles.search}>🔍 {name}</div>
       <div className={styles.feed}>
         {listings.map((l, i) => {
-          const isHot = hintTargetId !== undefined && l.title === hintTargetId;
+          const isHot = i === hotIdx;
           return (
             <div
               key={i}

@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { CaseConfig } from "../../../types/case";
 import AppScreen from "../../PhoneFrame/AppScreen";
 import styles from "./Messages.module.scss";
@@ -7,11 +7,12 @@ interface MessagesProps {
   caseData: CaseConfig;
   onBack: () => void;
   hintTargetId?: string;
+  hintMessageId?: string;
   onFoundClue?: () => void;
   unlockOnList?: boolean;
 }
 
-export default function Messages({ caseData, onBack, hintTargetId, onFoundClue, unlockOnList }: MessagesProps) {
+export default function Messages({ caseData, onBack, hintTargetId, hintMessageId, onFoundClue, unlockOnList }: MessagesProps) {
   const [openThreadId, setOpenThreadId] = useState<string | null>(null);
   const openThread = caseData.messages.find((t) => t.id === openThreadId);
   const hotId = hintTargetId === undefined ? undefined : caseData.messages.find((t) => t.title === hintTargetId)?.id;
@@ -20,15 +21,36 @@ export default function Messages({ caseData, onBack, hintTargetId, onFoundClue, 
     if (unlockOnList && !openThreadId) onFoundClue?.();
   }, [unlockOnList, openThreadId, onFoundClue]);
 
+  // Đoạn chat có thể dài — tự cuộn tới đúng tin nhắn chứa manh mối (nếu có)
+  // ngay khi mở thread, không bắt người chơi tự dò từng dòng.
+  const hotMsgRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    if (openThread) hotMsgRef.current?.scrollIntoView({ block: "center" });
+  }, [openThread]);
+
+  // Chỉ lấy INDEX tin ĐẦU TIÊN khớp nội dung — câu đùa/cụm từ ngắn lặp lại
+  // nhiều lần trong 1 đoạn chat là bình thường, so .includes() riêng từng
+  // tin sẽ sáng HẾT các tin trùng thay vì đúng 1 tin cần tìm.
+  const hotMsgIdx = hintMessageId
+    ? (openThread?.msgs.findIndex((m) => m.text.toLowerCase().includes(hintMessageId.toLowerCase())) ?? -1)
+    : -1;
+
   if (openThread) {
     return (
       <AppScreen title={openThread.title} onBack={() => setOpenThreadId(null)}>
         <div className={styles.thread}>
-          {openThread.msgs.map((m, i) => (
-            <div key={i} className={m.me ? styles.bubbleMe : styles.bubbleThem}>
-              {m.text}
-            </div>
-          ))}
+          {openThread.msgs.map((m, i) => {
+            const isHotMsg = i === hotMsgIdx;
+            return (
+              <div
+                key={i}
+                ref={isHotMsg ? hotMsgRef : undefined}
+                className={`${m.me ? styles.bubbleMe : styles.bubbleThem} ${isHotMsg ? styles.bubbleHot : ""}`}
+              >
+                {m.text}
+              </div>
+            );
+          })}
         </div>
       </AppScreen>
     );

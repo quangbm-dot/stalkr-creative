@@ -1,0 +1,2201 @@
+{
+ "caseName": "He Had a Date to Leave Me",
+ "title": "Adrienne & Ross",
+ "now": "2026-08-06T23:59:00",
+ "client": {
+  "name": "Adrienne",
+  "avatar": "client.webp"
+ },
+ "owner": {
+  "first": "Ross",
+  "full": "Ross Bidwell",
+  "avatar": null
+ },
+ "wallpaper": "wallpaper.webp",
+ "passcode": "222111",
+ "totalQuestions": 7,
+ "questions": [
+  {
+   "id": 1,
+   "text": "Thank you for doing this. I'm not going to fall apart, I promise... could you start with the last person who wrote to him? A name is enough.",
+   "answer": "Kendra Vaughn",
+   "decoys": [
+    "Nora Whitfield",
+    "Della Reyes",
+    "Trent Okafor"
+   ],
+   "hint": "Take a look in the Messages app, there must be someone who sent him a message recently."
+  },
+  {
+   "id": 2,
+   "text": "That's not a name I've ever heard in this apartment. Sorry to be difficult — can you get me her surname too? I want to know who she is.",
+   "answer": "Vaughn",
+   "decoys": [
+    "Pike",
+    "Nolan",
+    "Kessler"
+   ],
+   "hint": "If he saved this mysterious correspondent, her full identity must be in his Contacts directory."
+  },
+  {
+   "id": 3,
+   "text": "Kendra Vaughn. I've said it out loud twice now and it still means nothing to me. How long has she been in his phone? In months, please.",
+   "answer": "4",
+   "decoys": [
+    "3",
+    "6",
+    "2"
+   ],
+   "hint": "Open his conversation with Kendra in Messages and scroll back - he says exactly how long they've been together."
+  },
+  {
+   "id": 4,
+   "text": "Four months. Right under my nose... does he have a name for her, a soft one? I know how that sounds. Tell me the word anyway.",
+   "answer": "birdie",
+   "decoys": [
+    "babe",
+    "my love",
+    "Adri"
+   ],
+   "hint": "Open his main messaging and browse through their daily exchanges. Among the affectionate messages, a sweet word comes up very regularly."
+  },
+  {
+   "id": 5,
+   "text": "Birdie. He calls me Adri, and that's about as far as it goes... can you tell me how often they were seeing each other? The pattern, please.",
+   "answer": "Every week at seven",
+   "decoys": [
+    "Every month at seven",
+    "Every two weeks at seven",
+    "Every Sunday at ten"
+   ],
+   "hint": "If they meet regularly in secret, these precious moments are surely disguised under a fake professional name in his Calendar."
+  },
+  {
+   "id": 6,
+   "text": "Every week. Written down like an appointment... somebody has been backing that story up for him, I'm sure of it. Which of his friends is it?",
+   "answer": "Brady",
+   "decoys": [
+    "Trent",
+    "Curtis",
+    "Grant"
+   ],
+   "hint": "One of his close friends must be in on it to serve as his alibi. Explore his recent WhatsApp discussions to find who's covering for him."
+  },
+  {
+   "id": 7,
+   "text": "A room, two nights. He paid for that and then came home and asked me how my day was... which hotel is it?",
+   "answer": "The Fontaine",
+   "decoys": [
+    "The Chase Park Plaza",
+    "Union Station Hotel",
+    "Hotel Saint Louis"
+   ],
+   "hint": "Booking confirmations are often sent by email. Even if he tried to cover his tracks, look in the trash of his Email inbox."
+  }
+ ],
+ "onboarding": [
+  {
+   "text": "Hey... I'm Adrienne. I've written this out twice already and deleted it twice. I'm not going to cry on you. I did all of that a few weeks ago.",
+   "label": "Adrienne",
+   "image": "onboarding_1.webp"
+  },
+  {
+   "text": "A year in the same apartment in Kansas City. He draws buildings for a living... he's better with brick than with people, and I loved that about him. I did.",
+   "label": "Adrienne & Ross",
+   "image": "onboarding_2.webp"
+  },
+  {
+   "text": "Three weeks ago he started taking his calls out in the hallway. Phone face down on the table. If he goes out, it's a client... and I stopped believing that a while back.",
+   "label": "Ross",
+   "image": "onboarding_3.webp"
+  },
+  {
+   "text": "He left before eight. A walkthrough at nine, he said. His phone is on my kitchen counter, face up. He's back by lunch... I want you to find nothing. I don't think you will.",
+   "label": "Adrienne",
+   "image": "onboarding_4.webp"
+  }
+ ],
+ "home": [
+  {
+   "app": "photos",
+   "label": "Photos"
+  },
+  {
+   "app": "calendar",
+   "label": "Calendar"
+  },
+  {
+   "app": "notes",
+   "label": "Notes"
+  },
+  {
+   "app": "settings",
+   "label": "Settings"
+  },
+  {
+   "app": "gmail",
+   "label": "Email"
+  },
+  {
+   "app": "whatsapp",
+   "label": "WhatsApp"
+  },
+  {
+   "app": "weather",
+   "label": "Weather"
+  },
+  {
+   "app": "calculator",
+   "label": "Calculator"
+  }
+ ],
+ "dock": [
+  {
+   "app": "phone",
+   "label": "Phone"
+  },
+  {
+   "app": "messages",
+   "label": "Messages"
+  }
+ ],
+ "missingApps": [],
+ "calls": [
+  {
+   "name": "Grant",
+   "time": "Today, 11:37 AM",
+   "type": "outgoing",
+   "detail": "4 min"
+  },
+  {
+   "name": "Nora Whitfield",
+   "time": "Yesterday, 3:45 PM",
+   "type": "incoming",
+   "detail": "3 min"
+  },
+  {
+   "name": "Marisol Vega",
+   "time": "Yesterday, 10:03 AM",
+   "type": "outgoing",
+   "detail": "4 min"
+  },
+  {
+   "name": "Dale Prentiss",
+   "time": "Tuesday, 9:05 AM",
+   "type": "outgoing",
+   "detail": "2 min"
+  },
+  {
+   "name": "Marnie",
+   "time": "Monday, 4:57 PM",
+   "type": "outgoing",
+   "detail": "5 min"
+  },
+  {
+   "name": "Trent Okafor",
+   "time": "Monday, 8:52 AM",
+   "type": "incoming",
+   "detail": "2 min"
+  },
+  {
+   "name": "Wyatt Bidwell",
+   "time": "Sunday, 4:26 PM",
+   "type": "incoming",
+   "detail": "2 min"
+  },
+  {
+   "name": "Josie",
+   "time": "Sunday, 1:43 PM",
+   "type": "outgoing",
+   "detail": "4 min"
+  },
+  {
+   "name": "Colt",
+   "time": "Sunday, 10:37 AM",
+   "type": "incoming",
+   "detail": "3 min"
+  },
+  {
+   "name": "Kayla",
+   "time": "Saturday, 7:59 PM",
+   "type": "outgoing",
+   "detail": "6 min"
+  },
+  {
+   "name": "Curtis Lambert",
+   "time": "Saturday, 8:40 AM",
+   "type": "outgoing",
+   "detail": "1 min"
+  },
+  {
+   "name": "Delaney",
+   "time": "Friday, 4:29 PM",
+   "type": "outgoing",
+   "detail": "2 min"
+  },
+  {
+   "name": "+1 (816) 555-0117",
+   "time": "Friday, 10:28 AM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Shelby Doyle",
+   "time": "7/30/26, 7:32 PM",
+   "type": "outgoing",
+   "detail": "3 min"
+  },
+  {
+   "name": "Rick",
+   "time": "7/30/26, 2:48 PM",
+   "type": "incoming",
+   "detail": "2 min"
+  },
+  {
+   "name": "Kendall Vaught",
+   "time": "7/30/26, 8:59 AM",
+   "type": "outgoing",
+   "detail": "2 min"
+  },
+  {
+   "name": "Nate Kepler",
+   "time": "7/29/26, 10:30 PM",
+   "type": "incoming",
+   "detail": "2 min"
+  },
+  {
+   "name": "Denise",
+   "time": "7/29/26, 6:39 PM",
+   "type": "outgoing",
+   "detail": "5 min"
+  },
+  {
+   "name": "Blake",
+   "time": "7/29/26, 12:05 PM",
+   "type": "incoming",
+   "detail": "1 min"
+  },
+  {
+   "name": "Brookside Dental",
+   "time": "7/29/26, 10:09 AM",
+   "type": "outgoing",
+   "detail": "2 min"
+  },
+  {
+   "name": "+1 (816) 555-0147",
+   "time": "7/28/26, 11:42 PM",
+   "type": "outgoing",
+   "detail": "2 min"
+  },
+  {
+   "name": "Kendra 🌙",
+   "time": "7/28/26, 9:04 AM",
+   "type": "outgoing",
+   "detail": "4 min"
+  },
+  {
+   "name": "Bridget Kessler",
+   "time": "7/28/26, 8:45 AM",
+   "type": "outgoing",
+   "detail": "3 min"
+  }
+ ],
+ "messages": [
+  {
+   "id": "conv-sms-2",
+   "title": "Brady Nolan",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hey, you in for happy hour tonight?"
+    },
+    {
+     "me": true,
+     "text": "Cool, which spot?"
+    },
+    {
+     "me": false,
+     "text": "That place that just opened up in Westport"
+    },
+    {
+     "me": true,
+     "text": "Ah, that place on 39th?"
+    },
+    {
+     "me": false,
+     "text": "Yep, that's the one"
+    },
+    {
+     "me": false,
+     "text": "Wyatt already confirmed"
+    },
+    {
+     "me": true,
+     "text": "Count me in — when are we meeting?"
+    },
+    {
+     "me": false,
+     "text": "7:30 work for you?"
+    },
+    {
+     "me": true,
+     "text": "Works for me, catch you there"
+    },
+    {
+     "me": false,
+     "text": "Hey, you vanished on us last night"
+    },
+    {
+     "me": true,
+     "text": "I was wiped, headed home early"
+    },
+    {
+     "me": false,
+     "text": "Everything alright with you?"
+    },
+    {
+     "me": true,
+     "text": "Yeah all good, just work stuff"
+    },
+    {
+     "me": false,
+     "text": "Alright, go get some rest then"
+    }
+   ],
+   "avatar": "msg_0.webp"
+  },
+  {
+   "id": "conv-sms-3",
+   "title": "Nora Whitfield",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hey cousin, how have you been?"
+    },
+    {
+     "me": true,
+     "text": "Nora! Doing fine — what about you?"
+    },
+    {
+     "me": false,
+     "text": "Doing good too! You coming to the cookout Sunday?"
+    },
+    {
+     "me": true,
+     "text": "Is it over at your folks' place?"
+    },
+    {
+     "me": false,
+     "text": "Yeah, the whole family's showing up"
+    },
+    {
+     "me": true,
+     "text": "Mind if Adrienne comes along?"
+    },
+    {
+     "me": false,
+     "text": "For sure! I love her"
+    },
+    {
+     "me": true,
+     "text": "Then we're set"
+    },
+    {
+     "me": false,
+     "text": "Want me to put you down for anything?"
+    },
+    {
+     "me": true,
+     "text": "I can bring a dessert if that helps"
+    },
+    {
+     "me": false,
+     "text": "Perfect, nobody ever brings dessert"
+    },
+    {
+     "me": true,
+     "text": "What time's it kick off?"
+    },
+    {
+     "me": false,
+     "text": "We kick off at noon"
+    },
+    {
+     "me": true,
+     "text": "Great, Sunday it is then"
+    },
+    {
+     "me": false,
+     "text": "Ross, did you hear Colt got hitched?"
+    },
+    {
+     "me": true,
+     "text": "No way, good for him!"
+    },
+    {
+     "me": false,
+     "text": "Yeah, saw it on Instagram"
+    },
+    {
+     "me": true,
+     "text": "Off to find that post"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-4",
+   "title": "Grant",
+   "time": "Sunday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Ross, are the Prairie Village plans finished?"
+    },
+    {
+     "me": true,
+     "text": "Almost — they go out today"
+    },
+    {
+     "me": false,
+     "text": "All good, take your time"
+    },
+    {
+     "me": false,
+     "text": "The client rang to check on it"
+    },
+    {
+     "me": true,
+     "text": "Sorry about that. It'll be in his inbox before 5 PM"
+    },
+    {
+     "me": false,
+     "text": "No worries, appreciate it"
+    },
+    {
+     "me": true,
+     "text": "Quick one — do you have the survey for the north lot?"
+    },
+    {
+     "me": false,
+     "text": "It's in the shared folder, under site docs"
+    },
+    {
+     "me": true,
+     "text": "Found it, thanks"
+    },
+    {
+     "me": false,
+     "text": "Shout if the levels look off, they were redone in June"
+    },
+    {
+     "me": true,
+     "text": "Just emailed the plan over, Grant"
+    },
+    {
+     "me": false,
+     "text": "Got it! Reviewing now, then it goes to the client"
+    },
+    {
+     "me": false,
+     "text": "Man, the client is thrilled with it"
+    },
+    {
+     "me": true,
+     "text": "That's great news, thanks for telling me"
+    },
+    {
+     "me": false,
+     "text": "He already signed off on the next phase"
+    },
+    {
+     "me": true,
+     "text": "Nice! What's the start date?"
+    },
+    {
+     "me": false,
+     "text": "We're good to start Monday"
+    }
+   ],
+   "avatar": "msg_2.webp"
+  },
+  {
+   "id": "conv-sms-5",
+   "title": "Trent Okafor",
+   "time": "Friday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Ross, still on for a session at 6 tonight?"
+    },
+    {
+     "me": true,
+     "text": "Oh, nice!"
+    },
+    {
+     "me": false,
+     "text": "Chest and triceps on the plan for today"
+    },
+    {
+     "me": true,
+     "text": "Sounds good, see you at the gym"
+    },
+    {
+     "me": false,
+     "text": "Man, the progress you're putting in is no joke"
+    }
+   ],
+   "avatar": "msg_3.webp"
+  },
+  {
+   "id": "conv-sms-6",
+   "title": "Marnie",
+   "time": "7/30/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Ross! It's been way too long!"
+    },
+    {
+     "me": true,
+     "text": "Marnie! How have you been?"
+    },
+    {
+     "me": false,
+     "text": "Doing fine — buried in work though"
+    },
+    {
+     "me": false,
+     "text": "What about you, how's the architecture treating you?"
+    },
+    {
+     "me": true,
+     "text": "Really well! Plenty of new projects on the desk"
+    },
+    {
+     "me": false,
+     "text": "Love that! We have to catch up in person"
+    },
+    {
+     "me": true,
+     "text": "Agreed, let's put a date on it"
+    },
+    {
+     "me": false,
+     "text": "Drinks sometime next week?"
+    },
+    {
+     "me": true,
+     "text": "Sounds great, let me look at my week"
+    },
+    {
+     "me": false,
+     "text": "Bring Adrienne along if she's free"
+    },
+    {
+     "me": true,
+     "text": "Definitely, she'd enjoy that"
+    },
+    {
+     "me": false,
+     "text": "Great, details to follow"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-7",
+   "title": "Curtis Lambert",
+   "time": "7/29/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Man, did you catch the game last night?"
+    },
+    {
+     "me": true,
+     "text": "I did! That second-half goal was unreal"
+    },
+    {
+     "me": false,
+     "text": "The build-up on it, though"
+    },
+    {
+     "me": true,
+     "text": "The team's on a serious run right now"
+    },
+    {
+     "me": false,
+     "text": "If they keep the back four fit they'll go far"
+    },
+    {
+     "me": true,
+     "text": "That's a big if with this squad"
+    },
+    {
+     "me": false,
+     "text": "Ha, fair"
+    },
+    {
+     "me": false,
+     "text": "Yeah, the playoffs are gonna be rough"
+    },
+    {
+     "me": true,
+     "text": "Curtis, are we going to the game Sunday?"
+    },
+    {
+     "me": false,
+     "text": "Which game?"
+    },
+    {
+     "me": true,
+     "text": "Sporting KC hosting FC Dallas"
+    },
+    {
+     "me": false,
+     "text": "Ah, it's a big rivalry one"
+    },
+    {
+     "me": false,
+     "text": "But I can't, already got something on"
+    },
+    {
+     "me": true,
+     "text": "Ah, that's a shame"
+    },
+    {
+     "me": false,
+     "text": "I'll make it to the next one"
+    },
+    {
+     "me": true,
+     "text": "No worries, next time for sure"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-8",
+   "title": "Dale Prentiss",
+   "time": "7/28/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Ross, how are things with you?"
+    },
+    {
+     "me": true,
+     "text": "Hey Dale, all good here"
+    },
+    {
+     "me": false,
+     "text": "Did all that racket last night reach you?"
+    },
+    {
+     "me": true,
+     "text": "What noise?"
+    },
+    {
+     "me": false,
+     "text": "Sounded like somebody doing building work, at that hour"
+    },
+    {
+     "me": true,
+     "text": "Oh yeah, I caught that too"
+    },
+    {
+     "me": true,
+     "text": "My money's on the unit on the 5th floor"
+    },
+    {
+     "me": false,
+     "text": "That would make sense, they had a skip outside all week"
+    },
+    {
+     "me": true,
+     "text": "And it always starts up after ten, that's the part that gets me"
+    },
+    {
+     "me": false,
+     "text": "Nobody should be drilling at that hour"
+    },
+    {
+     "me": false,
+     "text": "Right, I'll raise it with the building manager"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-9",
+   "title": "DoorDash",
+   "time": "7/26/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Order #1234 has arrived. Mind leaving us a rating?"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-10",
+   "title": "Commerce Bank",
+   "time": "7/25/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Commerce Bank alert: a $127.50 charge on the card ending in 4321 was approved. Not you? Reach us on 1-800-555-0142."
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-11",
+   "title": "Della Reyes",
+   "time": "7/24/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Is this Ross? Delaney passed me your number"
+    },
+    {
+     "me": true,
+     "text": "It is — you're Della, right?"
+    },
+    {
+     "me": false,
+     "text": "That's me. She mentioned you're an architect"
+    },
+    {
+     "me": true,
+     "text": "Yeah! You need something designed?"
+    },
+    {
+     "me": false,
+     "text": "Actually yeah! Looking to redo my apartment"
+    },
+    {
+     "me": true,
+     "text": "Nice! Happy to sit down and go through it"
+    },
+    {
+     "me": false,
+     "text": "Great. Would Friday suit you?"
+    },
+    {
+     "me": true,
+     "text": "Friday works for me"
+    },
+    {
+     "me": false,
+     "text": "Perfect, I'll text you the address closer to the day"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-key-1",
+   "title": "Kendra 🌙",
+   "time": "6/14/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hey babe, how are you doing?"
+    },
+    {
+     "me": true,
+     "text": "Hey birdie, doing fine, and you?"
+    },
+    {
+     "me": false,
+     "text": "Feeling better now that you replied 😍"
+    },
+    {
+     "me": true,
+     "text": "Haha you're impossible birdie"
+    },
+    {
+     "me": false,
+     "text": "So, have you cracked the code yet? 😏"
+    },
+    {
+     "me": true,
+     "text": "Nope... I've tried twice"
+    },
+    {
+     "me": false,
+     "text": "You have to add two dates together, not just one!"
+    },
+    {
+     "me": true,
+     "text": "222107 isn't working"
+    },
+    {
+     "me": true,
+     "text": "Alright, I'm just gonna ask ChatGPT"
+    },
+    {
+     "me": false,
+     "text": "Cheater 😂"
+    },
+    {
+     "me": false,
+     "text": "Babe, where are you? 😘"
+    },
+    {
+     "me": true,
+     "text": "Is something wrong? Are you okay?"
+    },
+    {
+     "me": false,
+     "text": "It's just... sometimes I find myself thinking about Adrienne"
+    },
+    {
+     "me": true,
+     "text": "Morning birdie ☀️"
+    },
+    {
+     "me": false,
+     "text": "We already talked it through, but I still can't stop thinking about it"
+    },
+    {
+     "me": true,
+     "text": "Kendra, birdie, you know what I feel for you is real"
+    },
+    {
+     "me": false,
+     "text": "I know... it's just complicated"
+    },
+    {
+     "me": true,
+     "text": "Look birdie, I already told you I was going to break up with her"
+    },
+    {
+     "me": true,
+     "text": "I'm just waiting for the right moment"
+    },
+    {
+     "me": false,
+     "text": "That's what you always say..."
+    },
+    {
+     "me": true,
+     "text": "Come on birdie, we've already been together for 4 months"
+    },
+    {
+     "me": true,
+     "text": "You really think this is a game to me?"
+    },
+    {
+     "me": false,
+     "text": "No, I know it isn't"
+    },
+    {
+     "me": false,
+     "text": "Sorry — it's only because I love you this much"
+    },
+    {
+     "me": false,
+     "text": "And sometimes I get scared of losing you"
+    },
+    {
+     "me": true,
+     "text": "You're not going to lose me, birdie"
+    },
+    {
+     "me": true,
+     "text": "Relax, Adrienne and I are"
+    },
+    {
+     "me": true,
+     "text": "Best friends"
+    },
+    {
+     "me": true,
+     "text": "Nothing will ever happen between us"
+    },
+    {
+     "me": false,
+     "text": "Love you more than anything ❤️"
+    },
+    {
+     "me": false,
+     "text": "Morning birdie, can't stop thinking about last night 💕"
+    }
+   ],
+   "avatar": "msg_10.webp"
+  }
+ ],
+ "whatsapp": [
+  {
+   "id": "conv-wa-2",
+   "title": "Grant",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Ross, have you had a look at the Prairie Village drawings?"
+    },
+    {
+     "me": true,
+     "text": "Yeah, went through them this morning"
+    },
+    {
+     "me": false,
+     "text": "So what's your take?"
+    },
+    {
+     "me": true,
+     "text": "Honestly, the facade feels like it has no character"
+    },
+    {
+     "me": true,
+     "text": "And you?"
+    },
+    {
+     "me": false,
+     "text": "Same here"
+    },
+    {
+     "me": false,
+     "text": "Should we pitch a few changes?"
+    },
+    {
+     "me": true,
+     "text": "Good call"
+    },
+    {
+     "me": true,
+     "text": "Want to hash it out at the office tomorrow?"
+    },
+    {
+     "me": false,
+     "text": "Great, tomorrow then!"
+    }
+   ],
+   "avatar": "msg_2.webp"
+  },
+  {
+   "id": "conv-wa-3",
+   "title": "Nora Whitfield",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "How are things, cousin?"
+    },
+    {
+     "me": true,
+     "text": "Nora! All good here, you?"
+    },
+    {
+     "me": false,
+     "text": "Really well!"
+    },
+    {
+     "me": false,
+     "text": "You making it to grandma's birthday?"
+    },
+    {
+     "me": true,
+     "text": "Of course! Remind me when it is?"
+    },
+    {
+     "me": false,
+     "text": "Next Saturday — put it in your phone"
+    },
+    {
+     "me": false,
+     "text": "3pm at her place"
+    },
+    {
+     "me": true,
+     "text": "Got it, I'll be there"
+    },
+    {
+     "me": false,
+     "text": "Is Adrienne coming with you?"
+    },
+    {
+     "me": true,
+     "text": "Yeah, she'll be there too"
+    },
+    {
+     "me": false,
+     "text": "Lovely! I haven't seen her in ages"
+    },
+    {
+     "me": true,
+     "text": "She'll be glad to see you as well"
+    },
+    {
+     "me": false,
+     "text": "😊"
+    },
+    {
+     "me": true,
+     "text": "Anyway, I have to run"
+    },
+    {
+     "me": false,
+     "text": "See you Saturday, cousin!"
+    }
+   ]
+  },
+  {
+   "id": "conv-wa-4",
+   "title": "Trent Okafor",
+   "time": "Monday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Ross, are we training at 7 tonight?"
+    },
+    {
+     "me": true,
+     "text": "Yep! Usual gym?"
+    },
+    {
+     "me": false,
+     "text": "Yeah, it's leg day"
+    },
+    {
+     "me": true,
+     "text": "Perfect"
+    },
+    {
+     "me": false,
+     "text": "Alright, I'll be waiting there"
+    },
+    {
+     "me": true,
+     "text": "Bring the knee sleeves back if you have them"
+    },
+    {
+     "me": false,
+     "text": "They're in my bag already, I'll hand them over tonight"
+    },
+    {
+     "me": true,
+     "text": "Perfect"
+    },
+    {
+     "me": true,
+     "text": "Hey man, I'm not going to make it"
+    },
+    {
+     "me": true,
+     "text": "Something came up at work"
+    },
+    {
+     "me": false,
+     "text": "No worries! Tomorrow instead?"
+    },
+    {
+     "me": true,
+     "text": "Tomorrow works, same time"
+    }
+   ],
+   "avatar": "msg_3.webp"
+  },
+  {
+   "id": "conv-wa-5",
+   "title": "Curtis Lambert",
+   "time": "Sunday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hey brother"
+    },
+    {
+     "me": true,
+     "text": "Hey Curtis! How's everything?"
+    },
+    {
+     "me": false,
+     "text": "Doing fine"
+    },
+    {
+     "me": false,
+     "text": "Did you catch that Sporting KC won?"
+    },
+    {
+     "me": true,
+     "text": "Yeah! What a match huh"
+    },
+    {
+     "me": false,
+     "text": "That goal from the young striker was incredible"
+    },
+    {
+     "me": true,
+     "text": "Right? The kid has real talent"
+    },
+    {
+     "me": false,
+     "text": "They're saying he might get a call-up"
+    },
+    {
+     "me": true,
+     "text": "About time somebody noticed him"
+    },
+    {
+     "me": false,
+     "text": "We should get to a game before the season's out"
+    },
+    {
+     "me": true,
+     "text": "Anyway, I'm off to bed"
+    },
+    {
+     "me": true,
+     "text": "I've got an early start at work tomorrow"
+    },
+    {
+     "me": false,
+     "text": "Night, man!"
+    }
+   ]
+  },
+  {
+   "id": "conv-wa-6",
+   "title": "Marnie",
+   "time": "Saturday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Ross! How are you?"
+    },
+    {
+     "me": true,
+     "text": "Marnie! Doing well, and you?"
+    },
+    {
+     "me": false,
+     "text": "Great! Guess who I ran into yesterday — our old design professor"
+    },
+    {
+     "me": true,
+     "text": "Seriously? How's she doing?"
+    },
+    {
+     "me": false,
+     "text": "Great! She was asking about you"
+    },
+    {
+     "me": false,
+     "text": "She brought up your final project"
+    },
+    {
+     "me": true,
+     "text": "Nice! Give her my regards"
+    },
+    {
+     "me": false,
+     "text": "Will do"
+    },
+    {
+     "me": false,
+     "text": "And how's work?"
+    },
+    {
+     "me": true,
+     "text": "Full on, but I love the work"
+    },
+    {
+     "me": false,
+     "text": "That's what matters, loving what you do"
+    },
+    {
+     "me": true,
+     "text": "How's the new place treating you?"
+    },
+    {
+     "me": false,
+     "text": "Boxes everywhere still, but the light in the mornings is unreal"
+    },
+    {
+     "me": true,
+     "text": "That's the part you can't fix later, so good call"
+    },
+    {
+     "me": false,
+     "text": "That's exactly what I keep telling myself 😄"
+    },
+    {
+     "me": true,
+     "text": "Absolutely"
+    },
+    {
+     "me": true,
+     "text": "Anyway, I better run"
+    },
+    {
+     "me": false,
+     "text": "Catch you later"
+    }
+   ]
+  },
+  {
+   "id": "conv-wa-key-1",
+   "title": "Brady Nolan",
+   "time": "Friday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": true,
+     "text": "Hey bro, how's everything?"
+    },
+    {
+     "me": false,
+     "text": "All good here, and you?"
+    },
+    {
+     "me": true,
+     "text": "Listen, I could use your help"
+    },
+    {
+     "me": false,
+     "text": "Go ahead, tell me everything"
+    },
+    {
+     "me": true,
+     "text": "Remember what we were talking about the other day"
+    },
+    {
+     "me": false,
+     "text": "The girl?"
+    },
+    {
+     "me": true,
+     "text": "Yeah exactly"
+    },
+    {
+     "me": true,
+     "text": "I need you to cover for me on those nights if Adri starts asking questions"
+    },
+    {
+     "me": false,
+     "text": "Ah damn, things are getting complicated"
+    },
+    {
+     "me": false,
+     "text": "But hey, you know you can count on me"
+    },
+    {
+     "me": true,
+     "text": "Thanks buddy, you're like a brother to me"
+    },
+    {
+     "me": false,
+     "text": "So how do we pull this off?"
+    },
+    {
+     "me": true,
+     "text": "Well, if Adri asks, just say we were together"
+    },
+    {
+     "me": true,
+     "text": "Like at the bar or over at the movies"
+    },
+    {
+     "me": false,
+     "text": "Ok, but give me a heads up beforehand okay"
+    },
+    {
+     "me": false,
+     "text": "That way I know what to say"
+    },
+    {
+     "me": true,
+     "text": "Of course, I'll text you before"
+    },
+    {
+     "me": true,
+     "text": "Just say we went to catch a movie at Country Club Plaza"
+    },
+    {
+     "me": true,
+     "text": "Or that we were hanging out at the bar in Westport"
+    },
+    {
+     "me": false,
+     "text": "Sounds good"
+    },
+    {
+     "me": false,
+     "text": "But watch yourself bro"
+    },
+    {
+     "me": true,
+     "text": "I know what I'm doing"
+    },
+    {
+     "me": false,
+     "text": "For your sake I hope so"
+    },
+    {
+     "me": false,
+     "text": "Adri is a good person"
+    },
+    {
+     "me": true,
+     "text": "I know..."
+    },
+    {
+     "me": true,
+     "text": "Anyway, let's change the subject"
+    },
+    {
+     "me": true,
+     "text": "Wanna play some soccer tomorrow?"
+    },
+    {
+     "me": false,
+     "text": "Yeah, definitely! At the usual field?"
+    },
+    {
+     "me": true,
+     "text": "Perfect! Does 4pm work for you?"
+    },
+    {
+     "me": false,
+     "text": "Hey bro! Did you have fun at the soccer Saturday?"
+    },
+    {
+     "me": true,
+     "text": "Totally, we've got to do it again"
+    },
+    {
+     "me": false,
+     "text": "For sure, let's meet up this week 👊"
+    }
+   ],
+   "avatar": "msg_0.webp"
+  },
+  {
+   "id": "conv-wa-7",
+   "title": "Dale Prentiss",
+   "time": "Friday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Ross, good evening"
+    },
+    {
+     "me": true,
+     "text": "Evening Dale, everything all right?"
+    },
+    {
+     "me": false,
+     "text": "Yeah, thanks"
+    },
+    {
+     "me": false,
+     "text": "Any idea if there's an HOA meeting this month?"
+    },
+    {
+     "me": true,
+     "text": "Pretty sure, on the 20th"
+    },
+    {
+     "me": false,
+     "text": "Thanks for letting me know"
+    },
+    {
+     "me": true,
+     "text": "Any time! Have a good one"
+    }
+   ]
+  },
+  {
+   "id": "conv-wa-8",
+   "title": "Kayla",
+   "time": "7/30/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Ross! Are you in class tomorrow at 7?"
+    },
+    {
+     "me": true,
+     "text": "Kayla, hey! Yes, count me in"
+    },
+    {
+     "me": false,
+     "text": "Lovely — we're on breathing work"
+    },
+    {
+     "me": true,
+     "text": "Good, I could use some unwinding"
+    },
+    {
+     "me": false,
+     "text": "The yoga will do you good 😊"
+    },
+    {
+     "me": true,
+     "text": "Always does! See you tomorrow"
+    }
+   ]
+  },
+  {
+   "id": "conv-wa-9",
+   "title": "Blake",
+   "time": "7/29/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Mr. Ross, a package was dropped off for you"
+    },
+    {
+     "me": true,
+     "text": "Thanks Blake, I'll grab it when I'm home"
+    }
+   ]
+  }
+ ],
+ "gmail": [
+  {
+   "sender": "To: Grant Ferris",
+   "subject": "Re: Westport Project",
+   "preview": "Hi Grant, Agreed on the circulation. Shifting the main staircase would open up a far more generous entrance ha",
+   "body": "Hi Grant,\n\nAgreed on the circulation. Shifting the main staircase would open up a far more generous entrance hall. Tomorrow at 10 AM to talk it through?\n\nRoss",
+   "time": "Yesterday",
+   "folder": "sent"
+  },
+  {
+   "sender": "Grant Ferris",
+   "subject": "Re: Westport Project",
+   "preview": "Hi Ross, Went through your drawings for the Westport project. The spaces themselves hold up well, but the grou",
+   "body": "Hi Ross,\n\nWent through your drawings for the Westport project. The spaces themselves hold up well, but the ground-floor circulation could be tightened. Free to go over it tomorrow?\n\nGrant",
+   "time": "Yesterday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "ArchDaily",
+   "subject": "Where ecological building is heading this week",
+   "preview": "Hello Ross, This week's roundup gathers the projects pushing ecological building the furthest. New materials a",
+   "body": "Hello Ross,\n\nThis week's roundup gathers the projects pushing ecological building the furthest. New materials are quietly changing how we put things together...",
+   "time": "Yesterday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Dezeen",
+   "subject": "New architecture in America: 10 projects to follow",
+   "preview": "Midwestern architects keep pushing. Below are the ten most promising projects of the year, with work in Kansas",
+   "body": "Midwestern architects keep pushing. Below are the ten most promising projects of the year, with work in Kansas City, St. Louis and Denver...",
+   "time": "Tuesday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Marnie Dolan",
+   "subject": "Re: The class reunion",
+   "preview": "Hi Marnie! A reunion sounds great. September 10 is clear for me, so count me in. Anything you want me to bring",
+   "body": "Hi Marnie!\n\nA reunion sounds great. September 10 is clear for me, so count me in. Anything you want me to bring?\n\nHugs,\nRoss",
+   "time": "Monday",
+   "folder": "sent"
+  },
+  {
+   "sender": "Marnie Dolan",
+   "subject": "Getting the old architecture class together",
+   "preview": "Hey Ross! A few of us from the old architecture school are putting together a small reunion next month. Saturd",
+   "body": "Hey Ross!\n\nA few of us from the old architecture school are putting together a small reunion next month. Saturday September 10 — any chance you are free? It would be so good to see you again.\n\nHugs,\nMarnie",
+   "time": "Monday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Sutherlands Lumber",
+   "subject": "Your order is ready for pickup",
+   "preview": "Hello Ross, The timber samples you ordered are waiting at the trade counter. We hold orders for seven days. Su",
+   "body": "Hello Ross,\n\nThe timber samples you ordered are waiting at the trade counter. We hold orders for seven days.\n\nSutherlands Lumber, Kansas City",
+   "time": "Sunday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Commerce Bank",
+   "subject": "Your card statement is ready to view",
+   "preview": "Hello Ross, Your August card statement is available in your customer area. Current balance: $4,250.00 Card end",
+   "body": "Hello Ross,\n\nYour August card statement is available in your customer area. Current balance: $4,250.00\n\nCard ending 4321 - spend by category this cycle:\n- Groceries and dining: $412.30\n- Travel and gifts: $1,750.00\n- Everything else: $268.90\n\nBest regards,\nCommerce Bank",
+   "time": "Sunday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "DoorDash",
+   "subject": "Your order just arrived!",
+   "preview": "Hi Ross! Your sushi order has been dropped off. Hope it hit the spot — a quick review helps us out!",
+   "body": "Hi Ross! Your sushi order has been dropped off. Hope it hit the spot — a quick review helps us out!",
+   "time": "Saturday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "AIA KC",
+   "subject": "New urban planning regulations - Kansas City",
+   "preview": "Dear architect, From August 27, new rules apply to building in dense urban areas. The details are on our websi",
+   "body": "Dear architect,\n\nFrom August 27, new rules apply to building in dense urban areas. The details are on our website.\n\nAmerican Institute of Architects — Kansas City",
+   "time": "Saturday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Netflix",
+   "subject": "Two new architecture documentaries for you",
+   "preview": "Two new documentary series on modern architecture have just landed, 'World's Most Amazing Architecture' among ",
+   "body": "Two new documentary series on modern architecture have just landed, 'World's Most Amazing Architecture' among them. Right up your street!",
+   "time": "Friday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Uber",
+   "subject": "Receipt for your ride - $18.50",
+   "preview": "Thanks for riding with Uber! Westport to Brookside came to $18.50. Your driver was John (5 stars)",
+   "body": "Thanks for riding with Uber! Westport to Brookside came to $18.50. Your driver was John (5 stars)",
+   "time": "7/30/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Nora Whitfield",
+   "subject": "Re: Cookout at ours on Sunday",
+   "preview": "Hi Nora! We would not miss it. Adrienne is looking forward to seeing everyone again. Shall I bring the drinks?",
+   "body": "Hi Nora!\n\nWe would not miss it. Adrienne is looking forward to seeing everyone again. Shall I bring the drinks?\n\nSunday it is!\nRoss",
+   "time": "7/30/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Nora Whitfield",
+   "subject": "Cookout at ours on Sunday",
+   "preview": "Hi cousin! We are doing a barbecue on Sunday, from 3pm. Any chance you can make it? Bring Adrienne along if yo",
+   "body": "Hi cousin!\n\nWe are doing a barbecue on Sunday, from 3pm. Any chance you can make it? Bring Adrienne along if you like, the whole family is coming.\n\nHugs,\nNora",
+   "time": "7/30/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Evergy",
+   "subject": "Your August bill is ready",
+   "preview": "Hello Ross, your bill for the Westport apartment is $78.40, due August 20. Paperless billing is on, so nothing",
+   "body": "Hello Ross, your bill for the Westport apartment is $78.40, due August 20. Paperless billing is on, so nothing will arrive in the mail.",
+   "time": "7/30/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "eBay",
+   "subject": "Your item has left the warehouse",
+   "preview": "Hello Ross! Your copy of 'Contemporary Architecture in America' has left the warehouse and should reach you to",
+   "body": "Hello Ross! Your copy of 'Contemporary Architecture in America' has left the warehouse and should reach you tomorrow. Tracking number: 9405511899561234",
+   "time": "7/29/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Kayla Rice",
+   "subject": "Re: A yoga class built around architects",
+   "preview": "Hi Kayla! That concept has me curious. After a long day at the drawing board it is exactly what I would need. ",
+   "body": "Hi Kayla!\n\nThat concept has me curious. After a long day at the drawing board it is exactly what I would need. Could you send over more details?\n\nRoss",
+   "time": "7/29/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Kayla Rice",
+   "subject": "A yoga class built around architects",
+   "preview": "Hi Ross! You came to mind: I am starting a yoga class built around architects, with poses drawn from geometric",
+   "body": "Hi Ross!\n\nYou came to mind: I am starting a yoga class built around architects, with poses drawn from geometric forms. Tempted?\n\nNamaste,\nKayla",
+   "time": "7/28/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Grant Ferris",
+   "subject": "Prairie Village - revised elevations",
+   "preview": "Hi Grant, Revised elevations attached. The north facade is the only real change: deeper reveals and the brick ",
+   "body": "Hi Grant,\n\nRevised elevations attached. The north facade is the only real change: deeper reveals and the brick carried up past the second floor.\n\nHave a look before the client sees them.\n\nRoss",
+   "time": "7/28/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Spotify",
+   "subject": "Your 2026 Wrapped is ready",
+   "preview": "Over the year you played 2,847 hours of music while you worked. Genre of choice: lo-fi hip hop, for concentrat",
+   "body": "Over the year you played 2,847 hours of music while you worked. Genre of choice: lo-fi hip hop, for concentration.",
+   "time": "7/27/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Rick Garrett",
+   "subject": "Re: The Civic",
+   "preview": "Hi Rick, Appreciate the quick turnaround. I will swing by for the car tomorrow around 6pm once I am done at wo",
+   "body": "Hi Rick,\n\nAppreciate the quick turnaround. I will swing by for the car tomorrow around 6pm once I am done at work, and the price is fine by me.\n\nSee you then,\nRoss",
+   "time": "7/26/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Rick Garrett",
+   "subject": "The Civic is ready to collect",
+   "preview": "Hi Ross, The Honda Civic is done. Oil and filters changed, nothing else out of order. It comes to $280.00 and ",
+   "body": "Hi Ross,\n\nThe Honda Civic is done. Oil and filters changed, nothing else out of order. It comes to $280.00 and you can collect it whenever suits you.\n\nRick",
+   "time": "7/26/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "AutoCAD",
+   "subject": "Update to AutoCAD 2026.2 today",
+   "preview": "AutoCAD 2026.2 is ready to install, with faster performance and new tools for 3D modeling. Download it now.",
+   "body": "AutoCAD 2026.2 is ready to install, with faster performance and new tools for 3D modeling. Download it now.",
+   "time": "7/25/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Marisol Vega",
+   "subject": "Re: Brookside kitchen",
+   "preview": "Hi Marisol, The joinery drawings are done, so the cabinetmaker can quote from them now. Invoice follows at the",
+   "body": "Hi Marisol,\n\nThe joinery drawings are done, so the cabinetmaker can quote from them now. Invoice follows at the end of the month as usual.\n\nThanks for putting my name forward with them.\n\nRoss",
+   "time": "7/24/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "To: Colt Barrows",
+   "subject": "Re: The opening at your firm",
+   "preview": "Hi Colt! Kind of you to think of me. I am always willing to hear about something new — could you send the deta",
+   "body": "Hi Colt!\n\nKind of you to think of me. I am always willing to hear about something new — could you send the details on the role and the firm? Happy to meet up over it.\n\nRoss",
+   "time": "7/23/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "To: Denise Price",
+   "subject": "Confirming tomorrow at 2pm",
+   "preview": "Hello Dr Price, Confirming that I will be there tomorrow at 2pm. See you then. Ross Bidwell",
+   "body": "Hello Dr Price,\n\nConfirming that I will be there tomorrow at 2pm. See you then.\n\nRoss Bidwell",
+   "time": "7/22/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Denise Price",
+   "subject": "Reminder: your checkup is tomorrow",
+   "preview": "Hello Ross, A reminder that your six-month checkup is tomorrow at 2 PM. Any change needs 24 hours of notice, s",
+   "body": "Hello Ross,\n\nA reminder that your six-month checkup is tomorrow at 2 PM. Any change needs 24 hours of notice, so let me know as soon as you can.\n\nDr Denise Price",
+   "time": "7/22/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Manager",
+   "subject": "Requesting a few days off - July 2026",
+   "preview": "Hello, I would like to take a few days of leave, September 7 to 16, for a short trip. Everything on my desk wi",
+   "body": "Hello,\n\nI would like to take a few days of leave, September 7 to 16, for a short trip. Everything on my desk will be wrapped up before then.\n\nBest regards,\nRoss Bidwell",
+   "time": "7/21/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "To: AutoCAD Support",
+   "subject": "AutoCAD license will not validate",
+   "preview": "Hello, Since yesterday my AutoCAD license has stopped validating. Could you help me sort it out? License numbe",
+   "body": "Hello,\n\nSince yesterday my AutoCAD license has stopped validating. Could you help me sort it out?\n\nLicense number: AC2026-KC-789456\n\nBest regards,\nRoss Bidwell",
+   "time": "7/20/26",
+   "folder": "sent"
+  }
+ ],
+ "calendar": [
+  {
+   "title": "Client walkthrough — urgent",
+   "date": "08/06",
+   "dateLabel": "Thu, Aug 6, 2026",
+   "month": "2026-08",
+   "time": "8:30 AM – 10:00 AM",
+   "location": "Bidwell Studio, Westport"
+  },
+  {
+   "title": "Photo walk through the city",
+   "date": "08/03",
+   "dateLabel": "Mon, Aug 3, 2026",
+   "month": "2026-08",
+   "time": "8:00 AM – 11:00 AM",
+   "location": "Historic Northeast"
+  },
+  {
+   "title": "Client meeting",
+   "date": "07/31",
+   "dateLabel": "Fri, Jul 31, 2026",
+   "month": "2026-07",
+   "time": "7:00 PM – 9:00 PM",
+   "location": "Bidwell Studio, Westport"
+  },
+  {
+   "title": "Friends over for drinks",
+   "date": "07/28",
+   "dateLabel": "Tue, Jul 28, 2026",
+   "month": "2026-07",
+   "time": "8:00 PM – 10:30 PM",
+   "location": "Westport apartment"
+  },
+  {
+   "title": "Plan the next trip",
+   "date": "07/26",
+   "dateLabel": "Sun, Jul 26, 2026",
+   "month": "2026-07",
+   "time": "11:00 AM – 12:00 PM",
+   "location": "Home"
+  },
+  {
+   "title": "Client meeting",
+   "date": "07/24",
+   "dateLabel": "Fri, Jul 24, 2026",
+   "month": "2026-07",
+   "time": "7:00 PM – 9:00 PM",
+   "location": "Bidwell Studio, Westport"
+  },
+  {
+   "title": "3D model review",
+   "date": "07/21",
+   "dateLabel": "Tue, Jul 21, 2026",
+   "month": "2026-07",
+   "time": "2:00 PM – 4:00 PM",
+   "location": "Bidwell Studio, Kansas City"
+  },
+  {
+   "title": "HOA meeting",
+   "date": "07/20",
+   "dateLabel": "Mon, Jul 20, 2026",
+   "month": "2026-07",
+   "time": "7:00 PM – 8:30 PM",
+   "location": "Common room, Westport"
+  },
+  {
+   "title": "Client meeting",
+   "date": "07/17",
+   "dateLabel": "Fri, Jul 17, 2026",
+   "month": "2026-07",
+   "time": "7:00 PM – 9:00 PM",
+   "location": "Bidwell Studio, Westport"
+  },
+  {
+   "title": "Yearly physical",
+   "date": "07/16",
+   "dateLabel": "Thu, Jul 16, 2026",
+   "month": "2026-07",
+   "time": "8:00 AM – 8:45 AM",
+   "location": "Neighborhood clinic"
+  },
+  {
+   "title": "Bike ride before work",
+   "date": "07/13",
+   "dateLabel": "Mon, Jul 13, 2026",
+   "month": "2026-07",
+   "time": "7:00 AM – 8:00 AM",
+   "location": "Bike station – Lee's Summit"
+  },
+  {
+   "title": "Client meeting",
+   "date": "07/10",
+   "dateLabel": "Fri, Jul 10, 2026",
+   "month": "2026-07",
+   "time": "7:00 PM – 9:00 PM",
+   "location": "Bidwell Studio, Westport"
+  },
+  {
+   "title": "Quick lunch, Colt",
+   "date": "07/08",
+   "dateLabel": "Wed, Jul 8, 2026",
+   "month": "2026-07",
+   "time": "12:30 PM – 1:30 PM",
+   "location": "Grinders Crossroads"
+  },
+  {
+   "title": "Car in for service",
+   "date": "07/06",
+   "dateLabel": "Mon, Jul 6, 2026",
+   "month": "2026-07",
+   "time": "8:00 AM – 9:00 AM",
+   "location": "Rick's garage, Brookside"
+  },
+  {
+   "title": "Client meeting",
+   "date": "07/03",
+   "dateLabel": "Fri, Jul 3, 2026",
+   "month": "2026-07",
+   "time": "7:00 PM – 9:00 PM",
+   "location": "Bidwell Studio, Westport"
+  },
+  {
+   "title": "Yoga after work",
+   "date": "07/01",
+   "dateLabel": "Wed, Jul 1, 2026",
+   "month": "2026-07",
+   "time": "6:30 PM – 7:30 PM",
+   "location": "Brookside Yoga"
+  },
+  {
+   "title": "Loose Park walk",
+   "date": "06/27",
+   "dateLabel": "Sat, Jun 27, 2026",
+   "month": "2026-06",
+   "time": "10:00 AM – 11:30 AM",
+   "location": "Loose Park"
+  },
+  {
+   "title": "Client meeting",
+   "date": "06/26",
+   "dateLabel": "Fri, Jun 26, 2026",
+   "month": "2026-06",
+   "time": "7:00 PM – 9:00 PM",
+   "location": "Bidwell Studio, Westport"
+  },
+  {
+   "title": "Endurance run",
+   "date": "06/22",
+   "dateLabel": "Mon, Jun 22, 2026",
+   "month": "2026-06",
+   "time": "7:00 PM – 7:45 PM",
+   "location": "Loose Park"
+  },
+  {
+   "title": "Lunch with Wyatt",
+   "date": "06/20",
+   "dateLabel": "Sat, Jun 20, 2026",
+   "month": "2026-06",
+   "time": "12:30 PM – 1:30 PM",
+   "location": "Grinders Crossroads"
+  },
+  {
+   "title": "Client meeting",
+   "date": "06/19",
+   "dateLabel": "Fri, Jun 19, 2026",
+   "month": "2026-06",
+   "time": "7:00 PM – 9:00 PM",
+   "location": "Bidwell Studio, Westport"
+  },
+  {
+   "title": "Drinks with the team",
+   "date": "06/14",
+   "dateLabel": "Sun, Jun 14, 2026",
+   "month": "2026-06",
+   "time": "7:30 PM – 9:00 PM",
+   "location": "Brookside Tavern"
+  },
+  {
+   "title": "Client meeting",
+   "date": "06/12",
+   "dateLabel": "Fri, Jun 12, 2026",
+   "month": "2026-06",
+   "time": "7:00 PM – 9:00 PM",
+   "location": "Bidwell Studio, Westport"
+  },
+  {
+   "title": "Dinner in with Adrienne",
+   "date": "06/07",
+   "dateLabel": "Sun, Jun 7, 2026",
+   "month": "2026-06",
+   "time": "7:30 PM – 9:00 PM",
+   "location": "Westport Apartment"
+  },
+  {
+   "title": "Client meeting",
+   "date": "06/05",
+   "dateLabel": "Fri, Jun 5, 2026",
+   "month": "2026-06",
+   "time": "7:00 PM – 9:00 PM",
+   "location": "Bidwell Studio, Westport"
+  },
+  {
+   "title": "BIM workshop, remote",
+   "date": "05/31",
+   "dateLabel": "Sun, May 31, 2026",
+   "month": "2026-05",
+   "time": "3:00 PM – 4:30 PM",
+   "location": "Online"
+  },
+  {
+   "title": "Client meeting",
+   "date": "05/29",
+   "dateLabel": "Fri, May 29, 2026",
+   "month": "2026-05",
+   "time": "7:00 PM – 9:00 PM",
+   "location": "Bidwell Studio, Westport"
+  },
+  {
+   "title": "Saturday farmers market",
+   "date": "05/24",
+   "dateLabel": "Sun, May 24, 2026",
+   "month": "2026-05",
+   "time": "9:30 AM – 11:00 AM",
+   "location": "City Market"
+  },
+  {
+   "title": "Client meeting",
+   "date": "05/22",
+   "dateLabel": "Fri, May 22, 2026",
+   "month": "2026-05",
+   "time": "7:00 PM – 9:00 PM",
+   "location": "Bidwell Studio, Westport"
+  },
+  {
+   "title": "Guided tour — architecture show",
+   "date": "05/18",
+   "dateLabel": "Mon, May 18, 2026",
+   "month": "2026-05",
+   "time": "4:00 PM – 5:30 PM",
+   "location": "Kemper Museum"
+  },
+  {
+   "title": "Client meeting",
+   "date": "05/15",
+   "dateLabel": "Fri, May 15, 2026",
+   "month": "2026-05",
+   "time": "7:00 PM – 9:00 PM",
+   "location": "Bidwell Studio, Westport"
+  },
+  {
+   "title": "Materials pickup",
+   "date": "05/13",
+   "dateLabel": "Wed, May 13, 2026",
+   "month": "2026-05",
+   "time": "9:00 AM – 10:00 AM",
+   "location": "Sutherlands Lumber"
+  },
+  {
+   "title": "Lunch with Nora",
+   "date": "05/11",
+   "dateLabel": "Mon, May 11, 2026",
+   "month": "2026-05",
+   "time": "12:30 PM – 1:30 PM",
+   "location": "Crossroads Coffeehouse, Kansas City"
+  },
+  {
+   "title": "Client meeting",
+   "date": "05/08",
+   "dateLabel": "Fri, May 8, 2026",
+   "month": "2026-05",
+   "time": "7:00 PM – 9:00 PM",
+   "location": "Bidwell Studio, Westport"
+  },
+  {
+   "title": "Checkup at the dentist",
+   "date": "05/06",
+   "dateLabel": "Wed, May 6, 2026",
+   "month": "2026-05",
+   "time": "9:30 AM – 10:00 AM",
+   "location": "Brookside Dental"
+  },
+  {
+   "title": "Client meeting",
+   "date": "05/01",
+   "dateLabel": "Fri, May 1, 2026",
+   "month": "2026-05",
+   "time": "7:00 PM – 9:00 PM",
+   "location": "Bidwell Studio, Westport"
+  },
+  {
+   "title": "Facade samples arriving on site",
+   "date": "04/29",
+   "dateLabel": "Wed, Apr 29, 2026",
+   "month": "2026-04",
+   "time": "2:00 PM – 3:00 PM",
+   "location": "Chantier Prairie Village"
+  },
+  {
+   "title": "Progress check on site",
+   "date": "04/26",
+   "dateLabel": "Sun, Apr 26, 2026",
+   "month": "2026-04",
+   "time": "3:30 PM – 5:00 PM",
+   "location": "Chantier Ward Parkway"
+  },
+  {
+   "title": "Client meeting",
+   "date": "04/24",
+   "dateLabel": "Fri, Apr 24, 2026",
+   "month": "2026-04",
+   "time": "7:00 PM – 9:00 PM",
+   "location": "Bidwell Studio, Westport"
+  },
+  {
+   "title": "Video check-in with the studio",
+   "date": "04/22",
+   "dateLabel": "Wed, Apr 22, 2026",
+   "month": "2026-04",
+   "time": "9:00 AM – 9:45 AM",
+   "location": "Online"
+  },
+  {
+   "title": "Urbanism working session",
+   "date": "04/18",
+   "dateLabel": "Sat, Apr 18, 2026",
+   "month": "2026-04",
+   "time": "10:00 AM – 11:00 AM",
+   "location": "Bidwell Studio, Kansas City"
+  },
+  {
+   "title": "Client meeting",
+   "date": "04/17",
+   "dateLabel": "Fri, Apr 17, 2026",
+   "month": "2026-04",
+   "time": "7:00 PM – 9:00 PM",
+   "location": "Bidwell Studio, Westport"
+  },
+  {
+   "title": "Sunday brunch",
+   "date": "04/13",
+   "dateLabel": "Mon, Apr 13, 2026",
+   "month": "2026-04",
+   "time": "11:00 AM – 1:00 PM",
+   "location": "Westport Bakery"
+  },
+  {
+   "title": "Client meeting",
+   "date": "04/10",
+   "dateLabel": "Fri, Apr 10, 2026",
+   "month": "2026-04",
+   "time": "7:00 PM – 9:00 PM",
+   "location": "Bidwell Studio, Westport"
+  }
+ ],
+ "notes": [
+  {
+   "title": "Westport project ideas",
+   "body": "- Brick facade left exposed\n- Vertical garden on the roof terrace\n- Deep bay windows on the south side\n- Materials that last: bamboo, recycled concrete\n- Looking at mid-century Midwestern work for the massing"
+  },
+  {
+   "title": "Studio meeting - Thursday",
+   "body": "Thursday August 8, 2pm — conference room\n\nOn the agenda:\n- Where the Prairie Village project stands\n- Materials budget for Q3\n- Who is away over the summer\n- Training for the junior staff"
+  },
+  {
+   "title": "Gym routine",
+   "body": "Program with Trent:\nMon/Wed/Fri — weights\nTue/Thu — cardio\nSaturday — group class\n\nTarget: 7 lbs down before summer\nSupplements: whey protein, creatine"
+  },
+  {
+   "title": "Site visit kit",
+   "body": "Always in the bag:\n- Tape measure and laser\n- Camera, spare battery\n- Hard hat and vest\n- Printed plans, A3\n- Sticky notes for the marked-up copy\n\nAsk on site:\n- Where the utilities actually run\n- Access hours at weekends"
+  },
+  {
+   "title": "The arithmetic",
+   "body": "Lease renews on the first of September\nso ending things with her\n\nNo choice... The timing is actually perfect. Fresh start."
+  },
+  {
+   "title": "Bathroom refit - materials",
+   "body": "Selected materials:\n- 60x60 porcelain stoneware tiles\n- Deca chrome fixtures\n- Integrated LED mirror\n- White lacquered wall-mounted cabinet\n\nInstallation planned: July\nTotal budget: $4,500"
+  },
+  {
+   "title": "Birthday gift ideas - September 23",
+   "body": "September 23 — do not let this one slip!\n\nOptions:\n- A photography course\n- A book on contemporary art\n- Handmade jewelry from that Westport boutique\n- A spa weekend in Eureka Springs\n\nCeiling: $300"
+  },
+  {
+   "title": "the Ozarks weekend",
+   "body": "Cabin: booked and confirmed\nAugust 17-23\n\nWhat we want to do:\n- Hike up to Whitaker Point\n- Wander the historic center\n- Dinner at the Ozark Cafe\n\nPack: camera, warm jacket"
+  },
+  {
+   "title": "Reading list - architecture",
+   "body": "Reading queue:\n- \"Towards a New Architecture\", Le Corbusier\n- \"The Architecture of Happiness\", de Botton\n- \"Urbanism\", Jane Jacobs\n\nStill to buy:\n- \"Sustainable Design\", McLennan"
+  },
+  {
+   "title": "Civic - service log",
+   "body": "Rick, Brookside\n\nDone:\n- Oil and filter\n- Front pads\n- Wipers\n\nNext time:\n- Rear tires, they are close to the wear bars\n- Rattle from the passenger door\n\nMileage at the last service: 61,400"
+  },
+  {
+   "title": "Playlists for the desk",
+   "body": "For focus:\n- Ludovico Einaudi\n- Max Richter\n- Nils Frahm\n- Kiasmos\n\nWhen I need ideas:\n- Bonobo\n- Emancipator\n- Tycho"
+  },
+  {
+   "title": "Advanced AutoCAD training",
+   "body": "Advanced AutoCAD course — August 11\nKansas City Convention Center, 9am to 5pm\nTake the laptop and a notebook\n\nWhat I want out of it:\n- Get properly good at 3D rendering\n- Tighten up the technical drawings"
+  },
+  {
+   "title": "Condensed-milk truffles",
+   "body": "Makes 20:\n- 1 can of condensed milk\n- 3 tbsp cocoa powder\n- 1 tbsp butter\n- Grated Belgian chocolate\n\nStir over a low heat for 10 minutes\nLet it cool 2h before rolling"
+  },
+  {
+   "title": "Numbers worth keeping",
+   "body": "Electrician: John — (816) 945-8901\nPlumber — (816) 934-6789\nHouse cleaner — (816) 923-4567\nVet — (816) 912-3456\nThe pizzeria we always order from delivers free"
+  }
+ ],
+ "maps": [],
+ "revolut": {
+  "balance": "$0.00",
+  "transactions": []
+ },
+ "weather": {
+  "city": "Kansas City",
+  "tempC": 19,
+  "hi": 21,
+  "lo": 15,
+  "condition": "Partly Cloudy"
+ },
+ "photos": [
+  "photo_0.webp",
+  "photo_1.webp",
+  "photo_2.webp",
+  "photo_3.webp",
+  "photo_4.webp",
+  "photo_5.webp",
+  "photo_6.webp",
+  "photo_7.webp",
+  "photo_8.webp"
+ ],
+ "screenTime": [
+  {
+   "appName": "Snapchat",
+   "durationMinutes": 72
+  },
+  {
+   "appName": "WhatsApp",
+   "durationMinutes": 65
+  },
+  {
+   "appName": "Gmail",
+   "durationMinutes": 52
+  },
+  {
+   "appName": "Internet",
+   "durationMinutes": 45
+  },
+  {
+   "appName": "Messages",
+   "durationMinutes": 40
+  },
+  {
+   "appName": "Photos",
+   "durationMinutes": 38
+  },
+  {
+   "appName": "ChatGPT",
+   "durationMinutes": 20
+  },
+  {
+   "appName": "Calendrier",
+   "durationMinutes": 18
+  },
+  {
+   "appName": "Notes",
+   "durationMinutes": 15
+  },
+  {
+   "appName": "Phone",
+   "durationMinutes": 14
+  },
+  {
+   "appName": "PayPal",
+   "durationMinutes": 12
+  },
+  {
+   "appName": "Settings",
+   "durationMinutes": 10
+  },
+  {
+   "appName": "Weather",
+   "durationMinutes": 9
+  },
+  {
+   "appName": "Calculatrice",
+   "durationMinutes": 8
+  }
+ ]
+}

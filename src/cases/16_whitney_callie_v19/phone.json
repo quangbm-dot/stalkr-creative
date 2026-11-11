@@ -1,0 +1,3735 @@
+{
+ "caseName": "The Date She Never Returned From",
+ "title": "Whitney & Callie",
+ "now": "2026-08-06T23:59:00",
+ "client": {
+  "name": "Whitney",
+  "avatar": "client.webp"
+ },
+ "owner": {
+  "first": "Callie",
+  "full": "Callie Denton",
+  "avatar": null
+ },
+ "wallpaper": "wallpaper.webp",
+ "passcode": "0719",
+ "totalQuestions": 7,
+ "questions": [
+  {
+   "id": 1,
+   "text": "I'm sorry, it's been 24 hours now and I'm already worried sick. How many people was she supposed to meet yesterday?",
+   "answer": "2",
+   "decoys": [
+    "3",
+    "1",
+    "4"
+   ],
+   "hint": "Check her calendar — the number of appointments should be recorded there."
+  },
+  {
+   "id": 2,
+   "text": "So, two people. I didn't know that. Sorry to keep asking, but could you tell me who the first one she was meant to see was?",
+   "answer": "Trey",
+   "decoys": [
+    "Cole",
+    "Devon",
+    "Brooks"
+   ],
+   "hint": "It's the first event on the calendar — go take a look."
+  },
+  {
+   "id": 3,
+   "text": "A lesson. It doesn't seem like just an ordinary lesson though. What proves it was just a normal lesson?",
+   "answer": "transfer",
+   "decoys": [
+    "receipt",
+    "exchange",
+    "refund"
+   ],
+   "hint": "Try checking Gmail for any correspondence between Callie and Trey."
+  },
+  {
+   "id": 4,
+   "text": "Alright, we know about Trey. But she had two back-to-back appointments. Who was the other person?",
+   "answer": "Cole",
+   "decoys": [
+    "Jules",
+    "Harlow",
+    "Brooks"
+   ],
+   "hint": "Look at the second appointment that day."
+  },
+  {
+   "id": 5,
+   "text": "I already told her straight up I didn't like him, turns out we'd met before. When they go away together, what kind of place do they book?",
+   "answer": "hotel",
+   "decoys": [
+    "apartment",
+    "loft",
+    "studio"
+   ],
+   "hint": "Open Messages and read the chat with Cole, looking for what he asks about the place he booked."
+  },
+  {
+   "id": 6,
+   "text": "Hm... they're not a couple, she'd have told me. So what is he really to her?",
+   "answer": "friends with benefits",
+   "decoys": [
+    "ex-boyfriend",
+    "old friend",
+    "coworker"
+   ],
+   "hint": "They're meeting in love hotel rooms without being a couple — draw your own conclusion."
+  },
+  {
+   "id": 7,
+   "text": "So that's what she was hiding from me. Fine... Maybe it's nothing, but something felt off in the days before she left. What odd thing did he ask her to do?",
+   "answer": "a call",
+   "decoys": [
+    "a video",
+    "a visit",
+    "a swimsuit"
+   ],
+   "hint": "There's an odd request buried somewhere in their messages."
+  }
+ ],
+ "onboarding": [
+  {
+   "text": "Hey... A friend of mine gave me your name. She says you can dig, you can piece things together, and you notice what everyone else walks straight past. I need exactly that right now, and I don't have time.",
+   "label": "Whitney",
+   "image": "onboarding_1.webp"
+  },
+  {
+   "text": "Callie and I go back to high school — she's the closest friend I have. We speak every day without fail, not one exception. Her phone is glued to her hand and an answer comes back within seconds",
+   "label": "Whitney & Callie",
+   "image": "onboarding_2.webp"
+  },
+  {
+   "text": "Then a day of silence. Not a message, not a call, nothing to say she's alive. No likes, no stories, nothing. The police keep telling me to sit tight, that people do this... She doesn't. Three days is not her, not ever!!",
+   "label": "Whitney",
+   "image": "onboarding_3.webp"
+  },
+  {
+   "text": "She said she had something on that afternoon and she'd tell me all about it that night. She didn't. I'm so scared. I've got her passwords — please, just start.",
+   "label": "Whitney",
+   "image": "onboarding_4.webp"
+  }
+ ],
+ "home": [
+  {
+   "app": "wallet",
+   "label": "Wallet"
+  },
+  {
+   "app": "settings",
+   "label": "Settings"
+  },
+  {
+   "app": "notes",
+   "label": "Notes"
+  },
+  {
+   "app": "calendar",
+   "label": "Calendar"
+  },
+  {
+   "app": "clock",
+   "label": "Clock"
+  },
+  {
+   "app": "photos",
+   "label": "Photos"
+  },
+  {
+   "app": "gmail",
+   "label": "Gmail"
+  },
+  {
+   "app": "phone",
+   "label": "Phone"
+  },
+  {
+   "app": "airbnb",
+   "label": "Airbnb"
+  },
+  {
+   "app": "calculator",
+   "label": "Calculator"
+  },
+  {
+   "app": "maps",
+   "label": "Google Maps"
+  }
+ ],
+ "dock": [
+  {
+   "app": "messages",
+   "label": "Messages"
+  },
+  {
+   "app": "instagram",
+   "label": "Instagram"
+  }
+ ],
+ "missingApps": [],
+ "calls": [
+  {
+   "name": "Mom ❤️",
+   "time": "Today, 5:34 PM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Whitney",
+   "time": "Today, 4:01 PM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Mom ❤️",
+   "time": "Today, 2:15 PM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Mom ❤️",
+   "time": "Today, 11:57 AM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Whitney",
+   "time": "Today, 11:13 AM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Mom ❤️",
+   "time": "Today, 10:59 AM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Mom ❤️",
+   "time": "Today, 9:22 AM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Mom ❤️",
+   "time": "Yesterday, 10:09 PM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Whitney",
+   "time": "Yesterday, 8:23 PM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Mom ❤️",
+   "time": "Yesterday, 7:21 PM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Mom ❤️",
+   "time": "Yesterday, 3:36 PM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Whitney",
+   "time": "Yesterday, 1:58 PM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Mom ❤️",
+   "time": "Yesterday, 11:14 AM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Whitney",
+   "time": "Yesterday, 10:23 AM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Mom ❤️",
+   "time": "Yesterday, 8:30 AM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Cole",
+   "time": "Sunday, 11:10 PM",
+   "type": "incoming",
+   "detail": "15 min"
+  },
+  {
+   "name": "Whitney",
+   "time": "Sunday, 4:41 PM",
+   "type": "incoming",
+   "detail": "11 min"
+  },
+  {
+   "name": "Mom ❤️",
+   "time": "Sunday, 12:30 PM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Jules",
+   "time": "Saturday, 9:29 PM",
+   "type": "outgoing",
+   "detail": "9 min"
+  },
+  {
+   "name": "Mom ❤️",
+   "time": "Saturday, 7:06 PM",
+   "type": "incoming",
+   "detail": "7 min"
+  },
+  {
+   "name": "Dad",
+   "time": "Saturday, 6:26 PM",
+   "type": "outgoing",
+   "detail": "4 min"
+  },
+  {
+   "name": "Whitney",
+   "time": "Saturday, 2:04 PM",
+   "type": "outgoing",
+   "detail": "20 min"
+  },
+  {
+   "name": "Mom ❤️",
+   "time": "Friday, 9:07 PM",
+   "type": "outgoing",
+   "detail": "5 min"
+  },
+  {
+   "name": "Harlow",
+   "time": "Friday, 6:13 PM",
+   "type": "incoming",
+   "detail": "13 min"
+  },
+  {
+   "name": "Devon 💕",
+   "time": "Friday, 3:21 PM",
+   "type": "outgoing",
+   "detail": "6 min"
+  },
+  {
+   "name": "Yara",
+   "time": "Friday, 12:43 PM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Whitney",
+   "time": "7/30/26, 10:21 PM",
+   "type": "outgoing",
+   "detail": "15 min"
+  },
+  {
+   "name": "Nia",
+   "time": "7/30/26, 5:55 PM",
+   "type": "incoming",
+   "detail": "8 min"
+  },
+  {
+   "name": "Tess",
+   "time": "7/27/26, 7:15 PM",
+   "type": "incoming",
+   "detail": "7 min"
+  }
+ ],
+ "contacts": [
+  {
+   "name": "Cole",
+   "phoneNumber": "+1 215 555 0187"
+  },
+  {
+   "name": "Mom ❤️",
+   "phoneNumber": "+1 215 555 0195"
+  },
+  {
+   "name": "Trey Whitfield (Climbing)",
+   "phoneNumber": "+1 215 555 0114"
+  },
+  {
+   "name": "Aunt Christine",
+   "phoneNumber": "+1 215 555 0113"
+  },
+  {
+   "name": "DHL Express",
+   "phoneNumber": "43569"
+  },
+  {
+   "name": "Jules",
+   "phoneNumber": "+1 215 555 0113"
+  },
+  {
+   "name": "Zocdoc",
+   "phoneNumber": "66746"
+  },
+  {
+   "name": "Salon Vivid",
+   "phoneNumber": "+1 215 555 0115"
+  },
+  {
+   "name": "USPS",
+   "phoneNumber": "28777"
+  },
+  {
+   "name": "Harlow",
+   "phoneNumber": "+1 215 555 0181"
+  },
+  {
+   "name": "Devon 💕",
+   "phoneNumber": "+1 215 555 0179"
+  },
+  {
+   "name": "Nia",
+   "phoneNumber": "+1 215 555 0126"
+  },
+  {
+   "name": "Tess",
+   "phoneNumber": "+1 215 555 0113"
+  },
+  {
+   "name": "FedEx",
+   "phoneNumber": "46339"
+  },
+  {
+   "name": "Dad",
+   "phoneNumber": "+1 215 555 0178"
+  },
+  {
+   "name": "Amazon",
+   "phoneNumber": "262966"
+  },
+  {
+   "name": "Junie",
+   "phoneNumber": "+1 215 555 0199"
+  },
+  {
+   "name": "Whitney",
+   "phoneNumber": "+1 215 555 0123"
+  },
+  {
+   "name": "Dr. Morel (dentist)",
+   "phoneNumber": "+1 215 555 0114"
+  },
+  {
+   "name": "Yara",
+   "phoneNumber": "+1 215 555 0197"
+  }
+ ],
+ "messages": [
+  {
+   "id": "conv-mom",
+   "title": "Mom ❤️",
+   "time": "2:30 PM",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Is the weather nice where you are?"
+    },
+    {
+     "me": true,
+     "text": "yeah sunny ☀️ what about there"
+    },
+    {
+     "me": false,
+     "text": "Here too. Your father's out doing the lawn"
+    },
+    {
+     "me": true,
+     "text": "haha classic sunday"
+    },
+    {
+     "me": false,
+     "text": "Same as always 😄"
+    },
+    {
+     "me": true,
+     "text": "Mom could you send me that chocolate cake recipe please"
+    },
+    {
+     "me": false,
+     "text": "The one from your grandmother?"
+    },
+    {
+     "me": true,
+     "text": "yep"
+    },
+    {
+     "me": false,
+     "text": "200g chocolate, 100g butter, 3/4 cup sugar, 3 eggs, 80g flour. Melt the chocolate and butter together first, then mix in everything else. 350°F, 25min in the oven"
+    },
+    {
+     "me": true,
+     "text": "thank you mom ❤️"
+    },
+    {
+     "me": false,
+     "text": "Who are you baking it for?"
+    },
+    {
+     "me": true,
+     "text": "for whitney shes coming over for dinner tomorrow"
+    },
+    {
+     "me": false,
+     "text": "That's lovely of you! Kisses sweetheart"
+    },
+    {
+     "me": false,
+     "text": "Did you ever book that dentist appointment?"
+    },
+    {
+     "me": true,
+     "text": "yes yes its already done mom"
+    },
+    {
+     "me": false,
+     "text": "Good 👍"
+    },
+    {
+     "me": true,
+     "text": "you remind me every single time lol"
+    },
+    {
+     "me": false,
+     "text": "Comes with being your mother 😊"
+    },
+    {
+     "me": false,
+     "text": "I found old photos of you as a baby, so cute"
+    },
+    {
+     "me": true,
+     "text": "oh show me"
+    },
+    {
+     "me": false,
+     "text": "I'll send them over tonight"
+    },
+    {
+     "me": true,
+     "text": "how old was i in them"
+    },
+    {
+     "me": false,
+     "text": "5 or 6 i think, that was at the shore"
+    },
+    {
+     "me": true,
+     "text": "ohh i remember that!!"
+    },
+    {
+     "me": false,
+     "text": "Off to the store now - want me to pick anything up?"
+    },
+    {
+     "me": true,
+     "text": "nope all good thanks mom"
+    },
+    {
+     "me": false,
+     "text": "Are you at least feeding yourself properly?"
+    },
+    {
+     "me": true,
+     "text": "yes im eating properly dont worry"
+    },
+    {
+     "me": false,
+     "text": "Fine, I'll take your word for it"
+    },
+    {
+     "me": false,
+     "text": "Hi honey, how are you?"
+    },
+    {
+     "me": true,
+     "text": "greaat mom all good hbu?"
+    },
+    {
+     "me": false,
+     "text": "Doing well. Are we still set for Sunday?"
+    },
+    {
+     "me": true,
+     "text": "Yes i think so"
+    },
+    {
+     "me": false,
+     "text": "Perfect - I'll make the dish you always ask for 😊"
+    },
+    {
+     "me": true,
+     "text": "ohh thank you ❤️"
+    },
+    {
+     "me": false,
+     "text": "Cookie's doing much better, the vet said it was just an upset stomach"
+    },
+    {
+     "me": true,
+     "text": "oh good i was worried"
+    },
+    {
+     "me": false,
+     "text": "He ate something he shouldnt have out in the yard"
+    },
+    {
+     "me": true,
+     "text": "so typical of cookie 😂"
+    },
+    {
+     "me": false,
+     "text": "He sends you a kiss"
+    },
+    {
+     "me": true,
+     "text": "kisses back to him ❤️🐕"
+    },
+    {
+     "me": false,
+     "text": "It's your aunt Christine's birthday on Saturday, don't let it go past you"
+    },
+    {
+     "me": true,
+     "text": "yeah ill text her"
+    },
+    {
+     "me": false,
+     "text": "That'll make her day"
+    },
+    {
+     "me": true,
+     "text": "wait how old is she turning"
+    },
+    {
+     "me": false,
+     "text": "55!"
+    },
+    {
+     "me": true,
+     "text": "wow time really flies"
+    },
+    {
+     "me": false,
+     "text": "Is work treating you alright?"
+    },
+    {
+     "me": true,
+     "text": "good good little tired but im fine"
+    },
+    {
+     "me": false,
+     "text": "Promise me you're not sitting up working half the night"
+    },
+    {
+     "me": true,
+     "text": "no no dont worry about it"
+    },
+    {
+     "me": false,
+     "text": "Be good to yourself, sweetheart"
+    },
+    {
+     "me": true,
+     "text": "promise love you"
+    },
+    {
+     "me": false,
+     "text": "Have you ever watched The Crown?"
+    },
+    {
+     "me": true,
+     "text": "yeah why"
+    },
+    {
+     "me": false,
+     "text": "Dad and I started it, its really good"
+    },
+    {
+     "me": true,
+     "text": "how far in are you"
+    },
+    {
+     "me": false,
+     "text": "Middle of the second season, we watch two a night"
+    },
+    {
+     "me": true,
+     "text": "two a night is a lot for you guys lol"
+    },
+    {
+     "me": true,
+     "text": "aw look at you two watching shows now"
+    },
+    {
+     "me": false,
+     "text": "Yes were kind of into it 😄"
+    },
+    {
+     "me": false,
+     "text": "Are you coming over for dinner next Sunday?"
+    },
+    {
+     "me": true,
+     "text": "yeah i should be unless something changes"
+    },
+    {
+     "me": false,
+     "text": "Alright, but let me know for sure before the end of the week"
+    },
+    {
+     "me": true,
+     "text": "ok"
+    },
+    {
+     "me": false,
+     "text": "Can you give me a call when you have five minutes?"
+    },
+    {
+     "me": true,
+     "text": "yeah ill call you back in 10"
+    },
+    {
+     "me": false,
+     "text": "Ok 👍"
+    },
+    {
+     "me": false,
+     "text": "So nice to catch up honey"
+    },
+    {
+     "me": true,
+     "text": "you too mom kisses ❤️"
+    },
+    {
+     "me": true,
+     "text": "hey mom, hopping on the train this afternoon, will give you a call tonight"
+    },
+    {
+     "me": false,
+     "text": "Alright sweetheart, where are you off to?"
+    },
+    {
+     "me": false,
+     "text": "Callie? You didn't let me know you arrived safely, are you okay?"
+    },
+    {
+     "me": false,
+     "text": "Sweetie?"
+    },
+    {
+     "me": false,
+     "text": "Callie call me"
+    },
+    {
+     "me": false,
+     "text": "Please answer me, I'm getting worried"
+    }
+   ]
+  },
+  {
+   "id": "conv-whitney",
+   "title": "Whitney",
+   "time": "2:00 PM",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "girl im so late for work 😭"
+    },
+    {
+     "me": true,
+     "text": "lmao not again"
+    },
+    {
+     "me": false,
+     "text": "the septa bus is just sitting here"
+    },
+    {
+     "me": true,
+     "text": "oof good luck with that"
+    },
+    {
+     "me": false,
+     "text": "im just gonna say i had a dentist thing"
+    },
+    {
+     "me": true,
+     "text": "hahaha classic move"
+    },
+    {
+     "me": true,
+     "text": "whatre you watching these days"
+    },
+    {
+     "me": false,
+     "text": "just started the bear"
+    },
+    {
+     "me": true,
+     "text": "wait is it actually good"
+    },
+    {
+     "me": false,
+     "text": "omg its insane i swear"
+    },
+    {
+     "me": false,
+     "text": "so stressful but i cant stop"
+    },
+    {
+     "me": true,
+     "text": "ok putting it on my list rn"
+    },
+    {
+     "me": false,
+     "text": "whatre you doing for lunch"
+    },
+    {
+     "me": true,
+     "text": "poke bowl probably"
+    },
+    {
+     "me": false,
+     "text": "ooh nice"
+    },
+    {
+     "me": false,
+     "text": "im just reheating pasta from last night"
+    },
+    {
+     "me": true,
+     "text": "welcome to office life"
+    },
+    {
+     "me": false,
+     "text": "for real 😩"
+    },
+    {
+     "me": true,
+     "text": "ok this spotify playlist i found is unreal"
+    },
+    {
+     "me": false,
+     "text": "send it over"
+    },
+    {
+     "me": true,
+     "text": "look up 'pov ur a hot girl walking'"
+    },
+    {
+     "me": false,
+     "text": "lmaooo the name"
+    },
+    {
+     "me": true,
+     "text": "no but trust me its so good"
+    },
+    {
+     "me": false,
+     "text": "ok fine playing it now"
+    },
+    {
+     "me": false,
+     "text": "ok the playlist passes"
+    },
+    {
+     "me": true,
+     "text": "told you 💅"
+    },
+    {
+     "me": false,
+     "text": "im so exhausted"
+    },
+    {
+     "me": true,
+     "text": "same barely slept"
+    },
+    {
+     "me": false,
+     "text": "we should get brunch one of these days"
+    },
+    {
+     "me": true,
+     "text": "omg yes id love to"
+    },
+    {
+     "me": false,
+     "text": "apparently theres a new place opening in fishtown"
+    },
+    {
+     "me": true,
+     "text": "never heard of it show me"
+    },
+    {
+     "me": false,
+     "text": "it came up on my tiktok and looked amazing"
+    },
+    {
+     "me": false,
+     "text": "the stack of pancakes looked unreal"
+    },
+    {
+     "me": true,
+     "text": "whats it called"
+    },
+    {
+     "me": false,
+     "text": "sunday club or something like that"
+    },
+    {
+     "me": false,
+     "text": "ill send you the link tonight"
+    },
+    {
+     "me": true,
+     "text": "yum ok were doing it"
+    },
+    {
+     "me": true,
+     "text": "what did you end up buying on shein"
+    },
+    {
+     "me": false,
+     "text": "just a top and a skirt"
+    },
+    {
+     "me": false,
+     "text": "oh and earrings too"
+    },
+    {
+     "me": true,
+     "text": "cute send pics when they come"
+    },
+    {
+     "me": false,
+     "text": "meant to land thursday"
+    },
+    {
+     "me": false,
+     "text": "girll did you see jules new story"
+    },
+    {
+     "me": true,
+     "text": "nope hold on ill look"
+    },
+    {
+     "me": false,
+     "text": "she chopped all her hair off"
+    },
+    {
+     "me": true,
+     "text": "omg i saw 😭"
+    },
+    {
+     "me": false,
+     "text": "it suits her so much i love it"
+    },
+    {
+     "me": true,
+     "text": "right she looks stunning"
+    },
+    {
+     "me": false,
+     "text": "ok i just finished season 1 of the bear"
+    },
+    {
+     "me": true,
+     "text": "and??"
+    },
+    {
+     "me": false,
+     "text": "unreal. genuinely unreal 😭"
+    },
+    {
+     "me": false,
+     "text": "already on season 2 lol"
+    },
+    {
+     "me": true,
+     "text": "haha youre fully hooked"
+    },
+    {
+     "me": true,
+     "text": "theres a zara sale idk if you heard"
+    },
+    {
+     "me": false,
+     "text": "wait seriously??"
+    },
+    {
+     "me": true,
+     "text": "yeah like 40% off a ton of stuff"
+    },
+    {
+     "me": false,
+     "text": "ok im definitely going tonight"
+    },
+    {
+     "me": false,
+     "text": "wanna come with"
+    },
+    {
+     "me": true,
+     "text": "cant tonight im at my moms"
+    },
+    {
+     "me": false,
+     "text": "ah np ill show you what i grab"
+    },
+    {
+     "me": true,
+     "text": "yesss"
+    },
+    {
+     "me": false,
+     "text": "i found the cutest blazer"
+    },
+    {
+     "me": true,
+     "text": "show meee"
+    },
+    {
+     "me": false,
+     "text": "ill send it tomorrow havent tried it on yet"
+    },
+    {
+     "me": false,
+     "text": "it was 35 instead of 60"
+    },
+    {
+     "me": true,
+     "text": "ooh nice steal"
+    },
+    {
+     "me": false,
+     "text": "are we doing something this weekend?"
+    },
+    {
+     "me": true,
+     "text": "yesss saturday night im free"
+    },
+    {
+     "me": false,
+     "text": "perfect wanna pick a spot"
+    },
+    {
+     "me": true,
+     "text": "theres a new cocktail bar that just opened on passyunk"
+    },
+    {
+     "me": false,
+     "text": "ohh i saw that on insta! im in"
+    },
+    {
+     "me": true,
+     "text": "nice 🍹"
+    },
+    {
+     "me": false,
+     "text": "what do you think of trey btw"
+    },
+    {
+     "me": true,
+     "text": "wait the one from Harlows party?"
+    },
+    {
+     "me": false,
+     "text": "yeah that guy"
+    },
+    {
+     "me": true,
+     "text": "he seemed nice enough why"
+    },
+    {
+     "me": false,
+     "text": "he followed me on insta"
+    },
+    {
+     "me": true,
+     "text": "ooooh 👀"
+    },
+    {
+     "me": false,
+     "text": "stop lol theres literally nothing"
+    },
+    {
+     "me": true,
+     "text": "for now 😏"
+    },
+    {
+     "me": false,
+     "text": "ily but please stop"
+    },
+    {
+     "me": false,
+     "text": "getting ready what are you wearing"
+    },
+    {
+     "me": true,
+     "text": "my green top and black jeans"
+    },
+    {
+     "me": false,
+     "text": "the one you got last time?"
+    },
+    {
+     "me": true,
+     "text": "yep"
+    },
+    {
+     "me": false,
+     "text": "that top is so cute on you"
+    },
+    {
+     "me": false,
+     "text": "are we meeting there or you grabbing me"
+    },
+    {
+     "me": true,
+     "text": "ill get you in an uber around 9 that ok"
+    },
+    {
+     "me": false,
+     "text": "perfect see you in a bit 💕"
+    },
+    {
+     "me": false,
+     "text": "saturday was such a good night"
+    },
+    {
+     "me": true,
+     "text": "yessss those cocktails were amazing"
+    },
+    {
+     "me": false,
+     "text": "we have to bring the others next time"
+    },
+    {
+     "me": true,
+     "text": "yess jules would love it"
+    },
+    {
+     "me": false,
+     "text": "my head is killing me today"
+    },
+    {
+     "me": true,
+     "text": "thats the hangover talking lol"
+    },
+    {
+     "me": false,
+     "text": "nah i think im actually getting sick"
+    },
+    {
+     "me": true,
+     "text": "make some tea and rest up"
+    },
+    {
+     "me": false,
+     "text": "yeah thats the plan"
+    },
+    {
+     "me": true,
+     "text": "sending you good vibes"
+    },
+    {
+     "me": false,
+     "text": "aww thankss youre the sweetest 🥺"
+    },
+    {
+     "me": true,
+     "text": "did you see beyonces new post"
+    },
+    {
+     "me": false,
+     "text": "NO omg hold on"
+    },
+    {
+     "me": false,
+     "text": "shes so gorgeous i cant deal"
+    },
+    {
+     "me": true,
+     "text": "shes not even real"
+    },
+    {
+     "me": false,
+     "text": "literally perfect"
+    },
+    {
+     "me": false,
+     "text": "whatre you up to today"
+    },
+    {
+     "me": true,
+     "text": "got a thing this afternoon ill fill you in tonight"
+    },
+    {
+     "me": false,
+     "text": "ok very mysterious 👀"
+    },
+    {
+     "me": false,
+     "text": "hellooo"
+    },
+    {
+     "me": false,
+     "text": "i called you like 3 times and nothing lol are you ghosting me now??"
+    },
+    {
+     "me": false,
+     "text": "callie??"
+    },
+    {
+     "me": false,
+     "text": "ok im actually worried now please just answer me"
+    }
+   ],
+   "avatar": "msg_1.webp"
+  },
+  {
+   "id": "conv-devon",
+   "title": "Devon 💕",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "whatre you watching on netflix rn"
+    },
+    {
+     "me": true,
+     "text": "the bear"
+    },
+    {
+     "me": false,
+     "text": "is it good?"
+    },
+    {
+     "me": true,
+     "text": "SO GOOD"
+    },
+    {
+     "me": true,
+     "text": "no seriously go start it"
+    },
+    {
+     "me": false,
+     "text": "okk ill give it a shot"
+    },
+    {
+     "me": true,
+     "text": "oh wait its on hulu not netflix"
+    },
+    {
+     "me": false,
+     "text": "ahh i dont have hulu"
+    },
+    {
+     "me": true,
+     "text": "wait ill just send you my password"
+    },
+    {
+     "me": true,
+     "text": "callie.denton@gmail.com · stoneM2401"
+    },
+    {
+     "me": false,
+     "text": "ur the sweetest thankss"
+    },
+    {
+     "me": true,
+     "text": "anytime 💗"
+    },
+    {
+     "me": false,
+     "text": "CALLIE"
+    },
+    {
+     "me": false,
+     "text": "THE BEAR"
+    },
+    {
+     "me": false,
+     "text": "I CANT STOP WATCHING"
+    },
+    {
+     "me": true,
+     "text": "lmaooo see i was right"
+    },
+    {
+     "me": true,
+     "text": "where are you in it"
+    },
+    {
+     "me": false,
+     "text": "just finished season 1"
+    },
+    {
+     "me": false,
+     "text": "marcus 😭😭"
+    },
+    {
+     "me": true,
+     "text": "yeah hes the sweetest"
+    },
+    {
+     "me": true,
+     "text": "wait for season 2 its even better"
+    },
+    {
+     "me": false,
+     "text": "honestly i really want a tattoo"
+    },
+    {
+     "me": true,
+     "text": "oh yeah what were you thinking"
+    },
+    {
+     "me": false,
+     "text": "something on my ankle maybe"
+    },
+    {
+     "me": false,
+     "text": "like a little moon or something subtle"
+    },
+    {
+     "me": true,
+     "text": "so cute"
+    },
+    {
+     "me": true,
+     "text": "honestly i think about it too sometimes"
+    },
+    {
+     "me": false,
+     "text": "should we get them together??"
+    },
+    {
+     "me": true,
+     "text": "lol i dont think id have the nerve"
+    },
+    {
+     "me": false,
+     "text": "it doesnt hurt that much"
+    },
+    {
+     "me": true,
+     "text": "well see 😂"
+    }
+   ]
+  },
+  {
+   "id": "conv-cole",
+   "title": "Cole",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "tomorrow 😏"
+    },
+    {
+     "me": true,
+     "text": "im so hyped"
+    },
+    {
+     "me": false,
+     "text": "me tooo wait til you see it its so nice"
+    },
+    {
+     "me": true,
+     "text": "that terrace looks amazing"
+    },
+    {
+     "me": false,
+     "text": "you looked at the photos right??"
+    },
+    {
+     "me": true,
+     "text": "ha it was literally you who sent me the link"
+    },
+    {
+     "me": false,
+     "text": "oh right 😂😂"
+    },
+    {
+     "me": false,
+     "text": "dont pack too much"
+    },
+    {
+     "me": false,
+     "text": "we wont need a lot 😏"
+    },
+    {
+     "me": true,
+     "text": "youre unbelievable..."
+    },
+    {
+     "me": true,
+     "text": "that whole weekend was perfect"
+    },
+    {
+     "me": false,
+     "text": "the sunrise over the water..."
+    },
+    {
+     "me": true,
+     "text": "say the word and were going back"
+    },
+    {
+     "me": false,
+     "text": "yo did you see trey's story"
+    },
+    {
+     "me": true,
+     "text": "no?? what has he done now"
+    },
+    {
+     "me": false,
+     "text": "he got some random tattoo on his arm"
+    },
+    {
+     "me": true,
+     "text": "noooo 😭😭"
+    },
+    {
+     "me": false,
+     "text": "its literally a skull with flowers"
+    },
+    {
+     "me": true,
+     "text": "yeah that tracks lol"
+    },
+    {
+     "me": false,
+     "text": "whatre you doing rn?"
+    },
+    {
+     "me": true,
+     "text": "just watching a show"
+    },
+    {
+     "me": false,
+     "text": "which one"
+    },
+    {
+     "me": true,
+     "text": "the one on netflix"
+    },
+    {
+     "me": false,
+     "text": "oh is it any good?"
+    },
+    {
+     "me": true,
+     "text": "super creepy but i cant stop"
+    },
+    {
+     "me": false,
+     "text": "ok ill have to check it out"
+    },
+    {
+     "me": true,
+     "text": "pretty sure i have a cold"
+    },
+    {
+     "me": false,
+     "text": "oh no how'd that happen"
+    },
+    {
+     "me": true,
+     "text": "idk my nose has been running all morning"
+    },
+    {
+     "me": false,
+     "text": "get some rest"
+    },
+    {
+     "me": true,
+     "text": "yeah im staying in bed"
+    },
+    {
+     "me": false,
+     "text": "you need anything?"
+    },
+    {
+     "me": true,
+     "text": "nah im ok thanks"
+    },
+    {
+     "me": false,
+     "text": "have you seen Harlows insta rn??"
+    },
+    {
+     "me": true,
+     "text": "no"
+    },
+    {
+     "me": false,
+     "text": "shes getting married"
+    },
+    {
+     "me": true,
+     "text": "WAIT WHAT"
+    },
+    {
+     "me": false,
+     "text": "im serious look"
+    },
+    {
+     "me": true,
+     "text": "wait theyve only been together like 4 months"
+    },
+    {
+     "me": false,
+     "text": "yeah i think so too its fast"
+    },
+    {
+     "me": false,
+     "text": "you all set for tonight?"
+    },
+    {
+     "me": true,
+     "text": "ive been packed since last night 😅"
+    },
+    {
+     "me": false,
+     "text": "haha ill grab you at 6"
+    },
+    {
+     "me": true,
+     "text": "perfect"
+    },
+    {
+     "me": true,
+     "text": "the spa 🔥🔥"
+    },
+    {
+     "me": false,
+     "text": "told you"
+    },
+    {
+     "me": true,
+     "text": "so when do we book the next one??"
+    },
+    {
+     "me": false,
+     "text": "i just got so caught slacking at work"
+    },
+    {
+     "me": true,
+     "text": "why???"
+    },
+    {
+     "me": false,
+     "text": "i had my phone out and my boss walked past"
+    },
+    {
+     "me": true,
+     "text": "oof brutal 😬"
+    },
+    {
+     "me": false,
+     "text": "yeah he goes \"phone away\""
+    },
+    {
+     "me": true,
+     "text": "like youre back in school lmao"
+    },
+    {
+     "me": false,
+     "text": "you up for a call tonight?"
+    },
+    {
+     "me": true,
+     "text": "uh sure what time"
+    },
+    {
+     "me": false,
+     "text": "9 work for you?"
+    },
+    {
+     "me": true,
+     "text": "yep"
+    },
+    {
+     "me": false,
+     "text": "what time you off tomorrow"
+    },
+    {
+     "me": true,
+     "text": "4 usually"
+    },
+    {
+     "me": false,
+     "text": "perfect we can head out right after"
+    },
+    {
+     "me": true,
+     "text": "cant wait to see that pool"
+    },
+    {
+     "me": false,
+     "text": "and that round bed 😏"
+    },
+    {
+     "me": true,
+     "text": "youre unbelievable..."
+    },
+    {
+     "me": true,
+     "text": "my muscles are still sore lol"
+    },
+    {
+     "me": false,
+     "text": "thats the pool for you 😇"
+    },
+    {
+     "me": true,
+     "text": "sure the pool..."
+    },
+    {
+     "me": true,
+     "text": "i got new shoes"
+    },
+    {
+     "me": false,
+     "text": "show me"
+    },
+    {
+     "me": true,
+     "text": "its up on my insta story"
+    },
+    {
+     "me": false,
+     "text": "not bad! where'd you find them"
+    },
+    {
+     "me": true,
+     "text": "zara"
+    },
+    {
+     "me": false,
+     "text": "how much"
+    },
+    {
+     "me": true,
+     "text": "60 bucks"
+    },
+    {
+     "me": false,
+     "text": "honestly not bad"
+    },
+    {
+     "me": false,
+     "text": "yo do you have a spotify family plan??"
+    },
+    {
+     "me": true,
+     "text": "yeah why"
+    },
+    {
+     "me": false,
+     "text": "any open spot? mine just ran out"
+    },
+    {
+     "me": true,
+     "text": "i think so hold on lemme check"
+    },
+    {
+     "me": true,
+     "text": "yeah theres room send me your email"
+    },
+    {
+     "me": false,
+     "text": "youre the best thankss"
+    },
+    {
+     "me": true,
+     "text": "so bummed theres no ice cream left"
+    },
+    {
+     "me": false,
+     "text": "lmaoo why are you eating ice cream at 10pm"
+    },
+    {
+     "me": true,
+     "text": "i had a craving ok"
+    },
+    {
+     "me": false,
+     "text": "just go grab some"
+    },
+    {
+     "me": true,
+     "text": "too lazy to leave the house"
+    },
+    {
+     "me": false,
+     "text": "uber eats??"
+    },
+    {
+     "me": true,
+     "text": "just for ice cream?? 😭"
+    },
+    {
+     "me": false,
+     "text": "so what lol zero shame"
+    },
+    {
+     "me": false,
+     "text": "did you catch the game last night"
+    },
+    {
+     "me": true,
+     "text": "nah i missed it"
+    },
+    {
+     "me": false,
+     "text": "2-1 in the final minute"
+    },
+    {
+     "me": true,
+     "text": "wait what?? shouldve watched"
+    },
+    {
+     "me": false,
+     "text": "yeah the goal was nuts"
+    },
+    {
+     "me": true,
+     "text": "who scored"
+    },
+    {
+     "me": false,
+     "text": "the sub who came on like 20 min before"
+    },
+    {
+     "me": true,
+     "text": "of course it was"
+    },
+    {
+     "me": true,
+     "text": "im gonna find the replay"
+    },
+    {
+     "me": true,
+     "text": "i got totally ripped off"
+    },
+    {
+     "me": false,
+     "text": "how"
+    },
+    {
+     "me": true,
+     "text": "bought something on depop and the size is way off"
+    },
+    {
+     "me": false,
+     "text": "ugh can you get a refund?"
+    },
+    {
+     "me": true,
+     "text": "yeah ive opened a dispute so well see"
+    },
+    {
+     "me": false,
+     "text": "good luck"
+    },
+    {
+     "me": true,
+     "text": "what time does the train leave"
+    },
+    {
+     "me": false,
+     "text": "11:42 theres time"
+    },
+    {
+     "me": true,
+     "text": "ok finishing getting ready"
+    },
+    {
+     "me": false,
+     "text": "dont forget your swimsuit"
+    },
+    {
+     "me": true,
+     "text": "for the sauna is it 😂"
+    },
+    {
+     "me": false,
+     "text": "that and other things"
+    },
+    {
+     "me": false,
+     "text": "that whole weekend was so good"
+    },
+    {
+     "me": true,
+     "text": "yesss it really was"
+    },
+    {
+     "me": false,
+     "text": "we have to go back"
+    },
+    {
+     "me": false,
+     "text": "you around on saturday?"
+    },
+    {
+     "me": true,
+     "text": "um think so why"
+    },
+    {
+     "me": false,
+     "text": "theos is having people over"
+    },
+    {
+     "me": true,
+     "text": "oh nice! we going together?"
+    },
+    {
+     "me": false,
+     "text": "yeah ill come get you"
+    },
+    {
+     "me": true,
+     "text": "nice"
+    },
+    {
+     "me": false,
+     "text": "that party last night was crazy"
+    },
+    {
+     "me": true,
+     "text": "right im still wrecked"
+    },
+    {
+     "me": false,
+     "text": "same i slept til 11"
+    },
+    {
+     "me": true,
+     "text": "haha did you see theo he was so gone by the end"
+    },
+    {
+     "me": false,
+     "text": "lmaoo yeah he threw up in the backyard"
+    },
+    {
+     "me": true,
+     "text": "nooo i missed that 😭"
+    },
+    {
+     "me": false,
+     "text": "lmaooo im dying"
+    },
+    {
+     "me": true,
+     "text": "??"
+    },
+    {
+     "me": false,
+     "text": "just saw a video of a cat falling in a pool"
+    },
+    {
+     "me": true,
+     "text": "send it"
+    },
+    {
+     "me": false,
+     "text": "🔗"
+    },
+    {
+     "me": true,
+     "text": "IM CRYING poor thing 😭😭"
+    },
+    {
+     "me": false,
+     "text": "his face when he goes in i cant"
+    },
+    {
+     "me": true,
+     "text": "ok im going to bed im wiped"
+    },
+    {
+     "me": false,
+     "text": "ok night"
+    },
+    {
+     "me": true,
+     "text": "you too 😴"
+    },
+    {
+     "me": false,
+     "text": "what did you order"
+    },
+    {
+     "me": true,
+     "text": "sushi"
+    },
+    {
+     "me": false,
+     "text": "seriously again?? lol you need help"
+    },
+    {
+     "me": true,
+     "text": "its just too good i cant help it"
+    },
+    {
+     "me": false,
+     "text": "at this rate youll turn into a salmon"
+    },
+    {
+     "me": true,
+     "text": "fine by me i love salmon"
+    },
+    {
+     "me": false,
+     "text": "you in tomorrow?"
+    },
+    {
+     "me": true,
+     "text": "yeah 9 to 5"
+    },
+    {
+     "me": false,
+     "text": "rip"
+    },
+    {
+     "me": true,
+     "text": "what about you tho"
+    },
+    {
+     "me": false,
+     "text": "im off"
+    },
+    {
+     "me": true,
+     "text": "lucky"
+    },
+    {
+     "me": false,
+     "text": "yeah i know i know"
+    },
+    {
+     "me": true,
+     "text": "dude your mom just added me on fb"
+    },
+    {
+     "me": false,
+     "text": "oh no 😭😭 decline it"
+    },
+    {
+     "me": true,
+     "text": "lmaoo why"
+    },
+    {
+     "me": false,
+     "text": "shes gonna go through all your photos"
+    },
+    {
+     "me": true,
+     "text": "too late already accepted"
+    },
+    {
+     "me": false,
+     "text": "rip"
+    },
+    {
+     "me": false,
+     "text": "ill grab you in an hour"
+    },
+    {
+     "me": true,
+     "text": "cant wait to finally see the place"
+    },
+    {
+     "me": false,
+     "text": "that spa looks amazing"
+    },
+    {
+     "me": true,
+     "text": "and apparently champagne is included"
+    },
+    {
+     "me": false,
+     "text": "perfect 🥂"
+    },
+    {
+     "me": false,
+     "text": "did you make it home ok?"
+    },
+    {
+     "me": true,
+     "text": "yeah but coming back to reality is rough"
+    },
+    {
+     "me": false,
+     "text": "i feel that... already want the next one"
+    },
+    {
+     "me": true,
+     "text": "you got an idea yet?"
+    },
+    {
+     "me": false,
+     "text": "im looking around ill let you know"
+    },
+    {
+     "me": false,
+     "text": "you know anywhere good for italian?"
+    },
+    {
+     "me": true,
+     "text": "yeah theres a spot by my place its amazing"
+    },
+    {
+     "me": false,
+     "text": "ok whats it called"
+    },
+    {
+     "me": true,
+     "text": "villa di roma"
+    },
+    {
+     "me": false,
+     "text": "ok nice im gonna try it"
+    },
+    {
+     "me": true,
+     "text": "get the truffle pasta its unreal"
+    },
+    {
+     "me": true,
+     "text": "running late im gonna miss my bus"
+    },
+    {
+     "me": false,
+     "text": "run forrest run"
+    },
+    {
+     "me": true,
+     "text": "😭😭😭"
+    },
+    {
+     "me": false,
+     "text": "so did you catch it?"
+    },
+    {
+     "me": true,
+     "text": "yeah barely so embarrassing the driver waited for me"
+    },
+    {
+     "me": false,
+     "text": "lmaooo"
+    },
+    {
+     "me": false,
+     "text": "whats on tonight then"
+    },
+    {
+     "me": true,
+     "text": "cant decide between a movie or more of my show"
+    },
+    {
+     "me": false,
+     "text": "still on you?"
+    },
+    {
+     "me": true,
+     "text": "yeah season 3 now"
+    },
+    {
+     "me": false,
+     "text": "is it good?"
+    },
+    {
+     "me": true,
+     "text": "yeah though season 2 was better"
+    },
+    {
+     "me": true,
+     "text": "can you get me a best buy promo code?"
+    },
+    {
+     "me": false,
+     "text": "um probably not but ill ask my friend who works there"
+    },
+    {
+     "me": true,
+     "text": "cool thanks"
+    },
+    {
+     "me": false,
+     "text": "what are you trying to buy"
+    },
+    {
+     "me": true,
+     "text": "earbuds mine died"
+    },
+    {
+     "me": false,
+     "text": "oh yeah you mentioned"
+    },
+    {
+     "me": false,
+     "text": "no code sorry he doesnt have one"
+    },
+    {
+     "me": true,
+     "text": "no worries thanks for checking"
+    },
+    {
+     "me": true,
+     "text": "i just burned my tongue on my tea"
+    },
+    {
+     "me": false,
+     "text": "rip"
+    },
+    {
+     "me": true,
+     "text": "it stings so bad 😭"
+    },
+    {
+     "me": false,
+     "text": "stick some butter on it"
+    },
+    {
+     "me": true,
+     "text": "butter on my tongue??"
+    },
+    {
+     "me": false,
+     "text": "nah im messing with you lol"
+    },
+    {
+     "me": false,
+     "text": "have you seen the suite i booked"
+    },
+    {
+     "me": true,
+     "text": "skyline view 👀"
+    },
+    {
+     "me": false,
+     "text": "and private jacuzzi"
+    },
+    {
+     "me": true,
+     "text": "ok wow thats amazing"
+    },
+    {
+     "me": false,
+     "text": "where you at?"
+    },
+    {
+     "me": true,
+     "text": "nearly there 5 min"
+    },
+    {
+     "me": false,
+     "text": "ok im waiting in the lobby"
+    },
+    {
+     "me": true,
+     "text": "that view... im still not over it"
+    },
+    {
+     "me": false,
+     "text": "the jacuzzi with the philadelphia lights"
+    },
+    {
+     "me": true,
+     "text": "totally we lucked out with the weather"
+    },
+    {
+     "me": false,
+     "text": "yeah couldnt have been better"
+    },
+    {
+     "me": false,
+     "text": "my backs killing me today"
+    },
+    {
+     "me": true,
+     "text": "why"
+    },
+    {
+     "me": false,
+     "text": "idk i must have slept weird"
+    },
+    {
+     "me": true,
+     "text": "go take some tylenol"
+    },
+    {
+     "me": false,
+     "text": "yeah thats the plan"
+    },
+    {
+     "me": true,
+     "text": "look what jules sent me on insta LMAOOO"
+    },
+    {
+     "me": false,
+     "text": "lol what is it"
+    },
+    {
+     "me": true,
+     "text": "a meme about people who order sushi constantly"
+    },
+    {
+     "me": false,
+     "text": "she really knows you 😂"
+    },
+    {
+     "me": true,
+     "text": "did i tell you i lost my airpods"
+    },
+    {
+     "me": false,
+     "text": "seriously?? where at"
+    },
+    {
+     "me": true,
+     "text": "thats the problem i have no idea 😭"
+    },
+    {
+     "me": false,
+     "text": "did you try find my"
+    },
+    {
+     "me": true,
+     "text": "yeah but it wont load the battery is dead"
+    },
+    {
+     "me": false,
+     "text": "oh no... were they new?"
+    },
+    {
+     "me": true,
+     "text": "no its fine they were like a year old"
+    },
+    {
+     "me": false,
+     "text": "what you up to"
+    },
+    {
+     "me": true,
+     "text": "im still at work rn"
+    },
+    {
+     "me": false,
+     "text": "ah sorry my bad"
+    },
+    {
+     "me": true,
+     "text": "its fine im not doing much anyway"
+    },
+    {
+     "me": false,
+     "text": "haha ok"
+    },
+    {
+     "me": false,
+     "text": "ill leave you to it then"
+    },
+    {
+     "me": true,
+     "text": "yeah catch you later"
+    },
+    {
+     "me": false,
+     "text": "whats the plan tonight"
+    },
+    {
+     "me": true,
+     "text": "nothing planned yet"
+    },
+    {
+     "me": false,
+     "text": "wanna hang?"
+    },
+    {
+     "me": true,
+     "text": "yeah come over to mine"
+    },
+    {
+     "me": false,
+     "text": "ill be there in 30"
+    },
+    {
+     "me": true,
+     "text": "yesterday was nice"
+    },
+    {
+     "me": false,
+     "text": "really nice"
+    },
+    {
+     "me": false,
+     "text": "we should book something else soon"
+    },
+    {
+     "me": true,
+     "text": "for sure what are you thinking"
+    },
+    {
+     "me": false,
+     "text": "im on it ill let you know"
+    },
+    {
+     "me": false,
+     "text": "hey"
+    },
+    {
+     "me": false,
+     "text": "you around rn?"
+    },
+    {
+     "me": true,
+     "text": "yeah why"
+    },
+    {
+     "me": false,
+     "text": "i have something important to tell you"
+    },
+    {
+     "me": false,
+     "text": "but honestly i feel more comfortable doing it on the phone than face to face"
+    },
+    {
+     "me": true,
+     "text": "..."
+    },
+    {
+     "me": true,
+     "text": "especially since you know i dont like phone calls, but go ahead if its important to you"
+    },
+    {
+     "me": false,
+     "text": "its nothing bad"
+    },
+    {
+     "me": false,
+     "text": "can i call you?"
+    },
+    {
+     "me": true,
+     "text": "yeah go ahead"
+    },
+    {
+     "me": false,
+     "text": "so were still on for tomorrow right?"
+    },
+    {
+     "me": true,
+     "text": "yeah... around 11?"
+    },
+    {
+     "me": false,
+     "text": "perfect"
+    },
+    {
+     "me": true,
+     "text": "see you tomorrow then"
+    },
+    {
+     "me": false,
+     "text": "yep see you tomorrow"
+    },
+    {
+     "me": false,
+     "text": "were still on for 11?"
+    },
+    {
+     "me": true,
+     "text": "yeah yeah ive got a thing first but its fine"
+    },
+    {
+     "me": false,
+     "text": "ok perfect see you soon"
+    },
+    {
+     "me": true,
+     "text": "👍"
+    }
+   ]
+  },
+  {
+   "id": "conv-jules",
+   "title": "Jules",
+   "time": "Saturday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "girl guess who finally passed the written test"
+    },
+    {
+     "me": true,
+     "text": "SERIOUSLY"
+    },
+    {
+     "me": true,
+     "text": "gg 🎉🎉🎉"
+    },
+    {
+     "me": false,
+     "text": "thankss i couldnt believe it lol"
+    },
+    {
+     "me": true,
+     "text": "how many did you get wrong"
+    },
+    {
+     "me": false,
+     "text": "like 2 i think"
+    },
+    {
+     "me": false,
+     "text": "brutal i dont even remember the questions"
+    },
+    {
+     "me": false,
+     "text": "well it was my 5th try so"
+    },
+    {
+     "me": true,
+     "text": "looool"
+    },
+    {
+     "me": true,
+     "text": "now comes the road test"
+    },
+    {
+     "me": false,
+     "text": "yeah starting next week"
+    },
+    {
+     "me": false,
+     "text": "where are you?? weve been waiting"
+    },
+    {
+     "me": true,
+     "text": "coming coming im on the subway"
+    },
+    {
+     "me": false,
+     "text": "hurry were starving"
+    },
+    {
+     "me": true,
+     "text": "😭😭 2 min"
+    },
+    {
+     "me": false,
+     "text": "i ordered edamame to hold us over"
+    },
+    {
+     "me": true,
+     "text": "youre the actual best"
+    },
+    {
+     "me": true,
+     "text": "im so full that sushi was amazing"
+    },
+    {
+     "me": false,
+     "text": "right lets go back anytime"
+    },
+    {
+     "me": true,
+     "text": "next time were getting the big platter"
+    },
+    {
+     "me": false,
+     "text": "yes and im ordering my own edamame this time"
+    },
+    {
+     "me": true,
+     "text": "lol fair"
+    },
+    {
+     "me": false,
+     "text": "you get back ok?"
+    },
+    {
+     "me": true,
+     "text": "yeah just dropping my bag"
+    },
+    {
+     "me": false,
+     "text": "okk night beautiful"
+    },
+    {
+     "me": true,
+     "text": "you too 💗"
+    }
+   ]
+  },
+  {
+   "id": "conv-dhl",
+   "title": "DHL Express",
+   "time": "Saturday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "DHL Express: your parcel is out for delivery today, with you between 2pm and 6pm. Track it here: dhl.com/t/8HK2M9"
+    },
+    {
+     "me": false,
+     "text": "DHL Express: delivered. Hope it's what you wanted!"
+    },
+    {
+     "me": false,
+     "text": "DHL Express: your parcel is in transit and due to arrive tomorrow. Track it here: dhl.com/t/9PL4N7"
+    }
+   ]
+  },
+  {
+   "id": "conv-harlow",
+   "title": "Harlow",
+   "time": "Saturday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "https://www.zara.com/us/en/satin-mini-dress-p07521179.html"
+    },
+    {
+     "me": false,
+     "text": "what do you think for devons gift"
+    },
+    {
+     "me": true,
+     "text": "ohh thats pretty"
+    },
+    {
+     "me": true,
+     "text": "but i think she already has blue satin"
+    },
+    {
+     "me": false,
+     "text": "oh dang"
+    },
+    {
+     "me": false,
+     "text": "theres a black one as well"
+    },
+    {
+     "me": true,
+     "text": "black works yeah"
+    },
+    {
+     "me": false,
+     "text": "what did you pick for her"
+    },
+    {
+     "me": true,
+     "text": "something for her hair i think"
+    },
+    {
+     "me": false,
+     "text": "like a dyson??"
+    },
+    {
+     "me": true,
+     "text": "lol no i cant afford that just a normal curling iron"
+    },
+    {
+     "me": false,
+     "text": "ahh ok"
+    },
+    {
+     "me": false,
+     "text": "mayaa"
+    },
+    {
+     "me": true,
+     "text": "yes"
+    },
+    {
+     "me": false,
+     "text": "do you have tampons? im at your place in 10 and just got my period 😭"
+    },
+    {
+     "me": true,
+     "text": "yes dont worry just come over"
+    },
+    {
+     "me": false,
+     "text": "youre literally a lifesaver"
+    },
+    {
+     "me": false,
+     "text": "want me to grab you anything on the way?"
+    },
+    {
+     "me": true,
+     "text": "a peach iced tea please 🙏"
+    },
+    {
+     "me": false,
+     "text": "got you"
+    },
+    {
+     "me": false,
+     "text": "where'd you get your shoes again"
+    },
+    {
+     "me": true,
+     "text": "you mean the white ones?"
+    },
+    {
+     "me": false,
+     "text": "yeah"
+    },
+    {
+     "me": true,
+     "text": "foot locker at the king of prussia mall"
+    },
+    {
+     "me": false,
+     "text": "the one upstairs?"
+    },
+    {
+     "me": true,
+     "text": "yeah near the food court"
+    },
+    {
+     "me": true,
+     "text": "they had my size in like 3 colors"
+    },
+    {
+     "me": false,
+     "text": "ok thanks im gonna go check"
+    },
+    {
+     "me": false,
+     "text": "did they have much choice?"
+    },
+    {
+     "me": true,
+     "text": "yeah a decent amount"
+    },
+    {
+     "me": true,
+     "text": "but its packed on saturdays"
+    },
+    {
+     "me": false,
+     "text": "oh ok ill go on a weekday then"
+    },
+    {
+     "me": true,
+     "text": "smart 👍"
+    }
+   ]
+  },
+  {
+   "id": "conv-nia",
+   "title": "Nia",
+   "time": "7/29/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "omg what was that stats lecture"
+    },
+    {
+     "me": false,
+     "text": "i got literally NOTHING"
+    },
+    {
+     "me": true,
+     "text": "lol same"
+    },
+    {
+     "me": true,
+     "text": "the prof talks way too fast"
+    },
+    {
+     "me": false,
+     "text": "im just gonna watch youtube videos for this"
+    },
+    {
+     "me": true,
+     "text": "send me the good ones if you find any"
+    },
+    {
+     "me": false,
+     "text": "yeah for sure"
+    },
+    {
+     "me": false,
+     "text": "should we revise together before the exam?"
+    },
+    {
+     "me": true,
+     "text": "yeah good call"
+    },
+    {
+     "me": false,
+     "text": "library or at yours"
+    },
+    {
+     "me": true,
+     "text": "librarys always packed my place is better"
+    },
+    {
+     "me": false,
+     "text": "ok perfect"
+    },
+    {
+     "me": false,
+     "text": "found one"
+    },
+    {
+     "me": false,
+     "text": "https://youtu.be/xpz9fhKBc8"
+    },
+    {
+     "me": false,
+     "text": "this guy actually explains it well"
+    },
+    {
+     "me": true,
+     "text": "thankss im watching that tonight"
+    },
+    {
+     "me": false,
+     "text": "have you tried that place that opened last week"
+    },
+    {
+     "me": true,
+     "text": "which one?"
+    },
+    {
+     "me": false,
+     "text": "the vietnamese spot near me"
+    },
+    {
+     "me": true,
+     "text": "oh not yet no"
+    },
+    {
+     "me": false,
+     "text": "went yesterday with my sister it was so good"
+    },
+    {
+     "me": false,
+     "text": "the pho 😭"
+    },
+    {
+     "me": true,
+     "text": "is it expensive"
+    },
+    {
+     "me": false,
+     "text": "no like 14 a bowl"
+    },
+    {
+     "me": false,
+     "text": "and the portions are huge"
+    },
+    {
+     "me": true,
+     "text": "ohhh we have to go"
+    },
+    {
+     "me": false,
+     "text": "i know lets actually plan it"
+    },
+    {
+     "me": false,
+     "text": "im so stressed about tomorrows exam"
+    },
+    {
+     "me": true,
+     "text": "same 😭"
+    },
+    {
+     "me": true,
+     "text": "i feel like nothing stuck"
+    },
+    {
+     "me": false,
+     "text": "were gonna suffer"
+    },
+    {
+     "me": true,
+     "text": "worst case we retake it lol"
+    },
+    {
+     "me": false,
+     "text": "dont jinx us 😂"
+    },
+    {
+     "me": false,
+     "text": "anyway good luck see you in there tomorrow"
+    },
+    {
+     "me": true,
+     "text": "good luck 💪"
+    }
+   ]
+  },
+  {
+   "id": "conv-laposte",
+   "title": "USPS",
+   "time": "7/29/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "USPS: Priority Mail 6A12345678901 is being held for you at the Wawa pickup point, 45 Frankford Avenue Philadelphia, PA 19125. Pick it up by 01/25."
+    },
+    {
+     "me": false,
+     "text": "USPS: Priority Mail 6A12345678901 has been picked up. Thanks for using USPS!"
+    },
+    {
+     "me": false,
+     "text": "USPS: Priority Mail 6A98765432109 goes out for delivery today. Track it at usps.com/tracking"
+    },
+    {
+     "me": false,
+     "text": "USPS: your Priority Mail went into the mailbox."
+    }
+   ]
+  },
+  {
+   "id": "conv-amazon",
+   "title": "Amazon",
+   "time": "7/28/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Amazon: your order has shipped and should arrive tomorrow - track it in the Amazon app."
+    },
+    {
+     "me": false,
+     "text": "Amazon: your delivery lands today, driver window 6pm-10pm."
+    },
+    {
+     "me": false,
+     "text": "Amazon: delivered, handed to the recipient in person."
+    }
+   ]
+  },
+  {
+   "id": "conv-tess",
+   "title": "Tess",
+   "time": "7/27/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "hiii"
+    },
+    {
+     "me": false,
+     "text": "how are you doing?"
+    },
+    {
+     "me": true,
+     "text": "heyy good hbu"
+    },
+    {
+     "me": false,
+     "text": "good good"
+    },
+    {
+     "me": false,
+     "text": "hey you free saturday?"
+    },
+    {
+     "me": true,
+     "text": "not yet no why"
+    },
+    {
+     "me": false,
+     "text": "my parents are outta town so im having people over"
+    },
+    {
+     "me": true,
+     "text": "ohh yes im in"
+    },
+    {
+     "me": false,
+     "text": "nice ill put you in the group"
+    },
+    {
+     "me": false,
+     "text": "what are you bringing to the party"
+    },
+    {
+     "me": true,
+     "text": "i can grab drinks?"
+    },
+    {
+     "me": false,
+     "text": "perfect junies on food"
+    },
+    {
+     "me": true,
+     "text": "cool"
+    },
+    {
+     "me": false,
+     "text": "youre coming with whitney right?"
+    },
+    {
+     "me": true,
+     "text": "yeah shes coming with me"
+    },
+    {
+     "me": false,
+     "text": "👍👍"
+    },
+    {
+     "me": false,
+     "text": "did you see kylies new reel"
+    },
+    {
+     "me": true,
+     "text": "no"
+    },
+    {
+     "me": true,
+     "text": "hold on let me look"
+    },
+    {
+     "me": true,
+     "text": "OMG that dress"
+    },
+    {
+     "me": false,
+     "text": "i know 😭😭"
+    },
+    {
+     "me": false,
+     "text": "i want it so bad someday"
+    },
+    {
+     "me": true,
+     "text": "lol did you see how much it is"
+    },
+    {
+     "me": false,
+     "text": "dont tell me"
+    },
+    {
+     "me": true,
+     "text": "like 2k 😭"
+    },
+    {
+     "me": false,
+     "text": "ok wow"
+    },
+    {
+     "me": false,
+     "text": "let a girl dream 😂"
+    },
+    {
+     "me": true,
+     "text": "well hunt down a dupe on shein"
+    },
+    {
+     "me": false,
+     "text": "good ideaaa ill hunt tonight"
+    }
+   ]
+  },
+  {
+   "id": "conv-fedex",
+   "title": "FedEx",
+   "time": "7/26/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "FEDEX: package XK789456123FR is scheduled for delivery tomorrow. Manage your delivery options at fedex.com"
+    },
+    {
+     "me": false,
+     "text": "FEDEX: package XK789456123FR is delivered. Thanks!"
+    }
+   ]
+  },
+  {
+   "id": "conv-zocdoc",
+   "title": "Zocdoc",
+   "time": "7/15/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Zocdoc: Dr. Reyes confirmed your 01/15 appointment. Remember to bring your insurance card."
+    },
+    {
+     "me": false,
+     "text": "Zocdoc: your appointment with Dr. Reyes (General Practitioner) is tomorrow at 10:30am, 12 Spruce Street Philadelphia, PA 19107. Need another slot? zocdoc.com/r/5k9m2"
+    }
+   ]
+  }
+ ],
+ "whatsapp": [],
+ "gmail": [
+  {
+   "sender": "To: Trey Whitfield",
+   "subject": "About today's session",
+   "preview": "Hey Trey! I wanted to tell you the session went really well, I felt a real difference this time. Thanks for yo",
+   "body": "Hey Trey!\n\nI wanted to tell you the session went really well, I felt a real difference this time. Thanks for your advice 🙏\n\nI'm a bit tight on money this month though so I'll send you the transfer next week if that's okay?\n\nThanks again!\nCallie",
+   "time": "Yesterday",
+   "folder": "sent"
+  },
+  {
+   "sender": "Poshmark",
+   "subject": "Someone favorited your listing",
+   "preview": "Somebody just favorited your Zara dress listing.",
+   "body": "Somebody just favorited your Zara dress listing.",
+   "time": "Yesterday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Mom",
+   "subject": "Re: lunch on Sunday",
+   "preview": "Hi mom! Sunday works for me, I'll be there around 12:30. Want me to bring anything? Kisses",
+   "body": "Hi mom!\n\nSunday works for me, I'll be there around 12:30. Want me to bring anything?\n\nKisses",
+   "time": "Tuesday",
+   "folder": "sent"
+  },
+  {
+   "sender": "Apple",
+   "subject": "Your iCloud receipt",
+   "preview": "Your iCloud 50GB storage plan receipt: $0.99.",
+   "body": "Your iCloud 50GB storage plan receipt: $0.99.",
+   "time": "Sunday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Sephora",
+   "subject": "Your birthday gift is ready!",
+   "preview": "Swing by any Sephora store and pick up the birthday gift we've set aside for you.",
+   "body": "Swing by any Sephora store and pick up the birthday gift we've set aside for you.",
+   "time": "Sunday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "DoorDash",
+   "subject": "Your food is on the way!",
+   "preview": "Your driver has left Sushi Hana - about 20 minutes until the food reaches you.",
+   "body": "Your driver has left Sushi Hana - about 20 minutes until the food reaches you.",
+   "time": "Saturday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: julie_mode75",
+   "subject": "Re: About the jacket",
+   "preview": "Hey! Yes it's still available. I'd rather do the exchange in person if possible, are you in Philadelphia? Call",
+   "body": "Hey!\n\nYes it's still available. I'd rather do the exchange in person if possible, are you in Philadelphia?\n\nCallie",
+   "time": "Saturday",
+   "folder": "sent"
+  },
+  {
+   "sender": "Drexel University Libraries",
+   "subject": "Your hold is ready for pickup",
+   "preview": "The title you requested is waiting for you at the Hagerty Library service desk. Holds are kept for 7 days.",
+   "body": "The title you requested is waiting for you at the Hagerty Library service desk. Holds are kept for 7 days.",
+   "time": "Saturday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Instagram",
+   "subject": "New sign-in to your account",
+   "preview": "New sign-in detected from Philadelphia, PA.",
+   "body": "New sign-in detected from Philadelphia, PA.",
+   "time": "Friday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Zara",
+   "subject": "The new fall collection is here",
+   "preview": "Shop our new fall-winter arrivals now.",
+   "body": "Shop our new fall-winter arrivals now.",
+   "time": "7/30/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Uber",
+   "subject": "Here's your Uber receipt",
+   "preview": "Trip finished. $8.50 was charged to your card - thanks for choosing Uber.",
+   "body": "Trip finished. $8.50 was charged to your card - thanks for choosing Uber.",
+   "time": "7/29/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Poshmark Support",
+   "subject": "Order #VT892341 - package never arrived",
+   "preview": "Hello, I'm contacting you because I still haven't received my package ordered 12 days ago. The tracking shows ",
+   "body": "Hello,\n\nI'm contacting you because I still haven't received my package ordered 12 days ago. The tracking shows \"delivered\" but I haven't received anything.\n\nCan you help me resolve this issue?\n\nBest regards,\nCallie Denton",
+   "time": "7/29/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "SEPTA Key",
+   "subject": "Auto-reload receipt",
+   "preview": "$20.00 was added to your SEPTA Key travel wallet. New balance: $26.40.",
+   "body": "$20.00 was added to your SEPTA Key travel wallet. New balance: $26.40.",
+   "time": "7/29/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Netflix",
+   "subject": "New this week on Netflix",
+   "preview": "Just added on Netflix this week: a pile of new shows and movies to work through.",
+   "body": "Just added on Netflix this week: a pile of new shows and movies to work through.",
+   "time": "7/27/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Registrar's Office",
+   "subject": "Enrollment certificate request",
+   "preview": "Hello, I am a student in Sophomore Psychology (student number: 21845632) and I need an enrollment certificate ",
+   "body": "Hello,\n\nI am a student in Sophomore Psychology (student number: 21845632) and I need an enrollment certificate for a housing application.\n\nWould it be possible to send it to me by email?\n\nThank you in advance,\nCallie Denton",
+   "time": "7/27/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Spotify",
+   "subject": "Discover Weekly is ready for you",
+   "preview": "30 fresh tracks picked for you this week.",
+   "body": "30 fresh tracks picked for you this week.",
+   "time": "7/25/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Sephora",
+   "subject": "🎁 20% off every makeup item!",
+   "preview": "Use the code MAKEUP20 at checkout for -20% on every makeup item, this weekend only.",
+   "body": "Use the code MAKEUP20 at checkout for -20% on every makeup item, this weekend only.",
+   "time": "7/22/26",
+   "folder": "inbox"
+  }
+ ],
+ "calendar": [
+  {
+   "title": "Cole",
+   "date": "08/05",
+   "dateLabel": "Wed, Aug 5, 2026",
+   "month": "2026-08",
+   "time": "11:00 AM – 12:00 PM",
+   "location": "",
+   "description": "meeting at King of Prussia"
+  },
+  {
+   "title": "Trey",
+   "date": "08/05",
+   "dateLabel": "Wed, Aug 5, 2026",
+   "month": "2026-08",
+   "time": "6:00 AM – 7:00 AM",
+   "location": "Philadelphia",
+   "description": ""
+  },
+  {
+   "title": "Dentist",
+   "date": "08/01",
+   "dateLabel": "Sat, Aug 1, 2026",
+   "month": "2026-08",
+   "time": "10:00 AM – 11:00 AM",
+   "location": "Dr. Morel's Office, 18 Walnut Street",
+   "description": "Teeth cleaning"
+  },
+  {
+   "title": "Aunt Christine's birthday 🎂",
+   "date": "08/01",
+   "dateLabel": "Sat, Aug 1, 2026",
+   "month": "2026-08",
+   "time": "All day",
+   "location": "",
+   "description": "Call her in the morning"
+  },
+  {
+   "title": "study session - stats",
+   "date": "07/28",
+   "dateLabel": "Tue, Jul 28, 2026",
+   "month": "2026-07",
+   "time": "6:00 PM – 8:30 PM",
+   "location": "Hagerty Library",
+   "description": "With Nia, exam is Thursday"
+  },
+  {
+   "title": "brunch - Jules and Harlow",
+   "date": "07/27",
+   "dateLabel": "Mon, Jul 27, 2026",
+   "month": "2026-07",
+   "time": "11:00 AM – 2:00 PM",
+   "location": "Season, 1 North 3rd Street",
+   "description": ""
+  },
+  {
+   "title": "coffee with Nia",
+   "date": "07/26",
+   "dateLabel": "Sun, Jul 26, 2026",
+   "month": "2026-07",
+   "time": "10:00 AM – 11:00 AM",
+   "location": "La Colombe",
+   "description": ""
+  },
+  {
+   "title": "nails 💅",
+   "date": "07/24",
+   "dateLabel": "Fri, Jul 24, 2026",
+   "month": "2026-07",
+   "time": "4:00 PM – 5:00 PM",
+   "location": "Salon Vivid",
+   "description": ""
+  },
+  {
+   "title": "yoga class",
+   "date": "07/22",
+   "dateLabel": "Wed, Jul 22, 2026",
+   "month": "2026-07",
+   "time": "7:00 PM – 8:30 PM",
+   "location": "Studio Yoga Village",
+   "description": ""
+  },
+  {
+   "title": "Whitney's Bday 🎂",
+   "date": "07/19",
+   "dateLabel": "Sun, Jul 19, 2026",
+   "month": "2026-07",
+   "time": "All day",
+   "location": "",
+   "description": "Get her the book she wanted"
+  },
+  {
+   "title": "🎉 night at Claire's",
+   "date": "07/15",
+   "dateLabel": "Wed, Jul 15, 2026",
+   "month": "2026-07",
+   "time": "8:00 PM – 11:59 PM",
+   "location": "Claire's place",
+   "description": "Bring wine"
+  },
+  {
+   "title": "team sync on the project",
+   "date": "07/09",
+   "dateLabel": "Thu, Jul 9, 2026",
+   "month": "2026-07",
+   "time": "9:30 AM – 11:00 AM",
+   "location": "Office - Room B",
+   "description": "Check-in with marketing team"
+  },
+  {
+   "title": "haircut",
+   "date": "07/05",
+   "dateLabel": "Sun, Jul 5, 2026",
+   "month": "2026-07",
+   "time": "5:00 PM – 6:30 PM",
+   "location": "Salon Vivid",
+   "description": "Balayage"
+  },
+  {
+   "title": "birthday - Brooks 🎉",
+   "date": "06/29",
+   "dateLabel": "Mon, Jun 29, 2026",
+   "month": "2026-06",
+   "time": "All day",
+   "location": "",
+   "description": ""
+  },
+  {
+   "title": "Sarah + a film at the AMC",
+   "date": "06/25",
+   "dateLabel": "Thu, Jun 25, 2026",
+   "month": "2026-06",
+   "time": "8:30 PM – 11:00 PM",
+   "location": "AMC Fashion District",
+   "description": ""
+  },
+  {
+   "title": "derm appointment",
+   "date": "06/22",
+   "dateLabel": "Mon, Jun 22, 2026",
+   "month": "2026-06",
+   "time": "2:30 PM – 3:00 PM",
+   "location": "Dr. Blanchard, 45 Market Street",
+   "description": "Mole check"
+  },
+  {
+   "title": "Gym",
+   "date": "06/19",
+   "dateLabel": "Fri, Jun 19, 2026",
+   "month": "2026-06",
+   "time": "7:30 AM – 8:30 AM",
+   "location": "The Cliffs at Callowhill",
+   "description": ""
+  },
+  {
+   "title": "eating at mom and dad's",
+   "date": "06/15",
+   "dateLabel": "Mon, Jun 15, 2026",
+   "month": "2026-06",
+   "time": "7:30 PM – 10:00 PM",
+   "location": "Family home",
+   "description": ""
+  },
+  {
+   "title": "appointment at the bank",
+   "date": "06/12",
+   "dateLabel": "Fri, Jun 12, 2026",
+   "month": "2026-06",
+   "time": "11:00 AM – 12:00 PM",
+   "location": "Wells Fargo Center City",
+   "description": "Mortgage loan"
+  },
+  {
+   "title": "vinyasa class",
+   "date": "06/09",
+   "dateLabel": "Tue, Jun 9, 2026",
+   "month": "2026-06",
+   "time": "7:00 PM – 8:30 PM",
+   "location": "Studio Yoga Village",
+   "description": ""
+  },
+  {
+   "title": "drinks with the team after work",
+   "date": "06/05",
+   "dateLabel": "Fri, Jun 5, 2026",
+   "month": "2026-06",
+   "time": "6:30 PM – 9:00 PM",
+   "location": "Bok Bar",
+   "description": ""
+  },
+  {
+   "title": "gyno checkup",
+   "date": "06/02",
+   "dateLabel": "Tue, Jun 2, 2026",
+   "month": "2026-06",
+   "time": "3:00 PM – 3:30 PM",
+   "location": "Dr. Reyes, 12 Pine Street",
+   "description": "Annual checkup"
+  },
+  {
+   "title": "the new exhibit, with Mom",
+   "date": "05/28",
+   "dateLabel": "Thu, May 28, 2026",
+   "month": "2026-05",
+   "time": "2:00 PM – 5:00 PM",
+   "location": "Philadelphia Museum of Art",
+   "description": "Van Gogh exhibition"
+  },
+  {
+   "title": "Gym",
+   "date": "05/23",
+   "dateLabel": "Sat, May 23, 2026",
+   "month": "2026-05",
+   "time": "7:30 AM – 8:30 AM",
+   "location": "The Cliffs at Callowhill",
+   "description": ""
+  },
+  {
+   "title": "Marlee - birthday 🎂",
+   "date": "05/18",
+   "dateLabel": "Mon, May 18, 2026",
+   "month": "2026-05",
+   "time": "All day",
+   "location": "",
+   "description": "Party at Standard Tap bar"
+  },
+  {
+   "title": "massage, finally",
+   "date": "05/13",
+   "dateLabel": "Wed, May 13, 2026",
+   "month": "2026-05",
+   "time": "4:00 PM – 5:00 PM",
+   "location": "Rittenhouse Spa",
+   "description": ""
+  }
+ ],
+ "notes": [
+  {
+   "title": "A.",
+   "body": "so he called and just... said it. that he's caught feelings for me.\nnow i don't even know what i'm supposed to feel\n\ndoes part of me feel it back?\n\nreasons to say yes:\n- he cracks me up every single time\n- i can tell him literally anything\n- he just gets it, i never have to spell things out\n- that weekend we spent together was honestly incredible 👀\n- ok fine, he's hot\n\nreasons to run:\n- whitney has no idea we're even a thing, she's gonna lose it\n- there's someone new i want to get to know\n- being single is genuinely so good right now\n- he was a mess with his ex, like actually a mess\n- he's hit her before"
+  },
+  {
+   "title": "outfit for jules party",
+   "body": "option 1: wide leg jeans + black backless top + heels\noption 2: the green dress + converse\noption 3: leather pants + white crop top\n\nask whitney what she thinks"
+  },
+  {
+   "title": "playlist for the party",
+   "body": "add:\n- doja cat\n- latto\n- gunna\n- ice spice\n- lil baby"
+  },
+  {
+   "title": "🎵",
+   "body": "listen to:\n- the new feid\n- sza album\n- whatever central cee just dropped"
+  },
+  {
+   "title": "Note",
+   "body": "im so done with everything rn\nfeels like im running all day and never actually stopping\ni need this vacation so bad"
+  },
+  {
+   "title": "midterm revision - psych",
+   "body": "CHAP 4 - memory\n- short term: 7 items +/- 2\n- working memory -> baddeley\n- span + chunking\n- encoding, storage, retrieval\n\nCHAP 5 - attention\n- selective attention\n- cocktail party effect\n- broadbent filter model"
+  },
+  {
+   "title": "financial aid reimbursement",
+   "body": "call financial aid about the file\ncase number: 1245789632\nkeep rent receipts"
+  },
+  {
+   "title": "upcoming appointments",
+   "body": "dentist - August 5 3pm\ndermatologist - August 13 10:30am\nrefill birth control before end of month"
+  },
+  {
+   "title": "groceries",
+   "body": "- oat milk\n- avocado\n- bagels\n- peanut butter\n- tampons\n- makeup wipes\n- mascara (the sephora one)"
+  },
+  {
+   "title": "⚠️",
+   "body": "gym locker code: 1987\njunes building code: 45B12\ndads gate code: 2706"
+  },
+  {
+   "title": "watchlist - shows",
+   "body": "- the bear (whitney said it was amazing)\n- euphoria season 2\n- you season 4\n- white lotus"
+  },
+  {
+   "title": "recipe - cookies",
+   "body": "2 cups flour\n1/2 cup softened butter\n3/4 cup sugar\n1 egg\n1 packet vanilla sugar\nchocolate chips\n\n350°F for 12min"
+  },
+  {
+   "title": "gift ideas for whitney",
+   "body": "her bday is the 15th\n\n- the perfume she wants (ysl libre?)\n- sephora gift card\n- that book she keeps bringing up\n- do something together like a spa day?"
+  },
+  {
+   "title": "tattoo idea",
+   "body": "something small and subtle on the ankle or wrist\nmaybe a moon? or something minimalist\nask jules for her tattoo artists name"
+  },
+  {
+   "title": "motivation",
+   "body": "stop measuring yourself against everyone else\nyoure doing what you can and thats enough\nthe ones who criticize have their own mess\nbreathe"
+  },
+  {
+   "title": "moms wifi code",
+   "body": "FIOS-E4F2A8"
+  }
+ ],
+ "maps": [
+  {
+   "name": "📍 Shared location",
+   "subtitle": "17 North Prince Street, 19103 Lancaster"
+  },
+  {
+   "name": "The Roxy Theater",
+   "subtitle": "Movie with Whitney"
+  },
+  {
+   "name": "Drexel University",
+   "subtitle": "Literature classes"
+  },
+  {
+   "name": "Pennypack Park",
+   "subtitle": "Running"
+  },
+  {
+   "name": "Apartment 🏠",
+   "subtitle": "22 Frankford Avenue, Fishtown"
+  },
+  {
+   "name": "La Colombe",
+   "subtitle": "Sunday brunch"
+  },
+  {
+   "name": "Chelsea Market",
+   "subtitle": "Sunday market"
+  },
+  {
+   "name": "Broad Street Market",
+   "subtitle": "Brunch with the girls"
+  },
+  {
+   "name": "Pizzeria Beddia",
+   "subtitle": "Dinner with Jules"
+  },
+  {
+   "name": "Riverfront Park",
+   "subtitle": "Family weekend"
+  },
+  {
+   "name": "Reading Terminal Market",
+   "subtitle": "Shopping"
+  },
+  {
+   "name": "Cherry Street Pier",
+   "subtitle": "Evening walk with Whitney"
+  },
+  {
+   "name": "Schenley Park",
+   "subtitle": "Walk"
+  },
+  {
+   "name": "Hagerty Library",
+   "subtitle": "Studying"
+  },
+  {
+   "name": "French Creek State Park",
+   "subtitle": "Hike with Cole 🥾"
+  },
+  {
+   "name": "the Strip District",
+   "subtitle": "Weekend at Devon's"
+  },
+  {
+   "name": "Frankford Hall",
+   "subtitle": "Night out with Jules and Harlow"
+  },
+  {
+   "name": "Union Square",
+   "subtitle": "Getaway with Whitney"
+  },
+  {
+   "name": "Hersheypark",
+   "subtitle": "Trip with Whitney"
+  },
+  {
+   "name": "Ridley Creek State Park",
+   "subtitle": "Visit with mom"
+  },
+  {
+   "name": "Penn Treaty Park",
+   "subtitle": "Summer picnic"
+  }
+ ],
+ "revolut": {
+  "balance": "$0.00",
+  "transactions": []
+ },
+ "weather": {
+  "city": "Local",
+  "tempC": 18,
+  "hi": 21,
+  "lo": 12,
+  "condition": "Clear"
+ },
+ "photos": [
+  "photo_0.webp",
+  "photo_1.webp",
+  "photo_2.webp",
+  "photo_3.webp",
+  "photo_4.webp",
+  "photo_5.webp",
+  "photo_6.webp",
+  "photo_7.webp",
+  "photo_8.webp"
+ ],
+ "screenTime": [
+  {
+   "appName": "Instagram",
+   "durationMinutes": 185
+  },
+  {
+   "appName": "Messages",
+   "durationMinutes": 98
+  },
+  {
+   "appName": "Spotify",
+   "durationMinutes": 78
+  },
+  {
+   "appName": "Safari",
+   "durationMinutes": 52
+  },
+  {
+   "appName": "Photos",
+   "durationMinutes": 45
+  },
+  {
+   "appName": "Hinge",
+   "durationMinutes": 38
+  },
+  {
+   "appName": "Gmail",
+   "durationMinutes": 25
+  },
+  {
+   "appName": "Google Maps",
+   "durationMinutes": 22
+  },
+  {
+   "appName": "Phone",
+   "durationMinutes": 18
+  },
+  {
+   "appName": "Health",
+   "durationMinutes": 15
+  },
+  {
+   "appName": "Calendar",
+   "durationMinutes": 12
+  },
+  {
+   "appName": "Notes",
+   "durationMinutes": 10
+  },
+  {
+   "appName": "Airbnb",
+   "durationMinutes": 8
+  },
+  {
+   "appName": "Amtrak",
+   "durationMinutes": 8
+  },
+  {
+   "appName": "Fitness",
+   "durationMinutes": 7
+  },
+  {
+   "appName": "Wallet",
+   "durationMinutes": 5
+  },
+  {
+   "appName": "Clock",
+   "durationMinutes": 5
+  },
+  {
+   "appName": "Ozratu",
+   "durationMinutes": 4
+  },
+  {
+   "appName": "Settings",
+   "durationMinutes": 3
+  },
+  {
+   "appName": "Calculator",
+   "durationMinutes": 2
+  }
+ ],
+ "instagram": {
+  "username": "callie.denton",
+  "displayName": "Callie Denton",
+  "avatar": "ig_avatar.webp",
+  "bio": "Life is good",
+  "posts": [
+   {
+    "image": "ig_post_0.webp",
+    "location": "Philadelphia",
+    "caption": "my dads tesla tho >>>",
+    "username": "yara.drv"
+   },
+   {
+    "image": "ig_post_1.webp",
+    "location": "Rittenhouse Square",
+    "caption": "sunday reset",
+    "username": "junie.skt"
+   },
+   {
+    "image": "ig_post_2.webp",
+    "location": "Philadelphia",
+    "caption": "last night was a movie",
+    "username": "tess_lcr"
+   },
+   {
+    "image": "ig_post_3.webp",
+    "location": "Ocean City",
+    "caption": "vacation mode: on",
+    "username": "nia.prttt"
+   },
+   {
+    "image": "ig_post_4.webp",
+    "location": "",
+    "caption": "mood",
+    "username": "harlow_bvr"
+   },
+   {
+    "image": "ig_post_5.webp",
+    "location": "Old City, Philadelphia",
+    "caption": "",
+    "username": "tess_lcr"
+   },
+   {
+    "image": "ig_post_6.webp",
+    "location": "Philadelphia",
+    "caption": "random ones off my phone",
+    "username": "devon.mp4"
+   }
+  ]
+ },
+ "airbnb": {
+  "name": "",
+  "listings": [
+   {
+    "title": "Romantic Suite Wilmington - Private Spa",
+    "image": "airbnb_0.webp",
+    "rating": "4.8",
+    "subtitle": "5-6 May",
+    "price": "$160/night"
+   },
+   {
+    "title": "Love Suite Atlantic City - Steam & Jacuzzi",
+    "image": "airbnb_1.webp",
+    "rating": "4.9",
+    "subtitle": "14-16 May",
+    "price": "$181/night"
+   },
+   {
+    "title": "Cozy Suite Doylestown - Indoor Pool",
+    "image": "airbnb_2.webp",
+    "rating": "4.7",
+    "subtitle": "22-23 May",
+    "price": "$195/night"
+   },
+   {
+    "title": "Prestige Suite Swarthmore - Private Sauna",
+    "image": "airbnb_3.webp",
+    "rating": "4.9",
+    "subtitle": "6-8 June",
+    "price": "$213/night"
+   },
+   {
+    "title": "Love Room French Creek - Spa & Champagne",
+    "image": "airbnb_4.webp",
+    "rating": "4.8",
+    "subtitle": "3-4 July",
+    "price": "$210/night"
+   },
+   {
+    "title": "Romantic Suite Philadelphia - Jacuzzi Skyline View",
+    "image": "airbnb_5.webp",
+    "rating": "5.0",
+    "subtitle": "21-22 July",
+    "price": "$350/night"
+   },
+   {
+    "title": "Love Room Bryn Mawr - Jacuzzi & Champagne",
+    "image": "airbnb_4.webp",
+    "rating": "4.9",
+    "subtitle": "1-2 August",
+    "price": "$235/night"
+   }
+  ]
+ }
+}

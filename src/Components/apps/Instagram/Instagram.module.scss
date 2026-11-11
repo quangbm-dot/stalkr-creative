@@ -32,10 +32,19 @@
 }
 
 .name {
-  padding: 0 16px 12px;
+  padding: 0 16px 2px;
   font-family: var(--font-sans);
   font-weight: 600;
   font-size: 14px;
+}
+
+.bio {
+  padding: 0 16px 12px;
+  font-family: var(--font-sans);
+  font-size: 13px;
+  line-height: 1.4;
+  color: var(--ios-text, #1c1c1e);
+  white-space: pre-line;
 }
 
 .feed {

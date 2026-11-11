@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { CaseConfig } from "../../../types/case";
 import AppScreen from "../../PhoneFrame/AppScreen";
 import styles from "./WhatsApp.module.scss";
@@ -7,11 +7,12 @@ interface WhatsAppProps {
   caseData: CaseConfig;
   onBack: () => void;
   hintTargetId?: string;
+  hintMessageId?: string;
   onFoundClue?: () => void;
   unlockOnList?: boolean;
 }
 
-export default function WhatsApp({ caseData, onBack, hintTargetId, onFoundClue, unlockOnList }: WhatsAppProps) {
+export default function WhatsApp({ caseData, onBack, hintTargetId, hintMessageId, onFoundClue, unlockOnList }: WhatsAppProps) {
   const [openThreadId, setOpenThreadId] = useState<string | null>(null);
   const openThread = caseData.whatsapp.find((t) => t.id === openThreadId);
   const hotId = hintTargetId === undefined ? undefined : caseData.whatsapp.find((t) => t.title === hintTargetId)?.id;
@@ -20,15 +21,31 @@ export default function WhatsApp({ caseData, onBack, hintTargetId, onFoundClue, 
     if (unlockOnList && !openThreadId) onFoundClue?.();
   }, [unlockOnList, openThreadId, onFoundClue]);
 
+  const hotMsgRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    if (openThread) hotMsgRef.current?.scrollIntoView({ block: "center" });
+  }, [openThread]);
+
+  const hotMsgIdx = hintMessageId
+    ? (openThread?.msgs.findIndex((m) => m.text.toLowerCase().includes(hintMessageId.toLowerCase())) ?? -1)
+    : -1;
+
   if (openThread) {
     return (
       <AppScreen title={openThread.title} onBack={() => setOpenThreadId(null)} theme="light">
         <div className={styles.chatBg}>
-          {openThread.msgs.map((m, i) => (
-            <div key={i} className={m.me ? styles.bubbleMe : styles.bubbleThem}>
-              {m.text}
-            </div>
-          ))}
+          {openThread.msgs.map((m, i) => {
+            const isHotMsg = i === hotMsgIdx;
+            return (
+              <div
+                key={i}
+                ref={isHotMsg ? hotMsgRef : undefined}
+                className={`${m.me ? styles.bubbleMe : styles.bubbleThem} ${isHotMsg ? styles.bubbleHot : ""}`}
+              >
+                {m.text}
+              </div>
+            );
+          })}
         </div>
       </AppScreen>
     );

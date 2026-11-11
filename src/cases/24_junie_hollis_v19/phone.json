@@ -1,0 +1,1852 @@
+{
+ "caseName": "Fourteen Months of Secrets",
+ "title": "Junie & Hollis",
+ "now": "2026-08-06T23:59:00",
+ "client": {
+  "name": "Junie",
+  "avatar": "client.webp"
+ },
+ "owner": {
+  "first": "Hollis",
+  "full": "Hollis Corrigan",
+  "avatar": null
+ },
+ "wallpaper": "wallpaper.webp",
+ "passcode": "2110",
+ "totalQuestions": 7,
+ "questions": [
+  {
+   "id": 1,
+   "text": "Sorry to land this on you. Someone's rung him four times this week, once late last night — could you find out who that is, please?",
+   "answer": "Adele Ruskin",
+   "decoys": [
+    "Gina Sokol",
+    "Sam Odom",
+    "Marla Sirotta"
+   ],
+   "hint": "Open the Phone app and look in the Recent tab. Look for who appears most often in recent calls, especially last night."
+  },
+  {
+   "id": 2,
+   "text": "Adele Ruskin. He has never once said that name in this house... Can you tell me what she does for a living?",
+   "answer": "literary agent",
+   "decoys": [
+    "freelance journalist",
+    "passionate bookseller",
+    "graphic designer"
+   ],
+   "hint": "Open Insta and search for Adele. Her bio spells out what she does for a living."
+  },
+  {
+   "id": 3,
+   "text": "A literary agent. Hollis doesn't write, he marks essays. Sorry to keep asking — how many times have they met over the past 30 days?",
+   "answer": "6",
+   "decoys": [
+    "4",
+    "5",
+    "7"
+   ],
+   "hint": "Open the Calendar app. The 'Meeting A.' event from 16 days ago says in its description that it's with Adele — so every 'Meeting A.' is a meeting with her. Count all events titled 'Meeting A.' over the past 30 days."
+  },
+  {
+   "id": 4,
+   "text": "Six, and I never once asked where he'd been. I'm sorry — can you tell me how much of our money has gone to her?",
+   "answer": "1200",
+   "decoys": [
+    "1000",
+    "600",
+    "1150"
+   ],
+   "hint": "Open the RevoBank app, go to transaction history and Look for a transfer to Ruskin."
+  },
+  {
+   "id": 5,
+   "text": "A lot of money, to a woman I've never met. That isn't nothing for us... Whose account did it actually land in, do you know?",
+   "answer": "Harlow & Vine",
+   "decoys": [
+    "Ruskin Literary",
+    "Kindle Direct Publishing",
+    "Boyle's Books"
+   ],
+   "hint": "In RevoBank, find the $1,200 transfer to Ruskin Literary and look at the transaction details to see the company name on the account."
+  },
+  {
+   "id": 6,
+   "text": "He's been paying a press. I don't understand what I'm looking at any more. Can you just tell me plainly what he's done?",
+   "answer": "a manuscript",
+   "decoys": [
+    "a thesis",
+    "a poetry collection",
+    "a syllabus"
+   ],
+   "hint": "Open Email and find emails from Harlow & Vine Press."
+  },
+  {
+   "id": 7,
+   "text": "He wrote a book. A whole book, and not one word to me... Somebody must have been covering his classes so he'd have the time. Can you find out who?",
+   "answer": "Cal Yablonski",
+   "decoys": [
+    "Sam Odom",
+    "Dwayne Prescott",
+    "Andre Bekele"
+   ],
+   "hint": "Open Notes and find the note titled 'Don't lose this' — it tells you where to find the code that unlocks a conversation in WhatsApp. Unlock it and read what he says about covering the classes — his messages reveal his full name."
+  }
+ ],
+ "onboarding": [
+  {
+   "text": "I'm Junie. I've spent weeks sat at my own kitchen table at night, working out what kind of man he's become... I can't keep doing it alone.",
+   "label": "Junie",
+   "image": "onboarding_1.webp"
+  },
+  {
+   "text": "Hollis and I hit our sixth year in the fall. He teaches literature at Braddock Trail, he's the steadiest man I know, and my mother rings him before she rings me. I thought I knew all of him.",
+   "label": "Junie & Hollis",
+   "image": "onboarding_2.webp"
+  },
+  {
+   "text": "Then in the spring he started going out in the late afternoons. He won't say where. He sits up long after I'm in bed, and last night his phone rang and he took it out to the step.",
+   "label": "Hollis",
+   "image": "onboarding_3.webp"
+  },
+  {
+   "text": "He's asleep now. The phone's on the table and I know the code. I hate that I'm doing this... Please just go through it and tell me. I want to be wrong.",
+   "label": "Junie",
+   "image": "onboarding_4.webp"
+  }
+ ],
+ "home": [
+  {
+   "app": "maps",
+   "label": "Maps"
+  },
+  {
+   "app": "calendar",
+   "label": "Calendar"
+  },
+  {
+   "app": "whatsapp",
+   "label": "WhatsApp"
+  },
+  {
+   "app": "notes",
+   "label": "Notes"
+  },
+  {
+   "app": "revolut",
+   "label": "RevoBank"
+  },
+  {
+   "app": "calculator",
+   "label": "Calculator"
+  },
+  {
+   "app": "instagram",
+   "label": "Insta"
+  },
+  {
+   "app": "photos",
+   "label": "Photos"
+  }
+ ],
+ "dock": [
+  {
+   "app": "gmail",
+   "label": "Email"
+  },
+  {
+   "app": "phone",
+   "label": "Phone"
+  }
+ ],
+ "missingApps": [],
+ "calls": [
+  {
+   "name": "Adele Ruskin",
+   "time": "Yesterday, 9:28 PM",
+   "type": "incoming",
+   "detail": "18 min"
+  },
+  {
+   "name": "Dev Ranganathan",
+   "time": "Yesterday, 10:36 AM",
+   "type": "incoming",
+   "detail": "4 min"
+  },
+  {
+   "name": "Adele Ruskin",
+   "time": "Tuesday, 6:47 PM",
+   "type": "incoming",
+   "detail": "10 min"
+  },
+  {
+   "name": "Robin Petrilla",
+   "time": "Tuesday, 4:20 PM",
+   "type": "incoming",
+   "detail": "5 min"
+  },
+  {
+   "name": "Marla Sirotta",
+   "time": "Monday, 9:01 AM",
+   "type": "incoming",
+   "detail": "2 min"
+  },
+  {
+   "name": "Adele Ruskin",
+   "time": "Sunday, 12:36 PM",
+   "type": "incoming",
+   "detail": "9 min"
+  },
+  {
+   "name": "Cal Yablonski",
+   "time": "Sunday, 8:37 AM",
+   "type": "incoming",
+   "detail": "10 min"
+  },
+  {
+   "name": "Adele Ruskin",
+   "time": "Saturday, 3:06 PM",
+   "type": "incoming",
+   "detail": "15 min"
+  },
+  {
+   "name": "Nadia Whitcomb",
+   "time": "Saturday, 2:21 PM",
+   "type": "incoming",
+   "detail": "15 min"
+  },
+  {
+   "name": "Marla Sirotta",
+   "time": "Friday, 7:37 PM",
+   "type": "incoming",
+   "detail": "2 min"
+  },
+  {
+   "name": "Dwayne Prescott",
+   "time": "Friday, 9:20 AM",
+   "type": "incoming",
+   "detail": "6 min"
+  },
+  {
+   "name": "Owen Kovac",
+   "time": "7/30/26, 12:40 PM",
+   "type": "incoming",
+   "detail": "7 min"
+  },
+  {
+   "name": "Sam Odom",
+   "time": "7/29/26, 8:31 PM",
+   "type": "incoming",
+   "detail": "3 min"
+  },
+  {
+   "name": "Gina Sokol",
+   "time": "7/28/26, 5:42 PM",
+   "type": "incoming",
+   "detail": "4 min"
+  },
+  {
+   "name": "Dev Ranganathan",
+   "time": "7/28/26, 4:15 PM",
+   "type": "outgoing",
+   "detail": "3 min"
+  },
+  {
+   "name": "Gina Sokol",
+   "time": "7/27/26, 4:02 PM",
+   "type": "incoming",
+   "detail": "5 min"
+  },
+  {
+   "name": "Gina Sokol",
+   "time": "7/27/26, 11:31 AM",
+   "type": "incoming",
+   "detail": "5 min"
+  },
+  {
+   "name": "Owen Kovac",
+   "time": "7/26/26, 7:18 PM",
+   "type": "outgoing",
+   "detail": "8 min"
+  },
+  {
+   "name": "Sam Odom",
+   "time": "7/26/26, 10:05 AM",
+   "type": "incoming",
+   "detail": "10 min"
+  },
+  {
+   "name": "Dwayne Prescott",
+   "time": "7/25/26, 6:46 PM",
+   "type": "incoming",
+   "detail": "2 min"
+  },
+  {
+   "name": "Andre Bekele",
+   "time": "7/24/26, 12:19 PM",
+   "type": "incoming",
+   "detail": "5 min"
+  },
+  {
+   "name": "+1 412 555 0103",
+   "time": "7/23/26, 3:51 PM",
+   "type": "outgoing",
+   "detail": ""
+  },
+  {
+   "name": "+1 412 555 0173",
+   "time": "7/23/26, 8:53 AM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Edgewood Family Dental",
+   "time": "7/22/26, 10:06 AM",
+   "type": "outgoing",
+   "detail": "2 min"
+  },
+  {
+   "name": "Regent Square Auto",
+   "time": "7/21/26, 2:53 PM",
+   "type": "outgoing",
+   "detail": "4 min"
+  }
+ ],
+ "messages": [],
+ "whatsapp": [
+  {
+   "id": "conv-wa-1",
+   "title": "Dev Ranganathan",
+   "time": "4:30 PM",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hollis, could you look over the timetable for next week?"
+    },
+    {
+     "me": false,
+     "text": "Admin moved a couple of things at the last minute"
+    },
+    {
+     "me": true,
+     "text": "Hey! Sure, I'll go through it tonight"
+    },
+    {
+     "me": true,
+     "text": "Is that for 5A and 5B both?"
+    },
+    {
+     "me": false,
+     "text": "Right - Tuesday, 5A sits in room 12 now"
+    },
+    {
+     "me": false,
+     "text": "And 5B Wednesday in room 8"
+    },
+    {
+     "me": true,
+     "text": "Room 8 is the one where the projector never works, right?"
+    },
+    {
+     "me": false,
+     "text": "That's the one. I've put a ticket in again"
+    },
+    {
+     "me": true,
+     "text": "Third time this term 😅"
+    },
+    {
+     "me": true,
+     "text": "Got it, writing that down"
+    },
+    {
+     "me": true,
+     "text": "Thanks for letting me know"
+    },
+    {
+     "me": false,
+     "text": "Oh and congratulations on the book!"
+    },
+    {
+     "me": false,
+     "text": "Just saw it went through, they accepted it"
+    },
+    {
+     "me": true,
+     "text": "Thank you so much!! Yeah it's unreal"
+    },
+    {
+     "me": false,
+     "text": "This calls for a toast 🍾"
+    }
+   ],
+   "avatar": "wa_0.webp"
+  },
+  {
+   "id": "conv-wa-2",
+   "title": "Robin Petrilla",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "HOLLIS!!! It just came up on my Insta 😍"
+    },
+    {
+     "me": false,
+     "text": "They are actually publishing your book!!!"
+    },
+    {
+     "me": false,
+     "text": "I could not be prouder of you"
+    },
+    {
+     "me": false,
+     "text": "Remember back in school when you said you wanted to be a writer?"
+    },
+    {
+     "me": false,
+     "text": "And here it is, actually happening!!! 🎉"
+    },
+    {
+     "me": true,
+     "text": "Oh Robin 😭"
+    },
+    {
+     "me": true,
+     "text": "Thanks love"
+    },
+    {
+     "me": true,
+     "text": "Yeah I remember those talks that went till 2am"
+    },
+    {
+     "me": true,
+     "text": "You always pushed me on it"
+    },
+    {
+     "me": true,
+     "text": "Especially the stretches where I doubted all of it"
+    },
+    {
+     "me": false,
+     "text": "Obviously! I always knew you'd get there"
+    },
+    {
+     "me": false,
+     "text": "You had the talent the whole time"
+    },
+    {
+     "me": false,
+     "text": "Just needed to keep at it"
+    },
+    {
+     "me": false,
+     "text": "And you did! 💪"
+    },
+    {
+     "me": true,
+     "text": "How are you doing though? We only ever talk about me"
+    },
+    {
+     "me": false,
+     "text": "Same as ever! Well - new job starts in September"
+    },
+    {
+     "me": true,
+     "text": "Wait WHAT. You buried that 😳"
+    },
+    {
+     "me": false,
+     "text": "Haha I'll call you properly at the weekend and tell you all of it"
+    },
+    {
+     "me": false,
+     "text": "Okay now I actually have to read it!"
+    },
+    {
+     "me": false,
+     "text": "You'll sign a copy for me right? 📚"
+    },
+    {
+     "me": true,
+     "text": "Of course - copy number one has your name on it"
+    },
+    {
+     "me": true,
+     "text": "Signed by the author himself 😎"
+    },
+    {
+     "me": false,
+     "text": "Haha counting down!"
+    }
+   ]
+  },
+  {
+   "id": "conv-wa-3",
+   "title": "Sam Odom",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hollis, quick one"
+    },
+    {
+     "me": false,
+     "text": "Did the super say anything about the construction next door?"
+    },
+    {
+     "me": true,
+     "text": "Hey! Nope, haven't heard a thing"
+    },
+    {
+     "me": true,
+     "text": "What are they doing to it?"
+    },
+    {
+     "me": false,
+     "text": "The whole stairwell is being rebuilt"
+    },
+    {
+     "me": false,
+     "text": "Crews start Monday, apparently"
+    },
+    {
+     "me": true,
+     "text": "Are they closing off the courtyard too?"
+    },
+    {
+     "me": false,
+     "text": "No idea, the notice only mentions the stairwell"
+    },
+    {
+     "me": true,
+     "text": "I'll ask the super next time I catch him"
+    },
+    {
+     "me": false,
+     "text": "If you do, tell him the buzzer is still dead"
+    },
+    {
+     "me": true,
+     "text": "Ah okay, good to know"
+    },
+    {
+     "me": true,
+     "text": "So much for a quiet week..."
+    },
+    {
+     "me": false,
+     "text": "Yeah definitely"
+    },
+    {
+     "me": false,
+     "text": "Lucky you're off this week"
+    },
+    {
+     "me": true,
+     "text": "Oh right! Hadn't thought of that"
+    }
+   ]
+  },
+  {
+   "id": "conv-wa-4",
+   "title": "Marla Sirotta",
+   "time": "Monday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Ciao Hollis, how are you holding up?"
+    },
+    {
+     "me": false,
+     "text": "Heard the big news! 🎊"
+    },
+    {
+     "me": true,
+     "text": "Hi Marla! All good here, thank you"
+    },
+    {
+     "me": true,
+     "text": "Yeah it's wild! Still hasn't sunk in"
+    },
+    {
+     "me": false,
+     "text": "This makes me so happy for you!"
+    },
+    {
+     "me": false,
+     "text": "A published writer, an actual one"
+    },
+    {
+     "me": false,
+     "text": "Straight out of a movie! 😄"
+    },
+    {
+     "me": true,
+     "text": "Haha, just hoping it doesn't get to my head"
+    },
+    {
+     "me": false,
+     "text": "Nah, you're way too humble for that"
+    },
+    {
+     "me": false,
+     "text": "Which is exactly why this landed on you"
+    },
+    {
+     "me": true,
+     "text": "Are you running the Italian group again in the fall?"
+    },
+    {
+     "me": false,
+     "text": "Sì! Wednesdays, same room as before"
+    },
+    {
+     "me": true,
+     "text": "Put me down then, I've lost half of it over the summer"
+    },
+    {
+     "me": true,
+     "text": "That's kind of you Marla, really"
+    },
+    {
+     "me": true,
+     "text": "Hey are we still on for the meeting Thursday?"
+    },
+    {
+     "me": false,
+     "text": "Yep! 3pm in the teachers' lounge"
+    },
+    {
+     "me": true,
+     "text": "Great - Thursday it is!"
+    },
+    {
+     "me": false,
+     "text": "See you soon! 👋"
+    }
+   ]
+  },
+  {
+   "id": "conv-wa-5",
+   "title": "Dwayne Prescott",
+   "time": "Sunday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hollis, my man!"
+    },
+    {
+     "me": false,
+     "text": "No sign of you at the gym all week?"
+    },
+    {
+     "me": true,
+     "text": "Hey Dwayne - sorry, no"
+    },
+    {
+     "me": true,
+     "text": "Everything landed at once and I'm buried"
+    },
+    {
+     "me": false,
+     "text": "Oh yeah I saw it on your feed!"
+    },
+    {
+     "me": false,
+     "text": "Big congrats man 💪"
+    },
+    {
+     "me": false,
+     "text": "That's a serious deal"
+    },
+    {
+     "me": true,
+     "text": "Thanks! Yeah it's kind of nuts"
+    },
+    {
+     "me": false,
+     "text": "Your bike numbers are still up on the board by the way"
+    },
+    {
+     "me": true,
+     "text": "Please tell me nobody has taken them"
+    },
+    {
+     "me": false,
+     "text": "Somebody has. Kid, about nineteen 😂"
+    },
+    {
+     "me": true,
+     "text": "Right. Next week just got serious"
+    },
+    {
+     "me": false,
+     "text": "So you hanging up the running shoes now? 😏"
+    },
+    {
+     "me": true,
+     "text": "Haha no way! Just easing off a bit"
+    },
+    {
+     "me": true,
+     "text": "Next week I'm back, promise"
+    },
+    {
+     "me": false,
+     "text": "Deal - your slot stays open 😄"
+    },
+    {
+     "me": false,
+     "text": "And congrats again on the book, man!"
+    }
+   ],
+   "avatar": "wa_4.webp"
+  },
+  {
+   "id": "conv-wa-6",
+   "title": "Gina Sokol",
+   "time": "Saturday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hollis! Oma told me about your book!"
+    },
+    {
+     "me": false,
+     "text": "She is bursting with pride 😊"
+    },
+    {
+     "me": true,
+     "text": "Hey Gina! So the news reached you already?"
+    },
+    {
+     "me": false,
+     "text": "She will not stop bringing it up! 😂"
+    },
+    {
+     "me": false,
+     "text": "Anyone she meets hears that her great-nephew has a book coming out"
+    },
+    {
+     "me": true,
+     "text": "Oh no... she's gonna embarrass me 😅"
+    },
+    {
+     "me": false,
+     "text": "But it's sweet! She's so proud of you"
+    },
+    {
+     "me": false,
+     "text": "For what it's worth, I'm proud of you as well"
+    },
+    {
+     "me": false,
+     "text": "Even with how rarely we manage to meet up"
+    },
+    {
+     "me": true,
+     "text": "Thanks cuz ❤️"
+    },
+    {
+     "me": true,
+     "text": "We've gotta hang out soon!"
+    },
+    {
+     "me": false,
+     "text": "Say when and I am there"
+    },
+    {
+     "me": false,
+     "text": "Am I getting a signed copy of this book? 📖"
+    }
+   ]
+  },
+  {
+   "id": "conv-wa-7",
+   "title": "UPS",
+   "time": "Friday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "UPS: your parcel arrives today in a 10am-2pm window. Track it with 1Z2847593621"
+    }
+   ]
+  },
+  {
+   "id": "conv-wa-8",
+   "title": "Andre Bekele",
+   "time": "7/30/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hey Hollis! Congrats on your book!"
+    },
+    {
+     "me": false,
+     "text": "Nadia filled me in yesterday"
+    },
+    {
+     "me": true,
+     "text": "Andre! Thank you, really"
+    },
+    {
+     "me": true,
+     "text": "So Nadia was in the cafe then?"
+    },
+    {
+     "me": false,
+     "text": "Yeah with a few friends"
+    },
+    {
+     "me": false,
+     "text": "She lit up the whole time talking about you"
+    },
+    {
+     "me": true,
+     "text": "Haha that's really sweet"
+    },
+    {
+     "me": false,
+     "text": "Oh and your usual cappuccino has your name on it! ☕"
+    },
+    {
+     "me": true,
+     "text": "Give me ten minutes and I'm there!"
+    },
+    {
+     "me": false,
+     "text": "And this round's on us"
+    },
+    {
+     "me": false,
+     "text": "Call it a celebration! 🎉"
+    },
+    {
+     "me": true,
+     "text": "You're the best, Andre. Thanks"
+    },
+    {
+     "me": true,
+     "text": "Be there in a few"
+    }
+   ]
+  },
+  {
+   "id": "conv-wa-9",
+   "title": "Nadia Whitcomb",
+   "time": "7/29/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hollis! Bumped into Andre at his cafe"
+    },
+    {
+     "me": false,
+     "text": "He said your book is actually coming out!"
+    },
+    {
+     "me": false,
+     "text": "This is such good news! 🎊"
+    },
+    {
+     "me": true,
+     "text": "Hey Nadia - honestly it still feels unreal"
+    },
+    {
+     "me": true,
+     "text": "Honestly never thought it'd pan out"
+    },
+    {
+     "me": false,
+     "text": "Obviously it worked out - writing was always your thing"
+    },
+    {
+     "me": false,
+     "text": "You used to tell me stories when we were kids"
+    },
+    {
+     "me": true,
+     "text": "Oh yeah! You still remember that"
+    },
+    {
+     "me": false,
+     "text": "Of course! You made up whole pirate adventures"
+    },
+    {
+     "me": false,
+     "text": "And I bought every word 😂"
+    },
+    {
+     "me": true,
+     "text": "Haha yeah! Already spinning tales back then"
+    },
+    {
+     "me": false,
+     "text": "Not tales, a storyteller! 📚"
+    },
+    {
+     "me": true,
+     "text": "Is your mom still in the old house on Trenton?"
+    },
+    {
+     "me": false,
+     "text": "Still there, she is never moving 😊"
+    },
+    {
+     "me": true,
+     "text": "Say hi from me next time you're over"
+    },
+    {
+     "me": false,
+     "text": "You have to walk me through how the whole thing happened"
+    },
+    {
+     "me": false,
+     "text": "Coffee sometime this week?"
+    },
+    {
+     "me": true,
+     "text": "Yes please - I'll ring you tomorrow"
+    },
+    {
+     "me": false,
+     "text": "Great! I want the whole story"
+    },
+    {
+     "me": false,
+     "text": "And most of all, to read your book when it lands!"
+    }
+   ],
+   "avatar": "wa_8.webp"
+  },
+  {
+   "id": "conv-wa-key-1",
+   "title": "Yabs",
+   "time": "7/29/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Oh by the way"
+    },
+    {
+     "me": false,
+     "text": "Am I covering for you again Saturday?"
+    },
+    {
+     "me": true,
+     "text": "Yeah, if she asks I'm at your place. Thanks."
+    },
+    {
+     "me": false,
+     "text": "No problem"
+    },
+    {
+     "me": false,
+     "text": "What's the project this time?"
+    },
+    {
+     "me": true,
+     "text": "Still the same project"
+    },
+    {
+     "me": true,
+     "text": "Just the final corrections"
+    },
+    {
+     "me": false,
+     "text": "Ok, good luck with it"
+    },
+    {
+     "me": true,
+     "text": "You're really saving my life man 😅"
+    },
+    {
+     "me": false,
+     "text": "Congrats man, you pulled it off. Fourteen months later, and they said yes to your manuscript!"
+    },
+    {
+     "me": true,
+     "text": "Thanks, it took work, but in the end it paid off"
+    },
+    {
+     "me": true,
+     "text": "I still can't wrap my head around it"
+    },
+    {
+     "me": false,
+     "text": "You've earned it so much dude"
+    },
+    {
+     "me": true,
+     "text": "Do you remember when I got started?"
+    },
+    {
+     "me": false,
+     "text": "Of course I do remember"
+    },
+    {
+     "me": false,
+     "text": "You were up writing until 3am"
+    },
+    {
+     "me": false,
+     "text": "And you had me cover your classes 😂"
+    },
+    {
+     "me": false,
+     "text": "Who am I, Cal Yablonski — is there anything I can't do? 😎"
+    },
+    {
+     "me": true,
+     "text": "Haha yeah, sorry about that one"
+    },
+    {
+     "me": true,
+     "text": "You've been like a brother"
+    },
+    {
+     "me": true,
+     "text": "I'd never have made it without you"
+    },
+    {
+     "me": false,
+     "text": "Stop, you're gonna make me cry 😭"
+    },
+    {
+     "me": false,
+     "text": "Are we celebrating this weekend?"
+    },
+    {
+     "me": true,
+     "text": "Absolutely!"
+    },
+    {
+     "me": true,
+     "text": "Are we heading to The Church Brew Works?"
+    },
+    {
+     "me": false,
+     "text": "Perfect! Saturday 8pm works?"
+    },
+    {
+     "me": true,
+     "text": "Deal 🍻"
+    },
+    {
+     "me": false,
+     "text": "Just saw the invoice — you really went all out with those flowers 🌸"
+    },
+    {
+     "me": true,
+     "text": "Had to get it right. It's the one for October 21st, no room for mistakes."
+    },
+    {
+     "me": false,
+     "text": "She's going to love it. Proud of you, man."
+    }
+   ],
+   "avatar": "wa_9.webp"
+  },
+  {
+   "id": "conv-wa-10",
+   "title": "Verizon",
+   "time": "7/28/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Verizon: your May statement of $47.99 is ready in your account. Payment due 05/15/2026"
+    }
+   ]
+  }
+ ],
+ "gmail": [
+  {
+   "sender": "To: Lars Hoffmann",
+   "subject": "Re: Staff meeting tomorrow, 2pm",
+   "preview": "I'll be there at 2. I have a few thoughts about working contemporary authors into the plan.",
+   "body": "I'll be there at 2. I have a few thoughts about working contemporary authors into the plan.",
+   "time": "Yesterday",
+   "folder": "sent"
+  },
+  {
+   "sender": "Lars Hoffmann",
+   "subject": "Staff meeting tomorrow, 2pm",
+   "preview": "Hi Hollis, Just flagging tomorrow: 2pm, staff room. On the table is the new American literature program. See y",
+   "body": "Hi Hollis,\n\nJust flagging tomorrow: 2pm, staff room. On the table is the new American literature program.\n\nSee you there.",
+   "time": "Yesterday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Elena Rossi",
+   "subject": "Re: Swapping letters with my Italian group",
+   "preview": "Wonderful idea. Letters would put my students straight into Italian culture. Can we talk it through this week?",
+   "body": "Wonderful idea. Letters would put my students straight into Italian culture. Can we talk it through this week?",
+   "time": "Tuesday",
+   "folder": "sent"
+  },
+  {
+   "sender": "Elena Rossi",
+   "subject": "Swapping letters with my Italian group",
+   "preview": "Ciao Hollis, My Italian group would love to trade letters with your literature students. Shall we set it up? A",
+   "body": "Ciao Hollis,\n\nMy Italian group would love to trade letters with your literature students. Shall we set it up?\n\nA presto!",
+   "time": "Tuesday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Nell Petrov",
+   "subject": "Re: Two new arrivals for you",
+   "preview": "Yes please - hold them and I'll swing by tomorrow after class. Did the new Kehlmann come in as well?",
+   "body": "Yes please - hold them and I'll swing by tomorrow after class. Did the new Kehlmann come in as well?",
+   "time": "Monday",
+   "folder": "sent"
+  },
+  {
+   "sender": "Nell Petrov",
+   "subject": "Two new arrivals for you",
+   "preview": "Hello Hollis, The new Houellebecq and Modiano just landed on the counter. Want me to hold copies before they w",
+   "body": "Hello Hollis,\n\nThe new Houellebecq and Modiano just landed on the counter. Want me to hold copies before they walk out the door?\n\nNell",
+   "time": "Monday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Sam Odom",
+   "subject": "Re: The Metamorphosis - thesis chapter",
+   "preview": "Hello Sam, On The Metamorphosis, start from alienation as the central metaphor - modern work, modern family, m",
+   "body": "Hello Sam,\n\nOn The Metamorphosis, start from alienation as the central metaphor - modern work, modern family, modern body. Benjamin and Adorno both wrote well on Kafka, so begin there.\n\nGood luck,\nHollis Corrigan",
+   "time": "Monday",
+   "folder": "sent"
+  },
+  {
+   "sender": "Sam Odom",
+   "subject": "The Metamorphosis - thesis chapter",
+   "preview": "Mr. Corrigan, I'm stuck on how to read The Metamorphosis for my thesis chapter. Could you point me at two or t",
+   "body": "Mr. Corrigan,\n\nI'm stuck on how to read The Metamorphosis for my thesis chapter. Could you point me at two or three angles?\n\nThanks in advance,\nSam",
+   "time": "Sunday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Amazon",
+   "subject": "Your Amazon order is on its way",
+   "preview": "Out for delivery tomorrow between 10am and 12pm: \"The Art of Writing\" by Schopenhauer. Tracking: TBA789456123",
+   "body": "Out for delivery tomorrow between 10am and 12pm: \"The Art of Writing\" by Schopenhauer.\n\nTracking: TBA789456123",
+   "time": "Sunday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Pittsburgh Regional Transit",
+   "subject": "Your monthly pass expires soon",
+   "preview": "Your monthly transit pass runs out on August 24. Renew before then so it doesn't lapse.",
+   "body": "Your monthly transit pass runs out on August 24. Renew before then so it doesn't lapse.",
+   "time": "Saturday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Boyle's Books Buchhandlung",
+   "subject": "Every book 20% off until August 13",
+   "preview": "20% off everything until August 13. Use code BOOKS20 at checkout.",
+   "body": "20% off everything until August 13. Use code BOOKS20 at checkout.",
+   "time": "Friday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Gina Sokol",
+   "subject": "Re: Two classes, one story?",
+   "preview": "Yes, let's. Put Whitman beside Shakespeare and let the two classes argue about how each one builds a story. Fr",
+   "body": "Yes, let's. Put Whitman beside Shakespeare and let the two classes argue about how each one builds a story. Free next week to plan it?",
+   "time": "Friday",
+   "folder": "sent"
+  },
+  {
+   "sender": "Gina Sokol",
+   "subject": "Two classes, one story?",
+   "preview": "Hi Hollis, What if your American literature group and my English group built something together - the same sto",
+   "body": "Hi Hollis,\n\nWhat if your American literature group and my English group built something together - the same story told two ways, and let them argue about it?\n\nGina",
+   "time": "7/30/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Spotify",
+   "subject": "Your July, wrapped",
+   "preview": "Your month in music is here! You logged 45 hours of classical and jazz.",
+   "body": "Your month in music is here! You logged 45 hours of classical and jazz.",
+   "time": "7/29/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Whitman Institut",
+   "subject": "Conference: The future of American literature",
+   "preview": "You're invited: our conference runs August 18, doors at 7pm. Admission is free, but please register first.",
+   "body": "You're invited: our conference runs August 18, doors at 7pm. Admission is free, but please register first.",
+   "time": "7/28/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Nadia Whitcomb",
+   "subject": "News from Junie",
+   "preview": "Hi Hollis, Junie told me you're writing a book! That's awesome! I can't wait to read it when it comes out. Kis",
+   "body": "Hi Hollis,\n\nJunie told me you're writing a book! That's awesome! I can't wait to read it when it comes out.\n\nKisses,\nNadia",
+   "time": "7/27/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "City of Asylum",
+   "subject": "Jenny Erpenbeck reads, August 11",
+   "preview": "Jenny Erpenbeck reads from her new novel on August 11 at 8 PM. Seats go quickly, so reserve one.",
+   "body": "Jenny Erpenbeck reads from her new novel on August 11 at 8 PM. Seats go quickly, so reserve one.",
+   "time": "7/25/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Cal Yablonski",
+   "subject": "Re: Reunion",
+   "preview": "With pleasure! Saturday, 7 PM, Square Cafe - does that work? I have news of my own to share...",
+   "body": "With pleasure! Saturday, 7 PM, Square Cafe - does that work? I have news of my own to share...",
+   "time": "7/25/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Cal Yablonski",
+   "subject": "Reunion",
+   "preview": "Hey Hollis! Too long since the last time. Free for a beer this weekend? I have a pile of things to tell you. C",
+   "body": "Hey Hollis!\n\nToo long since the last time. Free for a beer this weekend? I have a pile of things to tell you.\n\nCal",
+   "time": "7/24/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Harlow & Vine Press",
+   "subject": "Re: contract",
+   "preview": "Hello, Thank you for sending the contract. I read it carefully and everything looks perfect to me. I'm returni",
+   "body": "Hello,\n\nThank you for sending the contract. I read it carefully and everything looks perfect to me. I'm returning it to you signed as an attachment.\n\nI look forward to working with you!\n\nBest regards,\nHollis Corrigan",
+   "time": "7/23/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Pittsburgh Post-Gazette",
+   "subject": "Pittsburgh this morning",
+   "preview": "This morning: a new show opens at the Carnegie Museum of Natural History, and the state legislature takes up t",
+   "body": "This morning: a new show opens at the Carnegie Museum of Natural History, and the state legislature takes up the schools debate again...",
+   "time": "7/23/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Harlow & Vine Press",
+   "subject": "contract",
+   "preview": "Mr. Corrigan, Please find attached the publishing contract for your manuscript. Please return it signed as soo",
+   "body": "Mr. Corrigan,\n\nPlease find attached the publishing contract for your manuscript.\n\nPlease return it signed as soon as possible.\n\nBest regards,\nLegal Department\nHarlow & Vine Press",
+   "time": "7/22/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Netflix",
+   "subject": "New arrivals picked for you",
+   "preview": "Just added for you: 'Dark Academia', 'The Chair' and 'Dead Poets Society' are streaming now.",
+   "body": "Just added for you: 'Dark Academia', 'The Chair' and 'Dead Poets Society' are streaming now.",
+   "time": "7/19/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Pittsburgh Prep",
+   "subject": "Exam timetable - please confirm",
+   "preview": "The end-of-year exam timetable is attached. Let the office know which slots you can cover.",
+   "body": "The end-of-year exam timetable is attached. Let the office know which slots you can cover.",
+   "time": "7/18/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Lisa Bauer",
+   "subject": "Saturday at grandmother's, 3pm",
+   "preview": "Hi cousin! Saturday is grandmother's birthday - don't let it slip past you. Everyone is at her place by 3 PM. ",
+   "body": "Hi cousin!\n\nSaturday is grandmother's birthday - don't let it slip past you. Everyone is at her place by 3 PM.\n\nKisses",
+   "time": "7/17/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Harlow & Vine Press",
+   "subject": "Acceptance of your manuscript — Harlow & Vine Press",
+   "preview": "Mr. Corrigan, We are delighted to let you know that your manuscript has been accepted. Your novel is a perfect",
+   "body": "Mr. Corrigan,\n\nWe are delighted to let you know that your manuscript has been accepted.\n\nYour novel is a perfect fit for our editorial line, and we are excited to publish it within our contemporary literature collection.\n\nThe publishing contract will be sent to you over the coming days.\n\nBest regards,\nThe Harlow & Vine Press team",
+   "time": "7/16/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Café Bekele",
+   "subject": "New tea blends and morning pastries",
+   "preview": "The spring menu is up at the cafe: Andre's new tea blends, and a fresh tray of Middle Eastern pastries every m",
+   "body": "The spring menu is up at the cafe: Andre's new tea blends, and a fresh tray of Middle Eastern pastries every morning.",
+   "time": "7/14/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Marla Sirotta",
+   "subject": "Re: An evening of French literature, August 23",
+   "preview": "Good evening Marla, Wonderful initiative, and count me in. Would it help if I put forward a few authors for th",
+   "body": "Good evening Marla,\n\nWonderful initiative, and count me in. Would it help if I put forward a few authors for the reading list?\n\nSee you soon,\nHollis",
+   "time": "7/12/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Marla Sirotta",
+   "subject": "An evening of French literature, August 23",
+   "preview": "Good evening Hollis, On August 23 we are giving the whole evening over to French literature. Would you join us",
+   "body": "Good evening Hollis,\n\nOn August 23 we are giving the whole evening over to French literature. Would you join us?\n\nSee you soon,\nMarla",
+   "time": "7/12/26",
+   "folder": "inbox"
+  }
+ ],
+ "calendar": [
+  {
+   "title": "💛 J & Hollis",
+   "date": "10/21",
+   "dateLabel": "Wed, Oct 21, 2026",
+   "month": "2026-10",
+   "time": "6:00 PM – 8:00 PM",
+   "location": "Regent Square — our place"
+  },
+  {
+   "title": "Graphic novel show at the museum",
+   "date": "09/24",
+   "dateLabel": "Thu, Sep 24, 2026",
+   "month": "2026-09",
+   "time": "11:00 AM – 1:00 PM",
+   "location": "Carnegie Museum of Art"
+  },
+  {
+   "title": "Readers' meetup at the cafe",
+   "date": "09/21",
+   "dateLabel": "Mon, Sep 21, 2026",
+   "month": "2026-09",
+   "time": "4:00 PM – 5:30 PM",
+   "location": "Espresso Elevado, Regent Square"
+  },
+  {
+   "title": "Summer draft pass",
+   "date": "09/18",
+   "dateLabel": "Fri, Sep 18, 2026",
+   "month": "2026-09",
+   "time": "9:30 AM – 11:00 AM",
+   "location": "Library"
+  },
+  {
+   "title": "Reading aloud in the park",
+   "date": "09/14",
+   "dateLabel": "Mon, Sep 14, 2026",
+   "month": "2026-09",
+   "time": "7:00 PM – 8:30 PM",
+   "location": "Mellon Park"
+  },
+  {
+   "title": "Neighbor stopping by",
+   "date": "09/11",
+   "dateLabel": "Fri, Sep 11, 2026",
+   "month": "2026-09",
+   "time": "9:00 AM – 10:00 AM",
+   "location": "Apartment"
+  },
+  {
+   "title": "Book group - next novel",
+   "date": "09/07",
+   "dateLabel": "Mon, Sep 7, 2026",
+   "month": "2026-09",
+   "time": "5:00 PM – 7:00 PM",
+   "location": "Carnegie Library, Squirrel Hill"
+  },
+  {
+   "title": "Short break from the pages",
+   "date": "09/04",
+   "dateLabel": "Fri, Sep 4, 2026",
+   "month": "2026-09",
+   "time": "2:00 PM – 3:30 PM",
+   "location": ""
+  },
+  {
+   "title": "Italian, advanced group",
+   "date": "09/01",
+   "dateLabel": "Tue, Sep 1, 2026",
+   "month": "2026-09",
+   "time": "6:30 PM – 8:00 PM",
+   "location": "the Italian Cultural Center"
+  },
+  {
+   "title": "Film night, novel on screen",
+   "date": "08/29",
+   "dateLabel": "Sat, Aug 29, 2026",
+   "month": "2026-08",
+   "time": "8:00 PM – 10:00 PM",
+   "location": "Regent Square Theater"
+  },
+  {
+   "title": "Coaching hour: goals and pages",
+   "date": "08/26",
+   "dateLabel": "Wed, Aug 26, 2026",
+   "month": "2026-08",
+   "time": "3:00 PM – 4:00 PM",
+   "location": "Voluto Coffee"
+  },
+  {
+   "title": "Boyle's Books visit",
+   "date": "08/23",
+   "dateLabel": "Sun, Aug 23, 2026",
+   "month": "2026-08",
+   "time": "5:00 PM – 6:00 PM",
+   "location": "Boyle's Books"
+  },
+  {
+   "title": "Term planning with the department",
+   "date": "08/21",
+   "dateLabel": "Fri, Aug 21, 2026",
+   "month": "2026-08",
+   "time": "10:00 AM – 11:30 AM",
+   "location": "Room 214, Braddock Trail High School"
+  },
+  {
+   "title": "Workshop: writing from scratch",
+   "date": "08/18",
+   "dateLabel": "Tue, Aug 18, 2026",
+   "month": "2026-08",
+   "time": "4:00 PM – 6:00 PM",
+   "location": "Protohaven, Wilkinsburg"
+  },
+  {
+   "title": "Meeting A.",
+   "date": "08/05",
+   "dateLabel": "Wed, Aug 5, 2026",
+   "month": "2026-08",
+   "time": "4:00 PM – 5:00 PM",
+   "location": "Caliban Book Shop, Oakland"
+  },
+  {
+   "title": "Meeting A.",
+   "date": "08/04",
+   "dateLabel": "Tue, Aug 4, 2026",
+   "month": "2026-08",
+   "time": "4:00 PM – 5:00 PM",
+   "location": "Carnegie Library, Squirrel Hill"
+  },
+  {
+   "title": "Coffee and grading",
+   "date": "08/03",
+   "dateLabel": "Mon, Aug 3, 2026",
+   "month": "2026-08",
+   "time": "3:00 PM – 3:30 PM",
+   "location": "Espresso Elevado"
+  },
+  {
+   "title": "All-day read-through",
+   "date": "07/29",
+   "dateLabel": "Wed, Jul 29, 2026",
+   "month": "2026-07",
+   "time": "9:00 AM – 12:00 PM",
+   "location": "Carnegie Library, Main Branch"
+  },
+  {
+   "title": "Meeting A.",
+   "date": "07/28",
+   "dateLabel": "Tue, Jul 28, 2026",
+   "month": "2026-07",
+   "time": "4:00 PM – 5:00 PM",
+   "location": "Voluto Coffee, Highland Ave"
+  },
+  {
+   "title": "Prize night for the reading program",
+   "date": "07/27",
+   "dateLabel": "Mon, Jul 27, 2026",
+   "month": "2026-07",
+   "time": "5:00 PM – 6:00 PM",
+   "location": "Kelly Strayhorn Theater"
+  },
+  {
+   "title": "Dinner with Junie",
+   "date": "07/25",
+   "dateLabel": "Sat, Jul 25, 2026",
+   "month": "2026-07",
+   "time": "7:00 PM – 9:00 PM",
+   "location": "Square Cafe"
+  },
+  {
+   "title": "Sources and references",
+   "date": "07/24",
+   "dateLabel": "Fri, Jul 24, 2026",
+   "month": "2026-07",
+   "time": "11:00 AM – 12:00 PM",
+   "location": "Room 5, Carnegie Library"
+  },
+  {
+   "title": "Gym with Dwayne",
+   "date": "07/23",
+   "dateLabel": "Thu, Jul 23, 2026",
+   "month": "2026-07",
+   "time": "6:00 PM – 7:15 PM",
+   "location": "East End Fitness"
+  },
+  {
+   "title": "Marking the essay stack",
+   "date": "07/22",
+   "dateLabel": "Wed, Jul 22, 2026",
+   "month": "2026-07",
+   "time": "2:00 PM – 4:00 PM",
+   "location": "Room 214, Braddock Trail High School"
+  },
+  {
+   "title": "Meeting A.",
+   "date": "07/21",
+   "dateLabel": "Tue, Jul 21, 2026",
+   "month": "2026-07",
+   "time": "4:30 PM – 5:30 PM",
+   "location": "Room 214, Braddock Trail High School"
+  },
+  {
+   "title": "Boyle's Books visit 2",
+   "date": "07/20",
+   "dateLabel": "Mon, Jul 20, 2026",
+   "month": "2026-07",
+   "time": "4:00 PM – 4:45 PM",
+   "location": "Boyle's Books"
+  },
+  {
+   "title": "Dinner at ours",
+   "date": "07/19",
+   "dateLabel": "Sun, Jul 19, 2026",
+   "month": "2026-07",
+   "time": "6:30 PM – 9:00 PM",
+   "location": "Our apartment, Regent Square"
+  },
+  {
+   "title": "Italian, level two",
+   "date": "07/18",
+   "dateLabel": "Sat, Jul 18, 2026",
+   "month": "2026-07",
+   "time": "6:00 PM – 7:30 PM",
+   "location": "Room C, Italian Cultural Center"
+  },
+  {
+   "title": "Two hours of writing",
+   "date": "07/16",
+   "dateLabel": "Thu, Jul 16, 2026",
+   "month": "2026-07",
+   "time": "7:00 PM – 9:00 PM",
+   "location": "Voluto Coffee"
+  },
+  {
+   "title": "Dentist",
+   "date": "07/15",
+   "dateLabel": "Wed, Jul 15, 2026",
+   "month": "2026-07",
+   "time": "9:00 AM – 9:45 AM",
+   "location": "Edgewood Family Dental, Braddock Ave"
+  },
+  {
+   "title": "Meeting A.",
+   "date": "07/14",
+   "dateLabel": "Tue, Jul 14, 2026",
+   "month": "2026-07",
+   "time": "4:00 PM – 5:00 PM",
+   "location": "Espresso Elevado, Regent Square"
+  },
+  {
+   "title": "Easy loop around the park",
+   "date": "07/14",
+   "dateLabel": "Tue, Jul 14, 2026",
+   "month": "2026-07",
+   "time": "7:30 AM – 8:30 AM",
+   "location": "Mellon Park"
+  },
+  {
+   "title": "Browsing at Boyle's Books",
+   "date": "07/12",
+   "dateLabel": "Sun, Jul 12, 2026",
+   "month": "2026-07",
+   "time": "5:00 PM – 6:00 PM",
+   "location": "Boyle's Books, Regent Square"
+  },
+  {
+   "title": "Reading group: new fiction",
+   "date": "07/10",
+   "dateLabel": "Fri, Jul 10, 2026",
+   "month": "2026-07",
+   "time": "3:00 PM – 4:00 PM",
+   "location": "Room 3, Carnegie Library"
+  },
+  {
+   "title": "Lunch with the department",
+   "date": "07/08",
+   "dateLabel": "Wed, Jul 8, 2026",
+   "month": "2026-07",
+   "time": "12:30 PM – 1:30 PM",
+   "location": "the Braddock Trail cafeteria"
+  },
+  {
+   "title": "Meeting A.",
+   "date": "07/07",
+   "dateLabel": "Tue, Jul 7, 2026",
+   "month": "2026-07",
+   "time": "4:00 PM – 5:00 PM",
+   "location": "Voluto Coffee, Highland Ave"
+  },
+  {
+   "title": "Syllabus planning",
+   "date": "07/07",
+   "dateLabel": "Tue, Jul 7, 2026",
+   "month": "2026-07",
+   "time": "10:00 AM – 11:00 AM",
+   "location": "Room 214, Braddock Trail High School"
+  }
+ ],
+ "notes": [
+  {
+   "title": "Shop on the way home",
+   "body": "- Rye loaf\n- Sharp cheddar\n- Cherry tomatoes\n- Brown rice\n- Green tea\n- Dark chocolate, 70%\n- Oat milk"
+  },
+  {
+   "title": "Whitman course ideas",
+   "body": "- Close reading: Whitman's long lines\n- Where that voice turns up in poets writing now\n- Studio exercise: recast one stanza in plain speech\n- Debate to run: the single self against the crowd"
+  },
+  {
+   "title": "Personal notes, Room 214",
+   "body": "Do the kids in Room 214 ever actually feel what a book can do to a person? I keep hunting for a way to hand them the thing that has pulled me along since I was their age."
+  },
+  {
+   "title": "Whitman Institute conference",
+   "body": "\"The Future of Books in the Digital Age\"\nAugust 18, 2026 - 7pm\nWhitman Institute, whitman.edu\nSpeaker: Professor Corrigan (same name!)\nRegistration: whitman.edu/conferences"
+  },
+  {
+   "title": "Dwayne's weekly plan",
+   "body": "Plan from Dwayne:\nMonday: 30 min bike, then core\nWednesday: upper body, free weights\nFriday: 45 min run\nSunday: stretch and yoga\n\nTarget: down 10 pounds by summer"
+  },
+  {
+   "title": "Dr. Yablonski - August 11",
+   "body": "Annual physical - Dr. Yablonski\nWhen: August 11, 2026, 2:30pm\nWhere: 45 Braddock Ave, Pittsburgh\nCall: +1 412 555 0130"
+  },
+  {
+   "title": "Gift ideas for Junie",
+   "body": "- A proper hardbound sketchbook\n- The big Faber-Castell pencil set\n- Book \"Figure Drawing for All It's Worth\" - Andrew Loomis\n- The Saturday oil painting workshop\n- Weekend in Prague (she'd go for the buildings alone)"
+  },
+  {
+   "title": "Quotes worth keeping",
+   "body": "\"There is no greater agony than bearing an untold story inside you.\" - Maya Angelou\n\n\"A book must be the axe for the frozen sea within us.\" - Kafka\n\n\"Fill your paper with the breathings of your heart.\" - Wordsworth"
+  },
+  {
+   "title": "The book pile",
+   "body": "Next up:\n- Beloved - Morrison\n- Norwegian Wood - Murakami, finally\n- The Kindly Ones - Littell\n- Ferrante - Neapolitan quartet, all four\n- The Stranger - Camus, a second pass"
+  },
+  {
+   "title": "2026 goals",
+   "body": "- Finish my first novel\n- Improve my classes with more interactivity\n- Read 50 books this year (already 18 ✓)\n- Learn Italian with Elena\n- Trip to Italy with Junie this summer"
+  },
+  {
+   "title": "Don't lose this",
+   "body": "The lock on things with Y.\nIt's my best result this term, digits only.\nIf I forget: End of term averages."
+  },
+  {
+   "title": "End of term averages",
+   "body": "11th Grade - Period 7 (Literature): 15.4\n12th Grade - Period 3 (American Literature): 13.8\n10th Grade - Period 2 (English Literature): 12.1\n\nBest average this term, hands down."
+  },
+  {
+   "title": "Things to fix around the apartment",
+   "body": "✓ Kitchen faucet - done 04/15\n- Repaint the bedroom, June\n- Hallway bulb still out\n- Book the furnace service before the cold\n- Gutters need clearing"
+  },
+  {
+   "title": "Chapter 3 notes",
+   "body": "Chapter 3 - the two of them need more weight\n\nTo try:\n- A scene at a coffee counter\n- An argument about what art is for\n- Somewhere to plant the tension\n- Fill in where he came from"
+  },
+  {
+   "title": "Music for writing nights",
+   "body": "What I write to:\n- Ludovico Einaudi - Nuvole Bianche\n- Ólafur Arnalds - Near Light\n- Nils Frahm - Says\n- GoGo Penguin - Hopopono\n- anything slow with no words in it"
+  },
+  {
+   "title": "Passwords",
+   "body": "WiFi at home: RegentSquare2026\nNetflix: hollis.corrigan@gmail.com / Whitman1819\nLibrary card: 987654321"
+  },
+  {
+   "title": "Saturday French toast",
+   "body": "You need:\n- 4 thick slices of day-old bread\n- 2 eggs\n- 3/4 cup milk\n- a spoonful of sugar\n- cinnamon\n- butter\n\nWhisk eggs, milk and sugar together. Soak each slice. Fry in butter. Dust with cinnamon."
+  },
+  {
+   "title": "Italian - week six",
+   "body": "Vocab from Marla's group:\n- la scadenza - the deadline\n- il quaderno - the notebook\n- riassumere - to sum up\n- il corridoio - the hallway\n- prendere in prestito - to borrow\n\nStill mixing up essere and stare. Redo the exercise sheet before Wednesday."
+  },
+  {
+   "title": "Room 214 - supplies to order",
+   "body": "- Whiteboard markers, black and blue\n- Two reams of paper\n- Sticky notes for the annotation exercise\n- Replace the stapler, it jams every time\n- Ask about a second set of the Whitman anthology\n\nSend the list to the office before the end of term."
+  }
+ ],
+ "maps": [
+  {
+   "name": "Home",
+   "subtitle": "My apartment in Pittsburgh"
+  },
+  {
+   "name": "Braddock Trail High School",
+   "subtitle": "My office and classroom"
+  },
+  {
+   "name": "Millvale Bake Shop",
+   "subtitle": "Bakery near the neighborhood"
+  },
+  {
+   "name": "Boyle's Books",
+   "subtitle": "Neighborhood bookstore"
+  },
+  {
+   "name": "Voluto Coffee",
+   "subtitle": "Café where Hollis likes to write in the morning"
+  },
+  {
+   "name": "Giant Eagle, Edgewood",
+   "subtitle": "Local grocery store"
+  },
+  {
+   "name": "Shop 'n Save, Wilkinsburg",
+   "subtitle": "Corner supermarket"
+  },
+  {
+   "name": "Square Cafe, Regent Square",
+   "subtitle": "Neighborhood restaurant"
+  },
+  {
+   "name": "Sprezzatura, Millvale",
+   "subtitle": "Sprezzatura, Millvale"
+  },
+  {
+   "name": "Rivercrest Field",
+   "subtitle": "Clue description"
+  },
+  {
+   "name": "Mellon Park",
+   "subtitle": "Urban park for breaks/flights of inspiration"
+  },
+  {
+   "name": "East End Fitness",
+   "subtitle": "Gym"
+  },
+  {
+   "name": "Carnegie Library, Squirrel Hill",
+   "subtitle": "Carnegie Library, Squirrel Hill"
+  },
+  {
+   "name": "Braddock Trail Media Center",
+   "subtitle": "Neighborhood media center"
+  },
+  {
+   "name": "Giant Eagle Pharmacy",
+   "subtitle": "Neighborhood pharmacy"
+  },
+  {
+   "name": "Silver Eye Gallery",
+   "subtitle": "Art gallery"
+  },
+  {
+   "name": "The Beauty Shoppe, East Liberty",
+   "subtitle": "Coworking café"
+  },
+  {
+   "name": "Riverfront Field, Millvale",
+   "subtitle": "Sports park"
+  },
+  {
+   "name": "Caliban Book Shop, Oakland",
+   "subtitle": "Café and bookstore"
+  },
+  {
+   "name": "Allegheny County Housing Office",
+   "subtitle": "Community center and meeting places"
+  },
+  {
+   "name": "Edgewood Family Dental",
+   "subtitle": "Dentist on Braddock Ave"
+  },
+  {
+   "name": "Frick Park, Regent Square entrance",
+   "subtitle": "Sunday walks"
+  }
+ ],
+ "revolut": {
+  "balance": "$2,332.78",
+  "transactions": [
+   {
+    "name": "Spotify",
+    "amount": "-$9.99",
+    "date": "Monday, 8:00 PM",
+    "note": "Monthly subscription"
+   },
+   {
+    "name": "Pittsburgh Regional Transit",
+    "amount": "-$95.25",
+    "date": "Sunday, 8:10 AM",
+    "note": "Monthly transit pass"
+   },
+   {
+    "name": "Boyle's Books",
+    "amount": "-$18.01",
+    "date": "7/30/26, 4:40 PM",
+    "note": "Book purchase"
+   },
+   {
+    "name": "Espresso Elevado",
+    "amount": "-$6.40",
+    "date": "7/28/26, 9:15 AM",
+    "note": "Coffee"
+   },
+   {
+    "name": "Giant Eagle Pharmacy",
+    "amount": "-$17.31",
+    "date": "7/21/26, 5:20 PM",
+    "note": "Prescription and sundries"
+   },
+   {
+    "name": "Ruskin Literary",
+    "amount": "-$1,200.00",
+    "date": "7/16/26, 2:30 PM",
+    "note": "Account company: Harlow & Vine Press"
+   },
+   {
+    "name": "Giant Eagle",
+    "amount": "-$49.33",
+    "date": "7/6/26, 6:45 PM",
+    "note": "Grocery shopping"
+   },
+   {
+    "name": "Giant Eagle",
+    "amount": "-$53.93",
+    "date": "7/6/26, 6:45 PM",
+    "note": "Grocery shopping"
+   },
+   {
+    "name": "Netflix",
+    "amount": "-$30.84",
+    "date": "6/25/26, 12:00 AM",
+    "note": "Monthly subscription"
+   }
+  ]
+ },
+ "weather": {
+  "city": "Local",
+  "tempC": 18,
+  "hi": 21,
+  "lo": 12,
+  "condition": "Clear"
+ },
+ "photos": [
+  "photo_0.webp",
+  "photo_1.webp",
+  "photo_2.webp",
+  "photo_3.webp",
+  "photo_4.webp",
+  "photo_5.webp",
+  "photo_6.webp",
+  "photo_7.webp",
+  "photo_8.webp"
+ ],
+ "screenTime": []
+}

@@ -1,0 +1,2062 @@
+{
+ "caseName": "Three Women Before “Yes”",
+ "title": "Marin & Blythe",
+ "now": "2026-08-06T23:59:00",
+ "client": {
+  "name": "Marin",
+  "avatar": "client.webp"
+ },
+ "owner": {
+  "first": "Blythe",
+  "full": "Blythe Merrick",
+  "avatar": null
+ },
+ "wallpaper": "wallpaper.webp",
+ "passcode": "341289",
+ "totalQuestions": 7,
+ "questions": [
+  {
+   "id": 1,
+   "text": "Perfect, that gives me the whole evening. Now I need somewhere to take her. What does she actually love eating? She always just says, “Anything.”",
+   "answer": "sushi",
+   "decoys": [
+    "pasta",
+    "Italian",
+    "Mexican"
+   ],
+   "hint": "Look for an album in the Photos app that might contain clues about her culinary preferences."
+  },
+  {
+   "id": 2,
+   "text": "Sushi. Of course — I can't stand it, but if it makes her happy, I'll smile through it. She's mentioned one place twice. Could you give me their phone number?",
+   "answer": "+1 (612) 555-0180",
+   "decoys": [
+    "+1 (612) 555-0137",
+    "+1 (612) 555-0114",
+    "+1 (612) 555-0146"
+   ],
+   "hint": "Start with Notes to find a list of restaurants. Then search the phone contacts for the restaurant mentioned in the note."
+  },
+  {
+   "id": 3,
+   "text": "They've held us a table. One more thing and then I'll stop, I promise. She's been on that phone at midnight night after night for weeks now — what's the name of the site she keeps checking?",
+   "answer": "Wildflower",
+   "decoys": [
+    "Netflix",
+    "Spotify",
+    "Airbnb"
+   ],
+   "hint": "First, look in Notes for a code to access private browsing. The note may be saved under a familiar name, so don't assume it's the site you're looking for. Once you find the right code, open Safari and access private browsing to see the hidden tabs."
+  },
+  {
+   "id": 4,
+   "text": "I've never heard of it. I've been staring at that name for a minute and I don't want to ask, but — when did she first access that site?",
+   "answer": "June 19",
+   "decoys": [
+    "June 20",
+    "June 14",
+    "June 24"
+   ],
+   "hint": "Open Gmail and check the deleted emails. Look for the welcome email Wildflower sent the first time she signed in."
+  },
+  {
+   "id": 5,
+   "text": "Okay. People sign up for things and forget about them, it doesn't have to mean anything. Find out if she's actually paying for it and how much it costs every month. I need the exact amount.",
+   "answer": "$18.09",
+   "decoys": [
+    "$20.62",
+    "$14.43",
+    "$22.47"
+   ],
+   "hint": "Open Wallet and look in the transaction history. Find the Wildflower subscription payment and check the amount."
+  },
+  {
+   "id": 6,
+   "text": "She's actually paying for a dating site every month... That's not curiosity, that's not a leftover account. I need the count and I'd rather have it straight. How many women has she started up with on there?",
+   "answer": "3",
+   "decoys": [
+    "2",
+    "4",
+    "5"
+   ],
+   "hint": "Explore the messaging apps: Messages, WhatsApp and Instagram. Look for conversations that could be from people she met on Wildflower. Count the total number of people contacted."
+  },
+  {
+   "id": 7,
+   "text": "Three. Three women. And the night she said she was at the studio she never came home at all — please, can you tell me where she actually slept?",
+   "answer": "Hewing Hotel",
+   "decoys": [
+    "Merrick Studio",
+    "Cozy Northeast apartment terrace",
+    "Bde Maka Ska lake view studio"
+   ],
+   "hint": "Open Messages and read her texts with Marin to find the night she said she'd sleep at the studio. On Instagram, her chat with @camille_b_films shows that studio night was covering for a booking. Then check the Airbnb app."
+  }
+ ],
+ "onboarding": [
+  {
+   "text": "Okay, so — nothing's wrong. I want that said first. I'm just... I'm about to do something enormous and I can't do it on my own.",
+   "label": "Marin",
+   "image": "onboarding_1.webp"
+  },
+  {
+   "text": "Blythe does interiors — our kitchen counter is permanently covered in paint testers. Six months, one apartment in Minneapolis. A week from tonight I'm asking her to marry me. I've practiced it in the car.",
+   "label": "Marin & Blythe",
+   "image": "onboarding_2.webp"
+  },
+  {
+   "text": "There's another thing, and I hate saying it out loud. Every night this month I wake up and her face is lit blue. Two nights ago she didn't come home. She said the studio.",
+   "label": "Blythe",
+   "image": "onboarding_3.webp"
+  },
+  {
+   "text": "Her phone's charging in the hall. I feel sick doing this... An evening she's free, a place she'd love, a number I can ring. Then tell me what she's looking at in the dark.",
+   "label": "Marin",
+   "image": "onboarding_4.webp"
+  }
+ ],
+ "home": [
+  {
+   "app": "notes",
+   "label": "Notes"
+  },
+  {
+   "app": "photos",
+   "label": "Photos"
+  },
+  {
+   "app": "wallet",
+   "label": "Wallet"
+  },
+  {
+   "app": "settings",
+   "label": "Settings"
+  },
+  {
+   "app": "gmail",
+   "label": "Email"
+  },
+  {
+   "app": "airbnb",
+   "label": "Airbnb"
+  },
+  {
+   "app": "whatsapp",
+   "label": "WhatsApp"
+  }
+ ],
+ "dock": [
+  {
+   "app": "messages",
+   "label": "Messages"
+  },
+  {
+   "app": "phone",
+   "label": "Phone"
+  },
+  {
+   "app": "instagram",
+   "label": "Insta"
+  },
+  {
+   "app": "calendar",
+   "label": "Calendar"
+  }
+ ],
+ "missingApps": [],
+ "calls": [
+  {
+   "name": "Josie Trang",
+   "time": "Yesterday, 10:13 AM",
+   "type": "incoming",
+   "detail": "2 min"
+  },
+  {
+   "name": "Kyatchi",
+   "time": "Tuesday, 12:21 PM",
+   "type": "outgoing",
+   "detail": "2 min"
+  },
+  {
+   "name": "Lake Street Dental",
+   "time": "Tuesday, 9:31 AM",
+   "type": "outgoing",
+   "detail": "2 min"
+  },
+  {
+   "name": "Gabe Ostrander",
+   "time": "Monday, 6:45 PM",
+   "type": "incoming",
+   "detail": "4 min"
+  },
+  {
+   "name": "Renata Salas",
+   "time": "Sunday, 11:09 AM",
+   "type": "outgoing",
+   "detail": "3 min"
+  },
+  {
+   "name": "Dez Whitcomb",
+   "time": "Sunday, 8:57 AM",
+   "type": "outgoing",
+   "detail": "2 min"
+  },
+  {
+   "name": "Tessa Brandl",
+   "time": "Saturday, 4:43 PM",
+   "type": "incoming",
+   "detail": "3 min"
+  },
+  {
+   "name": "Priya Nair",
+   "time": "Saturday, 1:26 PM",
+   "type": "incoming",
+   "detail": "3 min"
+  },
+  {
+   "name": "Marin Halloran",
+   "time": "Saturday, 10:24 AM",
+   "type": "outgoing",
+   "detail": "4 min"
+  },
+  {
+   "name": "Camille Boyd",
+   "time": "Friday, 3:18 PM",
+   "type": "incoming",
+   "detail": "2 min"
+  },
+  {
+   "name": "Marin Halloran",
+   "time": "Friday, 9:40 AM",
+   "type": "outgoing",
+   "detail": "2 min"
+  },
+  {
+   "name": "Annabel Fisk",
+   "time": "7/30/26, 1:35 PM",
+   "type": "outgoing",
+   "detail": "4 min"
+  },
+  {
+   "name": "Rafa Villalobos",
+   "time": "7/30/26, 12:54 PM",
+   "type": "incoming",
+   "detail": "3 min"
+  },
+  {
+   "name": "Tessa Brandl",
+   "time": "7/30/26, 10:16 AM",
+   "type": "outgoing",
+   "detail": "3 min"
+  },
+  {
+   "name": "Wes Kastner",
+   "time": "7/29/26, 5:01 PM",
+   "type": "incoming",
+   "detail": "2 min"
+  },
+  {
+   "name": "Hana Yun",
+   "time": "7/29/26, 12:22 PM",
+   "type": "outgoing",
+   "detail": "3 min"
+  },
+  {
+   "name": "Brett Sundquist",
+   "time": "7/29/26, 9:53 AM",
+   "type": "incoming",
+   "detail": "3 min"
+  },
+  {
+   "name": "Marlys Ahlberg",
+   "time": "7/28/26, 5:45 PM",
+   "type": "outgoing",
+   "detail": "2 min"
+  },
+  {
+   "name": "Hector Delgado",
+   "time": "7/28/26, 11:52 AM",
+   "type": "incoming",
+   "detail": "2 min"
+  },
+  {
+   "name": "Junie Alcott",
+   "time": "7/27/26, 7:23 PM",
+   "type": "outgoing",
+   "detail": "8 min"
+  },
+  {
+   "name": "Delia Krause",
+   "time": "7/27/26, 1:54 PM",
+   "type": "outgoing",
+   "detail": "3 min"
+  },
+  {
+   "name": "Quinn Boedeker",
+   "time": "7/27/26, 9:33 AM",
+   "type": "incoming",
+   "detail": "2 min"
+  },
+  {
+   "name": "Iris Mendel",
+   "time": "7/26/26, 6:06 PM",
+   "type": "outgoing",
+   "detail": "4 min"
+  },
+  {
+   "name": "Owen Sable",
+   "time": "7/26/26, 3:48 PM",
+   "type": "incoming",
+   "detail": "3 min"
+  },
+  {
+   "name": "Junie Alcott",
+   "time": "7/26/26, 11:01 AM",
+   "type": "outgoing",
+   "detail": "4 min"
+  },
+  {
+   "name": "Sasha Thorne",
+   "time": "7/25/26, 6:36 PM",
+   "type": "incoming",
+   "detail": "2 min"
+  },
+  {
+   "name": "Nora Bristow",
+   "time": "7/25/26, 9:14 AM",
+   "type": "outgoing",
+   "detail": "3 min"
+  },
+  {
+   "name": "Gabe Ostrander",
+   "time": "7/24/26, 4:10 PM",
+   "type": "incoming",
+   "detail": "2 min"
+  },
+  {
+   "name": "Renata Salas",
+   "time": "7/24/26, 10:42 AM",
+   "type": "outgoing",
+   "detail": "3 min"
+  },
+  {
+   "name": "Dez Whitcomb",
+   "time": "7/24/26, 8:42 AM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Priya Nair",
+   "time": "7/23/26, 5:35 PM",
+   "type": "outgoing",
+   "detail": "4 min"
+  },
+  {
+   "name": "Priya Nair",
+   "time": "7/23/26, 9:17 AM",
+   "type": "incoming",
+   "detail": "4 min"
+  }
+ ],
+ "messages": [
+  {
+   "id": "conv-sms-1",
+   "title": "Marin Halloran",
+   "time": "7:45 PM",
+   "unread": false,
+   "msgs": [
+    {
+     "me": true,
+     "text": "gonna be a late one at the studio, the Alcott boards are killing me"
+    },
+    {
+     "me": true,
+     "text": "might just crash on the couch here 😴"
+    },
+    {
+     "me": false,
+     "text": "noooo ok. don't work too hard ❤️"
+    },
+    {
+     "me": false,
+     "text": "hey babe, what time are you home tonight?"
+    },
+    {
+     "me": true,
+     "text": "usually around 7"
+    },
+    {
+     "me": true,
+     "text": "how come?"
+    },
+    {
+     "me": false,
+     "text": "was thinking we could cook together"
+    },
+    {
+     "me": false,
+     "text": "feels like forever since we did"
+    },
+    {
+     "me": true,
+     "text": "aw yes let's! what are we making?"
+    },
+    {
+     "me": false,
+     "text": "carbonara?"
+    },
+    {
+     "me": false,
+     "text": "I've already got eggs and parmesan"
+    },
+    {
+     "me": true,
+     "text": "great - I'll grab pancetta on the way back"
+    },
+    {
+     "me": true,
+     "text": "any white wine left?"
+    },
+    {
+     "me": false,
+     "text": "yep! grab a loaf of bread too"
+    },
+    {
+     "me": true,
+     "text": "you got it, chef 😘"
+    },
+    {
+     "me": true,
+     "text": "heading back now"
+    },
+    {
+     "me": true,
+     "text": "we've got everything we need"
+    },
+    {
+     "me": false,
+     "text": "nice! water's already going on the stove"
+    },
+    {
+     "me": false,
+     "text": "and I may have opened the wine 😏"
+    },
+    {
+     "me": true,
+     "text": "haha starting without me are we!"
+    },
+    {
+     "me": false,
+     "text": "purely for quality control 😇"
+    },
+    {
+     "me": true,
+     "text": "five minutes out"
+    },
+    {
+     "me": false,
+     "text": "right on time! pasta's nearly done"
+    }
+   ],
+   "avatar": "msg_0.webp"
+  },
+  {
+   "id": "conv-sms-2",
+   "title": "Priya Nair",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "hey, did you see the new one they handed us?"
+    },
+    {
+     "me": true,
+     "text": "the Lowry Hill place?"
+    },
+    {
+     "me": false,
+     "text": "that's the one! it's massive"
+    },
+    {
+     "me": false,
+     "text": "four whole floors to gut and redo"
+    },
+    {
+     "me": true,
+     "text": "can't wait to dig in, the budget's no joke"
+    },
+    {
+     "me": true,
+     "text": "should we split up the floors?"
+    },
+    {
+     "me": false,
+     "text": "yes let's - put me down for the main living room"
+    },
+    {
+     "me": false,
+     "text": "plus the kitchen"
+    },
+    {
+     "me": true,
+     "text": "done, so I've got the bedrooms and the master bath"
+    },
+    {
+     "me": false,
+     "text": "perfect, that split feels even"
+    },
+    {
+     "me": true,
+     "text": "the master bath is the fun one anyway"
+    },
+    {
+     "me": false,
+     "text": "you always take the tile 😄"
+    },
+    {
+     "me": true,
+     "text": "guilty"
+    },
+    {
+     "me": false,
+     "text": "deal! want to brainstorm tomorrow?"
+    },
+    {
+     "me": true,
+     "text": "sounds good, say 10?"
+    },
+    {
+     "me": false,
+     "text": "👍"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-3",
+   "title": "Gabe Ostrander",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Blythe - reminder, we're on tomorrow at 7"
+    },
+    {
+     "me": true,
+     "text": "oh thanks for the heads up!"
+    },
+    {
+     "me": true,
+     "text": "totally slipped my mind"
+    },
+    {
+     "me": false,
+     "text": "Haha, called it. Legs tomorrow, by the way"
+    },
+    {
+     "me": true,
+     "text": "ugh... RIP my legs"
+    },
+    {
+     "me": false,
+     "text": "you'll live! 💪"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-4",
+   "title": "Nora",
+   "time": "Monday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "cousinnnn! way too long"
+    },
+    {
+     "me": false,
+     "text": "miss you tons"
+    },
+    {
+     "me": true,
+     "text": "Jess!! I've missed you like crazy"
+    },
+    {
+     "me": true,
+     "text": "how's life over in St. Paul?"
+    },
+    {
+     "me": false,
+     "text": "pretty good! work's got me buried a bit"
+    },
+    {
+     "me": false,
+     "text": "but other than that, all good"
+    },
+    {
+     "me": false,
+     "text": "your turn - how's Marin doing?"
+    },
+    {
+     "me": true,
+     "text": "she's doing amazing! still at her studio"
+    },
+    {
+     "me": true,
+     "text": "we're overdue for a hang!"
+    },
+    {
+     "me": false,
+     "text": "for real! this weekend maybe?"
+    },
+    {
+     "me": false,
+     "text": "how about brunch over on the St. Paul side?"
+    },
+    {
+     "me": true,
+     "text": "love it! does Sunday work?"
+    },
+    {
+     "me": false,
+     "text": "perfect, can't wait to see you"
+    },
+    {
+     "me": true,
+     "text": "same!! 💕"
+    }
+   ],
+   "avatar": "msg_3.webp"
+  },
+  {
+   "id": "conv-sms-5",
+   "title": "Renata",
+   "time": "Sunday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Blythe, a parcel of yours is sitting down in the lobby"
+    },
+    {
+     "me": false,
+     "text": "I had the delivery guy leave it down there"
+    },
+    {
+     "me": true,
+     "text": "Renata you're a lifesaver, thank you!"
+    },
+    {
+     "me": true,
+     "text": "going down for it now"
+    },
+    {
+     "me": false,
+     "text": "No worries! Hey, any word on when they're fixing the elevator?"
+    },
+    {
+     "me": false,
+     "text": "it's been out forever now"
+    },
+    {
+     "me": true,
+     "text": "honestly no clue, haven't heard back from building management"
+    },
+    {
+     "me": true,
+     "text": "let me write to them about it"
+    },
+    {
+     "me": false,
+     "text": "please do! and tell me what they say"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-6",
+   "title": "Junie",
+   "time": "Saturday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Blythe! your newest project came up on my Insta feed"
+    },
+    {
+     "me": false,
+     "text": "it's stunning!"
+    },
+    {
+     "me": true,
+     "text": "Junie, thank you - that really made my day"
+    },
+    {
+     "me": true,
+     "text": "the client was over the moon"
+    },
+    {
+     "me": false,
+     "text": "no wonder! that color combo is spot on"
+    },
+    {
+     "me": true,
+     "text": "enough about me, how are you? are you still with Morrison & Associates?"
+    },
+    {
+     "me": false,
+     "text": "Still there, yeah - though freelance has been on my mind lately"
+    },
+    {
+     "me": true,
+     "text": "oh nice, you totally should!"
+    },
+    {
+     "me": false,
+     "text": "It's the money side that scares me, honestly"
+    },
+    {
+     "me": true,
+     "text": "that part gets easier, the first year is the hard one"
+    },
+    {
+     "me": false,
+     "text": "That's what everyone keeps telling me 😅"
+    },
+    {
+     "me": true,
+     "text": "and if you want any pointers, just ask"
+    },
+    {
+     "me": false,
+     "text": "Thank you - expect a message from me 😊"
+    }
+   ],
+   "avatar": "msg_5.webp"
+  },
+  {
+   "id": "conv-sms-7",
+   "title": "Iris",
+   "time": "Friday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Blythe, the usual latte is on the counter 😊"
+    },
+    {
+     "me": true,
+     "text": "on my way, two minutes"
+    },
+    {
+     "me": false,
+     "text": "also, the new beans out of Ethiopia landed this morning"
+    },
+    {
+     "me": false,
+     "text": "want to give them a shot?"
+    },
+    {
+     "me": true,
+     "text": "absolutely! always down to try something new"
+    },
+    {
+     "me": false,
+     "text": "Great, I'll pull you a taster"
+    }
+   ],
+   "avatar": "msg_6.webp"
+  },
+  {
+   "id": "conv-sms-8",
+   "title": "Dez",
+   "time": "7/30/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Blythe! does the name prof Martinez ring a bell?"
+    },
+    {
+     "me": true,
+     "text": "graphic design? for sure!"
+    },
+    {
+     "me": true,
+     "text": "what's up?"
+    },
+    {
+     "me": false,
+     "text": "bumped into him today down on Nicollet Mall"
+    },
+    {
+     "me": false,
+     "text": "he asked how you were"
+    },
+    {
+     "me": true,
+     "text": "aw that's sweet! is he doing okay?"
+    },
+    {
+     "me": false,
+     "text": "yeah, looked great"
+    },
+    {
+     "me": false,
+     "text": "teaching over in St. Paul still"
+    },
+    {
+     "me": true,
+     "text": "good to hear he's well"
+    },
+    {
+     "me": true,
+     "text": "anyway how've you been?"
+    },
+    {
+     "me": false,
+     "text": "can't complain! work, work, work"
+    },
+    {
+     "me": false,
+     "text": "but it's all going well"
+    },
+    {
+     "me": true,
+     "text": "still at the same firm?"
+    },
+    {
+     "me": false,
+     "text": "yep, downtown office, three years now"
+    },
+    {
+     "me": true,
+     "text": "wild how fast that went"
+    },
+    {
+     "me": true,
+     "text": "nice! we should grab drinks sometime soon"
+    },
+    {
+     "me": false,
+     "text": "yes definitely - I'll text you a day this week"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-9",
+   "title": "DoorDash",
+   "time": "7/29/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Your order from Kyatchi has left the restaurant. It should reach you in about 25 minutes."
+    },
+    {
+     "me": false,
+     "text": "Hector is outside with your order - come down to the front of your building."
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-10",
+   "title": "Wes",
+   "time": "7/28/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Blythe, quiz night on Thursday - are you in?"
+    },
+    {
+     "me": true,
+     "text": "Wes! remind me what time it kicks off?"
+    },
+    {
+     "me": false,
+     "text": "Doors at 8pm, and the theme is 90s"
+    },
+    {
+     "me": true,
+     "text": "that's my decade, I'll be unstoppable"
+    },
+    {
+     "me": true,
+     "text": "bringing Marin along"
+    },
+    {
+     "me": false,
+     "text": "Ha, Thursday we find out whether the talk holds up 😏"
+    },
+    {
+     "me": true,
+     "text": "oh you'll see! we're taking you down"
+    },
+    {
+     "me": false,
+     "text": "haha we'll find out! see you Thursday"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-11",
+   "title": "U.S. Bank",
+   "time": "7/27/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "U.S. Bank alert: your card was used for $89.50 at Spyhouse Coffee on 04/26/2026 at 15:30. Not you? Call the number on the back of your card."
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-key-1",
+   "title": "Annabel Fisk",
+   "time": "6/29/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": true,
+     "text": "Hi, this is Blythe from Wildflower, feel like calling?"
+    },
+    {
+     "me": false,
+     "text": "Hey Blythe! Yeah, your profile stuck with me"
+    },
+    {
+     "me": false,
+     "text": "Remind me, what's your line of work?"
+    },
+    {
+     "me": true,
+     "text": "Interior decorator here! And you're the one who plays violin, right?"
+    },
+    {
+     "me": false,
+     "text": "Yep, that's me! Mostly for private events"
+    },
+    {
+     "me": false,
+     "text": "weddings, birthdays, things along those lines"
+    },
+    {
+     "me": true,
+     "text": "Nice! Sounds like a lovely atmosphere"
+    },
+    {
+     "me": false,
+     "text": "I really do love it! Although it can get pretty stressful"
+    },
+    {
+     "me": false,
+     "text": "weddings especially, since everyone wants it to be perfect"
+    },
+    {
+     "me": true,
+     "text": "I bet! It's the same with decorating, the bride always has very specific ideas 😅"
+    },
+    {
+     "me": false,
+     "text": "Haha for sure! So where in Minneapolis are you based?"
+    },
+    {
+     "me": true,
+     "text": "North Loop! How about you?"
+    },
+    {
+     "me": false,
+     "text": "Uptown! So not far at all"
+    },
+    {
+     "me": true,
+     "text": "Great! Maybe we could grab a coffee sometime soon?"
+    },
+    {
+     "me": false,
+     "text": "I'd love that! Are you familiar with the Spyhouse Coffee on Hennepin?"
+    },
+    {
+     "me": true,
+     "text": "Know it well! Would tomorrow afternoon suit you?"
+    },
+    {
+     "me": false,
+     "text": "Sounds good! Say around 3pm?"
+    },
+    {
+     "me": true,
+     "text": "Awesome! See you tomorrow then 😊"
+    },
+    {
+     "me": false,
+     "text": "hey! sorry, I'm running a little behind"
+    },
+    {
+     "me": false,
+     "text": "I'll be there in 10 min"
+    },
+    {
+     "me": true,
+     "text": "No problem! I'm already here and grabbed us a table"
+    },
+    {
+     "me": false,
+     "text": "Thanks! I'm wearing a red sweater so I'll be easy to spot"
+    },
+    {
+     "me": false,
+     "text": "This afternoon was really lovely! Thanks for the coffee 😊"
+    },
+    {
+     "me": true,
+     "text": "The pleasure was mine! Our chats were wonderful"
+    },
+    {
+     "me": true,
+     "text": "Want to do it again soon?"
+    },
+    {
+     "me": false,
+     "text": "Definitely! And next time it's on me"
+    },
+    {
+     "me": true,
+     "text": "Deal! 😘"
+    },
+    {
+     "me": false,
+     "text": "Hey! Got any plans this weekend?"
+    }
+   ],
+   "avatar": "msg_11.webp"
+  }
+ ],
+ "whatsapp": [
+  {
+   "id": "conv-wa-2",
+   "title": "Priya Nair",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hey you - how are things?"
+    },
+    {
+     "me": true,
+     "text": "Priya! all good here, what about you?"
+    },
+    {
+     "me": false,
+     "text": "Can't complain! Have you seen the new client brief?"
+    },
+    {
+     "me": true,
+     "text": "Which project?"
+    },
+    {
+     "me": false,
+     "text": "That loft over in the Mill District - they're after modern Scandinavian"
+    },
+    {
+     "me": true,
+     "text": "Oh I'm obsessed with that look"
+    },
+    {
+     "me": false,
+     "text": "Should we tackle it together?"
+    },
+    {
+     "me": true,
+     "text": "Definitely. Shall we go through it Monday?"
+    },
+    {
+     "me": false,
+     "text": "Monday it is, see you then"
+    }
+   ]
+  },
+  {
+   "id": "conv-wa-3",
+   "title": "Dez",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Blythe! It has been ages"
+    },
+    {
+     "me": true,
+     "text": "Dez! look who it is - how have you been?"
+    },
+    {
+     "me": false,
+     "text": "Doing well! I'm through Minneapolis next week"
+    },
+    {
+     "me": true,
+     "text": "Nice! Is it a work trip?"
+    },
+    {
+     "me": false,
+     "text": "Yeah, meeting a client Tuesday"
+    },
+    {
+     "me": false,
+     "text": "Any chance of a drink while I'm there? Proper catch-up"
+    },
+    {
+     "me": true,
+     "text": "I'd love that! Does Tuesday evening suit you?"
+    },
+    {
+     "me": false,
+     "text": "Great - I'll text you where I'm staying later on"
+    },
+    {
+     "me": true,
+     "text": "Do that! It'll be so good to see you"
+    },
+    {
+     "me": false,
+     "text": "Same here - this is going to be fun"
+    },
+    {
+     "me": false,
+     "text": "Remember those late nights back in college? 😄"
+    },
+    {
+     "me": true,
+     "text": "Haha as if I could forget! Total chaos"
+    },
+    {
+     "me": false,
+     "text": "And now look at us, all grown up 😂"
+    },
+    {
+     "me": true,
+     "text": "Sure... responsible. We'll test that one Tuesday 😜"
+    }
+   ]
+  },
+  {
+   "id": "conv-wa-4",
+   "title": "Renata",
+   "time": "Monday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Blythe, apologies for all the racket last night"
+    },
+    {
+     "me": true,
+     "text": "Oh no worries at all! Didn't hear a thing"
+    },
+    {
+     "me": false,
+     "text": "Good! My brother was in town"
+    },
+    {
+     "me": false,
+     "text": "Pretty sure he had a great time 😅"
+    },
+    {
+     "me": true,
+     "text": "Haha love that! Anyway, did the package show up?"
+    },
+    {
+     "me": false,
+     "text": "It came - I left it outside your door"
+    },
+    {
+     "me": true,
+     "text": "You're an absolute angel, thank you"
+    },
+    {
+     "me": false,
+     "text": "No worries! Hey, do you have a good plumber?"
+    },
+    {
+     "me": false,
+     "text": "My sink's been acting up"
+    },
+    {
+     "me": true,
+     "text": "I've got a guy, I'll pass along his number"
+    },
+    {
+     "me": true,
+     "text": "Does great work and doesn't overcharge"
+    },
+    {
+     "me": false,
+     "text": "That's exactly what I need - the last one charged me a fortune"
+    },
+    {
+     "me": true,
+     "text": "This one won't, he did my bathroom last spring"
+    },
+    {
+     "me": false,
+     "text": "Sold 😄"
+    },
+    {
+     "me": false,
+     "text": "Oh amazing! Could you send it over?"
+    },
+    {
+     "me": true,
+     "text": "Here you go: Joe Martinez, +1 612 555 0199"
+    }
+   ]
+  },
+  {
+   "id": "conv-wa-5",
+   "title": "Gabe Ostrander",
+   "time": "Sunday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Blythe - all set for tomorrow?"
+    },
+    {
+     "me": true,
+     "text": "Gabe! Set yes, scared also yes 😅"
+    },
+    {
+     "me": false,
+     "text": "Haha how come?"
+    },
+    {
+     "me": true,
+     "text": "my legs ached for a solid week after the last one"
+    },
+    {
+     "me": false,
+     "text": "That's the sign we actually worked, don't worry"
+    },
+    {
+     "me": false,
+     "text": "We'll go easier tomorrow, promise"
+    },
+    {
+     "me": true,
+     "text": "Alright, I'm holding you to it!"
+    },
+    {
+     "me": false,
+     "text": "Feel free to bring your girlfriend if she's up for it"
+    },
+    {
+     "me": true,
+     "text": "I'll put it to her - cardio is her thing"
+    },
+    {
+     "me": false,
+     "text": "Great, tomorrow it is"
+    },
+    {
+     "me": true,
+     "text": "See you tomorrow! 💪"
+    }
+   ]
+  },
+  {
+   "id": "conv-wa-6",
+   "title": "Nora",
+   "time": "Saturday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Cousin!! how's life?"
+    },
+    {
+     "me": true,
+     "text": "Jess! everything's good here - and you?"
+    },
+    {
+     "me": false,
+     "text": "Good to hear! So - are you still on for Sunday's barbecue?"
+    },
+    {
+     "me": true,
+     "text": "For sure! Want me to bring anything?"
+    },
+    {
+     "me": false,
+     "text": "A salad would be great"
+    },
+    {
+     "me": true,
+     "text": "Sure - would a quinoa salad do?"
+    },
+    {
+     "me": false,
+     "text": "That's great. Oh, and Mom is coming as well"
+    },
+    {
+     "me": true,
+     "text": "Lovely! I haven't seen her in forever"
+    },
+    {
+     "me": false,
+     "text": "She's dying to see you! Talks about you nonstop"
+    },
+    {
+     "me": true,
+     "text": "That is so sweet - I'm looking forward to it too"
+    },
+    {
+     "me": false,
+     "text": "Also - will Marin be there?"
+    },
+    {
+     "me": true,
+     "text": "I'll check with her, she never says no to a barbecue"
+    },
+    {
+     "me": false,
+     "text": "Bring her, there's room for everyone"
+    },
+    {
+     "me": true,
+     "text": "Right then - Sunday"
+    },
+    {
+     "me": false,
+     "text": "Sunday it is! Love you 😘"
+    }
+   ],
+   "avatar": "msg_3.webp"
+  },
+  {
+   "id": "conv-wa-7",
+   "title": "Sasha",
+   "time": "Friday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hi - your number came from Junie, hope that's alright"
+    },
+    {
+     "me": true,
+     "text": "Sasha, hi! She mentioned you'd write"
+    },
+    {
+     "me": false,
+     "text": "It's a photographer you're after, is that right?"
+    },
+    {
+     "me": true,
+     "text": "That's it, shots for my portfolio. Junie raves about your work"
+    },
+    {
+     "me": false,
+     "text": "That's very generous of her 😅 but thank you!"
+    },
+    {
+     "me": true,
+     "text": "Mind sending me your portfolio?"
+    },
+    {
+     "me": false,
+     "text": "Of course - the link can go over by email"
+    },
+    {
+     "me": true,
+     "text": "Great, use blythe.merrick@gmail.com"
+    },
+    {
+     "me": false,
+     "text": "Got it - it'll be in your inbox tonight"
+    },
+    {
+     "me": true,
+     "text": "Perfect. Do you shoot interiors on location or in a studio?"
+    },
+    {
+     "me": false,
+     "text": "Both, though interiors nearly always work better on location"
+    },
+    {
+     "me": true,
+     "text": "That's what I was hoping you'd say"
+    },
+    {
+     "me": false,
+     "text": "Daylight does most of the work, I mainly stay out of its way"
+    },
+    {
+     "me": true,
+     "text": "Thanks so much! Could we talk it through on a call this week?"
+    },
+    {
+     "me": false,
+     "text": "I'd love that! Does Thursday afternoon work?"
+    },
+    {
+     "me": true,
+     "text": "Thursday works, let's do that"
+    }
+   ],
+   "avatar": "wa_5.webp"
+  },
+  {
+   "id": "conv-wa-8",
+   "title": "Junie",
+   "time": "7/30/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Blythe! how have you been?"
+    },
+    {
+     "me": true,
+     "text": "Junie! all good on my end - how about you?"
+    },
+    {
+     "me": false,
+     "text": "Really well! Your recent projects came up on Insta, they're stunning"
+    },
+    {
+     "me": true,
+     "text": "Thank you! Your work's gorgeous too"
+    },
+    {
+     "me": false,
+     "text": "Oh, one thing: I passed your number to Sasha Thorne"
+    },
+    {
+     "me": true,
+     "text": "The photographer?"
+    },
+    {
+     "me": false,
+     "text": "That's him - you did say you needed someone for the portfolio?"
+    },
+    {
+     "me": true,
+     "text": "Yes! Thanks a million!"
+    },
+    {
+     "me": false,
+     "text": "His work speaks for itself, you'll see"
+    },
+    {
+     "me": true,
+     "text": "Can't wait to check out his stuff!"
+    },
+    {
+     "me": false,
+     "text": "Tell me how it goes!"
+    }
+   ],
+   "avatar": "msg_5.webp"
+  },
+  {
+   "id": "conv-wa-9",
+   "title": "Iris",
+   "time": "7/29/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Morning Blythe - the usual is poured and waiting"
+    },
+    {
+     "me": true,
+     "text": "Round the corner, give me five minutes"
+    },
+    {
+     "me": false,
+     "text": "No rush, it's piping hot 😊"
+    }
+   ],
+   "avatar": "msg_6.webp"
+  },
+  {
+   "id": "conv-wa-10",
+   "title": "Quinn",
+   "time": "7/28/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Blythe - you will never guess"
+    },
+    {
+     "me": true,
+     "text": "Wait what?! 😃"
+    },
+    {
+     "me": false,
+     "text": "They've given me a show over in St. Paul!"
+    },
+    {
+     "me": true,
+     "text": "Stop it, that's wonderful! Congratulations!"
+    },
+    {
+     "me": false,
+     "text": "Thanks! Will you make it to the opening?"
+    },
+    {
+     "me": true,
+     "text": "Obviously! When's it happening?"
+    },
+    {
+     "me": false,
+     "text": "Opening night is August 15 - the invitation is coming your way"
+    },
+    {
+     "me": true,
+     "text": "Noted - is it the gallery over on Selby?"
+    },
+    {
+     "me": false,
+     "text": "That's the one! Small room, but the light in there is unreal"
+    },
+    {
+     "me": true,
+     "text": "How many pieces are going up?"
+    },
+    {
+     "me": false,
+     "text": "Eleven, if the framing gets finished in time 😅"
+    },
+    {
+     "me": true,
+     "text": "So excited to see your pieces up on the wall!"
+    },
+    {
+     "me": false,
+     "text": "You'll see for yourself - St. Paul feels like a lifetime ago 😄"
+    },
+    {
+     "me": true,
+     "text": "No doubt in my mind! You were always incredible"
+    }
+   ],
+   "avatar": "wa_8.webp"
+  },
+  {
+   "id": "conv-wa-11",
+   "title": "Delia",
+   "time": "7/27/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Blythe, this is a reminder: your scaling appointment is tomorrow at 2pm"
+    },
+    {
+     "me": true,
+     "text": "Noted, thank you - see you then"
+    }
+   ]
+  },
+  {
+   "id": "conv-wa-key-1",
+   "title": "Josie Trang",
+   "time": "7/7/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": true,
+     "text": "Hi, it's Blythe from Wildflower, shall we give each other a call?"
+    },
+    {
+     "me": false,
+     "text": "Oh yes! The decorator! Hey Blythe ☺️"
+    },
+    {
+     "me": false,
+     "text": "You came across as really passionate about your work, I like that"
+    },
+    {
+     "me": true,
+     "text": "Thanks! So what's your job?"
+    },
+    {
+     "me": false,
+     "text": "I do flowers, mostly for weddings"
+    },
+    {
+     "me": true,
+     "text": "Oh wonderful! You must witness some beautiful stories"
+    },
+    {
+     "me": false,
+     "text": "Definitely! In fact I've got a huge project on right now"
+    },
+    {
+     "me": false,
+     "text": "I'm handling weddings all on the same weekend 😅"
+    },
+    {
+     "me": true,
+     "text": "Wow, that's full-on! Will you be able to pull it off?"
+    },
+    {
+     "me": false,
+     "text": "Fingers crossed! Thankfully I've got a great team"
+    },
+    {
+     "me": false,
+     "text": "Including an amazing violinist, Annabel"
+    },
+    {
+     "me": false,
+     "text": "I swear she plays like an angel"
+    },
+    {
+     "me": true,
+     "text": "I'd really love to hear her!"
+    },
+    {
+     "me": false,
+     "text": "If you'd like, I can pass along her number: +1 612 555 0164"
+    },
+    {
+     "me": false,
+     "text": "She does private concerts too"
+    },
+    {
+     "me": true,
+     "text": "That's so kind of you, thanks! I just might call her"
+    },
+    {
+     "me": false,
+     "text": "Anytime! So, by the way, are you free this weekend?"
+    },
+    {
+     "me": true,
+     "text": "Sunday, yeah, why?"
+    },
+    {
+     "me": false,
+     "text": "Fancy meeting up? Getting a coffee?"
+    },
+    {
+     "me": true,
+     "text": "I'd love to! Got a nice spot in mind?"
+    },
+    {
+     "me": false,
+     "text": "Yeah, there's Spyhouse Coffee near Nicollet Mall"
+    },
+    {
+     "me": true,
+     "text": "Great! What about 3pm Sunday?"
+    }
+   ],
+   "avatar": "wa_10.webp"
+  }
+ ],
+ "gmail": [
+  {
+   "sender": "West Elm",
+   "subject": "The spring collection has landed - 30% off",
+   "preview": "Our spring collection of furniture and home decor has landed. Everything is 30% off until August 15.",
+   "body": "Our spring collection of furniture and home decor has landed. Everything is 30% off until August 15.",
+   "time": "Yesterday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "SoulCycle Minneapolis",
+   "subject": "You're booked in for tomorrow's class",
+   "preview": "Confirmed: tomorrow at 7am, your SoulCycle class with Gabe at the North Loop studio. Bring your shoes!",
+   "body": "Confirmed: tomorrow at 7am, your SoulCycle class with Gabe at the North Loop studio. Bring your shoes!",
+   "time": "Tuesday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Priya Nair",
+   "subject": "Re: Morrison project - the living room plans",
+   "preview": "Blythe - the living room plans are finished. Could you look them over before we present to the client tomorrow",
+   "body": "Blythe - the living room plans are finished. Could you look them over before we present to the client tomorrow? Thank you!",
+   "time": "Tuesday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Lake Street Dental",
+   "subject": "Your appointment is confirmed",
+   "preview": "Confirmed: Friday August 14 at 9:40am with Dr. Osei. Please come five minutes early if you have forms to updat",
+   "body": "Confirmed: Friday August 14 at 9:40am with Dr. Osei. Please come five minutes early if you have forms to update.",
+   "time": "Monday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Kyatchi",
+   "subject": "Your table is confirmed",
+   "preview": "Your table for 2 is confirmed for August 8 at 7:30pm. We'll be glad to see you!",
+   "body": "Your table for 2 is confirmed for August 8 at 7:30pm. We'll be glad to see you!",
+   "time": "Monday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "IKEA",
+   "subject": "Living room ideas, fresh off the floor",
+   "preview": "Modular sofas and designer storage: our newest collections are made to change how your living room feels.",
+   "body": "Modular sofas and designer storage: our newest collections are made to change how your living room feels.",
+   "time": "Sunday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Renata Salas",
+   "subject": "Barbecue in the garden Sunday",
+   "preview": "Hi! There's a barbecue in the building garden on Sunday, starting at 3pm. Will you and Marin come along?",
+   "body": "Hi! There's a barbecue in the building garden on Sunday, starting at 3pm. Will you and Marin come along?",
+   "time": "Saturday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "West Elm",
+   "subject": "Your samples are on the way",
+   "preview": "The fabric swatches you asked for shipped today and should reach you within three business days. Tracking is i",
+   "body": "The fabric swatches you asked for shipped today and should reach you within three business days. Tracking is in your account.",
+   "time": "Friday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Architectural Digest",
+   "subject": "The decor trends shaping 2026",
+   "preview": "From terracotta to natural textures, here are the colors and materials set to define the year, seen in the int",
+   "body": "From terracotta to natural textures, here are the colors and materials set to define the year, seen in the interiors doing it best.",
+   "time": "Friday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Pottery Barn",
+   "subject": "Your order is on its way",
+   "preview": "Order #PB789456 - Brass table lamp - has shipped and arrives August 7. Track it with 1Z999AA1234567890.",
+   "body": "Order #PB789456 - Brass table lamp - has shipped and arrives August 7. Track it with 1Z999AA1234567890.",
+   "time": "7/28/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Life Time",
+   "subject": "Time to renew your membership",
+   "preview": "August 15 is the last day of your membership. Renew the annual plan now and 2 months are on us.",
+   "body": "August 15 is the last day of your membership. Renew the annual plan now and 2 months are on us.",
+   "time": "7/27/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Minneapolis Institute of Art",
+   "subject": "August at Mia: late nights and new galleries",
+   "preview": "Thursday evenings run until nine all month, and the Nordic design rooms reopen on the 20th. Members get in an ",
+   "body": "Thursday evenings run until nine all month, and the Nordic design rooms reopen on the 20th. Members get in an hour early.",
+   "time": "7/26/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Home Depot",
+   "subject": "Spring Sale - home decor up to 50% off",
+   "preview": "Spring sale time! Paint, wallpaper, lighting - everything for a fresh interior, at cut prices.",
+   "body": "Spring sale time! Paint, wallpaper, lighting - everything for a fresh interior, at cut prices.",
+   "time": "7/25/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "LinkedIn",
+   "subject": "Priya Nair shared a post",
+   "preview": "An article on interior design trends was shared by Priya Nair. Open your feed to read it.",
+   "body": "An article on interior design trends was shared by Priya Nair. Open your feed to read it.",
+   "time": "7/24/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Crate & Barrel",
+   "subject": "Home decor inspiration: Minnesota style",
+   "preview": "Bright, easy-going rooms start here: our pick of Minnesota-style furniture and accessories.",
+   "body": "Bright, easy-going rooms start here: our pick of Minnesota-style furniture and accessories.",
+   "time": "7/23/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Amazon",
+   "subject": "Your order arrives tomorrow",
+   "preview": "Order #112-8765432-1234567, decorative cushions, arrives tomorrow between 2 PM and 6 PM. Please be ready to re",
+   "body": "Order #112-8765432-1234567, decorative cushions, arrives tomorrow between 2 PM and 6 PM. Please be ready to receive it.",
+   "time": "7/22/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Customer Service",
+   "subject": "Authorization for scheduled transfers",
+   "preview": "Hello, I'd like to arrange scheduled transfers for my engagement services. Please authorize the scheduled tran",
+   "body": "Hello, I'd like to arrange scheduled transfers for my engagement services. Please authorize the scheduled transfers for Fisk and Trang, who will be providing engagement services. Could you confirm the procedure for me? Best regards, Blythe Merrick",
+   "time": "7/17/26",
+   "folder": "sent"
+  }
+ ],
+ "calendar": [
+  {
+   "title": "Materials arriving",
+   "date": "08/23",
+   "dateLabel": "Sun, Aug 23, 2026",
+   "month": "2026-08",
+   "time": "12:10 PM – 12:55 PM",
+   "location": "Truck bay"
+  },
+  {
+   "title": "Doctor's appointment",
+   "date": "08/22",
+   "dateLabel": "Sat, Aug 22, 2026",
+   "month": "2026-08",
+   "time": "9:10 AM – 9:40 AM",
+   "location": "Local clinic"
+  },
+  {
+   "title": "Pick up samples - West Elm",
+   "date": "08/21",
+   "dateLabel": "Fri, Aug 21, 2026",
+   "month": "2026-08",
+   "time": "11:10 AM – 12:00 PM",
+   "location": "West Elm, Galleria"
+  },
+  {
+   "title": "Cycling class",
+   "date": "08/20",
+   "dateLabel": "Thu, Aug 20, 2026",
+   "month": "2026-08",
+   "time": "7:00 AM – 8:00 AM",
+   "location": "SoulCycle North Loop"
+  },
+  {
+   "title": "Trip to the fabric store",
+   "date": "08/19",
+   "dateLabel": "Wed, Aug 19, 2026",
+   "month": "2026-08",
+   "time": "11:10 AM – 12:10 PM",
+   "location": "Tissus Minneapolis"
+  },
+  {
+   "title": "Workshop at Marin's - decor",
+   "date": "08/18",
+   "dateLabel": "Tue, Aug 18, 2026",
+   "month": "2026-08",
+   "time": "6:10 PM – 8:10 PM",
+   "location": "Studio Marin"
+  },
+  {
+   "title": "Break for tea",
+   "date": "08/18",
+   "dateLabel": "Tue, Aug 18, 2026",
+   "month": "2026-08",
+   "time": "9:10 AM – 9:40 AM",
+   "location": "Local cafe"
+  },
+  {
+   "title": "Client call - Alcott",
+   "date": "08/17",
+   "dateLabel": "Mon, Aug 17, 2026",
+   "month": "2026-08",
+   "time": "2:10 PM – 2:40 PM",
+   "location": "Merrick Studio"
+  },
+  {
+   "title": "Photo shoot, outdoors",
+   "date": "08/16",
+   "dateLabel": "Sun, Aug 16, 2026",
+   "month": "2026-08",
+   "time": "8:10 AM – 9:10 AM",
+   "location": "Natural light"
+  },
+  {
+   "title": "Sushi dinner with Renata and Nora",
+   "date": "08/15",
+   "dateLabel": "Sat, Aug 15, 2026",
+   "month": "2026-08",
+   "time": "6:10 PM – 8:10 PM",
+   "location": "Sushi Bar Minneapolis"
+  },
+  {
+   "title": "Appointment, Delia's place",
+   "date": "08/14",
+   "dateLabel": "Fri, Aug 14, 2026",
+   "month": "2026-08",
+   "time": "9:40 AM – 10:25 AM",
+   "location": "Lake Street Dental"
+  },
+  {
+   "title": "Moodboard work",
+   "date": "08/13",
+   "dateLabel": "Thu, Aug 13, 2026",
+   "month": "2026-08",
+   "time": "10:10 AM – 11:10 AM",
+   "location": "Merrick Studio"
+  },
+  {
+   "title": "Lunch, quick one",
+   "date": "08/12",
+   "dateLabel": "Wed, Aug 12, 2026",
+   "month": "2026-08",
+   "time": "12:40 PM – 1:25 PM",
+   "location": "Spyhouse Coffee"
+  },
+  {
+   "title": "Design team sync",
+   "date": "08/12",
+   "dateLabel": "Wed, Aug 12, 2026",
+   "month": "2026-08",
+   "time": "9:10 AM – 10:10 AM",
+   "location": "Office, North Loop"
+  },
+  {
+   "title": "Office inventory",
+   "date": "08/11",
+   "dateLabel": "Tue, Aug 11, 2026",
+   "month": "2026-08",
+   "time": "8:30 PM – 9:30 PM",
+   "location": "Office, North Loop"
+  }
+ ],
+ "notes": [
+  {
+   "title": "The week at a glance",
+   "body": "Monday: Client Alcott - 2pm\nTuesday: Nair sofa delivery\nWednesday: Dentist appt Delia - 4pm\nThursday: Yoga with Marlys - 7pm\nFriday: Drinks Junie"
+  },
+  {
+   "title": "Lowry Hill - floor notes",
+   "body": "Bedrooms and master bath are mine, Priya has the living room and kitchen.\n\n• Measure the second bedroom again, the alcove is off\n• Master bath - check what the floor takes before anyone says stone\n• Radiator covers on the top floor, ask about the old ones\n• Closet doors: keep or replace, decide before the quote\n\nBring to the walkthrough: tape, laser, sample box"
+  },
+  {
+   "title": "Priya's living room decor ideas",
+   "body": "• Palette: navy and gold\n• Sofa in velvet\n• Coffee table, marble\n• Monstera and other greenery\n• Lighting kept indirect\n• Vintage mirror over the fireplace"
+  },
+  {
+   "title": "Grocery run",
+   "body": "Shopping:\n• Avocados\n• Loaf of whole grain bread\n• Greek yogurt\n• Salmon\n• Bag of arugula\n• Lemons\n• Olive oil"
+  },
+  {
+   "title": "Bedroom mood board",
+   "body": "Scandinavian, kept minimal\n• Light wood with off-white\n• Bedding in natural linen\n• Pendant light in rattan\n• Throw, merino wool\n• Keep the decor sparse and the lines clean"
+  },
+  {
+   "title": "Restaurants to try",
+   "body": "Italian: Osteria del Forno\nJapanese: Kyatchi\nMexican: Taqueria Los Ocampo\nFrench: Meritage"
+  },
+  {
+   "title": "Paint samples to order",
+   "body": "For the studio wall:\n• Warm white, two testers\n• The soft greige Priya liked\n• Charcoal for the backs of the shelves\n• Ask for flat, not eggshell - the eggshell caught too much light\n\nHome Depot on Midway carries the small pots"
+  },
+  {
+   "title": "Vendors to chase",
+   "body": "West Elm - fabrics, new range\nCB2 - shelving for the walls\nPottery Barn - lighting\nIKEA - accessories on a budget\nLocal artisan - frames made to measure"
+  },
+  {
+   "title": "My weekly program",
+   "body": "Gabe's program:\nMonday - Cardio 30min\nTuesday - Upper body strength\nWednesday - Rest or yoga\nThursday - Legs and glutes\nFriday - HIIT cardio\nWeekend - Walk or bike"
+  },
+  {
+   "title": "Dez birthday gift",
+   "body": "Ideas:\n• Book on modern architecture\n• A houseplant with presence\n• Bottle of Japanese whisky\n• A year of a design magazine\n• Wine tasting for two"
+  },
+  {
+   "title": "Renata kitchen project",
+   "body": "Style: modern industrial\nBudget: 15k$\nIn order of priority:\n1. Island in the center\n2. Appliances in stainless steel\n3. Subway tile, white\n4. Counters in quartz\n5. Lighting under the cabinets"
+  },
+  {
+   "title": "Codes",
+   "body": "Home WiFi: MerrickDesign2024\nBank: 8472\nNetflix: chocolate\nApple ID: TrickyPassword!"
+  },
+  {
+   "title": "Series queue",
+   "body": "To watch, when there is time:\n• The Crown - season 6\n• Emily in Paris - the new one\n• Selling Sunset - still behind\n• Queer Eye - never a bad choice\n• Grand Designs - for inspiration"
+  }
+ ],
+ "maps": [],
+ "revolut": {
+  "balance": "$0.00",
+  "transactions": []
+ },
+ "weather": {
+  "city": "Local",
+  "tempC": 18,
+  "hi": 21,
+  "lo": 12,
+  "condition": "Clear"
+ },
+ "photos": [
+  {
+   "image": "photo_0.webp",
+   "caption": "take out the ring case in five days"
+  },
+  "photo_1.webp",
+  "photo_2.webp",
+  "photo_3.webp",
+  "photo_4.webp",
+  "photo_5.webp",
+  "photo_6.webp",
+  "photo_7.webp",
+  "photo_8.webp"
+ ],
+ "screenTime": [
+  {
+   "appName": "Instagram",
+   "durationMinutes": 95
+  },
+  {
+   "appName": "Messages",
+   "durationMinutes": 70
+  },
+  {
+   "appName": "Photos",
+   "durationMinutes": 60
+  },
+  {
+   "appName": "WhatsApp",
+   "durationMinutes": 60
+  },
+  {
+   "appName": "ChatGPT",
+   "durationMinutes": 40
+  },
+  {
+   "appName": "Safari",
+   "durationMinutes": 38
+  },
+  {
+   "appName": "Gmail",
+   "durationMinutes": 30
+  },
+  {
+   "appName": "Forme",
+   "durationMinutes": 28
+  },
+  {
+   "appName": "Airbnb",
+   "durationMinutes": 25
+  },
+  {
+   "appName": "Calendrier",
+   "durationMinutes": 20
+  },
+  {
+   "appName": "Phone",
+   "durationMinutes": 18
+  },
+  {
+   "appName": "Settings",
+   "durationMinutes": 15
+  },
+  {
+   "appName": "Notes",
+   "durationMinutes": 12
+  },
+  {
+   "appName": "Cartes",
+   "durationMinutes": 9
+  }
+ ]
+}

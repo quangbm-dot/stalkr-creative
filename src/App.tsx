@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import type { AppKey } from "./types/case";
 import type { CaseConfig } from "./types/case";
 import PhoneFrame from "./Components/PhoneFrame/PhoneFrame";
@@ -71,7 +71,7 @@ function App({ caseData }: { caseData: CaseConfig }) {
   // khoá rồi thì bàn tay chuyển sang thanh câu hỏi (xem activeHand) — để vòng sáng
   // và bàn tay luôn trỏ cùng một chỗ.
   const steps = currentRound
-    ? currentRound.hintSteps ?? [{ app: currentRound.hintApp, target: currentRound.hintTargetId }]
+    ? currentRound.hintSteps ?? [{ app: currentRound.hintApp, target: currentRound.hintTargetId, message: currentRound.hintMessageId }]
     : [];
   const lastStep = stepIdx >= steps.length - 1;
   const step = steps[Math.min(stepIdx, steps.length - 1)];
@@ -80,12 +80,18 @@ function App({ caseData }: { caseData: CaseConfig }) {
   // hintTargetId/onFoundClue xuống app con (tự gắn glow+bàn tay vào đúng dòng
   // chứa manh mối, và tự báo lại khi tìm thấy).
   const isActiveHintApp = !!step && openApp === step.app;
-  // Bước cuối: người chơi đứng trong đúng mini app chứa đáp án thì mở khoá luôn
-  // (kể cả khi vừa sang câu mới mà họ vẫn đang ở app đó) — tránh kẹt vì không
-  // biết phải chạm đúng dòng nào.
+  // Bước cuối, app KHÔNG xác định được dòng cụ thể (step.target rỗng — vd
+  // Photos, hoặc Phone/Gmail những câu không tìm ra tên khớp): đứng trong
+  // đúng app là mở khoá luôn, tránh kẹt vì không biết phải chạm đúng chỗ
+  // nào. App CÓ step.target thì KHÔNG tự mở khoá ở đây nữa — phải đợi
+  // người chơi chạm đúng dòng sáng (xem onFoundClue ở renderApp bên dưới),
+  // nếu không thì mở khoá tức thì ngay khi vừa mở app, trước cả khi vòng
+  // sáng/bàn tay kịp hiện (có độ trễ ~3.5s) — làm tính năng glow/tay chỉ
+  // đúng dòng vô dụng vì không ai còn cơ hội thấy nó.
+  const stepHasTarget = !!step?.target;
   useEffect(() => {
-    if (isActiveHintApp && lastStep) setClueFound(true);
-  }, [isActiveHintApp, lastStep, evidenceFound]);
+    if (isActiveHintApp && lastStep && !stepHasTarget) setClueFound(true);
+  }, [isActiveHintApp, lastStep, stepHasTarget, evidenceFound]);
   // Bước chưa cuối: rời app của bước (về home) dù có chạm dòng sáng hay không thì
   // bước kế tiếp (app tiếp theo + dòng cần tìm) bắt đầu sáng.
   const prevOpen = useRef<AppKey | null>(null);
@@ -102,21 +108,36 @@ function App({ caseData }: { caseData: CaseConfig }) {
   //  "hand"  = chưa tìm ra manh mối: icon app (ở home) hoặc dòng chứa manh mối (trong app)
   //  "snoop" = popup đang mở mà đáp án còn khoá: nút "keep snooping"
   //  "bar"   = đã có manh mối, popup đang thu gọn: bấm thanh chat để trả lời
+  //  "back"  = đang đứng trong 1 mini app nhưng không có gì để tìm ở đây nữa
+  //            (sai app, hoặc đúng app nhưng đã mở khoá rồi mà app đó không tự
+  //            highlight được dòng cụ thể, vd Phone) — trỏ vào nút back để thoát ra
   const unlocked = !currentRound || clueFound;
-  let activeHand: "hand" | "snoop" | "bar" | "none" = "none";
+  let activeHand: "hand" | "snoop" | "bar" | "back" | "none" = "none";
   if (stage === "phone" && currentRound) {
     if (chatExpanded) activeHand = unlocked ? "none" : "snoop";
-    else if (isActiveHintApp && !rowFound) activeHand = "hand"; // đang trong đúng app nhưng chưa chạm dòng lộ đáp án
+    // Kiểm tra unlocked TRƯỚC isActiveHintApp: 1 số app (vd Phone) không gọi
+    // onFoundClue nên rowFound không bao giờ true, dù clueFound đã lên true
+    // sẵn lúc vừa mở app (xem effect "lastStep" bên dưới) — không được kẹt ở
+    // "hand" vô thời hạn trong trường hợp đó.
     else if (unlocked) activeHand = "bar";
-    else if (!openApp) activeHand = "hand";
+    else if (isActiveHintApp && !rowFound) activeHand = "hand"; // đang trong đúng app nhưng chưa chạm dòng lộ đáp án
+    else if (openApp) activeHand = "back"; // đang ở sai app, không có gì để tìm
+    else activeHand = "hand"; // ở home, chưa mở app nào
   }
   // Bàn tay chỉ hiện (mờ dần) sau một khoảng người chơi chưa tìm ra; đổi bước
   // thì đếm lại từ đầu.
   const [handVisible, setHandVisible] = useState(false);
-  useEffect(() => {
+  // useLayoutEffect (không phải useEffect): phải reset handVisible TRƯỚC khi
+  // trình duyệt kịp vẽ khung hình kế tiếp — nếu không, lúc vừa mở app mới
+  // (openApp đổi), React vẫn còn vẽ 1 khung hình với handVisible CŨ (true,
+  // còn sót từ app/bước trước) lên bàn tay của app MỚI trước khi state kịp
+  // reset ở lần render sau, tạo cảm giác bàn tay "chỉ sẵn đáp án" rồi mới mờ
+  // đi — đúng ngược với chủ đích (phải im lặng một lúc cho người chơi tự tìm
+  // đã, mới hiện gợi ý).
+  useLayoutEffect(() => {
     setHandVisible(false);
     if (activeHand === "none") return;
-    const delay = activeHand === "hand" && openApp ? HAND_DELAY_IN_APP_MS : HAND_DELAY_MS;
+    const delay = openApp && (activeHand === "hand" || activeHand === "back") ? HAND_DELAY_IN_APP_MS : HAND_DELAY_MS;
     // Đã hiện thì giữ nguyên dù người chơi cuộn/chạm chỗ khác; chỉ mất khi bước
     // thay đổi (bấm vào đúng chỗ được chỉ, mở/đóng app, sang câu mới).
     const t = setTimeout(() => setHandVisible(true), delay);
@@ -125,8 +146,18 @@ function App({ caseData }: { caseData: CaseConfig }) {
 
   return (
     <>
-    <DevBar onSkipEnd={() => setStage("end")} />
-    <div style={{ display: "contents" }} data-hand={activeHand} data-hand-visible={handVisible}>
+    <DevBar onSkipEnd={() => setStage("end")} onSkipIntro={() => setStage("phone")} />
+    <div
+      style={{ display: "contents" }}
+      data-hand={activeHand}
+      data-hand-visible={handVisible}
+      // Thanh câu hỏi thu gọn (.belowBar) nằm ĐÈ (position:absolute;bottom:0)
+      // lên đúng 90px cuối màn hình trong .screen, không có "phần dưới
+      // riêng" nào cả — nội dung app cuộn xuống hết (đọc email/tin nhắn dài)
+      // bị nó che mất đoạn cuối. Đánh dấu ở đây để CSS global (index.css)
+      // chừa padding-bottom cho nội dung mọi app khi thanh này đang hiện.
+      data-bar-active={stage === "phone" && !chatExpanded}
+    >
     <PhoneFrame
       showBelowBar={stage === "phone" && !chatExpanded}
       statusBarDark={stage !== "intro" || introCinema}
@@ -168,6 +199,7 @@ function App({ caseData }: { caseData: CaseConfig }) {
           caseData,
           onBack: () => setOpenApp(null),
           hintTargetId: isActiveHintApp ? step?.target : undefined,
+          hintMessageId: isActiveHintApp ? step?.message : undefined,
           onFoundClue: isActiveHintApp ? () => { if (lastStep) setClueFound(true); setRowFound(true); } : undefined,
         })}
 
@@ -178,7 +210,15 @@ function App({ caseData }: { caseData: CaseConfig }) {
           onAllSolved={() => setStage("end")}
           expanded={chatExpanded}
           onExpandedChange={setChatExpanded}
+          onDismiss={() => {
+            setChatExpanded(false);
+            setOpenApp(null);
+          }}
           unlocked={unlocked}
+          onDevJump={(roundIndex) => {
+            setEvidenceFound(roundIndex + 1);
+            setOpenApp(null);
+          }}
         />
       )}
 

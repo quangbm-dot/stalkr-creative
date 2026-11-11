@@ -1,0 +1,7972 @@
+{
+ "caseName": "The Gift That Cost a House",
+ "title": "Evelyn & Danny",
+ "now": "2026-08-06T23:59:00",
+ "client": {
+  "name": "Evelyn",
+  "avatar": "client.webp"
+ },
+ "owner": {
+  "first": "Danny",
+  "full": "Danny Pruitt",
+  "avatar": null
+ },
+ "wallpaper": "wallpaper.webp",
+ "passcode": "062752",
+ "totalQuestions": 7,
+ "questions": [
+  {
+   "id": 1,
+   "text": "Danny's been my whole life since he was twelve. I just want to understand him again.\nEvery night, past eleven, his phone lights up and he takes it out on the porch.\nI can hear him through the screen door, keeping his voice low. 😔\nWho keeps calling Danny that late at night?",
+   "answer": "Kyle",
+   "decoys": [
+    "Jaylen",
+    "Ray",
+    "Bree"
+   ],
+   "hint": "Check his Phone."
+  },
+  {
+   "id": 2,
+   "text": "That boy's practically my second grandson.\nThey've been thick as thieves since third grade. He still calls me Mamaw Ev.\nDanny tells me he's out on sales calls all day, every day.\nWhere does Danny actually go when he says he's on sales calls?",
+   "answer": "Silver Creek Casino",
+   "decoys": [
+    "Waterfront Park",
+    "Kroger",
+    "Ray's Auto"
+   ],
+   "hint": "Check his Maps."
+  },
+  {
+   "id": 3,
+   "text": "Lord. Ten minutes over the bridge, and I never knew. 😳\nHis granddaddy lost a whole paycheck at the track once, and I never let him forget it.\nAt supper Danny's thumb never stops, and he groans at ballgames he isn't even watching.\nWhich betting app has Danny been using?",
+   "answer": "BetHarbor",
+   "decoys": [
+    "Spotify",
+    "Safari",
+    "WhatsApp"
+   ],
+   "hint": "Check his Settings."
+  },
+  {
+   "id": 4,
+   "text": "So it's in his pocket too. Day and night.\nI balance my checkbook to the penny every week. He knows that, and he hid this from me anyway.\nHow many times has Danny put money into BetHarbor over the past 7 days?",
+   "answer": "14",
+   "decoys": [
+    "9",
+    "11",
+    "12"
+   ],
+   "hint": "Check his RevoBank."
+  },
+  {
+   "id": 5,
+   "text": "That's not a slip-up. That's a habit. 💔\nIf he's at that casino every day, he can't be at Sunvale.\nAnd his work polo shirts haven't come through my laundry in weeks.\nWhat reason did Sunvale give for letting Danny go?",
+   "answer": "Job abandonment",
+   "decoys": [
+    "Poor attendance",
+    "Layoffs",
+    "Misconduct"
+   ],
+   "hint": "Check his Mail, beyond the Inbox."
+  },
+  {
+   "id": 6,
+   "text": "He let me pack him lunches for a job he didn't have.\nI never even cashed that check he gave me. It's tucked in my sewing box.\nWhere did Danny get the $3,000 he gave me?",
+   "answer": "Hollis Lending",
+   "decoys": [
+    "QuickCash KY",
+    "Bluegrass Advance",
+    "BetHarbor"
+   ],
+   "hint": "Check his RevoBank."
+  },
+  {
+   "id": 7,
+   "text": "That's the name on that letter in my drawer. 😳\nA lending company means a loan, and a loan has to be paid back.\nI've never borrowed a dime in my life, not even for this house.\nWhat kind of loan did Hollis Lending give out?",
+   "answer": "Home equity loan",
+   "decoys": [
+    "Payday loan",
+    "Personal loan",
+    "Auto loan"
+   ],
+   "hint": "Look through his Mail."
+  }
+ ],
+ "onboarding": [
+  {
+   "text": "A letter came last week from some lending company I've never heard of. Fine print, legal words, and my address at the top. I put it in the kitchen drawer. I haven't slept right since.",
+   "label": "Evelyn",
+   "image": "onboarding_1.webp"
+  },
+  {
+   "text": "I've raised Danny since he was twelve, right here in our house on Larkspur Lane. He used to sit under my sewing table handing me pins. He still kisses my cheek every morning.",
+   "label": "Evelyn & Danny",
+   "image": "onboarding_2.webp"
+  },
+  {
+   "text": "He's twenty-six now. Says he sells solar panels, says business is good. Not long ago he handed me three thousand dollars. But he's thin, jumpy, and on that phone till all hours.",
+   "label": "Danny",
+   "image": "onboarding_3.webp"
+  },
+  {
+   "text": "This morning he left for a sales call and forgot his phone on the kitchen counter. I can't make heads or tails of these things. You can. Please, find out what my boy has gotten into.",
+   "label": "Evelyn",
+   "image": "onboarding_4.webp"
+  }
+ ],
+ "home": [
+  {
+   "app": "whatsapp",
+   "label": "WhatsApp"
+  },
+  {
+   "app": "maps",
+   "label": "Maps"
+  },
+  {
+   "app": "revolut",
+   "label": "RevoBank"
+  },
+  {
+   "app": "notes",
+   "label": "Notes"
+  },
+  {
+   "app": "calendar",
+   "label": "Calendar"
+  },
+  {
+   "app": "settings",
+   "label": "Settings"
+  },
+  {
+   "app": "weather",
+   "label": "Weather"
+  },
+  {
+   "app": "clock",
+   "label": "Clock"
+  },
+  {
+   "app": "wallet",
+   "label": "Wallet"
+  },
+  {
+   "app": "calculator",
+   "label": "Calculator"
+  }
+ ],
+ "dock": [
+  {
+   "app": "phone",
+   "label": "Phone"
+  },
+  {
+   "app": "messages",
+   "label": "Messages"
+  },
+  {
+   "app": "gmail",
+   "label": "Mail"
+  },
+  {
+   "app": "photos",
+   "label": "Photos"
+  }
+ ],
+ "missingApps": [],
+ "calls": [
+  {
+   "name": "Kyle",
+   "time": "Yesterday, 11:12 PM",
+   "type": "incoming",
+   "detail": "7 min"
+  },
+  {
+   "name": "Gran",
+   "time": "Yesterday, 4:40 PM",
+   "type": "incoming",
+   "detail": "2 min"
+  },
+  {
+   "name": "Kyle",
+   "time": "Tuesday, 11:34 PM",
+   "type": "incoming",
+   "detail": "4 min"
+  },
+  {
+   "name": "Aunt Lorraine",
+   "time": "Tuesday, 11:05 AM",
+   "type": "incoming",
+   "detail": "12 min"
+  },
+  {
+   "name": "Kyle",
+   "time": "Monday, 11:21 PM",
+   "type": "incoming",
+   "detail": "9 min"
+  },
+  {
+   "name": "Jaylen Brooks",
+   "time": "Monday, 12:20 PM",
+   "type": "incoming",
+   "detail": "3 min"
+  },
+  {
+   "name": "Kyle",
+   "time": "Sunday, 11:47 PM",
+   "type": "incoming",
+   "detail": "3 min"
+  },
+  {
+   "name": "Auto Warranty Dept",
+   "time": "Sunday, 10:14 AM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Kyle",
+   "time": "Saturday, 11:09 PM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Ray Pruitt",
+   "time": "Friday, 5:52 PM",
+   "type": "incoming",
+   "detail": "3 min"
+  },
+  {
+   "name": "Kyle",
+   "time": "7/30/26, 11:28 PM",
+   "type": "incoming",
+   "detail": "5 min"
+  },
+  {
+   "name": "Kyle",
+   "time": "7/29/26, 11:52 PM",
+   "type": "incoming",
+   "detail": "10 min"
+  },
+  {
+   "name": "Bree Castillo",
+   "time": "7/29/26, 6:41 PM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Bree Castillo",
+   "time": "7/29/26, 6:30 PM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Kyle",
+   "time": "7/28/26, 11:15 PM",
+   "type": "incoming",
+   "detail": "4 min"
+  },
+  {
+   "name": "Dr. Alvarez Eye Care",
+   "time": "7/27/26, 9:48 AM",
+   "type": "outgoing",
+   "detail": "2 min"
+  },
+  {
+   "name": "Kyle",
+   "time": "7/26/26, 11:40 PM",
+   "type": "incoming",
+   "detail": "6 min"
+  },
+  {
+   "name": "Kyle",
+   "time": "7/25/26, 11:18 PM",
+   "type": "incoming",
+   "detail": "8 min"
+  },
+  {
+   "name": "Gran",
+   "time": "7/24/26, 1:10 PM",
+   "type": "outgoing",
+   "detail": "1 min"
+  },
+  {
+   "name": "Kyle",
+   "time": "7/23/26, 11:31 PM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Kyle",
+   "time": "7/22/26, 11:05 PM",
+   "type": "incoming",
+   "detail": "5 min"
+  },
+  {
+   "name": "+1 (502) 555-0171",
+   "time": "7/21/26, 3:27 PM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Kyle",
+   "time": "7/20/26, 11:44 PM",
+   "type": "incoming",
+   "detail": "9 min"
+  },
+  {
+   "name": "Jaylen Brooks",
+   "time": "7/19/26, 7:03 PM",
+   "type": "outgoing",
+   "detail": "1 min"
+  },
+  {
+   "name": "Kyle",
+   "time": "7/18/26, 11:26 PM",
+   "type": "incoming",
+   "detail": "4 min"
+  },
+  {
+   "name": "Kyle",
+   "time": "7/16/26, 11:57 PM",
+   "type": "incoming",
+   "detail": "6 min"
+  },
+  {
+   "name": "Kyle",
+   "time": "7/14/26, 11:13 PM",
+   "type": "incoming",
+   "detail": "7 min"
+  },
+  {
+   "name": "Kyle",
+   "time": "7/12/26, 11:38 PM",
+   "type": "incoming",
+   "detail": "3 min"
+  },
+  {
+   "name": "Kyle",
+   "time": "7/10/26, 11:22 PM",
+   "type": "incoming",
+   "detail": "9 min"
+  },
+  {
+   "name": "Tasha",
+   "time": "6/16/26, 7:48 PM",
+   "type": "outgoing",
+   "detail": "1 min"
+  },
+  {
+   "name": "Tasha",
+   "time": "6/16/26, 7:20 PM",
+   "type": "outgoing",
+   "detail": "3 min"
+  }
+ ],
+ "messages": [
+  {
+   "id": "conv-sms-key-kyle",
+   "title": "Kyle",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Opened your book, bro. Two a game till you settle up weekly."
+    },
+    {
+     "me": true,
+     "text": "Appreciate it man. Just for the weekend slate"
+    },
+    {
+     "me": false,
+     "text": "That's what everybody says 😂"
+    },
+    {
+     "me": false,
+     "text": "Pickup game tomorrow? Matt's got the court at Waterfront"
+    },
+    {
+     "me": true,
+     "text": "I'm in. Gran wants you for supper after, she's making peach cobbler"
+    },
+    {
+     "me": false,
+     "text": "Mamaw Ev's cobbler?? Say less"
+    },
+    {
+     "me": false,
+     "text": "You're at 6 on my book. Just a heads up"
+    },
+    {
+     "me": true,
+     "text": "I'll have it by Friday"
+    },
+    {
+     "me": false,
+     "text": "Cool"
+    },
+    {
+     "me": false,
+     "text": "pick up"
+    },
+    {
+     "me": false,
+     "text": "pick up bro"
+    },
+    {
+     "me": true,
+     "text": "Can't talk, Gran's asleep right by the porch. Tomorrow"
+    },
+    {
+     "me": false,
+     "text": "You're at 11 now. I'm not trying to be that guy"
+    },
+    {
+     "me": true,
+     "text": "I know. I know. I got a plan"
+    },
+    {
+     "me": false,
+     "text": "Mom says hey to your Gran"
+    },
+    {
+     "me": true,
+     "text": "Tell her Gran says come by for tea"
+    },
+    {
+     "me": false,
+     "text": "You're at 19 on my book. Need to talk"
+    },
+    {
+     "me": true,
+     "text": "Calling you in a sec"
+    },
+    {
+     "me": false,
+     "text": "pick up"
+    },
+    {
+     "me": false,
+     "text": "You're at 27. This is getting past me being nice"
+    },
+    {
+     "me": true,
+     "text": "I'm figuring it out man I swear"
+    },
+    {
+     "me": false,
+     "text": "You're at 34 on my book. Don't panic. I might have a way for you to square up"
+    },
+    {
+     "me": true,
+     "text": "I'm listening"
+    },
+    {
+     "me": false,
+     "text": "My guy at Hollis, Marcus. He does loans. Your Gran's house is paid off, right?"
+    },
+    {
+     "me": true,
+     "text": "...yeah. Why"
+    },
+    {
+     "me": false,
+     "text": "Think about it. Call me tomorrow"
+    },
+    {
+     "me": true,
+     "text": "I'm not putting Gran's house on anything bro"
+    },
+    {
+     "me": false,
+     "text": "Nobody's losing anything. It's just paper"
+    },
+    {
+     "me": false,
+     "text": "Marcus does the paperwork, you sign, and you walk away with a clean slate. $34k comes off your tab at closing."
+    },
+    {
+     "me": true,
+     "text": "And the rest?"
+    },
+    {
+     "me": false,
+     "text": "Whatever's left is yours. Few grand"
+    },
+    {
+     "me": true,
+     "text": "Let me think"
+    },
+    {
+     "me": false,
+     "text": "Think fast. Your number doesn't sleep"
+    },
+    {
+     "me": true,
+     "text": "Ok. Tell Marcus I'm in"
+    },
+    {
+     "me": false,
+     "text": "Smart. He'll text you on WhatsApp"
+    },
+    {
+     "me": false,
+     "text": "How's Mamaw Ev?"
+    },
+    {
+     "me": true,
+     "text": "Good. She asked about you"
+    },
+    {
+     "me": false,
+     "text": "Pickup tomorrow, you coming?"
+    },
+    {
+     "me": true,
+     "text": "Maybe. Not feeling great"
+    },
+    {
+     "me": false,
+     "text": "Kyle unsent a message"
+    },
+    {
+     "me": true,
+     "text": "who's Dale??"
+    },
+    {
+     "me": false,
+     "text": "wrong chat ignore"
+    },
+    {
+     "me": false,
+     "text": "First payment's coming up. You good?"
+    },
+    {
+     "me": true,
+     "text": "I'm good"
+    },
+    {
+     "me": false,
+     "text": "pick up"
+    },
+    {
+     "me": false,
+     "text": "pick up"
+    }
+   ],
+   "avatar": "msg_0.webp"
+  },
+  {
+   "id": "mut-conv-gran",
+   "title": "Gran",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Supper's at six, honey. Pot roast."
+    },
+    {
+     "me": true,
+     "text": "Be there in 20"
+    },
+    {
+     "me": false,
+     "text": "Your twenty minutes is my forty. Roast won't wait on you 😤"
+    },
+    {
+     "me": true,
+     "text": "Ha. Saving me a plate then"
+    },
+    {
+     "me": false,
+     "text": "Always do."
+    },
+    {
+     "me": false,
+     "text": "Danny honey, milk and eggs on your way home please"
+    },
+    {
+     "me": true,
+     "text": "Got it Gran"
+    },
+    {
+     "me": true,
+     "text": "Did you take your morning pills Gran?"
+    },
+    {
+     "me": false,
+     "text": "Yes I did. Both of them. Don't fuss."
+    },
+    {
+     "me": true,
+     "text": "Not fussing. Just checking. Calendar says the blue one too"
+    },
+    {
+     "me": false,
+     "text": "Lord. The blue one too. Fine."
+    },
+    {
+     "me": false,
+     "text": "The furnace is making that clicking again"
+    },
+    {
+     "me": true,
+     "text": "I'll look at it when I get home. Don't touch it"
+    },
+    {
+     "me": false,
+     "text": "I wasn't going to. Your grandfather would have, though. Albert never met a machine he couldn't make worse."
+    },
+    {
+     "me": true,
+     "text": "😂 true"
+    },
+    {
+     "me": false,
+     "text": "Your socks are on the dryer. Love you my boy"
+    },
+    {
+     "me": true,
+     "text": "Love you too"
+    },
+    {
+     "me": false,
+     "text": "Can you pick up thread at the fabric store on Bardstown? Cream, two spools."
+    },
+    {
+     "me": true,
+     "text": "Sure. Cream, two"
+    },
+    {
+     "me": false,
+     "text": "Thank you, my boy. Mrs. Okafor's hem is not going to mend itself."
+    },
+    {
+     "me": true,
+     "text": "Got them. They only had one cream so I got an off-white for the other"
+    },
+    {
+     "me": false,
+     "text": "Off-white will do. It's a hem, not a wedding gown."
+    },
+    {
+     "me": false,
+     "text": "Eye doctor is tomorrow at 10. You're driving me"
+    },
+    {
+     "me": true,
+     "text": "I'll be there"
+    },
+    {
+     "me": true,
+     "text": "Eye appointment is tomorrow at 10 right?"
+    },
+    {
+     "me": false,
+     "text": "Ten o'clock. I laid out my good cardigan."
+    },
+    {
+     "me": true,
+     "text": "I'll bring the car around at 9:30"
+    },
+    {
+     "me": false,
+     "text": "Thank you honey. I can't see the road like I used to."
+    },
+    {
+     "me": true,
+     "text": "That's why I'm driving 😄"
+    },
+    {
+     "me": false,
+     "text": "Doctor says the drops again and come back in three months. Same as always."
+    },
+    {
+     "me": true,
+     "text": "Good. That's good news Gran"
+    },
+    {
+     "me": false,
+     "text": "Lord, the azaleas are about to bloom"
+    },
+    {
+     "me": false,
+     "text": "Neighbor's cat got in the garden again. Dug up my tulips. That animal has no manners."
+    },
+    {
+     "me": true,
+     "text": "I'll get some of that spray stuff from Larkspur Hardware"
+    },
+    {
+     "me": false,
+     "text": "Do. And a pack of marigold seeds if they have them."
+    },
+    {
+     "me": false,
+     "text": "Bring your umbrella honey, it's coming down"
+    },
+    {
+     "me": true,
+     "text": "Ok Gran"
+    },
+    {
+     "me": false,
+     "text": "Was thinking of making cornbread tonight. You want to come home for it?"
+    },
+    {
+     "me": true,
+     "text": "I'm out for a bit. Save me some?"
+    },
+    {
+     "me": false,
+     "text": "I'll wrap it in foil. You eat out too much, my boy. You're thin as a bobbin."
+    },
+    {
+     "me": true,
+     "text": "I eat plenty lol"
+    },
+    {
+     "me": false,
+     "text": "Gas station coffee is not a meal."
+    },
+    {
+     "me": false,
+     "text": "Did you eat? There's meatloaf"
+    },
+    {
+     "me": true,
+     "text": "Yeah I ate"
+    },
+    {
+     "me": false,
+     "text": "Mrs. Okafor's cat is on my porch again"
+    },
+    {
+     "me": true,
+     "text": "lol I'll shoo it"
+    },
+    {
+     "me": false,
+     "text": "Church ladies are doing the spring rummage sale. Want to help me carry boxes?"
+    },
+    {
+     "me": true,
+     "text": "What time?"
+    },
+    {
+     "me": false,
+     "text": "Nine tomorrow. Pastor Dale will have coffee."
+    },
+    {
+     "me": true,
+     "text": "Ok I'll be up"
+    },
+    {
+     "me": false,
+     "text": "Pastor asked about you at church. Said you're a fine young man"
+    },
+    {
+     "me": true,
+     "text": "Tell him hi"
+    },
+    {
+     "me": false,
+     "text": "You were up at four last night. I heard the stairs. You sleeping alright?"
+    },
+    {
+     "me": true,
+     "text": "Yeah just restless. Too much coffee"
+    },
+    {
+     "me": false,
+     "text": "Warm milk. It worked on your mother when she was small. 💔"
+    },
+    {
+     "me": true,
+     "text": "Maybe I'll try it"
+    },
+    {
+     "me": false,
+     "text": "Pills at 8, don't let me forget"
+    },
+    {
+     "me": true,
+     "text": "Already set an alarm Gran"
+    },
+    {
+     "me": false,
+     "text": "Honey, pot roast tonight. Be home by six?"
+    },
+    {
+     "me": true,
+     "text": "yes ma'am, should be"
+    },
+    {
+     "me": false,
+     "text": "Mrs. Okafor brought over tomatoes. Take a few to Jaylen's mama."
+    },
+    {
+     "me": true,
+     "text": "lol ok"
+    },
+    {
+     "me": false,
+     "text": "Your granddaddy would have fixed that squeaky step in a minute"
+    },
+    {
+     "me": true,
+     "text": "I'll do it soon, promise"
+    },
+    {
+     "me": false,
+     "text": "Storm coming in. Bring the car under the carport."
+    },
+    {
+     "me": true,
+     "text": "Already did. Gutters ok?"
+    },
+    {
+     "me": false,
+     "text": "Fine as far as I can tell. The sky looks like a bruise."
+    },
+    {
+     "me": false,
+     "text": "Eye appointment got moved to the afternoon. Lord, they never tell you till the last minute."
+    },
+    {
+     "me": true,
+     "text": "I'll take you. Just tell me when"
+    },
+    {
+     "me": false,
+     "text": "Thank you, my boy"
+    },
+    {
+     "me": true,
+     "text": "Kroger called, your refill is ready. I can grab it on my way"
+    },
+    {
+     "me": false,
+     "text": "Bless you honey."
+    },
+    {
+     "me": true,
+     "text": "Got it. Set it on the kitchen counter"
+    },
+    {
+     "me": false,
+     "text": "Dryer's making that rattle again. Like a loose button in a coffee can."
+    },
+    {
+     "me": true,
+     "text": "I'll look at it this weekend"
+    },
+    {
+     "me": false,
+     "text": "Thread broke on my machine. Spent an hour re-threading it"
+    },
+    {
+     "me": true,
+     "text": "Want me to look at it?"
+    },
+    {
+     "me": false,
+     "text": "No honey, I just miss the sound of it. Love you my boy"
+    },
+    {
+     "me": false,
+     "text": "Heather is coming by with the baby. You'll be home?"
+    },
+    {
+     "me": true,
+     "text": "Should be. Text me when they pull up"
+    },
+    {
+     "me": false,
+     "text": "You're a good boy when you want to be. Don't forget it."
+    },
+    {
+     "me": false,
+     "text": "You're up late again. I heard the porch door"
+    },
+    {
+     "me": true,
+     "text": "Just a call. Go back to sleep"
+    },
+    {
+     "me": false,
+     "text": "Left you a plate in the oven. Cornbread too."
+    },
+    {
+     "me": true,
+     "text": "thanks Gran, you're the best"
+    },
+    {
+     "me": false,
+     "text": "Eye doctor appointment is next week, my boy. Don't forget"
+    },
+    {
+     "me": true,
+     "text": "I put it on the calendar"
+    },
+    {
+     "me": false,
+     "text": "Bless you. You're a good stitch in a tired quilt"
+    },
+    {
+     "me": true,
+     "text": "lol"
+    },
+    {
+     "me": false,
+     "text": "Morning my boy. Did you eat?"
+    },
+    {
+     "me": true,
+     "text": "Not yet, running out"
+    },
+    {
+     "me": false,
+     "text": "Lord. A body can't run on coffee alone"
+    },
+    {
+     "me": true,
+     "text": "Gas station coffee counts as a food group"
+    },
+    {
+     "me": false,
+     "text": "That boy. 😤"
+    },
+    {
+     "me": false,
+     "text": "Pot roast tonight. Home by six?"
+    },
+    {
+     "me": true,
+     "text": "Probably late"
+    },
+    {
+     "me": false,
+     "text": "Mrs. Okafor brought over a peach cobbler. Saved you a piece"
+    },
+    {
+     "me": true,
+     "text": "Save two"
+    },
+    {
+     "me": false,
+     "text": "One. I have to leave some for me."
+    },
+    {
+     "me": true,
+     "text": "Fair 😂"
+    },
+    {
+     "me": false,
+     "text": "Dr. Alvarez wants me back next week"
+    },
+    {
+     "me": true,
+     "text": "I'll drive you, putting it in my calendar"
+    },
+    {
+     "me": false,
+     "text": "Bring your patience. Those drops make me see like a wet sheet"
+    },
+    {
+     "me": false,
+     "text": "Church picnic is this weekend. You coming, honey?"
+    },
+    {
+     "me": true,
+     "text": "lol you'll be fine"
+    },
+    {
+     "me": false,
+     "text": "Made biscuits. Come eat"
+    },
+    {
+     "me": true,
+     "text": "omw"
+    },
+    {
+     "me": false,
+     "text": "Found your daddy's old photo in the sewing box. Y'all were at the fair"
+    },
+    {
+     "me": true,
+     "text": "Ray's in it? Didn't know you kept one"
+    },
+    {
+     "me": false,
+     "text": "A mother keeps everything. Even the buttons nobody wants"
+    },
+    {
+     "me": true,
+     "text": "Save it for me"
+    },
+    {
+     "me": false,
+     "text": "I will, honey"
+    },
+    {
+     "me": false,
+     "text": "Your blue shirt has a loose thread at the collar. Leave it out and I'll mend it"
+    },
+    {
+     "me": true,
+     "text": "It's the old polo, I'm fine"
+    },
+    {
+     "me": false,
+     "text": "A loose thread pulls the whole seam, my boy. Leave it out"
+    },
+    {
+     "me": true,
+     "text": "Ok ok. On the chair"
+    },
+    {
+     "me": false,
+     "text": "Did you pick up my drops from the pharmacy?"
+    },
+    {
+     "me": true,
+     "text": "yes ma'am, in the bag on the counter"
+    },
+    {
+     "me": false,
+     "text": "Lord, you think of everything"
+    },
+    {
+     "me": false,
+     "text": "Home for supper?"
+    },
+    {
+     "me": true,
+     "text": "running late. save me a plate"
+    },
+    {
+     "me": false,
+     "text": "Always do"
+    },
+    {
+     "me": false,
+     "text": "Albert used to say the same thing"
+    },
+    {
+     "me": true,
+     "text": "haha I bet"
+    },
+    {
+     "me": false,
+     "text": "Albert would've fixed that squeaky stair by now"
+    },
+    {
+     "me": true,
+     "text": "I'll grab screws from Larkspur Hardware tomorrow"
+    },
+    {
+     "me": false,
+     "text": "Do. I don't need to break a hip over a stair"
+    },
+    {
+     "me": true,
+     "text": "Promise I'll get it done"
+    },
+    {
+     "me": false,
+     "text": "Morning honey. Hot already. Drink water"
+    },
+    {
+     "me": false,
+     "text": "Pancakes on the stove if you want them"
+    },
+    {
+     "me": true,
+     "text": "Smells awesome, down in 5"
+    },
+    {
+     "me": false,
+     "text": "Hurry, they won't wait on you"
+    },
+    {
+     "me": false,
+     "text": "Wash your hands first."
+    },
+    {
+     "me": true,
+     "text": "yes ma'am"
+    },
+    {
+     "me": false,
+     "text": "Home yet? I left a plate in the oven"
+    },
+    {
+     "me": true,
+     "text": "Soon"
+    }
+   ],
+   "avatar": "msg_1.webp"
+  },
+  {
+   "id": "mut-conv-casino-ad",
+   "title": "Unknown",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Silver Creek Players Club: 2X points tonight only. Show this text at the desk. Reply STOP to opt out."
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-ray",
+   "title": "Ray",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hey kid. Cards looking good this year?"
+    },
+    {
+     "me": true,
+     "text": "Yeah not bad. You watching?"
+    },
+    {
+     "me": false,
+     "text": "Every game. Radio when I'm on the road."
+    },
+    {
+     "me": false,
+     "text": "Truck still running?"
+    },
+    {
+     "me": true,
+     "text": "Mine? No I've got the Civic"
+    },
+    {
+     "me": false,
+     "text": "Right right. Civic. Keep the oil changed."
+    },
+    {
+     "me": true,
+     "text": "Will do"
+    },
+    {
+     "me": false,
+     "text": "Hey bud, truck's in the shop again. Transmission."
+    },
+    {
+     "me": true,
+     "text": "damn, sorry to hear that"
+    },
+    {
+     "me": false,
+     "text": "Nothing new. Everything I own is held together with duct tape"
+    },
+    {
+     "me": false,
+     "text": "Passing through Louisville in a couple weeks. Lunch?"
+    },
+    {
+     "me": true,
+     "text": "Sure. Text me when you're close"
+    },
+    {
+     "me": false,
+     "text": "Will do. You pick the spot, nothing fancy"
+    },
+    {
+     "me": true,
+     "text": "Papa Joe's. Chicken"
+    },
+    {
+     "me": false,
+     "text": "Good call."
+    },
+    {
+     "me": false,
+     "text": "Good seeing you. You look thin. Eat more."
+    },
+    {
+     "me": true,
+     "text": "Everybody keeps saying that lol"
+    },
+    {
+     "me": false,
+     "text": "Listen to everybody then."
+    },
+    {
+     "me": false,
+     "text": "Saw the Reds won. You still follow them?"
+    },
+    {
+     "me": true,
+     "text": "a little. mostly basketball now"
+    },
+    {
+     "me": false,
+     "text": "Fair enough"
+    },
+    {
+     "me": false,
+     "text": "Saw a '71 Chevelle at a swap meet. Thought of you and your records. Not sure why."
+    },
+    {
+     "me": true,
+     "text": "haha. send a pic"
+    },
+    {
+     "me": false,
+     "text": "Phone camera is broken. Just trust me, it was clean."
+    },
+    {
+     "me": false,
+     "text": "Cuz, my brakes are squealing like a pig. Can you spot me $60 for pads till payday"
+    },
+    {
+     "me": true,
+     "text": "Sent it on PayPal"
+    },
+    {
+     "me": false,
+     "text": "You're a lifesaver"
+    },
+    {
+     "me": false,
+     "text": "Bring the Civic by, I'll check your oil for free"
+    },
+    {
+     "me": true,
+     "text": "Will do"
+    },
+    {
+     "me": false,
+     "text": "Found a picture of your mom at the lake. Want me to send it?"
+    },
+    {
+     "me": true,
+     "text": "yeah. I'd like that"
+    },
+    {
+     "me": false,
+     "text": "Will mail it. Still got your address?"
+    },
+    {
+     "me": true,
+     "text": "1418 Larkspur, same as always"
+    },
+    {
+     "me": false,
+     "text": "Good. Tell your gran I said hello"
+    },
+    {
+     "me": true,
+     "text": "will do"
+    },
+    {
+     "me": false,
+     "text": "Hot enough for you down there?"
+    },
+    {
+     "me": true,
+     "text": "Heat index was 105 yesterday"
+    },
+    {
+     "me": false,
+     "text": "Drink water. Check on your grandmother's AC."
+    },
+    {
+     "me": true,
+     "text": "Already did. Filter's new"
+    },
+    {
+     "me": false,
+     "text": "Good boy."
+    },
+    {
+     "me": false,
+     "text": "Birthday dinner for me at Aunt Lorraine's next week, you coming?"
+    },
+    {
+     "me": true,
+     "text": "I'll try"
+    },
+    {
+     "me": false,
+     "text": "Your oil light is gonna come on any day now cuz"
+    },
+    {
+     "me": false,
+     "text": "Season opener's soon. Might drive up if I can get off."
+    },
+    {
+     "me": true,
+     "text": "Let me know. I'll find tickets"
+    },
+    {
+     "me": false,
+     "text": "You alive?"
+    },
+    {
+     "me": true,
+     "text": "yeah"
+    },
+    {
+     "me": false,
+     "text": "Saw the Wildcats schedule is out"
+    },
+    {
+     "me": true,
+     "text": "yeah"
+    },
+    {
+     "me": false,
+     "text": "You still want to catch a game or what"
+    },
+    {
+     "me": true,
+     "text": "maybe. we'll see"
+    },
+    {
+     "me": false,
+     "text": "Fair enough"
+    },
+    {
+     "me": false,
+     "text": "I'm trying here"
+    },
+    {
+     "me": true,
+     "text": "i know"
+    },
+    {
+     "me": true,
+     "text": "just give me time"
+    },
+    {
+     "me": false,
+     "text": "Take all you need. Not going anywhere"
+    },
+    {
+     "me": false,
+     "text": "Hey bud. Anyone catch the game last night?"
+    },
+    {
+     "me": true,
+     "text": "Reds lost again"
+    },
+    {
+     "me": false,
+     "text": "Always do. Bullpen's a mess"
+    },
+    {
+     "me": true,
+     "text": "Can't believe they gave up 6 in the 8th"
+    },
+    {
+     "me": false,
+     "text": "Still love em"
+    },
+    {
+     "me": true,
+     "text": "Yeah"
+    },
+    {
+     "me": false,
+     "text": "Working double shifts at the warehouse in Elizabethtown. Tired"
+    },
+    {
+     "me": true,
+     "text": "Rough. Take care of your back"
+    },
+    {
+     "me": false,
+     "text": "Trying. How's your grandma"
+    },
+    {
+     "me": true,
+     "text": "She's good. Does her crossword every morning"
+    },
+    {
+     "me": false,
+     "text": "Tell her I said hi"
+    },
+    {
+     "me": true,
+     "text": "Maybe"
+    },
+    {
+     "me": false,
+     "text": "Fair enough"
+    },
+    {
+     "me": false,
+     "text": "Found some old tapes of your high school games. Want me to mail them?"
+    },
+    {
+     "me": true,
+     "text": "sure"
+    },
+    {
+     "me": false,
+     "text": "Will do"
+    },
+    {
+     "me": false,
+     "text": "Truck's making a noise again"
+    },
+    {
+     "me": true,
+     "text": "Timing belt?"
+    },
+    {
+     "me": false,
+     "text": "Mechanic says maybe the alternator"
+    },
+    {
+     "me": true,
+     "text": "Get it checked before it strands you"
+    },
+    {
+     "me": false,
+     "text": "Yeah yeah"
+    },
+    {
+     "me": false,
+     "text": "Thinking of coming up to Louisville soon"
+    },
+    {
+     "me": true,
+     "text": "Let me know when"
+    },
+    {
+     "me": false,
+     "text": "Will do. Dinner on me"
+    },
+    {
+     "me": true,
+     "text": "We'll see"
+    },
+    {
+     "me": false,
+     "text": "Alright bud. Talk soon."
+    },
+    {
+     "me": true,
+     "text": "Later"
+    }
+   ],
+   "avatar": "msg_3.webp"
+  },
+  {
+   "id": "mut-conv-heather",
+   "title": "Heather",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hey cuz! Mom says Gran's been tired lately. Is she eating ok?"
+    },
+    {
+     "me": true,
+     "text": "She's ok. Cooks every day. Just slower"
+    },
+    {
+     "me": false,
+     "text": "Good. Thank you for living with her. Seriously."
+    },
+    {
+     "me": true,
+     "text": "It's what you do"
+    },
+    {
+     "me": false,
+     "text": "Danny, did you see Mom's text about the reunion?"
+    },
+    {
+     "me": true,
+     "text": "which reunion"
+    },
+    {
+     "me": false,
+     "text": "The Pruitt one at Uncle Walt's lake place. Late summer"
+    },
+    {
+     "me": true,
+     "text": "oh. maybe"
+    },
+    {
+     "me": false,
+     "text": "Not maybe. Gran wants everyone there"
+    },
+    {
+     "me": false,
+     "text": "We're doing Easter at our place. Can you bring Gran?"
+    },
+    {
+     "me": true,
+     "text": "Yeah I'll drive her. What time"
+    },
+    {
+     "me": false,
+     "text": "Noon-ish. Ham and deviled eggs. Don't let her bring a dish, she'll try"
+    },
+    {
+     "me": true,
+     "text": "She's already baking a pie lol"
+    },
+    {
+     "me": false,
+     "text": "Of course she is 😂"
+    },
+    {
+     "me": false,
+     "text": "Thanks for coming. The kids loved seeing you"
+    },
+    {
+     "me": true,
+     "text": "They got big. Your oldest has a good arm"
+    },
+    {
+     "me": false,
+     "text": "He wants you to teach him to shoot hoops"
+    },
+    {
+     "me": true,
+     "text": "Anytime. Bring him to Waterfront Park"
+    },
+    {
+     "me": false,
+     "text": "Made a lasagna and it's too big. Want half?"
+    },
+    {
+     "me": true,
+     "text": "yes please"
+    },
+    {
+     "me": false,
+     "text": "Come by around 7. The kids will be thrilled to see you"
+    },
+    {
+     "me": false,
+     "text": "Do you still have Mom's recipe box? Aunt Pat is asking"
+    },
+    {
+     "me": true,
+     "text": "It's in the kitchen cabinet. I'll ask Gran"
+    },
+    {
+     "me": false,
+     "text": "Thank you. Just photocopy the pie card, no rush"
+    },
+    {
+     "me": false,
+     "text": "Little Maya lost her first tooth! 🦷"
+    },
+    {
+     "me": true,
+     "text": "haha tell her congrats"
+    },
+    {
+     "me": false,
+     "text": "The baby has a tooth!!"
+    },
+    {
+     "me": true,
+     "text": "Congrats! Does it bite"
+    },
+    {
+     "me": false,
+     "text": "Only me 😭"
+    },
+    {
+     "me": false,
+     "text": "Family reunion planning thread is going crazy. Are you coming?"
+    },
+    {
+     "me": false,
+     "text": "You look tired in that last photo Gran sent me"
+    },
+    {
+     "me": true,
+     "text": "just been busy"
+    },
+    {
+     "me": false,
+     "text": "Eat something. Call me if you need anything, I mean it"
+    },
+    {
+     "me": true,
+     "text": "Probably. Will confirm after I check my schedule"
+    },
+    {
+     "me": false,
+     "text": "You always say probably"
+    },
+    {
+     "me": true,
+     "text": "I'll be there. Promise"
+    },
+    {
+     "me": true,
+     "text": "I will"
+    },
+    {
+     "me": false,
+     "text": "Dropping by Gran's with the baby this afternoon. Is the coast clear?"
+    },
+    {
+     "me": true,
+     "text": "Yeah she's up. She's been cleaning since 7"
+    },
+    {
+     "me": false,
+     "text": "Lol. I'm bringing lemon bars."
+    },
+    {
+     "me": true,
+     "text": "She'll pretend she doesn't want one and eat two"
+    },
+    {
+     "me": false,
+     "text": "Danny. You ok? You looked tired."
+    },
+    {
+     "me": true,
+     "text": "Yeah just working a lot. I'm good"
+    },
+    {
+     "me": false,
+     "text": "Ok. Call me if you need anything. Mean it."
+    },
+    {
+     "me": false,
+     "text": "Can you pick up Maya's cake from Kroger tomorrow?"
+    },
+    {
+     "me": true,
+     "text": "sure, what time"
+    },
+    {
+     "me": false,
+     "text": "Did Gran tell you about the church fish fry this weekend?"
+    },
+    {
+     "me": true,
+     "text": "she did. she's making me drive"
+    },
+    {
+     "me": false,
+     "text": "of course 😂"
+    },
+    {
+     "me": false,
+     "text": "my kids want to see you"
+    },
+    {
+     "me": true,
+     "text": "tell them I said hey"
+    },
+    {
+     "me": false,
+     "text": "Mason lost his front tooth today. Tooth fairy economics are ridiculous"
+    },
+    {
+     "me": true,
+     "text": "what's the going rate"
+    },
+    {
+     "me": false,
+     "text": "five bucks. In MY day it was a quarter"
+    },
+    {
+     "me": true,
+     "text": "inflation"
+    },
+    {
+     "me": false,
+     "text": "Mom's making you a care package, tell me your size for the socks"
+    },
+    {
+     "me": true,
+     "text": "lol 11"
+    },
+    {
+     "me": false,
+     "text": "Ha, she said 10. You're a liar"
+    },
+    {
+     "me": true,
+     "text": "Ok 10.5"
+    },
+    {
+     "me": false,
+     "text": "Finally 😂"
+    },
+    {
+     "me": false,
+     "text": "Little Owen lost his first tooth!!"
+    },
+    {
+     "me": true,
+     "text": "Tooth fairy rates up?"
+    },
+    {
+     "me": false,
+     "text": "He asked for a dollar and a Lego"
+    },
+    {
+     "me": true,
+     "text": "Hard bargain"
+    },
+    {
+     "me": false,
+     "text": "He's a negotiator, takes after you"
+    },
+    {
+     "me": false,
+     "text": "you eating enough? Gran worries"
+    },
+    {
+     "me": true,
+     "text": "i'm fine. everyone keeps saying that"
+    },
+    {
+     "me": false,
+     "text": "because we love you, dummy"
+    },
+    {
+     "me": true,
+     "text": "love you too"
+    },
+    {
+     "me": false,
+     "text": "We're doing burgers on the grill next month, come"
+    },
+    {
+     "me": true,
+     "text": "Will try"
+    },
+    {
+     "me": false,
+     "text": "Bring the speaker"
+    },
+    {
+     "me": true,
+     "text": "On it"
+    },
+    {
+     "me": false,
+     "text": "How's Gran? Haven't talked to her in ages"
+    },
+    {
+     "me": true,
+     "text": "Good, doing crosswords and mixing up her tea"
+    },
+    {
+     "me": false,
+     "text": "Tell her I'll call this week"
+    },
+    {
+     "me": true,
+     "text": "She'd love that"
+    },
+    {
+     "me": false,
+     "text": "Love you, cuz"
+    },
+    {
+     "me": true,
+     "text": "Love you too ❤️"
+    },
+    {
+     "me": false,
+     "text": "Fish fry pics coming. Gran in the front row"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-waterfront-5v5",
+   "title": "Waterfront 5v5 Court Captain, Dre, Tyler, Jaylen",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Court 2 is open tomorrow evening, who's in?"
+    },
+    {
+     "me": false,
+     "text": "in"
+    },
+    {
+     "me": false,
+     "text": "in"
+    },
+    {
+     "me": true,
+     "text": "I'm in if my knee holds up"
+    },
+    {
+     "me": false,
+     "text": "we need one more or it's 4v4"
+    },
+    {
+     "me": false,
+     "text": "Courts open at 6 tonight. We need 10 for two full teams."
+    },
+    {
+     "me": false,
+     "text": "I'm in"
+    },
+    {
+     "me": false,
+     "text": "in"
+    },
+    {
+     "me": true,
+     "text": "count me"
+    },
+    {
+     "me": false,
+     "text": "Maybe, got work till 6"
+    },
+    {
+     "me": false,
+     "text": "Shirts vs skins like last time?"
+    },
+    {
+     "me": false,
+     "text": "Nobody wants to see your skins Dre"
+    },
+    {
+     "me": true,
+     "text": "😂😂"
+    },
+    {
+     "me": false,
+     "text": "Good run last night. Same time next week."
+    },
+    {
+     "me": false,
+     "text": "Danny hit like 5 threes in a row, I'm still mad"
+    },
+    {
+     "me": true,
+     "text": "muscle memory from high school"
+    },
+    {
+     "me": false,
+     "text": "Reminder: bring your own water, fountain by the pavilion is broken."
+    },
+    {
+     "me": false,
+     "text": "who has the good ball??"
+    },
+    {
+     "me": false,
+     "text": "mine's in my trunk"
+    },
+    {
+     "me": false,
+     "text": "Who has the pump? Ball is soft"
+    },
+    {
+     "me": true,
+     "text": "In my trunk. I'll bring it"
+    },
+    {
+     "me": false,
+     "text": "Forecast says rain tomorrow. Might get canceled."
+    },
+    {
+     "me": false,
+     "text": "Indoor courts at the Y if it does"
+    },
+    {
+     "me": true,
+     "text": "Y costs money lol"
+    },
+    {
+     "me": false,
+     "text": "Five bucks a head. Captain will cover the first round"
+    },
+    {
+     "me": false,
+     "text": "Rain's holding off. Courts are wet but playable"
+    },
+    {
+     "me": false,
+     "text": "Slippery. Don't go for the dunk Tyler"
+    },
+    {
+     "me": false,
+     "text": "I can't dunk, relax"
+    },
+    {
+     "me": false,
+     "text": "Parks dept is resurfacing court 2 next week. We use court 1 and 3."
+    },
+    {
+     "me": true,
+     "text": "Copy"
+    },
+    {
+     "me": false,
+     "text": "Anybody got a spare water jug? Mine cracked"
+    },
+    {
+     "me": false,
+     "text": "I've got one"
+    },
+    {
+     "me": false,
+     "text": "Heat advisory today. Games start after 7 PM."
+    },
+    {
+     "me": false,
+     "text": "thank god"
+    },
+    {
+     "me": false,
+     "text": "Heat advisory today. Let's start at 7:30 instead."
+    },
+    {
+     "me": false,
+     "text": "Smart"
+    },
+    {
+     "me": true,
+     "text": "7:30 works"
+    },
+    {
+     "me": false,
+     "text": "We went 3-1 last night. Respectable."
+    },
+    {
+     "me": false,
+     "text": "Dre carried"
+    },
+    {
+     "me": false,
+     "text": "I accept the praise"
+    },
+    {
+     "me": false,
+     "text": "Danny still can't guard me lol"
+    },
+    {
+     "me": true,
+     "text": "you hit one shot all night"
+    },
+    {
+     "me": false,
+     "text": "a good one tho"
+    },
+    {
+     "me": false,
+     "text": "New guy wants to join, says he played D2. Bring him?"
+    },
+    {
+     "me": true,
+     "text": "If he can pass sure"
+    },
+    {
+     "me": false,
+     "text": "Bring him. We'll see."
+    },
+    {
+     "me": false,
+     "text": "He's alright. Doesn't pass 😂"
+    },
+    {
+     "me": false,
+     "text": "Locked up the lights for 8pm games starting next month"
+    },
+    {
+     "me": false,
+     "text": "Finally"
+    },
+    {
+     "me": false,
+     "text": "Reminder: run starts at 7 tonight. Court 2 is ours"
+    },
+    {
+     "me": false,
+     "text": "I'm bringing the good ball"
+    },
+    {
+     "me": false,
+     "text": "last time the \"good ball\" was flat"
+    },
+    {
+     "me": false,
+     "text": "that was ONE time"
+    },
+    {
+     "me": false,
+     "text": "lmao"
+    },
+    {
+     "me": true,
+     "text": "I'm in"
+    },
+    {
+     "me": false,
+     "text": "Need one more for teams"
+    },
+    {
+     "me": false,
+     "text": "Danny's in"
+    },
+    {
+     "me": false,
+     "text": "Danny does his best work in the fourth quarter"
+    },
+    {
+     "me": false,
+     "text": "Lights at the court go off at 10. Wrap it up on time please."
+    },
+    {
+     "me": false,
+     "text": "Court closed for resurfacing tomorrow morning. Back by evening"
+    },
+    {
+     "me": false,
+     "text": "so no morning run"
+    },
+    {
+     "me": false,
+     "text": "Correct"
+    },
+    {
+     "me": false,
+     "text": "Tonight still on?"
+    },
+    {
+     "me": false,
+     "text": "Yep 6:30"
+    },
+    {
+     "me": true,
+     "text": "I'll be late, car trouble"
+    },
+    {
+     "me": false,
+     "text": "We'll start without you 😅"
+    },
+    {
+     "me": false,
+     "text": "Good game everybody"
+    },
+    {
+     "me": false,
+     "text": "Run it back next week"
+    },
+    {
+     "me": false,
+     "text": "who won tonight, my team obviously"
+    },
+    {
+     "me": false,
+     "text": "you lost by six"
+    },
+    {
+     "me": false,
+     "text": "refs were biased"
+    },
+    {
+     "me": true,
+     "text": "there are no refs Dre 😂"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-okafor",
+   "title": "Mrs. Okafor",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Good morning Danny, this is Ngozi Okafor next door. Your trash bins are still at the curb from last week"
+    },
+    {
+     "me": true,
+     "text": "thanks Mrs. Okafor, I'll bring them in"
+    },
+    {
+     "me": false,
+     "text": "Bless you"
+    },
+    {
+     "me": false,
+     "text": "Your grandmother left her umbrella on my porch. I will bring it over"
+    },
+    {
+     "me": true,
+     "text": "thank you. she's always leaving stuff places"
+    },
+    {
+     "me": false,
+     "text": "I made too much jollof. Would you and your grandmother like a plate?"
+    },
+    {
+     "me": true,
+     "text": "yes ma'am please"
+    },
+    {
+     "me": false,
+     "text": "Come over in ten minutes"
+    },
+    {
+     "me": true,
+     "text": "that was the best thing I've eaten in months. Gran loved it"
+    },
+    {
+     "me": false,
+     "text": "You are too thin. Come back anytime"
+    },
+    {
+     "me": false,
+     "text": "Danny dear, your trash cans are still out front"
+    },
+    {
+     "me": true,
+     "text": "Thanks Mrs. Okafor, bringing them in now"
+    },
+    {
+     "me": false,
+     "text": "A truck is blocking my driveway, is it yours?"
+    },
+    {
+     "me": true,
+     "text": "no ma'am my Civic is in the street. I'll check"
+    },
+    {
+     "me": true,
+     "text": "it's the landscaper. told him to move"
+    },
+    {
+     "me": false,
+     "text": "Thank you. God bless"
+    },
+    {
+     "me": false,
+     "text": "God bless. I made sweet potato pie for your grandmother"
+    },
+    {
+     "me": true,
+     "text": "She'll love that. I'll come grab it"
+    },
+    {
+     "me": false,
+     "text": "Come to the back door, my hands are in dough"
+    },
+    {
+     "me": false,
+     "text": "Fireworks are scaring my dog. Sorry if he is barking"
+    },
+    {
+     "me": true,
+     "text": "no worries at all"
+    },
+    {
+     "me": false,
+     "text": "Your gutter is hanging loose on the side by my fence"
+    },
+    {
+     "me": true,
+     "text": "oh no, I'll fix it this weekend"
+    },
+    {
+     "me": false,
+     "text": "Thank you dear. A ladder is in my garage if you need one"
+    },
+    {
+     "me": false,
+     "text": "Will you help me with the ladder? Smoke detector is beeping and I can't reach"
+    },
+    {
+     "me": true,
+     "text": "coming over now"
+    },
+    {
+     "me": false,
+     "text": "Saw a stray cat on your porch. Looks hungry"
+    },
+    {
+     "me": true,
+     "text": "Gran probably feeds it, I'll check"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-jaylen",
+   "title": "Jaylen",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "yo did you see the game last night"
+    },
+    {
+     "me": true,
+     "text": "nah fell asleep. who won"
+    },
+    {
+     "me": false,
+     "text": "Cards by 6. Ugly but a win"
+    },
+    {
+     "me": true,
+     "text": "lets go"
+    },
+    {
+     "me": false,
+     "text": "you coming to the gym at all or nah"
+    },
+    {
+     "me": true,
+     "text": "been slammed bro. next week"
+    },
+    {
+     "me": false,
+     "text": "you said that last week"
+    },
+    {
+     "me": true,
+     "text": "😂 ok ok"
+    },
+    {
+     "me": false,
+     "text": "made it. thanks for the ride man"
+    },
+    {
+     "me": true,
+     "text": "anytime. say hi to your mom"
+    },
+    {
+     "me": false,
+     "text": "Need a ride to the airport on the 3rd? my cousin flaked"
+    },
+    {
+     "me": true,
+     "text": "yeah I got you. what time"
+    },
+    {
+     "me": false,
+     "text": "6am flight so like 4"
+    },
+    {
+     "me": true,
+     "text": "bro. ok. you owe me breakfast"
+    },
+    {
+     "me": false,
+     "text": "deal. Papa Joe's wings on me when I'm back"
+    },
+    {
+     "me": false,
+     "text": "yo you see the game last night"
+    },
+    {
+     "me": true,
+     "text": "bro the refs were trash"
+    },
+    {
+     "me": false,
+     "text": "fr fr"
+    },
+    {
+     "me": false,
+     "text": "Wings tonight? Bardstown Rd spot has the two for one"
+    },
+    {
+     "me": true,
+     "text": "I'm in"
+    },
+    {
+     "me": false,
+     "text": "new Kendrick dropped you heard it?"
+    },
+    {
+     "me": false,
+     "text": "Bro that sauce was too hot, I'm still sweating 😂"
+    },
+    {
+     "me": true,
+     "text": "Told you"
+    },
+    {
+     "me": true,
+     "text": "listening now. track 4 is crazy"
+    },
+    {
+     "me": false,
+     "text": "RIGHT??"
+    },
+    {
+     "me": false,
+     "text": "you still got that Civic making the noise"
+    },
+    {
+     "me": true,
+     "text": "yeah the belt. going to Speedway Auto Care this week"
+    },
+    {
+     "me": false,
+     "text": "don't let them upsell you on the air filter again"
+    },
+    {
+     "me": true,
+     "text": "lol never again"
+    },
+    {
+     "me": false,
+     "text": "my cousin got a spare ticket for the Cards game next month"
+    },
+    {
+     "me": true,
+     "text": "if im free im down"
+    },
+    {
+     "me": false,
+     "text": "you always say that lol"
+    },
+    {
+     "me": false,
+     "text": "pickup tomorrow at the park? we're short one"
+    },
+    {
+     "me": true,
+     "text": "what time"
+    },
+    {
+     "me": false,
+     "text": "6ish. bring the good ball not the flat one"
+    },
+    {
+     "me": true,
+     "text": "the flat one has character"
+    },
+    {
+     "me": false,
+     "text": "you shot like trash btw 😂"
+    },
+    {
+     "me": true,
+     "text": "I was tired. rematch"
+    },
+    {
+     "me": false,
+     "text": "you good lately? you been kinda ghost"
+    },
+    {
+     "me": true,
+     "text": "yeah just busy. I'm good"
+    },
+    {
+     "me": false,
+     "text": "ok. you know where I am"
+    },
+    {
+     "me": true,
+     "text": "appreciate it"
+    },
+    {
+     "me": false,
+     "text": "my mama says thanks for the tomatoes"
+    },
+    {
+     "me": true,
+     "text": "tell her thank Gran, not me 😂"
+    },
+    {
+     "me": false,
+     "text": "cookout at my mom's next weekend. she's making the mac"
+    },
+    {
+     "me": true,
+     "text": "say less. what do I bring"
+    },
+    {
+     "me": false,
+     "text": "just yourself and ice"
+    },
+    {
+     "me": false,
+     "text": "You good? Haven't seen you at the office"
+    },
+    {
+     "me": true,
+     "text": "Yeah just busy"
+    },
+    {
+     "me": false,
+     "text": "Ok man. Wings on me this week"
+    },
+    {
+     "me": true,
+     "text": "got the ice. omw"
+    },
+    {
+     "me": false,
+     "text": "your sneakers are clean btw. the white ones"
+    },
+    {
+     "me": true,
+     "text": "thanks lol. those are the last pair"
+    },
+    {
+     "me": false,
+     "text": "u still got that old Zeppelin vinyl? thinking of buying a turntable"
+    },
+    {
+     "me": true,
+     "text": "yeah, come by. Don't get a cheap one tho"
+    },
+    {
+     "me": false,
+     "text": "my gym membership is 3 months overdue and I'm still paying. help"
+    },
+    {
+     "me": true,
+     "text": "cancel it in person, they can't say no to your face"
+    },
+    {
+     "me": false,
+     "text": "Did you see the game last night??"
+    },
+    {
+     "me": true,
+     "text": "Nah missed it"
+    },
+    {
+     "me": false,
+     "text": "wings after the run tomorrow?"
+    },
+    {
+     "me": true,
+     "text": "bet"
+    },
+    {
+     "me": false,
+     "text": "you see that dunk from last night"
+    },
+    {
+     "me": true,
+     "text": "yeah my jaw dropped"
+    },
+    {
+     "me": false,
+     "text": "sent it to the whole group chat"
+    },
+    {
+     "me": true,
+     "text": "I saw 😂"
+    },
+    {
+     "me": false,
+     "text": "lunch? new taco truck by the Big Four Bridge"
+    },
+    {
+     "me": true,
+     "text": "can't today"
+    },
+    {
+     "me": false,
+     "text": "you can't any day lately"
+    },
+    {
+     "me": true,
+     "text": "my bad. next week"
+    },
+    {
+     "me": false,
+     "text": "holding you to it"
+    },
+    {
+     "me": false,
+     "text": "Wings still on me whenever you want"
+    },
+    {
+     "me": false,
+     "text": "my car wont start, can u jump me"
+    },
+    {
+     "me": true,
+     "text": "omw give me 20"
+    },
+    {
+     "me": false,
+     "text": "yo you coming to the run tonight?"
+    },
+    {
+     "me": true,
+     "text": "what time"
+    },
+    {
+     "me": false,
+     "text": "7, Waterfront"
+    },
+    {
+     "me": true,
+     "text": "I'll be there if I'm not wiped"
+    },
+    {
+     "me": false,
+     "text": "you're always wiped 😂"
+    },
+    {
+     "me": true,
+     "text": "facts"
+    },
+    {
+     "me": false,
+     "text": "bro your jumper was cold tonight"
+    },
+    {
+     "me": true,
+     "text": "Hit three in a row, felt good"
+    },
+    {
+     "me": false,
+     "text": "do that every week and we win the league"
+    },
+    {
+     "me": true,
+     "text": "lol sure"
+    },
+    {
+     "me": false,
+     "text": "can't sleep. you up?"
+    },
+    {
+     "me": true,
+     "text": "always"
+    },
+    {
+     "me": false,
+     "text": "lol same. watching old highlights"
+    },
+    {
+     "me": true,
+     "text": "send me the one from regionals"
+    },
+    {
+     "me": false,
+     "text": "on it"
+    },
+    {
+     "me": false,
+     "text": "you look exactly the same in that one. skinny and sweaty"
+    },
+    {
+     "me": true,
+     "text": "I'm still skinny and sweaty"
+    },
+    {
+     "me": false,
+     "text": "Wings after? Bardstown Rd spot"
+    },
+    {
+     "me": true,
+     "text": "Their lemon pepper is elite"
+    },
+    {
+     "me": false,
+     "text": "say less, 1pm?"
+    },
+    {
+     "me": true,
+     "text": "Make it 2"
+    },
+    {
+     "me": false,
+     "text": "bet"
+    },
+    {
+     "me": false,
+     "text": "lost my phone charger again smh"
+    },
+    {
+     "me": true,
+     "text": "I got a spare in the Civic"
+    },
+    {
+     "me": false,
+     "text": "legend"
+    },
+    {
+     "me": true,
+     "text": "you owe me a wing"
+    },
+    {
+     "me": false,
+     "text": "deal"
+    }
+   ],
+   "avatar": "msg_7.webp"
+  },
+  {
+   "id": "mut-conv-tyler",
+   "title": "Tyler",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "bro that new Kendrick album is insane"
+    },
+    {
+     "me": true,
+     "text": "on track 5 right now"
+    },
+    {
+     "me": false,
+     "text": "the beat switch tho"
+    },
+    {
+     "me": false,
+     "text": "fantasy draft is thursday night, you in this year?"
+    },
+    {
+     "me": true,
+     "text": "yeah sign me up"
+    },
+    {
+     "me": false,
+     "text": "Buy-in is 25 dollars. Venmo me whenever"
+    },
+    {
+     "me": true,
+     "text": "will do end of the week"
+    },
+    {
+     "me": false,
+     "text": "my buddy is selling a PS5 controller, anyone need one"
+    },
+    {
+     "me": true,
+     "text": "nah I'm good"
+    },
+    {
+     "me": false,
+     "text": "New league name: Dunk On Me Thursday"
+    },
+    {
+     "me": true,
+     "text": "terrible. I love it"
+    },
+    {
+     "me": false,
+     "text": "You grab the pizza for draft night? Tony's again?"
+    },
+    {
+     "me": true,
+     "text": "Yup, two larges, pepperoni and one supreme"
+    },
+    {
+     "me": false,
+     "text": "Beautiful."
+    },
+    {
+     "me": false,
+     "text": "grabbing tacos on Preston, you hungry"
+    },
+    {
+     "me": true,
+     "text": "can't tonight"
+    },
+    {
+     "me": false,
+     "text": "u been saying that a lot lately"
+    },
+    {
+     "me": true,
+     "text": "just tired man"
+    },
+    {
+     "me": false,
+     "text": "lmk when ur free, we can shoot around"
+    },
+    {
+     "me": false,
+     "text": "My draft picks are cursed, third bye week injury already"
+    },
+    {
+     "me": true,
+     "text": "that's a you problem"
+    },
+    {
+     "me": false,
+     "text": "borrowing your phone charger again lol"
+    },
+    {
+     "me": true,
+     "text": "you owe me like five of them"
+    },
+    {
+     "me": false,
+     "text": "fair"
+    },
+    {
+     "me": false,
+     "text": "yo pickup tonight?"
+    },
+    {
+     "me": true,
+     "text": "what time"
+    },
+    {
+     "me": false,
+     "text": "7. Waterfront"
+    },
+    {
+     "me": false,
+     "text": "bring a dark shirt, mine are all gone"
+    },
+    {
+     "me": true,
+     "text": "lol ok"
+    },
+    {
+     "me": false,
+     "text": "Rude. You wanna grab wings at Bardstown Rd Wings tonight?"
+    },
+    {
+     "me": true,
+     "text": "can't tonight. rain check?"
+    },
+    {
+     "me": false,
+     "text": "Always rain check with you lately lol. Next time."
+    },
+    {
+     "me": false,
+     "text": "good run. your jumper's coming back"
+    },
+    {
+     "me": true,
+     "text": "my legs are not"
+    },
+    {
+     "me": false,
+     "text": "ice them"
+    },
+    {
+     "me": false,
+     "text": "you seen the new shoe drop"
+    },
+    {
+     "me": true,
+     "text": "no"
+    },
+    {
+     "me": false,
+     "text": "ugly but I want them"
+    },
+    {
+     "me": true,
+     "text": "lol you would"
+    },
+    {
+     "me": false,
+     "text": "Fantasy draft is next week, you in?"
+    },
+    {
+     "me": true,
+     "text": "Of course"
+    },
+    {
+     "me": false,
+     "text": "Last place buys the wings"
+    },
+    {
+     "me": true,
+     "text": "Which has been you for 3 years"
+    },
+    {
+     "me": false,
+     "text": "This is my year"
+    },
+    {
+     "me": true,
+     "text": "You said that last year"
+    },
+    {
+     "me": false,
+     "text": "Shut up 😂"
+    },
+    {
+     "me": true,
+     "text": "See you at the draft"
+    },
+    {
+     "me": false,
+     "text": "Bring snacks"
+    },
+    {
+     "me": true,
+     "text": "Chips and salsa"
+    },
+    {
+     "me": false,
+     "text": "Waterfront run this weekend?"
+    },
+    {
+     "me": false,
+     "text": "court's got a new net finally"
+    },
+    {
+     "me": true,
+     "text": "about time"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-devon",
+   "title": "Devon",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "yo you still got my gray hoodie from the Seneca game?"
+    },
+    {
+     "me": true,
+     "text": "lol maybe, let me check the closet"
+    },
+    {
+     "me": true,
+     "text": "found it. moth hole on the sleeve"
+    },
+    {
+     "me": false,
+     "text": "that's the one. keep it honestly"
+    },
+    {
+     "me": false,
+     "text": "they put the old Seneca team pic up at Hall's Tavern. you look twelve in it"
+    },
+    {
+     "me": true,
+     "text": "bro that haircut 😂"
+    },
+    {
+     "me": false,
+     "text": "the bowl cut was a choice"
+    },
+    {
+     "me": true,
+     "text": "coach made us"
+    },
+    {
+     "me": false,
+     "text": "you watching the Cards game"
+    },
+    {
+     "me": true,
+     "text": "yeah this ref is trash"
+    },
+    {
+     "me": false,
+     "text": "TRASH"
+    },
+    {
+     "me": false,
+     "text": "that's a travel every single time"
+    },
+    {
+     "me": false,
+     "text": "my cousin's moving next weekend, needs a truck. you still got the Civic or you borrowing"
+    },
+    {
+     "me": true,
+     "text": "Civic only. it'll fit a lamp and a sad plant"
+    },
+    {
+     "me": false,
+     "text": "lmao ok never mind"
+    },
+    {
+     "me": false,
+     "text": "Man, work has been brutal this week"
+    },
+    {
+     "me": true,
+     "text": "same, can't wait for a break"
+    },
+    {
+     "me": false,
+     "text": "wings tonight? Bardstown Rd Wings has the two-for-one thing"
+    },
+    {
+     "me": true,
+     "text": "can't tonight. rain check"
+    },
+    {
+     "me": false,
+     "text": "you say that a lot lately"
+    },
+    {
+     "me": true,
+     "text": "i know. i'll make it up to you"
+    },
+    {
+     "me": false,
+     "text": "We should go fishing at Taylorsville Lake sometime"
+    },
+    {
+     "me": true,
+     "text": "down. bring the cooler"
+    },
+    {
+     "me": false,
+     "text": "saw your gran at Kroger today, she said you been looking skinny"
+    },
+    {
+     "me": true,
+     "text": "she tells everybody that"
+    },
+    {
+     "me": false,
+     "text": "she's not wrong tho. eat something"
+    },
+    {
+     "me": false,
+     "text": "Got a new smoker. Ribs this weekend if you're around"
+    },
+    {
+     "me": true,
+     "text": "say less"
+    },
+    {
+     "me": false,
+     "text": "did you see that buzzer beater"
+    },
+    {
+     "me": true,
+     "text": "i did. unreal"
+    },
+    {
+     "me": false,
+     "text": "Those ribs came out perfect 🔥"
+    },
+    {
+     "me": true,
+     "text": "best I've had. send me the rub recipe"
+    },
+    {
+     "me": false,
+     "text": "Brown sugar, paprika, garlic, little cayenne. That's it"
+    },
+    {
+     "me": false,
+     "text": "Derby week and I'm broke already lol"
+    },
+    {
+     "me": true,
+     "text": "same"
+    },
+    {
+     "me": false,
+     "text": "my sister's having a cookout this weekend if you wanna come. burgers, cornhole"
+    },
+    {
+     "me": true,
+     "text": "maybe. will let you know"
+    },
+    {
+     "me": false,
+     "text": "bring your gran's peach cobbler if she's making one"
+    },
+    {
+     "me": true,
+     "text": "if she's making one i'm not sharing 😂"
+    },
+    {
+     "me": false,
+     "text": "My lease is up soon. Know anybody renting in the Highlands?"
+    },
+    {
+     "me": true,
+     "text": "ask Mrs. Okafor, she knows everybody"
+    },
+    {
+     "me": false,
+     "text": "ha good call"
+    },
+    {
+     "me": false,
+     "text": "Happy birthday to my guy's grandma!"
+    },
+    {
+     "me": true,
+     "text": "thanks, I'll tell her"
+    },
+    {
+     "me": false,
+     "text": "you good? haven't seen you in forever"
+    },
+    {
+     "me": true,
+     "text": "yeah just busy. promise i'll hit you up"
+    },
+    {
+     "me": false,
+     "text": "You good lately? Haven't seen you"
+    },
+    {
+     "me": true,
+     "text": "yeah just slammed. we'll hang soon"
+    },
+    {
+     "me": false,
+     "text": "New Metro Boomin tape dropped, you heard it?"
+    },
+    {
+     "me": true,
+     "text": "Not yet, playing it in the car now"
+    },
+    {
+     "me": false,
+     "text": "Track 4 is crazy"
+    },
+    {
+     "me": true,
+     "text": "Skipped to it. Yeah that's wild"
+    },
+    {
+     "me": false,
+     "text": "told you"
+    },
+    {
+     "me": true,
+     "text": "Adding it to the playlist"
+    },
+    {
+     "me": false,
+     "text": "Seneca guys doing a reunion game in a few weeks. you in?"
+    },
+    {
+     "me": true,
+     "text": "probably. send me the date later"
+    },
+    {
+     "me": false,
+     "text": "also you still got my lawn trimmer?"
+    },
+    {
+     "me": true,
+     "text": "Oh man, yes. I'll bring it"
+    },
+    {
+     "me": false,
+     "text": "no rush"
+    },
+    {
+     "me": true,
+     "text": "This week, promise"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-alvarez",
+   "title": "Dr. Alvarez Eye Care",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Dr. Alvarez Eye Care: Reminder, appointment tomorrow at 10:00 AM. Reply C to confirm or R to reschedule."
+    },
+    {
+     "me": true,
+     "text": "C"
+    },
+    {
+     "me": false,
+     "text": "Thank you! Please bring your insurance card and current glasses."
+    },
+    {
+     "me": false,
+     "text": "Reminder: Evelyn Pruitt has an appointment with Dr. Alvarez tomorrow at 2:30 PM. Reply C to confirm."
+    },
+    {
+     "me": true,
+     "text": "C"
+    },
+    {
+     "me": false,
+     "text": "Thank you! Please bring a current list of medications and sunglasses for dilation."
+    },
+    {
+     "me": false,
+     "text": "Your patient's new lenses are ready for pickup at the front desk."
+    },
+    {
+     "me": true,
+     "text": "Can I pick them up after 5?"
+    },
+    {
+     "me": false,
+     "text": "We close at 5. Open at 8 AM tomorrow."
+    },
+    {
+     "me": true,
+     "text": "ok I'll come in the morning"
+    },
+    {
+     "me": false,
+     "text": "Dr. Alvarez Eye Care: Your follow-up is due in 3 months. Call us or reply BOOK to schedule."
+    },
+    {
+     "me": true,
+     "text": "BOOK"
+    },
+    {
+     "me": false,
+     "text": "We have openings on the 18th at 9:30 AM or 11:00 AM. Reply 1 or 2."
+    },
+    {
+     "me": true,
+     "text": "2"
+    },
+    {
+     "me": false,
+     "text": "Booked! 11:00 AM. We'll text a reminder the day before."
+    },
+    {
+     "me": false,
+     "text": "Dr. Alvarez Eye Care: Reminder, appointment tomorrow at 11:00 AM. Reply C to confirm or R to reschedule."
+    },
+    {
+     "me": true,
+     "text": "C"
+    },
+    {
+     "me": false,
+     "text": "Reminder: follow-up visit in 6 months. Call to schedule."
+    },
+    {
+     "me": false,
+     "text": "Reminder: Ms. Pruitt has a follow-up visit in 5 days at 10:30 AM. Reply C to confirm or R to reschedule."
+    },
+    {
+     "me": true,
+     "text": "C"
+    },
+    {
+     "me": false,
+     "text": "Thank you. Confirmed. Please bring current glasses and a list of medications."
+    },
+    {
+     "me": true,
+     "text": "Can she get the dilating drops same day?"
+    },
+    {
+     "me": false,
+     "text": "Yes. She will need a driver afterward."
+    },
+    {
+     "me": true,
+     "text": "I'm her driver 👍"
+    },
+    {
+     "me": false,
+     "text": "Parking tip: use the rear lot, the front is under construction."
+    },
+    {
+     "me": true,
+     "text": "thanks"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-bree",
+   "title": "Bree",
+   "time": "Monday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Good morning you 🙂 coffee later?"
+    },
+    {
+     "me": true,
+     "text": "morning. yes. the place on Frankfort?"
+    },
+    {
+     "me": false,
+     "text": "Perfect. 10:30"
+    },
+    {
+     "me": false,
+     "text": "happy early birthday to your grandma!! tell her I said hi"
+    },
+    {
+     "me": true,
+     "text": "I will. She'll like that"
+    },
+    {
+     "me": false,
+     "text": "I made reservations at that taco place for tomorrow"
+    },
+    {
+     "me": true,
+     "text": "nice. wear the green jacket"
+    },
+    {
+     "me": false,
+     "text": "Oh so now you're picking my outfits ❤️"
+    },
+    {
+     "me": true,
+     "text": "just the good ones"
+    },
+    {
+     "me": false,
+     "text": "did you grab my hoodie from the closet"
+    },
+    {
+     "me": true,
+     "text": "the gray one? yeah it's in the car"
+    },
+    {
+     "me": false,
+     "text": "lol ok that one is MINE"
+    },
+    {
+     "me": false,
+     "text": "that Thai place on Frankfort finally opened"
+    },
+    {
+     "me": false,
+     "text": "we're going this weekend. no excuses"
+    },
+    {
+     "me": true,
+     "text": "deal"
+    },
+    {
+     "me": false,
+     "text": "My sister's coming into town. She wants to meet you properly"
+    },
+    {
+     "me": true,
+     "text": "Ok no pressure then 😅"
+    },
+    {
+     "me": false,
+     "text": "She's nice I promise. She just asks a lot of questions"
+    },
+    {
+     "me": false,
+     "text": "that was so good 😍"
+    },
+    {
+     "me": true,
+     "text": "told you. Pad see ew every time"
+    },
+    {
+     "me": false,
+     "text": "Dinner went great, she loved you"
+    },
+    {
+     "me": true,
+     "text": "phew. she laughed at my jokes so I'm calling it a win"
+    },
+    {
+     "me": false,
+     "text": "Did you see the Netflix thing I sent?"
+    },
+    {
+     "me": true,
+     "text": "the documentary? we can watch it tonight"
+    },
+    {
+     "me": false,
+     "text": "I'll bring snacks. You bring the blanket"
+    },
+    {
+     "me": false,
+     "text": "my sister's dog had puppies"
+    },
+    {
+     "me": true,
+     "text": "no way. pics"
+    },
+    {
+     "me": false,
+     "text": "I'll bring you one to see. Not to keep!!"
+    },
+    {
+     "me": false,
+     "text": "Can you drive me to my shift tomorrow? My car's still in the shop"
+    },
+    {
+     "me": true,
+     "text": "yeah what time"
+    },
+    {
+     "me": false,
+     "text": "7am. Sorry. I owe you"
+    },
+    {
+     "me": true,
+     "text": "you owe me a pancake"
+    },
+    {
+     "me": false,
+     "text": "Deal 🥞"
+    },
+    {
+     "me": false,
+     "text": "Danny you were supposed to be here an hour ago"
+    },
+    {
+     "me": true,
+     "text": "sorry, traffic on the bridge"
+    },
+    {
+     "me": false,
+     "text": "mhm"
+    },
+    {
+     "me": false,
+     "text": "I can't keep doing this. You're always broke and always on your phone"
+    },
+    {
+     "me": true,
+     "text": "Bree, wait"
+    },
+    {
+     "me": false,
+     "text": "I mean it Danny. Take care of yourself"
+    },
+    {
+     "me": false,
+     "text": "got a box of your stuff, a charger and two vinyls"
+    },
+    {
+     "me": true,
+     "text": "I can swing by for it"
+    },
+    {
+     "me": true,
+     "text": "thanks Bree. Take care of yourself"
+    },
+    {
+     "me": false,
+     "text": "Hey, you still have my gray hoodie?"
+    },
+    {
+     "me": true,
+     "text": "I'll look for it"
+    },
+    {
+     "me": false,
+     "text": "Also my Taylor Swift CD"
+    },
+    {
+     "me": true,
+     "text": "Found the hoodie. No CD"
+    },
+    {
+     "me": false,
+     "text": "I can swing by Gran's and grab it"
+    },
+    {
+     "me": true,
+     "text": "I'll leave it on the porch"
+    },
+    {
+     "me": false,
+     "text": "Happy you're ok. Take care of yourself, Danny."
+    },
+    {
+     "me": true,
+     "text": "thanks Bree. you too"
+    },
+    {
+     "me": false,
+     "text": "Got it, thanks"
+    },
+    {
+     "me": false,
+     "text": "Hey, found your gray hoodie in my trunk"
+    },
+    {
+     "me": true,
+     "text": "Oh nice, been looking for it"
+    },
+    {
+     "me": false,
+     "text": "I can leave it on your porch"
+    },
+    {
+     "me": true,
+     "text": "Gran might talk your ear off if she sees you"
+    },
+    {
+     "me": false,
+     "text": "😂 I love her though"
+    },
+    {
+     "me": true,
+     "text": "She asks about you"
+    },
+    {
+     "me": false,
+     "text": "Tell her I said hi. Left it by the mailbox"
+    },
+    {
+     "me": true,
+     "text": "Got it. Thanks Bree"
+    },
+    {
+     "me": false,
+     "text": "Take care of yourself"
+    },
+    {
+     "me": true,
+     "text": "You too"
+    }
+   ],
+   "avatar": "msg_11.webp"
+  },
+  {
+   "id": "mut-conv-kroger-rx",
+   "title": "Kroger Pharmacy",
+   "time": "Monday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Kroger Pharmacy: Your prescription is ready for pickup at Bardstown Rd. Reply STOP to opt out."
+    },
+    {
+     "me": false,
+     "text": "Kroger Pharmacy: Reminder, your prescription is waiting. It will be returned to stock in 7 days."
+    },
+    {
+     "me": false,
+     "text": "Kroger Pharmacy: Your prescription is ready for pickup. Rx #4419027."
+    },
+    {
+     "me": false,
+     "text": "Kroger Pharmacy: Your refill is due soon. Reply REFILL to request."
+    },
+    {
+     "me": true,
+     "text": "REFILL"
+    },
+    {
+     "me": false,
+     "text": "Refill request received. We'll text you when it's ready."
+    },
+    {
+     "me": false,
+     "text": "Kroger Pharmacy: Your prescription is ready for pickup. Pharmacy closes at 9 PM."
+    },
+    {
+     "me": false,
+     "text": "Kroger Pharmacy: Refill reminder for Rx #4419027. Reply YES to refill."
+    },
+    {
+     "me": true,
+     "text": "YES"
+    },
+    {
+     "me": false,
+     "text": "Your refill is being processed. Ready in about 2 hours."
+    },
+    {
+     "me": false,
+     "text": "Kroger Pharmacy: Rx #4419027 is ready for pickup."
+    },
+    {
+     "me": false,
+     "text": "Kroger Pharmacy: Your refill is due soon. Reply REFILL to request."
+    },
+    {
+     "me": true,
+     "text": "REFILL"
+    },
+    {
+     "me": false,
+     "text": "Kroger Pharmacy: Your prescription is ready for pickup at Bardstown Rd."
+    },
+    {
+     "me": false,
+     "text": "Kroger Pharmacy: Rx #5530118 is ready. Your copay is $9.50."
+    },
+    {
+     "me": false,
+     "text": "Pharmacy hours this holiday weekend: 9 AM to 5 PM."
+    },
+    {
+     "me": false,
+     "text": "Kroger Pharmacy: Your prescription is ready for pickup. Store hours 8 AM to 9 PM."
+    },
+    {
+     "me": false,
+     "text": "Kroger Pharmacy: Refill reminder for Rx #5530118. Reply YES to refill."
+    },
+    {
+     "me": false,
+     "text": "Reminder: refill for Rx ending 4471 is due in 3 days. Reply YES to refill."
+    },
+    {
+     "me": true,
+     "text": "YES"
+    },
+    {
+     "me": false,
+     "text": "Thanks! Your refill is being prepared. We'll text when it's ready."
+    },
+    {
+     "me": false,
+     "text": "Your prescription is ready for pickup."
+    },
+    {
+     "me": true,
+     "text": "picking up tonight"
+    },
+    {
+     "me": false,
+     "text": "Thank you. Please bring a photo ID."
+    },
+    {
+     "me": false,
+     "text": "Reply STOP to opt out of pharmacy texts."
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-otp",
+   "title": "Unknown",
+   "time": "Sunday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Your verification code is 482916. Do not share it with anyone."
+    },
+    {
+     "me": false,
+     "text": "Your verification code is 730154. Do not share it with anyone."
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-uncle-walt",
+   "title": "Uncle Walt",
+   "time": "Saturday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Morning Danny. You still coming tomorrow to help with the gutters?"
+    },
+    {
+     "me": true,
+     "text": "yes sir. 10ish"
+    },
+    {
+     "me": false,
+     "text": "Bring gloves. Mine have a hole you could drive a truck through"
+    },
+    {
+     "me": false,
+     "text": "Appreciate the help. Your aunt sent a pie home with you, hope you found it"
+    },
+    {
+     "me": true,
+     "text": "found it, ate half in the car 😂"
+    },
+    {
+     "me": false,
+     "text": "Reds opening homestand is coming. Got two seats, section 118. You in?"
+    },
+    {
+     "me": true,
+     "text": "hell yeah"
+    },
+    {
+     "me": false,
+     "text": "Language. Your grandmother will hear it from here"
+    },
+    {
+     "me": false,
+     "text": "Game was a heartbreaker. Next time"
+    },
+    {
+     "me": true,
+     "text": "bullpen blew it again"
+    },
+    {
+     "me": false,
+     "text": "Danny. Walt here. Got your number from your Aunt Lorraine."
+    },
+    {
+     "me": true,
+     "text": "hey Uncle Walt, it's saved. How you doing"
+    },
+    {
+     "me": false,
+     "text": "Can't complain. Bass are biting at the lake."
+    },
+    {
+     "me": false,
+     "text": "Need a hand moving the deep freezer this weekend. Two men minimum"
+    },
+    {
+     "me": true,
+     "text": "what time"
+    },
+    {
+     "me": false,
+     "text": "Nine. Coffee on me"
+    },
+    {
+     "me": false,
+     "text": "Thank you son. Back's not what it used to be"
+    },
+    {
+     "me": true,
+     "text": "anytime Uncle Walt"
+    },
+    {
+     "me": false,
+     "text": "Reunion is the weekend after next. Bring your own chair."
+    },
+    {
+     "me": true,
+     "text": "will do"
+    },
+    {
+     "me": false,
+     "text": "Tell your Gran I'll pick her up if you got work"
+    },
+    {
+     "me": true,
+     "text": "I can bring her, thanks"
+    },
+    {
+     "me": false,
+     "text": "Good. You look after her"
+    },
+    {
+     "me": false,
+     "text": "Your aunt asked if you're eating. Says you look worn out"
+    },
+    {
+     "me": true,
+     "text": "i'm fine. just tired"
+    },
+    {
+     "me": false,
+     "text": "Come by for supper tomorrow then. Pot roast"
+    },
+    {
+     "me": true,
+     "text": "thanks for supper. tell her thank you for the leftovers too"
+    },
+    {
+     "me": false,
+     "text": "Fishing at Taylorsville Lake this weekend if you want to get out of the house"
+    },
+    {
+     "me": true,
+     "text": "i'll try"
+    },
+    {
+     "me": false,
+     "text": "Out front. Where are you?"
+    },
+    {
+     "me": true,
+     "text": "sorry. overslept. next time"
+    },
+    {
+     "me": false,
+     "text": "Fish don't wait but I do. Next time."
+    },
+    {
+     "me": false,
+     "text": "Boat motor finally died. Anybody know a decent mechanic?"
+    },
+    {
+     "me": true,
+     "text": "Speedway Auto Care on Bardstown does small engines I think"
+    },
+    {
+     "me": false,
+     "text": "Thanks son"
+    },
+    {
+     "me": false,
+     "text": "Caught a nine pound catfish this morning. Photo's too big to send, you'll see"
+    },
+    {
+     "me": true,
+     "text": "nine pounds?? 😂"
+    },
+    {
+     "me": false,
+     "text": "Swear on your granddad"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-jenna",
+   "title": "Jenna",
+   "time": "Saturday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "omg Danny?? is this still your number"
+    },
+    {
+     "me": true,
+     "text": "yep it's me. hey Jenna"
+    },
+    {
+     "me": false,
+     "text": "it's been like 3 years!! saw your name on the Seneca alumni page"
+    },
+    {
+     "me": true,
+     "text": "ha yeah. how's life"
+    },
+    {
+     "me": false,
+     "text": "good! teaching 4th grade at Cochran Elementary now"
+    },
+    {
+     "me": true,
+     "text": "no way. Ms. Ortiz 😂"
+    },
+    {
+     "me": false,
+     "text": "stop it lol"
+    },
+    {
+     "me": false,
+     "text": "trivia night at Gerstle's Pub tomorrow, my team needs a sports person"
+    },
+    {
+     "me": true,
+     "text": "i can do sports"
+    },
+    {
+     "me": false,
+     "text": "perfect. 7:30"
+    },
+    {
+     "me": false,
+     "text": "we got second!! your NBA answers carried"
+    },
+    {
+     "me": true,
+     "text": "told you"
+    },
+    {
+     "me": false,
+     "text": "do you know any good record stores? my dad wants a turntable thing"
+    },
+    {
+     "me": true,
+     "text": "Pete's Record Exchange on Bardstown. tell him I sent you"
+    },
+    {
+     "me": false,
+     "text": "you're the best"
+    },
+    {
+     "me": false,
+     "text": "he got an Otis Redding album, he cried a little"
+    },
+    {
+     "me": true,
+     "text": "classic"
+    },
+    {
+     "me": false,
+     "text": "Hey stranger, you still doing pickup games?"
+    },
+    {
+     "me": true,
+     "text": "when I can. you?"
+    },
+    {
+     "me": false,
+     "text": "Trying to get a coed league going at the Y"
+    },
+    {
+     "me": true,
+     "text": "I'm interested, send details"
+    },
+    {
+     "me": false,
+     "text": "Will do! Starts next month"
+    },
+    {
+     "me": false,
+     "text": "my brother's yelling at the TV so loud the neighbors are gonna call someone"
+    },
+    {
+     "me": true,
+     "text": "lol tell him to relax"
+    },
+    {
+     "me": false,
+     "text": "League sign-up form is open. Fee is cheap, I promise"
+    },
+    {
+     "me": true,
+     "text": "I'll think about it"
+    },
+    {
+     "me": false,
+     "text": "That means no 😅"
+    },
+    {
+     "me": true,
+     "text": "lol maybe"
+    },
+    {
+     "me": false,
+     "text": "summer break in two weeks 🎉"
+    },
+    {
+     "me": true,
+     "text": "lucky"
+    },
+    {
+     "me": false,
+     "text": "we should hang out sometime, like actually. coffee?"
+    },
+    {
+     "me": true,
+     "text": "yeah. gotta sort a few things first"
+    },
+    {
+     "me": false,
+     "text": "no pressure"
+    },
+    {
+     "me": false,
+     "text": "Did you see the new coffee place by the park?"
+    },
+    {
+     "me": true,
+     "text": "not yet"
+    },
+    {
+     "me": false,
+     "text": "Iced lavender latte. Trust me"
+    },
+    {
+     "me": false,
+     "text": "still sorting? 😄"
+    },
+    {
+     "me": true,
+     "text": "sorry. been a lot"
+    },
+    {
+     "me": false,
+     "text": "hey. I'm around if you wanna talk. I mean it"
+    },
+    {
+     "me": true,
+     "text": "thanks Jenna. means a lot"
+    },
+    {
+     "me": false,
+     "text": "trivia is back tomorrow night. no pressure but we miss you"
+    },
+    {
+     "me": true,
+     "text": "i'll try to make it"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-tonys-pizza",
+   "title": "Tony's Pizza",
+   "time": "Friday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": true,
+     "text": "Large pepperoni and wings for pickup, name Pruitt"
+    },
+    {
+     "me": false,
+     "text": "Got it. 20 min"
+    },
+    {
+     "me": true,
+     "text": "👍"
+    },
+    {
+     "me": false,
+     "text": "Order ready!"
+    },
+    {
+     "me": true,
+     "text": "Same as last time but add garlic knots"
+    },
+    {
+     "me": false,
+     "text": "Sure thing. $27.40 total, ready in 25"
+    },
+    {
+     "me": true,
+     "text": "Thanks"
+    },
+    {
+     "me": false,
+     "text": "Tony's Pizza: Your order is confirmed. Large pepperoni, ready in 20."
+    },
+    {
+     "me": false,
+     "text": "Tony's Pizza: Order picked up. Enjoy!"
+    },
+    {
+     "me": false,
+     "text": "Hey Danny, 2-for-1 large pies this week. Show this text at the counter."
+    },
+    {
+     "me": true,
+     "text": "Hey, my gran wants the veggie one, no olives"
+    },
+    {
+     "me": false,
+     "text": "No olives, got it. Delivery or pickup?"
+    },
+    {
+     "me": true,
+     "text": "Pickup"
+    },
+    {
+     "me": false,
+     "text": "Ready in 20"
+    },
+    {
+     "me": false,
+     "text": "Free garlic knots with any large pizza this week."
+    },
+    {
+     "me": false,
+     "text": "Tony's Pizza: Your order is confirmed. Medium sausage and a 2 liter, ready in 25."
+    },
+    {
+     "me": false,
+     "text": "Driver is outside."
+    },
+    {
+     "me": true,
+     "text": "Pepperoni again, large, pickup"
+    },
+    {
+     "me": false,
+     "text": "You got it, Danny. Ready in 20."
+    },
+    {
+     "me": false,
+     "text": "Come back soon! Use code SLICE10 for 10% off."
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-patel-dental",
+   "title": "Dr. Patel Dental",
+   "time": "7/30/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Reminder: Danny Pruitt, cleaning on March 12 at 10:30 AM at Patel Dental. Reply C to confirm."
+    },
+    {
+     "me": true,
+     "text": "C"
+    },
+    {
+     "me": false,
+     "text": "Thank you! See you then."
+    },
+    {
+     "me": false,
+     "text": "Thanks for visiting today. Your next cleaning is due in 6 months. Call us to book."
+    },
+    {
+     "me": false,
+     "text": "Dr. Patel Dental: You are due for a cleaning. Reply 1 to schedule."
+    },
+    {
+     "me": true,
+     "text": "1"
+    },
+    {
+     "me": false,
+     "text": "We have an opening in the morning at 9:30 AM. Reply Y to book."
+    },
+    {
+     "me": true,
+     "text": "Y"
+    },
+    {
+     "me": false,
+     "text": "Confirmed. Please arrive 10 minutes early."
+    },
+    {
+     "me": false,
+     "text": "Thanks for visiting Dr. Patel! Please rate your visit."
+    },
+    {
+     "me": false,
+     "text": "Hi Danny, Dr. Patel wants to recheck the filling from your last visit. Openings: July 9 at 8 AM or July 16 at 3 PM."
+    },
+    {
+     "me": true,
+     "text": "July 16 at 3 works"
+    },
+    {
+     "me": false,
+     "text": "Booked for July 16 at 3:00 PM. Reply C to confirm."
+    },
+    {
+     "me": true,
+     "text": "C"
+    },
+    {
+     "me": false,
+     "text": "Reminder: your appointment is tomorrow at 3:00 PM."
+    },
+    {
+     "me": true,
+     "text": "Running 10 min late, traffic on Eastern Pkwy"
+    },
+    {
+     "me": false,
+     "text": "No problem, we'll see you when you arrive."
+    },
+    {
+     "me": false,
+     "text": "Thanks for coming in. Your balance of $35 can be paid online or at your next visit."
+    },
+    {
+     "me": true,
+     "text": "Will do"
+    },
+    {
+     "me": false,
+     "text": "Friendly reminder: your balance of $35 is still open."
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-cheryl",
+   "title": "Cheryl",
+   "time": "7/29/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Danny Pruitt?? It's Cheryl from Male High. Got your number from Jaylen"
+    },
+    {
+     "me": true,
+     "text": "Cheryl Tran! No way"
+    },
+    {
+     "me": false,
+     "text": "Yes way. I'm back in town, moved from Columbus"
+    },
+    {
+     "me": true,
+     "text": "Welcome back. How long's it been, like 8 years?"
+    },
+    {
+     "me": false,
+     "text": "Close. You still do the lopsided grin?"
+    },
+    {
+     "me": true,
+     "text": "Can't help it 😂"
+    },
+    {
+     "me": false,
+     "text": "Coffee sometime? I need someone to show me what's new in the Highlands"
+    },
+    {
+     "me": true,
+     "text": "Down. Nothing's new, just more coffee shops"
+    },
+    {
+     "me": false,
+     "text": "Found a spot on Bardstown with great biscuits"
+    },
+    {
+     "me": true,
+     "text": "Say less"
+    },
+    {
+     "me": false,
+     "text": "This weekend? Meet there at 9?"
+    },
+    {
+     "me": true,
+     "text": "9 is brutal but ok"
+    },
+    {
+     "me": false,
+     "text": "That was fun. My feet still hurt from the walk"
+    },
+    {
+     "me": true,
+     "text": "You walked me into the ground lol"
+    },
+    {
+     "me": false,
+     "text": "Admit it, you're out of shape"
+    },
+    {
+     "me": true,
+     "text": "I'm a retired point guard"
+    },
+    {
+     "me": false,
+     "text": "Retired at 26 😂"
+    },
+    {
+     "me": false,
+     "text": "My landlord is selling the building, I've got to find a new place"
+    },
+    {
+     "me": true,
+     "text": "Ugh. That's rough. Want me to ask around?"
+    },
+    {
+     "me": false,
+     "text": "Please. Something under $1,100 near the Highlands"
+    },
+    {
+     "me": true,
+     "text": "Will do"
+    },
+    {
+     "me": false,
+     "text": "Found one! Cherokee Triangle, second floor, tiny porch"
+    },
+    {
+     "me": true,
+     "text": "Congrats!! Need help moving?"
+    },
+    {
+     "me": false,
+     "text": "Truck is booked, but I'll pay in pizza and beer"
+    },
+    {
+     "me": true,
+     "text": "Deal. I'll bring a dolly"
+    },
+    {
+     "me": false,
+     "text": "Hi Danny, it's Cheryl from the church. Can you help move tables on Saturday?"
+    },
+    {
+     "me": true,
+     "text": "Hi Cheryl, what time?"
+    },
+    {
+     "me": false,
+     "text": "Nine o'clock. There will be donuts"
+    },
+    {
+     "me": true,
+     "text": "say no more. I'll be there"
+    },
+    {
+     "me": false,
+     "text": "Thank you so much! You're a blessing"
+    },
+    {
+     "me": false,
+     "text": "Ok the couch is up the stairs, thanks again. You're a lifesaver"
+    },
+    {
+     "me": true,
+     "text": "Anytime. Don't forget the pizza"
+    },
+    {
+     "me": false,
+     "text": "Bake sale volunteers needed for next month"
+    },
+    {
+     "me": true,
+     "text": "I'll ask Gran if she wants to make her pies"
+    },
+    {
+     "me": false,
+     "text": "Oh yes please! Her pecan pie sold out in an hour last year"
+    },
+    {
+     "me": true,
+     "text": "She said yes"
+    },
+    {
+     "me": false,
+     "text": "Wonderful!"
+    },
+    {
+     "me": false,
+     "text": "Chris Stapleton tickets for the fall, you in?"
+    },
+    {
+     "me": true,
+     "text": "Let me see how things shake out, I'll let you know"
+    },
+    {
+     "me": false,
+     "text": "Don't leave me hanging Pruitt"
+    },
+    {
+     "me": false,
+     "text": "Praying for your family this week"
+    },
+    {
+     "me": true,
+     "text": "thank you Cheryl"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-brandon",
+   "title": "Brandon",
+   "time": "7/27/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "yo you the dude selling the Jordan 4s?"
+    },
+    {
+     "me": true,
+     "text": "yeah size 11, deadstock, box included"
+    },
+    {
+     "me": false,
+     "text": "what's the lowest"
+    },
+    {
+     "me": true,
+     "text": "220 shipped"
+    },
+    {
+     "me": false,
+     "text": "200 and I'll pick up"
+    },
+    {
+     "me": true,
+     "text": "210 and you pick up. near Waterfront Park"
+    },
+    {
+     "me": false,
+     "text": "deal. tomorrow after 5?"
+    },
+    {
+     "me": false,
+     "text": "here. black Tahoe"
+    },
+    {
+     "me": true,
+     "text": "coming out"
+    },
+    {
+     "me": false,
+     "text": "clean pair. thanks man"
+    },
+    {
+     "me": false,
+     "text": "got anything else? Dunks, Yeezys"
+    },
+    {
+     "me": true,
+     "text": "got some Dunks size 11 green and white"
+    },
+    {
+     "me": false,
+     "text": "how much"
+    },
+    {
+     "me": true,
+     "text": "130, they're worn twice"
+    },
+    {
+     "me": false,
+     "text": "90 and I'll take em"
+    },
+    {
+     "me": true,
+     "text": "110"
+    },
+    {
+     "me": false,
+     "text": "100 cash"
+    },
+    {
+     "me": true,
+     "text": "ok"
+    },
+    {
+     "me": false,
+     "text": "yo are you still at that solar place"
+    },
+    {
+     "me": true,
+     "text": "yeah for now"
+    },
+    {
+     "me": false,
+     "text": "my mom wants panels on her roof, who do I talk to"
+    },
+    {
+     "me": true,
+     "text": "I'll check with the office and let you know"
+    },
+    {
+     "me": false,
+     "text": "cool no rush"
+    },
+    {
+     "me": false,
+     "text": "thanks. hit me up when you list more"
+    },
+    {
+     "me": false,
+     "text": "you still selling stuff? my buddy needs a Switch"
+    },
+    {
+     "me": true,
+     "text": "i got one, barely used"
+    },
+    {
+     "me": false,
+     "text": "how much"
+    },
+    {
+     "me": true,
+     "text": "150 with the dock"
+    },
+    {
+     "me": false,
+     "text": "PayPal friends and family ok?"
+    },
+    {
+     "me": true,
+     "text": "goods and services please, it's safer"
+    },
+    {
+     "me": false,
+     "text": "fine. sending"
+    },
+    {
+     "me": true,
+     "text": "got it. shipping tomorrow"
+    },
+    {
+     "me": false,
+     "text": "Bro did you see my brother's wedding invite"
+    },
+    {
+     "me": true,
+     "text": "yeah got it. I'll rsvp"
+    },
+    {
+     "me": false,
+     "text": "Plus one?"
+    },
+    {
+     "me": true,
+     "text": "no just me"
+    },
+    {
+     "me": false,
+     "text": "my bad man"
+    },
+    {
+     "me": false,
+     "text": "Switch arrived. works great"
+    },
+    {
+     "me": false,
+     "text": "Lakers trade rumors are wild today"
+    },
+    {
+     "me": true,
+     "text": "lol never believe them"
+    },
+    {
+     "me": false,
+     "text": "you got any more heat?"
+    },
+    {
+     "me": true,
+     "text": "all out for now"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-petes-records",
+   "title": "Pete's Record Exchange",
+   "time": "7/24/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hey Danny it's Pete. A clean copy of that Otis Redding LP just came in. Want me to hold it?"
+    },
+    {
+     "me": true,
+     "text": "yes please! what condition"
+    },
+    {
+     "me": false,
+     "text": "VG+ sleeve, record plays NM. Fair price, I'll keep it behind the counter."
+    },
+    {
+     "me": true,
+     "text": "Perfect. I'll stop by this week"
+    },
+    {
+     "me": true,
+     "text": "Got it, thanks Pete. Sounds great on the turntable"
+    },
+    {
+     "me": false,
+     "text": "Glad to hear it. Southern rock bin got restocked if you want to dig."
+    },
+    {
+     "me": false,
+     "text": "Pete's Record Exchange: New arrivals in soul and R&B this week. Stax, Motown, Atlantic."
+    },
+    {
+     "me": true,
+     "text": "you got any Otis Redding on original pressing?"
+    },
+    {
+     "me": false,
+     "text": "Got one copy of Dictionary of Soul, VG+. Want me to hold it?"
+    },
+    {
+     "me": true,
+     "text": "yes hold it please, I'll be in this week"
+    },
+    {
+     "me": false,
+     "text": "Will hold till the end of the week."
+    },
+    {
+     "me": false,
+     "text": "Record Store crawl is next month, we're doing 20% off all soul"
+    },
+    {
+     "me": true,
+     "text": "Say no more. I'll be there"
+    },
+    {
+     "me": false,
+     "text": "Record Store Day list is up. Doors at 8 AM, line starts early."
+    },
+    {
+     "me": false,
+     "text": "Anybody ask you about trade-ins yet? I'm taking a few boxes in this month."
+    },
+    {
+     "me": true,
+     "text": "Not yet. I'll keep that in mind"
+    },
+    {
+     "me": false,
+     "text": "Just got a Lynyrd Skynyrd first pressing. Thought of you. Come see it."
+    },
+    {
+     "me": true,
+     "text": "Dang. I'll swing by after the weekend"
+    },
+    {
+     "me": false,
+     "text": "No rush, it's not going anywhere. Well, someone might buy it."
+    },
+    {
+     "me": true,
+     "text": "lol ok I'll be quick"
+    },
+    {
+     "me": false,
+     "text": "Bargain bin sale this weekend, everything $3 and under."
+    },
+    {
+     "me": true,
+     "text": "nice, might stop by"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-curtis",
+   "title": "Curtis",
+   "time": "7/20/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "You still selling the Jordan 4s?"
+    },
+    {
+     "me": true,
+     "text": "Yeah size 11, worn twice. $210"
+    },
+    {
+     "me": false,
+     "text": "Can you do 180?"
+    },
+    {
+     "me": true,
+     "text": "195 and I ship free"
+    },
+    {
+     "me": false,
+     "text": "Deal. PayPal ok?"
+    },
+    {
+     "me": true,
+     "text": "Yep, sending the invoice"
+    },
+    {
+     "me": false,
+     "text": "Paid"
+    },
+    {
+     "me": true,
+     "text": "Shipping tomorrow, will send tracking"
+    },
+    {
+     "me": false,
+     "text": "Got them. Clean pair, thanks man"
+    },
+    {
+     "me": true,
+     "text": "👍 Enjoy"
+    },
+    {
+     "me": false,
+     "text": "Danny boy, how's life at the sun company"
+    },
+    {
+     "me": true,
+     "text": "same old Curtis"
+    },
+    {
+     "me": false,
+     "text": "Hey got any more heat?"
+    },
+    {
+     "me": true,
+     "text": "Might have some Dunks. Size 11 too?"
+    },
+    {
+     "me": false,
+     "text": "10.5 but depends on the price"
+    },
+    {
+     "me": true,
+     "text": "I'll send pics later"
+    },
+    {
+     "me": false,
+     "text": "Cool"
+    },
+    {
+     "me": false,
+     "text": "I'm moving my shop to a bigger space off Preston"
+    },
+    {
+     "me": true,
+     "text": "congrats man, that's big"
+    },
+    {
+     "me": false,
+     "text": "Need help hauling stuff next weekend if you're free"
+    },
+    {
+     "me": true,
+     "text": "I'm in. Pay me in food"
+    },
+    {
+     "me": false,
+     "text": "Deal. Wings on me"
+    },
+    {
+     "me": false,
+     "text": "Thanks again for the move. Back is wrecked 😂"
+    },
+    {
+     "me": true,
+     "text": "mine too"
+    },
+    {
+     "me": false,
+     "text": "You have that PS5 controller still?"
+    },
+    {
+     "me": true,
+     "text": "The white one? Yeah $45"
+    },
+    {
+     "me": false,
+     "text": "Take 40?"
+    },
+    {
+     "me": true,
+     "text": "Fine, 40"
+    },
+    {
+     "me": false,
+     "text": "Sent"
+    },
+    {
+     "me": true,
+     "text": "Got it. Mailing in the morning"
+    },
+    {
+     "me": false,
+     "text": "Package came but the box is crushed. Controller works tho"
+    },
+    {
+     "me": true,
+     "text": "Sorry about that, USPS being USPS"
+    },
+    {
+     "me": false,
+     "text": "All good. Tell me when you list more"
+    },
+    {
+     "me": false,
+     "text": "Grand opening is soon. Free haircuts for friends"
+    },
+    {
+     "me": true,
+     "text": "I need one badly"
+    },
+    {
+     "me": false,
+     "text": "Yeah the sides are looking rough"
+    },
+    {
+     "me": true,
+     "text": "Got a 27 inch monitor, $90 pickup only"
+    },
+    {
+     "me": false,
+     "text": "I'm in. Where"
+    },
+    {
+     "me": true,
+     "text": "Bardstown Rd by the Shell, can do 4"
+    },
+    {
+     "me": false,
+     "text": "See you then"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-coach-greg",
+   "title": "Coach Greg",
+   "time": "7/20/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Danny, Coach Greg. Hope this is still your number"
+    },
+    {
+     "me": true,
+     "text": "Coach! yes sir"
+    },
+    {
+     "me": false,
+     "text": "We're running a free youth clinic at Shawnee Park next month. Need a few former players to help run drills"
+    },
+    {
+     "me": true,
+     "text": "i'm in"
+    },
+    {
+     "me": false,
+     "text": "Knew I could count on you. Weekend mornings, 9 to noon"
+    },
+    {
+     "me": false,
+     "text": "You coming? We've got twenty kids"
+    },
+    {
+     "me": true,
+     "text": "pulling up now"
+    },
+    {
+     "me": false,
+     "text": "Good work today. Kids loved you. Told one your jumper used to be pretty"
+    },
+    {
+     "me": true,
+     "text": "haha \"used to\""
+    },
+    {
+     "me": false,
+     "text": "Next one this weekend. Can you bring the cones from the gym? Key's with Mrs. Perry"
+    },
+    {
+     "me": true,
+     "text": "will do"
+    },
+    {
+     "me": false,
+     "text": "Danny, Coach Greg. Summer clinic needs a volunteer assistant for the kids. Interested?"
+    },
+    {
+     "me": true,
+     "text": "Coach! Honestly I'd love to, depends on my schedule"
+    },
+    {
+     "me": false,
+     "text": "Mornings, three days a week. Think about it"
+    },
+    {
+     "me": true,
+     "text": "Will do"
+    },
+    {
+     "me": false,
+     "text": "Missed you today"
+    },
+    {
+     "me": true,
+     "text": "sorry coach, rough morning"
+    },
+    {
+     "me": false,
+     "text": "No need to apologize. Door's open"
+    },
+    {
+     "me": false,
+     "text": "Still need an answer by the end of the month"
+    },
+    {
+     "me": true,
+     "text": "sorry coach, I can't swing the mornings right now"
+    },
+    {
+     "me": false,
+     "text": "Understood. Door's always open, son."
+    },
+    {
+     "me": false,
+     "text": "You sleeping ok son? You looked tired"
+    },
+    {
+     "me": true,
+     "text": "not really"
+    },
+    {
+     "me": false,
+     "text": "Come see me. Coffee. I'm serious"
+    },
+    {
+     "me": true,
+     "text": "ok"
+    },
+    {
+     "me": false,
+     "text": "Ran into your old teammate at the gym, said hey"
+    },
+    {
+     "me": true,
+     "text": "tell him I said hey back"
+    },
+    {
+     "me": false,
+     "text": "Will do. Keep your jumper sharp"
+    },
+    {
+     "me": false,
+     "text": "Fall league sign-ups open soon. Could use an assistant if you want it"
+    },
+    {
+     "me": true,
+     "text": "let me think on it coach. thank you"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-lorraine",
+   "title": "Aunt Lorraine",
+   "time": "7/18/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hey sweet pea, you alive? Haven't heard from you since Christmas"
+    },
+    {
+     "me": true,
+     "text": "Alive lol. Work's been crazy"
+    },
+    {
+     "me": false,
+     "text": "Crazy is no excuse for not calling your aunt"
+    },
+    {
+     "me": true,
+     "text": "I know, I know. Sorry. How's Lexington?"
+    },
+    {
+     "me": false,
+     "text": "Cold. Biscuit ate a whole stick of butter off the counter"
+    },
+    {
+     "me": true,
+     "text": "😂 is he ok"
+    },
+    {
+     "me": false,
+     "text": "Vet says he'll live. Smelled like a bakery for two days"
+    },
+    {
+     "me": true,
+     "text": "Biscuit is a menace"
+    },
+    {
+     "me": false,
+     "text": "He gets it from your side"
+    },
+    {
+     "me": false,
+     "text": "Maddie got into UK!! The nursing program"
+    },
+    {
+     "me": true,
+     "text": "No way, tell her congrats!"
+    },
+    {
+     "me": false,
+     "text": "Tell her yourself, she'll be thrilled to hear from her cousin"
+    },
+    {
+     "me": true,
+     "text": "Texting her now"
+    },
+    {
+     "me": false,
+     "text": "Good. And eat something green this week"
+    },
+    {
+     "me": false,
+     "text": "Danny! Just wanted to check on you and Mama"
+    },
+    {
+     "me": true,
+     "text": "we're good Aunt Lorraine. Gran's doing well"
+    },
+    {
+     "me": false,
+     "text": "Is she taking her blood pressure pills?"
+    },
+    {
+     "me": true,
+     "text": "yes, I set reminders on her phone and mine"
+    },
+    {
+     "me": false,
+     "text": "Good boy. Your mother would be proud of you"
+    },
+    {
+     "me": true,
+     "text": "thanks 🙏"
+    },
+    {
+     "me": true,
+     "text": "Aunt Lor what do you put in your pimento cheese again? Gran's is missing something"
+    },
+    {
+     "me": false,
+     "text": "Little grated onion and a dash of pickle juice. Don't tell her I said so"
+    },
+    {
+     "me": true,
+     "text": "Secret's safe 🤐"
+    },
+    {
+     "me": false,
+     "text": "She doing okay on her feet? Her hip, I mean"
+    },
+    {
+     "me": true,
+     "text": "Mostly. I drive her to the eye doctor now, she hates the dilating drops"
+    },
+    {
+     "me": false,
+     "text": "Bless her. You're a good boy for that"
+    },
+    {
+     "me": false,
+     "text": "Made peach cobbler for Easter. Are y'all coming?"
+    },
+    {
+     "me": true,
+     "text": "we'll be there. Gran's bringing deviled eggs"
+    },
+    {
+     "me": false,
+     "text": "Wonderful. Wear a collared shirt for once"
+    },
+    {
+     "me": true,
+     "text": "😂 ok ok"
+    },
+    {
+     "me": false,
+     "text": "Derby's coming up. You doing anything?"
+    },
+    {
+     "me": true,
+     "text": "Watching at home probably. Gran makes a mint julep for show and doesn't drink it"
+    },
+    {
+     "me": false,
+     "text": "Ha. Your mama loved Derby day. Wore the biggest hat"
+    },
+    {
+     "me": true,
+     "text": "I remember the hat. Looked like a flying saucer"
+    },
+    {
+     "me": false,
+     "text": "😂 it did"
+    },
+    {
+     "me": false,
+     "text": "Thinking about Carla today. Little bit extra"
+    },
+    {
+     "me": true,
+     "text": "Yeah. Me too"
+    },
+    {
+     "me": false,
+     "text": "She'd be proud of you, you know that"
+    },
+    {
+     "me": true,
+     "text": "Thanks Aunt Lor ❤️"
+    },
+    {
+     "me": false,
+     "text": "Cousin Beth is expecting! Due around Christmas"
+    },
+    {
+     "me": true,
+     "text": "that's awesome, congrats to her"
+    },
+    {
+     "me": false,
+     "text": "You're next, you know"
+    },
+    {
+     "me": true,
+     "text": "haha not anytime soon"
+    },
+    {
+     "me": false,
+     "text": "Family reunion at Cherokee Park next month, you coming?"
+    },
+    {
+     "me": true,
+     "text": "Gonna try. Depends on my schedule"
+    },
+    {
+     "me": false,
+     "text": "Schedule, schedule. Bring the cornhole set"
+    },
+    {
+     "me": false,
+     "text": "My hip is acting up. Rain coming for sure"
+    },
+    {
+     "me": true,
+     "text": "take it easy. Want me to bring groceries?"
+    },
+    {
+     "me": false,
+     "text": "Bless you, no, Walt's helping. Just call more often"
+    },
+    {
+     "me": true,
+     "text": "I will. Promise"
+    },
+    {
+     "me": true,
+     "text": "Sorry I missed the reunion"
+    },
+    {
+     "me": false,
+     "text": "We missed you. Maddie asked where her cousin was"
+    },
+    {
+     "me": true,
+     "text": "Tell her I owe her a milkshake"
+    },
+    {
+     "me": false,
+     "text": "Call me this month. I mean it."
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-key-tasha",
+   "title": "Tasha",
+   "time": "6/18/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Tell your Gran thank you for the plate she sent home! Best chicken and dumplings ever"
+    },
+    {
+     "me": true,
+     "text": "Will do 🙂"
+    },
+    {
+     "me": true,
+     "text": "Hey, need a favor. Tomorrow at 2 PM somebody's calling you about some paperwork. Pick up and say you're Evelyn Pruitt, my Gran"
+    },
+    {
+     "me": false,
+     "text": "Your GRAN?? 😂 why"
+    },
+    {
+     "me": true,
+     "text": "Long story, it's a formality. She's 74. Slow, sweet, say honey a lot"
+    },
+    {
+     "me": false,
+     "text": "I can do old lady. What if they ask me stuff"
+    },
+    {
+     "me": true,
+     "text": "I'll text you the answers in the morning. Keep it short"
+    },
+    {
+     "me": false,
+     "text": "Ok. I'm gonna need something for this"
+    },
+    {
+     "me": true,
+     "text": "I got you, 500"
+    },
+    {
+     "me": false,
+     "text": "Deal 😂"
+    },
+    {
+     "me": true,
+     "text": "Name, address, last four of the social. Don't forget a cough or two"
+    },
+    {
+     "me": false,
+     "text": "Did I sound seventy-four? 😂 said honey like 9 times"
+    },
+    {
+     "me": true,
+     "text": "You were perfect. Thank you"
+    },
+    {
+     "me": false,
+     "text": "He asked me to spell Pruitt and I almost lost it"
+    },
+    {
+     "me": true,
+     "text": "Sent it. Thanks again"
+    },
+    {
+     "me": false,
+     "text": "Got it! You're the best"
+    }
+   ]
+  },
+  {
+   "id": "mut-conv-hobbs",
+   "title": "Mr. Hobbs",
+   "time": "6/4/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": true,
+     "text": "Hi Mr. Hobbs, my turntable has a hum and the speed drifts. Can you look at it?"
+    },
+    {
+     "me": false,
+     "text": "Sure, what make?"
+    },
+    {
+     "me": true,
+     "text": "Technics SL-1200 from the 80s"
+    },
+    {
+     "me": false,
+     "text": "Fine machines. Probably the capacitors, plus a belt check. Bring it by the shop"
+    },
+    {
+     "me": true,
+     "text": "When can I drop it off?"
+    },
+    {
+     "me": false,
+     "text": "Any time before 4. Shop's on Frankfort Ave."
+    },
+    {
+     "me": true,
+     "text": "Dropped it off just now"
+    },
+    {
+     "me": false,
+     "text": "Got it, ticket number 2217. Give me a week or two"
+    },
+    {
+     "me": false,
+     "text": "Danny, your Technics is done. New caps, cleaned the pitch control, tonearm wiring is solid"
+    },
+    {
+     "me": true,
+     "text": "Awesome. What do I owe you?"
+    },
+    {
+     "me": false,
+     "text": "$85 for parts and labor"
+    },
+    {
+     "me": true,
+     "text": "Can I pick up later this week?"
+    },
+    {
+     "me": false,
+     "text": "Fine, I'm here till 4"
+    },
+    {
+     "me": true,
+     "text": "Got it home, sounds amazing. Thanks Mr. Hobbs"
+    },
+    {
+     "me": false,
+     "text": "Mr. Hobbs here. Your turntable needs a new belt, around $18."
+    },
+    {
+     "me": true,
+     "text": "go ahead and order it"
+    },
+    {
+     "me": false,
+     "text": "Belt came in. Stylus is worn too. Want a new one?"
+    },
+    {
+     "me": true,
+     "text": "how much for the stylus"
+    },
+    {
+     "me": false,
+     "text": "Sixty. I can do it in two days."
+    },
+    {
+     "me": true,
+     "text": "Let me hold off on the stylus for now. I'll swing by for the belt"
+    }
+   ]
+  }
+ ],
+ "whatsapp": [
+  {
+   "id": "mut-wa-okafor",
+   "title": "Mrs. Okafor",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Good morning Danny. A package for your grandmother was left at my door. I will bring it over."
+    },
+    {
+     "me": true,
+     "text": "thanks Mrs. Okafor, I can grab it"
+    },
+    {
+     "me": false,
+     "text": "It is no trouble. Your grandmother is a good friend to me."
+    },
+    {
+     "me": false,
+     "text": "Your grass is getting tall. Would you like my son to cut it when he does mine?"
+    },
+    {
+     "me": true,
+     "text": "I can get it this weekend, thank you"
+    },
+    {
+     "me": false,
+     "text": "Alright, I only wanted to offer."
+    },
+    {
+     "me": true,
+     "text": "mowed front and back, let me know if I missed spots"
+    },
+    {
+     "me": false,
+     "text": "It looks very nice. Thank you."
+    },
+    {
+     "me": false,
+     "text": "I gave your grandmother tomatoes from the garden. Please make sure she eats them."
+    },
+    {
+     "me": true,
+     "text": "she's making a pie already"
+    },
+    {
+     "me": false,
+     "text": "Ha! Good."
+    },
+    {
+     "me": false,
+     "text": "Your porch light was out last night. I noticed because I was bringing in my trash cans."
+    },
+    {
+     "me": true,
+     "text": "oh thanks, I'll change the bulb"
+    },
+    {
+     "me": false,
+     "text": "Your grandmother should not be walking in the dark."
+    },
+    {
+     "me": true,
+     "text": "on it today"
+    },
+    {
+     "me": false,
+     "text": "You are welcome at our fireworks gathering if you want. My son will make jollof."
+    },
+    {
+     "me": true,
+     "text": "that sounds great, I'll see if gran wants to come"
+    },
+    {
+     "me": false,
+     "text": "Please bring her. I will save a chair."
+    },
+    {
+     "me": true,
+     "text": "gran says thank you, she had a great time"
+    },
+    {
+     "me": false,
+     "text": "She told me stories about Mr. Albert's fishing trips. I enjoyed it."
+    },
+    {
+     "me": false,
+     "text": "The city is replacing the sidewalk on our street next month. Notice is on the light pole."
+    },
+    {
+     "me": true,
+     "text": "ok good to know"
+    },
+    {
+     "me": false,
+     "text": "Your grandmother finished my curtains. She is a magician with a needle."
+    },
+    {
+     "me": true,
+     "text": "she is, been doing it my whole life"
+    },
+    {
+     "me": false,
+     "text": "I tried to pay her and she refused. So I am baking her a cake."
+    },
+    {
+     "me": true,
+     "text": "she'll love that"
+    },
+    {
+     "me": false,
+     "text": "Danny, are you well? You look thin lately."
+    },
+    {
+     "me": true,
+     "text": "I'm good, just busy, thanks for asking"
+    },
+    {
+     "me": false,
+     "text": "You are young, you must eat. Come for dinner this weekend. I will cook."
+    },
+    {
+     "me": true,
+     "text": "I appreciate it, I'll see"
+    },
+    {
+     "me": false,
+     "text": "I will bring the cake over this afternoon. Is your grandmother home?"
+    },
+    {
+     "me": true,
+     "text": "she is, she'll be there"
+    },
+    {
+     "me": false,
+     "text": "She looked tired today. Take care of her, Danny."
+    },
+    {
+     "me": true,
+     "text": "I will, always do"
+    }
+   ]
+  },
+  {
+   "id": "mut-wa-gran",
+   "title": "Gran",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Did you eat anything today, my boy?"
+    },
+    {
+     "me": true,
+     "text": "yeah had a sandwich"
+    },
+    {
+     "me": false,
+     "text": "A sandwich is not supper. Pot roast is in the oven."
+    },
+    {
+     "me": true,
+     "text": "ok I'll be home by 7"
+    },
+    {
+     "me": false,
+     "text": "Lord, bring an appetite then."
+    },
+    {
+     "me": false,
+     "text": "Your Aunt Lorraine called about the cookout. Wants me to bring my peach cobbler."
+    },
+    {
+     "me": true,
+     "text": "you should, everybody loves it"
+    },
+    {
+     "me": false,
+     "text": "Everybody loves it because I use real butter. Albert always said so."
+    },
+    {
+     "me": false,
+     "text": "Dr. Alvarez's office called. Eye appointment moved to June 9 at 10."
+    },
+    {
+     "me": true,
+     "text": "got it, I'll drive you"
+    },
+    {
+     "me": false,
+     "text": "Wear a clean shirt. They'll think I raised a ragamuffin."
+    },
+    {
+     "me": true,
+     "text": "the navy polo is clean"
+    },
+    {
+     "me": false,
+     "text": "That polo has more miles on it than my Singer."
+    },
+    {
+     "me": false,
+     "text": "Did you pick up my drops at Kroger? The little blue box."
+    },
+    {
+     "me": true,
+     "text": "yeah they're on the counter by the bread box"
+    },
+    {
+     "me": false,
+     "text": "Found them. Thank you, my boy."
+    },
+    {
+     "me": false,
+     "text": "Mrs. Okafor brought over tomatoes. I'm making a pie with the rest. Don't you eat the whole thing."
+    },
+    {
+     "me": true,
+     "text": "no promises"
+    },
+    {
+     "me": false,
+     "text": "That boy. 😤"
+    },
+    {
+     "me": false,
+     "text": "You're out late. Porch light's on."
+    },
+    {
+     "me": true,
+     "text": "sorry gran, running behind, don't wait up"
+    },
+    {
+     "me": false,
+     "text": "I'll leave a plate in the oven. Don't stay out till the roosters."
+    },
+    {
+     "me": false,
+     "text": "Did you set that reminder for my evening pill like you said?"
+    },
+    {
+     "me": true,
+     "text": "yep it's on the calendar, goes off at 8"
+    },
+    {
+     "me": false,
+     "text": "Good. My memory's like a seam come loose lately."
+    },
+    {
+     "me": false,
+     "text": "Ran out of thread mid-hem on Mrs. Okafor's curtains. Can you run me to the fabric store on Preston when you get a minute?"
+    },
+    {
+     "me": true,
+     "text": "sure, this afternoon?"
+    },
+    {
+     "me": false,
+     "text": "Afternoon is fine. I'll be ready by two."
+    },
+    {
+     "me": false,
+     "text": "Your cousin Heather sent a picture of the baby. Lord, the hair on that child."
+    },
+    {
+     "me": true,
+     "text": "send it to me"
+    },
+    {
+     "me": false,
+     "text": "I don't know how to send it. You do it on my phone later."
+    },
+    {
+     "me": false,
+     "text": "It's hot as a skillet in this house. Fan's making a racket again."
+    },
+    {
+     "me": true,
+     "text": "I'll look at it tonight"
+    },
+    {
+     "me": false,
+     "text": "You've been quiet lately, my boy. Everything alright?"
+    },
+    {
+     "me": true,
+     "text": "yeah just tired gran"
+    },
+    {
+     "me": false,
+     "text": "Tired I understand. Get some rest. A body's like a good seam, it needs tending."
+    },
+    {
+     "me": false,
+     "text": "Supper's at six. Fried chicken."
+    },
+    {
+     "me": true,
+     "text": "ok see you then"
+    }
+   ],
+   "avatar": "msg_1.webp"
+  },
+  {
+   "id": "mut-wa-pete",
+   "title": "Pete's Record Exchange",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hey Danny, Pete's Record Exchange. That Otis Redding copy you asked about just came in, VG+."
+    },
+    {
+     "me": true,
+     "text": "how much"
+    },
+    {
+     "me": false,
+     "text": "$28. Want me to hold it?"
+    },
+    {
+     "me": true,
+     "text": "yes please, coming by this weekend"
+    },
+    {
+     "me": true,
+     "text": "picked it up, sounds great. thanks Pete"
+    },
+    {
+     "me": false,
+     "text": "Anytime. Got a Lynyrd Skynyrd first press coming next week if you're interested"
+    },
+    {
+     "me": true,
+     "text": "definitely"
+    },
+    {
+     "me": false,
+     "text": "Skynyrd is in. Pronounced and Second Helping, both clean. $35 each"
+    },
+    {
+     "me": true,
+     "text": "can I do one this week and one later?"
+    },
+    {
+     "me": false,
+     "text": "Sure, I'll hold the second until the end of the month"
+    },
+    {
+     "me": true,
+     "text": "stopping in around 5 for Second Helping"
+    },
+    {
+     "me": false,
+     "text": "Door's open till 7"
+    },
+    {
+     "me": false,
+     "text": "Record Store Day leftovers 20% off all week, FYI"
+    },
+    {
+     "me": true,
+     "text": "nice, might swing by"
+    },
+    {
+     "me": true,
+     "text": "you take trade-ins? I've got some country LPs I'm doubling up on"
+    },
+    {
+     "me": false,
+     "text": "Yeah bring em in, store credit or cash. Store credit's better"
+    },
+    {
+     "me": true,
+     "text": "cash if you can"
+    },
+    {
+     "me": false,
+     "text": "Depends on condition. Bring em and we'll see"
+    },
+    {
+     "me": true,
+     "text": "brought a box by, you were out. left it with your clerk"
+    },
+    {
+     "me": false,
+     "text": "Got em. Taking the Waylon and the Merle, passing on the rest. $40 for the lot"
+    },
+    {
+     "me": true,
+     "text": "ok that works"
+    },
+    {
+     "me": true,
+     "text": "can I come grab the cash"
+    },
+    {
+     "me": false,
+     "text": "Yep, in till 6"
+    },
+    {
+     "me": false,
+     "text": "Got a clean Al Green Let's Stay Together in. Thought of you"
+    },
+    {
+     "me": true,
+     "text": "can't swing it right now, hold for a week?"
+    },
+    {
+     "me": false,
+     "text": "Hold for 7 days, no problem"
+    },
+    {
+     "me": false,
+     "text": "Hold's up today, want it?"
+    },
+    {
+     "me": true,
+     "text": "gonna pass this time, sorry"
+    },
+    {
+     "me": false,
+     "text": "No worries, it'll be in the soul bin if you change your mind"
+    },
+    {
+     "me": false,
+     "text": "New shipment tomorrow, lots of soul and southern rock"
+    },
+    {
+     "me": true,
+     "text": "I'll try to come through"
+    },
+    {
+     "me": false,
+     "text": "Heads up, store closing early today, dentist"
+    },
+    {
+     "me": true,
+     "text": "np"
+    },
+    {
+     "me": false,
+     "text": "Hey, that Al Green is still here if you want it. Marked it down a few bucks."
+    },
+    {
+     "me": true,
+     "text": "appreciate it, will see"
+    }
+   ]
+  },
+  {
+   "id": "mut-wa-coachgreg",
+   "title": "Coach Greg",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Danny! Coach Greg. We're running a summer clinic for the middle schoolers. Any chance you'd help out a couple evenings?"
+    },
+    {
+     "me": true,
+     "text": "hey coach, yeah I'd be down"
+    },
+    {
+     "me": false,
+     "text": "Great. Two evenings a week, 6 to 7:30, starts in June"
+    },
+    {
+     "me": true,
+     "text": "I'll check my schedule and let you know"
+    },
+    {
+     "me": false,
+     "text": "No rush, but I need numbers by end of the week"
+    },
+    {
+     "me": true,
+     "text": "I can do the first few weeks"
+    },
+    {
+     "me": false,
+     "text": "Perfect. Bring your own ball, the school ones are flat."
+    },
+    {
+     "me": false,
+     "text": "Clinic starts today, gym doors at 5:45"
+    },
+    {
+     "me": true,
+     "text": "running late, 10 min"
+    },
+    {
+     "me": false,
+     "text": "No sweat. Kids are doing layup lines"
+    },
+    {
+     "me": false,
+     "text": "You were great with the kids. Little Jamal kept asking for 'Danny' lol"
+    },
+    {
+     "me": true,
+     "text": "they're good kids"
+    },
+    {
+     "me": false,
+     "text": "Can you make it tonight? Short on help"
+    },
+    {
+     "me": true,
+     "text": "can't tonight sorry coach"
+    },
+    {
+     "me": false,
+     "text": "Alright. Everything ok?"
+    },
+    {
+     "me": true,
+     "text": "yeah just work stuff"
+    },
+    {
+     "me": false,
+     "text": "Last two weeks of the clinic. Need you if you can swing it"
+    },
+    {
+     "me": true,
+     "text": "I'll try"
+    },
+    {
+     "me": false,
+     "text": "Missed you tonight. Jamal's mom brought snacks for everyone though"
+    },
+    {
+     "me": true,
+     "text": "sorry coach, something came up"
+    },
+    {
+     "me": false,
+     "text": "Alumni game is set for next month. Class of '18 vs '19. You in?"
+    },
+    {
+     "me": true,
+     "text": "who's on my team"
+    },
+    {
+     "me": false,
+     "text": "Same crew: Matt, Devon, you. Coach's orders"
+    },
+    {
+     "me": true,
+     "text": "ha, ok count me in"
+    },
+    {
+     "me": false,
+     "text": "Alumni game moved to August 8, gym floor is being refinished"
+    },
+    {
+     "me": true,
+     "text": "ok good to know"
+    },
+    {
+     "me": false,
+     "text": "6 PM tip-off. Bring white and navy jerseys"
+    },
+    {
+     "me": false,
+     "text": "Reminder, game's next week. Bring your old #11 jersey if you still have it"
+    },
+    {
+     "me": true,
+     "text": "think it's in a box in the closet"
+    },
+    {
+     "me": false,
+     "text": "Dig it out! Still got your 31-point night on the wall in the gym"
+    },
+    {
+     "me": true,
+     "text": "lol that was a long time ago"
+    },
+    {
+     "me": false,
+     "text": "Not that long. You still got the touch"
+    },
+    {
+     "me": false,
+     "text": "Need a headcount of who's showing for the alumni game"
+    },
+    {
+     "me": true,
+     "text": "I'm in"
+    }
+   ]
+  },
+  {
+   "id": "mut-wa-jaylen",
+   "title": "Jaylen",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "yo you still got the Jordan 4s in a 10.5?"
+    },
+    {
+     "me": true,
+     "text": "yeah the military blues, never worn"
+    },
+    {
+     "me": false,
+     "text": "what you asking"
+    },
+    {
+     "me": true,
+     "text": "180 shipped"
+    },
+    {
+     "me": false,
+     "text": "come on bro 150"
+    },
+    {
+     "me": true,
+     "text": "165 and I'll throw in the box"
+    },
+    {
+     "me": false,
+     "text": "deal. paypal ok?"
+    },
+    {
+     "me": true,
+     "text": "yep"
+    },
+    {
+     "me": false,
+     "text": "that box was crispy, thanks. you got any more heat?"
+    },
+    {
+     "me": true,
+     "text": "couple pairs of dunks I need to move"
+    },
+    {
+     "me": false,
+     "text": "let me know when you list them"
+    },
+    {
+     "me": false,
+     "text": "waterfront tonight? Matt's bringing the good ball"
+    },
+    {
+     "me": true,
+     "text": "can't, gotta pick up gran's prescription then a thing"
+    },
+    {
+     "me": false,
+     "text": "always a thing with you lately"
+    },
+    {
+     "me": true,
+     "text": "lol I'll make the next one"
+    },
+    {
+     "me": false,
+     "text": "you see the new Foamposite drop? sold out in like 2 mins"
+    },
+    {
+     "me": true,
+     "text": "bots man. the resale on those is crazy"
+    },
+    {
+     "me": false,
+     "text": "facts. I got shut out again"
+    },
+    {
+     "me": false,
+     "text": "bro Louisville City won in stoppage time 🔥"
+    },
+    {
+     "me": true,
+     "text": "just saw it, wild"
+    },
+    {
+     "me": false,
+     "text": "my Xbox controller drifting, you know anywhere that fixes them"
+    },
+    {
+     "me": true,
+     "text": "try the little shop off Bardstown Rd next to the vape store"
+    },
+    {
+     "me": false,
+     "text": "bet thanks"
+    },
+    {
+     "me": false,
+     "text": "still got those dunks?"
+    },
+    {
+     "me": true,
+     "text": "one pair left, panda, size 11"
+    },
+    {
+     "me": false,
+     "text": "my cousin wears 11. what price"
+    },
+    {
+     "me": true,
+     "text": "95"
+    },
+    {
+     "me": false,
+     "text": "send me your paypal again, I'll tell him"
+    },
+    {
+     "me": true,
+     "text": "same as before, it's my phone number"
+    },
+    {
+     "me": false,
+     "text": "dude my cousin says they fit perfect lol"
+    },
+    {
+     "me": true,
+     "text": "told you"
+    },
+    {
+     "me": false,
+     "text": "you good? haven't seen you at the courts in weeks"
+    },
+    {
+     "me": true,
+     "text": "yeah just busy with work stuff"
+    },
+    {
+     "me": false,
+     "text": "ok, hit me if you wanna run it back"
+    },
+    {
+     "me": false,
+     "text": "pickup at 7 tomorrow, you in?"
+    },
+    {
+     "me": true,
+     "text": "maybe, I'll see"
+    },
+    {
+     "me": false,
+     "text": "bring water, it's like 95 out"
+    }
+   ],
+   "avatar": "msg_7.webp"
+  },
+  {
+   "id": "mut-wa-group-waterfront",
+   "title": "Matt, Devon, Tyler, Dre",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Court's free tonight, anybody?"
+    },
+    {
+     "me": false,
+     "text": "I'm in, 7:30"
+    },
+    {
+     "me": false,
+     "text": "can't, working a double"
+    },
+    {
+     "me": false,
+     "text": "I'll be there"
+    },
+    {
+     "me": false,
+     "text": "Danny?"
+    },
+    {
+     "me": true,
+     "text": "maybe"
+    },
+    {
+     "me": false,
+     "text": "Who's got the good ball"
+    },
+    {
+     "me": false,
+     "text": "Mine's got a slow leak. Devon?"
+    },
+    {
+     "me": false,
+     "text": "Got it, bringing the Wilson"
+    },
+    {
+     "me": false,
+     "text": "Court's ours at 6 tomorrow. Need 10 bodies, don't flake"
+    },
+    {
+     "me": false,
+     "text": "In"
+    },
+    {
+     "me": false,
+     "text": "In. Tyler is bringing the good ball this time"
+    },
+    {
+     "me": false,
+     "text": "The good ball got stolen from my trunk, I'm not lying"
+    },
+    {
+     "me": false,
+     "text": "Sure Tyler 😂"
+    },
+    {
+     "me": false,
+     "text": "Danny you coming? You've bailed three weeks straight"
+    },
+    {
+     "me": true,
+     "text": "Trying. Got a client thing, will let you know"
+    },
+    {
+     "me": false,
+     "text": "Always a client thing"
+    },
+    {
+     "me": false,
+     "text": "Shirts vs skins. Danny's on skins since he's lost weight 😂"
+    },
+    {
+     "me": true,
+     "text": "Lol. Not this time, sorry guys"
+    },
+    {
+     "me": false,
+     "text": "Rain in the forecast for tomorrow. I'll check the court at noon and post here"
+    },
+    {
+     "me": false,
+     "text": "👍"
+    },
+    {
+     "me": false,
+     "text": "Pickup tomorrow at 7, bring water. It's gonna be 95"
+    },
+    {
+     "me": false,
+     "text": "I'll bring a cooler"
+    },
+    {
+     "me": true,
+     "text": "I'll try to make it"
+    }
+   ]
+  },
+  {
+   "id": "mut-wa-matt",
+   "title": "Matt",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hey man, you good? Haven't seen you at the court"
+    },
+    {
+     "me": false,
+     "text": "you watching the game?"
+    },
+    {
+     "me": true,
+     "text": "yeah second half"
+    },
+    {
+     "me": false,
+     "text": "refs are blind"
+    },
+    {
+     "me": true,
+     "text": "lol every time"
+    },
+    {
+     "me": true,
+     "text": "Yeah just busy with work"
+    },
+    {
+     "me": false,
+     "text": "Cool. Coach Greg wants us for the rec league sign up, deadline's soon"
+    },
+    {
+     "me": true,
+     "text": "Put me down, I'll sort the fee later"
+    },
+    {
+     "me": false,
+     "text": "Done. Don't ghost me on it"
+    },
+    {
+     "me": true,
+     "text": "Never 🤙"
+    },
+    {
+     "me": false,
+     "text": "need a ride to the airport next month, can you do it? you've got the Civic"
+    },
+    {
+     "me": true,
+     "text": "yeah just tell me when"
+    },
+    {
+     "me": false,
+     "text": "mid-month, will confirm"
+    },
+    {
+     "me": false,
+     "text": "you coming to pickup tomorrow? Jaylen's bringing his cousin"
+    },
+    {
+     "me": true,
+     "text": "maybe, depends on the day"
+    },
+    {
+     "me": false,
+     "text": "come on we need a fifth"
+    }
+   ],
+   "avatar": "wa_6.webp"
+  },
+  {
+   "id": "mut-wa-group-family",
+   "title": "Aunt Lorraine, Heather, Gran, Uncle Walt",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Cookout at my place, last weekend of June. Everybody bring a dish!"
+    },
+    {
+     "me": false,
+     "text": "Yes!! We'll bring the kids. I'll do deviled eggs"
+    },
+    {
+     "me": false,
+     "text": "I'll handle the grill. Somebody remind me to buy charcoal"
+    },
+    {
+     "me": false,
+     "text": "I'll bring the peach cobbler. Danny will drive me."
+    },
+    {
+     "me": true,
+     "text": "I'm in, I'll bring drinks"
+    },
+    {
+     "me": false,
+     "text": "Danny!! Look at you in the group chat"
+    },
+    {
+     "me": false,
+     "text": "Boy better bring ice too"
+    },
+    {
+     "me": true,
+     "text": "got you Uncle Walt"
+    },
+    {
+     "me": false,
+     "text": "Does anyone have Gran's cobbler recipe? Asking for science."
+    },
+    {
+     "me": false,
+     "text": "It's in my head, honey. A cup of this, a pinch of that. Like a pattern I never wrote down."
+    },
+    {
+     "me": false,
+     "text": "That's not a recipe Gran 😂"
+    },
+    {
+     "me": false,
+     "text": "Come watch me and you'll learn."
+    },
+    {
+     "me": false,
+     "text": "Reminder: cookout is next weekend. Gonna be hot, bring hats"
+    },
+    {
+     "me": false,
+     "text": "Forecast says 94. I'll bring the big cooler"
+    },
+    {
+     "me": true,
+     "text": "I'll pick up ice morning of"
+    },
+    {
+     "me": false,
+     "text": "Great turnout today! Thanks everyone"
+    },
+    {
+     "me": false,
+     "text": "The baby loved Uncle Walt's hot dogs lol"
+    },
+    {
+     "me": false,
+     "text": "Best customer I ever had"
+    },
+    {
+     "me": false,
+     "text": "Home safe. Danny drove like a church deacon."
+    },
+    {
+     "me": true,
+     "text": "I drive normal gran"
+    },
+    {
+     "me": false,
+     "text": "Baby is standing on her own now, any day she'll walk!"
+    },
+    {
+     "me": false,
+     "text": "Awww send video"
+    },
+    {
+     "me": false,
+     "text": "Will send tonight"
+    },
+    {
+     "me": false,
+     "text": "I'm just glad to see the child."
+    },
+    {
+     "me": false,
+     "text": "Anybody know a good roofer? Got a leak over the garage."
+    },
+    {
+     "me": false,
+     "text": "Use the one who did our shingles, Pastor Henshaw's nephew"
+    },
+    {
+     "me": false,
+     "text": "Thanks Lorraine"
+    },
+    {
+     "me": false,
+     "text": "Prayers for Mrs. Dixon from church, she's in the hospital with her hip"
+    },
+    {
+     "me": false,
+     "text": "Lord, I'll bring a casserole when she's home."
+    },
+    {
+     "me": false,
+     "text": "Praying 🙏"
+    },
+    {
+     "me": false,
+     "text": "Anyone free next weekend to help me clean out the attic? Old family boxes"
+    },
+    {
+     "me": false,
+     "text": "I can do the morning"
+    },
+    {
+     "me": false,
+     "text": "I'll bring the kids to play, sorry in advance"
+    },
+    {
+     "me": true,
+     "text": "can't make it, got a thing"
+    },
+    {
+     "me": false,
+     "text": "Always a thing. Love you anyway, sweetheart"
+    },
+    {
+     "me": false,
+     "text": "Sorting thread for the quilt. Heather, which colors for the baby blanket?"
+    },
+    {
+     "me": false,
+     "text": "Yellow and soft green!"
+    },
+    {
+     "me": false,
+     "text": "Yellow and green it is."
+    }
+   ]
+  },
+  {
+   "id": "mut-wa-dre",
+   "title": "Dre",
+   "time": "Monday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "yo you still got your Jordan 4s in a 10.5?"
+    },
+    {
+     "me": true,
+     "text": "nah those are gone, got a pair of 11s though, lightly worn"
+    },
+    {
+     "me": false,
+     "text": "I wear an 11 bro. How lightly"
+    },
+    {
+     "me": true,
+     "text": "like 5 wears. Box and everything. Sending pics later"
+    },
+    {
+     "me": false,
+     "text": "bet. Court Saturday? Captain says we need a fifth"
+    },
+    {
+     "me": true,
+     "text": "I'm in. I'm rusty tho, ankles are not what they were"
+    },
+    {
+     "me": false,
+     "text": "you're 26 not 46 lol"
+    },
+    {
+     "me": false,
+     "text": "good run today. Your left hand is still ugly but it works"
+    },
+    {
+     "me": true,
+     "text": "lmao. My legs are dead"
+    },
+    {
+     "me": false,
+     "text": "Wings after? Bardstown Rd"
+    },
+    {
+     "me": true,
+     "text": "can't tonight. Next time"
+    },
+    {
+     "me": false,
+     "text": "you say that every time now man"
+    },
+    {
+     "me": false,
+     "text": "court's booked for 7 tonight, lights are on till 9"
+    },
+    {
+     "me": true,
+     "text": "I'll be there. Need to charge my phone, it's been dying all day"
+    },
+    {
+     "me": false,
+     "text": "Tyler's bringing the good ball this time, not the flat one"
+    },
+    {
+     "me": true,
+     "text": "praise be 🙏"
+    },
+    {
+     "me": false,
+     "text": "Heat advisory this weekend, we might move to the early slot. 8 AM"
+    },
+    {
+     "me": true,
+     "text": "8 works. I'll bring water for the team"
+    }
+   ]
+  },
+  {
+   "id": "mut-wa-ray",
+   "title": "Ray",
+   "time": "Saturday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "How's the Civic running?"
+    },
+    {
+     "me": true,
+     "text": "squeaks when I start it cold"
+    },
+    {
+     "me": false,
+     "text": "Probably the belt. Cheap fix."
+    },
+    {
+     "me": true,
+     "text": "when can you look at it"
+    },
+    {
+     "me": false,
+     "text": "Bring it by the garage when I'm off."
+    },
+    {
+     "me": false,
+     "text": "Cuz, my brakes are squealing like a stuck pig. Got a part on order but I'm short"
+    },
+    {
+     "me": true,
+     "text": "How short?"
+    },
+    {
+     "me": false,
+     "text": "Sixty bucks. Pay you back on payday"
+    },
+    {
+     "me": true,
+     "text": "Sending it through PayPal now"
+    },
+    {
+     "me": false,
+     "text": "You're a legend. Bring your Civic by sometime, I'll check the oil for free"
+    },
+    {
+     "me": true,
+     "text": "Deal. Sunday maybe"
+    },
+    {
+     "me": true,
+     "text": "can I swing by now?"
+    },
+    {
+     "me": false,
+     "text": "Yep, I'm here till 5."
+    },
+    {
+     "me": true,
+     "text": "thanks man, runs quiet now"
+    },
+    {
+     "me": false,
+     "text": "Parts were $22, no charge for labor. Check your oil next time."
+    },
+    {
+     "me": false,
+     "text": "Tire pressure light on yet?"
+    },
+    {
+     "me": true,
+     "text": "not yet"
+    },
+    {
+     "me": false,
+     "text": "Check it anyway, it's been hot."
+    },
+    {
+     "me": false,
+     "text": "Birthday dinner at Aunt Heather's next week, you coming? Gran's making her pie"
+    },
+    {
+     "me": true,
+     "text": "Wouldn't miss Gran's pie"
+    }
+   ],
+   "avatar": "msg_3.webp"
+  },
+  {
+   "id": "mut-wa-lorraine",
+   "title": "Aunt Lorraine",
+   "time": "7/29/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Did Gran get the leftovers home okay? I sent too much potato salad"
+    },
+    {
+     "me": true,
+     "text": "she did, we ate it for lunch"
+    },
+    {
+     "me": false,
+     "text": "Good. Tell her to call me, her phone keeps going to voicemail"
+    },
+    {
+     "me": true,
+     "text": "she turns it off at night, I'll remind her"
+    },
+    {
+     "me": false,
+     "text": "Thinking of you baby. You eating enough?"
+    },
+    {
+     "me": true,
+     "text": "yes ma'am"
+    },
+    {
+     "me": false,
+     "text": "You always say that. Come by for dinner soon"
+    },
+    {
+     "me": false,
+     "text": "Danny honey, your Gran's tomatoes aren't a patch on mine this year. Look at these beauties"
+    },
+    {
+     "me": true,
+     "text": "Wow Aunt Lorraine. Save me one"
+    },
+    {
+     "me": false,
+     "text": "I'll bring a basket when I come up for church. Is Evelyn still stubborn about her knee?"
+    },
+    {
+     "me": true,
+     "text": "Very. She won't use the cane"
+    },
+    {
+     "me": false,
+     "text": "That woman. Make her, sugar. You're all she's got"
+    },
+    {
+     "me": true,
+     "text": "I will. Love you"
+    },
+    {
+     "me": false,
+     "text": "Love you more. Eat something green 💚"
+    },
+    {
+     "me": false,
+     "text": "Pastor Henshaw asked about you at church. Said they miss you"
+    },
+    {
+     "me": true,
+     "text": "tell him I said hi"
+    },
+    {
+     "me": false,
+     "text": "You tell him yourself. Service has plenty of room."
+    }
+   ],
+   "avatar": "wa_10.webp"
+  },
+  {
+   "id": "mut-wa-jenna",
+   "title": "Jenna",
+   "time": "7/21/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Danny!! Are those the grey New Balance 550s you posted? What size"
+    },
+    {
+     "me": true,
+     "text": "women's 9.5 equivalent, so men's 8. They're basically new"
+    },
+    {
+     "me": false,
+     "text": "My brother wears an 8! Price?"
+    },
+    {
+     "me": true,
+     "text": "$65 and I'll meet you wherever"
+    },
+    {
+     "me": false,
+     "text": "Sold. I'm at the Highlands Starbucks around 5, that work?"
+    },
+    {
+     "me": true,
+     "text": "See you at 5"
+    },
+    {
+     "me": false,
+     "text": "Brother says they fit perfect. Thank you!! Venmo or cash next time?"
+    },
+    {
+     "me": true,
+     "text": "either's fine, glad they fit"
+    },
+    {
+     "me": false,
+     "text": "Random but are you still going to Pete's record fair this weekend? I want a Bill Withers LP"
+    },
+    {
+     "me": true,
+     "text": "I'll be there when it opens. Pete said he has a clean copy of Just As I Am"
+    },
+    {
+     "me": false,
+     "text": "Oh stop, now I have to get there before you"
+    },
+    {
+     "me": true,
+     "text": "first come first served 😏"
+    },
+    {
+     "me": false,
+     "text": "You beat me by ten minutes and I'm still mad. It was a beautiful copy"
+    },
+    {
+     "me": true,
+     "text": "It's playing right now, you can hear it through the wall lol"
+    },
+    {
+     "me": false,
+     "text": "We're doing a small cookout at my place next weekend, burgers and a speaker. Come!"
+    },
+    {
+     "me": true,
+     "text": "Thanks Jenna. Not sure yet, I'll let you know"
+    },
+    {
+     "me": false,
+     "text": "No pressure! Just don't disappear on us, ok?"
+    },
+    {
+     "me": true,
+     "text": "I won't. Promise"
+    }
+   ]
+  },
+  {
+   "id": "mut-wa-pat",
+   "title": "Miss Pat",
+   "time": "7/19/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hello Danny, this is Pat Delgado from Gran's quilting circle. Hope it's okay I got your number from her"
+    },
+    {
+     "me": true,
+     "text": "Hi Miss Pat! Of course it's okay. Everything alright?"
+    },
+    {
+     "me": false,
+     "text": "Oh yes, fine. My car's in the shop and the circle meets Thursday at the church hall. Gran said you might be able to drive us both"
+    },
+    {
+     "me": true,
+     "text": "Happy to. What time should I get you?"
+    },
+    {
+     "me": false,
+     "text": "Half past noon would be lovely. I'm on Edgewood, the house with the blue shutters"
+    },
+    {
+     "me": true,
+     "text": "Got it. See you then"
+    },
+    {
+     "me": false,
+     "text": "Thank you for the ride, honey. You're a good boy. Your grandmother is lucky"
+    },
+    {
+     "me": true,
+     "text": "No trouble at all, Miss Pat"
+    },
+    {
+     "me": false,
+     "text": "I sent a loaf of banana bread home with Gran for you. Don't let her give it all to the neighbors"
+    },
+    {
+     "me": true,
+     "text": "I'll fight her for it 😄"
+    },
+    {
+     "me": false,
+     "text": "Danny, do you know how to get a picture off a phone onto a computer? My grandson is out of town"
+    },
+    {
+     "me": true,
+     "text": "Sure, I can come by later today and set it up. Takes 10 minutes"
+    },
+    {
+     "me": false,
+     "text": "Bless you. I'll have sweet tea ready"
+    },
+    {
+     "me": false,
+     "text": "Circle is meeting at the hall again this week, same arrangement if you're free"
+    },
+    {
+     "me": true,
+     "text": "I can do it. Same time?"
+    },
+    {
+     "me": false,
+     "text": "Yes please. Gran says she's finishing a christening gown and wants to show it off"
+    },
+    {
+     "me": true,
+     "text": "She's been hunched over that thing for weeks. I'll bring the car around front"
+    },
+    {
+     "me": false,
+     "text": "God bless you, dear. Take care of yourself too, you look thin lately"
+    }
+   ]
+  },
+  {
+   "id": "conv-wa-key-marcus",
+   "title": "Marcus Hale · Hollis Lending",
+   "time": "7/18/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hi Danny, this is Marcus Hale with Hollis Lending. A mutual friend passed along your number. I'll be handling your file from here.\n\n— Marcus Hale, Hollis Lending"
+    },
+    {
+     "me": true,
+     "text": "Hey Marcus. Yeah, Kyle said you'd reach out"
+    },
+    {
+     "me": false,
+     "text": "Good. Watch your email for the welcome packet. Anything you need, message me here.\n\n— Marcus Hale, Hollis Lending"
+    },
+    {
+     "me": true,
+     "text": "Got it. How long does this usually take?"
+    },
+    {
+     "me": false,
+     "text": "A few weeks if the paperwork is clean. Yours should be.\n\n— Marcus Hale, Hollis Lending"
+    },
+    {
+     "me": false,
+     "text": "Your verification call is in two days at 2 PM. Make sure the borrower is somewhere quiet and has the file details handy.\n\n— Marcus Hale, Hollis Lending"
+    },
+    {
+     "me": true,
+     "text": "Understood. It'll be taken care of"
+    },
+    {
+     "me": false,
+     "text": "Verification came back clean. Nice work. We can move to signing.\n\n— Marcus Hale, Hollis Lending"
+    },
+    {
+     "me": false,
+     "text": "Signing is the day after tomorrow at 11 AM. Bring a photo ID. I'll text the suite number that morning.\n\n— Marcus Hale, Hollis Lending"
+    },
+    {
+     "me": true,
+     "text": "I'll be there"
+    },
+    {
+     "me": false,
+     "text": "Suite 4B. Come up when you get here.\n\n— Marcus Hale, Hollis Lending"
+    },
+    {
+     "me": true,
+     "text": "Took a pic of the signature page for my own records. That ok?"
+    },
+    {
+     "me": false,
+     "text": "Fine by me. Originals go to underwriting.\n\n— Marcus Hale, Hollis Lending"
+    },
+    {
+     "me": false,
+     "text": "Funds are released. Check your account.\n\n— Marcus Hale, Hollis Lending"
+    },
+    {
+     "me": true,
+     "text": "Seeing it. Thanks Marcus"
+    },
+    {
+     "me": true,
+     "text": "Can I call you about a couple things in the paperwork?"
+    },
+    {
+     "me": false,
+     "text": "I don't take calls on this line. Questions go through the email on file.\n\n— Marcus Hale, Hollis Lending"
+    },
+    {
+     "me": true,
+     "text": "Who actually owns Hollis? Like the people behind it"
+    },
+    {
+     "me": false,
+     "text": "Compliance questions go through the email on file as well.\n\n— Marcus Hale, Hollis Lending"
+    }
+   ],
+   "avatar": "wa_13.webp"
+  },
+  {
+   "id": "mut-wa-heather",
+   "title": "Heather",
+   "time": "7/6/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "hey cuz, Mason's t-ball game is Saturday morning, you coming or still hiding"
+    },
+    {
+     "me": true,
+     "text": "lol I'll try. What time"
+    },
+    {
+     "me": false,
+     "text": "9 sharp at the Cherokee Park field. Bring coffee for me and I'll love you forever"
+    },
+    {
+     "me": true,
+     "text": "deal. Large, oat milk, I know"
+    },
+    {
+     "me": false,
+     "text": "you were the best, Mason has not stopped talking about 'Uncle Danny's dugout snacks' 😂"
+    },
+    {
+     "me": true,
+     "text": "it was gas station Skittles Heather"
+    },
+    {
+     "me": false,
+     "text": "Mom wants everybody at her place for Mother's Day. Can you pick up Gran? Her hip is acting up"
+    },
+    {
+     "me": true,
+     "text": "yeah no problem. Civic's got room"
+    },
+    {
+     "me": false,
+     "text": "Thank you. And bring a dessert or something, don't show up empty handed"
+    },
+    {
+     "me": true,
+     "text": "I'll grab one of those lemon pies from Kroger"
+    },
+    {
+     "me": false,
+     "text": "Kroger pie counts. Gran will say it's too sweet and then eat two slices"
+    },
+    {
+     "me": false,
+     "text": "Do you still have Dad's old folding tables? We need two for the cookout"
+    },
+    {
+     "me": true,
+     "text": "They're in the garage behind the lawnmower. I can drop them off Friday"
+    },
+    {
+     "me": false,
+     "text": "you're a lifesaver"
+    },
+    {
+     "me": true,
+     "text": "Sorry I left early yesterday. Wasn't feeling great"
+    },
+    {
+     "me": false,
+     "text": "We noticed. You okay? You look like you haven't slept in a week"
+    },
+    {
+     "me": true,
+     "text": "just tired. Long month. I'm fine"
+    },
+    {
+     "me": false,
+     "text": "Okay. But you know you can call me, right? Any hour"
+    },
+    {
+     "me": true,
+     "text": "I know. Thanks H 🙂"
+    }
+   ]
+  }
+ ],
+ "gmail": [
+  {
+   "sender": "The Pivot Pod",
+   "subject": "This week: preseason power rankings & hot takes",
+   "preview": "Welcome back to the newsletter. In this week's episode: preseason power rankings, our early MVP picks, and a m",
+   "body": "Welcome back to the newsletter.\n\nIn this week's episode: preseason power rankings, our early MVP picks, and a mailbag full of arguments you didn't ask for.\n\nListen on your favorite podcast app.\n\nThe Pivot Pod",
+   "time": "7:30 AM",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Waterfront 5v5 Court Captain",
+   "subject": "5v5 roster for this weekend",
+   "preview": "Fellas, We've got 9 confirmed for the weekend run. Need one more or we're playing 4v4. Bring a dark and a ligh",
+   "body": "Fellas,\n\nWe've got 9 confirmed for the weekend run. Need one more or we're playing 4v4. Bring a dark and a light shirt.\n\nCourt 1, 6 PM. Don't be late.\n\n- Captain",
+   "time": "Yesterday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Louisville Water Co.",
+   "subject": "Question about my bill",
+   "preview": "Hello, My latest bill looks higher than usual. Could someone check whether there's a leak on the account for L",
+   "body": "Hello,\n\nMy latest bill looks higher than usual. Could someone check whether there's a leak on the account for Larkspur Lane? Our meter hasn't been read in a while.\n\nThanks,\nDanny Pruitt",
+   "time": "Tuesday",
+   "folder": "sent"
+  },
+  {
+   "sender": "Lou's Barber Shop",
+   "subject": "Booking confirmed: fade + beard trim",
+   "preview": "You're booked! Service: Skin fade + beard line-up Barber: Lou Time: tomorrow at 11:00 AM Cancellations within ",
+   "body": "You're booked!\n\nService: Skin fade + beard line-up\nBarber: Lou\nTime: tomorrow at 11:00 AM\n\nCancellations within 2 hours may be charged.\n\nLou's Barber Shop",
+   "time": "Monday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "LinkedIn Job Alerts",
+   "subject": "12 new jobs for Sales Consultant in Louisville",
+   "preview": "New jobs matching your search: Inside Sales Rep, Account Executive, Territory Sales Associate, and more. View ",
+   "body": "New jobs matching your search: Inside Sales Rep, Account Executive, Territory Sales Associate, and more.\n\nView all jobs on LinkedIn.",
+   "time": "Monday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Spotify",
+   "subject": "Your receipt from Spotify",
+   "preview": "Thanks for your payment. Spotify Premium Individual: $11.99. Enjoy the music.",
+   "body": "Thanks for your payment. Spotify Premium Individual: $11.99.\n\nEnjoy the music.",
+   "time": "Saturday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Apple",
+   "subject": "Your receipt from Apple",
+   "preview": "Receipt iCloud+ 50 GB storage plan Monthly renewal: $0.99 Billed to: Visa ending 2268 If you didn't make this ",
+   "body": "Receipt\n\niCloud+ 50 GB storage plan\nMonthly renewal: $0.99\n\nBilled to: Visa ending 2268\n\nIf you didn't make this purchase, report a problem.\n\nApple",
+   "time": "Saturday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Pastor Dale Henshaw",
+   "subject": "Larkspur Baptist weekly newsletter",
+   "preview": "Friends, This week: casserole sign-up for the potluck, the senior van needs two volunteer drivers, and the qui",
+   "body": "Friends,\n\nThis week: casserole sign-up for the potluck, the senior van needs two volunteer drivers, and the quilting circle meets in the fellowship hall.\n\nAll are welcome, young and old.\n\nBlessings,\nPastor Dale",
+   "time": "7/30/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Highlands Vision Center",
+   "subject": "Appointment reminder for Evelyn",
+   "preview": "This is a reminder of an upcoming eye exam at Highlands Vision Center. Please arrive 15 minutes early and brin",
+   "body": "This is a reminder of an upcoming eye exam at Highlands Vision Center. Please arrive 15 minutes early and bring current glasses.\n\nTo reschedule, call the front desk.",
+   "time": "7/30/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Uber Receipts",
+   "subject": "Your ride with Marlon",
+   "preview": "Thanks for riding, Danny. Total: $12.60 UberX Pickup: Larkspur Lane Drop-off: Waterfront Park Rate your driver",
+   "body": "Thanks for riding, Danny.\n\nTotal: $12.60\nUberX\nPickup: Larkspur Lane\nDrop-off: Waterfront Park\n\nRate your driver in the app.\n\nUber",
+   "time": "7/28/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Bluegrass Mobile",
+   "subject": "Your July bill is ready",
+   "preview": "Your July statement is ready to view. Amount due: $62.40. Autopay is on, so there's nothing you need to do. Th",
+   "body": "Your July statement is ready to view. Amount due: $62.40. Autopay is on, so there's nothing you need to do.\n\nThanks for being a Bluegrass Mobile customer.",
+   "time": "7/28/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Wendell Pike",
+   "subject": "Room for rent — East Nashville",
+   "preview": "Hi Mr. Pike, I saw your listing for the room in East Nashville. Is it still available? I can be there August 3",
+   "body": "Hi Mr. Pike,\n\nI saw your listing for the room in East Nashville. Is it still available? I can be there August 30, cash for the first two months. I'm quiet, no pets, and I work odd hours.\n\nLet me know if I can come see it or if a video walkthrough works.\n\nThanks,\nDanny Pruitt",
+   "time": "7/27/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "To: Coach Greg",
+   "subject": "Reference for a job application",
+   "preview": "Coach, Hope the new season is going well. Would you be willing to be a reference for me? I'm applying to a few",
+   "body": "Coach,\n\nHope the new season is going well. Would you be willing to be a reference for me? I'm applying to a few places and you're one of the people who knows me best.\n\nThanks for everything you did for me in high school.\n\nDanny",
+   "time": "7/27/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Indeed",
+   "subject": "New jobs: Delivery Driver, Inside Sales, Warehouse",
+   "preview": "New jobs matching your search in Louisville, KY: - Inside Sales Representative - $18-22/hr - Delivery Driver (",
+   "body": "New jobs matching your search in Louisville, KY:\n\n- Inside Sales Representative - $18-22/hr\n- Delivery Driver (Own Vehicle) - $20/hr + tips\n- Warehouse Team Member - $17.50/hr\n\nApply early; these were posted today.\n\nIndeed",
+   "time": "7/24/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "RevoBank",
+   "subject": "Your monthly statement is available",
+   "preview": "Hello Danny, Your account statement for the previous month is now available in the RevoBank app under Document",
+   "body": "Hello Danny,\n\nYour account statement for the previous month is now available in the RevoBank app under Documents.\n\nFor your security, we never include account details in email.\n\nRevoBank",
+   "time": "7/22/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Bree Castillo",
+   "subject": "Your hoodie",
+   "preview": "Hey Bree, I found your gray hoodie in my trunk. I can drop it at your place or leave it with your sister, whic",
+   "body": "Hey Bree,\n\nI found your gray hoodie in my trunk. I can drop it at your place or leave it with your sister, whichever's easier. No pressure to talk, just don't want it to get lost.\n\nTake care,\nDanny",
+   "time": "7/21/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Pete's Record Exchange",
+   "subject": "New arrivals: soul & Southern rock crates",
+   "preview": "Fresh crates just in: Muscle Shoals soul, Allman Brothers pressings, and a few clean Stax originals. Stop by t",
+   "body": "Fresh crates just in: Muscle Shoals soul, Allman Brothers pressings, and a few clean Stax originals. Stop by the shop or browse online.",
+   "time": "7/21/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Mr. Hobbs",
+   "subject": "Selling a few records?",
+   "preview": "Hi Mr. Hobbs, I'm clearing out a few records and wondered if you buy used soul and Southern rock LPs. Happy to",
+   "body": "Hi Mr. Hobbs,\n\nI'm clearing out a few records and wondered if you buy used soul and Southern rock LPs. Happy to send a list and photos.\n\nDanny",
+   "time": "7/20/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Shell Fuel Rewards",
+   "subject": "Your Fuel Rewards savings are about to expire",
+   "preview": "Hi Danny, You have 25¢/gal in savings that expire in 7 days. Use it at any participating Shell, including Bard",
+   "body": "Hi Danny,\n\nYou have 25¢/gal in savings that expire in 7 days. Use it at any participating Shell, including Bardstown Rd.\n\nShell Fuel Rewards",
+   "time": "7/20/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Louisville Cardinals",
+   "subject": "Season tickets on sale: men's basketball",
+   "preview": "Cardinal fans, Single-game tickets for the upcoming season go on sale soon. Student and young alumni pricing a",
+   "body": "Cardinal fans,\n\nSingle-game tickets for the upcoming season go on sale soon. Student and young alumni pricing available.\n\nGet your seats early for rivalry games.\n\nGo Cards!",
+   "time": "7/18/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "SoleSwap",
+   "subject": "Your payout is on the way",
+   "preview": "Hi Danny, Your sale of Air Jordan 4 \"Military Black\" (Size 11) has cleared authentication. Payout: $198.50 aft",
+   "body": "Hi Danny,\n\nYour sale of Air Jordan 4 \"Military Black\" (Size 11) has cleared authentication.\n\nPayout: $198.50 after fees\nMethod: PayPal\n\nPayouts usually arrive within 2 business days.\n\nSoleSwap Seller Support",
+   "time": "7/16/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Waterfront Park Rec",
+   "subject": "Court reservation confirmed",
+   "preview": "Your pickup court reservation at Waterfront Park is confirmed. Please keep the court tidy and respect the time",
+   "body": "Your pickup court reservation at Waterfront Park is confirmed. Please keep the court tidy and respect the time slot.",
+   "time": "7/14/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Hiring Team",
+   "subject": "Application: Warehouse Associate",
+   "preview": "Hello, I'd like to apply for the Warehouse Associate opening. I'm reliable, can lift 50 lbs, and can start rig",
+   "body": "Hello,\n\nI'd like to apply for the Warehouse Associate opening. I'm reliable, can lift 50 lbs, and can start right away. My resume is attached.\n\nThank you,\nDanny Pruitt",
+   "time": "7/12/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Credit Karma",
+   "subject": "Your VantageScore changed",
+   "preview": "Hi Danny, There's been a change to your VantageScore 3.0 from TransUnion. Log in to see what's driving it and ",
+   "body": "Hi Danny,\n\nThere's been a change to your VantageScore 3.0 from TransUnion. Log in to see what's driving it and get tips to improve.\n\nCredit Karma",
+   "time": "7/12/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Papa Joe's Chicken",
+   "subject": "Free 6-piece wings with any combo",
+   "preview": "Hungry? Show this email at the counter for 6 free wings with any combo meal. Valid through the end of the mont",
+   "body": "Hungry? Show this email at the counter for 6 free wings with any combo meal. Valid through the end of the month.",
+   "time": "7/10/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Waterfront 5v5 Court Captain",
+   "subject": "Re: Roster for this weekend",
+   "preview": "Count me in. I'll bring the ball and the pump. Danny",
+   "body": "Count me in. I'll bring the ball and the pump.\n\nDanny",
+   "time": "7/9/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "DoorDash",
+   "subject": "Your order from Bardstown Rd Wings",
+   "preview": "Thanks for your order, Danny! 20 pc bone-in wings (lemon pepper) x1 Fries x1 Subtotal: $27.45 Delivery + fees:",
+   "body": "Thanks for your order, Danny!\n\n20 pc bone-in wings (lemon pepper) x1\nFries x1\nSubtotal: $27.45\nDelivery + fees: $6.99\nDasher tip: $4.00\n\nDelivered to Larkspur Lane. Enjoy!\n\nDoorDash",
+   "time": "7/6/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Sneaker Hub Support",
+   "subject": "Re: Refund for order",
+   "preview": "Hi, The size was wrong on my last order and I've mailed it back. Could you confirm the refund once it arrives?",
+   "body": "Hi,\n\nThe size was wrong on my last order and I've mailed it back. Could you confirm the refund once it arrives?\n\nThanks,\nDanny",
+   "time": "7/3/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Amazon.com",
+   "subject": "Shipped: \"Vinyl record cleaning kit\"",
+   "preview": "Hello Danny, Your package has shipped. Vinyl record cleaning kit with carbon fiber brush Arriving: tomorrow by",
+   "body": "Hello Danny,\n\nYour package has shipped.\n\nVinyl record cleaning kit with carbon fiber brush\nArriving: tomorrow by 9 PM\n\nTrack your package in Your Orders.\n\nAmazon.com",
+   "time": "7/3/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Mr. Hobbs Vinyl Repair",
+   "subject": "Warped record: can you fix it?",
+   "preview": "Hi Mr. Hobbs, I have an original pressing of a soul LP with a slight warp near the edge. Is that something you",
+   "body": "Hi Mr. Hobbs,\n\nI have an original pressing of a soul LP with a slight warp near the edge. Is that something you can flatten, or is it a lost cause? Happy to bring it by the shop.\n\nThanks,\nDanny",
+   "time": "7/2/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "To: Highlands Vision Center",
+   "subject": "Re: Follow-up eye exam: please confirm",
+   "preview": "YES, confirmed. I'll bring my grandmother in and her list of meds. Could you note that she needs a ground-floo",
+   "body": "YES, confirmed. I'll bring my grandmother in and her list of meds. Could you note that she needs a ground-floor room? She has trouble with stairs.\n\nDanny Pruitt",
+   "time": "7/2/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Highlands Vision Center",
+   "subject": "Follow-up eye exam: please confirm",
+   "preview": "Hello, We'd like to confirm a follow-up exam for your grandmother in three weeks at 10:15 AM with Dr. Alvarez.",
+   "body": "Hello,\n\nWe'd like to confirm a follow-up exam for your grandmother in three weeks at 10:15 AM with Dr. Alvarez. Please reply YES to confirm.\n\nBring her current glasses and a list of medications.\n\nHighlands Vision Center",
+   "time": "7/1/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Hollis Lending",
+   "subject": "Your Payment Schedule & Default Terms",
+   "preview": "Dear Authorized Contact, Please review the terms of Loan HL-20417. Payment schedule: 120 monthly payments of $",
+   "body": "Dear Authorized Contact,\n\nPlease review the terms of Loan HL-20417.\n\nPayment schedule: 120 monthly payments of $571.62. Your first payment is due September 1.\n\nDefault: If any payment is more than 30 days past due, Hollis Lending may accelerate the balance and begin foreclosure on the property securing this loan. Late fees apply after a 10-day grace period.\n\nQuestions? Reply to this message or contact your loan officer.\n\nHollis Lending LLC",
+   "time": "6/29/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Louisville Water Co.",
+   "subject": "Water bill notice: account ending 5520",
+   "preview": "Your water and sewer statement is available. Amount due: $58.90 Due by: July 18 We'll be flushing hydrants in ",
+   "body": "Your water and sewer statement is available.\n\nAmount due: $58.90\nDue by: July 18\n\nWe'll be flushing hydrants in your area next month; water may look cloudy for a short time. It's safe to use.\n\nLouisville Water Company",
+   "time": "6/29/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Heather Pruitt-Moss",
+   "subject": "Re: Family cookout",
+   "preview": "Hey Heather, I'll try to make it. Gran says she'll bring her peach cobbler, so you know she's coming for sure.",
+   "body": "Hey Heather,\n\nI'll try to make it. Gran says she'll bring her peach cobbler, so you know she's coming for sure. I'll drive her.\n\nWhat can I bring, ice or drinks?\n\nDanny",
+   "time": "6/25/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Hollis Lending",
+   "subject": "Loan HL-20417: Your loan has been funded",
+   "preview": "Dear Authorized Contact, Good news: your home equity loan has been funded. Proceeds have been released to the ",
+   "body": "Dear Authorized Contact,\n\nGood news: your home equity loan has been funded. Proceeds have been released to the account on file and should appear within one business day.\n\nYour payment schedule and terms will follow in a separate message.\n\nHollis Lending LLC",
+   "time": "6/25/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Netflix",
+   "subject": "An update on your Netflix plan price",
+   "preview": "Hi Danny, Starting with your next billing cycle, the price of your Standard with ads plan will change. You don",
+   "body": "Hi Danny,\n\nStarting with your next billing cycle, the price of your Standard with ads plan will change. You don't need to do anything to keep watching.\n\nYou can change or cancel your plan any time in Account.\n\nThe Netflix Team",
+   "time": "6/24/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Dr. Patel Dental",
+   "subject": "Reschedule cleaning?",
+   "preview": "Hello, I need to move my cleaning to a later slot. Mornings don't work anymore, so anything after 1 PM would b",
+   "body": "Hello,\n\nI need to move my cleaning to a later slot. Mornings don't work anymore, so anything after 1 PM would be great.\n\nThank you,\nDanny Pruitt",
+   "time": "6/20/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Dr. Patel Dental",
+   "subject": "Reminder: cleaning appointment next week",
+   "preview": "Hi Danny, This is a reminder of your cleaning and exam next week at 9:30 AM. Please arrive 10 minutes early. R",
+   "body": "Hi Danny,\n\nThis is a reminder of your cleaning and exam next week at 9:30 AM.\n\nPlease arrive 10 minutes early. Reply to this email or call the office if you need to reschedule.\n\nDr. Patel Dental",
+   "time": "6/19/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "PayPal",
+   "subject": "You received $185.00 USD from Jordan M.",
+   "preview": "Hello Danny, You've received a payment. Amount: $185.00 USD From: Jordan M. Note: Switch console + 2 games Tra",
+   "body": "Hello Danny,\n\nYou've received a payment.\n\nAmount: $185.00 USD\nFrom: Jordan M.\nNote: Switch console + 2 games\nTransaction ID: 6TK29381LD047720B\n\nThe funds are available in your PayPal balance.\n\nPayPal",
+   "time": "6/16/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Jordan M.",
+   "subject": "Re: Is the Switch still available?",
+   "preview": "Yeah man, still got it. Comes with the dock, both controllers, and the two games. $185 and I can meet at the K",
+   "body": "Yeah man, still got it. Comes with the dock, both controllers, and the two games. $185 and I can meet at the Kroger lot on Bardstown Rd.\n\nDanny",
+   "time": "6/15/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Hollis Lending",
+   "subject": "Loan HL-20417: Borrower verification call scheduled",
+   "preview": "Dear Authorized Contact, As part of final review, we are required to complete a verification call with the bor",
+   "body": "Dear Authorized Contact,\n\nAs part of final review, we are required to complete a verification call with the borrower.\n\nWe will call the borrower at +1 (502) 555-0137 at 2:00 PM, two days from today. Please make sure the borrower is available and in a quiet place, with the file details handy.\n\nIf the call is missed, verification may be delayed.\n\nHollis Lending LLC",
+   "time": "6/15/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Speedway Auto Care",
+   "subject": "Re: Time for an oil change on your Honda Civic",
+   "preview": "Hi, Can I bring it in early next week? It's got a little rattle when I brake too, so could you look at the pad",
+   "body": "Hi,\n\nCan I bring it in early next week? It's got a little rattle when I brake too, so could you look at the pads while it's up?\n\nThanks,\nDanny",
+   "time": "6/12/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Hollis Lending",
+   "subject": "Application received — Loan HL-20417",
+   "preview": "Dear Authorized Contact, We have received your application under reference HL-20417. Our underwriting team is ",
+   "body": "Dear Authorized Contact,\n\nWe have received your application under reference HL-20417. Our underwriting team is reviewing the documents provided.\n\nYou will hear from us within a few business days regarding next steps.\n\nHollis Lending LLC",
+   "time": "6/11/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Speedway Auto Care",
+   "subject": "Time for an oil change on your Honda Civic",
+   "preview": "Hi Danny, It's been about 5,000 miles since your last synthetic oil change. Book a visit and get $10 off with ",
+   "body": "Hi Danny,\n\nIt's been about 5,000 miles since your last synthetic oil change. Book a visit and get $10 off with code SPEED10.\n\nWe do tire rotations while you wait.\n\nSpeedway Auto Care\nBardstown Rd, Louisville",
+   "time": "6/11/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Hollis Lending",
+   "subject": "Welcome to Hollis Lending",
+   "preview": "Welcome, Thank you for choosing Hollis Lending. Your file has been opened and your loan officer, Marcus Hale, ",
+   "body": "Welcome,\n\nThank you for choosing Hollis Lending. Your file has been opened and your loan officer, Marcus Hale, will be your point of contact.\n\nPlease keep your reference number handy for all correspondence. You can reach us any time at m.hale@hollislendingky.com.\n\nHollis Lending LLC",
+   "time": "6/9/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Waterfront Park Rec",
+   "subject": "Summer pickup basketball: court schedule update",
+   "preview": "Hi players, Outdoor courts 2 and 3 will be closed for resurfacing next week. Court 1 stays open for pickup fro",
+   "body": "Hi players,\n\nOutdoor courts 2 and 3 will be closed for resurfacing next week. Court 1 stays open for pickup from 6 PM to dusk.\n\nPlease sign the waiver at the kiosk if you haven't yet this season.\n\nWaterfront Park Recreation",
+   "time": "6/8/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Bluegrass Mobile",
+   "subject": "Your Bluegrass Mobile bill is ready",
+   "preview": "Hi Danny, Your bill for the line ending 0118 is ready. Total due: $67.25 AutoPay is OFF for this account. Pay ",
+   "body": "Hi Danny,\n\nYour bill for the line ending 0118 is ready.\n\nTotal due: $67.25\nAutoPay is OFF for this account.\n\nPay online or in the My Bluegrass app.\n\nThanks for staying with us.",
+   "time": "6/5/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Louisville Water Co.",
+   "subject": "Paperless billing enabled",
+   "preview": "Paperless billing has been turned on for your account. You'll receive an email each month when your statement ",
+   "body": "Paperless billing has been turned on for your account. You'll receive an email each month when your statement is ready.",
+   "time": "5/30/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Discogs",
+   "subject": "Your order has shipped — Muscle Shoals Soul Sessions LP",
+   "preview": "Good news! The seller has shipped your order. Item: Muscle Shoals Soul Sessions (LP, Reissue) - VG+/VG+ Carrie",
+   "body": "Good news! The seller has shipped your order.\n\nItem: Muscle Shoals Soul Sessions (LP, Reissue) - VG+/VG+\nCarrier: USPS Media Mail\nTracking: 9400 1118 9922 3045 7716 02\n\nEstimated delivery: 4-6 days.\n\nHappy digging,\nDiscogs",
+   "time": "5/28/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Papa Joe's Chicken",
+   "subject": "You've got 80 points — one more order for free tenders",
+   "preview": "Hey Danny, You're 20 points away from a free 5-piece tender meal. Order online or in the app before the end of",
+   "body": "Hey Danny,\n\nYou're 20 points away from a free 5-piece tender meal. Order online or in the app before the end of the month.\n\nYour current points: 80\n\nPapa Joe's Chicken Rewards",
+   "time": "5/23/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Kroger Pharmacy",
+   "subject": "Your prescription is ready for pickup",
+   "preview": "Hi Danny, A prescription for Evelyn is ready at Kroger Pharmacy on Bardstown Rd. Rx #: ending 7731 Pickup by: ",
+   "body": "Hi Danny,\n\nA prescription for Evelyn is ready at Kroger Pharmacy on Bardstown Rd.\n\nRx #: ending 7731\nPickup by: 7 days from today\n\nBring a photo ID. Drive-thru is open until 8 PM.\n\nKroger Pharmacy",
+   "time": "5/19/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Louisville Gas & Electric",
+   "subject": "Your LG&E statement is ready",
+   "preview": "Hello, Your latest statement for the service address on Larkspur Lane is now available online. Amount due: $96",
+   "body": "Hello,\n\nYour latest statement for the service address on Larkspur Lane is now available online.\n\nAmount due: $96.38\nDue date: June 3\n\nSet up AutoPay to avoid late fees.\n\nLG&E Customer Care",
+   "time": "5/12/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "eBay",
+   "subject": "Your item sold: Nike Dunk Low (Size 11)",
+   "preview": "Congratulations, danny.pruitt00! Your item sold: Nike Dunk Low Panda, Size 11, Used - Excellent. Sale price: $",
+   "body": "Congratulations, danny.pruitt00!\n\nYour item sold: Nike Dunk Low Panda, Size 11, Used - Excellent.\nSale price: $142.00\n\nPlease ship within 3 business days and add tracking to get paid faster.\n\nPrint your shipping label from My eBay > Sold.\n\nThanks for selling on eBay.",
+   "time": "5/9/26",
+   "folder": "inbox"
+  }
+ ],
+ "calendar": [
+  {
+   "title": "HL #1 — $571.62",
+   "date": "09/01",
+   "dateLabel": "Tue, Sep 1, 2026",
+   "month": "2026-09",
+   "time": "All day",
+   "location": ""
+  },
+  {
+   "title": "Church picnic with Gran",
+   "date": "08/23",
+   "dateLabel": "Sun, Aug 23, 2026",
+   "month": "2026-08",
+   "time": "12:00 PM – 3:00 PM",
+   "location": "Cherokee Park"
+  },
+  {
+   "title": "Lunch w/ Aunt Lorraine",
+   "date": "08/22",
+   "dateLabel": "Sat, Aug 22, 2026",
+   "month": "2026-08",
+   "time": "12:00 PM – 1:30 PM",
+   "location": "Larkspur Lane"
+  },
+  {
+   "title": "Oil change — Civic",
+   "date": "08/20",
+   "dateLabel": "Thu, Aug 20, 2026",
+   "month": "2026-08",
+   "time": "8:30 AM – 9:30 AM",
+   "location": "Speedway Auto Care"
+  },
+  {
+   "title": "Tire rotation",
+   "date": "08/19",
+   "dateLabel": "Wed, Aug 19, 2026",
+   "month": "2026-08",
+   "time": "8:00 AM – 9:30 AM",
+   "location": "Speedway Auto Care"
+  },
+  {
+   "title": "Church w/ Gran",
+   "date": "08/16",
+   "dateLabel": "Sun, Aug 16, 2026",
+   "month": "2026-08",
+   "time": "10:30 AM – 12:00 PM",
+   "location": "Larkspur Baptist Church"
+  },
+  {
+   "title": "Dinner at Ray's",
+   "date": "08/15",
+   "dateLabel": "Sat, Aug 15, 2026",
+   "month": "2026-08",
+   "time": "6:30 PM – 9:00 PM",
+   "location": "Jeffersontown"
+  },
+  {
+   "title": "Gran — pick up prescriptions",
+   "date": "08/13",
+   "dateLabel": "Thu, Aug 13, 2026",
+   "month": "2026-08",
+   "time": "4:30 PM – 5:00 PM",
+   "location": "Kroger Pharmacy"
+  },
+  {
+   "title": "Gran — eye doctor 10am",
+   "date": "08/12",
+   "dateLabel": "Wed, Aug 12, 2026",
+   "month": "2026-08",
+   "time": "10:00 AM – 11:00 AM",
+   "location": "Dr. Alvarez Eye Care"
+  },
+  {
+   "title": "Haircut",
+   "date": "08/10",
+   "dateLabel": "Mon, Aug 10, 2026",
+   "month": "2026-08",
+   "time": "5:00 PM – 5:45 PM",
+   "location": "Lou's Barber Shop"
+  },
+  {
+   "title": "Dr. Patel — follow-up",
+   "date": "08/10",
+   "dateLabel": "Mon, Aug 10, 2026",
+   "month": "2026-08",
+   "time": "9:00 AM – 9:45 AM",
+   "location": "Dr. Patel Dental, Bardstown Rd"
+  },
+  {
+   "title": "Waterfront 5v5",
+   "date": "08/08",
+   "dateLabel": "Sat, Aug 8, 2026",
+   "month": "2026-08",
+   "time": "6:00 PM – 7:30 PM",
+   "location": "Waterfront Park"
+  },
+  {
+   "title": "Gran — refill meds",
+   "date": "08/08",
+   "dateLabel": "Sat, Aug 8, 2026",
+   "month": "2026-08",
+   "time": "4:00 PM – 4:30 PM",
+   "location": "Kroger Pharmacy"
+  },
+  {
+   "title": "Porch light bulbs",
+   "date": "08/08",
+   "dateLabel": "Sat, Aug 8, 2026",
+   "month": "2026-08",
+   "time": "9:30 AM – 10:15 AM",
+   "location": "Larkspur Hardware"
+  },
+  {
+   "title": "Help Mrs. Okafor w/ gutters",
+   "date": "08/02",
+   "dateLabel": "Sun, Aug 2, 2026",
+   "month": "2026-08",
+   "time": "10:00 AM – 11:30 AM",
+   "location": "Larkspur Lane"
+  },
+  {
+   "title": "Waterfront 5v5",
+   "date": "07/30",
+   "dateLabel": "Thu, Jul 30, 2026",
+   "month": "2026-07",
+   "time": "6:00 PM – 7:30 PM",
+   "location": "Waterfront Park"
+  },
+  {
+   "title": "LG&E bill due",
+   "date": "07/30",
+   "dateLabel": "Thu, Jul 30, 2026",
+   "month": "2026-07",
+   "time": "All day",
+   "location": ""
+  },
+  {
+   "title": "Wings w/ Tyler",
+   "date": "07/25",
+   "dateLabel": "Sat, Jul 25, 2026",
+   "month": "2026-07",
+   "time": "8:00 PM – 10:00 PM",
+   "location": "Bardstown Rd Wings"
+  },
+  {
+   "title": "Gran — new glasses fitting",
+   "date": "07/21",
+   "dateLabel": "Tue, Jul 21, 2026",
+   "month": "2026-07",
+   "time": "3:00 PM – 3:45 PM",
+   "location": "Highlands Vision Center"
+  },
+  {
+   "title": "Civic registration renewal",
+   "date": "07/17",
+   "dateLabel": "Fri, Jul 17, 2026",
+   "month": "2026-07",
+   "time": "All day",
+   "location": "Jefferson County Clerk"
+  },
+  {
+   "title": "Gran — eye doctor 10am",
+   "date": "07/15",
+   "dateLabel": "Wed, Jul 15, 2026",
+   "month": "2026-07",
+   "time": "10:00 AM – 11:00 AM",
+   "location": "Dr. Alvarez Eye Care"
+  },
+  {
+   "title": "Drop off turntable — Mr. Hobbs",
+   "date": "07/11",
+   "dateLabel": "Sat, Jul 11, 2026",
+   "month": "2026-07",
+   "time": "10:00 AM – 10:30 AM",
+   "location": "Hobbs Vinyl Repair"
+  },
+  {
+   "title": "Lunch w/ Devon",
+   "date": "07/08",
+   "dateLabel": "Wed, Jul 8, 2026",
+   "month": "2026-07",
+   "time": "12:30 PM – 1:30 PM",
+   "location": "Papa Joe's Chicken"
+  },
+  {
+   "title": "Phone bill due",
+   "date": "07/02",
+   "dateLabel": "Thu, Jul 2, 2026",
+   "month": "2026-07",
+   "time": "All day",
+   "location": ""
+  },
+  {
+   "title": "Uncle Walt's cookout",
+   "date": "06/24",
+   "dateLabel": "Wed, Jun 24, 2026",
+   "month": "2026-06",
+   "time": "5:00 PM – 9:00 PM",
+   "location": "Uncle Walt's backyard, Shively"
+  },
+  {
+   "title": "Hoops w/ Coach Greg",
+   "date": "06/18",
+   "dateLabel": "Thu, Jun 18, 2026",
+   "month": "2026-06",
+   "time": "6:30 PM – 8:00 PM",
+   "location": "Male High School gym"
+  },
+  {
+   "title": "Water bill due",
+   "date": "06/09",
+   "dateLabel": "Tue, Jun 9, 2026",
+   "month": "2026-06",
+   "time": "All day",
+   "location": ""
+  },
+  {
+   "title": "Dr. Patel — dental cleaning",
+   "date": "06/03",
+   "dateLabel": "Wed, Jun 3, 2026",
+   "month": "2026-06",
+   "time": "8:30 AM – 9:30 AM",
+   "location": "Dr. Patel Dental, Bardstown Rd"
+  },
+  {
+   "title": "Pete's Record Exchange — pickup",
+   "date": "05/22",
+   "dateLabel": "Fri, May 22, 2026",
+   "month": "2026-05",
+   "time": "11:00 AM – 12:00 PM",
+   "location": "Pete's Record Exchange, Louisville"
+  },
+  {
+   "title": "Sunvale team huddle",
+   "date": "05/04",
+   "dateLabel": "Mon, May 4, 2026",
+   "month": "2026-05",
+   "time": "9:00 AM – 9:45 AM",
+   "location": "Sunvale Solar — Conference Room B"
+  },
+  {
+   "title": "Sunvale team huddle",
+   "date": "04/27",
+   "dateLabel": "Mon, Apr 27, 2026",
+   "month": "2026-04",
+   "time": "9:00 AM – 9:45 AM",
+   "location": "Sunvale Solar — Conference Room B"
+  },
+  {
+   "title": "Sunvale team huddle",
+   "date": "04/20",
+   "dateLabel": "Mon, Apr 20, 2026",
+   "month": "2026-04",
+   "time": "9:00 AM – 9:45 AM",
+   "location": "Sunvale Solar — Conference Room B"
+  }
+ ],
+ "notes": [
+  {
+   "title": "Ask Dr. Alvarez",
+   "body": "Gran says the left eye gets blurry by evening\nIs the new drop supposed to sting?\nDo the glasses need a new prescription or is it the cataract\nWhat time of day is best for the next appointment, she hates the early ones\nParking is around back, enter off the side street\nBring her old glasses and the med list"
+  },
+  {
+   "title": "Sneakers to list",
+   "body": "Jordan 4 Military Blue, size 11, worn twice, box is a little crushed\nNike Dunk Low Panda, size 11, DS\nNew Balance 550 white/green, size 10.5, needs a clean\nTake pics by the window, no flash\nCheck sold listings for pricing before posting\nShip within 2 days or they leave bad feedback"
+  },
+  {
+   "title": "Fix around the house",
+   "body": "Porch step is loose, needs two screws and a new board\nKitchen faucet drips, ask Larkspur Hardware for a washer\nGutter by the side door is hanging\nGran's closet light keeps flickering\nBasement dehumidifier full, empty it\nChange the smoke detector battery, it chirps at night\nMrs. Okafor's trash can lid, return it"
+  },
+  {
+   "title": "Civic stuff",
+   "body": "Oil change due soon, last one at Speedway Auto Care\nFront passenger tire slow leak, check it\nCheck engine light is on, gas cap? Try tightening first\nWipers streak, buy new ones\nRegistration sticker renewal\nBack seat smells like fries. Vacuum.\nBrake pads squeak a little when it's cold"
+  },
+  {
+   "title": "Records to buy",
+   "body": "- Al Green — Let's Stay Together (original press)\n- Otis Redding — Dock of the Bay\n- Lynyrd Skynyrd — Pronounced\n- Bill Withers — Just As I Am\n- new sleeves + anti-static brush\n\nCheck Pete's Record Exchange for the Skynyrd."
+  },
+  {
+   "title": "Kroger run",
+   "body": "Eggs\nWhole milk (Gran's the 2% kind, not mine)\nWheat bread\nBananas\nChicken thighs\nRice\nCanned peaches\nCoffee filters\nLemon drops for Gran\nPaper towels\nDish soap\nCheck if the pharmacy line is short before the checkout"
+  },
+  {
+   "title": "Podcast queue",
+   "body": "The Pat McAfee Show - the draft recap one\nSouthern Rock history ep on the Allmans\nBill Simmons - playoff preview\nThat long episode about the Louisville flood of 1937 Gran mentioned\nTry something not about sports for once"
+  },
+  {
+   "title": "Gran meds — 8am / 8pm",
+   "body": "8am: blue pill + vitamin D + glass of water\n8pm: heart pill (with food!)\n\nRefill at Kroger Pharmacy when the bottle hits 7 left. Set alarm. Don't let her skip, she'll say she feels fine."
+  },
+  {
+   "title": "porch song",
+   "body": "verse 1\nscreen door humming, a light left on\nthe night's too long and the coffee's gone\n\nchorus\nI'm still out here where the crickets keep time\nsaying I'm fine, I'm fine, I'm fine\n\nverse 2 — ???"
+  },
+  {
+   "title": "Songs to learn",
+   "body": "Try Allman Brothers - Melissa on the old guitar\nSam Cooke - A Change Is Gonna Come\nOtis Redding - Dock of the Bay\nBuy new strings, the high E snapped\nTuner app keeps saying I'm flat, ignore it\nPlay one for Gran on the porch"
+  },
+  {
+   "title": "HL",
+   "body": "HL-20417\n$40,000 against the house\n11.9% · 120 mo\n$571.62 a month"
+  },
+  {
+   "title": "Waterfront 5v5 rules",
+   "body": "Games to 11, win by 2, ones and twos.\nBring a light AND a dark shirt.\nWinners stay on, losers sit one game.\nCall your own fouls, no arguing.\nWater jug is on Dre. Don't forget the ball pump.\nCourt closes at dark, the lights are busted."
+  },
+  {
+   "title": "Ray owes me $60",
+   "body": "$60 for brakes — said he'd pay me back when the shop check clears. Don't bring it up at Gran's table."
+  },
+  {
+   "title": "Gran Christmas ideas",
+   "body": "Fancy thread set, the silk kind she never buys herself\nNew pair of reading glasses with a beaded chain\nWarm slippers, size 7\nTin of those butter cookies she likes\nA nice pair of fabric scissors, check which brand Grandpa Albert bought\nTake her to the Christmas lights in the park"
+  },
+  {
+   "title": "Pitch notes",
+   "body": "Open with the electric bill, not the panels\nAsk: how much do you pay a month?\n25-year panel warranty, say it slow\nFederal tax credit, send the one-pager after\nDon't argue with the husband, talk to the one who pays the bill\nFollow up in 2 days, not 1\nSmile on the phone, they can hear it"
+  },
+  {
+   "title": "wifi",
+   "body": "Network: PruittFamily\nPassword: peachcobbler5\n\n(Gran's router, behind the TV. Unplug it for 30 sec if it acts up.)"
+  }
+ ],
+ "maps": [
+  {
+   "name": "Home",
+   "subtitle": "1418 Larkspur Lane, Louisville"
+  },
+  {
+   "name": "Silver Creek Casino",
+   "subtitle": "Casino across the river, Indiana · 38 trips total"
+  },
+  {
+   "name": "Silver Creek Casino",
+   "subtitle": "Parking garage, east entrance · 21 trips total"
+  },
+  {
+   "name": "Kroger",
+   "subtitle": "Grocery store, Bardstown Rd"
+  },
+  {
+   "name": "Waterfront Park",
+   "subtitle": "Pickup basketball courts"
+  },
+  {
+   "name": "Gran's eye doctor",
+   "subtitle": "Dr. Alvarez Eye Care, Highlands"
+  },
+  {
+   "name": "Ray's Auto",
+   "subtitle": "Auto repair shop, Jeffersontown"
+  },
+  {
+   "name": "Wing spot",
+   "subtitle": "Bardstown Rd Wings · 9 trips total"
+  },
+  {
+   "name": "Pete's Record Exchange",
+   "subtitle": "Used vinyl shop, soul and Southern rock bins. Saved spot, Frankfort Ave"
+  },
+  {
+   "name": "Papa Joe's Chicken",
+   "subtitle": "Fast food, 3-piece combo. Bardstown Rd, 6 trips total"
+  },
+  {
+   "name": "Shell Station Bardstown Rd",
+   "subtitle": "Gas station coffee and fill-ups"
+  },
+  {
+   "name": "Dr. Patel Dental",
+   "subtitle": "Dentist office, cleaning appointments. Taylorsville Rd"
+  },
+  {
+   "name": "Larkspur Hardware",
+   "subtitle": "Local hardware store near the house, keys and lightbulbs"
+  },
+  {
+   "name": "Lou's Barber Shop",
+   "subtitle": "Barber, fade and beard trim. Walk-ins only"
+  },
+  {
+   "name": "Tony's Pizza",
+   "subtitle": "Pizza by the slice, takeout spot"
+  },
+  {
+   "name": "Cherokee Park",
+   "subtitle": "Park with walking loop, Gran likes the Hogan's Fountain area"
+  },
+  {
+   "name": "Bluegrass Mobile",
+   "subtitle": "Phone carrier store, bill pickup"
+  },
+  {
+   "name": "Sunvale Solar Office",
+   "subtitle": "Work office, Preston Hwy. Saved from the old commute"
+  },
+  {
+   "name": "Churchill Downs",
+   "subtitle": "Racetrack, went with Uncle Walt a couple of times"
+  },
+  {
+   "name": "Highlands Branch Library",
+   "subtitle": "Public library, Gran's book pickups"
+  },
+  {
+   "name": "Louisville Slugger Field",
+   "subtitle": "Minor league ballpark, downtown"
+  },
+  {
+   "name": "Cave Hill Cemetery",
+   "subtitle": "Cemetery on Baxter Ave, family plot visits"
+  }
+ ],
+ "revolut": {
+  "balance": "$214.37",
+  "transactions": [
+   {
+    "name": "BetHarbor",
+    "amount": "-$95.00",
+    "date": "Today, 10:40 AM",
+    "note": "Card deposit"
+   },
+   {
+    "name": "BetHarbor",
+    "amount": "-$55.00",
+    "date": "Today, 8:15 AM",
+    "note": "Card deposit"
+   },
+   {
+    "name": "ATM",
+    "amount": "-$200.00",
+    "date": "Yesterday, 11:40 PM",
+    "note": "Cash"
+   },
+   {
+    "name": "BetHarbor",
+    "amount": "-$130.00",
+    "date": "Yesterday, 7:55 PM",
+    "note": "Card deposit"
+   },
+   {
+    "name": "PayPal",
+    "amount": "-$60.00",
+    "date": "Yesterday, 3:05 PM",
+    "note": "Top up"
+   },
+   {
+    "name": "BetHarbor",
+    "amount": "-$65.00",
+    "date": "Yesterday, 9:35 AM",
+    "note": "Card deposit"
+   },
+   {
+    "name": "BetHarbor",
+    "amount": "-$110.00",
+    "date": "Tuesday, 10:50 PM",
+    "note": "Card deposit"
+   },
+   {
+    "name": "BetHarbor",
+    "amount": "-$80.00",
+    "date": "Tuesday, 2:00 PM",
+    "note": "Card deposit"
+   },
+   {
+    "name": "Bardstown Rd Wings",
+    "amount": "-$18.45",
+    "date": "Tuesday, 12:20 AM",
+    "note": "Dinner"
+   },
+   {
+    "name": "BetHarbor",
+    "amount": "-$90.00",
+    "date": "Monday, 8:25 PM",
+    "note": "Card deposit"
+   },
+   {
+    "name": "Kroger",
+    "amount": "-$37.62",
+    "date": "Monday, 5:30 PM",
+    "note": "Groceries"
+   },
+   {
+    "name": "BetHarbor",
+    "amount": "-$40.00",
+    "date": "Monday, 10:10 AM",
+    "note": "Card deposit"
+   },
+   {
+    "name": "BetHarbor",
+    "amount": "-$150.00",
+    "date": "Sunday, 9:45 PM",
+    "note": "Card deposit"
+   },
+   {
+    "name": "BetHarbor",
+    "amount": "-$60.00",
+    "date": "Sunday, 12:30 PM",
+    "note": "Card deposit"
+   },
+   {
+    "name": "Shell Station Bardstown Rd",
+    "amount": "-$41.30",
+    "date": "Sunday, 8:50 AM",
+    "note": "Fuel"
+   },
+   {
+    "name": "BetHarbor",
+    "amount": "-$120.00",
+    "date": "Saturday, 11:15 PM",
+    "note": "Card deposit"
+   },
+   {
+    "name": "BetHarbor",
+    "amount": "-$75.00",
+    "date": "Saturday, 11:20 AM",
+    "note": "Card deposit"
+   },
+   {
+    "name": "Spotify",
+    "amount": "-$11.99",
+    "date": "Saturday, 6:00 AM",
+    "note": "Premium subscription"
+   },
+   {
+    "name": "BetHarbor",
+    "amount": "-$100.00",
+    "date": "Friday, 10:40 PM",
+    "note": "Card deposit"
+   },
+   {
+    "name": "BetHarbor",
+    "amount": "-$50.00",
+    "date": "Friday, 1:05 PM",
+    "note": "Card deposit"
+   },
+   {
+    "name": "Cashier's check",
+    "amount": "-$3,000.00",
+    "date": "6/27/26, 4:10 PM",
+    "note": "For Gran"
+   },
+   {
+    "name": "HOLLIS LENDING LLC",
+    "amount": "-$6,000.00",
+    "date": "6/25/26, 6:30 PM",
+    "note": "Incoming transfer"
+   },
+   {
+    "name": "SUNVALE SOLAR PAYROLL",
+    "amount": "-$1,684.20",
+    "date": "5/19/26, 12:00 PM",
+    "note": "Direct deposit"
+   }
+  ]
+ },
+ "weather": {
+  "city": "Louisville",
+  "tempC": 32,
+  "hi": 34,
+  "lo": 28,
+  "condition": "Partly Cloudy"
+ },
+ "photos": [
+  "photo_0.webp",
+  "photo_1.webp",
+  "photo_2.webp",
+  "photo_3.webp",
+  "photo_4.webp",
+  "photo_5.webp",
+  "photo_6.webp",
+  "photo_7.webp",
+  {
+   "image": "photo_8.webp",
+   "caption": "Borrower: EVELYN PRUITT\nProperty: 1418 Larkspur Lane"
+  }
+ ],
+ "screenTime": [
+  {
+   "appName": "BetHarbor",
+   "durationMinutes": 312
+  },
+  {
+   "appName": "Messages",
+   "durationMinutes": 168
+  },
+  {
+   "appName": "Spotify",
+   "durationMinutes": 142
+  },
+  {
+   "appName": "Safari",
+   "durationMinutes": 96
+  },
+  {
+   "appName": "YouTube",
+   "durationMinutes": 96
+  },
+  {
+   "appName": "WhatsApp",
+   "durationMinutes": 88
+  },
+  {
+   "appName": "Maps",
+   "durationMinutes": 54
+  },
+  {
+   "appName": "Snapchat",
+   "durationMinutes": 41
+  },
+  {
+   "appName": "Mail",
+   "durationMinutes": 31
+  },
+  {
+   "appName": "Phone",
+   "durationMinutes": 27
+  },
+  {
+   "appName": "Photos",
+   "durationMinutes": 23
+  },
+  {
+   "appName": "PayPal",
+   "durationMinutes": 19
+  },
+  {
+   "appName": "Notes",
+   "durationMinutes": 17
+  },
+  {
+   "appName": "Clock",
+   "durationMinutes": 14
+  },
+  {
+   "appName": "Calendar",
+   "durationMinutes": 12
+  },
+  {
+   "appName": "Camera",
+   "durationMinutes": 9
+  },
+  {
+   "appName": "Settings",
+   "durationMinutes": 8
+  },
+  {
+   "appName": "Weather",
+   "durationMinutes": 6
+  },
+  {
+   "appName": "Calculator",
+   "durationMinutes": 5
+  }
+ ]
+}

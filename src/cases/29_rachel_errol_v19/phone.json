@@ -1,0 +1,1192 @@
+{
+ "caseName": "Errol Did It for Mom",
+ "title": "Rachel & Errol",
+ "now": "2026-08-06T23:59:00",
+ "client": {
+  "name": "Rachel",
+  "avatar": "client.webp"
+ },
+ "owner": {
+  "first": "Errol",
+  "full": "Errol Kingsley",
+  "avatar": null
+ },
+ "wallpaper": "wallpaper.webp",
+ "passcode": "000000",
+ "totalQuestions": 7,
+ "questions": [
+  {
+   "id": 1,
+   "text": "The port, at midnight... He has no reason to be anywhere near there. Somebody sent for him, didn't they. Please, can you tell me who?",
+   "answer": "Brandt",
+   "decoys": [
+    "Prosser",
+    "Kessler",
+    "Whitlock"
+   ],
+   "hint": "Check if he received a text or a message from an unknown person around midnight."
+  },
+  {
+   "id": 2,
+   "text": "Brandt. I've never heard that name in my life. Sorry — is there anything on here from that hour, anything he kept?",
+   "answer": "Shipping crate",
+   "decoys": [
+    "Stowage diagram",
+    "Port crane",
+    "Industrial hangar"
+   ],
+   "hint": "If something happened at the port at midnight, he may have taken a photo or recorded some media at that time."
+  },
+  {
+   "id": 3,
+   "text": "He was reading about port inspections. He knew exactly how much trouble this was... Was anything arranged for after that night? Please say there wasn't.",
+   "answer": "Handover",
+   "decoys": [
+    "Casual tech meetup",
+    "Group code walkthrough",
+    "Advice session with a developer"
+   ],
+   "hint": "If he planned a follow-up to his action, it's surely recorded in his schedule for the coming days."
+  },
+  {
+   "id": 4,
+   "text": "A handover. Tomorrow... If he thought this could go wrong, he might have written something down before it happened. Do you know who he was writing it for?",
+   "answer": "Rachel",
+   "decoys": [
+    "Cody",
+    "Owen",
+    "Corinne"
+   ],
+   "hint": "Something written before a risky night doesn't always get sent right away — it might still be sitting in his Notes app. Read all the way to the end to see who he was writing to."
+  },
+  {
+   "id": 5,
+   "text": "He wrote it and never sent it. He was going to tell me... Something on here is locked and wants a code. Could you find it, please?",
+   "answer": "1971",
+   "decoys": [
+    "2005",
+    "1969",
+    "1975"
+   ],
+   "hint": "Open Drive and look in the 'Legal files' folder — one file there is locked. The code is linked to his family: search his old conversations for a message that says outright what year his mother was born."
+  },
+  {
+   "id": 6,
+   "text": "A promissory note. He's twenty-one and he signed for money... Who did he sign it with? I want a name.",
+   "answer": "Ashgrove Holdings",
+   "decoys": [
+    "Walmart Providence",
+    "Stop & Shop",
+    "CVS Pharmacy"
+   ],
+   "hint": "If he was paying a debt, the money must have left a trail. Check his accounts and recent transactions."
+  },
+  {
+   "id": 7,
+   "text": "Ashgrove Holdings. I've never heard that name, and I know his whole life, or I thought I did. Where are these people based?",
+   "answer": "Nassau",
+   "decoys": [
+    "Providence",
+    "Miami",
+    "Freeport"
+   ],
+   "hint": "Open the contract photo in Photos and look closely at the details, there's often the time and location of the shot. The city where the photo was taken is indicated there."
+  }
+ ],
+ "onboarding": [
+  {
+   "text": "My name's Rachel. I'm sorry, I've been sitting here trying to word this for twenty minutes... My brother didn't come home this morning, and I have nobody else to ask.",
+   "label": "Rachel",
+   "image": "onboarding_1.webp"
+  },
+  {
+   "text": "Errol's 21. It's been the two of us and Mom our whole lives. She got sick a month ago, they operated, the bills started coming, and I watched him go quiet about all of it.",
+   "label": "Rachel & Errol",
+   "image": "onboarding_2.webp"
+  },
+  {
+   "text": "He's the careful one. He texts me the second he's in, always... Then he started coming back at dawn, telling me he'd been at the library. He's a terrible liar. He did it anyway.",
+   "label": "Errol",
+   "image": "onboarding_3.webp"
+  },
+  {
+   "text": "He promised he'd call me first thing. His new number just rings and rings... His old one was on the charger, unlocked. I've held it an hour without looking. Take it. Please. I need him back.",
+   "label": "Rachel",
+   "image": "onboarding_4.webp"
+  }
+ ],
+ "home": [
+  {
+   "app": "notes",
+   "label": "Notes"
+  },
+  {
+   "app": "gmail",
+   "label": "Email"
+  },
+  {
+   "app": "messages",
+   "label": "Messages"
+  },
+  {
+   "app": "settings",
+   "label": "Settings"
+  },
+  {
+   "app": "calendar",
+   "label": "Calendar"
+  },
+  {
+   "app": "revolut",
+   "label": "RevoBank"
+  }
+ ],
+ "dock": [
+  {
+   "app": "wallet",
+   "label": "Wallet"
+  },
+  {
+   "app": "phone",
+   "label": "Phone"
+  },
+  {
+   "app": "photos",
+   "label": "Photos"
+  }
+ ],
+ "missingApps": [],
+ "calls": [
+  {
+   "name": "Cody Bennett",
+   "time": "Today, 9:38 AM",
+   "type": "outgoing",
+   "detail": "4 min"
+  },
+  {
+   "name": "+1 401 555 0197",
+   "time": "Yesterday, 8:42 PM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Anjali Raman",
+   "time": "Yesterday, 6:09 PM",
+   "type": "incoming",
+   "detail": "2 min"
+  },
+  {
+   "name": "Iris Barrow",
+   "time": "Yesterday, 3:26 PM",
+   "type": "incoming",
+   "detail": "3 min"
+  },
+  {
+   "name": "+1 401 555 0196",
+   "time": "Yesterday, 11:48 AM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Wesley Doyle",
+   "time": "Yesterday, 8:33 AM",
+   "type": "incoming",
+   "detail": "2 min"
+  },
+  {
+   "name": "Corinne Ellery",
+   "time": "Yesterday, 4:50 AM",
+   "type": "outgoing",
+   "detail": "2 min"
+  },
+  {
+   "name": "Owen Kessler",
+   "time": "Tuesday, 10:05 PM",
+   "type": "incoming",
+   "detail": "5 min"
+  },
+  {
+   "name": "Meredith Voss",
+   "time": "Tuesday, 4:26 PM",
+   "type": "outgoing",
+   "detail": "1 min"
+  },
+  {
+   "name": "Warren Prosser",
+   "time": "Tuesday, 10:42 AM",
+   "type": "outgoing",
+   "detail": "4 min"
+  },
+  {
+   "name": "Darnell Roche",
+   "time": "Monday, 6:52 PM",
+   "type": "incoming",
+   "detail": "6 min"
+  },
+  {
+   "name": "Grace Whelan",
+   "time": "Monday, 2:17 PM",
+   "type": "outgoing",
+   "detail": "2 min"
+  },
+  {
+   "name": "Elias Crocker",
+   "time": "Monday, 10:43 AM",
+   "type": "outgoing",
+   "detail": "2 min"
+  },
+  {
+   "name": "Nico Ferreira",
+   "time": "Sunday, 10:19 PM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Dana Pires",
+   "time": "Sunday, 5:19 PM",
+   "type": "incoming",
+   "detail": "4 min"
+  },
+  {
+   "name": "Bianca Sousa",
+   "time": "Sunday, 12:38 PM",
+   "type": "outgoing",
+   "detail": "3 min"
+  },
+  {
+   "name": "Elias Crocker",
+   "time": "Saturday, 9:18 PM",
+   "type": "incoming",
+   "detail": "5 min"
+  },
+  {
+   "name": "Lourdes Tavares",
+   "time": "Saturday, 3:33 PM",
+   "type": "outgoing",
+   "detail": "2 min"
+  },
+  {
+   "name": "Wesley Doyle",
+   "time": "Saturday, 9:18 AM",
+   "type": "incoming",
+   "detail": "4 min"
+  },
+  {
+   "name": "Cody Bennett",
+   "time": "Friday, 9:23 PM",
+   "type": "outgoing",
+   "detail": "4 min"
+  },
+  {
+   "name": "Anjali Raman",
+   "time": "Friday, 1:13 PM",
+   "type": "incoming",
+   "detail": "3 min"
+  },
+  {
+   "name": "Corinne Ellery",
+   "time": "7/30/26, 6:27 PM",
+   "type": "outgoing",
+   "detail": "2 min"
+  },
+  {
+   "name": "Owen Kessler",
+   "time": "7/30/26, 10:44 AM",
+   "type": "incoming",
+   "detail": "6 min"
+  },
+  {
+   "name": "Angelo's — Federal Hill",
+   "time": "7/30/26, 8:34 AM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Meredith Voss",
+   "time": "7/29/26, 9:00 AM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Terrence Wren",
+   "time": "7/28/26, 4:34 PM",
+   "type": "incoming",
+   "detail": "2 min"
+  },
+  {
+   "name": "+1 401 555 0180",
+   "time": "7/28/26, 10:53 AM",
+   "type": "missed",
+   "detail": ""
+  }
+ ],
+ "messages": [
+  {
+   "id": "conv-sms-sophia",
+   "title": "Rachel Kingsley",
+   "time": "6:30 AM",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Where are you? Mom said you never came home"
+    },
+    {
+     "me": true,
+     "text": "Sorry, didn't have my phone on me — I was at the library"
+    },
+    {
+     "me": false,
+     "text": "At midnight?! Errol..."
+    },
+    {
+     "me": true,
+     "text": "It's the end of semester project, we lost track of time"
+    },
+    {
+     "me": false,
+     "text": "You're such a bad liar. Call me tomorrow morning pls"
+    },
+    {
+     "me": true,
+     "text": "Ok, I promise"
+    },
+    {
+     "me": false,
+     "text": "I'm worried about you. And about mom too"
+    }
+   ],
+   "avatar": "msg_0.webp"
+  },
+  {
+   "id": "conv-sms-kovacs-unknown",
+   "title": "+1 401 555 0180",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Be at the port by midnight. No delays. — Brandt"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-maman",
+   "title": "Mom",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": true,
+     "text": "Happy birthday, Mom! Still can't believe you've been amazing since 1971 🎂 Thank you for everything you do for us. Rachel and I love you."
+    },
+    {
+     "me": false,
+     "text": "Thank you my darling ❤️ you are my pride and joy"
+    },
+    {
+     "me": true,
+     "text": "How are you feeling this week?"
+    },
+    {
+     "me": true,
+     "text": "Rachel's stopping by with groceries this week, let her"
+    },
+    {
+     "me": true,
+     "text": "Still up studying. Don't get up to answer this, just saying goodnight ❤️"
+    },
+    {
+     "me": true,
+     "text": "Hope today was an easier one"
+    },
+    {
+     "me": false,
+     "text": "A little better honey. Don't worry about the bills"
+    }
+   ],
+   "avatar": "msg_2.webp"
+  },
+  {
+   "id": "conv-sms-tyler",
+   "title": "Cody Bennett",
+   "time": "Monday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Aug 11 I've got a few people coming round to mine — you in?"
+    },
+    {
+     "me": true,
+     "text": "For sure, what do you want me to grab?"
+    },
+    {
+     "me": false,
+     "text": "Don't overthink it, a six-pack and something to munch on"
+    },
+    {
+     "me": true,
+     "text": "Corona or Modelo?"
+    },
+    {
+     "me": false,
+     "text": "Either one, Modelo if they've got it cold"
+    },
+    {
+     "me": true,
+     "text": "Say no more"
+    },
+    {
+     "me": false,
+     "text": "And bring your charger, you always leave without it 😂"
+    },
+    {
+     "me": true,
+     "text": "Sorted, and guac is going on that list as well"
+    },
+    {
+     "me": false,
+     "text": "Solid 👍 catch you then"
+    }
+   ],
+   "avatar": "msg_3.webp"
+  },
+  {
+   "id": "conv-sms-marcus",
+   "title": "Owen Kessler",
+   "time": "Sunday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Still on for the gym at 7:30 tomorrow?"
+    },
+    {
+     "me": true,
+     "text": "Yep, count me in"
+    },
+    {
+     "me": false,
+     "text": "Push day, so bench and dips"
+    },
+    {
+     "me": true,
+     "text": "My chest is still sore from Monday 😅"
+    },
+    {
+     "me": false,
+     "text": "Then we drop the weight and add reps. No excuses"
+    },
+    {
+     "me": true,
+     "text": "Fine, fine. 7:30 sharp"
+    },
+    {
+     "me": false,
+     "text": "Protein straight after the session, don't let that slide"
+    },
+    {
+     "me": true,
+     "text": "Whey shake, every single time 😂"
+    },
+    {
+     "me": false,
+     "text": "Exactly, that's the part that counts"
+    }
+   ],
+   "avatar": "msg_4.webp"
+  },
+  {
+   "id": "conv-sms-carla",
+   "title": "Marisol Vega",
+   "time": "Saturday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hey, did you wrap up the networks lab?"
+    },
+    {
+     "me": true,
+     "text": "Nearly done, only the Wireshark section left"
+    },
+    {
+     "me": false,
+     "text": "Did the capture filters work for you? Mine kept coming back empty"
+    },
+    {
+     "me": true,
+     "text": "You have to pick the right interface first, that was my whole problem"
+    },
+    {
+     "me": false,
+     "text": "Ohh. That explains the last two hours 🙃"
+    },
+    {
+     "me": true,
+     "text": "It's in the lab sheet, in tiny print at the bottom"
+    },
+    {
+     "me": false,
+     "text": "Want to finish it off together on a call tonight?"
+    },
+    {
+     "me": true,
+     "text": "Does 8 work on your end?"
+    }
+   ],
+   "avatar": "msg_5.webp"
+  },
+  {
+   "id": "conv-sms-derek",
+   "title": "Andre Whitlock",
+   "time": "Friday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Yo, did the fix make it to the repo yet?"
+    },
+    {
+     "me": true,
+     "text": "Yeah, pushed it to the dev branch"
+    },
+    {
+     "me": false,
+     "text": "Same branch as last week or did you cut a new one?"
+    },
+    {
+     "me": true,
+     "text": "Same one, I didn't want to rebase all of that again"
+    },
+    {
+     "me": false,
+     "text": "Good. Did the tests come back green?"
+    },
+    {
+     "me": true,
+     "text": "All but the timeout one, that one's flaky on my machine"
+    },
+    {
+     "me": false,
+     "text": "Cool, I'll go through it after dinner tonight"
+    },
+    {
+     "me": true,
+     "text": "Appreciate it man"
+    }
+   ],
+   "avatar": "msg_6.webp"
+  }
+ ],
+ "whatsapp": [],
+ "gmail": [
+  {
+   "sender": "Spotify",
+   "subject": "Your Premium plan is set for another month",
+   "preview": "Errol, Your Spotify Premium subscription has renewed. Charged: $9.99 Next renewal: September 5, 2026 Thanks fo",
+   "body": "Errol,\n\nYour Spotify Premium subscription has renewed.\n\nCharged: $9.99\nNext renewal: September 5, 2026\n\nThanks for staying with us.\nSpotify",
+   "time": "12:01 AM",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Newegg",
+   "subject": "⚡ Weekend only: 1TB SSD at -40%, plus RAM deals!",
+   "preview": "Errol, the weekend flash sale has started and these go quickly: Samsung 1TB SSD — $59.99, was $99.99 DDR5 16GB",
+   "body": "Errol, the weekend flash sale has started and these go quickly:\n\nSamsung 1TB SSD — $59.99, was $99.99\nDDR5 16GB RAM — $44.99\n256GB USB Drive — $12.99\n\nThese prices run until Sunday, August 5, 11:59 PM.\n\nNewegg",
+   "time": "Monday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Cody Bennett",
+   "subject": "Re: Saturday at Nico's — you in?",
+   "preview": "Yo Cody, Not sure yet, I've got a deadline Friday night so it depends on whether I can finish in time. I'll le",
+   "body": "Yo Cody,\n\nNot sure yet, I've got a deadline Friday night so it depends on whether I can finish in time. I'll let you know by Thursday.\n\nErrol",
+   "time": "Sunday",
+   "folder": "sent"
+  },
+  {
+   "sender": "Cody Bennett",
+   "subject": "Saturday at Nico's — you in?",
+   "preview": "Errol, Saturday the whole group is heading to Nico's for a bit of a party, tell me you can make it. Elias has ",
+   "body": "Errol,\n\nSaturday the whole group is heading to Nico's for a bit of a party, tell me you can make it. Elias has already said he's in. It's been way too long since everyone was in the same room.\n\nGet back to me soon, I'm counting heads.\n\nCody",
+   "time": "Sunday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Rachel Kingsley",
+   "subject": "Re: Mom isn't picking up",
+   "preview": "Rachel, She rang me last night, so you can stop worrying. Her phone had been left in the car since the morning",
+   "body": "Rachel,\n\nShe rang me last night, so you can stop worrying. Her phone had been left in the car since the morning, that was all there was to it.\n\nI'm alright too, just buried under end-of-semester projects. Thanks for checking. Any chance you're free for a call this week?\n\nLove,\nErrol",
+   "time": "Sunday",
+   "folder": "sent"
+  },
+  {
+   "sender": "Rachel Kingsley",
+   "subject": "Mom isn't picking up",
+   "preview": "Errol, Mom has stopped answering me. Nothing back since yesterday evening and I've left her two messages. Has ",
+   "body": "Errol,\n\nMom has stopped answering me. Nothing back since yesterday evening and I've left her two messages. Has she picked up for you?\n\nAnd while I'm asking: are you okay? You've been somewhere else these past few weeks. Whatever is going on, I'd rather hear it from you than sit here guessing.\n\nLove,\nRachel",
+   "time": "Sunday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Amazon Customer Service",
+   "subject": "Raspberry Pi 4 order — still in transit",
+   "preview": "Hello, Order #112-8847291-3847263, a Raspberry Pi 4 Model B, has been showing \"in transit\" for three days now ",
+   "body": "Hello,\n\nOrder #112-8847291-3847263, a Raspberry Pi 4 Model B, has been showing \"in transit\" for three days now without a single update.\n\nCould you give me a firmer estimate?\n\nThank you,\nErrol Kingsley",
+   "time": "Friday",
+   "folder": "sent"
+  },
+  {
+   "sender": "To: Grace Whelan",
+   "subject": "Re: Sorting algorithms — Thursday, August 2",
+   "preview": "Grace, Thursday at 5pm works for me, and level 2 of the library is fine. I'll run through merge sort tonight s",
+   "body": "Grace,\n\nThursday at 5pm works for me, and level 2 of the library is fine. I'll run through merge sort tonight so I don't turn up cold.\n\nSee you then,\nErrol",
+   "time": "Friday",
+   "folder": "sent"
+  },
+  {
+   "sender": "Grace Whelan",
+   "subject": "Sorting algorithms — Thursday, August 2",
+   "preview": "Errol, Setting Thursday 5 PM for our run-through on sorting algorithms. I've put together a handful of exercis",
+   "body": "Errol,\n\nSetting Thursday 5 PM for our run-through on sorting algorithms. I've put together a handful of exercises, mostly quicksort and merge sort.\n\nIs the library in Kelley Hall, level 2, still good for you?\n\nGrace",
+   "time": "Friday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "HackerNews Digest",
+   "subject": "This week: OpenSSL zero-day, AI, and CISA warnings",
+   "preview": "The most-read stories of the week on HackerNews: 1. New zero-day vulnerability found in OpenSSL 3.x 2. GPT-5 o",
+   "body": "The most-read stories of the week on HackerNews:\n\n1. New zero-day vulnerability found in OpenSSL 3.x\n2. GPT-5 outperforms humans on cybersecurity CTF challenges\n3. How to build a home IDS with Raspberry Pi\n4. CISA warns of critical infrastructure attacks\n\nHappy reading,\nHackerNews Weekly",
+   "time": "7/30/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Amazon",
+   "subject": "Shipped: Raspberry Pi 4 Model B (8GB RAM)",
+   "preview": "Errol, Your package has shipped. Item: Raspberry Pi 4 Model B (8GB RAM) Arriving: Wednesday, August 1 Tracking",
+   "body": "Errol,\n\nYour package has shipped.\n\nItem: Raspberry Pi 4 Model B (8GB RAM)\nArriving: Wednesday, August 1\nTracking: 1Z999AA10123456784\n\nThanks for your order.\nAmazon",
+   "time": "7/29/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "GitHub",
+   "subject": "New pull request on network-scanner",
+   "preview": "errol.kingsley, A pull request has been opened on your network-scanner repository. From: wesley-doyle-dev Titl",
+   "body": "errol.kingsley,\n\nA pull request has been opened on your network-scanner repository.\n\nFrom: wesley-doyle-dev\nTitle: Fix buffer overflow in packet handler\n\nHead over to GitHub to review it and reply.\n\nGitHub",
+   "time": "7/28/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Terrence Wren",
+   "subject": "Family reunion — will you make it?",
+   "preview": "Hey Terrence, Mom asked me to reach out to everyone about the family reunion in mid-July. Will you be availabl",
+   "body": "Hey Terrence,\n\nMom asked me to reach out to everyone about the family reunion in mid-July. Will you be available? She's talking about hosting a barbecue at her place on August 19.\n\nLet me know if you're in.\n\nErrol",
+   "time": "7/28/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Coursera",
+   "subject": "Just launched: Introduction to Cloud Security",
+   "preview": "Errol, Introduction to Cloud Security (Google Cloud) has just opened on Coursera. Length: 6 weeks Level: Inter",
+   "body": "Errol,\n\nIntroduction to Cloud Security (Google Cloud) has just opened on Coursera.\n\nLength: 6 weeks\nLevel: Intermediate\nCertificate: included\n\nYour first 7 days are free.\n\nCoursera",
+   "time": "7/27/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Professor Prosser",
+   "subject": "Re: Final project — submission deadline",
+   "preview": "Hello Errol, Thank you for your message. Yes, the submission deadline is set for Friday, August 10 before 11:5",
+   "body": "Hello Errol,\n\nThank you for your message. Yes, the submission deadline is set for Friday, August 10 before 11:59 PM. Please make sure your upload on the portal includes the README file and the unit tests.\n\nFeel free to reach out if you have any questions.\n\nBest regards,\nProf. Warren Prosser",
+   "time": "7/26/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Stack Overflow",
+   "subject": "3 new answers on your Flask question",
+   "preview": "errol.kingsley, Your question, \"How to prevent SQL injection in Python Flask apps?\", has picked up three new a",
+   "body": "errol.kingsley,\n\nYour question, \"How to prevent SQL injection in Python Flask apps?\", has picked up three new answers, and the community has voted one of them the best of the bunch.\n\nSign in to Stack Overflow to read them.\n\nStack Overflow",
+   "time": "7/25/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Professor Prosser",
+   "subject": "Final project — unit test coverage question",
+   "preview": "Dear Professor Prosser, One question about the final submission. Do the unit tests need to cover every functio",
+   "body": "Dear Professor Prosser,\n\nOne question about the final submission. Do the unit tests need to cover every function, or is there a threshold you would accept? A few of the lower-level functions in my project are difficult to isolate for testing.\n\nAny guidance you can give would be much appreciated.\n\nBest regards,\nErrol Kingsley",
+   "time": "7/25/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "To: Wesley Doyle",
+   "subject": "Re: Network project — microservices or monolith?",
+   "preview": "Wesley, Microservices gets my vote too, I'd come to exactly the same conclusion. Breaking it apart will spare ",
+   "body": "Wesley,\n\nMicroservices gets my vote too, I'd come to exactly the same conclusion. Breaking it apart will spare us a lot of grief once we reach the penetration testing at the end.\n\nSend the diagram over whenever it's done, I'm waiting on it.\n\nErrol",
+   "time": "7/24/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Wesley Doyle",
+   "subject": "Re: Network project — microservices or monolith?",
+   "preview": "Hey Errol, I've been thinking about what we discussed in class. I think we should use a microservices architec",
+   "body": "Hey Errol,\n\nI've been thinking about what we discussed in class. I think we should use a microservices architecture rather than a monolith for the final project. It'll give us more flexibility for security testing.\n\nI'll send you a diagram as soon as I'm done putting it together on draw.io.\n\nWesley",
+   "time": "7/24/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Owen Kessler",
+   "subject": "Re: Tomorrow 7 AM session",
+   "preview": "Owen, Got it, 7 on the dot. I could use something to burn off this week anyway. Errol",
+   "body": "Owen,\n\nGot it, 7 on the dot. I could use something to burn off this week anyway.\n\nErrol",
+   "time": "7/23/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "FitProv — Owen Kessler",
+   "subject": "Reminder: tomorrow 7 AM, HIIT block starts",
+   "preview": "Errol, Quick reminder, we're on for tomorrow at 7 AM. HIIT circuits begin this week, so come prepared for it. ",
+   "body": "Errol,\n\nQuick reminder, we're on for tomorrow at 7 AM. HIIT circuits begin this week, so come prepared for it.\n\nWater bottle and decent sneakers. See you in the morning.\n\nOwen",
+   "time": "7/23/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Domino's Providence",
+   "subject": "Order #DM-44821 — out for delivery",
+   "preview": "Errol, Your order is out for delivery, roughly 25 minutes away from you. 1x Large Pepperoni 1x Coca-Cola 2L Ch",
+   "body": "Errol,\n\nYour order is out for delivery, roughly 25 minutes away from you.\n\n1x Large Pepperoni\n1x Coca-Cola 2L\nCharged: $18.99\n\nDomino's Cranston",
+   "time": "7/22/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Udemy",
+   "subject": "🎓 Certificate unlocked: Ethical Hacking Bootcamp",
+   "preview": "Well done, Errol. You've finished Ethical Hacking Bootcamp — Beginner to Advanced, and your certificate is sit",
+   "body": "Well done, Errol.\n\nYou've finished Ethical Hacking Bootcamp — Beginner to Advanced, and your certificate is sitting in your profile.\n\nTwo we would suggest next:\n- Network Security Fundamentals\n- Python for Cybersecurity\n\nUdemy",
+   "time": "7/18/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Rhode Island College — IT Department",
+   "subject": "Campus network access — summer renewal",
+   "preview": "Errol, Your campus Wi-Fi account has been renewed for the summer 2026 term. Nothing is required from you. If t",
+   "body": "Errol,\n\nYour campus Wi-Fi account has been renewed for the summer 2026 term. Nothing is required from you.\n\nIf the connection gives you trouble, email w.prosser@ric.edu or drop by the IT office in building C.\n\nIT Services\nRhode Island College",
+   "time": "7/9/26",
+   "folder": "inbox"
+  }
+ ],
+ "calendar": [
+  {
+   "title": "Casual tech meetup",
+   "date": "08/27",
+   "dateLabel": "Thu, Aug 27, 2026",
+   "month": "2026-08",
+   "time": "1:00 PM – 2:00 PM",
+   "location": "Campus"
+  },
+  {
+   "title": "Math tutoring hour",
+   "date": "08/22",
+   "dateLabel": "Sat, Aug 22, 2026",
+   "month": "2026-08",
+   "time": "4:00 PM – 5:00 PM",
+   "location": "University"
+  },
+  {
+   "title": "Open-source project sync",
+   "date": "08/17",
+   "dateLabel": "Mon, Aug 17, 2026",
+   "month": "2026-08",
+   "time": "11:00 AM – 12:00 PM",
+   "location": "Providence coworking"
+  },
+  {
+   "title": "Rachel over for dinner",
+   "date": "08/14",
+   "dateLabel": "Fri, Aug 14, 2026",
+   "month": "2026-08",
+   "time": "6:00 PM – 7:30 PM",
+   "location": "Rachel's place"
+  },
+  {
+   "title": "Group code walkthrough",
+   "date": "08/08",
+   "dateLabel": "Sat, Aug 8, 2026",
+   "month": "2026-08",
+   "time": "7:00 PM – 8:00 PM",
+   "location": "Apartment"
+  },
+  {
+   "title": "Handover",
+   "date": "08/07",
+   "dateLabel": "Fri, Aug 7, 2026",
+   "month": "2026-08",
+   "time": "All day",
+   "location": "Providence"
+  },
+  {
+   "title": "Web security lesson (online)",
+   "date": "08/05",
+   "dateLabel": "Wed, Aug 5, 2026",
+   "month": "2026-08",
+   "time": "9:00 AM – 10:00 AM",
+   "location": "Home lab"
+  },
+  {
+   "title": "Security+ practice exam",
+   "date": "08/04",
+   "dateLabel": "Tue, Aug 4, 2026",
+   "month": "2026-08",
+   "time": "10:00 AM – 11:30 AM",
+   "location": "Apartment"
+  },
+  {
+   "title": "Campus visit — project demos",
+   "date": "08/02",
+   "dateLabel": "Sun, Aug 2, 2026",
+   "month": "2026-08",
+   "time": "12:00 PM – 1:00 PM",
+   "location": "Campus"
+  },
+  {
+   "title": "Dinner shift — Angelo's",
+   "date": "08/01",
+   "dateLabel": "Sat, Aug 1, 2026",
+   "month": "2026-08",
+   "time": "5:00 PM – 10:00 PM",
+   "location": "Federal Hill"
+  },
+  {
+   "title": "Conditioning workout",
+   "date": "07/31",
+   "dateLabel": "Fri, Jul 31, 2026",
+   "month": "2026-07",
+   "time": "6:30 PM – 7:30 PM",
+   "location": "Gym"
+  },
+  {
+   "title": "Coffee + code (security)",
+   "date": "07/29",
+   "dateLabel": "Wed, Jul 29, 2026",
+   "month": "2026-07",
+   "time": "4:00 PM – 5:00 PM",
+   "location": "Local café"
+  },
+  {
+   "title": "Cryptography revision",
+   "date": "07/26",
+   "dateLabel": "Sun, Jul 26, 2026",
+   "month": "2026-07",
+   "time": "2:00 PM – 3:00 PM",
+   "location": "Library"
+  },
+  {
+   "title": "Intro to AI course",
+   "date": "07/23",
+   "dateLabel": "Thu, Jul 23, 2026",
+   "month": "2026-07",
+   "time": "5:00 PM – 6:30 PM",
+   "location": "University"
+  },
+  {
+   "title": "Wireshark write-up",
+   "date": "07/21",
+   "dateLabel": "Tue, Jul 21, 2026",
+   "month": "2026-07",
+   "time": "3:00 PM – 4:30 PM",
+   "location": "Library"
+  },
+  {
+   "title": "Pizza with Cody",
+   "date": "07/19",
+   "dateLabel": "Sun, Jul 19, 2026",
+   "month": "2026-07",
+   "time": "8:00 PM – 9:30 PM",
+   "location": "Cody's apartment"
+  },
+  {
+   "title": "Weights at the gym",
+   "date": "07/16",
+   "dateLabel": "Thu, Jul 16, 2026",
+   "month": "2026-07",
+   "time": "9:00 AM – 10:00 AM",
+   "location": "Sports center"
+  },
+  {
+   "title": "Security module: subnet masks",
+   "date": "07/10",
+   "dateLabel": "Fri, Jul 10, 2026",
+   "month": "2026-07",
+   "time": "10:00 AM – 11:00 AM",
+   "location": "Coworking center"
+  },
+  {
+   "title": "Advice session with a developer",
+   "date": "07/06",
+   "dateLabel": "Mon, Jul 6, 2026",
+   "month": "2026-07",
+   "time": "3:00 PM – 4:00 PM",
+   "location": "Coworking"
+  },
+  {
+   "title": "Food truck sushi",
+   "date": "07/05",
+   "dateLabel": "Sun, Jul 5, 2026",
+   "month": "2026-07",
+   "time": "12:30 PM – 1:30 PM",
+   "location": "Next to campus"
+  },
+  {
+   "title": "Yoga class",
+   "date": "07/03",
+   "dateLabel": "Fri, Jul 3, 2026",
+   "month": "2026-07",
+   "time": "8:00 PM – 9:00 PM",
+   "location": "Studio"
+  },
+  {
+   "title": "Revision block: Python",
+   "date": "06/30",
+   "dateLabel": "Tue, Jun 30, 2026",
+   "month": "2026-06",
+   "time": "1:00 PM – 2:00 PM",
+   "location": "Library"
+  },
+  {
+   "title": "Evening out with Corinne",
+   "date": "06/27",
+   "dateLabel": "Sat, Jun 27, 2026",
+   "month": "2026-06",
+   "time": "4:00 PM – 5:30 PM",
+   "location": "Student café"
+  },
+  {
+   "title": "Doctor's visit",
+   "date": "06/21",
+   "dateLabel": "Sun, Jun 21, 2026",
+   "month": "2026-06",
+   "time": "9:30 AM – 10:00 AM",
+   "location": "Local clinic"
+  },
+  {
+   "title": "Jog before class",
+   "date": "06/19",
+   "dateLabel": "Fri, Jun 19, 2026",
+   "month": "2026-06",
+   "time": "5:00 PM – 6:00 PM",
+   "location": "Park"
+  },
+  {
+   "title": "Networking module (online)",
+   "date": "06/14",
+   "dateLabel": "Sun, Jun 14, 2026",
+   "month": "2026-06",
+   "time": "7:00 PM – 8:00 PM",
+   "location": "My place"
+  },
+  {
+   "title": "Coding break — snack run",
+   "date": "06/11",
+   "dateLabel": "Thu, Jun 11, 2026",
+   "month": "2026-06",
+   "time": "12:00 PM – 1:00 PM",
+   "location": "Apartment"
+  },
+  {
+   "title": "Security audit exercise",
+   "date": "06/07",
+   "dateLabel": "Sun, Jun 7, 2026",
+   "month": "2026-06",
+   "time": "6:00 PM – 7:00 PM",
+   "location": "Providence apartment"
+  }
+ ],
+ "notes": [
+  {
+   "title": "Evening at Cody's — list",
+   "body": "Cody's party on August 11:\n\nBring:\n- 6-pack of beers (Corona or Modelo)\n- Chips + guac\n- Phone charger (always forgotten there)\n\nConfirmed guests:\n- Elias (coming with his girlfriend)\n- Iris (said maybe)\n- Darnell (needs to check his schedule)\n\nCody says he's setting up his screen outside to watch the fireworks. It's going to be cool."
+  },
+  {
+   "title": "Shift swaps — Angelo's",
+   "body": "Angelo's, Federal Hill.\n\nPicked up this month:\n- Fri Jul 17, dinner service, covered for Bianca\n- Sat Jul 25, double, 4pm to close\n- Fri Jul 31, dinner service\n\nGave away:\n- Sun Jul 19, traded with Elias for his Tuesday\n\nWhat Lourdes says every single time:\n1. Any swap goes in the book, not over text\n2. 48 hours notice or it doesn't count\n3. Whoever takes the shift owns the shift\n\nAsk about the Saturday brunch rota before the semester starts. It pays better than weeknights and it's over by 3pm."
+  },
+  {
+   "title": "Gift for Mom — Aug 21",
+   "body": "Mom's birthday: August 21\n\nIdeas:\n- Spa set (Anjali told me there's a good place on Wayland Square)\n- Simple jewelry — silver bracelet?\n- Family dinner (me + Rachel)\n\nMax budget: $80\n\nAsk Rachel if she wants to chip in together for something better. She has good taste for that kind of thing."
+  },
+  {
+   "title": "Cybersec reading and watch list",
+   "body": "On the list, to read and to watch:\n\n📖 books:\n- The Web Application Hacker's Handbook\n- Hacking: The Art of Exploitation\n\n🎥 channels to keep an eye on:\n- LiveOverflow\n- John Hammond\n- NetworkChuck\n\n🌐 where to get hands on:\n- HackTheBox, account already made\n- TryHackMe, currently at intermediate\n- PicoCTF, for the competitions\n\nThe target for this summer: 10 HTB machines done before September."
+  },
+  {
+   "title": "End-of-semester project — the options",
+   "body": "Options for the end-of-semester project:\n\n1. Network vulnerability scanner (Python + Nmap)\n2. Simulated honeypot to detect intrusions\n3. Traffic analysis with Wireshark + automated report\n\nProsser said option 3 would be the most impressive for the portfolio. To discuss with Wesley to see if we can work on it together.\n\nDeadline: end of July 2026."
+  },
+  {
+   "title": "Study plan — Security+",
+   "body": "SY0-701. Aiming to sit it in the fall.\n\nDomains, and where I actually am:\n1. General security concepts — solid\n2. Threats and vulnerabilities — solid\n3. Security architecture — shaky\n4. Security operations — shaky\n5. Program management — barely opened it\n\nPlan:\n- Two hours Tuesday and Thursday, before the shift\n- One practice exam every other Sunday\n- Anything under 80% gets reread the same week\n\nLast practice run: 74%. Weakest section was risk management, which surprises nobody.\n\nVoucher is about $390. Ask the department whether they cover part of it before paying list price."
+  },
+  {
+   "title": "VPS setup — what runs where",
+   "body": "Droplet on DigitalOcean, running Ubuntu 22.04.\n\nIP: 167.99.XXX.XXX (full address kept in the secure file)\nSSH: moved off the default port, sits on 2222\nLogin: ekingsley_admin\n\nCurrently up:\n- Nginx acting as reverse proxy\n- UFW enabled\n- Fail2Ban set up\n- Nextcloud, for the personal backups\n\nStill outstanding:\n- Let's Encrypt certificate\n- Put the backups on a schedule so they run themselves\n- Have a go at Wireguard"
+  },
+  {
+   "title": "Watchlist — films and series",
+   "body": "Where the list stands:\n\n🎬 Movies:\n- Mr. Robot (technically a series, Wesley insists it's compulsory for cybersec)\n- Hackers (dated and silly, still fun)\n- The Social Network (deserves another watch)\n\n📺 Series:\n- Dark, season 3 never finished\n- Severance, haven't started it\n- Halt and Catch Fire\n\nNo time for any of this right now. Summer is the only opening."
+  },
+  {
+   "title": "If something happens",
+   "body": "There's something I should have told you weeks ago. I know you're worried and that I lied about where I was spending my nights. Mom doesn't deserve that, and neither do you. I wanted to tell you the truth but I was too scared of frightening you. If you ever read this, know that everything I did was for her, not to run away from myself.\n\nI'm sorry, Rachel."
+  },
+  {
+   "title": "Summer 2026 — where I want to be",
+   "body": "Where I want to be by the time the semester starts:\n\n✅ Cryptography course on Coursera, done\n⬜ pass the CompTIA Security+ certification\n⬜ find an internship, or freelance work\n⬜ $1500 in the account\n⬜ two books read, and not necessarily tech ones\n⬜ call Rachel at least once a week. Her master's is wearing her down and I can't disappear inside my own head again\n\nLast summer amounted to nothing. Not repeating that."
+  },
+  {
+   "title": "June 2026 — money in, money out",
+   "body": "Money in:\n- Scholarship: $850\n- Pizzeria shifts, through Corinne: ~$420\n= ~$1270\n\nMoney out:\n- Rent: $650\n- Groceries: $180\n- Transport, RIPTA + Uber: $60\n- Subscriptions, Spotify and iCloud: $18\n- Odds and ends: $80\n= ~$988\n\nSaved this month: ~$280\n\nStill short of the $1500 in savings before the semester starts."
+  },
+  {
+   "title": "Brandt — to look into",
+   "body": "Brandt told me not to talk to anyone about it.\n\nI'm not sure what to think. He seems to know a lot of people in the tech scene in Providence. Contacted me via LinkedIn at first, then by phone.\n\nSays it's a 'freelance opportunity' but the details are vague. Quick money according to him.\n\nWorth digging into. Or avoiding completely. I don't know yet."
+  },
+  {
+   "title": "Gym routine — Owen's program",
+   "body": "The program Owen put together for me (coach @coach.owen):\n\nMONDAY, chest and triceps\n- Bench press: 4x10\n- Dips: 3x12\n- Lateral raises: 3x15\n\nWEDNESDAY, back and biceps\n- Pull-ups: 4x8\n- Barbell row: 3x10\n- Dumbbell curl: 3x12\n\nFRIDAY, legs\n- Squats: 4x10\n- Leg press: 3x12\n- Calves: 4x20\n\nSame line from him every session: protein within 30 minutes of the last set."
+  },
+  {
+   "title": "Errol Kingsley — Resume (draft)",
+   "body": "Errol Kingsley\nerrol.kingsley@gmail.com | +1 401 847 2291 | Providence, RI\n\nEDUCATION\n- Rhode Island College, BS in Computer Science, 2024-2027, ongoing\n- Academic merit scholarship, awarded 2024\n\nSKILLS\n- Languages: Python, Java, C, JavaScript\n- Tools: Linux, Git, Wireshark, VS Code\n- Fields: TCP/IP networking, SQL databases, cybersecurity\n\nEXPERIENCE\n- Angelo's on Federal Hill, Providence, 2025 to present. Table service and running orders out\n\nPROJECTS\n- Python network scanner, written for a university course\n- Discord bot for an e-sports server, done in my own time\n\nWants a serious clean-up before this goes near an internship application."
+  },
+  {
+   "title": "Post-gym pasta, twenty minutes",
+   "body": "Corinne's recipe, and she deserves the credit:\n\nTuna pasta, done in 20 minutes.\n\nWhat goes in:\n- 7 oz pasta, penne or rigatoni\n- One can of tuna in oil\n- A clove of garlic\n- Cherry tomatoes\n- Mixed dried herbs\n- Grated parmesan\n\nHow:\n1. Boil the pasta, al dente\n2. Garlic and tomatoes into the pan\n3. Tuna in, stir it through\n4. Drain the pasta into the pan, season it\n5. Parmesan over the top\n\nCosts almost nothing and it's full of protein. Owen would sign it off."
+  },
+  {
+   "title": "Note to self — no more bailing",
+   "body": "You bail the second it gets difficult. Enough of that.\n\nNext time you feel like walking out of a work session:\n1. Timer on for 25 minutes, Pomodoro\n2. Discord shut, Instagram shut, both of them\n3. Remember why you went after this scholarship at all\n\nNobody in this family made it to college before you. Mom gave up everything so you could. Rachel is counting on you not to cave either.\n\nDon't let them down."
+  }
+ ],
+ "maps": [],
+ "revolut": {
+  "balance": "$12,201.88",
+  "transactions": [
+   {
+    "name": "Ashgrove Holdings",
+    "amount": "-$4,800.00",
+    "date": "Monday, 11:20 AM",
+    "note": "the rest is coming soon"
+   },
+   {
+    "name": "RIPTA",
+    "amount": "-$30.00",
+    "date": "7/27/26, 8:05 AM",
+    "note": "Bus pass"
+   },
+   {
+    "name": "Walmart",
+    "amount": "-$62.34",
+    "date": "7/12/26, 12:00 PM",
+    "note": "Miscellaneous purchase"
+   },
+   {
+    "name": "Spotify",
+    "amount": "-$9.99",
+    "date": "7/9/26, 12:00 AM",
+    "note": "Music subscription"
+   },
+   {
+    "name": "Lyft",
+    "amount": "-$19.61",
+    "date": "7/6/26, 8:15 AM",
+    "note": "Travel for classes"
+   },
+   {
+    "name": "CVS",
+    "amount": "-$13.04",
+    "date": "6/28/26, 7:40 PM",
+    "note": "Pharmacy purchase"
+   },
+   {
+    "name": "Amazon",
+    "amount": "-$124.24",
+    "date": "6/19/26, 7:10 PM",
+    "note": "Computer equipment purchase"
+   },
+   {
+    "name": "Stop & Shop",
+    "amount": "-$58.63",
+    "date": "5/23/26, 4:20 PM",
+    "note": "Grocery shopping"
+   }
+  ]
+ },
+ "weather": {
+  "city": "Local",
+  "tempC": 18,
+  "hi": 21,
+  "lo": 12,
+  "condition": "Clear"
+ },
+ "photos": [
+  "photo_0.webp",
+  "photo_1.webp",
+  "photo_2.webp",
+  "photo_3.webp",
+  "photo_4.webp",
+  "photo_5.webp",
+  "photo_6.webp",
+  "photo_7.webp",
+  "photo_8.webp"
+ ],
+ "screenTime": [
+  {
+   "appName": "Telegram",
+   "durationMinutes": 187
+  },
+  {
+   "appName": "Music",
+   "durationMinutes": 60
+  },
+  {
+   "appName": "Photos",
+   "durationMinutes": 50
+  },
+  {
+   "appName": "Internet",
+   "durationMinutes": 40
+  },
+  {
+   "appName": "Email",
+   "durationMinutes": 28
+  },
+  {
+   "appName": "Notes",
+   "durationMinutes": 20
+  },
+  {
+   "appName": "Phone",
+   "durationMinutes": 16
+  },
+  {
+   "appName": "Calendar",
+   "durationMinutes": 15
+  },
+  {
+   "appName": "Wallet",
+   "durationMinutes": 12
+  },
+  {
+   "appName": "PayPal",
+   "durationMinutes": 10
+  },
+  {
+   "appName": "RevoBank",
+   "durationMinutes": 8
+  },
+  {
+   "appName": "Settings",
+   "durationMinutes": 7
+  }
+ ]
+}

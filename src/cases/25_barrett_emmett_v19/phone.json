@@ -1,0 +1,1909 @@
+{
+ "caseName": "He Never Really Saw Me",
+ "title": "Barrett & Emmett",
+ "now": "2026-08-06T23:59:00",
+ "client": {
+  "name": "Barrett",
+  "avatar": "client.webp"
+ },
+ "owner": {
+  "first": "Emmett",
+  "full": "Emmett Larkin",
+  "avatar": null
+ },
+ "wallpaper": "wallpaper.webp",
+ "passcode": "041904",
+ "totalQuestions": 7,
+ "questions": [
+  {
+   "id": 1,
+   "text": "Sorry, I know this is a strange thing to ask a stranger. Do you know whether the owner of this phone is a man or a woman — can you tell?",
+   "answer": "A man",
+   "decoys": [
+    "A woman",
+    "A couple",
+    "A girl"
+   ],
+   "hint": "Open the photo gallery and look for a selfie photo of the owner"
+  },
+  {
+   "id": 2,
+   "text": "A barista, and she's never once mentioned him to me. Can you tell where he went last night, after her party finished?",
+   "answer": "The Sable Room",
+   "decoys": [
+    "The Night Owl",
+    "Saturn Bar",
+    "Bistro 504"
+   ],
+   "hint": "Look in the Calendar at yesterday's date to find a note at 11pm"
+  },
+  {
+   "id": 3,
+   "text": "That's where Nell and her friends ended up. Girls only, she told me. What was he doing in there?",
+   "answer": "watching her",
+   "decoys": [
+    "She won't notice me following her.",
+    "Wait outside until she leaves.",
+    "She doesn't know I'm here tonight."
+   ],
+   "hint": "Open the Notes app and look for the note titled 'The Sable Room'"
+  },
+  {
+   "id": 4,
+   "text": "I feel sick hearing that. I want to know where he lives. What's his address?",
+   "answer": "3421 Dauphine Street",
+   "decoys": [
+    "Magazine Street",
+    "Royal Street",
+    "Chartres Street"
+   ],
+   "hint": "Open Email and look through Emmett's sent messages to Rowan Beck - one of them gives his apartment's address, near a king cake shop."
+  },
+  {
+   "id": 5,
+   "text": "A museum. She's looking at paintings right now with no idea. He once said her face looks just like someone he used to know. What was that person's name?",
+   "answer": "Delia",
+   "decoys": [
+    "Odette",
+    "Wren",
+    "Marlee"
+   ],
+   "hint": "Look in the Messages for an old conversation with Mom that talks about an ex"
+  },
+  {
+   "id": 6,
+   "text": "He's been hunting for a finished relationship in my sister's face. There's a locked album on this thing — can you get me the code?",
+   "answer": "041904",
+   "decoys": [
+    "051204",
+    "081903",
+    "110704"
+   ],
+   "hint": "Check the Notes app."
+  },
+  {
+   "id": 7,
+   "text": "He kept a photo of Delia somewhere - I remember him editing it once, swapping her face for another girl's. The original photo must be of Delia. Can you find where he stored it?",
+   "answer": "Hidden Photos",
+   "decoys": [
+    "Deleted Photos",
+    "Snapchat Memories",
+    "Calculator Vault"
+   ],
+   "hint": "Use the code you just found to open anything it unlocks."
+  }
+ ],
+ "onboarding": [
+  {
+   "text": "Hi... I'm Barrett. Sorry, this is going to sound like nothing. Somebody left a phone on the counter at Solo Espresso and I picked it up.",
+   "label": "Barrett",
+   "image": "onboarding_1.webp"
+  },
+  {
+   "text": "I only wanted a name so I could hand it back. Then the screen lit up and my sister was on it. Nell. She's the reason I never left New Orleans.",
+   "label": "Nell & Emmett",
+   "image": "onboarding_2.webp"
+  },
+  {
+   "text": "The face on the lock screen is a stranger. Not one of her friends. Not anybody she's ever brought home, and I've met all of them. I keep telling myself that's nothing.",
+   "label": "Emmett",
+   "image": "onboarding_3.webp"
+  },
+  {
+   "text": "It was her birthday last night. She went out with her friends, and she hasn't answered me since this morning. I'm keeping hold of this phone... Please tell me whose it is.",
+   "label": "Barrett",
+   "image": "onboarding_4.webp"
+  }
+ ],
+ "home": [
+  {
+   "app": "messages",
+   "label": "Messages"
+  },
+  {
+   "app": "weather",
+   "label": "Weather"
+  },
+  {
+   "app": "clock",
+   "label": "Clock"
+  },
+  {
+   "app": "calendar",
+   "label": "Calendar"
+  },
+  {
+   "app": "notes",
+   "label": "Notes"
+  },
+  {
+   "app": "gmail",
+   "label": "Email"
+  },
+  {
+   "app": "phone",
+   "label": "Phone"
+  },
+  {
+   "app": "photos",
+   "label": "Photos"
+  }
+ ],
+ "dock": [
+  {
+   "app": "wallet",
+   "label": "Maps"
+  }
+ ],
+ "missingApps": [],
+ "calls": [
+  {
+   "name": "504 555 0148",
+   "time": "7/12/26, 11:05 AM",
+   "type": "outgoing",
+   "detail": "4 min"
+  },
+  {
+   "name": "Marcus Pell",
+   "time": "7/11/26, 10:03 PM",
+   "type": "incoming",
+   "detail": "2 min"
+  },
+  {
+   "name": "Paulette Arceneaux",
+   "time": "7/11/26, 6:00 PM",
+   "type": "outgoing",
+   "detail": "4 min"
+  },
+  {
+   "name": "Imani Okafor",
+   "time": "7/11/26, 11:23 AM",
+   "type": "incoming",
+   "detail": "3 min"
+  },
+  {
+   "name": "Simone Aguillard",
+   "time": "7/10/26, 7:43 PM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Renny Doucet",
+   "time": "7/10/26, 5:22 PM",
+   "type": "outgoing",
+   "detail": "3 min"
+  },
+  {
+   "name": "Dez Vidrine",
+   "time": "7/10/26, 2:18 PM",
+   "type": "incoming",
+   "detail": "5 min"
+  },
+  {
+   "name": "Simone Aguillard",
+   "time": "7/9/26, 6:19 PM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "Bo Ancelet",
+   "time": "7/9/26, 10:22 AM",
+   "type": "incoming",
+   "detail": "4 min"
+  },
+  {
+   "name": "Rowan Beck",
+   "time": "7/8/26, 7:30 PM",
+   "type": "outgoing",
+   "detail": "2 min"
+  },
+  {
+   "name": "Wren Naquin",
+   "time": "7/8/26, 1:30 PM",
+   "type": "missed",
+   "detail": ""
+  },
+  {
+   "name": "June Thibodeaux",
+   "time": "7/7/26, 9:00 PM",
+   "type": "incoming",
+   "detail": "1 min"
+  },
+  {
+   "name": "Apex Fitness Uptown",
+   "time": "7/7/26, 2:20 PM",
+   "type": "outgoing",
+   "detail": "1 min"
+  },
+  {
+   "name": "+1 (504) 555-0131",
+   "time": "7/6/26, 5:55 PM",
+   "type": "incoming",
+   "detail": "2 min"
+  },
+  {
+   "name": "Tobias Kim",
+   "time": "7/6/26, 10:37 AM",
+   "type": "outgoing",
+   "detail": "3 min"
+  },
+  {
+   "name": "Paulette Arceneaux",
+   "time": "7/5/26, 1:43 PM",
+   "type": "incoming",
+   "detail": "2 min"
+  },
+  {
+   "name": "+1 (504) 555-0188",
+   "time": "7/5/26, 9:12 AM",
+   "type": "outgoing",
+   "detail": "3 min"
+  },
+  {
+   "name": "Marcus Pell",
+   "time": "7/4/26, 9:10 AM",
+   "type": "outgoing",
+   "detail": "2 min"
+  },
+  {
+   "name": "Reeta Sharma",
+   "time": "7/3/26, 4:50 PM",
+   "type": "incoming",
+   "detail": "2 min"
+  },
+  {
+   "name": "Owen Trahan",
+   "time": "7/2/26, 12:16 PM",
+   "type": "outgoing",
+   "detail": "3 min"
+  },
+  {
+   "name": "Dr. Ferrand",
+   "time": "7/1/26, 7:49 PM",
+   "type": "incoming",
+   "detail": "1 min"
+  },
+  {
+   "name": "Wren Naquin",
+   "time": "7/1/26, 3:28 PM",
+   "type": "incoming",
+   "detail": "2 min"
+  },
+  {
+   "name": "Marlee",
+   "time": "6/30/26, 11:37 AM",
+   "type": "outgoing",
+   "detail": "4 min"
+  },
+  {
+   "name": "Bo Ancelet",
+   "time": "6/29/26, 8:34 AM",
+   "type": "outgoing",
+   "detail": "3 min"
+  },
+  {
+   "name": "Cal Thibault",
+   "time": "6/28/26, 9:03 PM",
+   "type": "outgoing",
+   "detail": "2 min"
+  },
+  {
+   "name": "Imani Okafor",
+   "time": "6/28/26, 7:49 PM",
+   "type": "incoming",
+   "detail": "4 min"
+  }
+ ],
+ "messages": [
+  {
+   "id": "conv-sms-1",
+   "title": "Dez Vidrine",
+   "time": "3:30 PM",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Yo man what's the plan tomorrow?"
+    },
+    {
+     "me": true,
+     "text": "Nothing going on, why?"
+    },
+    {
+     "me": false,
+     "text": "My cousin's throwing a thing"
+    },
+    {
+     "me": false,
+     "text": "You in?"
+    },
+    {
+     "me": true,
+     "text": "Honestly man, not really feeling it"
+    },
+    {
+     "me": false,
+     "text": "Seriously, getting out would do you good"
+    },
+    {
+     "me": false,
+     "text": "Good crowd, people you'd actually like"
+    },
+    {
+     "me": false,
+     "text": "Plus some cute girls 😏"
+    },
+    {
+     "me": true,
+     "text": "Who else is going to be there?"
+    },
+    {
+     "me": false,
+     "text": "Bo, Cal, couple of people from the shop"
+    },
+    {
+     "me": false,
+     "text": "Nobody you have to make conversation with, promise"
+    },
+    {
+     "me": true,
+     "text": "haha fine, I'll swing by"
+    },
+    {
+     "me": false,
+     "text": "Yes! Doors around 8pm"
+    },
+    {
+     "me": false,
+     "text": "Sending the address over"
+    },
+    {
+     "me": false,
+     "text": "1832 Royal St"
+    },
+    {
+     "me": false,
+     "text": "Apt 3"
+    },
+    {
+     "me": true,
+     "text": "Got it, thanks"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-2",
+   "title": "Rowan Beck",
+   "time": "Yesterday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Yo, up for a run in the morning?"
+    },
+    {
+     "me": true,
+     "text": "What time we thinking?"
+    },
+    {
+     "me": false,
+     "text": "Say 7:30, meet at Crescent Park?"
+    },
+    {
+     "me": true,
+     "text": "Yeah that works"
+    },
+    {
+     "me": true,
+     "text": "How many miles we running?"
+    },
+    {
+     "me": false,
+     "text": "6 miles sound alright?"
+    },
+    {
+     "me": true,
+     "text": "Deal"
+    },
+    {
+     "me": true,
+     "text": "Been way too long, looking forward to it"
+    },
+    {
+     "me": false,
+     "text": "Same, the loop is boring on my own"
+    },
+    {
+     "me": true,
+     "text": "Coffee after? First one is on me"
+    },
+    {
+     "me": false,
+     "text": "You say that every time and I still end up paying 😂"
+    },
+    {
+     "me": false,
+     "text": "Yeah I missed you the last couple runs"
+    },
+    {
+     "me": false,
+     "text": "You good?"
+    },
+    {
+     "me": true,
+     "text": "Yeah all good, just work"
+    },
+    {
+     "me": false,
+     "text": "Ok cool"
+    },
+    {
+     "me": false,
+     "text": "See you in the morning then!"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-3",
+   "title": "Marcus Pell",
+   "time": "Tuesday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hey! Marcus from next door"
+    },
+    {
+     "me": true,
+     "text": "What's up Marcus"
+    },
+    {
+     "me": false,
+     "text": "Mind turning the music down a notch?"
+    },
+    {
+     "me": false,
+     "text": "I've got an exam tomorrow"
+    },
+    {
+     "me": true,
+     "text": "Ah crap sorry"
+    },
+    {
+     "me": true,
+     "text": "Didn't realize"
+    },
+    {
+     "me": true,
+     "text": "No worries, turned it down"
+    },
+    {
+     "me": false,
+     "text": "Thanks man you're the best"
+    },
+    {
+     "me": true,
+     "text": "Which subject is the exam?"
+    },
+    {
+     "me": false,
+     "text": "Organic chem"
+    },
+    {
+     "me": false,
+     "text": "Brutal"
+    },
+    {
+     "me": true,
+     "text": "Oof, that one nearly finished me in school"
+    },
+    {
+     "me": false,
+     "text": "Everybody tells me that and it does not help 😅"
+    },
+    {
+     "me": true,
+     "text": "Fair. Headphones stay on tonight either way"
+    },
+    {
+     "me": true,
+     "text": "Good luck man, you got this!"
+    }
+   ],
+   "avatar": "msg_2.webp"
+  },
+  {
+   "id": "conv-sms-4",
+   "title": "Paulette Arceneaux",
+   "time": "Monday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Em!! Cannot believe we let it go this long"
+    },
+    {
+     "me": true,
+     "text": "Jess! Right? Ages"
+    },
+    {
+     "me": false,
+     "text": "What have you been up to lately?"
+    },
+    {
+     "me": true,
+     "text": "Same coffee shop as ever. You?"
+    },
+    {
+     "me": false,
+     "text": "Marketing these days"
+    },
+    {
+     "me": true,
+     "text": "Nice, where at?"
+    },
+    {
+     "me": false,
+     "text": "Little agency over in the Marigny"
+    },
+    {
+     "me": false,
+     "text": "I love the whole vibe"
+    },
+    {
+     "me": false,
+     "text": "Catch up soon?"
+    },
+    {
+     "me": true,
+     "text": "For sure!"
+    },
+    {
+     "me": true,
+     "text": "Giving you a call this week"
+    },
+    {
+     "me": false,
+     "text": "Yes please 😊"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-5",
+   "title": "June Thibodeaux",
+   "time": "Sunday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Good morning Emmett, I hope this finds you well."
+    },
+    {
+     "me": false,
+     "text": "Just a heads up, the apartment inspection is set for August 16."
+    },
+    {
+     "me": false,
+     "text": "It will be about 10am."
+    },
+    {
+     "me": true,
+     "text": "Hi June, no problem at all"
+    },
+    {
+     "me": true,
+     "text": "I'll make sure I'm home"
+    },
+    {
+     "me": false,
+     "text": "Wonderful, many thanks."
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-6",
+   "title": "Renny Doucet",
+   "time": "Saturday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Cousin!! How is New Orleans treating you?"
+    },
+    {
+     "me": true,
+     "text": "Renny! All good here — and you, still up in Baton Rouge?"
+    },
+    {
+     "me": false,
+     "text": "So good! I landed a new job"
+    },
+    {
+     "me": false,
+     "text": "Over at a vet clinic"
+    },
+    {
+     "me": true,
+     "text": "Wow that's so cool! What do you actually do there?"
+    },
+    {
+     "me": false,
+     "text": "Vet assistant"
+    },
+    {
+     "me": false,
+     "text": "I help out with checkups and surgeries"
+    },
+    {
+     "me": true,
+     "text": "Amazing! Animals were always your thing"
+    },
+    {
+     "me": false,
+     "text": "Right?? I could not be happier"
+    },
+    {
+     "me": true,
+     "text": "Any chance you get down here before the fall?"
+    },
+    {
+     "me": false,
+     "text": "Aiming for a weekend in September, the clinic schedule is all over the place"
+    },
+    {
+     "me": true,
+     "text": "Say the word and I will take the days off"
+    },
+    {
+     "me": false,
+     "text": "Deal 😊"
+    },
+    {
+     "me": false,
+     "text": "And you — nobody special yet? 😏"
+    },
+    {
+     "me": true,
+     "text": "Lol yeah still at it"
+    },
+    {
+     "me": false,
+     "text": "The right one turns up, you'll see 😊"
+    },
+    {
+     "me": true,
+     "text": "Fingers crossed!"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-key-1",
+   "title": "Dad",
+   "time": "Friday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hey son, how are things going?"
+    },
+    {
+     "me": true,
+     "text": "I'm doing good dad, and you?"
+    },
+    {
+     "me": false,
+     "text": "Eh, your mother and I have been worried about you"
+    },
+    {
+     "me": true,
+     "text": "Why are you two worried?"
+    },
+    {
+     "me": false,
+     "text": "You never leave the house these days, and you don't pick up our calls"
+    },
+    {
+     "me": false,
+     "text": "Emmett, you're really scaring mom and me"
+    },
+    {
+     "me": false,
+     "text": "*Emmett"
+    },
+    {
+     "me": true,
+     "text": "Dad, I really don't want to get into it"
+    },
+    {
+     "me": false,
+     "text": "See, that's exactly the problem!"
+    },
+    {
+     "me": false,
+     "text": "You bottle everything up inside"
+    },
+    {
+     "me": false,
+     "text": "That girl broke your heart and you act as if nothing happened"
+    },
+    {
+     "me": true,
+     "text": "I really don't need this right now"
+    },
+    {
+     "me": false,
+     "text": "Yes, you do need it! Do you think we can't tell you're not doing well?"
+    },
+    {
+     "me": true,
+     "text": "Look, please change the subject"
+    },
+    {
+     "me": false,
+     "text": "Okay okay"
+    },
+    {
+     "me": false,
+     "text": "But promise me that you'll think it over"
+    },
+    {
+     "me": false,
+     "text": "By the way, could you bring the Tesla back this week?"
+    },
+    {
+     "me": false,
+     "text": "I need it to go visit grandma Thursday"
+    },
+    {
+     "me": true,
+     "text": "Yeah, no prob"
+    },
+    {
+     "me": true,
+     "text": "I'll swing by tomorrow night?"
+    },
+    {
+     "me": false,
+     "text": "No, tomorrow is too late"
+    },
+    {
+     "me": false,
+     "text": "Emmett, bring the Tesla back right now!"
+    },
+    {
+     "me": true,
+     "text": "Ok ok, I'm on my way right now"
+    },
+    {
+     "me": false,
+     "text": "Thanks son"
+    },
+    {
+     "me": false,
+     "text": "Your mother is cooking your favorite dish tonight"
+    },
+    {
+     "me": true,
+     "text": "Wait, the carbonara?"
+    },
+    {
+     "me": false,
+     "text": "Exactly"
+    },
+    {
+     "me": true,
+     "text": "Cool, I can't wait"
+    },
+    {
+     "me": false,
+     "text": "See you tonight then"
+    }
+   ],
+   "avatar": "msg_6.webp"
+  },
+  {
+   "id": "conv-sms-7",
+   "title": "Delivery",
+   "time": "Friday",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Your package is out for delivery today between 2pm and 6pm. Please make sure someone is there to take it. - FedEx"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-8",
+   "title": "Simone Aguillard",
+   "time": "7/30/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Emmett! Last night was a good time"
+    },
+    {
+     "me": true,
+     "text": "Yeah it was a good time!"
+    },
+    {
+     "me": false,
+     "text": "Know any other bars like that one?"
+    },
+    {
+     "me": true,
+     "text": "A couple yeah"
+    },
+    {
+     "me": false,
+     "text": "Wanna check one out some night?"
+    },
+    {
+     "me": true,
+     "text": "Yeah, I'm in"
+    },
+    {
+     "me": false,
+     "text": "Perfect! I'll message you as soon as a night opens up"
+    },
+    {
+     "me": true,
+     "text": "Sounds good"
+    }
+   ],
+   "avatar": "msg_8.webp"
+  },
+  {
+   "id": "conv-sms-9",
+   "title": "Tobias Kim",
+   "time": "7/29/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Em! You good?"
+    },
+    {
+     "me": true,
+     "text": "Tobias! All good here, you?"
+    },
+    {
+     "me": false,
+     "text": "Can't complain. Listen, quick thing"
+    },
+    {
+     "me": false,
+     "text": "My spot's hiring baristas"
+    },
+    {
+     "me": false,
+     "text": "You interested?"
+    },
+    {
+     "me": true,
+     "text": "Appreciate it, but I like where I am"
+    },
+    {
+     "me": false,
+     "text": "Ok no worries!"
+    },
+    {
+     "me": false,
+     "text": "If you change your mind just say the word"
+    },
+    {
+     "me": true,
+     "text": "Will do, thanks!"
+    },
+    {
+     "me": false,
+     "text": "Drop by the shop sometime?"
+    },
+    {
+     "me": true,
+     "text": "Yeah for sure!"
+    }
+   ],
+   "avatar": "msg_9.webp"
+  },
+  {
+   "id": "conv-sms-10",
+   "title": "Owen Trahan",
+   "time": "7/28/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Yo bro! You remember me? 😂"
+    },
+    {
+     "me": true,
+     "text": "Owen!! As if I could forget you"
+    },
+    {
+     "me": true,
+     "text": "How you been man?"
+    },
+    {
+     "me": false,
+     "text": "Doing well — I'm based in New Orleans now"
+    },
+    {
+     "me": true,
+     "text": "Oh nice! Since when?"
+    },
+    {
+     "me": false,
+     "text": "3 months now, landed a job in IT"
+    },
+    {
+     "me": true,
+     "text": "No way! We have to meet up"
+    },
+    {
+     "me": false,
+     "text": "For sure, first round is on me"
+    },
+    {
+     "me": false,
+     "text": "To celebrate being back in the city"
+    },
+    {
+     "me": true,
+     "text": "Whereabouts are you living?"
+    },
+    {
+     "me": false,
+     "text": "Mid-City, small place but the rent is fair"
+    },
+    {
+     "me": true,
+     "text": "Good spot, everything is close by"
+    },
+    {
+     "me": false,
+     "text": "Come over and I will cook first, then we head out"
+    },
+    {
+     "me": true,
+     "text": "Deal!"
+    },
+    {
+     "me": false,
+     "text": "Let's lock in a night this week"
+    },
+    {
+     "me": true,
+     "text": "Done!"
+    }
+   ],
+   "avatar": "msg_10.webp"
+  },
+  {
+   "id": "conv-sms-11",
+   "title": "Cox",
+   "time": "7/27/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Cox: your May statement is available. $67.43, due August 13. The full breakdown is in your online account."
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-12",
+   "title": "Reeta Sharma",
+   "time": "7/26/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Hey! You making it to yoga tomorrow?"
+    },
+    {
+     "me": true,
+     "text": "Reeta! Honestly undecided"
+    },
+    {
+     "me": true,
+     "text": "I got stuck working late yesterday"
+    },
+    {
+     "me": false,
+     "text": "Just come, one hour of it and you'll feel like a person again"
+    },
+    {
+     "me": false,
+     "text": "You've seemed kinda stressed lately"
+    },
+    {
+     "me": true,
+     "text": "A bit, yeah"
+    },
+    {
+     "me": false,
+     "text": "Exactly why you should show up!"
+    },
+    {
+     "me": true,
+     "text": "Same instructor as last time?"
+    },
+    {
+     "me": false,
+     "text": "Yeah, and she goes easy on the first half"
+    },
+    {
+     "me": false,
+     "text": "Bring water though, that room gets warm"
+    },
+    {
+     "me": true,
+     "text": "Ok fine you win"
+    },
+    {
+     "me": true,
+     "text": "See you there"
+    },
+    {
+     "me": false,
+     "text": "Yep! 6:30 like always"
+    },
+    {
+     "me": true,
+     "text": "6:30 it is"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-13",
+   "title": "Paulette Arceneaux",
+   "time": "7/25/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Emmett, that coffee this morning — thank you"
+    },
+    {
+     "me": false,
+     "text": "It was perfect as usual 😊"
+    },
+    {
+     "me": true,
+     "text": "Any time, Paulette!"
+    },
+    {
+     "me": true,
+     "text": "Happy it hit the spot"
+    },
+    {
+     "me": false,
+     "text": "You working tomorrow?"
+    },
+    {
+     "me": true,
+     "text": "Yep, 7am to 3pm"
+    },
+    {
+     "me": false,
+     "text": "Lovely, see you in the morning"
+    }
+   ]
+  },
+  {
+   "id": "conv-sms-key-2",
+   "title": "Mom",
+   "time": "7/2/26",
+   "unread": false,
+   "msgs": [
+    {
+     "me": false,
+     "text": "Honey, we need to have a talk"
+    },
+    {
+     "me": true,
+     "text": "About what, mom?"
+    },
+    {
+     "me": false,
+     "text": "About you. About how you've been acting since Delia left"
+    },
+    {
+     "me": true,
+     "text": "Mom please"
+    },
+    {
+     "me": false,
+     "text": "No Emmett, just listen to me"
+    },
+    {
+     "me": false,
+     "text": "You've become obsessed with that girl"
+    },
+    {
+     "me": true,
+     "text": "That isn't true"
+    },
+    {
+     "me": false,
+     "text": "Yes it is! You spend all your days hunting for a replacement"
+    },
+    {
+     "me": false,
+     "text": "Do you think I don't notice?"
+    },
+    {
+     "me": false,
+     "text": "All of these girls you go and meet"
+    },
+    {
+     "me": false,
+     "text": "You're searching for Delia in every one of them"
+    },
+    {
+     "me": true,
+     "text": "I have no idea what you're talking about"
+    },
+    {
+     "me": false,
+     "text": "Emmett, stop searching for a replacement for your ex Delia, it won't bring her back."
+    },
+    {
+     "me": false,
+     "text": "This obsession is going to wreck you"
+    },
+    {
+     "me": false,
+     "text": "You have to accept it"
+    },
+    {
+     "me": false,
+     "text": "Delia is over, it's definitely over"
+    },
+    {
+     "me": true,
+     "text": "I have accepted it, mom"
+    },
+    {
+     "me": false,
+     "text": "No, you haven't accepted it"
+    },
+    {
+     "me": false,
+     "text": "And it breaks my heart to see you like this"
+    },
+    {
+     "me": false,
+     "text": "You're my boy and I love you"
+    },
+    {
+     "me": false,
+     "text": "But you have to pull yourself together"
+    },
+    {
+     "me": true,
+     "text": "I love you too, mom"
+    }
+   ]
+  }
+ ],
+ "whatsapp": [],
+ "gmail": [
+  {
+   "sender": "Gulf Coast Bank",
+   "subject": "Your May 2026 account statement",
+   "preview": "Your statement for July 14 to 24, 2026 is now in your client space. Balance today: $1,247.83. Your transaction",
+   "body": "Your statement for July 14 to 24, 2026 is now in your client space. Balance today: $1,247.83. Your transactions can be checked online or in the mobile app.",
+   "time": "7:00 AM",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Adobe Creative Cloud",
+   "subject": "Your plan ends in 7 days",
+   "preview": "A reminder: your Adobe Creative Cloud Photography plan ends on August 13, 2026. Renew before that date and Lig",
+   "body": "A reminder: your Adobe Creative Cloud Photography plan ends on August 13, 2026. Renew before that date and Lightroom and Photoshop carry on uninterrupted. Automatic renewal takes a single click.",
+   "time": "6:00 AM",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Dez Vidrine",
+   "subject": "Re: Early open tomorrow",
+   "preview": "Dez - 6:30 works, I'll be there. What is this neighborhood event anyway? Here's hoping it pushes a rush our wa",
+   "body": "Dez - 6:30 works, I'll be there. What is this neighborhood event anyway? Here's hoping it pushes a rush our way.",
+   "time": "Yesterday",
+   "folder": "sent"
+  },
+  {
+   "sender": "Dez Vidrine",
+   "subject": "Early open tomorrow",
+   "preview": "Em - the boss wants us opening early tomorrow, there's an event on in the neighborhood. Could you get in for 6",
+   "body": "Em - the boss wants us opening early tomorrow, there's an event on in the neighborhood. Could you get in for 6:30 rather than 7:30? Sorry for the short notice.\n\nDez",
+   "time": "Yesterday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Rowan Beck",
+   "subject": "Re: Run in the morning?",
+   "preview": "Rowan - can't wait for another one. There's this incredible king cake place two blocks from my apartment at 34",
+   "body": "Rowan - can't wait for another one. There's this incredible king cake place two blocks from my apartment at 3421 Dauphine Street - Bywater Bakery. We should swing by after our next run.",
+   "time": "Yesterday",
+   "folder": "sent"
+  },
+  {
+   "sender": "To: Rowan Beck",
+   "subject": "Re: Run in the morning?",
+   "preview": "Rowan - 7am is good for me. Crescent Park as usual? I want to see this record attempt of yours for myself. I'm",
+   "body": "Rowan - 7am is good for me. Crescent Park as usual? I want to see this record attempt of yours for myself. I'm chasing 45 minutes on my own side.",
+   "time": "Yesterday",
+   "folder": "sent"
+  },
+  {
+   "sender": "Rowan Beck",
+   "subject": "Run in the morning?",
+   "preview": "Em - same 6 miles tomorrow morning, 7am? The forecast looks clear and something tells me my record falls today",
+   "body": "Em - same 6 miles tomorrow morning, 7am? The forecast looks clear and something tells me my record falls today. Just say the word.\n\nRowan",
+   "time": "Yesterday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Starbucks",
+   "subject": "☕ Our summer drinks are here!",
+   "preview": "Two new frappuccinos for summer: Mango-Passion and Strawberry-Basil. The code SUMMER2026 takes 20% off either ",
+   "body": "Two new frappuccinos for summer: Mango-Passion and Strawberry-Basil. The code SUMMER2026 takes 20% off either one, valid in every Louisiana store until August 13.",
+   "time": "Tuesday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Jess Boudreaux",
+   "subject": "Re: Saturday's photos!",
+   "preview": "Jess, thank you for the photos! And you may well be right about showing them somewhere. Any idea where in New ",
+   "body": "Jess, thank you for the photos! And you may well be right about showing them somewhere. Any idea where in New Orleans a person starts with that? You've really given me a push.",
+   "time": "Monday",
+   "folder": "sent"
+  },
+  {
+   "sender": "Jess Boudreaux",
+   "subject": "Saturday's photos!",
+   "preview": "Em! I finally worked through Saturday's party photos. The ones you shot out on the terrace are stunning - you ",
+   "body": "Em! I finally worked through Saturday's party photos. The ones you shot out on the terrace are stunning - you really should be exhibiting this work somewhere. Google Photos link is attached.\n\nKisses,\nJess",
+   "time": "Monday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Varsity Running Co",
+   "subject": "Crescent City Marathon 2026 - Registration open!",
+   "preview": "Mark the date - the Crescent City Marathon 2026 takes place on December 5. Early bird pricing is open now, wit",
+   "body": "Mark the date - the Crescent City Marathon 2026 takes place on December 5. Early bird pricing is open now, with 26 miles, 13 miles, 6 miles and 3 miles distances to pick from and more than 40,000 runners expected.",
+   "time": "Sunday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: June Thibodeaux",
+   "subject": "Re: Yearly inspection of the apartment",
+   "preview": "Hello June, All is well here, thank you. Tuesday August 10 at 2pm suits me perfectly. The apartment is in good",
+   "body": "Hello June,\n\nAll is well here, thank you. Tuesday August 10 at 2pm suits me perfectly. The apartment is in good condition, nothing there to worry about.\n\nSee you Tuesday,\nEmmett",
+   "time": "Saturday",
+   "folder": "sent"
+  },
+  {
+   "sender": "June Thibodeaux",
+   "subject": "Yearly inspection of the apartment",
+   "preview": "Hello Emmett, I hope you are keeping well. The lease provides for a yearly inspection of the apartment and I w",
+   "body": "Hello Emmett,\n\nI hope you are keeping well. The lease provides for a yearly inspection of the apartment and I would like to have it done with. Would Tuesday August 10 at 2pm suit you? Thirty minutes at the outside.\n\nA short reply either way would be welcome.\n\nJune Thibodeaux\nOwner",
+   "time": "Saturday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Renny Doucet",
+   "subject": "Re: News from Louisiana!",
+   "preview": "Renny! All good on this side, and thank you for the kind words about the running photos. Getting the family to",
+   "body": "Renny! All good on this side, and thank you for the kind words about the running photos. Getting the family together this summer sounds right - grandma's cottage, if she'd have us?",
+   "time": "Friday",
+   "folder": "sent"
+  },
+  {
+   "sender": "Renny Doucet",
+   "subject": "News from Baton Rouge!",
+   "preview": "Cousin! How is New Orleans treating you? Nothing much happening at this end, and the capital is lovely this sp",
+   "body": "Cousin! How is New Orleans treating you? Nothing much happening at this end, and the capital is lovely this spring. Your running photos came up on Instagram and you look in great shape! We really ought to get the family together this summer - what do you think?\n\nKisses,\nRenny",
+   "time": "Friday",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Dr. Ferrand",
+   "subject": "Re: Appointment Confirmation",
+   "preview": "Hello Dr. Ferrand, Thank you for your email. I confirm my attendance for the appointment in 11 days at your of",
+   "body": "Hello Dr. Ferrand,\n\nThank you for your email. I confirm my attendance for the appointment in 11 days at your office.\n\nSee you soon,\nEmmett Larkin",
+   "time": "7/30/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Dr. Ferrand",
+   "subject": "Appointment Confirmation",
+   "preview": "Hello Mr. Larkin, I hope this finds you well. I'm writing to confirm your upcoming appointment. Your next appo",
+   "body": "Hello Mr. Larkin,\n\nI hope this finds you well. I'm writing to confirm your upcoming appointment.\n\nYour next appointment is set at my office in 11 days at 3:38 PM.\n\nKindly confirm your attendance by replying to this email or by calling our secretariat at 504-555-0148.\n\nBest regards,\nDr. Ferrand",
+   "time": "7/30/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Canon",
+   "subject": "The Canon EOS R8 - built for the street",
+   "preview": "Introducing the Canon EOS R8, made for shooting the city. A 24.2 MP full-frame sensor, autofocus that locks on",
+   "body": "Introducing the Canon EOS R8, made for shooting the city. A 24.2 MP full-frame sensor, autofocus that locks onto whatever you aim at, 4K video. Save $200 until August 28, 2026.",
+   "time": "7/30/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Tobias Kim",
+   "subject": "Re: Far too long!",
+   "preview": "Tobias, it has been far too long! Congratulations on the developer job, that sounds like a real step up. I'm s",
+   "body": "Tobias, it has been far too long! Congratulations on the developer job, that sounds like a real step up. I'm still buried in coffee, though I have been thinking about what comes next. Drinks one evening after work?",
+   "time": "7/28/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Tobias Kim",
+   "subject": "Far too long!",
+   "preview": "Emmett! It has been far too long. I hear you're still working the counter at the coffee shop, which I hope is ",
+   "body": "Emmett! It has been far too long. I hear you're still working the counter at the coffee shop, which I hope is still treating you well. Me, I changed direction - web developer at a startup now. We should sit down and catch up properly, how does that sound?",
+   "time": "7/28/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Sewerage & Water Board of New Orleans",
+   "subject": "Water bill - July 2026",
+   "preview": "Your water and sewerage service for June 26 through July 25, 2026 has been billed. Amount due: $38.60, payable",
+   "body": "Your water and sewerage service for June 26 through July 25, 2026 has been billed. Amount due: $38.60, payable by August 24, 2026. Pay online or set up automatic payments from your account page.",
+   "time": "7/27/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Wren Naquin",
+   "subject": "Re: A job you might want",
+   "preview": "Wren, that is thoughtful of you! I am interested, the steady hours most of all. What more can you tell me abou",
+   "body": "Wren, that is thoughtful of you! I am interested, the steady hours most of all. What more can you tell me about the job? And yes, please send my name on to HR.",
+   "time": "7/26/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Wren Naquin",
+   "subject": "A job you might want",
+   "preview": "Emmett, I hope things are good with you! The cafe inside my old company is looking for somebody to run it and ",
+   "body": "Emmett, I hope things are good with you! The cafe inside my old company is looking for somebody to run it and you were the first person I thought of. The pay beats a normal shop and the hours never change. Interested? I can put you in front of HR whenever you like.",
+   "time": "7/26/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Entergy",
+   "subject": "Your May 2026 electricity bill",
+   "preview": "Your electricity for July 7 through August 6, 2026 has now been billed. Amount due: $67.43, to be paid by Augu",
+   "body": "Your electricity for July 7 through August 6, 2026 has now been billed. Amount due: $67.43, to be paid by August 28, 2026. Pay it on our website or by phone.",
+   "time": "7/25/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Reeta Sharma",
+   "subject": "Re: The gym has a yoga class now",
+   "preview": "Reeta - yoga after the long runs makes good sense. Wednesday evening is free. Meet at the gym around 6:45pm? T",
+   "body": "Reeta - yoga after the long runs makes good sense. Wednesday evening is free. Meet at the gym around 6:45pm? Thanks for the push.",
+   "time": "7/24/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Reeta Sharma",
+   "subject": "The gym has a yoga class now",
+   "preview": "Emmett! The gym has added a yoga class, Wednesday evenings at 7pm. It is just what tired legs want after the h",
+   "body": "Emmett! The gym has added a yoga class, Wednesday evenings at 7pm. It is just what tired legs want after the hard sessions - come and try it with me next week? Your running will be grateful.",
+   "time": "7/24/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Bo Ancelet",
+   "subject": "Re: Camera club Thursday?",
+   "preview": "Bo - I'm in. I'll bring the four from the river walk and one from the market, nothing from this month is dry y",
+   "body": "Bo - I'm in. I'll bring the four from the river walk and one from the market, nothing from this month is dry yet. Save me a seat near the window.",
+   "time": "7/22/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Bo Ancelet",
+   "subject": "Camera club Thursday?",
+   "preview": "Emmett - we're doing the print swap Thursday at 7, same room above the shop on Magazine. Bring four or five, t",
+   "body": "Emmett - we're doing the print swap Thursday at 7, same room above the shop on Magazine. Bring four or five, they don't have to be new. Bo",
+   "time": "7/22/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Marlee Wong",
+   "subject": "You were right about the Breville",
+   "preview": "Emmett, I owe you one - I went for the Breville you kept recommending and it has changed everything. My mornin",
+   "body": "Emmett, I owe you one - I went for the Breville you kept recommending and it has changed everything. My mornings taste like a different drink now. You really do know your machines.",
+   "time": "7/22/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Amazon",
+   "subject": "Your order is on its way",
+   "preview": "Order #CA-789-4561230 - 'Nike Air Zoom Pegasus 39 Running Shoes' - has left our warehouse and is due with you ",
+   "body": "Order #CA-789-4561230 - 'Nike Air Zoom Pegasus 39 Running Shoes' - has left our warehouse and is due with you on August 8, 2026. Follow it with tracking number 1Z999AA1234567890.",
+   "time": "7/21/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "To: Imani Okafor",
+   "subject": "Re: Photo exhibition at the Riverfront",
+   "preview": "Imani - 'New Orleans in Motion' is exactly my thing, urban photography is what I shoot. Saturday afternoon it ",
+   "body": "Imani - 'New Orleans in Motion' is exactly my thing, urban photography is what I shoot. Saturday afternoon it is, around 2pm at the entrance?",
+   "time": "7/20/26",
+   "folder": "sent"
+  },
+  {
+   "sender": "Imani Okafor",
+   "subject": "Photo exhibition at the Riverfront",
+   "preview": "Emmett! There's an urban photography exhibition at the Riverfront this weekend, 'New Orleans in Motion'. It lo",
+   "body": "Emmett! There's an urban photography exhibition at the Riverfront this weekend, 'New Orleans in Motion'. It looks made to hand you ideas for your own work. Saturday afternoon, just the two of us?",
+   "time": "7/20/26",
+   "folder": "inbox"
+  },
+  {
+   "sender": "Cox",
+   "subject": "Your Cox bill for May 2026",
+   "preview": "Your Cox bill covering July 14-30, 2026 is ready. On the plan: Internet 500 + Mobile 20GB. Total: $89.95, take",
+   "body": "Your Cox bill covering July 14-30, 2026 is ready. On the plan: Internet 500 + Mobile 20GB. Total: $89.95, taken automatically on August 18, 2026.",
+   "time": "7/19/26",
+   "folder": "inbox"
+  }
+ ],
+ "calendar": [
+  {
+   "title": "Barrett and Nell — meet up",
+   "date": "09/14",
+   "dateLabel": "Mon, Sep 14, 2026",
+   "month": "2026-09",
+   "time": "6:00 PM – 7:30 PM",
+   "location": "Washington Square Park"
+  },
+  {
+   "title": "Gym session",
+   "date": "09/04",
+   "dateLabel": "Fri, Sep 4, 2026",
+   "month": "2026-09",
+   "time": "6:00 PM – 7:00 PM",
+   "location": ""
+  },
+  {
+   "title": "Shooting photos in the French Quarter",
+   "date": "08/31",
+   "dateLabel": "Mon, Aug 31, 2026",
+   "month": "2026-08",
+   "time": "7:00 PM – 8:30 PM",
+   "location": "the French Quarter"
+  },
+  {
+   "title": "Long planning session for the week",
+   "date": "08/27",
+   "dateLabel": "Thu, Aug 27, 2026",
+   "month": "2026-08",
+   "time": "12:00 PM – 1:00 PM",
+   "location": ""
+  },
+  {
+   "title": "Coffee and live music night",
+   "date": "08/25",
+   "dateLabel": "Tue, Aug 25, 2026",
+   "month": "2026-08",
+   "time": "8:00 PM – 10:00 PM",
+   "location": "The Night Owl"
+  },
+  {
+   "title": "Short clinic visit",
+   "date": "08/23",
+   "dateLabel": "Sun, Aug 23, 2026",
+   "month": "2026-08",
+   "time": "9:30 AM – 10:30 AM",
+   "location": ""
+  },
+  {
+   "title": "Workshop: latte art",
+   "date": "08/20",
+   "dateLabel": "Thu, Aug 20, 2026",
+   "month": "2026-08",
+   "time": "4:00 PM – 5:00 PM",
+   "location": "Latte Studio"
+  },
+  {
+   "title": "Sort out the week ahead",
+   "date": "08/16",
+   "dateLabel": "Sun, Aug 16, 2026",
+   "month": "2026-08",
+   "time": "2:00 PM – 3:30 PM",
+   "location": ""
+  },
+  {
+   "title": "Early jog",
+   "date": "08/14",
+   "dateLabel": "Fri, Aug 14, 2026",
+   "month": "2026-08",
+   "time": "8:00 AM – 9:00 AM",
+   "location": "Crescent Park"
+  },
+  {
+   "title": "Catching up with Barrett and Nell",
+   "date": "08/12",
+   "dateLabel": "Wed, Aug 12, 2026",
+   "month": "2026-08",
+   "time": "5:00 PM – 6:00 PM",
+   "location": ""
+  },
+  {
+   "title": "Short coffee break",
+   "date": "08/10",
+   "dateLabel": "Mon, Aug 10, 2026",
+   "month": "2026-08",
+   "time": "10:30 AM – 11:30 AM",
+   "location": "Aroma Coffee"
+  },
+  {
+   "title": "Plan out the week",
+   "date": "08/08",
+   "dateLabel": "Sat, Aug 8, 2026",
+   "month": "2026-08",
+   "time": "11:00 AM – 12:00 PM",
+   "location": ""
+  },
+  {
+   "title": "Bike ride across the city",
+   "date": "08/06",
+   "dateLabel": "Thu, Aug 6, 2026",
+   "month": "2026-08",
+   "time": "6:00 PM – 7:00 PM",
+   "location": "Coliseum Square"
+  },
+  {
+   "title": "11pm - heading to The Sable Room",
+   "date": "08/05",
+   "dateLabel": "Wed, Aug 5, 2026",
+   "month": "2026-08",
+   "time": "11:00 PM – 12:00 AM",
+   "location": "The Sable Room"
+  },
+  {
+   "title": "Renny — dinner",
+   "date": "08/04",
+   "dateLabel": "Tue, Aug 4, 2026",
+   "month": "2026-08",
+   "time": "8:00 PM – 10:00 PM",
+   "location": ""
+  },
+  {
+   "title": "Pick up the prints",
+   "date": "08/03",
+   "dateLabel": "Mon, Aug 3, 2026",
+   "month": "2026-08",
+   "time": "5:00 PM – 5:30 PM",
+   "location": "Studio Photonola"
+  },
+  {
+   "title": "Beginner photography workshop",
+   "date": "08/02",
+   "dateLabel": "Sun, Aug 2, 2026",
+   "month": "2026-08",
+   "time": "6:00 PM – 7:00 PM",
+   "location": "Studio Photonola"
+  },
+  {
+   "title": "Dentist check-up",
+   "date": "08/01",
+   "dateLabel": "Sat, Aug 1, 2026",
+   "month": "2026-08",
+   "time": "4:00 PM – 5:00 PM",
+   "location": ""
+  },
+  {
+   "title": "Sit down with the bean supplier",
+   "date": "07/30",
+   "dateLabel": "Thu, Jul 30, 2026",
+   "month": "2026-07",
+   "time": "9:00 AM – 10:00 AM",
+   "location": "Caféplus Supply"
+  },
+  {
+   "title": "Weekend brunch",
+   "date": "07/28",
+   "dateLabel": "Tue, Jul 28, 2026",
+   "month": "2026-07",
+   "time": "12:00 PM – 1:30 PM",
+   "location": ""
+  },
+  {
+   "title": "Intervals on the track",
+   "date": "07/26",
+   "dateLabel": "Sun, Jul 26, 2026",
+   "month": "2026-07",
+   "time": "7:30 AM – 8:30 AM",
+   "location": "Washington Square Park"
+  },
+  {
+   "title": "Movie night",
+   "date": "07/24",
+   "dateLabel": "Fri, Jul 24, 2026",
+   "month": "2026-07",
+   "time": "7:30 PM – 9:00 PM",
+   "location": ""
+  },
+  {
+   "title": "Cafe equipment delivery",
+   "date": "07/21",
+   "dateLabel": "Tue, Jul 21, 2026",
+   "month": "2026-07",
+   "time": "1:00 PM – 2:00 PM",
+   "location": "Delice Coffee"
+  },
+  {
+   "title": "Coffee and a book",
+   "date": "07/17",
+   "dateLabel": "Fri, Jul 17, 2026",
+   "month": "2026-07",
+   "time": "3:00 PM – 4:00 PM",
+   "location": ""
+  },
+  {
+   "title": "Doctor's appointment",
+   "date": "07/15",
+   "dateLabel": "Wed, Jul 15, 2026",
+   "month": "2026-07",
+   "time": "10:00 AM – 11:00 AM",
+   "location": "Tulane Medical Center"
+  },
+  {
+   "title": "Laundry and errands",
+   "date": "07/12",
+   "dateLabel": "Sun, Jul 12, 2026",
+   "month": "2026-07",
+   "time": "11:00 AM – 12:30 PM",
+   "location": ""
+  },
+  {
+   "title": "Cupping the new Ethiopian lot",
+   "date": "07/08",
+   "dateLabel": "Wed, Jul 8, 2026",
+   "month": "2026-07",
+   "time": "2:00 PM – 3:00 PM",
+   "location": "Solo Espresso"
+  },
+  {
+   "title": "Photo walk",
+   "date": "07/05",
+   "dateLabel": "Sun, Jul 5, 2026",
+   "month": "2026-07",
+   "time": "7:00 PM – 9:00 PM",
+   "location": ""
+  },
+  {
+   "title": "Run in the park",
+   "date": "06/28",
+   "dateLabel": "Sun, Jun 28, 2026",
+   "month": "2026-06",
+   "time": "6:30 PM – 7:30 PM",
+   "location": "City Park"
+  },
+  {
+   "title": "Latte art practice",
+   "date": "06/23",
+   "dateLabel": "Tue, Jun 23, 2026",
+   "month": "2026-06",
+   "time": "10:00 AM – 11:30 AM",
+   "location": ""
+  },
+  {
+   "title": "Coffee with the team",
+   "date": "06/10",
+   "dateLabel": "Wed, Jun 10, 2026",
+   "month": "2026-06",
+   "time": "9:00 AM – 10:00 AM",
+   "location": "Central Coffee"
+  }
+ ],
+ "notes": [
+  {
+   "title": "May budget",
+   "body": "The month on paper\nCoffee shop paycheck: $2,400\nRent: $850\nGroceries: $300\nTransit: $95\nPhone: $65\nGym: $45\nNights out: $200\n\nWhat's left: $845\n\nStraight to the savings goal: $400"
+  },
+  {
+   "title": "Shopping",
+   "body": "Grocery list:\n- Oats\n- Bananas\n- Peanut butter\n- Almond milk\n- Whole wheat bread\n- Eggs\n- Cheese\n\nWhile at Walgreens:\n- Shampoo\n- Toothpaste"
+  },
+  {
+   "title": "Week of running 🏃‍♂️",
+   "body": "This week of running:\n- Mon: easy 3 miles\n- Wed: 8x400m intervals\n- Fri: 2 miles at tempo\n- Sun: the long one, 6 miles\n\nAll of it building toward the half-marathon in October"
+  },
+  {
+   "title": "Closing checklist",
+   "body": "End of shift:\n- Backflush both groups\n- Empty and rinse the knock box\n- Grinder hopper down to zero, wipe the chute\n- Milk fridge stocked for open\n- Pastry case wiped, counts on the sheet\n- Bins out, back door locked\n\nAsk Dez about ordering more oat milk"
+  },
+  {
+   "title": "Watchlist 🎬",
+   "body": "Lined up on Netflix:\n- Stranger Things S4\n- The Crown, new season\n- Squid Game\n\nGo see on the big screen:\n- Dune 2\n- New Spider-Man\n- Fast & Furious\n\nThe coffee documentaries can keep for a night in with Dez"
+  },
+  {
+   "title": "Behind the bar ☕",
+   "body": "Pouring a heart:\n- Angle the cup, milk going in at 45°\n- Keep the wrist moving in circles\n- One straight line through it to finish\n\nA cappuccino in balance:\n- Even thirds: espresso, milk, foam\n- Keep the milk at 150-160°F"
+  },
+  {
+   "title": "Shot list 📸",
+   "body": "To shoot:\n- Street art over in the Marigny\n- Sunset from the Riverfront\n- French Market stalls once the light turns\n- Graffiti by the streetcar stops\n- Portraits of the regulars at the shop (ask them first)\n- Rain sliding down the coffee shop windows"
+  },
+  {
+   "title": "Apartment fixes",
+   "body": "Before the inspection:\n- Bathroom fan rattles\n- Kitchen faucet drips\n- Bulb in the hallway\n- Patch the nail holes over the desk\n- Window latch in the bedroom\n\nBuy: filters, two bulbs, spackle"
+  },
+  {
+   "title": "Playlists",
+   "body": "Running songs:\n- The Weeknd - Blinding Lights\n- Dua Lipa - Physical\n- Imagine Dragons - Thunder\n- Eminem - Lose Yourself\n- Kanye - Stronger\n- Post Malone - Circles\n\nFor the shop (slow):\n- Billie Eilish - ocean eyes\n- Lorde - Solar Power"
+  },
+  {
+   "title": "The Sable Room",
+   "body": "- Leave at 11, get in before they do\n- Dark hoodie. Buy a cap.\n- Back corner by the bar, out of the lights\n- Phone on silent, no flash\n- Don't go near the table\n\nShe can't see me watching her."
+  },
+  {
+   "title": "Dr. Ferrand",
+   "body": "Carrollton Behavioral Health\n8100 Oak St\nFront desk: 504 555 0148"
+  },
+  {
+   "title": "Codes",
+   "body": "photo code : 041904"
+  },
+  {
+   "title": "Camera notes",
+   "body": "Work the hour on either side of sunset - warm light, gentle shadows\nDivide the frame in nine and set the subject along a line\nOpen right up to f/1.4-2.8 when the background has to disappear\nOut on the street, point the camera where the movement is going\nGet the eyes right or the portrait is nothing\nOnce it is dark, no tripod means no photograph"
+  },
+  {
+   "title": "Thinking it over 💭",
+   "body": "School keeps coming back around. Photography? Communications?\n\nThen again the shop fits me. The regulars are easy company and I like being in that room.\n\nNight classes might be the middle ground."
+  }
+ ],
+ "maps": [
+  {
+   "name": "Home",
+   "subtitle": "My apartment"
+  },
+  {
+   "name": "Solo Espresso",
+   "subtitle": "Work"
+  },
+  {
+   "name": "Crescent Park",
+   "subtitle": "Running outing"
+  },
+  {
+   "name": "Fair Grinds Coffee",
+   "subtitle": "Business"
+  },
+  {
+   "name": "St. Roch Market",
+   "subtitle": "Business"
+  },
+  {
+   "name": "Crescent City Books",
+   "subtitle": "Business"
+  },
+  {
+   "name": "Canvas Boutique",
+   "subtitle": "Business"
+  },
+  {
+   "name": "Bayou Coffee House",
+   "subtitle": "Business"
+  },
+  {
+   "name": "Bistro 504",
+   "subtitle": "Restaurant"
+  },
+  {
+   "name": "Kyoto Sushi",
+   "subtitle": "Restaurant"
+  },
+  {
+   "name": "Pho & Co",
+   "subtitle": "Restaurant"
+  },
+  {
+   "name": "Duncan Plaza",
+   "subtitle": "Leisure"
+  },
+  {
+   "name": "Prytania Theatre",
+   "subtitle": "Leisure"
+  },
+  {
+   "name": "Julia Street Gallery",
+   "subtitle": "Leisure"
+  },
+  {
+   "name": "Tulane Medical Center",
+   "subtitle": "Health"
+  },
+  {
+   "name": "Apex Fitness Uptown",
+   "subtitle": "Leisure - sports activity"
+  },
+  {
+   "name": "Walgreens",
+   "subtitle": "Business"
+  },
+  {
+   "name": "Bellegarde Bakery",
+   "subtitle": "Business"
+  },
+  {
+   "name": "French Market",
+   "subtitle": "Business"
+  },
+  {
+   "name": "CityHair Salon",
+   "subtitle": "Business"
+  },
+  {
+   "name": "Rouses Market",
+   "subtitle": "Business"
+  },
+  {
+   "name": "Markey Park",
+   "subtitle": "Leisure"
+  },
+  {
+   "name": "Martin Wine Cellar",
+   "subtitle": "Business"
+  }
+ ],
+ "revolut": {
+  "balance": "$0.00",
+  "transactions": []
+ },
+ "weather": {
+  "city": "New Orleans",
+  "tempC": 21,
+  "hi": 23,
+  "lo": 17,
+  "condition": "Partly Cloudy"
+ },
+ "photos": [
+  "photo_0.webp",
+  "photo_1.webp",
+  "photo_2.webp",
+  "photo_3.webp",
+  "photo_4.webp",
+  "photo_5.webp",
+  "photo_6.webp",
+  "photo_7.webp",
+  "photo_8.webp"
+ ],
+ "screenTime": [
+  {
+   "appName": "Maps",
+   "durationMinutes": 8
+  }
+ ]
+}

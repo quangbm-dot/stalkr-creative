@@ -125,6 +125,9 @@ export interface CalendarEvent {
   dateLabel?: string;
   time?: string;
   location?: string;
+  /** Mô tả sự kiện (khác location) — rất nhiều câu hỏi cần đọc chữ ở đây
+   *  (vd "meeting at King of Prussia") chứ không phải location (thường rỗng). */
+  description?: string;
 }
 
 export interface InstagramPost {
@@ -150,13 +153,18 @@ export interface GmailEntry {
   body?: string;
   time?: string;
   /** Mặc định "inbox" */
-  folder?: "inbox" | "sent";
+  folder?: "inbox" | "sent" | "trash" | "spam";
 }
 
 export interface PhotoEntry {
   src: string;
   /** true = chỉ hiện sau khi mở khoá vault bằng vaultCode */
   secret?: boolean;
+  /** Ảnh "manh mối" (isKeyPhoto trong story gốc) — chữ/số thật sự chứa đáp
+   *  án (vd "ESTATE OF MARGUERITE FINCH") mà bản thân tấm ảnh chụp đời
+   *  thường không đọc nổi (ảnh stock chung chung, không phải ảnh chụp giấy
+   *  tờ thật) — hiện đè dạng caption khi mở full-screen, xem Photos.tsx. */
+  caption?: string;
 }
 
 export interface MatchCard {
@@ -217,7 +225,7 @@ export interface EvidenceRound {
   hintApp: AppKey;
   /** Câu cần đi qua NHIỀU mini app theo thứ tự (vd Calendar -> Maps): mỗi bước có app + dòng
    *  lộ đáp án. Rời app của bước hiện tại (về home) là sang bước kế; bước cuối mới mở khoá. */
-  hintSteps?: { app: AppKey; target?: string }[];
+  hintSteps?: { app: AppKey; target?: string; message?: string }[];
   /** Khớp đúng bản gốc (V8): id dòng/thẻ chứa manh mối NGAY TRONG app đó —
    *  "Do not pick up" (tên hội thoại), "Tinder Date"/"Venice Loft" (tiêu đề
    *  sự kiện/listing), "Airbnb — Venice Loft" (tên giao dịch)... Khớp theo
@@ -228,6 +236,12 @@ export interface EvidenceRound {
    *  onFoundClue), không phải chỉ mở app là đủ — đúng cơ chế "hot"/row-clue
    *  của bản gốc. */
   hintTargetId?: string;
+  /** Messages/WhatsApp: đáp án nằm Ở 1 TIN NHẮN CỤ THỂ bên trong đoạn chat
+   *  (hintTargetId chỉ chọn đúng đoạn chat, không nói tin nào) — chuỗi con
+   *  khớp nguyên văn trong message.text, tô sáng đúng bong bóng đó khi mở
+   *  thread. undefined = không tô sáng tin nào bên trong (đoạn chat có thể
+   *  dài, phải tự đọc — gợi ý 💡 vẫn còn). */
+  hintMessageId?: string;
   /** v10: có mảng này thì EvidenceChat hiện ô gõ chữ thay vì nút chọn —
    *  so khớp (bỏ hoa/thường, khoảng trắng, dấu câu) với từng biến thể ở đây. */
   answerVariants?: string[];
@@ -264,16 +278,38 @@ export interface CaseConfig {
   messages: MessageThread[];
   whatsapp: MessageThread[];
   calls: CallEntry[];
+  /** Danh bạ (tab Contacts trong Phone) — vài câu hỏi cần xem SĐT đầy đủ của
+   *  1 liên hệ (lưu dưới biệt danh, vd "N 🖤") chứ không có trong Recents. */
+  contacts?: { name: string; phoneNumber: string }[];
   notes: NoteEntry[];
   calendar: CalendarEvent[];
-  instagram: { username: string; displayName: string; avatar: string; posts: InstagramPost[] };
+  instagram: { username: string; displayName: string; avatar: string; bio?: string; posts: InstagramPost[] };
   airbnb: { name: string; img: string; listings: AirbnbListing[] };
   gmail: GmailEntry[];
   photos: PhotoEntry[];
+  /** Settings → Screen Time — danh sách app + thời lượng dùng/ngày (phút),
+   *  sắp xếp giảm dần. Một số câu hỏi cần tìm đúng app trong danh sách này
+   *  (vd "Hinge dùng mấy tiếng/ngày?"). */
+  screenTime?: { appName: string; durationMinutes: number }[];
   vaultCode: string;
   weather: WeatherInfo;
   revolut: { balance: string; transactions: RevolutTransaction[] };
-  maps: { locations: MapLocation[]; sectionLabel?: string };
+  /** Wallet (thẻ ngân hàng thật của chủ máy, khác RevoBank) — trước giờ
+   *  hardcode "City Bank"/"$2,140" giả, không có giao dịch nào cả. */
+  wallet?: {
+    bank: string;
+    last4: string;
+    balance: string;
+    transactions: { name: string; amount: string; date?: string }[];
+  };
+  maps: {
+    locations: MapLocation[];
+    sectionLabel?: string;
+    /** "Location sharing" — danh sách người đang xem được vị trí máy này
+     *  (tên hoặc email) — tách khỏi "Frequent places", hiếm khi cần nhưng
+     *  có vài câu chỉ tìm được ở đây (vd 1 email lạ không lưu tên). */
+    sharedWith?: { name: string }[];
+  };
   /** "Hôm nay" trong câu chuyện (ISO) — lịch mở đúng tháng này thay vì
    *  tháng thật của máy người chơi. */
   now?: string;

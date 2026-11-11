@@ -13,6 +13,7 @@ interface NotesProps {
 export default function Notes({ caseData, onBack, hintTargetId, onFoundClue }: NotesProps) {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
   const note = openIndex !== null ? caseData.notes[openIndex] : null;
+  const hotIdx = hintTargetId !== undefined ? caseData.notes.findIndex((n) => n.title === hintTargetId) : -1;
 
   if (note) {
     return (
@@ -28,7 +29,7 @@ export default function Notes({ caseData, onBack, hintTargetId, onFoundClue }: N
       <div className={styles.wrap}>
         <div className={styles.group}>
           {caseData.notes.map((n, i) => {
-            const isHot = hintTargetId !== undefined && n.title === hintTargetId;
+            const isHot = i === hotIdx;
             return (
               <button
                 key={i}
