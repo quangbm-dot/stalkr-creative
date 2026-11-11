@@ -5,6 +5,7 @@ import PhoneFrame from "./Components/PhoneFrame/PhoneFrame";
 import HomeScreen from "./Components/PhoneFrame/HomeScreen";
 import CaseIntro from "./Components/CaseIntro/CaseIntro";
 import Intro from "./Components/Intro/Intro";
+import EvidenceBoard from "./Components/EvidenceBoard/EvidenceBoard";
 import TopBar from "./Components/TopBar/TopBar";
 import EvidenceChat from "./Components/EvidenceChat/EvidenceChat";
 import EndCard from "./Components/EndCard/EndCard";
@@ -12,14 +13,16 @@ import DevBar from "./Components/DevBar/DevBar";
 import { renderApp } from "./Components/apps/registry";
 import { trackPlayableEvent } from "./services/AdController";
 
-type Stage = "caseIntro" | "intro" | "phone" | "end";
+type Stage = "caseIntro" | "board" | "intro" | "phone" | "end";
 
 const HAND_DELAY_MS = 2000; // chỉ vào icon app / nút / thanh chat
 const HAND_DELAY_IN_APP_MS = 3500; // chỉ vào dòng lộ đáp án bên trong mini app (lâu hơn để người chơi tự tìm)
 
 function App({ caseData }: { caseData: CaseConfig }) {
-  // Bỏ qua màn loading — bản gốc (V8) vào thẳng Intro, không có màn chờ.
-  const [stage, setStage] = useState<Stage>("intro");
+  // v21: mở màn "bảng chứng cứ" (ảnh tĩnh + zoom + nút Check Now) TRƯỚC
+  // Intro, cho mọi case — không phụ thuộc dữ liệu hire của case nữa (ảnh
+  // dùng chung, không ghép từ case).
+  const [stage, setStage] = useState<Stage>("board");
   const [openApp, setOpenApp] = useState<AppKey | null>(null);
   // Đáp án bị khoá (🔒) cho tới khi người chơi CHẠM đúng dòng/thẻ chứa manh
   // mối bên trong hintApp của câu hiện tại (hoặc mở app, nếu câu đó không có
@@ -177,6 +180,13 @@ function App({ caseData }: { caseData: CaseConfig }) {
           evidenceFound={evidenceFound}
           onContinue={() => setStage("intro")}
         />
+      )}
+
+      {stage === "board" && (
+        // v21: bấm "Check Now" (hoặc hết giờ đếm ngược) xong là vào THẲNG
+        // game — bỏ hẳn đoạn hội thoại dài của Intro (stage "intro" vẫn còn
+        // đó, chỉ không nằm trên đường đi mặc định nữa).
+        <EvidenceBoard onDone={() => setStage("phone")} />
       )}
 
       {stage === "intro" && (
