@@ -76,6 +76,37 @@ const QUESTION_TYPING_MAX_MS = 1500;
 function questionTypingDuration(line: string): number {
   return Math.min(QUESTION_TYPING_MAX_MS, QUESTION_TYPING_BASE_MS + line.length * QUESTION_TYPING_PER_CHAR_MS);
 }
+// v20: 1 số case viết round.prompt thành 1 khối dài liền (không có "\n" tách
+// dòng thủ công, vd câu Q1 của nhiều case) — khi đó promptLines chỉ có ĐÚNG
+// 1 "dòng" rất dài, hiện "..." xong là cả khối chữ dài bật ra 1 lúc, mất hẳn
+// cảm giác "đang gõ từ từ". Tự động chẻ nhỏ mọi dòng quá dài theo CÂU (dấu
+// chấm/hỏi/than) thành nhiều bong bóng liên tiếp — không cần sửa lại data
+// từng case, áp dụng chung cho mọi round kể cả Q1.
+const LONG_LINE_SPLIT_LEN = 70;
+function splitLongLines(lines: string[]): string[] {
+  const out: string[] = [];
+  for (const line of lines) {
+    if (line.length <= LONG_LINE_SPLIT_LEN) {
+      out.push(line);
+      continue;
+    }
+    const sentences = line.match(/[^.!?]+[.!?]+(\s+|$)|[^.!?]+$/g) ?? [line];
+    let buf = "";
+    for (const raw of sentences) {
+      const s = raw.trim();
+      if (!s) continue;
+      if (buf && buf.length + s.length + 1 > LONG_LINE_SPLIT_LEN) {
+        out.push(buf);
+        buf = s;
+      } else {
+        buf = buf ? `${buf} ${s}` : s;
+      }
+    }
+    if (buf) out.push(buf);
+  }
+  return out;
+}
+
 // v20: nghỉ 1 nhịp ngắn SAU khi 1 dòng vừa hiện xong, TRƯỚC khi dòng kế bắt
 // đầu gõ — trước đây 2 việc này xảy ra chung 1 tick (dòng vừa hiện xong +
 // dấu "..." dòng sau bật lên ngay lập tức), nhìn dồn dập/máy móc. Nghỉ 1
@@ -175,7 +206,7 @@ export default function EvidenceChat({
   const answeredCorrectly = phase === "correctTyping" || phase === "correctDone";
   // v20: tách round.prompt thành nhiều dòng (data gốc ngăn cách bằng "\n") —
   // mỗi dòng "nhắn" thành 1 bong bóng riêng (xem lineIndex ở trên).
-  const promptLines = round ? round.prompt.split("\n").filter((l) => l.trim()) : [];
+  const promptLines = round ? splitLongLines(round.prompt.split("\n").filter((l) => l.trim())) : [];
   const questionShown = lineIndex >= promptLines.length && promptLines.length > 0;
 
   // v20: CHỈ khung chat (.log) cuộn — header/ô nhập/nút snoop đứng yên cố
