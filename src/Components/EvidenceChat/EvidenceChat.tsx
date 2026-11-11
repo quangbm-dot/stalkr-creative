@@ -81,6 +81,9 @@ function questionTypingDuration(line: string): number {
 // dấu "..." dòng sau bật lên ngay lập tức), nhìn dồn dập/máy móc. Nghỉ 1
 // chút cho mắt kịp đọc dòng vừa xong rồi mới thấy dòng kế bắt đầu "gõ".
 const QUESTION_GAP_MS = 280;
+// v20: 4 đáp án gợi ý hiện LẦN LƯỢT từng cái một (không bật hết 1 lúc cả
+// khối) — mỗi đáp án cách nhau nhịp này.
+const CHIP_REVEAL_STAGGER_MS = 160;
 
 /**
  * v10: clone y hệt popup câu hỏi của V8 — 1 "thẻ câu hỏi" tĩnh (không phải
@@ -126,6 +129,9 @@ export default function EvidenceChat({
   // hiện xong, dòng lineIndex CHƯA bắt đầu gõ "..." vội) — xem effect dưới
   // + QUESTION_GAP_MS ở trên.
   const [lineGap, setLineGap] = useState(false);
+  // v20: số đáp án gợi ý ĐÃ hiện ra (0..round.choices.length) — tăng dần
+  // từng cái 1 sau khi câu hỏi hiện xong, xem effect bên dưới.
+  const [chipsRevealed, setChipsRevealed] = useState(0);
   // v20: lịch sử các câu ĐÃ trả lời đúng trong case này — hiện lại tĩnh phía
   // trên, cuộn lên trên khi câu mới xuất hiện, giống 1 đoạn chat thật tích
   // luỹ dần thay vì xoá sạch mỗi khi sang round (điều người chơi vừa yêu
@@ -200,26 +206,42 @@ export default function EvidenceChat({
       logRef.current?.scrollTo({ top: logRef.current.scrollHeight, behavior: "smooth" });
     });
     return () => cancelAnimationFrame(raf);
-  }, [expanded, roundIndex, scrollKey, lineIndex, lineGap, history.length]);
+  }, [expanded, roundIndex, scrollKey, lineIndex, lineGap, chipsRevealed, history.length]);
 
-  // Reset trạng thái "đang chọn" mỗi khi sang câu mới.
-  useEffect(() => {
+  // v20: TRƯỚC đây việc "dọn dẹp" khi sang round mới (showHint/phase/
+  // sentText/lineIndex/...) nằm trong 1 useEffect phụ thuộc [roundIndex] —
+  // effect chỉ chạy SAU KHI commit, nghĩa là có ĐÚNG 1 khung hình/tick mà
+  // roundIndex đã là số MỚI (header "Question x/y" đã đổi) nhưng
+  // phase/sentText vẫn còn là của round CŨ (bong bóng/badge câu trước vẫn
+  // hiện) — đúng hiện tượng "lưng chừng" gây giật khi câu mới xuất hiện mà
+  // video quay lại bắt được. Gộp hết vào 1 hàm, gọi ĐỒNG BỘ ngay tại chỗ
+  // đổi roundIndex (goNext/devPrev/devSkip) — React 18 tự batch mọi setState
+  // gọi cùng lúc (kể cả trong setTimeout) thành đúng 1 lần render, nên
+  // roundIndex mới và mọi state dọn dẹp luôn xuất hiện CÙNG 1 khung hình.
+  const resetForRound = () => {
     setShowHint(false);
     setHintUsedThisRound(false);
     setPhase("idle");
     setSentText(null);
     setWrongAttempts(0);
     setTriedWrong(new Set());
-    if (typeTimer.current) clearInterval(typeTimer.current);
-    if (dotsTimer.current) clearTimeout(dotsTimer.current);
-  }, [roundIndex]);
-
-  // v20: về 0 mỗi khi sang round mới — effect dưới sẽ gõ lại từ dòng đầu.
-  // lineGap=false để dòng ĐẦU TIÊN bắt đầu gõ "..." ngay, không nghỉ chờ gì.
-  useEffect(() => {
+    setShowConfetti(false);
     setLineIndex(0);
     setLineGap(false);
-  }, [roundIndex]);
+    setChipsRevealed(0);
+    if (typeTimer.current) clearInterval(typeTimer.current);
+    if (dotsTimer.current) clearTimeout(dotsTimer.current);
+  };
+
+  // v20: SAU KHI câu hỏi hiện xong (questionShown), hiện lần lượt từng đáp
+  // án gợi ý 1 — không bật nguyên khối 4 cái cùng lúc (nhìn đột ngột/giật so
+  // với nhịp gõ-từ-từ của câu hỏi ngay phía trên).
+  useEffect(() => {
+    if (!expanded || !questionShown || !round) return;
+    if (chipsRevealed >= round.choices.length) return;
+    const t = setTimeout(() => setChipsRevealed((n) => n + 1), CHIP_REVEAL_STAGGER_MS);
+    return () => clearTimeout(t);
+  }, [expanded, questionShown, chipsRevealed, roundIndex]);
 
   // v20: lần lượt "nhắn" từng dòng của round.prompt vào khung chat — mỗi
   // dòng gõ "..." xong (thời gian tỉ lệ độ dài dòng, xem questionTypingDuration)
@@ -261,6 +283,7 @@ export default function EvidenceChat({
     }
     if (isLastRound) onAllSolved();
     else {
+      resetForRound();
       setRoundIndex((r) => r + 1);
       setJustAdvanced(true);
     }
@@ -316,8 +339,12 @@ export default function EvidenceChat({
       }
       if (isLastRound) trackPlayableEvent("CHALLENGE_SOLVED");
 
+      // v20: rút ngắn 3000ms → 1800ms — tổng thời gian round đứng lại đọc
+      // trước khi tự chuyển câu (correctTyping 900ms + correctDone chờ
+      // NEXT_DELAY_MS) vẫn thừa dư để confetti tắt hẳn TRƯỚC khi câu mới
+      // hiện, dù vậy vẫn reset cứng ở effect roundIndex phía trên cho chắc.
       setShowConfetti(true);
-      setTimeout(() => setShowConfetti(false), 3000);
+      setTimeout(() => setShowConfetti(false), 1800);
 
       // v20: Teaser EndCard hiện sau khi xong câu thứ 8 — CHỈ khi case còn
       // câu để chơi tiếp sau đó. Trước đây case NGẮN HƠN 8 câu thì teaser
@@ -385,6 +412,7 @@ export default function EvidenceChat({
   const devPrev = () => {
     if (advanceTimer.current) clearTimeout(advanceTimer.current);
     advanceTimer.current = null;
+    resetForRound();
     setRoundIndex((r) => {
       const next = Math.max(0, r - 1);
       onDevJump?.(next);
@@ -395,12 +423,14 @@ export default function EvidenceChat({
     if (advanceTimer.current) clearTimeout(advanceTimer.current);
     advanceTimer.current = null;
     if (isLastRound) onAllSolved();
-    else
+    else {
+      resetForRound();
       setRoundIndex((r) => {
         const next = r + 1;
         onDevJump?.(next);
         return next;
       });
+    }
   };
 
   // Đóng popup (nút X, chạm ra ngoài, hoặc "keep snooping"): về home khi
@@ -617,9 +647,12 @@ export default function EvidenceChat({
             )}
 
             {/* v20: 4 đáp án mẫu gộp chung 1 khối nhẹ, đánh số 1-4, đứng sát
-                ngay trên ô nhập. Bấm 1 dòng = "gõ hộ" vào ô nhập rồi tự gửi;
-                gõ tay + Enter/nút gửi cũng nộp y hệt, luôn bấm/gõ được
-                (unlocked chỉ đổi bàn tay gợi ý ở dưới, y hệt bản cũ).
+                ngay trên ô nhập. Hiện LẦN LƯỢT từng đáp án 1 (chipsRevealed,
+                xem effect ở trên) thay vì bật nguyên khối cùng lúc — tránh
+                cảm giác đột ngột ngay sau khi câu hỏi vừa gõ-từ-từ xong.
+                Bấm 1 dòng = "gõ hộ" vào ô nhập rồi tự gửi; gõ tay + Enter/nút
+                gửi cũng nộp y hệt, luôn bấm/gõ được (unlocked chỉ đổi bàn tay
+                gợi ý ở dưới, y hệt bản cũ).
                 Cả khối chỉ ẩn hẳn khi ĐÃ ĐÚNG (round xong, sang câu mới).
                 Chọn SAI thì khối vẫn đứng nguyên — chỉ riêng đáp án vừa bấm
                 chuyển đỏ (trùng lúc bong bóng dưới cũng đỏ), giữ đỏ hết
@@ -629,7 +662,7 @@ export default function EvidenceChat({
                 lại như trước. */}
             {questionShown && !answeredCorrectly && (
               <div className={styles.choices}>
-                {round.choices.map((c, i) => {
+                {round.choices.slice(0, chipsRevealed).map((c, i) => {
                   const isWrongFlash = (phase === "wrongShown" || phase === "wrongReplying") && sentText === c;
                   const isFaded = triedWrong.has(c);
                   return (

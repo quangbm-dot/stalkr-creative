@@ -60,7 +60,9 @@ for (const job of JOBS) {
     done += nets.length;
     continue;
   }
-  const fname = `SMD_Playable_v20_${job.seq}_${job.n}quests_${job.name} QuangBM_QuangBM.html`;
+  // "newchat" trong tên file để phân biệt rõ đây là bản V20 (khung chat
+  // mới — gõ/trả lời lần lượt, không còn thẻ câu hỏi tĩnh như v19).
+  const fname = `SMD_Playable_v20_${job.seq}_${job.n}quests_newchat_${job.name} QuangBM_QuangBM.html`;
   for (const net of nets) {
     done++;
     try {
